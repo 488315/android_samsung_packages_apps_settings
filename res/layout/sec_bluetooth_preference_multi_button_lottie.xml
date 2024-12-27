@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bluetooth_multi_button" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/low_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="9.0dip" android:paddingEnd="9.0dip">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/low_button_icon_lottie" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/low_button_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+            <RadioButton android:gravity="center" android:id="@id/low_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        </LinearLayout>
+        <View android:background="@color/sec_widget_multi_button_divider_color" android:layout_width="@dimen/sec_widget_preference_vertical_divider_width" android:layout_height="63.0dip" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mid_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end" android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/mid_button_icon_lottie" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/mid_button_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+            <RadioButton android:gravity="center" android:id="@id/mid_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        </LinearLayout>
+        <View android:background="@color/sec_widget_multi_button_divider_color" android:layout_width="@dimen/sec_widget_preference_vertical_divider_width" android:layout_height="63.0dip" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/high_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end" android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/high_button_icon_lottie" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/high_button_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+            <RadioButton android:gravity="center" android:id="@id/high_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

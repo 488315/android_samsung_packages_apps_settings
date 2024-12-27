@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/contents" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sec_suw_margin_bottom" android:layout_marginStart="@dimen/sec_suw_margin_start" android:layout_marginEnd="@dimen/sec_suw_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/item1" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_suw_radio_item_spacer" layout="@layout/sec_suw_radio_item" />
+    <include android:id="@id/item2" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_suw_radio_item" />
+</LinearLayout>

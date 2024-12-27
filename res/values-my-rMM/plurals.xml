@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_timeout_summary_minutes">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_app_cache_title">
+        <item quantity="other">အက်ပ် ယာယီမှတ်ဉာဏ် %1$d ခု (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_archive_apps">
+        <item quantity="other">အက်ပ် %d ကို စုစည်းသိမ်းဆည်းမလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_archive_button_text">
+        <item quantity="other">အက်ပ် %1$d ခုကို ထည့်သိမ်းပါ (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_clear_apps_cache">
+        <item quantity="other">%d အက်ပ်များအတွက် စာဝှက်ခြင်းကို ရှင်းမလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_clear_button_text">
+        <item quantity="other">ယာယီမှတ်ဉာဏ် %1$d ခု (+%2$s) ကို ရှင်းလင်းပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_n_selected">
+        <item quantity="other">%d ကို ရွေးထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_recommend_card_description_archive_apps">
+        <item quantity="other">မသုံးရသေးသော အက်ပ် %2$d ခုကို သိမ်းလိုက်ခြင်းဖြင့် နေရာလွတ် %1$s ကို ရှင်းလင်းပါ။ သင့်ကိုယ်ရေးဒေတာနှင့် သတ်မှတ်ချက်များကို သိမ်းဆည်းပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_uninstall_apps">
+        <item quantity="other">အက်ပ် %d ခုကို ဖြုတ်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_uninstall_button_text">
+        <item quantity="other">အက်ပ် %1$d ခု (+%2$s) ကို သွင်းထားခြင်းမှဖြုတ်ပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_unused_apps_title">
+        <item quantity="other">အသုံးမပြုသည့် အက်ပ် %1$d ခု (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_connected_devices_subtext">
+        <item quantity="other">ကိရိယာ %d ခုနှင့် အင်တာနက် ချိတ်ဆက်မှု မျှဝေနေသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="camera_flash_notification_n_apps">
+        <item quantity="other">အက်ပ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dex_timeout_day">
+        <item quantity="other">%d ရက်</item>
+        <item quantity="one">1 ရက်</item>
+    </plurals>
+    <plurals name="dex_timeout_hour">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="one">1 နာရီ</item>
+    </plurals>
+    <plurals name="dex_timeout_minute">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">၁ မိနစ်</item>
+    </plurals>
+    <plurals name="dex_timeout_second">
+        <item quantity="other">%d စက္ကန့်</item>
+        <item quantity="one">၁ စက္ကန့်</item>
+    </plurals>
+    <plurals name="dex_timeout_week">
+        <item quantity="other">%d ပတ်</item>
+        <item quantity="one">ရက်သတ္တပတ် ၁ ပတ်</item>
+    </plurals>
+    <plurals name="installed_apps_summary_no_enabled_app">
+        <item quantity="other">အက်ပ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_hours">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
+        <item quantity="other">ဤနေရာများကို သင်ဖျက်ပစ်ပါက ထိခိုက်လွယ်သော သတ်မှတ်ချက်များကို သင်ပြောင်းသည့်အခါတိုင်း ဇီဝအချက်အလက်များနှင့် လုံခြုံရေးအရ စောင့်ဆိုင်းမှုကို အမြဲတမ်းလိုအပ်ပါမည်။</item>
+        <item quantity="one">ဤနေရာကို သင်ဖျက်ပစ်ပါက ထိခိုက်လွယ်သော သတ်မှတ်ချက်များကို သင်ပြောင်းသည့်အခါတိုင်း ဇီဝအချက်အလက်များနှင့် လုံခြုံရေးအရ စောင့်ဆိုင်းမှုကို အမြဲတမ်းလိုအပ်ပါမည်။</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
+        <item quantity="other">နေရာ %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
+        <item quantity="other">%d ရွေးထားသည်</item>
+        <item quantity="one">၁ ခု ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_summary">
+        <item quantity="other">%1$s နှင့် အခြား %2$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_char_reached_msg_plural">
+        <item quantity="other">အက္ခရာ %d လုံးထက် ပိုပြီး ထည့်သွင်း၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="no_memory_use_summary">
+        <item quantity="other">လွန်ခဲ့သည့် %d နာရီအတွင်း မှတ်ဉာဏ် အသုံးပြုမှုမရှိပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">အသိပေးချက် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_reminder_custom_summary">
+        <item quantity="other">ရွေးထားသည့်အက်ပ်များအတွက် အသိပေးချက်များကို %d မိနစ်ကြာလျှင် တစ်ကြိမ် သတိပေးပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="other">အက်ပ် %d ခုအထိ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="passkeys_and_autofill_subtext">
+        <item quantity="other">%1$s နှင့် အခြားအက်ပ် %2$d ခုသည် လျှို့ဝှက်ကီးများ အသုံးပြုလျက်ရှိပြီး စကားဝှက်များနှင့် အခြားအချက်အလက်ကို အလိုအလျောက် ထည့်သွင်းသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="ps_apps">
+        <item quantity="other">%1$s ခွင့်ပြုချက်ကို အက်ပ် %2$d ခုက အသုံးပြုထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recommended_for_you_enabled_summary">
+        <item quantity="other">ဝင်သုံးခွင့် လုပ်ဆောင်ချက် %d ခုကို အသုံးပြုနေသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="reminder_select_apps">
+        <item quantity="other">အက်ပ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remove_language_title_multiple_plurals">
+        <item quantity="other">ဘာသာစကား %d ခုကို ဖယ်ရှားမလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_accessibility_usage_summary">
+        <item quantity="other">အက်ပ် %d ခုက သင့်ဖုန်းကို အပြည့်အဝ သုံးစွဲခွင့် ရှိသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals">
+        <item quantity="other">သင့်ဖုန်းသည် %d စက္ကန့်အကြာတွင် ပါဝါ အလိုအလျောက် ပိတ်သွားပါလိမ့်မည်။ ဤတစ်ကြိမ်တွင် သင့်ဖုန်းကို ပါဝါဖွင့်ထားရန် ပယ်ဖျက်ပါကို နှိပ်ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
+        <item quantity="other">သင့်တက်ဘလက်သည် %d စက္ကန့်အကြာတွင် ပါဝါ အလိုအလျောက် ပိတ်သွားပါလိမ့်မည်။ ဤတစ်ကြိမ်တွင် သင့်တက်ဘလက်ကို ပါဝါဖွင့်ထားရန် ပယ်ဖျက်ပါကို နှိပ်ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
+        <item quantity="other">%d နာရီတစ်ကြိမ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_choose_lock_password_password_too_short">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံးစာလုံး ၁ လုံးအပါအဝင်၊ အက္ခရာ %d လုံးပါဝင်ရမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_choose_lock_pin_pin_too_short">
+        <item quantity="other">သင့် PIN တွင် အနည်းဆုံး ဂဏန်း %d လုံး ပါရမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+        <item quantity="other">၁ နာရီ %d မိနစ်အကြာတွင် ထပ်မံကြိုးစားပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+        <item quantity="other">%d နာရီအတွင်း ထပ်ကြိုးစားပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+        <item quantity="other">%d နာရီ ၁ မိနစ်အကြာတွင် ထပ်မံကြိုးစားပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+        <item quantity="other">%d မိနစ်အတွင်း ထပ်မံကြိုးစားပါ</item>
+        <item quantity="one">%d မိနစ့်အတွင်း ထပ်မံကြိုးစားပါ</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">%d စက္ကန့်အတွင်း ထပ်မံကြိုးစားပါ</item>
+        <item quantity="one">%d စက္ကန့်အတွင်း ထပ်မံကြိုးစားပါ</item>
+    </plurals>
+    <plurals name="sec_credman_services_limit_text">
+        <item quantity="other">ထပ်ဆောင်းဝန်ဆောင်မှု %d ခုထက်ပိုပြီး ဖွင့်၍ မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_dnd_select_contact">
+        <item quantity="other">အဆက်အသွယ် %d ခုကို ခွင့်ပြုထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_fingerprint_added_summary">
+        <item quantity="other">လက်ဗွေ %d ခု ထည့်ပြီးပြီ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+        <item quantity="other">%1$s၊ %2$s နှင့် နောက်ထပ်အက်ပ် %3$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_password_attempts_left">
+        <item quantity="other">မမှန်သော စကားဝှက်။ ကြိုးစားမှု %d ကြိမ် ကျန်သေးသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_pattern_attempts_left">
+        <item quantity="other">မမှန်သော ပုံစံနမူနာ။ ကြိုးစားမှု %d ကြိမ် ကျန်သေးသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_pin_attempts_left">
+        <item quantity="other">မမှန်သော PIN။ ကြိုးစားမှု %d ကြိမ် ကျန်သေးသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_intelligence_service_child_popup_message">
+        <item quantity="other">Galaxy AI ၏ အဆင့်မြင့်ဉာဏ်ရည်လုပ်ဆောင်ချက်များကို သုံးရန်အတွက် သင်သည် အနည်းဆုံး အသက် %d နှစ် ပြည့်ရန် လိုသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_letters">
+        <item quantity="other">စကားဝှက်တွင် အနည်းဆုံး စာလုံး %d လုံးပါရမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_lowercase">
+        <item quantity="other">စကားဝှက်သည် အနည်းဆုံး စာလုံးသေး %d လုံး ပါဝင်ရမည်။</item>
+        <item quantity="one">စကားဝှက်သည် အနည်းဆုံး စာအသေး ၁ လုံး ပါရမည်။</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_nonletter">
+        <item quantity="other">စကားဝှက်သည် အနည်းဆုံး ဂဏန်း သို့မဟုတ် သင်္ကေတ %d ခု ပါဝင်ရမည်။</item>
+        <item quantity="one">စကားဝှက်သည် အနည်းဆုံး ဂဏန်း သို့မဟုတ် သင်္ကေတ ၁ လုံး ပါရမည်။</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_numeric">
+        <item quantity="other">စကားဝှက်သည် အနည်းဆုံး ဂဏန်း %d လုံး ပါဝင်ရမည်။</item>
+        <item quantity="one">စကားဝှက်သည် အနည်းဆုံး ဂဏန်း ၁ လုံး ပါရမည်။</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_symbols">
+        <item quantity="other">စကားဝှက်သည် အနည်းဆုံး သင်္ကေတ %d ခု ပါဝင်ရမည်။</item>
+        <item quantity="one">စကားဝှက်သည် အနည်းဆုံး သင်္ကေတ ၁ လုံး ပါရမည်။</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_uppercase">
+        <item quantity="other">စကားဝှက်သည် အနည်းဆုံး စာလုံးကြီး %d လုံး ပါဝင်ရမည်။</item>
+        <item quantity="one">စကားဝှက်သည် အနည်းဆုံး စာလုံးအကြီး ၁ လုံး ပါရမည်။</item>
+    </plurals>
+    <plurals name="sec_mde_suggestions_summary">
+        <item quantity="other">နောက်ထပ် အကြံပြုချက် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_number_of_device_admins">
+        <item quantity="other">သက်ဝင် အက်ပ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_remove_dialog_title">
+        <item quantity="other">ဘာသာစကားအထုပ် %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_tts_title">
+        <item quantity="other">အသံ %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_runtime_permissions_additional_count">
+        <item quantity="other">နောက်ထပ်ခွင့်ပြုချက် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_show_dev_countdown">
+        <item quantity="other">သင်သည် ဖွံ့ဖြိုးတီထွင်သူတစ်ယောက်ဖြစ်ရန် %d ကြိမ်နှိပ်ရန်သာ လိုသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_zen_mode_selected_rules">
+        <item quantity="other">%d ကို ရွေးထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_apps_detected">
+        <item quantity="other">အဖျက် အက်ပ် %d ခုကို တွေ့ရှိထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext">
+        <item quantity="other">သင့်ဖုန်းတွင် မဲလ်ဝဲအက်ပ် %d ခုကို တွေ့သည်။ သင့်ဖုန်း လုံခြုံမှုရှိစေရန် ဤအက်ပ်များကို ဖြုတ်ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
+        <item quantity="other">သင့်တက်ဘလက်တွင် မဲလ်ဝဲအက်ပ် %d ခုကို တွေ့သည်။ သင့်တက်ဘလက် လုံခြုံမှုရှိစေရန် ဤအက်ပ်ကို ဖြုတ်ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_suggestion">
+        <item quantity="other">အကြံပြုချက် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_warning">
+        <item quantity="other">သတိပေးချက် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">အိပ်စက်ချိန် : %d နာရီ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">အိပ်စက်ချိန် : %d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="temporary_cloud_backup_summary_plurals">
+        <item quantity="other">%1$s တွင် %2$d ရက်ကြာအထိ ဒေတာများကို အကန့်အသတ်မရှိ အရန်သိမ်းပါ (သို့) သင်အရန်သိမ်းထားသော ဒေတာများကို နဂိုအတိုင်း ပြန်ထားပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="touch_settings_test_will_reset">
+        <item quantity="other">ဤစစ်ဆေးမှုသည် %d စက္ကန့်အကြာတွင် ပြန်စတင်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_device_connected">
+        <item quantity="other">ကိရိယာ %d ခု ချိတ်ထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+        <item quantity="other">သင့်ဖုန်းကို Wi-Fi ဝင်ခွင့်ပွိုင့်သို့ ပြောင်းပါ။ အခြားကိရိယာ %d ခုအထိတို့က အင်တာနက်သို့ ဝင်ခွင့်အတွက် သင့်ဖုန်း၏ မိုဘိုင်းဒေတာ (သို့) Wi-Fi ချိတ်ဆက်မှု ကို အသုံးပြုနိုင်စွမ်း ရှိပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+        <item quantity="other">သင့်ဖုန်းကို Wi-Fi ဝင်ခွင့်ပွိုင့်သို့ ပြောင်းပါ။ အခြားကိရိယာ %d ခုအထိတို့က အင်တာနက်သို့ ဝင်ခွင့်အတွက် သင့်ဖုန်း၏ မိုဘိုင်းဒေတာကို အသုံးပြုနိုင်စွမ်း ရှိပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+        <item quantity="other">သင့်တက်ဘလက်ကို Wi-Fi ဝင်ခွင့်ပွိုင့်သို့ ပြောင်းပါ။ အခြားကိရိယာ %d ခုအထိတို့က အင်တာနက်သို့ ဝင်ခွင့်အတွက် သင့်တက်ဘလက်၏ မိုဘိုင်းဒေတာကို အသုံးပြုနိုင်စွမ်း ရှိပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+        <item quantity="other">သင့်တက်ဘလက်ကို Wi-Fi ဝင်ခွင့်ပွိုင့်သို့ ပြောင်းပါ။ အခြားကိရိယာ %d ခုအထိတိုင် အင်တာနက် ဝင်သုံးရန် သင့်တက်ဘလက်၏ မိုဘိုင်းဒေတာ (သို့) Wi-Fi ချိတ်ဆက်မှုကို အသုံးပြုနိုင်သည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_n_members">
+        <item quantity="other">အဖွဲ့ဝင် %d ဦး</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_delete_item_network">
+        <item quantity="other">ကွန်ရက် %d ခုကို ဖျက်မည်လား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_select_item_network">
+        <item quantity="other">%d ကို ရွေးထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_2">
+        <item quantity="other">သင်၏ အလုပ်ပရိုဖိုင်ကို သော့ဖွင့်ရန် ကြိုးပမ်းမှု ၁ ကြိမ် ရှိခဲ့သည်။ ဤဖုန်းကို စက်ရုံထုတ် သတ်မှတ်ချက်များအတိုင်း ပြန်လည်သတ်မှတ်ပြီး ဒေတာအားလုံးကို ဖျက်ပစ်ခြင်း မပြုမီ သင့်တွင် ကြိုးပမ်းခွင့် %d ကြိမ် ကျန်သည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_4">
+        <item quantity="other">သင်၏ အလုပ်ပရိုဖိုင်ကို သော့ဖွင့်ရန် ကြိုးပမ်းမှု %d ကြိမ် ရှိခဲ့သည်။ ဤဖုန်းကို စက်ရုံထုတ် သတ်မှတ်ချက်များအတိုင်း ပြန်လည်သတ်မှတ်ပြီး ဒေတာအားလုံးကို ဖျက်ပစ်ခြင်း မပြုမီ သင့်တွင် ကြိုးပမ်းခွင့် ၁ ကြိမ် ကျန်သည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_2">
+        <item quantity="other">သင်၏ အလုပ်ပရိုဖိုင်ကို သော့ဖွင့်ရန် ကြိုးပမ်းမှု ၁ ကြိမ် ရှိခဲ့သည်။ ဤတက်ဘလက်ကို စက်ရုံထုတ် သတ်မှတ်ချက်များအတိုင်း ပြန်လည်သတ်မှတ်ပြီး ဒေတာအားလုံးကို ဖျက်ပစ်ခြင်း မပြုမီ သင့်တွင် ကြိုးပမ်းခွင့် %d ကြိမ် ကျန်သည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_4">
+        <item quantity="other">သင်၏ အလုပ်ပရိုဖိုင်ကို သော့ဖွင့်ရန် ကြိုးပမ်းမှု %d ကြိမ် ရှိခဲ့သည်။ ဤတက်ဘလက်ကို စက်ရုံထုတ် သတ်မှတ်ချက်များအတိုင်း ပြန်လည်သတ်မှတ်ပြီး ဒေတာအားလုံးကို ဖျက်ပစ်ခြင်း မပြုမီ သင့်တွင် ကြိုးပမ်းခွင့် ၁ ကြိမ် ကျန်သည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_minutes">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

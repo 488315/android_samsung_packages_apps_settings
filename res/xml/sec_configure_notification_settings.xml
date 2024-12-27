@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/sec_ic_settings_notifications" android:title="@string/configure_notification_settings" android:key="configure_notification_settings" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:keywords="@string/keywords_notification_settings" settings:topLevelPreferenceKey="top_level_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/app_notifications_title" android:key="all_notifications" android:summary="@string/sec_app_notifications_summary" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:singleLineTitle="true">
+        <extra android:name="classname" android:value="com.android.settings.Settings$NotificationAppListActivity" />
+    </Preference>
+    <SecPreferenceScreen android:title="@string/noti_intelligence_main_setting_title" android:key="notification_intelligence" android:fragment="com.samsung.android.settings.notification.SecNotificationIntelligenceFragment" settings:controller="com.samsung.android.settings.notification.SecNotificationIntelligenceController" />
+    <PreferenceCategory android:key="notification_styles_category" settings:allowDividerAbove="false">
+        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/notifications_on_lockscreen" android:key="lockscreen_notifications">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$LockscreenNotificationActivity">
+                <extra android:name="classname" android:value="com.android.settings.Settings$LockscreenNotificationActivity" />
+                <extra android:name="fromFragment" android:value="configure_settings" />
+            </intent>
+        </com.samsung.android.settings.widget.SecRestrictedPreference>
+        <SecPreferenceScreen android:title="@string/notification_style_on_status_bar" android:key="statusbar_notification" android:fragment="com.samsung.android.settings.notification.StatusBarNotificationSettings" />
+        <SecPreferenceScreen android:title="@string/notification_popup_style" android:key="notis_popup_style_main_settings" android:fragment="com.samsung.android.settings.notification.brief.BriefPopUpSettings" settings:controller="com.samsung.android.settings.notification.brief.NotificationPopupStyleController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="configure_notifications_advanced">
+        <Preference android:title="@string/zen_mode_settings_title" android:key="zen_mode_notifications" android:fragment="com.android.settings.notification.zen.ZenModeSettings" settings:controller="com.android.settings.notification.zen.ZenModePreferenceController" settings:useAdminDisabledSummary="true" />
+        <Preference android:title="@string/sec_advanced_settings" android:key="more_settings" android:fragment="com.samsung.android.settings.notification.ConfigureNotificationMoreSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>ଆନିମେଶନ୍ ବନ୍ଦ</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ .5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 1x</item>
+        <item>ଆନିମେଶନ୍ ସ୍କେଲ୍ 1.5x</item>
+        <item>ଆନିମେଶନ୍ ସ୍କେଲ୍ 2x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 10x</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>କିଛି ନାହିଁ</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP କିମ୍ଵା CHAP</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ମାନକ ସୀମା</item>
+        <item>କୌଣସି ବ୍ୟାକ୍‌ଗ୍ରାଉଣ୍ଡ ପ୍ରୋସେସ୍ ଚାଲୁନାହିଁ</item>
+        <item>ସର୍ବାଧିକ 1ଟି ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 2 ଟି ପ୍ରକ୍ରିୟା</item>
+        <item>ଅତିବେଶୀରେ 3ଟି ପ୍ରକ୍ରିୟା</item>
+        <item>ସର୍ବାଧିକ 4 ଟି ପ୍ରକ୍ରିୟା</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ସିଷ୍ଟମ୍‌ ମନୋନୟନ (ଡିଫଲ୍ଟ) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>୧୬ ବିଟସ୍‌/ନମୁନା</item>
+        <item>24 ବିଟସ୍‌/ନମୂନା</item>
+        <item>32 ବିଟସ୍‌/ନମୁନା</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ସିଷ୍ଟମ୍‌ର ଚୟନ (ଡିଫଲ୍ଟ୍) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>16 ବିଟ୍ସ/ସାମ୍ପଲ୍‌</item>
+        <item>24 ବିଟ୍ସ/ନମୁନା</item>
+        <item>32 ବିଟସ୍‌/ନମୂନା</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>ସିଷ୍ଟମ୍ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ(ଡିଫଲ୍ଟ୍)</item>
+        <item>ମୋନୋ</item>
+        <item>ଷ୍ଟେରିଓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>ସିଷ୍ଟମ୍ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>ମୋନୋ</item>
+        <item>ଷ୍ଟେରିଓ</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ଅଡିଓର ଗୁଣବତ୍ତା ପାଇଁ ଅନୁକୂଳିତ</item>
+        <item>ସନ୍ତୁଳିତ ଅଡିଓ ଓ ସଂଯୋଗ କ୍ୱାଲିଟୀ</item>
+        <item>ସଂଯୋଗର ଗୁଣବତ୍ତା ପାଇଁ ଅନୁକୂଳିତ</item>
+        <item>ସର୍ବୋତ୍ତମ ପ୍ରୟାସ (ଅନୁକୂଳ ବିଟ୍‌ ରେଟ୍‌)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ଅଡିଓ ଗୁଣବତ୍ତା ପାଇଁ ଅନୁକୂଳିତ(990kbps/909kbps)</item>
+        <item>ସନ୍ତୁଳିତ ଅଡିଓ ଓ ସଂଯୋଗ ଗୁଣବତ୍ତା (660kbps/606kbps)</item>
+        <item>ସଂଯୋଗର ଗୁଣବତ୍ତା (330kbps/303kbps) ପାଇଁ ଉପଯୁକ୍ତ କରାଯାଇଛି</item>
+        <item>ସର୍ବୋତ୍ତମ ପ୍ରୟାସ (ଅନୁକୁଳ ବିଟ୍‌ ରେଟ୍‌)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>ସିଷ୍ଟମ୍‌ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ (ଡିଫଲ୍ଟ୍)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>ସିଷ୍ଟମ୍‌ର ଚୟନ (ଡିଫଲ୍ଟ୍) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>ସିଷ୍ଟମ୍‌ର ଚୟନ (ଡିଫଲ୍ଟ୍) ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ଅଡିଓ</item>
+        <item>Qualcomm® aptX™ HD ଅଡିଓ</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>ସିଷ୍ଟମ୍ ଚୟନ ବ୍ୟବହାର କରନ୍ତୁ (ଡିଫଲ୍ଟ)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ ଅଡିଓ</item>
+        <item>Qualcomm® aptX™ HD ଅଡିଓ</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, ସକ୍ରିୟ</item>
+        <item>, ସକ୍ରିୟ (ମିଡିଆ)</item>
+        <item>, ସକ୍ରିୟ (ଫୋନ୍)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (ଡିଫଲ୍ଟ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_cast_timeout_entries">
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍‌</item>
+        <item>ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ ନାହିଁ</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ଡିଫଲ୍ଟ)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>ସିଷ୍ଟମ୍ ଡିଫଲ୍ଟ: %dଟି</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_pbap_property_picture_entries">
+        <item>ହଁ</item>
+        <item>ନା</item>
+    </string-array>
+    <string-array name="bluetooth_sap_activation_entries">
+        <item>ଡିଫଲ୍ଟ (କୌଣସି ପ୍ରଭାବ ନାହିଁ)</item>
+        <item>ବାଧ୍ୟତାମୂଳକ SAP ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ</item>
+        <item>ବାଧ୍ୟତାମୂଳକ SAP ଟର୍ନ୍ ଅଫ୍ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>ଅକ୍ଷମ କରାଯାଇଛି</item>
+        <item>ଫିଲ୍ଟର୍‌କୁ ସକ୍ଷମ କରାଯାଇଛି</item>
+        <item>ସକ୍ଷମ କରାଯାଇଛି</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>କେବଳ ACL ହେଡରଗୁଡ଼ିକୁ ଛାଡ଼ି ଦିଅନ୍ତୁ</item>
+        <item>A2DP ମିଡିଆ ପେକେଟଗୁଡ଼ିକୁ ଫିଲ୍ଟର କରନ୍ତୁ</item>
+        <item>RFCOMM ଚେନେଲକୁ ଫିଲ୍ଟର କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>ଅକ୍ଷମ କରନ୍ତୁ</item>
+        <item>କେରେକ୍ଟରଗୁଡ଼ିକର ଷ୍ଟ୍ରିଂ ସହ ପୂରଣ କରନ୍ତୁ</item>
+        <item>କେବଳ ହେଡରକୁ ଛାଡ଼ି ଦିଅନ୍ତୁ</item>
+        <item>ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ କାଢ଼ି ଦିଅନ୍ତୁ</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ଡିଫଲ୍ଟ</item>
+        <item>କିଛି ନାହିଁ</item>
+        <item>ଆଉଟଲାଇନ୍</item>
+        <item>ପଡିଥିବା ଛାଇ</item>
+        <item>ବର୍ଦ୍ଧିତ</item>
+        <item>ବିଷାଦଗ୍ରସ୍ତ</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>କ୍ଷୁଦ୍ରତ୍ତର</item>
+        <item>କ୍ଷୁଦ୍ର</item>
+        <item>ସାଧାରଣ</item>
+        <item>ବୃହତ୍</item>
+        <item>ବୃହତ୍ତର</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ଡିଫଲ୍ଟ</item>
+        <item>କଳାରେ ଧଳା</item>
+        <item>ଧଳାରେ କଳା</item>
+        <item>କଳାରେ ହଳଦିଆ</item>
+        <item>ନୀଳରେ ହଳଦିଆ</item>
+        <item>କଷ୍ଟମ୍</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ଡିଫଲ୍ଟ</item>
+        <item>Sans serif</item>
+        <item>Sans serif condensed</item>
+        <item>Sans serif monospace</item>
+        <item>ସେରିଫ୍</item>
+        <item>Serif monospace</item>
+        <item>କାଜୁଆଲ୍</item>
+        <item>କରସିଭ୍</item>
+        <item>ଛୋଟ କ୍ୟାପ୍</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ବର୍ଦ୍ଧିତ ରଙ୍ଗ</item>
+        <item>ଆଖି ଦ୍ୱାରା ଦେଖାଯାଇଥିବା ପରି ପ୍ରାକୃତିକ ରଙ୍ଗ</item>
+        <item>ଡିଜିଟାଲ୍‌ କଣ୍ଟେଣ୍ଟ ପାଇଁ ରଙ୍ଗଗୁଡ଼ିକ ଅନୁକୂଳିତ ହୋଇଛି</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>ଜୀବନ୍ତ (ପୂର୍ବ-ନିର୍ଦ୍ଧାରିତ)</item>
+        <item>ପ୍ରାକୃତିକ</item>
+        <item>ମାନକ</item>
+    </string-array>
+    <string-array name="data_usage_billing_cycle_summary">
+        <item>ପ୍ରତି ମାସର ପ୍ରଥମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 2ୟ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 3ୟ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 4ର୍ଥ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 5ମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 6ଷ୍ଠ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 7ମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 8ମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 9ମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 10ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 11ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 12ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 13ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 14ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 15ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 16ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 17ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 18ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 19ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 20ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 21ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 22ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 23ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 24ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 25ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 26ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 27ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 28ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 29ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 30ତମ ଦିନ</item>
+        <item>ପ୍ରତି ମାସର 31ତମ ଦିନ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ଓଭର୍‌ ଡ୍ର କ୍ଷେତ୍ରଗୁଡ଼ିକୁ ଦେଖାଅ</item>
+        <item>ଡିଉଟେରାନୋମାଲୀ ପାଇଁ କ୍ଷେତ୍ର ଦେଖନ୍ତୁ</item>
+    </string-array>
+    <string-array name="dex_timeout_entries">
+        <item>15 ସେକେଣ୍ଡ</item>
+        <item>30 ସେକେଣ୍ଡ</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍‌</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>20 ମିନିଟ୍‌</item>
+        <item>30 ମିନିଟ୍‌</item>
+        <item>60 ମିନିଟ୍‌</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>କିଛିନାହିଁ</item>
+        <item>Logcat</item>
+        <item>Systrace (ଗ୍ରାଫିକ୍ସ)</item>
+        <item>glGetError ରେ କଲ୍‌ ଷ୍ଟାକ୍</item>
+    </string-array>
+    <string-array name="gpuwatch_rendering_api_entries">
+        <item>Vulkan</item>
+        <item>OpenGL</item>
+    </string-array>
+    <string-array name="gpuwatch_widget_positions">
+        <item>ଶୀର୍ଷ - ବାମ</item>
+        <item>ଶୀର୍ଷ - କେନ୍ଦ୍ର ହରିଜଣ୍ଟାଲ୍</item>
+        <item>ଶୀର୍ଷ - ଡାହାଣ</item>
+        <item>କେନ୍ଦ୍ର ଭର୍ଟିକାଲ୍ - ବାମ</item>
+        <item>କେନ୍ଦ୍ର ଭର୍ଟିକାଲ୍ - ଡାହାଣ</item>
+        <item>ନିମ୍ନ - ବାମ</item>
+        <item>ନିମ୍ନ - କେନ୍ଦ୍ର ହରିଜଣ୍ଟାଲ୍</item>
+        <item>ନିମ୍ନ - ଡାହାଣ</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>କଦାପି HDCP ଯାଞ୍ଚ କରିବା ବ୍ୟବହାର କରନ୍ତୁ ନାହିଁ</item>
+        <item>କେବଳ DRM କଣ୍ଟେଣ୍ଟ ପାଇଁ HDCP ଯାଞ୍ଚ ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>ସର୍ବଦା HDCP ଯାଞ୍ଚ ବ୍ୟବହାର କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ଆଦୌ ଯାଞ୍ଚ କରନାହିଁ</item>
+        <item>କେବଳ DRM କଣ୍ଟେଣ୍ଟ ଠାବ କର</item>
+        <item>ସର୍ବଦା ଠାବ କର</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>ସର୍ବଦା ଅଫ୍‌</item>
+        <item>1 ସେକେଣ୍ଡ</item>
+        <item>3 ସେକେଣ୍ଡ</item>
+        <item>5 ସେକେଣ୍ଡ</item>
+        <item>10 ସେକେଣ୍ଡ</item>
+        <item>15 ସେକେଣ୍ଡ</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ତୁରନ୍ତ</item>
+        <item>5 ସେକେଣ୍ଡ</item>
+        <item>15 ସେକେଣ୍ଡ</item>
+        <item>30 ସେକେଣ୍ଡ</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍‌</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍‌</item>
+    </string-array>
+    <string-array name="mouse_pointer_color_type">
+        <item>ଧଳା</item>
+        <item>କଳା</item>
+        <item>ଟର୍କ୍ୟୁସ୍</item>
+        <item>ହଳଦିଆ</item>
+        <item>ହାଲୁକା ଲାଲ୍</item>
+        <item>ହାଲୁକା ଭାଓଲେଟ୍</item>
+        <item>ହାଲୁକା ନୀଳ</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>କିଛି ନାହିଁ</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="num_allowed_devices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>କିଛି ନାହିଁ</item>
+        <item>480p</item>
+        <item>480p (ସୁରକ୍ଷିତ)</item>
+        <item>p</item>
+        <item>720p (ସୁରକ୍ଷିତ)</item>
+        <item>1080p</item>
+        <item>1080p (ସୁରକ୍ଷିତ)</item>
+        <item>4K</item>
+        <item>4K (ସୁରକ୍ଷିତ)</item>
+        <item>4K (ଅପ୍‌ସ୍କେଲ୍‌ କରାଯାଇଛି)</item>
+        <item>4K (ଉତ୍ତମ, ସୁରକ୍ଷିତ)</item>
+        <item>720p, 1080p (Dual Screen)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ସାମାନ୍ୟ</item>
+        <item>ମୋଡରେଟ୍</item>
+        <item>କମ</item>
+        <item>ଜଟିଳ</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 ସେକେଣ୍ଡ</item>
+        <item>30 ସେକେଣ୍ଡ</item>
+        <item>1 ମିନିଟ୍</item>
+        <item>2 ମିନିଟ୍‌</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍‌</item>
+    </string-array>
+    <string-array name="sec_bt_stack_log_level_entries">
+        <item>ଭର୍ବୋଜ୍</item>
+        <item>ଡିବଗ୍</item>
+        <item>ସୂଚନା</item>
+        <item>ଚେତାବନୀ</item>
+        <item>ତ୍ରୁଟି</item>
+    </string-array>
+    <string-array name="sec_samsung_account_benefit_message_phone">
+        <item>ଯଦି ଏହା ହଜିଯାଏ ଆପଣଙ୍କ ଫୋନ୍ ସର୍ଚ୍ଚ କରନ୍ତୁ।</item>
+        <item>ଆପଣଙ୍କ ସମସ୍ତ ଡିଭାଇସରେ ଆପ୍ଲିକେସନ୍ ଏବଂ ସେଟିଂସ୍ ସିଙ୍କ୍ କରନ୍ତୁ।</item>
+        <item>ବନ୍ଧୁଗଣ, ପରିବାର, ଏବଂ ଅନ୍ୟ ଡିଭାଇସ୍ ସହ ଫାଇଲ୍ ସେୟାର୍ କରନ୍ତୁ।</item>
+    </string-array>
+    <string-array name="sec_samsung_account_benefit_message_tablet">
+        <item>ଯଦି ଏହା ହଜିଯାଏ ଆପଣଙ୍କ ଟ୍ୟାବଲେଟ୍ ସର୍ଚ୍ଚ କରନ୍ତୁ।</item>
+        <item>ଆପଣଙ୍କ ଫୋନ୍ ଏବଂ ଟ୍ୟାବଲେଟ୍ ମଧ୍ୟରେ କପି କରି ପେଷ୍ଟ କରନ୍ତୁ।</item>
+        <item>ଡିଭାଇସଗୁଡିକ ମଧ୍ୟରେ ଅଟୋମେଟିକାଲି ଆପଣଙ୍କ Buds ସ୍ଵିଚ୍ କରନ୍ତୁ।</item>
+        <item>ଆପଣଙ୍କ ଟ୍ୟାବଲେଟରେ କଲ୍ ଏବଂ ଟେକ୍ସଟ୍ ଉତ୍ତର ଦିଅନ୍ତୁ।</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>ସର୍ବଦା ପଚାରନ୍ତୁ</item>
+        <item>କେବେ ଅନୁମତି କରନ୍ତୁ ନାହିଁ</item>
+        <item>ସର୍ବଦା ଅନୁମତି</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ବନ୍ଦ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ବନ୍ଦ</item>
+        <item>ପ୍ରତି ଲଗ ବଫର 64K</item>
+        <item>ପ୍ରତି ଲଗ ବଫର 256K</item>
+        <item>ପ୍ରତି ଲଗ ବଫର 1M</item>
+        <item>ପ୍ରତି ଲଗ ବଫର 4M</item>
+        <item>ପ୍ରତି ଲଗ ବଫର 8M</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ବନ୍ଦ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>ବନ୍ଦ</item>
+        <item>ସମସ୍ତ ଲଗ୍‌ ବଫର୍‌</item>
+        <item>ରେଡିଓ ଲଗ୍‌ ବଫର୍‌‌ଗୁଡିକ ଛଡ଼ା ଅନ୍ୟ ସବୁ</item>
+        <item>କେବଳ କର୍ନେଲ୍‌ ଲଗ୍‌ ବଫର୍‌</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>ବନ୍ଦ</item>
+        <item>ସମସ୍ତ</item>
+        <item>ରେଡିଓ ଛଡ଼ା ଅନ୍ୟ ସବୁ</item>
+        <item>କେବଳ କର୍ନେଲ୍</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ଅଣ-ଆୟତାକାର କ୍ଲିପ୍ କ୍ଷେତ୍ର ନୀଳ ରଙ୍ଗରେ ଆଙ୍କନ୍ତୁ</item>
+        <item>ଟେଷ୍ଟ ହୋଇଥିବା ଅଙ୍କନ କମାଣ୍ଡଗୁଡ଼ିକୁ ସବୁଜରେ ଚିହ୍ନିତ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ବନ୍ଦ</item>
+        <item>ସ୍କ୍ରୀନ୍‌ରେ ବାର୍‌ ପରି</item>
+        <item>ରେ adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ଆନିମେଶନ୍‌ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ .5x</item>
+        <item>ଆନିମେସନ୍‌ ସ୍କେଲ୍‌ 1x</item>
+        <item>ଆନିମେସନ୍‌ ସ୍କେଲ 1.5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 2x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 5x</item>
+        <item>ଆନିମେସନ୍‌ ସ୍କେଲ୍‌ 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>60%</item>
+        <item>80%</item>
+        <item>100%</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>250%</item>
+        <item>300%</item>
+        <item>350%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>ଚାର୍ଜ ହେଉଛି</item>
+        <item>MTP (ମିଡିଆ ସ୍ଥାନାନ୍ତର ପ୍ରୋଟୋକଲ୍‌)</item>
+        <item>PTP (ପିକଚର୍‌ ଟ୍ରାନ୍ସଫର୍‌ ପ୍ରୋଟୋକଲ୍‌)</item>
+        <item>RNDIS (USB ଏଥରନେଟ)</item>
+        <item>ଅଡିଓ ଉତ୍ସ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>କିଛି ନାହିଁ</item>
+        <item>ମାନୁଆଲ୍</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>ବିଛିନ୍ନ ହେଲା</item>
+        <item>ଆରମ୍ଭ ହେଉଛି…</item>
+        <item>ସଂଯୋଗ କରୁଛି…</item>
+        <item>କନେକ୍ଟ</item>
+        <item>ସମୟ ଶେଷ</item>
+        <item>ଅସଫଳ</item>
+    </string-array>
+    <string-array name="wifi_ap_broadcast_channel_entries">
+        <item>ଅଟୋ</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_mac_address_type_phone_entries">
+        <item>ରେଣ୍ତମମାଇଜ୍ MAC</item>
+        <item>ଫୋନ୍ MAC</item>
+    </string-array>
+    <string-array name="wifi_ap_mac_address_type_tablet_entries">
+        <item>ରେଣ୍ତମମାଇଜ୍ MAC</item>
+        <item>ଟ୍ୟାବଲେଟ୍ MAC</item>
+    </string-array>
+    <string-array name="wifi_ap_owe_security_type_entries">
+        <item>ଖୋଲନ୍ତୁ</item>
+        <item>Enhanced Open</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
+        <item>ଖୋଲନ୍ତୁ</item>
+        <item>Enhanced Open</item>
+        <item>WPA2-Personal</item>
+        <item>WPA2/WPA3-Personal</item>
+        <item>WPA3-Personal</item>
+    </string-array>
+    <string-array name="wifi_ap_security_type_entries">
+        <item>ଖୋଲନ୍ତୁ</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
+        <item>କେବେବି ଟାଇମଆଉଟ୍ ହୋଇନାହିଁ</item>
+        <item>5 ମିନିଟ୍</item>
+        <item>10 ମିନିଟ୍</item>
+        <item>20 ମିନିଟ୍</item>
+        <item>30 ମିନିଟ୍</item>
+        <item>60 ମିନିଟ୍</item>
+    </string-array>
+    <string-array name="wifi_ap_wifi_sharing">
+        <item>Wi-Fi ସେୟାର୍ ଟର୍ନ୍ ଅନ୍ କରନ୍ତୁ</item>
+        <item>Wi-Fi ସେୟାର୍ ଟର୍ନ୍ ଅଫ୍ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="wifi_ap_wpa3_security_type_entries">
+        <item>ଖୋଲନ୍ତୁ</item>
+        <item>WPA2-Personal</item>
+        <item>WPA2/WPA3-Personal</item>
+        <item>WPA3-Personal</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>ଅଟୋମେଟିକାଲି</item>
+        <item>ମାନୁଆଲ୍</item>
+        <item>ସର୍ବଦା ପଚାରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ଷ୍ଟାଟିକ୍</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>ଅଟୋମେଟିକାଲି ଚିହ୍ନଟ ହୋଇଛି</item>
+        <item>ମିଟର୍ ଭାବେ ବିବେଚନା କରନ୍ତୁ</item>
+        <item>ଅଣମିଟର୍ ଭାବେ ବିବେଚନା କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>କନେକ୍ଟ</item>
+        <item>ଆମନ୍ତ୍ରିତ</item>
+        <item>କନେକ୍ସନ୍ ବିଫଳ ହୋଇଛି</item>
+        <item>ସଂଯୁକ୍ତ କରିବାକୁ ଏଠାରେ ଟ୍ୟାପ୍‍ କରନ୍ତୁ।</item>
+        <item>ପରିସର ବାହାରେ।</item>
+        <item>ଅନ୍ୟ ଡିଭାଇସ୍ ସହ କନେକ୍ଟ ହୋଇଛି</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>କିଛି ନାହିଁ</item>
+        <item>ମାନୁଆଲ୍</item>
+        <item>ସ୍ୱତଃ-କନଫିଗ୍‌</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>ଡିଭାଇସ୍ ସ୍କାନ୍ ହେଉଛି…</item>
+        <item>ସଂଯୋଗ କରୁଛି…</item>
+        <item>ପ୍ରାମାଣିକରଣ କରୁଛି…</item>
+        <item>IP ଠିକଣା ଗ୍ରହଣ କରୁଛି…</item>
+        <item>କନେକ୍ଟ ହୋଇଛି</item>
+        <item>ବାତିଲ୍ ହୋଇଛି</item>
+        <item>ବିଛିନ୍ନ କରୁଛି…</item>
+        <item>ବିଛିନ୍ନ ହେଲା</item>
+        <item>ଅସଫଳ</item>
+        <item>ବ୍ଲକ୍</item>
+        <item>ଆପଣଙ୍କ ଇଣ୍ଟର୍ନେଟ୍ କନେକ୍ସନ୍ ଗୁଣବତ୍ତା ଯାଞ୍ଚ କରୁଛି…</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ସ୍କାନ୍‌ କରୁଛି…</item>
+        <item>%1$sକୁ ସଂଯୋଗ କରାଯାଉଛି…</item>
+        <item>%1$s ସହ ପ୍ରମାଣିତ ହେଉଛି…</item>
+        <item>%1$sରୁ IP ଠିକଣା ହାସଲ କରୁଛି…</item>
+        <item>%1$s ସହ ସଂଯୁକ୍ତ</item>
+        <item>କଟିଯାଇଛି</item>
+        <item>%1$sରୁ ବିଚ୍ଛିନ୍ନ ହେଉଛି…</item>
+        <item>ସଂଯୁକ୍ତ ନାହିଁ</item>
+        <item>ଅସଫଳ</item>
+        <item>ଅବରୋଧିତ</item>
+        <item>ଦୁର୍ବଳ ସଂଯୋଗକୂ ସାମୟିକ ଭାବେ ଏଡ଼ାଉଛି</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ସ୍କାନ୍ କରାଯାଉଛି…</item>
+        <item>ସଂଯୋଗ ହେଉଛି…</item>
+        <item>ପ୍ରାମାଣିକରଣ କରାଯାଉଛି…</item>
+        <item>IP ଠିକଣା ପ୍ରାପ୍ତ କରୁଛି…</item>
+        <item>କନେକ୍ଟ କରାଯାଇଛି</item>
+        <item>ସାମୟିକ ଭାବରେ ବନ୍ଦ କରାଯାଇଛି</item>
+        <item>ବିଚ୍ଛିନ୍ନ କରାଯାଉଛି…</item>
+        <item>ବିଚ୍ଛିନ୍ନ କରାଯାଇଛି</item>
+        <item>ଅସଫଳ</item>
+        <item>ବ୍ଲକ୍ କରାଯାଇଛି</item>
+        <item>ଦୁର୍ବଳ ସଂଯୋଗକୁ ସାମୟିକ ଭାବେ ଏଡ଼ାଉଛି</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ଆନିମେଶନ୍‌ ବନ୍ଦ କରନ୍ତୁ</item>
+        <item>ଆନିମେଶନ ସ୍କେଲ .5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 1x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 1.5x</item>
+        <item>ଆନିମେଶନ ସ୍କେଲ 2x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 5x</item>
+        <item>ଆନିମେଶନ୍‌ ସ୍କେଲ୍‌ 10x</item>
+    </string-array>
+</resources>

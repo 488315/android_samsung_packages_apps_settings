@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.picker.widget.SeslAppPickerListView android:scrollbarStyle="outsideOverlay" android:id="@id/app_picker_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:strategy="@string/strategy_all_select_strategy" />
+    <View android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

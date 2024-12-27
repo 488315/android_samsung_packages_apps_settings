@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_start_padding" android:paddingEnd="@dimen/list_item_end_padding">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/picker_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_picker_container_height">
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/picker_dialog_button_minus" android:clickable="true" style="@style/Accessibility.Widget.Button.Delete" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/picker_dialog_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <EditText android:id="@id/picker_dialog_edittext" android:background="@null" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cursorVisible="false" android:maxLines="1" android:selectAllOnFocus="true" android:includeFontPadding="false" android:privateImeOptions="disableClipboard=true;disableVoiceInput=true;disableHWRInput=true;" android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" style="@style/item_picker_time_edit_style" />
+                <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView android:id="@id/sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picker_time_sec" android:layout_marginStart="@dimen/item_picker_text_dimen" app:limitedScale="5" style="@style/item_picker_time_text_style" />
+            </LinearLayout>
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/picker_dialog_button_plus" android:clickable="true" style="@style/Accessibility.Widget.Button.Add" />
+        </LinearLayout>
+        <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView android:textAppearance="@style/Accessibility.TextAppearance.TextView.Description" android:textSize="@dimen/item_picker_range_text_size" android:layout_gravity="center_horizontal" android:id="@id/picker_dialog_range_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/item_picker_range_text_bottom_margin" android:text="@string/picker_set_number_range" android:fontFamily="sec" android:textAlignment="center" android:layout_marginStart="@dimen/add_delete_button_size" android:layout_marginEnd="@dimen/add_delete_button_size" android:textFontWeight="400" app:limitedScale="5" />
+    </LinearLayout>
+</merge>

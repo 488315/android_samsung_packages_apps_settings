@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_intelligence_service_prevent_online_processing_title" settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.intelligenceservice.IntelligenceServiceSettings" settings:topLevelPreferenceKey="prevent_online_processing"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_intelligence_service_description_layout" android:selectable="false" android:key="key_description" />
+    <SecPreferenceCategory android:title="@string/sec_intelligence_service_prevent_online_processing_category_title_all" android:key="key_all_ai_features" settings:titleMaxLines="3" />
+    <SecPreferenceCategory android:title="@string/sec_intelligence_service_prevent_online_processing_category_title_ondevice" android:key="key_offline_ai_features" settings:titleMaxLines="3" />
+</PreferenceScreen>

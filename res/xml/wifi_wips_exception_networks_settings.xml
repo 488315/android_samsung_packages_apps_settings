@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_mobile_wips_exception" settings:roundStroke="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:layout="@layout/wips_widget_preference_unclickable_no_exception_list" android:selectable="false" android:key="wips_exception_desc" settings:roundStroke="none" />
+    <PreferenceCategory android:key="wips_exception_up" settings:roundStroke="top_left|top_right" />
+</PreferenceScreen>

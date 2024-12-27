@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/mandatory_biometric_trusted_places_list_description" android:selectable="false" android:key="key_description" settings:positionMode="first_item" style="@style/description_text" />
+    <SecPreferenceCategory android:key="trusted_places" />
+</PreferenceScreen>

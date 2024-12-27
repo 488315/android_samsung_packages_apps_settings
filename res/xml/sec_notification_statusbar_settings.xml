@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_style_on_status_bar" settings:keywords="@string/keywords_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/lock_screen_notification_style_title" android:key="notification_editor_category">
+        <com.samsung.android.settings.notification.SecNotificationHorizontalRadioPreference android:title="@string/notification_style_on_status_bar" android:key="status_bar_notification_style" settings:controller="com.samsung.android.settings.notification.StatusBarNotificationStyleController" settings:viewType="image" />
+    </PreferenceCategory>
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/notification_style_summary" android:key="status_bar_notification_style_dot_description" settings:controller="com.samsung.android.settings.notification.StatusBarNotificationStyleDotDescriptionController" style="@style/description_text" />
+    <PreferenceCategory android:key="configure_notifications_advanced">
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_show_date_title" android:key="show_date" settings:controller="com.samsung.android.settings.notification.StatusBarShowDateController" />
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_show_battery_percentage_title" android:key="show_battery_percent" settings:controller="com.samsung.android.settings.notification.StatusBarBatteryPercentageController" />
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/sec_show_network_info_title" android:key="show_network_info" settings:controller="com.samsung.android.settings.notification.StatusBarShowNetworkInfoController" />
+        <SwitchPreferenceCompat android:persistent="false" android:title="@string/real_time_network_speed_title" android:key="network_speed" settings:controller="com.samsung.android.settings.notification.StatusBarNetworkSpeedController" />
+    </PreferenceCategory>
+</PreferenceScreen>

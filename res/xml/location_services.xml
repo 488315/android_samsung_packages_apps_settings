@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_services_screen_title" android:key="location_services" settings:controller="com.android.settings.location.LocationInjectedServicesPreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreferenceCategory android:title="@string/sec_location_scanning_title" android:order="999">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/location_scanning_wifi_always_scanning_title" android:key="wifi_always_scanning" android:summary="@string/location_scanning_wifi_always_scanning_description" android:order="1000" android:defaultValue="true" />
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/location_scanning_bluetooth_always_scanning_title" android:key="bluetooth_always_scanning" android:summary="@string/location_scanning_bluetooth_always_scanning_description" android:order="1001" android:defaultValue="true" settings:keywords="@string/keywords_bluetooth_scanning" />
+    </SecPreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/text_layout" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@android:id/title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_list_settings_rssi_level" android:maxLines="5" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_list_settings_rssi_level_summary" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/less" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_rssi_seek_bar_less" style="@style/WifiLabsSeekBarTextStyle" />
+        <SeekBar android:id="@id/filter_seek_bar" android:background="@null" android:layout_width="0.0dip" android:layout_height="@dimen/sec_widget_list_icon_create_width" android:progressDrawable="@drawable/sec_screenzoom_seekbar_progress_drawable" android:thumb="@drawable/sec_screenzoom_seekbar_thumb_drawable" android:layout_weight="1.0" android:tickMark="@drawable/sec_screenzoom_seekbar_tickmark_drawable" />
+        <TextView android:id="@id/more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_rssi_seek_bar_more" style="@style/WifiLabsSeekBarTextStyle" />
+    </LinearLayout>
+</LinearLayout>

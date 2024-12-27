@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_wifi_suw_list_item_min_height">
+        <View android:id="@id/left_margin" android:layout_width="@dimen/sec_wifi_suw_list_item_start_end_padding" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/sec_wifi_suw_list_app_icon_size" android:layout_height="@dimen/sec_wifi_suw_list_app_icon_size">
+                    <ImageView android:layout_gravity="center" android:id="@id/wifi_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_wifi_suw_list_text_top_margin" android:layout_marginBottom="@dimen/sec_wifi_suw_list_text_top_margin" android:layout_weight="1.0" android:layout_marginStart="@dimen/sec_wifi_suw_list_icon_title_padding">
+                    <TextView android:textSize="@dimen/sec_wifi_suw_list_title_text_size" android:textColor="@color/sec_wifi_setupwizard_list_title_color" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="600" />
+                    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textSize="@dimen/sec_wifi_suw_list_summary_text_size" android:textColor="@color/wifi_preference_summary_color" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/layout_current" android:visibility="gone" android:layout_width="@dimen/wifi_tips_disable_layout_size" android:layout_height="@dimen/wifi_tips_disable_layout_size" android:layout_marginStart="@dimen/sec_wifi_suw_list_icon_title_padding">
+                    <ImageView android:id="@id/WifiTipsIcon_connected" android:background="@drawable/sec_bluetooth_preference_list_config_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sec_ic_wifi_tips" android:adjustViewBounds="true" android:maxWidth="@dimen/wifi_tips_disable_max_icon_size" android:maxHeight="@dimen/wifi_tips_disable_max_icon_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/wifi_tips" />
+                </RelativeLayout>
+                <View android:layout_gravity="center_vertical" android:id="@id/wifi_divider_current" android:background="@color/sec_wifi_preference_divider_color" android:visibility="gone" android:layout_width="@dimen/sesl_switch_divider_height" android:layout_height="@dimen/sec_widget_preference_vertical_divider_height" android:layout_marginStart="@dimen/sec_wifi_suw_list_second_icon_padding" />
+                <RelativeLayout android:gravity="end|center" android:id="@id/layout_details" android:background="@drawable/sec_wifi_preference_list_config_bg" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_wifi_suw_list_second_icon_padding">
+                    <ImageView android:id="@id/wifi_details" android:layout_width="@dimen/wifi_tips_disable_layout_size" android:layout_height="@dimen/wifi_tips_disable_layout_size" android:src="@drawable/sec_wifi_list_settings" />
+                </RelativeLayout>
+                <View android:layout_gravity="center_vertical" android:id="@id/wifi_divider" android:background="@color/sec_wifi_preference_divider_color" android:visibility="gone" android:layout_width="@dimen/sesl_switch_divider_height" android:layout_height="@dimen/sec_widget_preference_vertical_divider_height" />
+                <RelativeLayout android:layout_gravity="end|center" android:id="@id/layout_disable" android:visibility="gone" android:layout_width="@dimen/wifi_tips_disable_layout_size" android:layout_height="@dimen/wifi_tips_disable_layout_size" android:layout_marginStart="@dimen/sec_wifi_suw_list_second_icon_padding">
+                    <ImageView android:id="@id/WifiTipsIcon" android:background="@drawable/sec_bluetooth_preference_list_config_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sec_ic_wifi_tips" android:adjustViewBounds="true" android:maxWidth="@dimen/wifi_tips_disable_max_icon_size" android:maxHeight="@dimen/wifi_tips_disable_max_icon_size" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/wifi_tips" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/right_margin" android:layout_width="@dimen/sec_wifi_suw_list_item_start_end_padding" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

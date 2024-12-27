@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/touch_settings_basic_horizontal_padding" android:paddingEnd="@dimen/touch_settings_basic_horizontal_padding">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/edit_appbar_portrait">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4">
+                <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:text="@string/perform_long_press_text" android:contentDescription="@string/touch_and_hold_delay_custom_description_alternative_text" style="@style/touch_and_hold_description_text_style" />
+                </ScrollView>
+                <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_tap_and_hold_time_view_top_margin" android:layout_marginBottom="@dimen/custom_tap_and_hold_time_view_bottom_margin" android:minHeight="@dimen/custom_tap_and_hold_view_time_height">
+                    <TextView android:id="@id/longpress_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/touch_settings_status_between_time_padding" style="@style/touch_and_hold_time_text_style" />
+                    <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView android:id="@id/text_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picker_time_sec" android:layout_alignBaseline="@id/longpress_time" android:layout_toEndOf="@id/longpress_time" settings:limitedScale="5" style="@style/touch_and_hold_sec_text_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/touch_container" android:background="@color/content_background_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6" android:contentDescription="@string/touch_and_hold_area_contentDescription" android:importantForAccessibility="yes">
+                <com.samsung.android.settings.accessibility.dexterity.TouchAndHoldView android:id="@id/tapandholdview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.samsung.android.settings.accessibility.base.widget.EditAppBar android:id="@id/edit_appbar_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

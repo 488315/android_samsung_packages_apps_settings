@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/keyboard_layout_picker_container" android:background="@color/sec_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/keyboard_picker_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/keyboard_layout_preview_container" android:background="@drawable/keyboard_review_layout_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/keyboard_layout_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyboard_picker_margin_small" android:layout_marginBottom="@dimen/keyboard_picker_margin_large" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginHorizontal="@dimen/keyboard_picker_margin_small" />
+        <TextView android:textSize="@dimen/keyboard_picker_text_size" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="bottom" android:id="@id/keyboard_layout_preview_name" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_picker_margin_large" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/keyboard_layout_title" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" android:outlineSpotShadowColor="@android:color/transparent" android:outlineAmbientShadowColor="@android:color/transparent" />
+    <FrameLayout android:id="@id/keyboard_layouts" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

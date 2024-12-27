@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/image_area" android:background="?roundedCornerColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/description_image_area_weight_land">
+        <RelativeLayout android:id="@id/preview_layout" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_above="@id/point_area" android:layout_alignParentTop="true">
+            <com.samsung.android.settings.widget.SecWrapContentHeightViewPager android:id="@id/pager" android:background="@drawable/sec_rounded_view_pager_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:clipToOutline="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/point_area" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/accessibility_preview_point_area_padding_top" android:paddingBottom="@dimen/accessibility_preview_point_area_padding_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/accessibility_preview_point_area_height" android:layoutDirection="ltr" />
+    </LinearLayout>
+    <View android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="@dimen/description_help_image_padding" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/list_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/description_text_area_weight_land">
+        <FrameLayout android:id="@android:id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/all_keyboards_list" settings:hierarchicalParentFragment="com.samsung.android.settings.general.GeneralDeviceSettings" settings:topLevelPreferenceKey="top_level_general"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreference android:title="@string/current_input_method" android:key="current_input_method" settings:keywords="@string/keywords_default_keyboard" />
+    <SecPreferenceCategory android:title="@string/installed_keyboards" android:key="installed_keyboards" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <SecSwitchPreferenceScreen android:persistent="false" android:title="@string/show_keyboard_button_title" android:key="key_show_keyboard_button" android:fragment="com.samsung.android.settings.inputmethod.ShowKeyboardButtonSettings" settings:keywords="@string/keywords_keyboard_button_on_navigation_bar" />
+    <SecSwitchPreference android:title="@string/navigationbar_show_button_to_hide_keyboard_title" android:key="hide_keyboard_button" settings:controller="com.samsung.android.settings.inputmethod.ShowButtonToHideKeyboardPreferenceController" settings:keywords="@string/keywords_show_button_to_hide_keyboard" />
+</PreferenceScreen>

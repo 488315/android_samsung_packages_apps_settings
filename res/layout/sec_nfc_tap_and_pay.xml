@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/nfc_payment_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/payment_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_payment_title" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+                <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/other_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_others_title" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+            </com.google.android.material.tabs.TabLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

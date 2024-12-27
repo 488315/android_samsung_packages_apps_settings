@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="22.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="25.0dip" android:paddingEnd="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/sec_widget_tip_title_text_color" android:id="@id/conneted_time_name" android:text="Connected time" style="@style/wifi_item_label_for_labs" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/sec_widget_tip_title_text_color" android:id="@id/conneted_time_value" android:layout_width="fill_parent" android:textAlignment="viewEnd" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/type_name" android:text="Type : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/type_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/band_freq_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/band_freq_name" android:text="Frequency : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/band_freq_value" android:textAlignment="viewStart" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/band_channel_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/channel_name" android:text="Channel : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/channel_value" android:textAlignment="viewStart" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/rssi_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/rssi_name" android:text="Signal strength : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/rssi_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ap_bssid_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ap_bssid_name" android:text="BSSID : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/ap_bssid_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ip_addr_name" android:text="IP address : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/ip_addr_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/subnet_addr_name" android:text="Subnet address : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/subnet_addr_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/gateway_name" android:text="Gateway IP :  " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/gateway_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/router_mac_name" android:text="Gateway MAC : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/router_mac_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dns_info_name" android:text="DNS address : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/dns_info_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/router_info_name" android:text="Router information : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/router_info_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/internet_available_name" android:text="Internet : " style="@style/wifi_item_label_for_labs" />
+        <TextView android:id="@id/internet_available_value" style="@style/wifi_item_label_for_labs" />
+    </LinearLayout>
+</LinearLayout>

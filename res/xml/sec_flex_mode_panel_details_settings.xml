@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_flex_mode_panel_auto_show_panel_when_folded"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_flex_mode_panel_auto_show_panel_when_folded_description" android:selectable="false" android:key="sec_flex_mode_panel_apps_to_show_flex_mode_panel_automatically_description" style="@style/description_text" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_front_screen_app_picker" android:key="front_screen_apps_picker" settings:roundStroke="top_left|top_right" />
+</PreferenceScreen>

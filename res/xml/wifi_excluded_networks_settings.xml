@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_smart_network_switch_excluded_networks" android:key="excluded_networks_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.wifi.intelligent.WifiWcmUnclickablePreference android:layout="@layout/wifi_excluded_networks_settings_exception_list" android:key="wcm_exception_desc" settings:positionMode="first_item" settings:roundStroke="none" />
+    <SecPreferenceCategory android:key="wcm_exception_list" settings:roundStroke="top_left|top_right" />
+</PreferenceScreen>

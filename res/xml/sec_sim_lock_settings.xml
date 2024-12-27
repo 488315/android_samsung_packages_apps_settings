@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sim_lock_settings_category" settings:hierarchicalParentFragment="com.android.settings.security.SecurityAdvancedSettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreference android:persistent="false" android:title="@string/sim_pin_toggle" android:key="sim_toggle" android:summary="@string/sec_sim_lock_on" android:disableDependentsState="false" settings:controller="com.samsung.android.settings.security.SecSimTogglePreferenceController" />
+    <SecPreference android:persistent="false" android:title="@string/sim_pin_change" android:key="sim_pin" android:dependency="sim_toggle" settings:controller="com.samsung.android.settings.security.SecSimPinPreferenceController" />
+    <SecSwitchPreference android:persistent="false" android:title="@string/sim_perso_toggle" android:key="perso_toggle" android:summary="@string/lock_phone_to_current_sim_summary_off" android:disableDependentsState="false" settings:controller="com.samsung.android.settings.security.SecPersoTogglePreferenceController" />
+    <SecPreference android:persistent="false" android:title="@string/sim_perso_change" android:key="perso_pw_change" android:dependency="perso_toggle" settings:controller="com.samsung.android.settings.security.SecPersoPasswordChangePreferenceController" />
+</PreferenceScreen>

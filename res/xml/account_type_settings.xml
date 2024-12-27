@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/account_settings_title" settings:keywords="@string/keywords_accounts"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_account_settings_entity_header" android:selectable="false" android:key="account_header" android:order="-3" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_category" android:order="-2" />
+    <Preference android:title="@string/account_sync_title" android:key="account_sync" android:order="-1" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="100" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="999" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/remove_account_button" android:selectable="false" android:key="remove_account" android:order="1000" />
+</PreferenceScreen>

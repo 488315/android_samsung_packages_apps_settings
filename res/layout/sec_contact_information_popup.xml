@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ownerinfo_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/sec_widget_alert_dialog_body_text_size" android:textColor="@color/sec_widget_alert_dialog_text_color" android:gravity="center_vertical" android:id="@id/show_owner_info_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_contact_information_description_margin_top" android:text="@string/contact_info_settings_description" android:fontFamily="sec" android:layout_marginHorizontal="@dimen/sec_widget_alert_dialog_padding_start_end" android:textFontWeight="400" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/contact_info_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_contact_information_edittext_margin_top" android:layout_marginStart="@dimen/sec_contact_information_edittext_margin_start" android:layout_marginEnd="@dimen/sec_widget_alert_dialog_padding_start_end" app:hintEnabled="false">
+            <EditText android:textSize="@dimen/sec_widget_edit_dialog_label_text_size" android:textColorHint="?android:textColorSecondary" android:gravity="top" android:id="@id/owner_info_edit_text_popup" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/contact_info_settings_edit_text_hint" android:inputType="textCapSentences" android:privateImeOptions="disableGifKeyboard=true;disableSticker=true;" android:fontFamily="sec" android:textFontWeight="400" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_alert_dialog_top_edittext_margin_top" />
+    </LinearLayout>
+</ScrollView>

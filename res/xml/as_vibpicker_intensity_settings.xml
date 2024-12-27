@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_call_vibration_intensity" android:key="ring_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityIncomingCallController" />
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_notification_vibration_intensity" android:key="notification_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityNotificationController" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="vibpicker_intensity_category" />
+</PreferenceScreen>

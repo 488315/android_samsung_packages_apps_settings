@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/as_page_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/as_sub_list_header_margin_side" android:layout_marginEnd="@dimen/as_sub_list_header_margin_side"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/page_icon" android:focusable="false" android:layout_width="@dimen/as_sub_list_header_icon_size" android:layout_height="@dimen/as_sub_list_header_icon_size" android:tint="@color/as_sub_icon_tint_color" />
+    <TextView android:textSize="@dimen/as_sub_list_header_main_text_size" android:textColor="@color/as_basic_text_01_FA" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/page_main_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_sub_list_header_main_text_margin_top" android:maxLines="2" style="@style/AsSemiBoldSec600" />
+    <TextView android:textSize="@dimen/as_sub_list_header_sub_text_size" android:textColor="@color/as_basic_text_01_FA" android:gravity="center_horizontal" android:id="@id/page_sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/as_sub_list_header_sub_text_margin_bottom" style="@style/AsRegularSec400" />
+    <com.samsung.android.settings.analyzestorage.ui.widget.SortByItemLayout android:id="@id/sort_by_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

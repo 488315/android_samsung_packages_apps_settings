@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/galaxy_system_apps" settings:hierarchicalParentFragment="com.samsung.android.settings.galaxysystemupdate.apps.GalaxySystemAppsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="12.0px" settings:roundStroke="none" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:key="pref_app_header" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="12.0px" settings:roundStroke="none" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="11.0px" settings:roundStroke="none" />
+    <SecPreference android:selectable="false" android:key="app_version" settings:allowDividerAbove="true" />
+</PreferenceScreen>

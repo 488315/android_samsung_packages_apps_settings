@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/indicator_left" android:layout_width="@dimen/sec_swipe_for_popup_view_corner_area_max_size" android:layout_height="@dimen/sec_swipe_for_popup_view_corner_area_max_size" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/indicator_right" android:layout_width="@dimen/sec_swipe_for_popup_view_corner_area_max_size" android:layout_height="@dimen/sec_swipe_for_popup_view_corner_area_max_size" android:layout_alignParentEnd="true" />
+</RelativeLayout>

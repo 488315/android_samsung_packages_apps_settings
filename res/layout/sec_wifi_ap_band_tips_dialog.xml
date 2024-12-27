@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/band_2ghz_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/wifi_ap_dialog_title_text_color" android:id="@id/band_2ghz_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_band_24ghz" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/wifi_ap_dialog_body_text_color" android:id="@id/band_2ghz_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_2ghz_tip_summary_text" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/band_2ghz_5ghz_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/wifi_ap_dialog_title_text_color" android:id="@id/band_2ghz_5ghz_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_band_2ghz_and_5ghz" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/wifi_ap_dialog_body_text_color" android:id="@id/band_2ghz_5ghz_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_2ghz_5ghz_tip_summary_text" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/band_5ghz_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/wifi_ap_dialog_title_text_color" android:id="@id/band_5ghz_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_band_5ghz" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/wifi_ap_dialog_body_text_color" android:id="@id/band_5ghz_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_5ghz_tip_summary_text" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/band_6ghz_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/wifi_ap_dialog_title_text_color" android:id="@id/band_6ghz_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_wifi_ap_sixghz_prefered" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/wifi_ap_dialog_body_text_color" android:id="@id/band_6ghz_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_6ghz_tip_summary_text" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

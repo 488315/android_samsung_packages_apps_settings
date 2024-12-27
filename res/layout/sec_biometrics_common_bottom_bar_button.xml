@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ok_btn_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bottom_divider" android:layout_width="fill_parent" style="@style/sec_widget_bottom_bar_divider" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/one_button_container" android:layout_width="fill_parent" android:paddingStart="@dimen/list_item_start_padding" android:paddingEnd="@dimen/list_item_end_padding" style="@style/SecurityPreferenceButtonContainer">
+        <com.samsung.android.settings.widget.SecBottomBarButton android:textSize="@dimen/bottom_btn_font_size" android:id="@id/button_ok" android:layout_width="fill_parent" android:text="@string/sec_biometrics_common_done" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</RelativeLayout>

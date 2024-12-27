@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:orientation="vertical" android:id="@id/vswl_glif_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/vswl_contents_area" android:clipChildren="false" android:layout_width="@dimen/vswl_contents_area_width" android:layout_height="@dimen/vswl_contents_area_height" android:layout_centerInParent="true">
+        <TextView android:id="@id/sud_layout_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vswl_title_area_start_margin" android:text="" android:layout_marginHorizontal="@dimen/vswl_title_area_start_margin" style="@style/vswl_description_text" />
+        <FrameLayout android:id="@id/vswl_layout_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ScrollView android:id="@id/vswl_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

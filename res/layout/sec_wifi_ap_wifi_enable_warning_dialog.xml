@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_alert_dialog_padding_left_right" android:paddingBottom="@dimen/sec_alert_dialog_padding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_alert_dialog_padding_left_right" android:paddingEnd="@dimen/sec_alert_dialog_padding_left_right">
+        <TextView android:textSize="@dimen/sec_wifi_dialog_title_text_size" android:textColor="@color/sec_tips_title_text_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_alert_dialog_edit_label_padding_start" android:text="@string/wifi_enable_warning_title" android:fontFamily="sec-medium" />
+        <TextView android:textSize="@dimen/sec_wifi_dialog_content_text_size" android:textColor="@color/sec_widget_alert_dialog_text_color" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_enable_warning" />
+        <LinearLayout android:id="@id/wifi_ap_wifi_enable_warning_do_not_show" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_list_dialog_padding_top" android:layout_marginBottom="0.0dip" style="@style/wifi_dialog_checkbox_layout_style">
+            <CheckBox android:theme="@style/Theme.Settings" android:id="@id/checkbox" android:text="@string/wifi_ap_do_not_show_again" style="@style/wifi_dialog_checkbox_style" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

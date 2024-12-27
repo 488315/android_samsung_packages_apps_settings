@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/main_layout" android:background="@color/sec_widget_round_and_bgcolor" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/sec_dnd_status_text_color" android:id="@id/title" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@android:color/transparent" style="@style/body_text_style" />
+</LinearLayout>

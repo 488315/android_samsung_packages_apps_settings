@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/container" android:background="@color/device_info_regulatory_info_background" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/regulatoryInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/regulatory_info" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/regulatory_labels" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_id"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SecPreference android:title="@string/reset_device_id" android:key="reset_device_id" />
+    <SecSwitchPreference android:title="@string/allow_device_id" android:key="allow_device_id" />
+</PreferenceScreen>

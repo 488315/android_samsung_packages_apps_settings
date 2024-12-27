@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_broadcast_source_header_layout" android:selectable="false" android:key="key_broadcast_source_header" settings:controller="com.samsung.android.settings.bluetooth.auracast.SecBroadcastSourceHeaderController" settings:searchable="false" />
+    <PreferenceCategory android:layout="@layout/sec_bluetooth_auracast_empty_category" android:title="" android:key="key_broadcast_source_info">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_broadcast_source_info_item_layout" android:selectable="false" android:key="key_broadcast_name" settings:controller="com.samsung.android.settings.bluetooth.auracast.SecBroadcastSourceInfoController" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_broadcast_source_info_item_layout" android:selectable="false" android:key="key_broadcast_code" settings:controller="com.samsung.android.settings.bluetooth.auracast.SecBroadcastSourceInfoController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/sec_bluetooth_auracast_empty_category" android:title="" android:key="key_improve_compatibility_info">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_broadcast_source_toggle_button_layout" android:selectable="false" android:key="key_improve_compatibility" settings:controller="com.samsung.android.settings.bluetooth.auracast.SecBluetoothLeBroadcastSourceBroadcastCompatibilityController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:textColor="@color/sec_bluetooth_auracast_device_title_text_color" android:layout="@layout/sec_bluetooth_auracast_devices_category" android:title="@string/sec_bluetooth_source_devices" android:key="key_connected_devices_title">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_auracast_devices_layout" android:key="key_connected_devices_list" />
+    </PreferenceCategory>
+    <PreferenceCategory android:background="@color/sec_bluetooth_auracast_background_color" android:layout="@layout/sec_bluetooth_auracast_empty_category" android:title="" android:key="key_no_device_category">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_broadcast_source_no_device_description_layout" android:key="key_no_device_description" />
+    </PreferenceCategory>
+</PreferenceScreen>

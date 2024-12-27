@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/private_space_delete_nav" app:startDestination="@id/ps_delete_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_ps_delete" android:name="com.android.settings.privatespace.delete.PrivateSpaceDeleteFragment" android:id="@id/ps_delete_fragment">
+        <action android:id="@id/action_authenticate_delete" app:destination="@id/ps_delete_progress_fragment" />
+    </fragment>
+    <fragment android:label="fragment_ps_auto_advance" android:name="com.android.settings.privatespace.delete.PrivateSpaceDeletionProgressFragment" android:id="@id/ps_delete_progress_fragment" />
+</navigation>

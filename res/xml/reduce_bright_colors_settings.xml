@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/reduce_bright_colors_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/reduce_brightness_desc" android:key="description_preference" settings:searchable="false" />
+    <PreferenceCategory android:key="empty_category" />
+    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference android:persistent="false" android:title="@string/intensity_seekbar_title" android:key="rbc_intensity" settings:seekBarMode="expand" />
+    <SwitchPreference android:persistent="false" android:title="@string/reduce_bright_persist_preference_title" android:key="rbc_persist" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/entity_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecBluetoothEntityHeader">
+        <ImageView android:layout_gravity="center" android:id="@id/aa_header_icon" android:layout_width="@dimen/sec_bluetooth_profile_header_app_icon_size" android:layout_height="@dimen/sec_bluetooth_profile_header_app_icon_size" android:antialias="true" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/aa_content_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/aa_header_icon" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/aa_header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" android:textAlignment="center" style="@style/TextAppearance.EntityBluetoothHeaderTitle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bottom_divider" android:layout_width="fill_parent" style="@style/sec_widget_bottom_bar_divider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:weightSum="0.0" style="@style/sec_widget_bottom_bar_container">
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/back_button" android:layout_width="fill_parent" android:text="@string/back_button_label" style="@style/sec_widget_bottom_bar_button" />
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/skip_button" android:visibility="gone" android:layout_width="fill_parent" android:text="@null" style="@style/sec_widget_bottom_bar_button" />
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/next_button" android:layout_width="fill_parent" android:text="@string/next_button_label" style="@style/sec_widget_bottom_bar_button" />
+    </LinearLayout>
+</RelativeLayout>

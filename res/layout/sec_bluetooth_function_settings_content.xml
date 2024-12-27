@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.settings.widget.SwitchBar android:theme="?switchBarTheme" android:id="@id/switch_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_switchbar_margin_top" android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom" />
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/frame_layout" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:paddingTop="@dimen/sec_bluetooth_dual_play_settings_content_padding_top" android:paddingBottom="@dimen/sec_bluetooth_switchbar_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_switchbar_margin_start" android:paddingEnd="@dimen/sec_widget_switchbar_margin_start">
+                <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_switchbar_margin_start" android:paddingEnd="@dimen/sec_widget_switchbar_margin_start">
+                <TextView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_dual_play_settings_content_padding_top" android:textAlignment="viewStart" android:breakStrategy="simple" style="@style/body_text_style" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

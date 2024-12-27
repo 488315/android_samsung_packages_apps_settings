@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/button_sellect_all" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize">
+        <RelativeLayout android:gravity="start" android:id="@id/fingerprint_select_all_wrapper" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <CheckBox android:id="@id/toggle_selection_fingerprint_check" android:focusable="true" android:clickable="true" android:layout_width="@dimen/sec_fingerprint_actionbar_all_checkbox_width_height" android:layout_height="@dimen/sec_fingerprint_actionbar_all_checkbox_width_height" android:layout_marginTop="@dimen/sec_fingerprint_actionbar_all_checkbox_margintop_port" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/sec_fingerprint_actionbar_all_checkbox_text_size" android:textColor="@color/sec_actionbar_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/number_selected_fingerprint_all" android:clickable="true" android:layout_width="@dimen/sec_fingerprint_actionbar_all_checkbox_text_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_fingerprint_actionbar_all_checkbox_text_margin_bottom" android:text="@string/sec_fingerprint_selected_all" android:singleLine="true" android:layout_alignParentBottom="true" android:marqueeRepeatLimit="marquee_forever" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/sec_actionbar_text_color" android:id="@id/number_selected_fingerprint_text" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:layout_marginStart="@dimen/sec_fingerprint_actionbar_selected_fingerprint_text_size" android:layout_toEndOf="@id/button_sellect_all" style="@style/fingerprint_selection_text_style" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bubbles_app_toggle_title" android:key="app_bubble_notification_settings" settings:topLevelPreferenceKey="top_level_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:key="pref_app_header" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="1.0px" settings:roundStroke="top_left|top_right" />
+    <PreferenceCategory>
+        <com.samsung.android.settings.notification.RadioPreference android:title="@string/bubble_app_setting_all" android:key="bubble_all" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_icon_preference_divider" />
+        <com.samsung.android.settings.notification.RadioPreference android:title="@string/bubble_app_setting_selected" android:key="bubble_selected" settings:allowDividerAbove="false" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_icon_preference_divider" />
+        <com.samsung.android.settings.notification.RadioPreference android:title="@string/bubble_app_setting_none" android:key="bubble_none" settings:allowDividerAbove="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:visibility="gone" android:title="@string/bubble_app_setting_selected_conversation_title" android:key="bubble_conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+</PreferenceScreen>

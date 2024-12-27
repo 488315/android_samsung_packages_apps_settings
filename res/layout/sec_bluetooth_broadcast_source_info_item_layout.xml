@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/sec_bluetooth_auracast_item_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/entity_header" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_bluetooth_source_info_top_bottom_margin" android:paddingBottom="@dimen/sec_bluetooth_source_info_top_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_bluetooth_source_info_start_end_margin" android:paddingEnd="@dimen/sec_bluetooth_source_info_start_end_margin">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/bluetooth_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec" android:textAlignment="textStart" android:textFontWeight="400" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/bluetooth_header_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Temp Text" android:fontFamily="sec" android:textAlignment="textStart" android:textFontWeight="400" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/widget_frame" android:layout_width="@dimen/sec_bluetooth_source_device_list_checkbox_layout" android:layout_height="@dimen/sec_bluetooth_source_device_list_checkbox_layout">
+            <ImageView android:layout_gravity="center" android:id="@id/bluetooth_header_code_edit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bluetooth_edit" android:tint="@color/sec_bluetooth_auracast_edit_icon_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

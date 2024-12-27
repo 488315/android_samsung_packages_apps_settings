@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_tips_layout_side_margin" android:paddingEnd="@dimen/sec_tips_layout_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@android:id/icon" android:layout_width="@dimen/sec_master_clear_removable_preload_apps_icon_size" android:layout_height="@dimen/sec_master_clear_removable_preload_apps_icon_size" android:layout_marginEnd="@dimen/sec_master_clear_removable_preload_apps_icon_end_margin" />
+    <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_master_clear_account_title_text_top_bottom_margin" android:layout_marginBottom="@dimen/sec_master_clear_account_title_text_top_bottom_margin" style="@style/sec_main_clear_account_body_text_style" />
+</LinearLayout>

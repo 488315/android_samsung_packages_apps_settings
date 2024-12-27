@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tap_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/tap_stand_by" android:visibility="visible" android:layout_width="@dimen/touch_experience_circle_size" android:layout_height="@dimen/touch_experience_circle_size" android:src="@drawable/circle_stand_by" />
+    <ImageView android:layout_gravity="center" android:id="@id/tap_success" android:visibility="invisible" android:layout_width="@dimen/touch_experience_circle_size" android:layout_height="@dimen/touch_experience_circle_size" android:src="@drawable/circle_cue_tap" />
+    <ImageView android:layout_gravity="center" android:id="@id/tap_ignore" android:visibility="invisible" android:layout_width="91.5dip" android:layout_height="91.5dip" android:src="@drawable/circle_cue_experience_ignore" />
+    <ImageView android:layout_gravity="center" android:id="@id/tap_time_up" android:visibility="invisible" android:layout_width="@dimen/touch_experience_success_circle_size" android:layout_height="@dimen/touch_experience_success_circle_size" android:src="@drawable/circle_success" />
+    <ImageView android:layout_gravity="center" android:id="@id/tap_fail" android:visibility="invisible" android:layout_width="@dimen/touch_experience_circle_size" android:layout_height="@dimen/touch_experience_circle_size" android:src="@drawable/circle_fail" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_developer_wifi_diagnosis" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+            <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_developer_network_diagnosis" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+        </com.google.android.material.tabs.TabLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/uwb_weekly_report_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/sec_uwb_labs_weekly_report_progressbar_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Weekly Report" android:fontFamily="sec-400" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/tab_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+            <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/tab_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Usage" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+        </com.google.android.material.tabs.TabLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <com.samsung.android.settings.uwb.labs.view.statistics.Chart.WeeklyTimeUsageBarChart android:id="@id/time_barchart" android:layout_width="fill_parent" android:layout_height="188.0dip" />
+            <com.samsung.android.settings.uwb.labs.view.statistics.Chart.WeeklyTimeUsageBarChart android:id="@id/usage_barchart" android:layout_width="fill_parent" android:layout_height="188.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="11.0sp" android:textColor="@color/sec_uwb_labs_weekly_report_date_text_color" android:id="@id/weekly_report_date_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="Mon. April 8" android:fontFamily="sec" android:textFontWeight="700" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/graph_info_image_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:textColor="@color/sec_uwb_labs_gui_text_1" android:id="@id/graph_info_tv_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/graph_info_image_0" android:paddingStart="16.0dip" style="@style/uwbLabsWeeklyReportDateTextStyle" />
+            <TextView android:textColor="@color/sec_uwb_labs_gui_text_1" android:id="@id/graph_info_tv_0_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsWeeklyReportDateValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/graph_info_image_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:textColor="@color/sec_uwb_labs_gui_text_1" android:id="@id/graph_info_tv_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/graph_info_image_1" android:paddingStart="16.0dip" style="@style/uwbLabsWeeklyReportDateTextStyle" />
+            <TextView android:textColor="@color/sec_uwb_labs_gui_text_1" android:id="@id/graph_info_tv_1_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsWeeklyReportDateValueTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/graph_info_image_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:textColor="@color/sec_uwb_labs_gui_text_1" android:id="@id/graph_info_tv_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toRightOf="@id/graph_info_image_2" android:paddingStart="16.0dip" style="@style/uwbLabsWeeklyReportDateTextStyle" />
+            <TextView android:textColor="@color/sec_uwb_labs_gui_text_1" android:id="@id/graph_info_tv_2_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsWeeklyReportDateValueTextStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

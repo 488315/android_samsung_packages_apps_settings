@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_tether_settings_title_all"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreferenceScreen android:persistent="false" android:title="@string/mobileap" android:key="wifi_ap_settings" android:fragment="com.samsung.android.settings.wifi.mobileap.WifiApSettings" settings:controller="com.samsung.android.settings.connection.tether.SecWifiTetherPreferenceController">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.settings.wifi.mobileap.WifiApSettings" />
+    </SecSwitchPreferenceScreen>
+    <SecSwitchPreferenceScreen android:title="@string/bluetooth_tether_checkbox_text" android:key="enable_bluetooth_tethering" android:fragment="com.samsung.android.settings.bluetooth.tethering.BluetoothTetheringSettings" settings:controller="com.samsung.android.settings.connection.tether.SecBluetoothTetherPreferenceController">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.settings.bluetooth.tethering.BluetoothTetheringSettings" />
+    </SecSwitchPreferenceScreen>
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/usb_tethering_button_text" android:key="usb_tether_settings" settings:controller="com.samsung.android.settings.connection.tether.SecUsbTetherPreferenceController" />
+    <SecSwitchPreference android:title="@string/ethernet_tether_checkbox_text" android:key="enable_ethernet_tethering" android:summary="@string/sec_ethernet_tethering_subtext" settings:controller="com.samsung.android.settings.connection.tether.SecEthernetTetherPreferenceController" />
+    <PreferenceCategory>
+        <com.samsung.android.settings.widget.SecClickableTextPreference android:key="disabled_on_data_saver" settings:controller="com.samsung.android.settings.connection.tether.SecTetherDataSaverFooterPreferenceController" style="@style/description_text" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <SecPreferenceScreen android:key="family_sharing" settings:controller="com.samsung.android.settings.connection.tether.SecFamilySharingPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

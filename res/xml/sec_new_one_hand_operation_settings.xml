@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/onehand_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="1.0px" settings:roundStroke="none" />
+    <com.samsung.android.settings.widget.SecHelpAnimationLayoutPreference android:layout="@layout/sec_guide" android:key="onehand_mode_preview" />
+    <SecPreferenceCategory android:title="@string/onehand_settings_using_category" android:key="reduce_screen_size" settings:controller="com.samsung.android.settings.usefulfeature.controller.ReduceScreenSizeSingleChoicePreferenceController" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/onehand_settings_using_gesture" android:key="gesture_type" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/onehand_settings_using_button" android:key="button_type" settings:searchable="false" />
+</PreferenceScreen>

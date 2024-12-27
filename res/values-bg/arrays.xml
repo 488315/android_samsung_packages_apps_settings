@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Няма</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP или CHAP</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Стандартно ограничение</item>
+        <item>Няма процеси на заден план</item>
+        <item>Най-много 1 процес</item>
+        <item>Най-много 2 процеса</item>
+        <item>Най-много 3 процеса</item>
+        <item>Най-много 4 процеса</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>16 бита/дискрет</item>
+        <item>24 бита/дискрет</item>
+        <item>32 бита/дискрет</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>16 бита/дискрет</item>
+        <item>24 бита/дискрет</item>
+        <item>32 бита/дискрет</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Оптимизирано за качество на звука</item>
+        <item>Балансирано качество на звука и връзката</item>
+        <item>Оптимизирано за качество на връзката</item>
+        <item>Възможно най-добро качество (адаптивна скорост на предаване)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Оптимизирано за качество на звука (990 или 909 кб/сек)</item>
+        <item>Балансирано качество на звука и връзката (660 или 606 кб/сек)</item>
+        <item>Оптимизирано за качество на връзката (330 или 303 кб/сек)</item>
+        <item>Възможно най-добро качество (адаптивна скорост на предаване)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>44,1 кХц</item>
+        <item>48 кХц</item>
+        <item>88,2 кХц</item>
+        <item>96 кХц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>44,1 кХц</item>
+        <item>48 кХц</item>
+        <item>88,2 кХц</item>
+        <item>96 кХц</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>SBC</item>
+        <item>Разширено аудиокодиране (AAC)</item>
+        <item>Аудио: aptX™ от Qualcomm®</item>
+        <item>Аудио: aptX™ HD от Qualcomm®</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Използване на сист. избор (стандартно)</item>
+        <item>SBC</item>
+        <item>Разширено аудиокодиране (AAC)</item>
+        <item>Аудио: aptX™ от Qualcomm®</item>
+        <item>Аудио: aptX™ HD от Qualcomm®</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>– активно</item>
+        <item>– активно (мултимедия)</item>
+        <item>– активно (телефон)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (основно)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_cast_timeout_entries">
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>30 минути</item>
+        <item>Да не се прекъсва връзката</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (по подразбиране)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>По подразбиране за системата: %d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_pbap_property_picture_entries">
+        <item>Да</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="bluetooth_sap_activation_entries">
+        <item>По подразбиране (без ефект)</item>
+        <item>Принудително включване на SAP</item>
+        <item>Принудително изключване на SAP</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Деактивирано</item>
+        <item>Филтрирането е активирано</item>
+        <item>Активирано</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>Запазване само на ACL заглавките</item>
+        <item>Филтриране на мултимедийните пакети A2DP</item>
+        <item>Филтриране на канала RFCOMM</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Деактивиране</item>
+        <item>Попълване с низ от знаци</item>
+        <item>Запазване само на заглавката</item>
+        <item>Пълно премахване</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>По подразбиране</item>
+        <item>Няма</item>
+        <item>Контур</item>
+        <item>Падаща сянка</item>
+        <item>Повдигнат</item>
+        <item>Депресиран</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Много малък</item>
+        <item>Малък</item>
+        <item>Нормален</item>
+        <item>Голям</item>
+        <item>Много голям</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>По подразбиране</item>
+        <item>Бяло върху черно</item>
+        <item>Черно върху бяло</item>
+        <item>Жълто върху черно</item>
+        <item>Жълто върху синьо</item>
+        <item>По избор</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>По подразбиране</item>
+        <item>Sans serif</item>
+        <item>Sans serif condensed</item>
+        <item>Sans serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Обичайни</item>
+        <item>Курсив</item>
+        <item>Малки букви</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Подобрени цветове</item>
+        <item>Естествени цветове, без подобрения</item>
+        <item>Цветове, оптимизирани за дигитално съдържание</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Ярък (по подразбиране)</item>
+        <item>Естествен</item>
+        <item>Стандартен</item>
+    </string-array>
+    <string-array name="data_usage_billing_cycle_summary">
+        <item>1-вия ден от всеки месец</item>
+        <item>2-рия ден от всеки месец</item>
+        <item>3-тия ден от всеки месец</item>
+        <item>4-тия ден от всеки месец</item>
+        <item>5-ия ден от всеки месец</item>
+        <item>6-ия ден от всеки месец</item>
+        <item>7-ия ден от всеки месец</item>
+        <item>8-ия ден от всеки месец</item>
+        <item>9-ия ден от всеки месец</item>
+        <item>10-ия ден от всеки месец</item>
+        <item>11-ия ден от всеки месец</item>
+        <item>12-ия ден от всеки месец</item>
+        <item>13-ия ден от всеки месец</item>
+        <item>14-ия ден от всеки месец</item>
+        <item>15-ия ден от всеки месец</item>
+        <item>16-ия ден от всеки месец</item>
+        <item>17-ия ден от всеки месец</item>
+        <item>18-ия ден от всеки месец</item>
+        <item>19-ия ден от всеки месец</item>
+        <item>20-ия ден от всеки месец</item>
+        <item>21-вия ден от всеки месец</item>
+        <item>22-рия ден от всеки месец</item>
+        <item>23-тия ден от всеки месец</item>
+        <item>24-тия ден от всеки месец</item>
+        <item>25-ия ден от всеки месец</item>
+        <item>26-ия ден от всеки месец</item>
+        <item>27-ия ден от всеки месец</item>
+        <item>28-ия ден от всеки месец</item>
+        <item>29-ия ден от всеки месец</item>
+        <item>30-тия ден от всеки месец</item>
+        <item>31-вия ден от всеки месец</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Изкл.</item>
+        <item>Области за преизчертаване: Показв.</item>
+        <item>Показване на областите за деутеранопия</item>
+    </string-array>
+    <string-array name="dex_timeout_entries">
+        <item>15 секунди</item>
+        <item>30 секунди</item>
+        <item>1 минута</item>
+        <item>2 минути</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>20 минути</item>
+        <item>30 минути</item>
+        <item>60 минути</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Без</item>
+        <item>Logcat</item>
+        <item>Systrace (Графика)</item>
+        <item>Извикване на стека при glGetError</item>
+    </string-array>
+    <string-array name="gpuwatch_rendering_api_entries">
+        <item>Vulkan</item>
+        <item>OpenGL</item>
+    </string-array>
+    <string-array name="gpuwatch_widget_positions">
+        <item>Горе – Вляво</item>
+        <item>Горе – Хоризонтално в центъра</item>
+        <item>Горе – Вдясно</item>
+        <item>Вертикално в центъра – Вляво</item>
+        <item>Вертикално в центъра – Вдясно</item>
+        <item>Долу – Вляво</item>
+        <item>Долу – Хоризонтално в центъра</item>
+        <item>Долу – Вдясно</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Никога да не се използва проверка с HDCP</item>
+        <item>Да се използва проверка с HDCP само за DRM съдържание</item>
+        <item>Винаги да се използва проверка с HDCP</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Никога да не се проверява</item>
+        <item>Проверка само за DRM съдържание</item>
+        <item>Винаги да се проверява</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Винаги изключено</item>
+        <item>1 секунда</item>
+        <item>3 секунди</item>
+        <item>5 секунди</item>
+        <item>10 секунди</item>
+        <item>15 секунди</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Веднага</item>
+        <item>5 секунди</item>
+        <item>15 секунди</item>
+        <item>30 секунди</item>
+        <item>1 минута</item>
+        <item>2 минути</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>30 минути</item>
+    </string-array>
+    <string-array name="mouse_pointer_color_type">
+        <item>Бели</item>
+        <item>Черен</item>
+        <item>Тюркоазено</item>
+        <item>Жълт</item>
+        <item>Светлочервено</item>
+        <item>Светло виолетово</item>
+        <item>Светлосиньо</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Няма</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="num_allowed_devices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Няма</item>
+        <item>480p</item>
+        <item>480p (сигурно)</item>
+        <item>720p</item>
+        <item>720p (сигурно)</item>
+        <item>1080p</item>
+        <item>1080p (сигурно)</item>
+        <item>4K</item>
+        <item>4K (сигурно)</item>
+        <item>4K (с увеличен мащаб)</item>
+        <item>4K (с увеличен мащаб, сигурно)</item>
+        <item>720p, 1080p (Dual Screen)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Нормално</item>
+        <item>Умерено</item>
+        <item>Ниско</item>
+        <item>Критично</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 секунди</item>
+        <item>30 секунди</item>
+        <item>1 минута</item>
+        <item>2 минути</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>30 минути</item>
+    </string-array>
+    <string-array name="sec_bt_stack_log_level_entries">
+        <item>Многословен</item>
+        <item>Отстраняване на грешки</item>
+        <item>Информация</item>
+        <item>Предупреждение</item>
+        <item>Грешка</item>
+    </string-array>
+    <string-array name="sec_samsung_account_benefit_message_phone">
+        <item>Намирайте телефона, ако бъде изгубен.</item>
+        <item>Синхронизирайте приложения и настройки на устройствата си.</item>
+        <item>Споделяйте файлове с приятели, семейството и с други устройства.</item>
+    </string-array>
+    <string-array name="sec_samsung_account_benefit_message_tablet">
+        <item>Намирайте таблета, ако бъде изгубен.</item>
+        <item>Копирайте и поставяйте между телефона и таблета.</item>
+        <item>Автоматично превключвайте Buds между устройствата.</item>
+        <item>Отговаряйте на повиквания и текстови съобщения на таблета.</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Винаги питай</item>
+        <item>Никога не разрешавай</item>
+        <item>Винаги разрешавай</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Изключено</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Изключено</item>
+        <item>Рег. буфер – 64 хил.</item>
+        <item>Рег. буфер – 256 хил.</item>
+        <item>Рег. буфер – 1 млн.</item>
+        <item>Рег. буфер – 4 млн.</item>
+        <item>Регистрационен буфер – 8 млн.</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Изключено</item>
+        <item>64 КБ</item>
+        <item>256 КБ</item>
+        <item>1 МБ</item>
+        <item>4 МБ</item>
+        <item>8 МБ</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Изкл.</item>
+        <item>Всички регистрационни буфери</item>
+        <item>Всички регистрационни буфери освен тези за радиото</item>
+        <item>само регистрационния буфер на ядрото</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Изкл.</item>
+        <item>Всички</item>
+        <item>Вс. без радио</item>
+        <item>само ядрото</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Изключено</item>
+        <item>Начертаване в синьо на неправоъгълна област</item>
+        <item>Зелено за тествани команди за начертаване</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Изкл.</item>
+        <item>На екрана като чертички</item>
+        <item>След adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>60%</item>
+        <item>80%</item>
+        <item>100%</item>
+        <item>150%</item>
+        <item>200%</item>
+        <item>250%</item>
+        <item>300%</item>
+        <item>350%</item>
+        <item>400%</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Зареждане</item>
+        <item>MTP (протокол за пренос на мултимедия)</item>
+        <item>PTP (протокол за пренос на картини)</item>
+        <item>RNDIS (Ethernet през USB)</item>
+        <item>Аудиоизточник</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Няма</item>
+        <item>Ръчно</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Изключен</item>
+        <item>Инициализиране…</item>
+        <item>Свързване…</item>
+        <item>Свързано</item>
+        <item>Таймаут</item>
+        <item>Неуспешно</item>
+    </string-array>
+    <string-array name="wifi_ap_broadcast_channel_entries">
+        <item>Автоматично</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_mac_address_type_phone_entries">
+        <item>Рандомизиран MAC адрес</item>
+        <item>MAC на телефона</item>
+    </string-array>
+    <string-array name="wifi_ap_mac_address_type_tablet_entries">
+        <item>Рандомизиран MAC адрес</item>
+        <item>MAC адрес на таблета</item>
+    </string-array>
+    <string-array name="wifi_ap_owe_security_type_entries">
+        <item>Отваряне</item>
+        <item>Enhanced Open</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
+        <item>Отваряне</item>
+        <item>Enhanced Open</item>
+        <item>WPA2-Personal</item>
+        <item>WPA2/WPA3-Personal</item>
+        <item>WPA3-Personal</item>
+    </string-array>
+    <string-array name="wifi_ap_security_type_entries">
+        <item>Отваряне</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
+        <item>Безкрайно време за изчакване</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>20 минути</item>
+        <item>30 минути</item>
+        <item>60 минути</item>
+    </string-array>
+    <string-array name="wifi_ap_wifi_sharing">
+        <item>Включване на Wi-Fi споделяне</item>
+        <item>Изключване на Wi-Fi споделяне</item>
+    </string-array>
+    <string-array name="wifi_ap_wpa3_security_type_entries">
+        <item>Отваряне</item>
+        <item>WPA2-Personal</item>
+        <item>WPA2/WPA3-Personal</item>
+        <item>WPA3-Personal</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Автоматично</item>
+        <item>Ръчно</item>
+        <item>Винаги питай</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Статичен</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Откриване автоматично</item>
+        <item>Разглеждане като измерено</item>
+        <item>Разглеждане като неизмерено</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Свързано</item>
+        <item>Поканени.</item>
+        <item>Свързването е неусп.</item>
+        <item>Чукнете тук, за да се свържете.</item>
+        <item>Извън обхват</item>
+        <item>Свързано с друго устройство</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Няма</item>
+        <item>Ръчно</item>
+        <item>Автоматично конфигуриране</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Сканиране…</item>
+        <item>Свързване…</item>
+        <item>Удостоверяване…</item>
+        <item>Получаване на IP адрес…</item>
+        <item>Свързан</item>
+        <item>Преустановено</item>
+        <item>Изключване…</item>
+        <item>Изключен</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Качеството на вашата Интернет връзка се проверява…</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Сканира се...</item>
+        <item>Установява се връзка с/ъс %1$s...</item>
+        <item>Удостоверява се с/ъс %1$s...</item>
+        <item>IP адресът от %1$s се получава...</item>
+        <item>Установена е връзка с(ъс) %1$s</item>
+        <item>Прекъсната</item>
+        <item>Изключва се от %1$s...</item>
+        <item>Изкл.</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Сканира се…</item>
+        <item>Установява се връзка…</item>
+        <item>Удостоверява се…</item>
+        <item>IP адресът се извлича…</item>
+        <item>Установена е връзка</item>
+        <item>Спряно</item>
+        <item>Връзката се прекратява…</item>
+        <item>Няма връзка</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Анимацията е изключена</item>
+        <item>Скала на анимацията .5x</item>
+        <item>Скала на анимацията 1x</item>
+        <item>Скала на анимацията 1.5x</item>
+        <item>Скала на анимацията 2x</item>
+        <item>Скала на анимацията 5x</item>
+        <item>Скала на анимацията 10x</item>
+    </string-array>
+</resources>

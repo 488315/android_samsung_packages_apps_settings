@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/sec_biometrics_lock_header_margin_top" android:paddingBottom="@dimen/sec_biometrics_lock_header_margin_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="@dimen/sec_biometrics_disclaimer_width_ratio">
+        <ImageView android:id="@id/icon_image" android:layout_width="@dimen/sec_biometrics_disclaimer_icon_width" android:layout_height="@dimen/sec_biometrics_disclaimer_icon_height" android:tint="@color/sec_biometrics_common_security_notice_common_title_text_color" />
+        <TextView android:textSize="@dimen/sec_biometrics_lock_title_font_size" android:textColor="@color/sec_biometrics_common_security_notice_common_title_text_color" android:gravity="center" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_biometrics_set_secure_screen_lock" style="@style/SecBiometricsGuideCommonTitleStyle" />
+        <TextView android:textColor="@color/sec_biometrics_choose_lock_header_description_color" android:gravity="start" android:id="@id/description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_lock_title_margin_bottom" style="@style/SecBiometricsGuideCommonDescTextStyle" />
+    </LinearLayout>
+</LinearLayout>

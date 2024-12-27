@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?android:statusBarColor" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="2.0dip" android:color="?android:colorBackground" />
+            <solid android:color="?android:colorBackground" />
+            <corners android:radius="@dimen/sec_suggestion_card_rounded_corner_size" />
+        </shape>
+    </item>
+</layer-list>

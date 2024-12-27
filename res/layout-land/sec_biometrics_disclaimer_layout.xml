@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/biometrics_disclaimer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/biometrics_disclaimer_total" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.76" android:layout_above="@id/bottom_layout">
+        <androidx.core.widget.NestedScrollView android:scrollbarStyle="insideInset" android:id="@id/biometrics_disclaimer_body" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:overScrollMode="always" android:paddingStart="@dimen/sec_biometrics_disclaimer_padding" android:paddingEnd="@dimen/sec_biometrics_disclaimer_padding">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/biometrics_disclaimer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_fingerprint_tip_margin_top">
+                    <TextView android:gravity="center" android:id="@id/biometrics_disclaimer_title_text" android:layout_width="fill_parent" android:layout_height="@dimen/sec_biometrics_disclaimer_title_height_land" android:maxLines="1" style="@style/SecBiometricsGuideCommonTitleStyle" />
+                </LinearLayout>
+                <TextView android:gravity="start" android:id="@id/biometrics_disclaimer_main_guide_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_fingerprint_tip_margin_top" style="@style/SecBiometricsGuideCommonDescTextStyle" />
+                <RelativeLayout android:id="@id/biometrics_disclaimer_more_desc_fingerprint" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/sec_biometrics_disclaimer_fingerprint_description" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/biometrics_disclaimer_more_desc_face" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/sec_biometrics_disclaimer_face_description" />
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.24">
+        <include android:id="@id/continueButtonContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/sec_biometrics_common_raised_button" />
+        <include layout="@layout/sec_biometrics_common_knox_icon" />
+    </RelativeLayout>
+</LinearLayout>

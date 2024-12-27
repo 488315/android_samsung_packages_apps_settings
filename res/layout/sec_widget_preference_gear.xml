@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?listDividerColor" android:layout_width="@dimen/sesl_switch_divider_height" android:layout_height="22.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/settings_button_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/settings_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/sec_widget_preference_gear_icon_size" android:layout_height="@dimen/sec_widget_preference_gear_icon_size" android:src="@drawable/sec_st_list_icon_setting" android:tint="@color/sec_widget_list_item_config_normal_color" android:contentDescription="@string/settings_button" android:layout_marginStart="@dimen/sec_widget_preference_gear_icon_start_padding" android:layout_marginEnd="@dimen/sec_widget_preference_gear_icon_end_padding" />
+    </LinearLayout>
+</LinearLayout>

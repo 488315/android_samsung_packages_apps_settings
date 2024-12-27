@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:background="@color/sec_wifi_action_bar_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/arrow" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/sec_wifi_expander_close" android:layout_marginEnd="5.0dip" android:backgroundTint="@color/sec_wifi_arrow_icon_color" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_subtitle_text_color" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_view_more" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="600" />
+</LinearLayout>

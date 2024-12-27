@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/sec_intelligence_service_ic_size" android:layout_height="@dimen/sec_intelligence_service_ic_size" android:src="@drawable/sec_ic_launcher_settings" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_intelligence_service_item_height_min" android:layout_marginStart="@dimen/sec_intelligence_service_ic_margin_start">
+        <TextView android:textSize="@dimen/sec_intelligence_service_title_font_size" android:textColor="@color/sec_intelligence_service_title_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/sec_intelligence_service_title_height_min" android:fontFamily="sec" android:textFontWeight="400" />
+        <TextView android:textSize="@dimen/sec_intelligence_service_summary_font_size" android:textColor="@color/sec_intelligence_service_summary_color" android:id="@id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/sec_intelligence_service_summary_height_min" android:fontFamily="sec" android:textFontWeight="400" />
+    </LinearLayout>
+</LinearLayout>

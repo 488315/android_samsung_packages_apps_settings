@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/nfcosaifukeitai_lock_explained" android:paddingTop="@dimen/sec_widget_body_text_padding_top" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nfcosaifukeitai_unlock_explained" android:fontFamily="sec-roboto-light" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+    </LinearLayout>
+</ScrollView>

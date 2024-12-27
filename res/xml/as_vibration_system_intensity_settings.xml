@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_vibration_system_title" settings:keywords="@string/keywords_sound_system_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_system_vibration_intensity" android:key="system_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityTouchVibrationController" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="system_vibration_category" />
+    <SecPreferenceCategory android:title="@string/sec_vibration_feedback" android:key="system_vibration_category">
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_touch_sounds_title" android:key="vibrate_on_touch" settings:controller="com.samsung.android.settings.asbase.vibration.SecSoundVibrationOnTouchController" settings:keywords="@string/sec_touch_sounds_title" />
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_dial_pad_tones_title" android:key="dialing_keypad_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecSoundVibrationDialingKeypadController" settings:keywords="@string/sec_dial_pad_tones_title" />
+        <SecSwitchPreference android:persistent="false" android:key="keyboard_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecSoundKeyboardVibrationController" settings:keywords="@string/keywords_sec_keyboard_vibration" />
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_charging_sounds_title" android:key="charging_feedback_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecSoundVibrationChargingFeedbackController" settings:keywords="@string/sec_charging_sounds_title" />
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_navigation_gestures_title" android:key="navigation_gestures_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecSoundVibrationNavigationGesturesController" />
+        <SecSwitchPreference android:persistent="false" android:title="@string/sec_camera_feedback_title" android:key="camera_feedback_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecSoundVibrationCameraFeedbackController" />
+    </SecPreferenceCategory>
+    <com.samsung.android.settings.asbase.widget.SecSoundLinkablePreference android:persistent="false" android:title="@string/sec_sound_system_sound_feedback_category" android:key="sound_feedback_link" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationLinkableController" settings:keywords="@string/sec_sound_system_sound_feedback_category" style="@style/description_text" />
+</PreferenceScreen>

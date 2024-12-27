@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/vi_container_for_style" android:layout_width="fill_parent" android:layout_height="@dimen/style_animation_container_size">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/vi_taskbar_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/taskbar_style_animation_top_margin" android:layout_marginBottom="@dimen/taskbar_style_animation_bottom_margin" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/sec_floating_taskbar_light" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_view_for_stay_on_screen" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/taskbar_style_animation_top_margin" android:layout_marginBottom="@dimen/taskbar_style_animation_bottom_margin" />
+    </LinearLayout>
+</LinearLayout>

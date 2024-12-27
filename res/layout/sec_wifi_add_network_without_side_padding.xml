@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/wifi_add_network" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_wifi_ap_pref_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:layout_width="@dimen/sec_widget_list_app_icon_size" android:layout_height="@dimen/sec_widget_list_app_icon_size">
+                <ImageView style="@style/wifi_add_button" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_list_add_network_top_bottom_padding" android:layout_marginBottom="@dimen/wifi_list_add_network_top_bottom_padding" android:layout_weight="1.0" android:layout_marginStart="@dimen/sec_wifi_list_item_text_start_padding">
+                <TextView android:textColor="@color/wifi_preference_title_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_add_network" android:singleLine="true" android:fontFamily="sec" style="@style/list_title_text_style" />
+                <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/wifi_preference_summary_color" android:id="@id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

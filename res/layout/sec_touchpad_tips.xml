@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lottie_animation_container" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/description_lottie_animation" android:layout_width="0.0dip" android:layout_height="0.0dip" android:adjustViewBounds="true" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="percent" app:layout_constraintWidth_percent="0.68" app:lottie_autoPlay="true" app:lottie_loop="true" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/text_side_padding" android:paddingVertical="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lottie_animation_container">
+            <TextView android:textAppearance="@style/sec_semi_bold" android:textSize="@dimen/touchpad_tips_feature_title" android:textColor="@color/touchpad_settings_tips_title_text_color" android:id="@id/tips_feature_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/touchpad_tips_feature_title_context_margin" />
+            <TextView android:textAppearance="@style/sec_regular" android:textSize="@dimen/touchpad_tips_feature_context_text_size" android:textColor="@color/touchpad_settings_tips_desc_text_color" android:id="@id/tips_feature_context" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

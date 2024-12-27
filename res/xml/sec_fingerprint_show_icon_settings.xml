@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_fingerprint_show_fingerprint_icon_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/sec_fingerprint_show_fingerprint_icon_aod_header" />
+    <com.samsung.android.settings.biometrics.BiometricsRadioButtonPreference android:title="@string/sec_fingerprint_screen_off_icon_option_summary_always_on" android:key="button_screen_off_always" />
+    <com.samsung.android.settings.biometrics.BiometricsRadioButtonPreference android:title="@string/sec_fingerprint_screen_off_icon_option_summary_touch_to_show" android:key="button_screen_off_tap" />
+    <com.samsung.android.settings.biometrics.BiometricsRadioButtonPreference android:title="@string/sec_fingerprint_screen_off_icon_option_summary_never" android:key="button_screen_off_never" />
+    <androidx.preference.PreferenceCategory android:title="" />
+    <androidx.preference.PreferenceCategory android:title="@string/sec_fingerprint_show_fingerprint_icon_lock_screen_header" />
+    <com.samsung.android.settings.biometrics.BiometricsRadioButtonPreference android:title="@string/sec_fingerprint_lock_icon_option_summary_always_on" android:key="button_lock_always" />
+    <com.samsung.android.settings.biometrics.BiometricsRadioButtonPreference android:title="@string/sec_fingerprint_screen_off_icon_option_summary_touch_to_show" android:key="button_lock_tap" />
+    <com.samsung.android.settings.biometrics.BiometricsRadioButtonPreference android:title="@string/sec_fingerprint_screen_off_icon_option_summary_never" android:key="button_lock_never" />
+</PreferenceScreen>

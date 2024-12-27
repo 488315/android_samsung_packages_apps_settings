@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:key="description_image_preference" settings:lottie_rawRes="@raw/a11y_accessibility_screen_magnifier" settings:searchable="false" />
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/magnifier_camera_desc" android:key="description" settings:searchable="false" />
+</PreferenceScreen>

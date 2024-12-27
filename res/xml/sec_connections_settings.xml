@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/sec_ic_settings_connections" android:title="@string/tab_category_connections" android:key="connections_settings" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:keywords="@string/keywords_connections_settings" settings:topLevelPreferenceKey="top_level_connections"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreferenceScreen android:persistent="false" android:title="@string/wifi_settings_title" android:key="wifi_settings" android:order="100" android:fragment="com.android.settings.wifi.WifiSettings" settings:controller="com.samsung.android.settings.wifi.WifiPreferenceController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_wifi" />
+    <PreferenceScreen android:title="@string/ais_mptcp_title" android:key="ais_mptcp" android:order="300" android:fragment="com.samsung.android.settings.connection.GigaLteSettings" settings:controller="com.samsung.android.settings.connection.GigaLtePreferenceController" />
+    <SecSwitchPreferenceScreen android:title="@string/bluetooth_settings_title" android:key="bluetooth_settings" android:order="400" android:fragment="com.samsung.android.settings.bluetooth.BluetoothSettings" settings:controller="com.samsung.android.settings.bluetooth.BluetoothPreferenceController" settings:keywords="@string/keywords_bt_settings" />
+    <SecSwitchPreferenceScreen android:title="@string/nfcpayment_quick_toggle_title" android:key="nfc_settings" android:order="600" android:fragment="com.samsung.android.settings.nfc.NfcSettings" settings:controller="com.samsung.android.settings.nfc.NfcPreferenceController" settings:keywords="@string/keywords_nfc_settings" />
+    <SecSwitchPreferenceScreen android:title="@string/nfc_osaifukeitai_title" android:key="nfc_settings_gp" android:order="610" android:fragment="com.samsung.android.settings.nfc.NfcSettings" settings:controller="com.samsung.android.settings.nfc.NfcPreferenceController" />
+    <com.android.settingslib.RestrictedSwitchPreference android:focusable="false" android:title="@string/uwb_settings_samsung_title" android:key="uwb_settings" android:summary="@string/uwb_settings_samsung_summary" android:order="750" settings:controller="com.samsung.android.settings.uwb.UwbPreferenceController" settings:keywords="UWB" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="800" />
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreferenceScreen android:persistent="false" android:title="@string/airplane_mode" android:key="toggle_airplane" android:order="900" android:disableDependentsState="true" android:fragment="com.samsung.android.settings.connection.AirplaneModeSettings" settings:controller="com.android.settings.network.AirplaneModePreferenceController" settings:keywords="@string/keywords_airplane_mode_settings" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1000" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1070" />
+    <SecPreferenceScreen android:title="@string/sim_manager" android:key="simcard_management" android:order="1080" settings:controller="com.samsung.android.settings.connection.SecSimcardManagerPreferenceController">
+        <intent android:action="settings.SIM_CARD_NETWORK" />
+    </SecPreferenceScreen>
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/network_settings_title" android:key="mobile_network_settings" android:order="1200" settings:controller="com.samsung.android.settings.connection.SecMobileNetworkPreferenceController" settings:keywords="@string/keywords_more_mobile_networks" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_mobile_networks">
+        <intent android:targetPackage="com.samsung.android.app.telephonyui" android:action="com.samsung.android.app.telephonyui.action.OPEN_NET_SETTINGS" />
+    </com.samsung.android.settings.widget.SecRestrictedPreference>
+    <SecPreferenceScreen android:title="@string/operator_choose" android:key="carrier_bridge" android:order="1250" settings:controller="com.samsung.android.settings.connection.CarrierBridgePreferenceController" settings:keywords="@string/operator_choose">
+        <intent android:targetPackage="com.samsung.android.app.omcagent" android:action="com.samsung.omcagent.intent.action.CB_SETTING" android:targetClass="com.samsung.android.app.omcagent.rna.ui.CBSettingActivity" />
+    </SecPreferenceScreen>
+    <SecPreferenceScreen android:title="@string/data_usage_summary_title" android:key="data_usage_settings" android:order="1300" android:fragment="com.android.settings.datausage.DataUsageSummary" settings:keywords="@string/keywords_data_usage_settings" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/sec_tether_settings_title_all" android:key="tethering_and_hotspot" android:order="1500" android:fragment="com.samsung.android.settings.connection.tether.SecTetherSettings" settings:controller="com.samsung.android.settings.connection.tether.SecTetherPreferenceController" settings:keywords="@string/keywords_tethering_and_hotspot_settings" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_tethering" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/tether_settings_title_usb_bluetooth" android:key="tethering_and_hotspot_tab" android:order="1500" android:fragment="com.samsung.android.settings.connection.tether.SecTetherSettings" settings:controller="com.samsung.android.settings.connection.tether.SecTabTetherPreferenceController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_tethering" />
+    <SecPreference android:title="@string/sec_satellite_networks_title" android:key="satellite_networks" android:order="1550" settings:controller="com.samsung.android.settings.connection.SecSatelliteNetworksPreferenceController" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1600" />
+    <PreferenceScreen android:title="@string/ss_advanced_calling_header_us" android:key="vzw_provision_volte" android:order="1800" settings:controller="com.samsung.android.settings.connection.SecAdvancedCallingPreferenceController">
+        <intent android:targetPackage="com.samsung.advancedcalling" android:action="com.samsung.advancedcalling.action.VZW_ADV_CALLING" android:targetClass="com.samsung.advancedcalling.VzwAdvancedCalling" />
+    </PreferenceScreen>
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1900" />
+    <SecPreferenceScreen android:title="@string/lgt_service_global_auto_roaming" android:key="global_roaming_settings" android:order="2100" settings:controller="com.samsung.android.settings.connection.SecRoamingPreferenceController">
+        <intent android:action="com.samsung.android.app.telephonyui.action.OPEN_NET_SETTINGS">
+            <extra android:name="root_key" android:value="T_GLOBAL_ROAMING" />
+        </intent>
+    </SecPreferenceScreen>
+    <SecPreferenceScreen android:title="@string/more_connection_settings_title" android:key="wireless_settings" android:order="2200" android:fragment="com.samsung.android.settings.connection.WirelessSettings" settings:controller="com.samsung.android.settings.connection.MoreConnectionController" settings:keywords="@string/keywords_more_connection_settings" />
+</PreferenceScreen>

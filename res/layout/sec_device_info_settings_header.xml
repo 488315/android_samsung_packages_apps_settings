@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/device_info_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_top_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/device_image" android:visibility="gone" android:layout_width="@dimen/device_info_device_image_size" android:layout_height="@dimen/device_info_device_image_size" />
+        <View android:id="@id/device_name_space" android:layout_width="wrap_content" android:layout_height="@dimen/device_info_top_space_height" />
+        <TextView android:gravity="center" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Device name" style="@style/device_info_txt_device_name" />
+        <Button android:id="@id/device_name_edit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rename_button" android:contentDescription="@string/edit_device_name" android:paddingHorizontal="@dimen/device_info_device_name_button_padding_horizontal" android:paddingVertical="@dimen/device_info_device_name_button_padding_vertical" style="@style/device_info_btn_edit" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_middle_container" android:paddingTop="@dimen/device_info_info_chart_margin_top" android:paddingBottom="@dimen/device_info_info_chart_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_middle_info_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

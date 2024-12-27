@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="505.0">
+            <FrameLayout android:id="@id/preview_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/preview_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/sec_help_app_allowed_cover_screen" android:scaleType="fitXY" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/blackView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="495.0" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end">
+            <TextView android:id="@id/help_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_labs_cover_screen_apps_allowed_on_cover_screen_description" style="@style/description_text" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_preference_unclickable_margin_top" />
+</LinearLayout>

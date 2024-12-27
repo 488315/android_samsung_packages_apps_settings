@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_seekbar_preference_item_top_padding" android:singleLine="true" android:layout_marginStart="@dimen/sec_widget_list_item_padding_start" android:layout_marginEnd="@dimen/sec_widget_list_item_padding_end" style="@style/list_title_text_style" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/sensitivity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_seekbar_preference_seekbar_label_top_padding" android:layout_below="@android:id/title">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/low_label" android:layout_marginStart="@dimen/sec_seekbar_preference_seekbar_additional_side_padding" style="@style/seekbar_preference_seekbar_label_text_style" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/high_label" android:layout_marginEnd="@dimen/sec_seekbar_preference_seekbar_additional_side_padding" android:layout_alignParentEnd="true" style="@style/seekbar_preference_seekbar_label_text_style" />
+        </RelativeLayout>
+        <SeekBar android:id="@android:id/textClassifier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_seekbar_preference_item_bottom_padding" android:minHeight="@dimen/sec_speech_rate_seekbar_height" android:layout_below="@id/sensitivity" android:paddingStart="@dimen/sec_seekbar_preference_seekbar_additional_side_padding" android:paddingEnd="@dimen/sec_seekbar_preference_seekbar_additional_side_padding" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always">
+        <LinearLayout android:orientation="vertical" android:id="@id/biometrics_common_security_notice_total" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/sec_biometrics_common_security_notice_padding" android:paddingEnd="@dimen/sec_biometrics_common_security_notice_padding">
+            <TextView android:gravity="start" android:id="@id/biometrics_common_security_notice_general_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_biometrics_common_about_security_notice_same_level_info" style="@style/SecBiometricsSecurityNoticeDescTextStyle" />
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/biometrics_common_security_notice_body_face" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_common_security_notice_common_margin_top">
+                <TextView android:id="@id/biometrics_common_security_notice_body_face_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bio_face_recognition_title" style="@style/SecBiometricsSecurityNoticeTitleTextStyle" />
+                <TextView android:id="@id/biometrics_common_security_notice_body_face_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_common_security_notice_common_title_margin_top" style="@style/SecBiometricsSecurityNoticeDescTextStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/biometrics_common_security_notice_body_fingerprint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_common_security_notice_common_margin_top">
+                <TextView android:id="@id/biometrics_common_security_notice_body_fingerprint_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bio_fingerprint_sanner_title" style="@style/SecBiometricsSecurityNoticeTitleTextStyle" />
+                <TextView android:id="@id/biometrics_common_security_notice_body_fingerprint_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_common_security_notice_common_title_margin_top" style="@style/SecBiometricsSecurityNoticeDescTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

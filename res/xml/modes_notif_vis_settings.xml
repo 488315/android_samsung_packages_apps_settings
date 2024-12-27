@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_restrict_notifications_title" android:key="zen_mode_block_settings_page"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/zen_mode_block_effects_screen_off" android:key="zen_mode_block_screen_off">
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_intent" android:key="zen_effect_intent" />
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_light" android:key="zen_effect_light" />
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_ambient" android:key="zen_effect_ambient" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/zen_mode_block_effects_screen_on" android:key="zen_mode_block_screen_on">
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_badge" android:key="zen_effect_badge" />
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_status" android:key="zen_effect_status" />
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_peek" android:key="zen_effect_peek" />
+        <SwitchPreferenceCompat android:title="@string/zen_mode_block_effect_list" android:key="zen_effect_list" />
+    </PreferenceCategory>
+</PreferenceScreen>

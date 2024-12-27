@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?listChoiceBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="start|center" android:id="@id/icon_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/sec_mde_preference_image_padding">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="@dimen/sec_mde_preference_image_size" android:layout_height="@dimen/sec_mde_preference_image_size" />
+    </FrameLayout>
+    <RelativeLayout android:paddingTop="@dimen/sec_suggestion_container_margin_top" android:paddingBottom="@dimen/sec_suggestion_container_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?textAppearanceListItem" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="600" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+</LinearLayout>

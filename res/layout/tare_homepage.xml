@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/on_switch" android:background="?android:colorBackground" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textOn="@string/tare_on" android:textOff="@string/tare_off" android:showText="true" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/alarmmanager" android:padding="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tare_alarmmanager" android:onClick="launchAlarmManagerPage" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/jobscheduler" android:padding="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tare_jobscheduler" android:onClick="launchJobSchedulerPage" />
+    <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/revert_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/tare_revert" android:onClick="revertSettings" style="@style/ActionPrimaryButton" />
+</LinearLayout>

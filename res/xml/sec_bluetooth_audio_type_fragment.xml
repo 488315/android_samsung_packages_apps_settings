@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_bluetooth_audio_type"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_bluetooth_audio_type_headphones" android:key="sec_bluetooth_audio_type_headphones" settings:allowDividerBelow="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_bluetooth_audio_type_speaker" android:key="sec_bluetooth_audio_type_speaker" settings:allowDividerBelow="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_bluetooth_audio_type_others" android:key="sec_bluetooth_audio_type_others" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_audio_type_preview" android:selectable="false" android:key="sec_high_refresh_rate_preview" />
+</PreferenceScreen>

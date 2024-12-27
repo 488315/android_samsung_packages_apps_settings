@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_face_useful_face_recognition_feature_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_face_useful_face_recognition_feature_msg" android:selectable="false" style="@style/description_text" />
+    <SwitchPreference android:title="@string/sec_face_unlock_title" android:key="key_facelock_unlock" />
+    <SwitchPreference android:title="@string/sec_biometrics_common_option_stay_on_lock_screen_switch" android:key="key_facelock_stay_on_lock_screen" android:summary="@string/sec_face_stay_on_lock_screen_summary" />
+    <SwitchPreference android:title="@string/sec_face_recognize_with_mask" android:key="key_face_recognize_mask" android:summary="@string/sec_face_recognize_with_mask_summary" />
+    <SwitchPreference android:title="@string/sec_face_open_eyes" android:key="key_facelock_open_eyes" android:summary="@string/sec_face_open_eyes_summary" />
+    <SwitchPreference android:title="@string/sec_face_brighten_screen" android:key="key_facelock_brighten_screen" android:summary="@string/sec_face_brighten_screen_summary" />
+    <com.samsung.android.settings.biometrics.BiometricsTipPreference android:key="key_fingerprint_enroll_tip" />
+</PreferenceScreen>

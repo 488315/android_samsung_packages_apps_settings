@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/install_other_apps"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesRestrictedSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="external_sources_settings_switch" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_install_all_warning" android:selectable="false" android:key="external_sources_settings_description" />
+</PreferenceScreen>

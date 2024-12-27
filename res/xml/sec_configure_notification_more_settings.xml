@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_advanced_settings" android:key="configure_notification_more_settings" settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings" settings:topLevelPreferenceKey="top_level_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecDropDownPreference android:entries="@array/notification_sort" android:title="@string/sec_notification_sort_notifications" android:key="key_notification_sort" />
+    <Preference android:title="@string/notification_history" android:key="notification_history" settings:controller="com.samsung.android.settings.notification.NotificationHistoryPreferenceController" />
+    <Preference android:title="@string/conversations_category_title" android:key="manage_conversations" android:fragment="com.android.settings.notification.app.ConversationListSettings" />
+    <SecPreference android:title="@string/notification_floating_icons_title" android:key="floating_icons" android:fragment="com.samsung.android.settings.notification.FloatingIconsNotificationSettings" settings:controller="com.android.settings.notification.FloatingIconsNotificationPreferenceController" settings:keywords="@string/notification_floating_icons_search_keyword" />
+    <SecSwitchPreferenceScreen android:title="@string/noti_intelligence_group_notifications" android:key="auto_grouping" android:fragment="com.samsung.android.settings.notification.SecAutoGroupingFragment" settings:controller="com.samsung.android.settings.notification.SecFilterNotificationController" />
+    <SwitchPreference android:title="@string/sec_show_notification_app_icon_settigns" android:key="show_notification_app_icon" settings:controller="com.android.settings.notification.ShowNotificationAppIconPreferenceController" />
+    <SwitchPreference android:title="@string/sec_asst_capabilities_actions_replies_title" android:key="asst_capabilities_actions_replies" settings:controller="com.samsung.android.settings.notification.SecAssistantCapabilityPreferenceController" />
+    <SwitchPreference android:title="@string/snooze_options_title" android:key="show_snooze_options" settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
+    <SecSwitchPreferenceScreen android:title="@string/repeat_notification_alerts_label" android:key="asst_notification_reminder" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.notification.AssistantReminderPreferenceController" />
+    <SecSwitchPreferenceScreen android:title="@string/notification_badge_app_icon_title" android:key="notification_badging" android:fragment="com.samsung.android.settings.notification.BadgeAppIconSettings" settings:controller="com.samsung.android.settings.notification.AppIconBadgesOnHomeScreenController" />
+    <SwitchPreference android:title="@string/sec_show_notification_category_settigns" android:key="show_notification_category_setting" settings:controller="com.android.settings.notification.ShowNotificationCategoryPreferenceController" />
+    <SwitchPreferenceCompat android:title="@string/sec_led_indicator_settings" android:key="key_simple_led_indicator_settings" android:summary="@string/sec_led_indicator_settings_summary" settings:controller="com.samsung.android.settings.notification.LedIndicatorPreferenceController" />
+    <PreferenceCategory android:key="emergency_alerts_category">
+        <com.samsung.android.settings.widget.SecRestrictedPreference android:key="app_and_notif_cell_broadcast_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

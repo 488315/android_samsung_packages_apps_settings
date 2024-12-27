@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/common_marker_layout" android:background="@drawable/sec_wifi_ap_common_marker_background" android:layout_width="wrap_content" android:layout_height="@dimen/app_detail_chart_marker_layout_height" android:paddingHorizontal="@dimen/app_detail_chart_marker_layout_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:textColor="@color/wifi_ap_marker_text_color_1" android:layout_gravity="center_vertical" android:id="@id/chart_marker_x_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/app_detail_chart_marker_text_margin_end" style="@style/sec_regular" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/wifi_ap_marker_text_color_2" android:layout_gravity="center_vertical" android:id="@id/chart_marker_y_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sec_semi_bold" />
+</LinearLayout>

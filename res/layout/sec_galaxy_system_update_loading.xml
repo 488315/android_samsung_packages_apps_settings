@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:clickable="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/button_container" android:background="@android:color/transparent" android:paddingTop="@dimen/sec_widget_button_preference_top_padding" android:paddingBottom="@dimen/sec_widget_button_preference_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.settings.widget.SecRoundButtonView android:gravity="center" android:id="@id/button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/galaxy_system_update_check_for_updates" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ColorRoundButtonStyle" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/checking_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/galaxy_system_progress" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyleSmall" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/share_keyboard" settings:hierarchicalParentFragment="com.samsung.android.settings.inputmethod.PhysicalKeyboardFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wireless_keyboard_share_header" android:selectable="false" android:key="pref_app_header" />
+    <SecPreferenceCategory android:key="remote_device">
+        <com.samsung.android.settings.inputmethod.WirelessKeyboardSharePopupPreference android:key="remote_device1" />
+        <com.samsung.android.settings.inputmethod.WirelessKeyboardSharePopupPreference android:key="remote_device2" />
+        <com.samsung.android.settings.inputmethod.WirelessKeyboardSharePopupPreference android:key="remote_device3" />
+    </SecPreferenceCategory>
+</PreferenceScreen>

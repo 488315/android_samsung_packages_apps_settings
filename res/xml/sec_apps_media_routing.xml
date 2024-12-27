@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/media_routing_control_title" android:key="apps_media_routing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/allow_media_routing_control" android:key="apps_media_routing_settings_switch" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/allow_media_routing_description" android:selectable="false" android:key="apps_media_routing_settings_description" />
+</PreferenceScreen>

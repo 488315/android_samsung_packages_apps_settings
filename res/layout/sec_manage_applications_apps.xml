@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/app_noti_sub_title" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="1.0dip" android:text="@string/app_list_sub_summary" android:singleLine="false" android:lineSpacingExtra="4.0sp" style="@style/body_text_style" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/prefs_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:smoothScrollbar="false" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_weight="1.0" settings:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
+        <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/pinned_header" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/apps_list" android:visibility="invisible" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="top" android:id="@android:id/empty" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+                    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_view_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/no_applications" android:layout_weight="0.75" style="@style/no_item_text_style" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <include layout="@layout/loading_container" />
+    </FrameLayout>
+</LinearLayout>

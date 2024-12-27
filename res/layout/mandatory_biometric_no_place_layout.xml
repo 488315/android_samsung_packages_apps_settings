@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.75">
+            <TextView android:textAppearance="@style/no_item_text_style" android:gravity="center" android:id="@id/no_item_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mandatory_biometric_trusted_places_empty_text" />
+            <TextView android:textAppearance="@style/no_item_sub_text_style" android:gravity="center" android:id="@id/no_item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/mandatory_biometric_trusted_places_empty_subtext" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

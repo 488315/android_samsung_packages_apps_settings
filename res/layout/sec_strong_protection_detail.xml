@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/strong_protection_detail_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_widget_body_text_padding_top" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end">
+        <TextView android:id="@id/strong_protection_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strong_protection_detail" style="@style/body_text_style" />
+    </LinearLayout>
+</ScrollView>

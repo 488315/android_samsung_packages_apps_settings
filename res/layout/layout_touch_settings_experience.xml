@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/touch_settings_basic_horizontal_padding" android:paddingEnd="@dimen/touch_settings_basic_horizontal_padding">
+            <ScrollView android:id="@id/experience_description_container" android:layout_width="fill_parent" android:layout_height="@dimen/touch_settings_desc_height">
+                <TextView android:gravity="center" android:id="@id/experience_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/touch_settings_desc_height" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/touch_settings_desc_horizontal_padding" android:layout_marginEnd="@dimen/touch_settings_desc_horizontal_padding" style="@style/Accessibility.TextAppearance.TextView.Description.SubTitle" />
+            </ScrollView>
+            <FrameLayout android:gravity="center" android:id="@id/status_container" android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/touch_settings_status_height">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/press_time_container" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/long_press_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/touch_settings_status_between_time_padding" style="@style/touch_and_hold_time_text_style" />
+                    <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView android:id="@id/text_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picker_time_sec" settings:limitedScale="5" style="@style/touch_and_hold_sec_text_style" />
+                </LinearLayout>
+                <TextView android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/status_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/touch_and_hold_sec_text_style" />
+                <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/try_again_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_centerHorizontal="true">
+                    <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:gravity="center" android:layout_gravity="center" android:id="@id/try_again_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/touch_settings_try_again" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/button_container" android:background="@color/content_background_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="316.0dip" android:layout_weight="1.0">
+                <FrameLayout android:layout_gravity="center" android:id="@id/button_container_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/touch_experience_circle_vertical_padding">
+                    <FrameLayout android:id="@id/button_container_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/touch_experience_circle_horizontal_padding" />
+                    <FrameLayout android:id="@id/button_container_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/touch_settings_test_area_vertical_padding" android:layout_marginBottom="@dimen/touch_settings_bottom_btn_bottom_padding" android:layout_marginStart="@dimen/touch_settings_bottom_btn_horizontal_padding" android:layout_marginEnd="@dimen/touch_settings_bottom_btn_horizontal_padding">
+        <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:gravity="center_horizontal" android:id="@id/back_button" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:minHeight="@dimen/touch_settings_bottom_btn_height" android:text="@string/back" android:layout_weight="1.0" android:layout_marginStart="@dimen/touch_settings_bottom_btn_horizontal_padding" android:layout_marginEnd="@dimen/touch_settings_bottom_btn_horizontal_padding" />
+        <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:gravity="center_horizontal" android:id="@id/done_button" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/touch_settings_bottom_btn_height" android:text="@string/done" android:layout_weight="1.0" android:layout_marginStart="@dimen/touch_settings_bottom_btn_horizontal_padding" android:layout_marginEnd="@dimen/touch_settings_bottom_btn_horizontal_padding" />
+    </LinearLayout>
+</LinearLayout>

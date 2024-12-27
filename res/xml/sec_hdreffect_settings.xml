@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/hdr_setting" settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.Usefulfeature" settings:topLevelPreferenceKey="top_level_advanced_features"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.samsung.android.settings.usefulfeature.videoenhancer.SecVideoBrightnessHorizontalRadioPreference android:key="sec_brighten_up_video" settings:controller="com.samsung.android.settings.usefulfeature.videoenhancer.SecBrightenUpVideoPreferenceController" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/hdr_setting_text_1" android:selectable="false" android:key="sec_hdr_effect_preview" settings:positionMode="first_item" settings:searchable="false" style="@style/description_text" />
+    <SecPreferenceCategory android:title="@string/hdr_setting_available_apps" android:key="hdr_effect_app_list_preference" android:order="20" settings:allowDividerAbove="false" settings:allowDividerBelow="false" settings:roundStroke="top_left|top_right" />
+</PreferenceScreen>

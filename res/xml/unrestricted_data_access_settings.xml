@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="unrestricted_data_screen" settings:controller="com.android.settings.datausage.UnrestrictedDataAccessPreferenceController" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/unrestricted_data_access_description" android:selectable="false" android:key="unrestricted_data_access_description" settings:positionMode="first_item" settings:searchable="false" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_eye_comfort_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_eye_comfort_description" android:selectable="false" android:key="eye_comfort_description" />
+    <com.samsung.android.settings.eyecomfort.EyeComfortRadioButtonPreference android:title="@string/sec_eye_comfort_adaptive" android:key="eye_comfort_adaptive_mode" android:summary="@string/sec_eye_comfort_adaptive_description" settings:allowDividerBelow="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_eyecomfort_preference_divider" android:selectable="false" android:key="divider" />
+    <com.samsung.android.settings.eyecomfort.EyeComfortRadioButtonPreference android:title="@string/sec_eye_comfort_custom" android:key="eye_comfort_custom_mode" android:summary="@string/sec_eye_comfort_custom_description" />
+    <com.samsung.android.settings.eyecomfort.EyeComfortSpinnerPreference android:title="@string/sec_eye_comfort_set_schedule" android:key="eye_comfort_set_schedule" />
+    <com.samsung.android.settings.eyecomfort.EyeComfortSeekBarPreference android:title="@string/sec_eye_comfort_color_temperature" android:key="eye_comfort_seekbar_color_temperature" />
+    <com.samsung.android.settings.eyecomfort.EyeComfortAntiGlarePreference android:title="@string/sec_eye_comfort_anti_glare" android:key="eye_comfort_anti_glare" android:summary="@string/sec_eye_comfort_anti_glare_summary" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="enhance_comfort_divider" />
+    <com.samsung.android.settings.eyecomfort.EyeComfortNightDimPreference android:title="@string/sec_enhanced_comfort" android:key="eye_comfort_night_dim" android:summary="@string/sec_adjust_color_contrast_enhanced_comfort" />
+</PreferenceScreen>

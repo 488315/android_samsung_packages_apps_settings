@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_bluetooth_scan_history_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/sec_preference_bt_visibility_control" android:selectable="false" android:key="description" />
+    <SecPreferenceCategory android:key="applications_list" android:order="100" />
+</PreferenceScreen>

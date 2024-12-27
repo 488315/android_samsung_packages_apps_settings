@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/sec_popup_view_settings_layout" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/popup_view_preview_parent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.5">
+        <FrameLayout android:id="@id/popup_view_preview_container" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/popup_view_preference_container" android:background="@color/content_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="49.5" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_wifi_list_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/sec_wifi_list_settings_category_title" android:key="wifi_labs_filter">
+        <com.samsung.android.settings.wifi.develop.list.WifiLabsListFilterSeekBarPreference android:title="@string/sec_wifi_list_settings_rssi_level" android:key="wifi_labs_list_settings_rssi" />
+        <SecSwitchPreference android:title="@string/sec_wifi_list_settings_use_filter" android:key="wifi_labs_list_settings_filtering" android:summary="@string/sec_wifi_list_settings_use_filter_summary" settings:controller="com.samsung.android.settings.wifi.develop.list.WifiLabsFilteringPreferenceController" />
+    </PreferenceCategory>
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <SecSwitchPreference android:title="@string/sec_wifi_list_settings_show_band" android:key="wifi_labs_list_settings_show_band" settings:controller="com.samsung.android.settings.wifi.develop.list.WifiLabsShowBandPreferenceController" />
+    <SecDropDownPreference android:entries="@array/sec_wifi_labs_sorting_style_entries" android:title="@string/sec_wifi_list_settings_change_sorting_style" android:key="wifi_labs_list_settings_sorting" android:entryValues="@array/sec_wifi_labs_sorting_style_values" settings:controller="com.samsung.android.settings.wifi.develop.list.WifiLabsSortingPreferenceController" />
+    <SecSwitchPreference android:title="@string/sec_wifi_list_settings_more_verbose_logging" android:key="wifi_labs_list_settings_more_logging" settings:controller="com.samsung.android.settings.wifi.develop.list.WifiLabsMoreLoggingPreferenceController" />
+</PreferenceScreen>

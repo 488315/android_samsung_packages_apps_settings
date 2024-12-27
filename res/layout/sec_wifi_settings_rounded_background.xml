@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="start" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="@dimen/sec_wifi_setting_start_end_padding" android:layout_height="fill_parent" />
+    <View android:id="@id/rounded_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_wifi_setting_start_end_padding" android:layout_marginEnd="@dimen/sec_wifi_setting_start_end_padding" />
+    <View android:layout_gravity="end" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="@dimen/sec_wifi_setting_start_end_padding" android:layout_height="fill_parent" />
+</FrameLayout>

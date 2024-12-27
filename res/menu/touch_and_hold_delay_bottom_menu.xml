@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/bottom_menu_group" app:showAsAction="always">
+        <item android:id="@id/bottom_menu_cancel" android:title="@string/touch_and_hold_delay_cancel" android:contentDescription="@string/touch_and_hold_delay_cancel" app:showAsAction="always" app:tooltipText="@string/touch_and_hold_delay_cancel" />
+        <item android:id="@id/bottom_menu_save" android:title="@string/touch_and_hold_delay_save" android:contentDescription="@string/touch_and_hold_delay_save" app:showAsAction="always" app:tooltipText="@string/touch_and_hold_delay_save" />
+    </group>
+</menu>

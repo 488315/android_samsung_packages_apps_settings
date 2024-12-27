@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/lock_settings_profile_title" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/lock_settings_profile_unification_title" android:key="unification" android:summary="@string/lock_settings_profile_unification_summary" settings:keywords="@string/keywords_unification" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/sec_unlock_set_unlock_launch_picker_title_profile" android:key="unlock_set_or_change_profile" android:summary="@string/sec_unlock_set_unlock_pattern_title" settings:keywords="@string/keywords_lockscreen" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/sec_secured_lock_settings_lock_after_timeout_title" android:key="lock_knox_profile_after_timeout" settings:controller="com.samsung.android.settings.security.LockKnoxProfileAfterTimeoutPreferenceController" />
+    <SwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile" android:key="visiblepattern_profile" />
+</PreferenceScreen>

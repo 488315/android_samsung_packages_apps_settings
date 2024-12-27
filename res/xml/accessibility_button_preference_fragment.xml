@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonDescriptionPreference android:selectable="false" android:key="accessibility_button_description" apps:controller="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonDescriptionPreferenceController" />
+    <Preference android:title="@string/accessibility_button_select_actions" android:key="accessibility_button_select_apps" android:summary="@string/accessibility_shortcut_none" android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonSwitchPreferenceFragment" apps:controller="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonAppPreferenceController" />
+    <PreferenceCategory android:title="@string/accessibility_button_location" android:key="accessibility_button_location">
+        <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/accessibility_button_display_options_navigation_bar" android:key="navigation_bar" apps:controller="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonLocationNavigationBarPreferenceController" />
+        <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/accessibility_button_display_options_floating" android:key="floating_button" apps:controller="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonLocationFloatingPreferenceController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/accessibility_button_floating_button_settings" android:key="floating_button_settings">
+        <DropDownPreference android:entries="@array/sec_accessibility_button_size_selector_titles" android:title="@string/floating_button_settings_size" android:key="floating_button_settings_size" android:entryValues="@array/sec_accessibility_button_size_selector_values" apps:controller="com.samsung.android.settings.accessibility.advanced.shortcut.FloatingMenuSizePreferenceController" />
+        <SwitchPreference android:persistent="false" android:title="@string/floating_button_settings_fade" android:key="accessibility_button_fade" apps:controller="com.android.settings.accessibility.FloatingMenuFadePreferenceController" />
+        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarWithButtonsPreference android:persistent="false" android:layout="@layout/floating_menu_opacity" android:max="8" android:title="@string/floating_button_settings_opacity" android:key="accessibility_button_opacity" apps:controller="com.samsung.android.settings.accessibility.advanced.shortcut.FloatingMenuOpacityPreferenceController" apps:seekBarMode="levelbar" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/more_connection_settings_title" settings:hierarchicalParentFragment="com.samsung.android.settings.connection.ConnectionsSettings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreferenceScreen android:title="@string/sec_nearby_device_scanning_title" android:key="nearby_scanning_setting_category" android:order="100" android:fragment="com.samsung.android.settings.nearbyscan.NearbyScanning" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/print_settings" android:key="print_settings" android:order="300" android:fragment="com.android.settings.print.PrintSettingsFragment" settings:controller="com.samsung.android.settings.connection.moreconnection.SecPrintSettingPreferenceController" settings:keywords="@string/keywords_print_settings" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="550" />
+    <SecPreferenceScreen android:title="@string/multi_path_title" android:key="multi_path" android:order="700" android:fragment="com.samsung.android.settings.connection.GigaMultiPath" settings:controller="com.samsung.android.settings.connection.GigaMultiPathPreferenceController" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="750" />
+    <SecPreferenceScreen android:title="@string/vpn_settings_title" android:key="vpn_settings" android:summary="@string/vpn_settings_summary" android:order="800" android:fragment="com.android.settings.vpn2.VpnSettings" settings:controller="com.android.settings.network.VpnPreferenceController" />
+    <com.android.settings.network.PrivateDnsModeDialogPreference android:title="@string/select_private_dns_configuration_title" android:key="private_dns_settings" android:order="1000" android:dialogTitle="@string/select_private_dns_configuration_title" android:positiveButtonText="@string/save" android:dialogLayout="@layout/sec_private_dns_mode_dialog" settings:controller="com.android.settings.network.PrivateDnsPreferenceController" />
+    <SecPreferenceScreen android:title="@string/att_emergency_alert_title" android:key="key_emergency_alert" android:order="1200" settings:controller="com.samsung.android.settings.connection.moreconnection.EmergencyAlertsPreferenceController" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1500" />
+    <SecPreferenceScreen android:title="@string/sec_eth_radio_ctrl_title" android:key="ethernet_settings" android:order="1400" android:fragment="com.samsung.android.settings.connection.ethernet.EthernetSettings" settings:controller="com.samsung.android.settings.connection.ethernet.controller.EthernetSettingsPreferenceController" />
+    <com.samsung.android.settings.usefulfeature.intelligenceservice.SecIntelligenceServiceSwitchPreference android:title="@string/auto_omc_update_title" android:key="auto_omc_update" android:summary="@string/auto_omc_update_summary" android:order="1550" settings:controller="com.samsung.android.settings.connection.moreconnection.OmcTogglePreferenceController" />
+    <SecPreference android:title="@string/cdma_pay_as_you_go" android:key="pay_as_you_go" settings:controller="com.samsung.android.settings.connection.moreconnection.DataPlanCategoryPreferenceController">
+        <intent android:action="com.samsung.vzw.activationagent.intent.action.START_MY_VERIZON_DATA_ACTIVITY" />
+    </SecPreference>
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1650" />
+    <SecPreferenceScreen android:title="@string/sec_sim_toolkit_title" android:key="sec_sim_toolkit" android:order="1700" android:fragment="com.samsung.android.settings.connection.SecSimToolkitSettings" settings:controller="com.samsung.android.settings.connection.SecSimToolkitPreferenceController" />
+</PreferenceScreen>

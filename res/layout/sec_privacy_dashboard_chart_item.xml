@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/icon_areas" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/fourth_icon_area" android:background="@drawable/ic_icon_bg_outline" android:layout_width="@dimen/privacy_dashboard_permission_icon_size" android:layout_height="@dimen/privacy_dashboard_permission_icon_size" android:layout_marginEnd="@dimen/privacy_dashboard_outline_margin">
+            <ImageView android:id="@id/fourth_app_icon" android:background="@color/content_background" android:layout_width="@dimen/privacy_dashboard_app_icon_size" android:layout_height="@dimen/privacy_dashboard_app_icon_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/third_icon_area" android:background="@drawable/ic_icon_bg_outline" android:layout_width="@dimen/privacy_dashboard_permission_icon_size" android:layout_height="@dimen/privacy_dashboard_permission_icon_size" android:layout_marginEnd="@dimen/privacy_dashboard_outline_margin">
+            <ImageView android:id="@id/third_app_icon" android:background="@color/content_background" android:layout_width="@dimen/privacy_dashboard_app_icon_size" android:layout_height="@dimen/privacy_dashboard_app_icon_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/second_icon_area" android:background="@drawable/ic_icon_bg_outline" android:layout_width="@dimen/privacy_dashboard_permission_icon_size" android:layout_height="@dimen/privacy_dashboard_permission_icon_size" android:layout_marginEnd="@dimen/privacy_dashboard_outline_margin">
+            <ImageView android:id="@id/second_app_icon" android:background="@color/content_background" android:layout_width="@dimen/privacy_dashboard_app_icon_size" android:layout_height="@dimen/privacy_dashboard_app_icon_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:background="@drawable/ic_icon_bg_outline" android:layout_width="@dimen/privacy_dashboard_permission_icon_size" android:layout_height="@dimen/privacy_dashboard_permission_icon_size">
+            <ImageView android:id="@id/first_app_icon" android:background="@color/content_background" android:layout_width="@dimen/privacy_dashboard_app_icon_size" android:layout_height="@dimen/privacy_dashboard_app_icon_size" />
+            <LinearLayout android:gravity="center" android:id="@id/number_area" android:background="@drawable/ic_number_bg" android:layout_width="@dimen/privacy_dashboard_app_icon_size" android:layout_height="@dimen/privacy_dashboard_app_icon_size">
+                <TextView android:textSize="@dimen/privacy_dashboard_number_text_size" android:textColor="@color/privacy_more_text_color" android:id="@id/app_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="500" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/empty_text" android:layout_width="@dimen/privacy_dashboard_app_icon_size" android:layout_height="@dimen/privacy_dashboard_app_icon_size">
+                <TextView android:textSize="@dimen/privacy_dashboard_empty_text_size" android:textColor="@color/privacy_empry_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:importantForAccessibility="no" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="400" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <View android:id="@id/dummy_view1" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/center_view" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_weight="100.0">
+            <FrameLayout android:id="@id/vibpicker_intensity_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:id="@id/vibpicker_horizontal_divider" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="@dimen/vib_picker_divider_width" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/vibpicker_list_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vib_picker_frame_margin" android:layout_marginRight="@dimen/vib_picker_frame_margin" android:layout_weight="1.0">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:background="@color/list_item_background_color" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/vib_picker_recycler_margin" android:layout_marginRight="@dimen/vib_picker_recycler_margin" android:choiceMode="singleChoice" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:id="@id/dummy_view2" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

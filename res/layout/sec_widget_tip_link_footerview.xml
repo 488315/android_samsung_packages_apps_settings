@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/sec_widget_relative_link_gap_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ap_instant_hotspot_tip_title" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_relative_link_view_margin_start_end" style="@style/sec_tip_title" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tip_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="@dimen/sec_widget_relative_link_view_margin_start_end" android:paddingEnd="@dimen/sec_widget_relative_link_view_margin_start_end" />
+    </LinearLayout>
+</LinearLayout>

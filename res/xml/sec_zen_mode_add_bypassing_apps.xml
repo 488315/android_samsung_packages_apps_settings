@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_bypassing_apps_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_zen_app_exception_add_apps" settings:positionMode="first_item" />
+    <SecPreferenceCategory android:key="zen_mode_bypassing_apps_list" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sim_dropdown_list_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:ellipsize="marquee" android:id="@id/nfc_sim_list_view_radio_text_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/nfc_sim_list_view_info_layout" android:paddingTop="@dimen/sim_dropdown_list_item_padding" android:paddingBottom="@dimen/sim_dropdown_list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <CheckedTextView android:ellipsize="marquee" android:id="@id/nfc_sim_list_view_radio_text_title" android:paddingTop="@null" android:paddingBottom="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@null" android:singleLine="true" style="?android:spinnerDropDownItemStyle" />
+            <CheckedTextView android:id="@id/nfc_sim_list_spn" android:visibility="gone" android:layout_width="fill_parent" android:layout_below="@id/nfc_sim_list_view_radio_text_title" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/SecondaryListItemStyle" />
+            <CheckedTextView android:id="@id/nfc_sim_list_own_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_below="@id/nfc_sim_list_spn" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/SecondaryListItemStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

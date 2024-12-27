@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_help_image_backgound_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/help_animation_container" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.samsung.android.settings.widget.PlayPauseLottieAnimationView android:id="@id/help_animation" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/sec_widget_img_margin" android:scaleType="fitXY" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/help_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:layout_marginBottom="@dimen/sec_widget_preference_unclickable_margin_bottom" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/cover_screen_orientation" settings:hierarchicalParentFragment="com.samsung.android.settings.accessories.DockSettings" settings:topLevelPreferenceKey="top_level_advanced_features"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="1.0px" settings:roundStroke="none" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_cover_screen_orientation_preview_layout" android:key="cover_screen_orientation_preview" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="@dimen/sec_widget_preference_unclickable_margin_top" settings:roundStroke="top_left|top_right" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/top_to_bottom_mode" android:key="top_to_bottom_button" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/bottom_to_top_mode" android:key="bottom_to_top_button" />
+</PreferenceScreen>

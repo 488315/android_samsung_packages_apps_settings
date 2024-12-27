@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_swpie_for_popup_view_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_swipe_for_popup_desc" android:selectable="false" android:key="sec_swipe_for_popup_desc" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="@dimen/sec_widget_preference_unclickable_margin_top" />
+    <com.samsung.android.settings.usefulfeature.multiwindow.swipeforpopupview.SwipeForPopUpViewCornerAreaPreference android:layout="@layout/swipe_for_popup_view_corner_area_layout" android:key="swipe_for_popup_corner_area" />
+</PreferenceScreen>

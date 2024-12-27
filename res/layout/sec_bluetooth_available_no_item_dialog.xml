@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/LinearLayout_bt" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/BluetoothNoItemDialogText" android:ellipsize="none" android:gravity="center" android:layout_gravity="center" android:id="@id/main_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sec_bluetooth_no_devices_found" android:singleLine="false" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?android:listChoiceBackgroundIndicator" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/notification_radio_button" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_suggestion_card_with_icon_padding_start" android:layout_marginEnd="@dimen/sec_suggestion_card_close_button_margin_end" />
+    <ImageView android:id="@id/notification_radio_icon" android:layout_width="@dimen/notification_radio_icon_size" android:layout_height="@dimen/notification_radio_icon_size" android:layout_marginTop="4.0dip" android:adjustViewBounds="true" android:tint="@color/notification_radio_icon_tint" android:layout_marginEnd="@dimen/notification_radio_icon_end_margin" />
+    <RelativeLayout android:id="@id/notification_radio_text_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" android:layout_weight="1.0" android:paddingEnd="@dimen/sec_widget_list_padding_inner">
+        <TextView android:ellipsize="marquee" android:id="@id/notification_radio_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/list_title_text_style" />
+        <TextView android:ellipsize="end" android:id="@id/notification_radio_summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/notification_radio_title" android:layout_alignStart="@id/notification_radio_title" style="@style/list_summary_text_style" />
+    </RelativeLayout>
+</LinearLayout>

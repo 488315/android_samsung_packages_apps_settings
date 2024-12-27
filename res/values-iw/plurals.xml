@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני יום אחד (%d)</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">לפני %d דק’</item>
+        <item quantity="one">לפני %d דק’</item>
+        <item quantity="two">לפני %d דק’</item>
+        <item quantity="many">לפני %d דק’</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">לפני %d שנים</item>
+        <item quantity="one">לפני שנה (%d)</item>
+        <item quantity="two">לפני %d שנים</item>
+        <item quantity="many">לפני %d שנים</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שנייה</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="as_app_cache_title">
+        <item quantity="other">%1$d מטמוני יישום (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d מטמון יישום (%2$s)</item>
+        <item quantity="two">%1$d מטמוני יישום (%2$s)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d מטמוני יישום (%2$s)</item>
+    </plurals>
+    <plurals name="as_archive_apps">
+        <item quantity="other">להעביר %d יישומים לארכיון?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר יישום אחד (%d) לארכיון?</item>
+        <item quantity="two">להעביר %d יישומים לארכיון?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d יישומים לארכיון?</item>
+    </plurals>
+    <plurals name="as_archive_button_text">
+        <item quantity="other">העבר %1$d יישומים לארכיון (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">העבר יישום %1$d לארכיון (+%2$s)</item>
+        <item quantity="two">העבר %1$d יישומים לארכיון (+%2$s)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">העבר %1$d יישומים לארכיון (+%2$s)</item>
+    </plurals>
+    <plurals name="as_clear_apps_cache">
+        <item quantity="other">לנקות מטמון עבור %d יישומים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לנקות מטמון עבור יישום %d?</item>
+        <item quantity="two">לנקות מטמון עבור %d יישומים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לנקות מטמון עבור %d יישומים?</item>
+    </plurals>
+    <plurals name="as_clear_button_text">
+        <item quantity="other">ניקוי %1$d מטמונים (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניקוי מטמון %1$d (+%2$s)</item>
+        <item quantity="two">ניקוי %1$d מטמונים (+%2$s)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניקוי %1$d מטמונים (+%2$s)</item>
+    </plurals>
+    <plurals name="as_n_selected">
+        <item quantity="other">%d נבחר/ו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="as_recommend_card_description_archive_apps">
+        <item quantity="other">יש לפנות שטח בגודל %1$s באמצעות העברה לארכיון של %2$d יישומים שלא היו בשימוש. הנתונים האישיים וההגדרות שלך יישמרו.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לפנות שטח בגודל %1$s באמצעות העברה לארכיון של יישום אחד (%2$d) שלא היה בשימוש. הנתונים האישיים וההגדרות שלך יישמרו.</item>
+        <item quantity="two">יש לפנות שטח בגודל %1$s באמצעות העברה לארכיון של %2$d יישומים שלא היו בשימוש. הנתונים האישיים וההגדרות שלך יישמרו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לפנות שטח בגודל %1$s באמצעות העברה לארכיון של %2$d יישומים שלא היו בשימוש. הנתונים האישיים וההגדרות שלך יישמרו.</item>
+    </plurals>
+    <plurals name="as_uninstall_apps">
+        <item quantity="other">האם להסיר %d יישומים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להסיר %d יישום?</item>
+        <item quantity="two">האם להסיר %d יישומים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להסיר %d יישומים?</item>
+    </plurals>
+    <plurals name="as_uninstall_button_text">
+        <item quantity="other">הסרת %1$d יישומים (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הסרת יישום %1$d (+%2$s)</item>
+        <item quantity="two">הסרת %1$d יישומים (+%2$s)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הסרת %1$d יישומים (+%2$s)</item>
+    </plurals>
+    <plurals name="as_unused_apps_title">
+        <item quantity="other">%1$d יישומים שאינם בשימוש (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d יישום שאינו בשימוש (%2$s)</item>
+        <item quantity="two">%1$d יישומים שאינם בשימוש (%2$s)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d יישומים שאינם בשימוש (%2$s)</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_connected_devices_subtext">
+        <item quantity="other">משתף חיבור אינטרנט עם %d מכשירים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">משתף חיבור אינטרנט עם מכשיר אחד (%d).</item>
+        <item quantity="two">משתף חיבור אינטרנט עם %d מכשירים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">משתף חיבור אינטרנט עם %d מכשירים.</item>
+    </plurals>
+    <plurals name="camera_flash_notification_n_apps">
+        <item quantity="other">%d יישומים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d יישום</item>
+        <item quantity="two">%d יישומים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים</item>
+    </plurals>
+    <plurals name="dex_timeout_day">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום</item>
+    </plurals>
+    <plurals name="dex_timeout_hour">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת</item>
+    </plurals>
+    <plurals name="dex_timeout_minute">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה</item>
+    </plurals>
+    <plurals name="dex_timeout_second">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה אחת</item>
+    </plurals>
+    <plurals name="dex_timeout_week">
+        <item quantity="other">%d שבועות</item>
+        <item quantity="one">שבוע</item>
+    </plurals>
+    <plurals name="installed_apps_summary_no_enabled_app">
+        <item quantity="other">%d יישומים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d יישום</item>
+        <item quantity="two">%d יישומים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים</item>
+    </plurals>
+    <plurals name="lock_timeout_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שעה</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">"%d שנ'"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d שנ'"</item>
+        <item quantity="two">"%d שנ'"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d שנ'"</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
+        <item quantity="other">אם תמחק מקומות אלה, תמיד יידרשו נתונים ביומטריים ועיכוב אבטחה בעת שינוי הגדרות רגישות.</item>
+        <item quantity="one">אם תמחק מקום זה, תמיד יידרשו נתונים ביומטריים ועיכוב אבטחה בעת שינוי הגדרות רגישות.</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
+        <item quantity="other">האם למחוק %d מקומות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק מקום %d?</item>
+        <item quantity="two">האם למחוק %d מקומות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d מקומות?</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
+        <item quantity="other">%d נבחרו</item>
+        <item quantity="one">נבחר אחד</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_summary">
+        <item quantity="other">%1$s ו-%2$d נוספים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ו-%2$d נוסף</item>
+        <item quantity="two">%1$s ו-%2$d נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d נוספים</item>
+    </plurals>
+    <plurals name="max_char_reached_msg_plural">
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="no_memory_use_summary">
+        <item quantity="other">לא נעשה שימוש בזיכרון ב-%d השעות האחרונות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא נעשה שימוש בזיכרון בשעה %d האחרונה</item>
+        <item quantity="two">לא נעשה שימוש בזיכרון ב-%d השעות האחרונות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא נעשה שימוש בזיכרון ב-%d השעות האחרונות</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d התראות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראה %d</item>
+        <item quantity="two">%d התראות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d התראות</item>
+    </plurals>
+    <plurals name="notification_reminder_custom_summary">
+        <item quantity="other">הזכר התראות מיישומים שנבחרו מדי %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הזכר התראות מיישומים שנבחרו מדי %d דקה</item>
+        <item quantity="two">הזכר התראות מיישומים שנבחרו מדי %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הזכר התראות מיישומים שנבחרו מדי %d דקות</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="other">עד %d יישומים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עד יישום אחד (%d)</item>
+        <item quantity="two">עד %d יישומים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עד %d יישומים</item>
+    </plurals>
+    <plurals name="passkeys_and_autofill_subtext">
+        <item quantity="other">%1$s ו-%2$d יישומים נוספים משתמשים בקודי כניסה ומזינים סיסמאות ופרטים אחרים באופן אוטומטי.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ויישום %2$d נוסף משתמשים בקודי כניסה ומזינים סיסמאות ופרטים אחרים באופן אוטומטי.</item>
+        <item quantity="two">%1$s ו-%2$d יישומים נוספים משתמשים בקודי כניסה ומזינים סיסמאות ופרטים אחרים באופן אוטומטי.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d יישומים נוספים משתמשים בקודי כניסה ומזינים סיסמאות ופרטים אחרים באופן אוטומטי.</item>
+    </plurals>
+    <plurals name="ps_apps">
+        <item quantity="other">%2$d יישומים עשו שימוש בהרשאה %1$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %2$d עשה שימוש בהרשאה %1$s</item>
+        <item quantity="two">%2$d יישומים עשו שימוש בהרשאה %1$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%2$d יישומים עשו שימוש בהרשאה %1$s</item>
+    </plurals>
+    <plurals name="recommended_for_you_enabled_summary">
+        <item quantity="other">פונקציות הנגישות של %d‎‏‎ נמצאות בשימוש</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פונקציית הנגישות של %d נמצאת בשימוש</item>
+        <item quantity="two">פונקציות הנגישות של %d‎‏‎ נמצאות בשימוש</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">פונקציות הנגישות של %d‎‏‎ נמצאות בשימוש</item>
+    </plurals>
+    <plurals name="reminder_select_apps">
+        <item quantity="other">%d יישומים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d יישום</item>
+        <item quantity="two">%d יישומים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים</item>
+    </plurals>
+    <plurals name="remove_language_title_multiple_plurals">
+        <item quantity="other">האם להסיר %d שפות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להסיר %d שפה?</item>
+        <item quantity="two">האם להסיר %d שפות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להסיר %d שפות?</item>
+    </plurals>
+    <plurals name="sec_accessibility_usage_summary">
+        <item quantity="other">ל-%d יישומים יש גישה מלאה אל הטלפון שלך</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ל-%d יישום יש גישה מלאה אל הטלפון שלך</item>
+        <item quantity="two">ל-%d יישומים יש גישה מלאה אל הטלפון שלך</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ל-%d יישומים יש גישה מלאה אל הטלפון שלך</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals">
+        <item quantity="other">"הטלפון שלך יכבה באופן אוטומטי בעוד %d שניות. כדי להשאיר את הטלפון מופעל הפעם, הקש על 'ביטול'."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"הטלפון שלך יכבה באופן אוטומטי בעוד %d שנייה. כדי להשאיר את הטלפון מופעל הפעם, הקש על 'ביטול'."</item>
+        <item quantity="two">"הטלפון שלך יכבה באופן אוטומטי בעוד %d שניות. כדי להשאיר את הטלפון מופעל הפעם, הקש על 'ביטול'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"הטלפון שלך יכבה באופן אוטומטי בעוד %d שניות. כדי להשאיר את הטלפון מופעל הפעם, הקש על 'ביטול'."</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
+        <item quantity="other">"הטאבלט שלך יכבה באופן אוטומטי בעוד %d שניות. כדי להשאיר את הטאבלט מופעל הפעם, הקש על 'ביטול'."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"הטאבלט שלך יכבה באופן אוטומטי בעוד %d שנייה. כדי להשאיר את הטאבלט מופעל הפעם, הקש על 'ביטול'."</item>
+        <item quantity="two">"הטאבלט שלך יכבה באופן אוטומטי בעוד %d שניות. כדי להשאיר את הטאבלט מופעל הפעם, הקש על 'ביטול'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"הטאבלט שלך יכבה באופן אוטומטי בעוד %d שניות. כדי להשאיר את הטאבלט מופעל הפעם, הקש על 'ביטול'."</item>
+    </plurals>
+    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
+        <item quantity="other">מדי %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מדי שעה %d</item>
+        <item quantity="two">מדי %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">מדי %d שעות</item>
+    </plurals>
+    <plurals name="sec_choose_lock_password_password_too_short">
+        <item quantity="other">סיסמה חייבת להכיל לפחות %d תווים, ביניהם אות אחת לפחות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סיסמה חייבת להכיל לפחות %d תו, עם אות אחת לפחות.</item>
+        <item quantity="two">סיסמה חייבת להכיל לפחות %d תווים, ביניהם אות אחת לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סיסמה חייבת להכיל לפחות %d תווים, ביניהם אות אחת לפחות.</item>
+    </plurals>
+    <plurals name="sec_choose_lock_pin_pin_too_short">
+        <item quantity="other">קוד PIN חייב להכיל לפחות %d ספרות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קוד PIN חייב להכיל לפחות ספרה %d.</item>
+        <item quantity="two">קוד PIN חייב להכיל לפחות %d ספרות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">קוד PIN חייב להכיל לפחות %d ספרות.</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+        <item quantity="other">נסה שוב בעוד שעה אחת ו-%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נסה שוב בעוד שעה אחת ודקה %d</item>
+        <item quantity="two">נסה שוב בעוד שעה אחת ו-%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נסה שוב בעוד שעה אחת ו-%d דקות</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+        <item quantity="other">נסה שוב בעוד %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נסה שוב בעוד שעה %d</item>
+        <item quantity="two">נסה שוב בעוד %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נסה שוב בעוד %d שעות</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+        <item quantity="other">נסה שוב בעוד %d שעות ודקה אחת</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נסה שוב בעוד %d שעה דקה אחת</item>
+        <item quantity="two">נסה שוב בעוד %d שעות ודקה אחת</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נסה שוב בעוד %d שעות ודקה אחת</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+        <item quantity="other">נסה שוב בעוד ‎%d‏ דקות</item>
+        <item quantity="one">נסה שוב בעוד ‎%d דקה</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">נסה שוב בעוד ‎%d‏ שניות</item>
+        <item quantity="one">נסה שוב בעוד %d שנייה</item>
+    </plurals>
+    <plurals name="sec_credman_services_limit_text">
+        <item quantity="other">לא ניתן להפעיל יותר מ-%d שירותים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להפעיל יותר משירות %d נוסף.</item>
+        <item quantity="two">לא ניתן להפעיל יותר מ-%d שירותים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להפעיל יותר מ-%d שירותים נוספים.</item>
+    </plurals>
+    <plurals name="sec_dnd_select_contact">
+        <item quantity="other">%d אנשי קשר מורשים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">איש קשר %d מורשה</item>
+        <item quantity="two">%d אנשי קשר מורשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשי קשר מורשים</item>
+    </plurals>
+    <plurals name="sec_fingerprint_added_summary">
+        <item quantity="other">נוספו %d טביעות אצבע</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נוספה %d טביעת אצבע</item>
+        <item quantity="two">נוספו %d טביעות אצבע</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נוספו %d טביעות אצבע</item>
+    </plurals>
+    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+        <item quantity="other">%1$s, %2$s ו-%3$d יישומים נוספים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s ויישום אחד (%3$d) נוסף</item>
+        <item quantity="two">%1$s, %2$s ו-%3$d יישומים נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s, %2$s ו-%3$d יישומים נוספים</item>
+    </plurals>
+    <plurals name="sec_incorrect_password_attempts_left">
+        <item quantity="other">סיסמה שגויה. לרשותך עוד %d ניסיונות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סיסמה שגויה. לרשותך עוד %d ניסיון.</item>
+        <item quantity="two">סיסמה שגויה. לרשותך עוד %d ניסיונות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סיסמה שגויה. לרשותך עוד %d ניסיונות.</item>
+    </plurals>
+    <plurals name="sec_incorrect_pattern_attempts_left">
+        <item quantity="other">דפוס שגוי. לרשותך עוד %d ניסיונות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דפוס שגוי. לרשותך עוד %d ניסיון.</item>
+        <item quantity="two">דפוס שגוי. לרשותך עוד %d ניסיונות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">דפוס שגוי. לרשותך עוד %d ניסיונות.</item>
+    </plurals>
+    <plurals name="sec_incorrect_pin_attempts_left">
+        <item quantity="other">קוד PIN שגוי. לרשותך עוד %d ניסיונות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קוד PIN שגוי. לרשותך עוד %d ניסיון.</item>
+        <item quantity="two">קוד PIN שגוי. לרשותך עוד %d ניסיונות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">קוד PIN שגוי. לרשותך עוד %d ניסיונות.</item>
+    </plurals>
+    <plurals name="sec_intelligence_service_child_popup_message">
+        <item quantity="other">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות לפחות בן %d שנה כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="two">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_letters">
+        <item quantity="other">סיסמה חייבת להכיל לפחות %d אותיות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סיסמה חייבת להכיל לפחות אות %d.</item>
+        <item quantity="two">סיסמה חייבת להכיל לפחות %d אותיות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סיסמה חייבת להכיל לפחות %d אותיות.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_lowercase">
+        <item quantity="other">הסיסמה חייבת להכיל לפחות ‎%d אותיות קטנות.</item>
+        <item quantity="one">הסיסמה חייבת להכיל לפחות ‎אות אחת קטנה.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_nonletter">
+        <item quantity="other">הסיסמה חייבת להכיל לפחות %d ספרות או סמלים.</item>
+        <item quantity="one">הסיסמה חייבת להכיל לפחות ספרה אחת או סמל אחד.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_numeric">
+        <item quantity="other">הסיסמה חייבת להכיל לפחות %d ספרות.</item>
+        <item quantity="one">הסיסמה חייבת להכיל לפחות ‎ספרה אחד.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_symbols">
+        <item quantity="other">הסיסמה חייבת להכיל לפחות ‎%d סמלים.</item>
+        <item quantity="one">הסיסמה חייבת להכיל לפחות ‎סמל אחד.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_uppercase">
+        <item quantity="other">הסיסמה חייבת להכיל לפחות ‎%d אותיות גדולות.</item>
+        <item quantity="one">הסיסמה חייבת להכיל לפחות ‎אות אחת גדולה.</item>
+    </plurals>
+    <plurals name="sec_mde_suggestions_summary">
+        <item quantity="other">%d הצעות נוספות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d הצעה נוספת</item>
+        <item quantity="two">%d הצעות נוספות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הצעות נוספות</item>
+    </plurals>
+    <plurals name="sec_number_of_device_admins">
+        <item quantity="other">%d יישומים פעילים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) פעיל</item>
+        <item quantity="two">%d יישומים פעילים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים פעילים</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_remove_dialog_title">
+        <item quantity="other">למחוק %d חבילות שפה?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק חבילת שפה %d?</item>
+        <item quantity="two">למחוק %d חבילות שפה?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d חבילות שפה?</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_tts_title">
+        <item quantity="other">%d קולות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קול %d</item>
+        <item quantity="two">%d קולות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קולות</item>
+    </plurals>
+    <plurals name="sec_runtime_permissions_additional_count">
+        <item quantity="other">‏%d הרשאות אופציונליות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏הרשאה אופציונלית אחת (%d)</item>
+        <item quantity="two">‏%d הרשאות אופציונליות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏%d הרשאות אופציונליות</item>
+    </plurals>
+    <plurals name="sec_show_dev_countdown">
+        <item quantity="other">בעוד %d הקשות תהפוך למפתח.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עוד הקשה %d ותהפוך למפתח.</item>
+        <item quantity="two">בעוד %d הקשות תהפוך למפתח.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d הקשות תהפוך למפתח.</item>
+    </plurals>
+    <plurals name="sec_zen_mode_selected_rules">
+        <item quantity="other">%d נבחר/ו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_apps_detected">
+        <item quantity="other">זוהו %d יישומים מזיקים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זוהה יישום מזיק אחד (%d)</item>
+        <item quantity="two">זוהו %d יישומים מזיקים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זוהו %d יישומים מזיקים</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext">
+        <item quantity="other">נמצאו %d יישומים זדוניים בטלפון שלך. הסר יישומים אלה כדי להגן על הטלפון שלך.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמצאה יישום זדוני %d בטלפון שלך. הסר יישום זה כדי להגן על הטלפון שלך.</item>
+        <item quantity="two">נמצאו %d יישומים זדוניים בטלפון שלך. הסר יישומים אלה כדי להגן על הטלפון שלך.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמצאו %d יישומים זדוניים בטלפון שלך. הסר יישומים אלה כדי להגן על הטלפון שלך.</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
+        <item quantity="other">נמצאו %d יישומים זדוניים בטאבלט שלך. הסר יישומים אלה כדי להגן על הטאבלט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמצאה יישום זדוני %d בטאבלט שלך. הסר יישום זה כדי להגן על הטאבלט.</item>
+        <item quantity="two">נמצאו %d יישומים זדוניים בטאבלט שלך. הסר יישומים אלה כדי להגן על הטאבלט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמצאו %d יישומים זדוניים בטאבלט שלך. הסר יישומים אלה כדי להגן על הטאבלט.</item>
+    </plurals>
+    <plurals name="security_dashboard_suggestion">
+        <item quantity="other">%d הצעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הצעה %d</item>
+        <item quantity="two">%d הצעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הצעות</item>
+    </plurals>
+    <plurals name="security_dashboard_warning">
+        <item quantity="other">%d אזהרות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אזהרה %d</item>
+        <item quantity="two">%d אזהרות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אזהרות</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">זמן שינה: %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: שעה %d</item>
+        <item quantity="two">זמן שינה: %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d שעות</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">זמן שינה: %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">זמן שינה: דקה %d</item>
+        <item quantity="two">זמן שינה: %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">זמן שינה: %d דקות</item>
+    </plurals>
+    <plurals name="temporary_cloud_backup_summary_plurals">
+        <item quantity="other">גבה כמות בלתי מוגבלת של נתונים ב-%1$s לפרק זמן של עד %2$d ימים או שחזר נתונים שגיבית.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">גבה כמות בלתי מוגבלת של נתונים ב-%1$s לפרק זמן של עד יום אחד (%2$d) או שחזר נתונים שגיבית.</item>
+        <item quantity="two">גבה כמות בלתי מוגבלת של נתונים ב-%1$s לפרק זמן של עד %2$d ימים או שחזר נתונים שגיבית.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">גבה כמות בלתי מוגבלת של נתונים ב-%1$s לפרק זמן של עד %2$d ימים או שחזר נתונים שגיבית.</item>
+    </plurals>
+    <plurals name="touch_settings_test_will_reset">
+        <item quantity="other">בדיקה זו תאופס בעוד %d שניות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בדיקה זו תאופס בעוד שנייה %d.</item>
+        <item quantity="two">בדיקה זו תאופס בעוד %d שניות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בדיקה זו תאופס בעוד %d שניות.</item>
+    </plurals>
+    <plurals name="wifi_ap_device_connected">
+        <item quantity="other">%d מכשירים מחוברים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מכשיר %d מחובר</item>
+        <item quantity="two">%d מכשירים מחוברים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מכשירים מחוברים</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+        <item quantity="other">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטלפון שלך לגישה לאינטרנט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. %d מכשיר אחד נוסף יוכל להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטלפון שלך לגישה לאינטרנט.</item>
+        <item quantity="two">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטלפון שלך לגישה לאינטרנט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטלפון שלך לגישה לאינטרנט.</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+        <item quantity="other">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בנתונים הניידים של הטלפון שלך לגישה לאינטרנט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi .%d מכשיר נוסף יוכל להשתמש בנתונים הניידים של הטלפון שלך לגישה לאינטרנט.</item>
+        <item quantity="two">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בנתונים הניידים של הטלפון שלך לגישה לאינטרנט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הפוך את הטלפון שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בנתונים הניידים של הטלפון שלך לגישה לאינטרנט.</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+        <item quantity="other">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בנתונים הניידים של הטאבלט שלך לגישה לאינטרנט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi .%d מכשיר נוסף יוכל להשתמש בנתונים הניידים של הטאבלט שלך לגישה לאינטרנט.</item>
+        <item quantity="two">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בנתונים הניידים של הטאבלט שלך לגישה לאינטרנט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בנתונים הניידים של הטאבלט שלך לגישה לאינטרנט.</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+        <item quantity="other">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטאבלט שלך לגישה לאינטרנט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. %d מכשיר נוסף יוכל להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטאבלט שלך לגישה לאינטרנט.</item>
+        <item quantity="two">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטאבלט שלך לגישה לאינטרנט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הפוך את הטאבלט שלך לנקודת גישה ל-Wi-Fi. עד %d מכשירים נוספים יוכלו להשתמש בחיבור בנתונים הניידים או ה-Wi-Fi של הטאבלט שלך לגישה לאינטרנט.</item>
+    </plurals>
+    <plurals name="wifi_ap_n_members">
+        <item quantity="other">%d חברים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חבר %d</item>
+        <item quantity="two">%d חברים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d חברים</item>
+    </plurals>
+    <plurals name="wifi_delete_item_network">
+        <item quantity="other">למחוק %d רשתות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק את רשת %d?</item>
+        <item quantity="two">למחוק %d רשתות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d רשתות?</item>
+    </plurals>
+    <plurals name="wifi_select_item_network">
+        <item quantity="other">%d נבחר/ו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_2">
+        <item quantity="other">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותרו לך %d ניסיונות לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותר לך ניסיון %d לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="two">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותרו לך %d ניסיונות לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותרו לך %d ניסיונות לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_4">
+        <item quantity="other">לרשותך עוד %d ניסיונות לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לרשותך עוד ניסיון %d לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="two">לרשותך עוד %d ניסיונות לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לרשותך עוד %d ניסיונות לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטלפון הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_2">
+        <item quantity="other">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותרו לך %d ניסיונות לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותר לך ניסיון %d לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="two">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותרו לך %d ניסיונות לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לרשותך עוד ניסיון אחד לבטל את נעילת פרופיל העבודה. נותרו לך %d ניסיונות לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_4">
+        <item quantity="other">לרשותך עוד %d ניסיונות לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לרשותך עוד ניסיון %d לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="two">לרשותך עוד %d ניסיונות לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לרשותך עוד %d ניסיונות לבטל את נעילת פרופיל העבודה. נותר לך ניסיון אחד לפני שהטאבלט הזה יאופס לערכי ברירת המחדל של היצרן וכל הנתונים יימחקו.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה %d</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דקה</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+</resources>

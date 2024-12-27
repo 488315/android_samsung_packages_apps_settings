@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="bottom" android:id="@id/preview_layout" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="@dimen/sec_user_profile_header_background_height" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/photo_layout" android:background="@drawable/user_photo_selector" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_user_profile_header_photo_margin_top" android:layout_marginBottom="@dimen/sec_user_profile_header_photo_margin_bottom" android:contentDescription="test">
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/photo_default" android:layout_width="@dimen/sec_user_profile_header_photo_size" android:layout_height="@dimen/sec_user_profile_header_photo_size" android:scaleType="fitCenter" />
+                    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/add_a_photo_icon" android:visibility="gone" android:layout_width="@dimen/sec_user_profile_header_add_a_photo_size" android:layout_height="@dimen/sec_user_profile_header_add_a_photo_size" />
+                </FrameLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_user_profile_header_title_margin_bottom" android:textDirection="locale" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

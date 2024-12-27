@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sec_data_saver_settings_layout" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/nested_scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:overScrollMode="always" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/data_saver_preview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+            <FrameLayout android:id="@id/data_saver_preference_container" android:background="@color/content_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

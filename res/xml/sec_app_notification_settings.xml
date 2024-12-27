@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_notifications_title" android:key="app_notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:roundStroke="none" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_settings_entity_header" android:key="pref_app_header" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="1.0px" settings:roundStroke="top_left|top_right" />
+    <com.android.settings.widget.SettingsMainSwitchPreference android:key="block" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="block_desc" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="desc" />
+    <PreferenceCategory android:visibility="gone" android:title="@string/conversations_category_title" android:key="conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <PreferenceCategory android:layout="@layout/empty_view" android:key="channels" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/allow_interruption" android:key="allow_sound" android:summary="@string/allow_interruption_summary" />
+    <PreferenceCategory android:key="more_settings" android:order="1000">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/notification_badge_app_icon_title" android:key="badge" android:order="1001" settings:restrictedSwitchSummary="@string/enabled_by_admin" settings:useAdditionalSummary="true" />
+        <Preference android:title="@string/notification_bubbles_title" android:key="bubble_link_pref" android:order="1002" />
+        <Preference android:title="@string/app_settings_link" android:key="app_link" android:order="1003" />
+    </PreferenceCategory>
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="deleted" android:order="8000" />
+</PreferenceScreen>

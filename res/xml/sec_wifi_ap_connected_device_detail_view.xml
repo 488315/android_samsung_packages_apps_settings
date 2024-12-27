@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:title="@string/wifi_ap_mobile_data_shared_today" android:key="client_data_usage_preference" android:order="1" settings:allowDividerBelow="false" />
+    <com.samsung.android.settings.wifi.mobileap.views.WifiApStackedProgressBarPreference android:key="progress_bar_preference" android:order="2" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <PreferenceCategory android:key="client_limit_preference_category" android:order="3">
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:title="@string/wifi_ap_data_limit_client" android:key="set_data_limit_preference" android:order="1" settings:controller="com.samsung.android.settings.wifi.mobileap.clients.WifiApClientSetDataLimitPreferenceController" />
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:title="@string/wifi_ap_time_limit" android:key="set_time" android:order="2" settings:controller="com.samsung.android.settings.wifi.mobileap.clients.WifiApClientSetTimeLimitPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/sec_tab_custom_time_picker_tab_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_custom_time_picker_tab" style="@style/TabCustomTimePicker">
+            <com.google.android.material.tabs.TabItem android:tag="@string/edit_event_start_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_start_short" />
+            <com.google.android.material.tabs.TabItem android:tag="@string/edit_event_end_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_end_short" />
+        </com.google.android.material.tabs.TabLayout>
+    </FrameLayout>
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_tab_custom_time_picker_margin_bottom">
+            <androidx.picker.widget.SeslTimePicker android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="center" android:id="@id/tab_custom_time_picker" android:layout_width="fill_parent" android:layout_height="@dimen/sec_tab_custom_time_picker_height" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

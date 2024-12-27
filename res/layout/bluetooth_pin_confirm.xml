@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/confirmlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bluetooth_dialog_padding_top_bottom"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/sec_widget_description_text_size" android:gravity="center_vertical" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_alert_dialog_padding_top" android:layout_marginStart="@dimen/sec_bluetooth_dialog_padding" android:layout_marginEnd="@dimen/sec_bluetooth_dialog_padding" style="@style/body_text_style" />
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/sesl_text_size_headline" android:textColor="@color/sec_widget_body_text_color" android:gravity="center" android:id="@id/pincode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_body_text_padding_top" android:lineSpacingExtra="@dimen/sec_widget_body_text_line_spacing_extra" android:layout_marginStart="@dimen/sec_bluetooth_dialog_padding" android:layout_marginEnd="@dimen/sec_bluetooth_dialog_padding" />
+    </LinearLayout>
+</ScrollView>

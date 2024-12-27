@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/hint_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sec_choose_lock_hint_img_container" android:background="@drawable/sec_lockscreen_choose_lock_hint_img_container_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="16.0dip">
+                <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_hint_image_height" android:src="@drawable/lock_setting_img_hint" android:adjustViewBounds="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/choose_lock_hint_description_container" android:background="@drawable/sec_lockscreen_choose_lock_hint_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/sec_lock_hint_header_text_size" android:gravity="center_horizontal" android:id="@id/hint_head_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sec_body_text_side_padding" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/sec_body_text_side_padding" android:layout_marginBottom="20.0dip" android:text="@string/sec_choose_lock_hint_description" android:fontFamily="sans-serif" style="@style/body_text_style" />
+                <EditText android:textSize="@dimen/sec_lock_edittext_text_size" android:gravity="start|bottom|center" android:layout_gravity="center" android:id="@id/hint_edit_text" android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_hint_edit_text_height" android:hint="@string/sec_choose_lock_hint_editbox_hint" android:imeOptions="actionNext" android:layout_marginStart="@dimen/sec_lock_hint_edittext_start_margin" android:layout_marginEnd="@dimen/sec_lock_hint_edittext_start_margin" style="@style/EditTextSamsungStyle" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/red" android:gravity="center_horizontal" android:id="@id/hint_error_text" android:paddingTop="18.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/SecurityPreferenceButtonContainer">
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/cancel_button" android:text="@string/intelligent_biometrics_lock_settings_button_skip" style="@style/SecurityPreferenceButton" />
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/next_button" android:text="@string/common_ok" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

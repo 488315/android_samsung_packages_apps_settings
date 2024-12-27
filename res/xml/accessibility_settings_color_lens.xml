@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/color_lens_description" android:key="description_preference" settings:searchable="false" />
+    <PreferenceCategory />
+    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference android:max="8" android:title="@string/opacity_seekbar_title" android:key="seek_bar_preference" settings:seekBarMode="levelbar" />
+    <PreferenceCategory />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_blue" android:key="color_blue" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_azure" android:key="color_azure" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_cyan" android:key="color_cyan" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_spring_green" android:key="color_spring_green" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_green" android:key="color_green" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_chartreuse_green" android:key="color_chartreuse_green" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_yellow" android:key="color_yellow" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_orange" android:key="color_orange" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_red" android:key="color_red" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_rose" android:key="color_rose" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_magenta" android:key="color_magenta" />
+    <com.samsung.android.settings.accessibility.base.widget.ColorSelectorWithWidgetPreference android:persistent="false" android:title="@string/color_violet" android:key="color_violet" />
+</PreferenceScreen>

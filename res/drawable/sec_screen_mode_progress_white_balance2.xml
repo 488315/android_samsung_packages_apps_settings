@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center_vertical" android:height="27.0dip" android:start="@dimen/sec_screen_mode_seekbar_progress_drawable_padding" android:end="@dimen/sec_screen_mode_seekbar_progress_drawable_padding">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#ff5ac5e1" android:endColor="#fff59562" android:angle="0.0" android:centerColor="#fff1e6bd" />
+            <corners android:radius="@dimen/sec_screen_mode_seekbar_progress_drawable_radius" />
+            <size android:height="27.0dip" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_security_title" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/security_dashboard_action_appsecurity_activity_description" android:selectable="false" android:order="-600" settings:positionMode="first_item" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_device_protection" android:title="@string/device_protection_title" android:key="key_device_protection" android:order="-500" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardDeviceProtectionPreferenceController" settings:isDividerVisible="false" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_google_play_protect" android:title="@string/google_play_protect_title" android:key="key_google_play_protection" android:order="-400" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardGPPPreferenceController" settings:isPreferenceVisible="false" />
+</PreferenceScreen>

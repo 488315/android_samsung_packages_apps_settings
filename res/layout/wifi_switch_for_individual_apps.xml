@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <TextView android:background="@color/sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/sec_list_item_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_switch_for_individual_apps_subtext" android:paddingStart="@dimen/sec_list_item_start_padding" android:paddingEnd="@dimen/sec_list_item_end_padding" style="@style/description_text" />
+    <FrameLayout android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/sec_wifi_setting_start_end_padding" android:paddingEnd="@dimen/sec_wifi_setting_start_end_padding">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/apps_list" android:background="@color/sec_widget_switchbar_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" settings:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
+        <TextView android:id="@id/empty_list" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/description_text" />
+    </FrameLayout>
+</LinearLayout>

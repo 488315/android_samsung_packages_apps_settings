@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_category_exceptions"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:title="@string/zen_mode_alarms" android:key="modes_category_alarm" />
+    <SwitchPreferenceCompat android:title="@string/zen_mode_media" android:key="modes_category_media" android:summary="@string/zen_mode_media_summary" />
+    <SwitchPreferenceCompat android:title="@string/zen_mode_system" android:key="modes_category_system" android:summary="@string/zen_mode_system_summary" />
+    <SwitchPreferenceCompat android:title="@string/zen_mode_reminders" android:key="modes_category_reminders" />
+    <SwitchPreferenceCompat android:title="@string/zen_mode_events" android:key="modes_category_events" />
+</PreferenceScreen>

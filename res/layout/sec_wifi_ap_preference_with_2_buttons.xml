@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/sec_wifi_ap_custom_preference_merge_view" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/wifi_ap_dialog_body_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/decline_button" android:background="@drawable/sec_ripple_bottom_bar_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wifi_ap_decline" android:layout_weight="1.0" android:fontFamily="sec-roboto-medium" android:letterSpacing="0.0301" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/wifi_ap_dialog_body_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/accept_button" android:background="@drawable/sec_ripple_bottom_bar_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wifi_ap_accept" android:layout_weight="1.0" android:fontFamily="sec-roboto-medium" android:letterSpacing="0.0301" />
+    </LinearLayout>
+</LinearLayout>

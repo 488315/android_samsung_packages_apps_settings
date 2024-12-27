@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment" settings:title="@string/amplify_ambient_sound_title" settings:topLevelPreferenceKey="top_level_accessibility"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/amplify_ambient_sound_description" android:key="description" settings:searchable="false" />
+</PreferenceScreen>

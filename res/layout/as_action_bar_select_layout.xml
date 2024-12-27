@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/custom_view" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/check_box_container" android:background="@drawable/as_select_all_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/as_actionbar_height">
+        <CheckBox android:id="@id/checkbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_marginStart="@dimen/as_select_all_checkbox_margin_horizontal" android:layout_marginEnd="@dimen/as_select_all_checkbox_margin_horizontal" />
+        <TextView android:textSize="@dimen/as_actionbar_select_all_text_size" android:textColor="@color/as_actionbar_title_text_color_theme" android:ellipsize="end" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_select_all_text_margin_top" android:text="@string/as_all_files" android:includeFontPadding="false" style="@style/AsRegularSec400" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_actionbar_select_count_text_size" android:textColor="@color/as_actionbar_title_text_color_theme" android:ellipsize="end" android:id="@id/title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/AsSemiBoldSec600" />
+        <TextView android:textSize="@dimen/as_actionbar_select_size_text_size" android:textColor="@color/as_actionbar_text_color" android:ellipsize="end" android:id="@id/sub_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

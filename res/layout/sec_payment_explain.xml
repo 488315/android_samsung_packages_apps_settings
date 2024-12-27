@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:paddingTop="@dimen/sec_widget_body_text_padding_top" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:paddingStart="@dimen/sec_widget_list_item_padding_start" android:paddingEnd="@dimen/sec_widget_list_item_padding_end" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/ce_and_weee_marks_img" android:layout_width="fill_parent" android:layout_height="60.0dip" android:src="@drawable/sec_ce_and_weee_marks" android:scaleType="fitCenter" android:adjustViewBounds="true" android:tint="@color/device_info_ce_and_weee_marks_tint_color" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/ce_and_weee_marks_additional_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:paddingBottom="@dimen/sec_body_text_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_info_ce_and_weee_mark_additional_description" style="@style/CeAndWeeeMarksRegulatoryDescriptionStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.samsung.android.settings.widget.SecRoundButtonView android:gravity="center" android:id="@id/regulatory_information_link_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/regulatory_information" style="@style/CeAndWeeeMarksRegulatoryButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

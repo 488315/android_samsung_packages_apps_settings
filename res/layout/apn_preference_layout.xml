@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?listChoiceBackgroundIndicator" android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/apn_radio_button_frame" android:layout_width="@dimen/min_tap_target_size" android:layout_height="@dimen/min_tap_target_size" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end">
+        <RadioButton android:layout_gravity="center" android:id="@id/apn_radiobutton" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/text_layout" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@android:id/title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:textAlignment="viewStart" android:labelFor="@id/apn_radio_button_frame" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" android:hyphenationFrequency="normalFast" />
+    </RelativeLayout>
+</LinearLayout>

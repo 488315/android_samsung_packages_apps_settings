@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="?android:dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="?android:dialogPreferredPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/description_text" android:paddingBottom="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DeviceAudioSharingText" />
+    <ImageView android:layout_gravity="center" android:id="@id/description_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/device_btn_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+    <Button android:layout_gravity="center" android:id="@id/positive_btn" android:background="@drawable/audio_sharing_rounded_bg_ripple" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/SettingsLibActionButton" />
+    <Button android:layout_gravity="center" android:id="@id/negative_btn" android:background="@drawable/audio_sharing_rounded_bg_ripple" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/SettingsLibActionButton" />
+</LinearLayout>

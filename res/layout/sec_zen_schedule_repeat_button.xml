@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sec_zen_mode_schedule_repeat_text_size" android:textColor="@color/sec_zen_schedule_title_text_color" android:gravity="center_vertical" android:id="@id/repeat_text" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/sec_zen_mode_schedule_repeat_textview_height" android:layout_marginTop="@dimen/sec_zen_mode_schedule_repeat_text_margin_top" android:text="@string/sec_zen_mode_downtime_days" android:fontFamily="roboto-regular" android:layout_marginStart="@dimen/sec_zen_mode_schedule_repeat_text_margin_left" android:layout_marginEnd="@dimen/sec_zen_mode_schedule_repeat_text_margin_left" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/repeat_btn_group" android:layout_width="fill_parent" android:layout_height="@dimen/sec_zen_mode_schedule_repeat_btn_group_layout_height" android:layout_below="@id/repeat_text" android:layout_marginStart="@dimen/sec_zen_mode_schedule_repeat_btn_layout_start_end_margin" android:layout_marginEnd="@dimen/sec_zen_mode_schedule_repeat_btn_layout_start_end_margin">
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_0" android:textOn="@string/sec_dnd_sun" android:textOff="@string/sec_dnd_sun" style="@style/alarm_repeat_toggle_style" />
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_1" android:textOn="@string/sec_dnd_mon" android:textOff="@string/sec_dnd_mon" style="@style/alarm_repeat_toggle_style" />
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_2" android:textOn="@string/sec_dnd_tue" android:textOff="@string/sec_dnd_tue" style="@style/alarm_repeat_toggle_style" />
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_3" android:textOn="@string/sec_dnd_wed" android:textOff="@string/sec_dnd_wed" style="@style/alarm_repeat_toggle_style" />
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_4" android:textOn="@string/sec_dnd_thu" android:textOff="@string/sec_dnd_thu" style="@style/alarm_repeat_toggle_style" />
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_5" android:textOn="@string/sec_dnd_fri" android:textOff="@string/sec_dnd_fri" style="@style/alarm_repeat_toggle_style" />
+        <com.samsung.android.settings.notification.zen.CheckBoxToggleButton android:id="@id/repeat_6" android:textOn="@string/sec_dnd_sat" android:textOff="@string/sec_dnd_sat" style="@style/alarm_repeat_toggle_style" />
+    </LinearLayout>
+</RelativeLayout>

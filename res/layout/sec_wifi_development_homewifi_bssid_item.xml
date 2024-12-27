@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/base_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ssid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_marginStart="0.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:gravity="start|center" android:id="@id/ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="BSSID" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="Band" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="end" android:layout_width="48.0dip" android:layout_height="wrap_content" android:text="RSSI" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bssid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip">
+        <View android:layout_gravity="center" android:id="@id/circle" android:background="@drawable/sec_wifi_circle" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginTop="1.0dip" android:layout_marginEnd="6.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:gravity="start|center" android:id="@id/bssid" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:id="@id/band" android:layout_width="48.0dip" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:gravity="end" android:id="@id/rssi" android:layout_width="48.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

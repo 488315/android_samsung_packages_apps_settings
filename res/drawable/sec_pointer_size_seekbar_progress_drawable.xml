@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@id/background" android:height="@dimen/sec_screen_zoom_seekbar_progress_drawable_height">
+        <nine-patch android:src="@drawable/sec_screen_zoom_progress_bar_bg" android:tint="@color/sec_screen_zoom_seekbar_progress_drawable_solid_color" />
+    </item>
+</layer-list>

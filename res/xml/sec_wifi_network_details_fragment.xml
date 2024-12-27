@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_entity_header" android:selectable="false" android:key="wifi_detail_header" settings:allowDividerBelow="true" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="header_inset" />
+    <androidx.preference.Preference android:title="@string/wifi_security" android:key="security" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="connect_info" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_details_password" android:title="@string/wifi_eap_identity" android:selectable="false" android:key="eap_identity" settings:allowDividerBelow="true" settings:isPreferenceVisible="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_details_password" android:title="@string/wifi_password" android:selectable="false" android:key="wifi_password" settings:allowDividerAbove="true" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <androidx.preference.Preference android:title="@string/passpoint_label" android:key="passpoint" settings:isPreferenceVisible="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/wifi_auto_reconnect" android:key="auto_connect" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="auto_reconnect_category" />
+    <androidx.preference.Preference android:title="@string/wifi_ap_location_map_link" android:key="router_location" settings:isPreferenceVisible="false" />
+    <androidx.preference.Preference android:title="@string/wifi_manage_router" android:key="manage_router" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="basic_setting" />
+    <com.samsung.android.settings.wifi.details.WifiExpandablePreference android:title="wifi_menu_advanced" android:key="expander" />
+    <PreferenceCategory android:key="advanced">
+        <SecPreferenceCategory android:key="network_config">
+            <androidx.preference.DropDownPreference android:entries="@array/wifi_ip_settings" android:title="@string/wifi_ip_settings" android:key="ip_settings" android:entryValues="@array/wifi_ip_values" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="wifi_ip_address" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="gateway" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="wifi_network_prefix_length" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="wifi_dns1" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="wifi_dns2" settings:isPreferenceVisible="false" />
+            <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="ip_inset" />
+            <androidx.preference.DropDownPreference android:entries="@array/wifi_proxy_settings" android:title="@string/proxy_settings_title" android:key="proxy_settings" android:entryValues="@array/wifi_proxy_values" />
+            <com.samsung.android.settings.wifi.SecWifiUnclickablePreference android:title="@string/proxy_warning_limited_support" android:selectable="false" android:key="proxy_warning_limited_support" settings:isPreferenceVisible="false" style="@style/sec_wifi_description_sub_proxy" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="proxy_pac" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="proxy_hostname" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="proxy_port" settings:isPreferenceVisible="false" />
+            <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_edittext" android:selectable="false" android:key="proxy_exclusionlist" settings:isPreferenceVisible="false" />
+            <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="proxy_inset" />
+        </SecPreferenceCategory>
+        <androidx.preference.DropDownPreference android:entries="@array/wifi_metered_entries" android:title="@string/data_usage_metered_yes" android:key="metered" android:entryValues="@array/wifi_metered_values" />
+        <androidx.preference.DropDownPreference android:entries="@array/wifi_privacy_entries" android:title="@string/wifi_privacy_settings" android:key="privacy" android:entryValues="@array/wifi_privacy_values" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_preference_error_text" android:selectable="false" android:key="privacy_warning_text" />
+        <androidx.preference.Preference android:title="@string/wifi_advanced_mac_address_title" android:key="mac_address" />
+        <androidx.preference.Preference android:title="@string/wifi_advanced_ip_address_title" android:key="ip_address" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/wifi_connect_send_device_name_to_network" android:key="dhcp_name_sharing" />
+        <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="end_setting" />
+    </PreferenceCategory>
+</PreferenceScreen>

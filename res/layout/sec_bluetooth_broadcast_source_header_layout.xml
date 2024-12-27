@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/header_layout" android:background="@color/sec_bluetooth_auracast_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/entity_header" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecBluetoothEntityHeader">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/additional_icon" android:layout_width="@dimen/sec_bluetooth_assistant_connected_card_image_size" android:layout_height="@dimen/sec_bluetooth_assistant_connected_card_image_size" android:src="@drawable/sec_bluetooth_broadcast_connected_stream" android:tint="@color/sec_bluetooth_auracast_header_icon_color" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/video_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/sec_bluetooth_broadcast_equalizer_icon" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/sec_bluetooth_source_header_text_size" android:textColor="?android:textColorPrimary" android:id="@id/broadcast_source_sub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_source_header_space" android:minHeight="@dimen/sec_bluetooth_source_header_text_min_height" android:text="@string/sec_bluetooth_source_header_title" android:fontFamily="sec" android:textFontWeight="600" />
+    </LinearLayout>
+</LinearLayout>

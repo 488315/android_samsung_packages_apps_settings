@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasjon av</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP eller CHAP</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard grense</item>
+        <item>Ingen bakgrunnsprosesser</item>
+        <item>Maksimalt 1 prosess</item>
+        <item>Maksimalt 2 prosesser</item>
+        <item>Maksimalt 3 prosesser</item>
+        <item>Maksimalt 4 prosesser</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Bruk systemvalg (standard)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Bruk systemvalg (standard)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Bruk systemvalg (standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Bruk systemvalg (standard)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimalisert for lydkvalitet</item>
+        <item>Balansert lyd- og tilkoblingskvalitet</item>
+        <item>Optimalisert for tilkoblingskvalitet</item>
+        <item>Beste forsøk (tilpasset bithastighet)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimalisert for lydkvalitet (990 kbps / 909 kbps)</item>
+        <item>Balansert lyd- og tilkoblingskvalitet (660 kbps/606kbps)</item>
+        <item>Optimalisert for tilkoblingskvalitet (330 kbps / 303 kbps)</item>
+        <item>Beste forsøk (tilpasset bithastighet)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Bruk systemvalg (standard)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Bruk systemvalg (standard)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Bruk systemvalg (standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-lyd</item>
+        <item>Qualcomm® aptX™ HD-lyd</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Bruk systemvalg (standard)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™-lyd</item>
+        <item>Qualcomm® aptX™ HD-lyd</item>
+        <item>LDAC</item>
+        <item>LC3</item>
+        <item>Opus</item>
+    </string-array>
+    <string-array name="bluetooth_audio_active_device_summaries">
+        <item></item>
+        <item>, aktiv</item>
+        <item>, aktiv (media)</item>
+        <item>, aktiv (telefon)</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.5 (standard)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.4</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_cast_timeout_entries">
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+        <item>Ikke koble fra</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (standard)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
+    <string-array name="bluetooth_max_connected_audio_devices">
+        <item>Systemstandard: %d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="bluetooth_pbap_property_picture_entries">
+        <item>Ja</item>
+        <item>Nei</item>
+    </string-array>
+    <string-array name="bluetooth_sap_activation_entries">
+        <item>Standard (ingen effekt)</item>
+        <item>Slå på SAP gjennom tvang</item>
+        <item>Slå av SAP gjennom tvang</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Slått av</item>
+        <item>Filtrering er slått på</item>
+        <item>Slått på</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_filters_entries">
+        <item>La bare ACL-hoder være igjen</item>
+        <item>Filtrer A2DP-mediepakker</item>
+        <item>Filtrer RFCOMM-kanalen</item>
+    </string-array>
+    <string-array name="bt_hci_snoop_log_profile_filter_entries">
+        <item>Deaktiver</item>
+        <item>Fyll med en streng med tegn</item>
+        <item>La bare hodet være igjen</item>
+        <item>Fjern fullstendig</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Standard</item>
+        <item>Ingen</item>
+        <item>Utkast</item>
+        <item>Skygge</item>
+        <item>Hevet</item>
+        <item>Senket</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Veldig liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Veldig stor</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Standard</item>
+        <item>Hvitt på svart</item>
+        <item>Svart på hvitt</item>
+        <item>Gult på svart</item>
+        <item>Gult på blått</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Standard</item>
+        <item>Sans serif</item>
+        <item>Sans serif condensed</item>
+        <item>Sans serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Uformelt</item>
+        <item>Kursiv</item>
+        <item>Små bokstaver</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Forbedrede farger</item>
+        <item>Naturlige farger – som øyet ser dem</item>
+        <item>Farger som er optimalisert for digitalt innhold</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Krystallklar (standard)</item>
+        <item>Naturlig</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="data_usage_billing_cycle_summary">
+        <item>1. dag i hver måned</item>
+        <item>2. dag i hver måned</item>
+        <item>3. dag i hver måned</item>
+        <item>4. dag i hver måned</item>
+        <item>5. dag i hver måned</item>
+        <item>6. dag i hver måned</item>
+        <item>7. dag i hver måned</item>
+        <item>8. dag i hver måned</item>
+        <item>9. dag i hver måned</item>
+        <item>10. dag i hver måned</item>
+        <item>11. dag i hver måned</item>
+        <item>12. dag i hver måned</item>
+        <item>13. dag i hver måned</item>
+        <item>14. dag i hver måned</item>
+        <item>15. dag i hver måned</item>
+        <item>16. dag i hver måned</item>
+        <item>17. dag i hver måned</item>
+        <item>18. dag i hver måned</item>
+        <item>19. dag i hver måned</item>
+        <item>20. dag i hver måned</item>
+        <item>21. dag i hver måned</item>
+        <item>22. dag i hver måned</item>
+        <item>23. dag i hver måned</item>
+        <item>24. dag i hver måned</item>
+        <item>25. dag i hver måned</item>
+        <item>26. dag i hver måned</item>
+        <item>27. dag i hver måned</item>
+        <item>28. dag i hver måned</item>
+        <item>29. dag i hver måned</item>
+        <item>30. dag i hver måned</item>
+        <item>31. dag i hver måned</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Av</item>
+        <item>Vis overtrekksområder</item>
+        <item>Vis områder for deuteranomali</item>
+    </string-array>
+    <string-array name="dex_timeout_entries">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>20 minutter</item>
+        <item>30 minutter</item>
+        <item>60 minutter</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ingen</item>
+        <item>Logcat</item>
+        <item>Systrace (grafikk)</item>
+        <item>Anropsliste for glGetError</item>
+    </string-array>
+    <string-array name="gpuwatch_rendering_api_entries">
+        <item>Vulkan</item>
+        <item>OpenGL</item>
+    </string-array>
+    <string-array name="gpuwatch_widget_positions">
+        <item>Øverst – venstre</item>
+        <item>Øverst – midtstilt horisontalt</item>
+        <item>Øverst – høyre</item>
+        <item>Midtstilt vertikalt – venstre</item>
+        <item>Midtstilt vertikalt – høyre</item>
+        <item>Nederst – venstre</item>
+        <item>Nederst – midtstilt horisontalt</item>
+        <item>Nederst – høyre</item>
+    </string-array>
+    <string-array name="grammatical_gender_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Bruk aldri HDCP-kontroll</item>
+        <item>Bruk HDCP-kontroll kun for DRM-innhold</item>
+        <item>Bruk alltid HDCP-kontroll</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Kontroller aldri</item>
+        <item>Kontroller kun DRM-innhold</item>
+        <item>Kontroller alltid</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Alltid av</item>
+        <item>1 sekund</item>
+        <item>3 sekunder</item>
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>15 sekunder</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Umiddelbart</item>
+        <item>5 sekunder</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="mouse_pointer_color_type">
+        <item>Hvit</item>
+        <item>Svart</item>
+        <item>Turkis</item>
+        <item>Gul</item>
+        <item>Lyserød</item>
+        <item>Lys fiolett</item>
+        <item>Lys blå</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Ingen</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="num_allowed_devices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ingen</item>
+        <item>480p</item>
+        <item>480p (sikker)</item>
+        <item>720p</item>
+        <item>720p (sikker)</item>
+        <item>1080p</item>
+        <item>1080p (sikker)</item>
+        <item>4K</item>
+        <item>4K (sikker)</item>
+        <item>4K (oppskalert)</item>
+        <item>4K (oppskalert, sikker)</item>
+        <item>720p, 1080p (Dual Screen)</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Dårlig</item>
+        <item>Kritisk</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="sec_bt_stack_log_level_entries">
+        <item>Detaljert</item>
+        <item>Feilsøk</item>
+        <item>Informasjon</item>
+        <item>Varsle</item>
+        <item>Feil</item>
+    </string-array>
+    <string-array name="sec_samsung_account_benefit_message_phone">
+        <item>Finn telefonen hvis den er mistet.</item>
+        <item>Synkroniser apper og innstillinger på tvers av enhetene.</item>
+        <item>Del filer med venner, familie og andre enheter.</item>
+    </string-array>
+    <string-array name="sec_samsung_account_benefit_message_tablet">
+        <item>Finn nettbrettet hvis det er mistet.</item>
+        <item>Kopier og lim inn mellom telefonen og nettbrettet.</item>
+        <item>Bytt automatisk Buds mellom enheter.</item>
+        <item>Besvar anrop og tekstmeldinger på nettbrettet.</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Alltid spør</item>
+        <item>Aldri tillat</item>
+        <item>Alltid tillat</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Av</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Av</item>
+        <item>64K per loggbuffer</item>
+        <item>256K per loggbuffer</item>
+        <item>1M per loggbuffer</item>
+        <item>4M per loggbuffer</item>
+        <item>8M per loggbuffer</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Av</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>8M</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Av</item>
+        <item>Alle loggbuffere</item>
+        <item>Alle unntatt radiologgbuffere</item>
+        <item>bare kjerneloggbuffer</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Av</item>
+        <item>Alle</item>
+        <item>Unntatt radio</item>
+        <item>bare kjerne</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Av</item>
+        <item>Merk urektangulært klippefelt blått</item>
+        <item>Fremhev testede tegnekommandoer i grønt</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Av</item>
+        <item>På skjermen som stolper</item>
+        <item>I adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasjon av</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>60 %</item>
+        <item>80 %</item>
+        <item>100 %</item>
+        <item>150 %</item>
+        <item>200 %</item>
+        <item>250 %</item>
+        <item>300 %</item>
+        <item>350 %</item>
+        <item>400 %</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Lader</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Lydkilde</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="vpn_proxy_settings">
+        <item>Ingen</item>
+        <item>Manuelt</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Frakoblet</item>
+        <item>Initialiserer…</item>
+        <item>Kobler til…</item>
+        <item>Tilkoblet</item>
+        <item>Tidsavbrudd</item>
+        <item>Mislykket</item>
+    </string-array>
+    <string-array name="wifi_ap_broadcast_channel_entries">
+        <item>Automatisk</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_mac_address_type_phone_entries">
+        <item>Tilfeldig MAC</item>
+        <item>Telefon-MAC</item>
+    </string-array>
+    <string-array name="wifi_ap_mac_address_type_tablet_entries">
+        <item>Tilfeldig MAC</item>
+        <item>Nettbrett-MAC</item>
+    </string-array>
+    <string-array name="wifi_ap_owe_security_type_entries">
+        <item>Åpen</item>
+        <item>Enhanced Open</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
+        <item>Åpen</item>
+        <item>Enhanced Open</item>
+        <item>WPA2-Personal</item>
+        <item>WPA2/WPA3-Personal</item>
+        <item>WPA3-Personal</item>
+    </string-array>
+    <string-array name="wifi_ap_security_type_entries">
+        <item>Åpen</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
+        <item>Aldri tidsavbrudd</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>20 minutter</item>
+        <item>30 minutter</item>
+        <item>60 minutter</item>
+    </string-array>
+    <string-array name="wifi_ap_wifi_sharing">
+        <item>Slå på Wi-Fi-deling</item>
+        <item>Slå av Wi-Fi-deling</item>
+    </string-array>
+    <string-array name="wifi_ap_wpa3_security_type_entries">
+        <item>Åpen</item>
+        <item>WPA2-Personal</item>
+        <item>WPA2/WPA3-Personal</item>
+        <item>WPA3-Personal</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Automatisk</item>
+        <item>Manuelt</item>
+        <item>Spør alltid</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statisk</item>
+    </string-array>
+    <string-array name="wifi_metered_entries">
+        <item>Registrer automatisk</item>
+        <item>Behandle som forbruksmålt</item>
+        <item>Behandle som ikke forbruksmålt</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Tilkoblet</item>
+        <item>Invitert.</item>
+        <item>Kunne ikke koble til</item>
+        <item>Trykk her for å koble til.</item>
+        <item>Utenfor verdiområdet.</item>
+        <item>Koblet til en annen enhet</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ingen</item>
+        <item>Manuelt</item>
+        <item>Automatisk konfigurering</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Søker…</item>
+        <item>Kobler til…</item>
+        <item>Godkjenner…</item>
+        <item>Henter IP-adresse…</item>
+        <item>Tilkoblet</item>
+        <item>Suspendert</item>
+        <item>Kobler fra…</item>
+        <item>Frakoblet</item>
+        <item>Mislykket</item>
+        <item>Blokkert</item>
+        <item>Kontrollerer kvaliteten på Internett-tilkoblingen …</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skanner ...</item>
+        <item>Kobler til %1$s …</item>
+        <item>Autentiserer med %1$s …</item>
+        <item>Henter IP-adresse fra %1$s …</item>
+        <item>Koblet til %1$s</item>
+        <item>Avsluttet</item>
+        <item>Kobler fra %1$s …</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig tilkobling midlertidig</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skanner …</item>
+        <item>Kobler til …</item>
+        <item>Autentiserer …</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilkoblet</item>
+        <item>Sperret midlertidig</item>
+        <item>Kobler fra …</item>
+        <item>Frakoblet</item>
+        <item>Mislykket</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlig tilkobling midlertidig</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasjon av</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
+    </string-array>
+</resources>

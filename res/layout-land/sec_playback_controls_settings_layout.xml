@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="505.0">
+        <FrameLayout android:id="@id/playback_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/playback_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/sec_widget_img_margin" android:src="@drawable/playback_controls_settings_preview" android:scaleType="fitXY" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" />
+        </FrameLayout>
+        <LinearLayout android:id="@id/blackView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="495.0" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end">
+        <TextView android:id="@id/playback_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_playback_controls_description" style="@style/description_text" />
+    </LinearLayout>
+</LinearLayout>

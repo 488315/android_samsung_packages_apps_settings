@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/easy_mode" android:key="easy_mode_apps" settings:hierarchicalParentFragment="com.android.settings.DisplaySettings" settings:topLevelPreferenceKey="top_level_display"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreferenceCategory android:key="no_stroke" settings:roundStroke="none" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_easy_mode_main_container" android:selectable="false" android:key="easy_mode_preview" settings:allowDividerBelow="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="@dimen/sec_widget_preference_unclickable_margin_top" settings:roundStroke="top_left|top_right" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/easy_mode" android:key="easy_mode_switch" />
+    <androidx.preference.PreferenceCategory android:key="easy_mode_enable_category">
+        <androidx.preference.Preference android:title="@string/touch_and_hold_delay_header" android:key="touch_hold_preference" />
+        <androidx.preference.SecSwitchPreferenceScreen android:title="@string/accessibility_toggle_high_keyboard_contrast_preference_title" android:key="high_contrast_keyboard_preference" android:summary="@string/accessibility_toggle_high_keyboard_contrast_preference_description" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

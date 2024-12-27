@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_channel_bypass_title" settings:hierarchicalParentFragment="com.android.settings.notification.zen.lifestyle.LifeStyleDND"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_zen_app_exception_footer_desc" android:key="footer_desc" />
+    <PreferenceCategory android:key="lifestyle_bypassing_apps" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/lifestyle_allow_apps" android:key="lifestyle_exist_apps" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/lifestyle_adding_apps" android:key="lifestyle_add_apps" />
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/gpfelica_jpn_desc" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="marquee" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_nfc_settings_description_bottom" android:text="@string/nfc_settings_title" android:singleLine="false" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/nfc_settings_vert" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/nfc_settings_vert_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/vert" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/device_jpn_model_vert" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/felica_antenna_vert" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:adjustViewBounds="true" app:lottie_autoPlay="true" app:lottie_loop="true" />
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/antenna_guide_image_vert" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="marquee" android:id="@id/nfc_settings_vert_desc" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_nfc_image_bottom" android:layout_marginBottom="@dimen/sec_nfc_settings_description_bottom" android:text="@string/nfc_antenna_position_explain_all" android:singleLine="false" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/nfc_settings_land" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/nfc_settings_land_layout_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="50.5">
+            <LinearLayout android:id="@id/nfc_settings_land_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/land" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/device_jpn_model_land" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/felica_antenna_land" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:adjustViewBounds="true" app:lottie_autoPlay="true" app:lottie_loop="true" />
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/antenna_guide_image_land" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/blackView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+        </LinearLayout>
+        <LinearLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="49.5">
+            <TextView android:ellipsize="marquee" android:id="@id/nfc_settings_land_desc" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_nfc_image_top" android:text="@string/nfc_antenna_position_explain_all" android:singleLine="false" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

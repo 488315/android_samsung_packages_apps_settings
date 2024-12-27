@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="25.0dip" android:paddingEnd="25.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/dialog_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/ic_bt_le_audio_sharing" />
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Headline" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:gravity="center" android:layout_gravity="center" android:id="@id/dialog_subtitle_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/broadcast_dialog_margin">
+            <Button android:id="@id/left_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BroadcastActionButton" />
+            <Button android:id="@id/right_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BroadcastActionButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

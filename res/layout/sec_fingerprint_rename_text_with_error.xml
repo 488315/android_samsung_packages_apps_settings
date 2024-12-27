@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pwd_body_layout" android:paddingTop="@dimen/sec_fingerprint_edit_text_top_margin" android:paddingBottom="@dimen/sec_fingerprint_edit_text_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_fingerprint_edit_text_left_margin" android:paddingEnd="@dimen/sec_fingerprint_edit_text_right_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/fingerprint_name_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bluetooth_rename_button">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/fingerprint_name_editText" android:paddingTop="5.0dip" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sec_fingerprint_rename_enter_text" android:lines="1" android:singleLine="true" android:inputType="textCapSentences" android:privateImeOptions="disableSetting=true;disableGifKeyboard=true;disableSticker=true;disableLiveMessage=true" android:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

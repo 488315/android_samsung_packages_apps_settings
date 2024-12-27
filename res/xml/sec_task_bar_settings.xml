@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/task_bar" android:key="task_bar_setting" settings:hierarchicalParentFragment="com.android.settings.DisplaySettings" settings:topLevelPreferenceKey="top_level_display"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_task_bar_help_vi_container" android:key="task_bar_help_preview" settings:allowDividerBelow="false" />
+    <PreferenceCategory>
+        <SecSwitchPreferenceScreen android:title="@string/taskbar_recent_switch_title" android:key="recent_app_switch" />
+        <Preference android:title="@string/taskbar_style" android:key="pref_taskbar_style" settings:isPreferenceVisible="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/interaction_and_dexterity_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/universal_switch_title" android:key="com.samsung.accessibility/com.samsung.accessibility.universalswitch.UniversalSwitchService" settings:controller="com.samsung.android.settings.accessibility.dexterity.UniversalSwitchPreferenceController" settings:keywords="@string/keywords_universal_switch">
+        <intent android:action="com.samsung.accessibility.action.UNIVERSAL_SWITCH" />
+    </Preference>
+    <SecSwitchPreferenceScreen android:title="@string/assistant_menu_title" android:key="assistant_menu_preference" android:summary="@string/assistant_menu_summary" settings:controller="com.samsung.android.settings.accessibility.dexterity.AssistantMenuPreferenceController" settings:keywords="@string/keyword_assistant_menu">
+        <intent android:action="com.samsung.accessibility.Assistant_Menu" />
+    </SecSwitchPreferenceScreen>
+    <Preference android:title="@string/voice_access_title" android:key="voice_access_preference" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.VoiceAccessPreferenceController" settings:keywords="@string/keyword_sec_voice_access" />
+    <PreferenceCategory android:title="@string/interaction_category_title" android:key="interactions">
+        <Preference android:title="@string/answering_end_call_title" android:key="call_answering_ending" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.CallAnsweringEndingPreferenceController" settings:keywords="@string/keywords_answering_and_ending_calls">
+            <intent android:action="com.samsung.android.app.telephonyui.action.OPEN_CALL_SETTINGS">
+                <extra android:name="root_key" android:value="ANSWERING_AND_ENDING_CALLS" />
+                <extra android:name="is_exclude_hierarchy" android:value="true" />
+            </intent>
+        </Preference>
+        <SecSwitchPreferenceScreen android:title="@string/easy_screen_turn_on_title" android:key="air_motion_wake_up" android:fragment="com.samsung.android.settings.accessibility.dexterity.EasyScreenTurnOnPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.EasyScreenTurnOnPreferenceController" settings:keywords="@string/keywords_airmotion_wakeup" />
+        <Preference android:title="@string/accessibility_access_control_title" android:key="access_control_key" android:summary="@string/accessibility_access_control_subtitle" settings:controller="com.samsung.android.settings.accessibility.dexterity.AccessControlPreferenceController" settings:keywords="@string/keywords_interaction_control">
+            <intent android:action="com.samsung.accessibility.action.INTERACTION_CONTROL" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/touch_settings_category_title" android:key="touch_settings">
+        <Preference android:persistent="false" android:title="@string/touch_and_hold_delay_header" android:key="select_long_press_timeout_preference" android:fragment="com.samsung.android.settings.accessibility.dexterity.TouchAndHoldFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldPreferenceController" settings:keywords="@string/keyword_touch_and_hold" />
+        <Preference android:title="@string/tap_duration_title" android:key="tap_duration_key" android:summary="@string/tap_duration_off" android:fragment="com.samsung.android.settings.accessibility.dexterity.TapDurationPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TapDurationPreferenceController" settings:keywords="@string/keyword_tap_duration" />
+        <Preference android:title="@string/accessibility_ignore_repeat" android:key="ignore_repeat_key" android:summary="@string/accessibility_ignore_repeat_summary" android:fragment="com.samsung.android.settings.accessibility.dexterity.IgnoreRepeatPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.IgnoreRepeatPreferenceController" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/mouse_physical_keyboard_category_title" android:key="mouse_physical_keyboard">
+        <Preference android:title="@string/accessibility_auto_action_preference_title" android:key="auto_action_preference_screen" android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.AutoActionPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.AutoActionPreferenceController" settings:keywords="@string/keywords_auto_click_after_pointer_stop" />
+        <SecSwitchPreference android:persistent="false" android:title="@string/sticky_keys" android:key="sticky_keys" android:summary="@string/sticky_keys_summary" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.StickyKeysPreferenceController" settings:keywords="@string/keywords_bounce_slow_key" />
+        <SecSwitchPreferenceScreen android:title="@string/slow_keys" android:key="slow_keys" android:summary="@string/slow_keys_summary" android:fragment="com.samsung.android.settings.accessibility.dexterity.SlowKeysPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.SlowKeysPreferenceController" settings:keywords="@string/keywords_mouse_keyboard" />
+        <SecSwitchPreferenceScreen android:title="@string/bounce_keys" android:key="bounce_keys" android:summary="@string/bounce_keys_summary" android:fragment="com.samsung.android.settings.accessibility.dexterity.BounceKeysPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.BounceKeysPreferenceController" settings:keywords="@string/keywords_mouse_keyboard" />
+    </PreferenceCategory>
+</PreferenceScreen>

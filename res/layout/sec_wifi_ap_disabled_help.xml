@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:id="@id/wifi_ap_settings_vert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:ellipsize="marquee" android:id="@id/help_instruction_vert" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:lineSpacingExtra="4.0sp" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/body_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/wifi_ap_settings_land" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:orientation="vertical" android:id="@id/wifi_ap_settings_land_scroll" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="4.0">
+            <TextView android:textSize="16.0sp" android:ellipsize="marquee" android:id="@id/help_instruction_land" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:lineSpacingExtra="4.0sp" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

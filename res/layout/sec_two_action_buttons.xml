@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/sec_widget_two_button_padding_top" android:paddingBottom="@dimen/sec_widget_two_button_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.samsung.android.settings.widget.SecRoundButtonView android:id="@id/button1_positive" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RoundButtonStyle" />
+        <com.samsung.android.settings.widget.SecRoundButtonView android:id="@id/button1_negative" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RoundButtonStyle" />
+    </FrameLayout>
+    <Space android:layout_width="16.0dip" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.samsung.android.settings.widget.SecRoundButtonView android:id="@id/button2_positive" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RoundButtonStyle" />
+        <com.samsung.android.settings.widget.SecRoundButtonView android:id="@id/button2_negative" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RoundButtonStyle" />
+    </FrameLayout>
+</LinearLayout>

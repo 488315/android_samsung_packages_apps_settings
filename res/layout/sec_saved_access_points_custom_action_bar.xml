@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:paddingStart="@dimen/sec_wifi_manage_ap_list_item_start_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/select_all_layout" android:focusable="true" android:layout_width="wrap_content" android:layout_height="?actionBarSize">
+        <CheckBox android:id="@id/select_all_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/wifi_action_mode_select_all_title_text_size" android:textColor="@color/actionbar_text_color" android:id="@id/wifi_select_all_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:maxWidth="320.0dip" android:text="@string/wifi_select_all" android:maxLines="1" android:includeFontPadding="true" android:layout_below="@id/select_all_checkbox" android:layout_centerHorizontal="true" android:textAllCaps="false" android:labelFor="@id/select_all_checkbox" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/select_all_layout">
+        <TextView android:textSize="@dimen/wifi_list_select_item_text_size" android:textColor="@color/actionbar_text_color" android:ellipsize="end" android:gravity="start|center" android:id="@id/selected_items_count" android:clickable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/wifi_select_item_network_zero" android:layout_weight="1.0" android:layout_centerVertical="true" android:fontFamily="sec" android:layout_marginStart="@dimen/wifi_action_mode_selection_margin_text" android:textFontWeight="600" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Hotspot Labs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:order="1">
+        <PreferenceScreen android:title="Hotspot configuration history" android:key="hotspot_configuration_history_preference_screen" android:summary="To track all hotspot configuration changes." settings:controller="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApHotspotConfigHistoryController" />
+        <PreferenceScreen android:title="Client event history" android:key="client_event_history_preference_screen" android:summary="To track all client connection/settings related events." settings:controller="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApClientEventHistoryController" />
+        <PreferenceScreen android:title="Hotspot connection history" android:key="hotpot_connection_history_preference_screen" android:summary="To track all hotspot on/off related events." android:fragment="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApHotspotConnectionHistory" settings:controller="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApHotspotConnectionHistoryController" />
+        <PreferenceScreen android:title="Channel switch history" android:key="channel_switch_history_preference_screen" android:summary="To track all channel switch history related events on the device." android:fragment="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApHotspotChannelSwitchHistory" settings:controller="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApHotspotChannelSwitchHistoryController" />
+        <PreferenceScreen android:enabled="false" android:title="Hotspot Upstream Graph" android:key="hotspot_upstream_graph_preference_screen" android:summary=" To compare Wi-Fi sharing and Mobile data usage." />
+        <PreferenceScreen android:title="Hotspot Speed history Graph" android:key="hotspot_speed_usage_graph_preference_screen" android:summary="To check overall data rate used by all clients in graph format over the time." settings:controller="com.samsung.android.settings.wifi.mobileap.hotspotlabs.WifiApHotspotSpeedHistoryController" />
+        <PreferenceScreen android:enabled="false" android:title="Auto Hotspot Event History" android:key="autohotspot_event_history_preference_screen" android:summary="To track all Auto Hotspot related events on the device." />
+    </PreferenceCategory>
+</PreferenceScreen>

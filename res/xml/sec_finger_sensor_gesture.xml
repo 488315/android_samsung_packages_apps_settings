@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/finger_sensor_gesture_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="1.0px" settings:roundStroke="none" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_usefulfeaturehub_layout" android:selectable="false" android:key="finger_sensor_gesture_preview" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="finger_sensor_gesture_SecInsetcategory" settings:height="@dimen/sec_widget_preference_unclickable_margin_top" settings:roundStroke="top_left|top_right" />
+    <SecSwitchPreference android:title="@string/open_notification_panel_title" android:key="open_notification_panel" android:summary="@string/finger_sensor_gesture_description" />
+    <SecSwitchPreference android:title="@string/open_samsung_pay_title" android:key="open_samsung_pay" android:summary="@string/open_samsung_pay_summary" />
+</PreferenceScreen>

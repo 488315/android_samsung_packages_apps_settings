@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:enabled="false" android:title="@string/accessibility_corner_action_type_pause_resume_auto_click" android:key="pause_resume_auto_click" android:order="0" apps:defaultValue="true" />
+    <PreferenceCategory android:key="category" android:order="10" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_open_close_notifications" android:key="open_close_notifications" android:order="11" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_open_close_quick_panel" android:key="open_close_quick_panel" android:order="12" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_screenshot" android:key="screen_shot" android:order="13" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_talk_to_bixby" android:key="talk_to_bixby" android:order="14" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_sos_messages" android:key="send_sos_messages" android:order="15" />
+    <PreferenceCategory android:order="20" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_media_volume_up" android:key="media_volume_up" android:order="21" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_media_volume_down" android:key="media_volume_down" android:order="22" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_ringtone_volume_up" android:key="ringtone_volume_up" android:order="23" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_ringtone_volume_down" android:key="ringtone_volume_down" android:order="24" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_increase_brightness" android:key="increase_brightness" android:order="25" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_reduce_brightness" android:key="reduce_brightness" android:order="26" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_screen_rotation" android:key="screen_rotation" android:order="27" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_sound_vibrate_mute" android:key="sound_vibrate_mute" android:order="28" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_screen_off" android:key="screen_off" android:order="29" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_power_off_menu" android:key="power_off_menu" android:order="30" />
+    <PreferenceCategory android:order="40" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_home" android:key="home" android:order="41" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_recents" android:key="recents" android:order="42" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_back" android:key="back" android:order="43" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_accessibility_button" android:key="accessibility_button" android:order="44" />
+    <PreferenceCategory android:order="50" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_double_click" android:key="double_click" android:order="51" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_click_and_hold" android:key="click_and_hold" android:order="52" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_drag" android:key="drag" android:order="53" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_drag_and_drop" android:key="drag_and_drop" android:order="54" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_zoom_in" android:key="zoom_in" android:order="55" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_zoom_out" android:key="zoom_out" android:order="56" />
+    <PreferenceCategory android:order="60" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_swipe_left" android:key="swipe_left" android:order="61" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_swipe_right" android:key="swipe_right" android:order="62" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_swipe_up" android:key="swipe_up" android:order="63" />
+    <SwitchPreferenceCompat android:title="@string/accessibility_corner_action_type_swipe_down" android:key="swipe_down" android:order="64" />
+</PreferenceScreen>

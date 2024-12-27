@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/private_space_biometric_unlock_title" settings:searchable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.TopIntroPreference android:title="@string/biometric_settings_intro" settings:searchable="false" />
+    <PreferenceCategory android:title="@string/private_space_category_ways_to_unlock" android:key="biometric_ways_to_unlock" settings:searchable="false">
+        <com.android.settingslib.RestrictedPreference android:title="@string/private_space_fingerprint_unlock_title" android:key="private_space_fingerprint_unlock_settings" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.privatespace.onelock.PrivateSpaceFingerprintPreferenceController" settings:searchable="false" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/private_space_face_unlock_title" android:key="private_space_face_unlock_settings" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.privatespace.onelock.PrivateSpaceFacePreferenceController" settings:searchable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

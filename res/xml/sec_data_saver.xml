@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_saver_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_data_saver_desc" android:selectable="false" android:key="data_saver_desc" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="11.0dip" settings:roundStroke="top_left|top_right" />
+    <SecSwitchPreference android:title="@string/sec_enable_now" android:key="data_saver_switch" settings:controller="com.samsung.android.settings.datausage.SecDataSaverPreferenceController" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <Preference android:title="@string/unrestricted_data_saver" android:key="unrestricted_access" android:fragment="com.android.settings.datausage.UnrestrictedDataAccess" settings:controller="com.samsung.android.settings.datausage.SecUnrestrictedDataAccessPreferenceController" />
+</PreferenceScreen>

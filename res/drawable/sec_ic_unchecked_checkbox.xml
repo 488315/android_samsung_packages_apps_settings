@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/shortcut_checkbox_size" android:width="@dimen/shortcut_checkbox_size" />
+            <stroke android:width="@dimen/shortcut_checkbox_unchecked_stroke" android:color="@color/sec_widget_multi_button_unselected_icon_color" />
+        </shape>
+    </item>
+</layer-list>

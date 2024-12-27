@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/sec_widget_bottom_bar_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.settings.widget.SecRoundButtonView android:id="@id/reset_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reset_button_top_margin" android:layout_marginBottom="@dimen/reset_button_bottom_margin" android:text="@string/reset_network_button_text" android:paddingStart="@dimen/reset_button_side_padding" android:paddingEnd="@dimen/reset_button_side_padding" style="@style/ColorRoundButtonStyle" />
+</RelativeLayout>

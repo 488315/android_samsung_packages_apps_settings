@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_alert_dialog_padding_left" android:layout_marginEnd="@dimen/sec_alert_dialog_padding_left">
+        <TextView android:layout_gravity="start" android:layout_width="@dimen/sec_continuity_desc_summary_dot_width" android:layout_height="wrap_content" android:text="@string/wifi_network_scorer_picker_description_bullet" android:importantForAccessibility="no" style="@style/ContinuityDescSummaryDot" />
+        <TextView android:gravity="start" android:id="@id/help_description_app_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContinuityDescSummaryList" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fingerprint_plus_textLineSpace" android:layout_marginStart="@dimen/sec_alert_dialog_padding_left" android:layout_marginEnd="@dimen/sec_alert_dialog_padding_left">
+        <TextView android:layout_gravity="start" android:layout_width="@dimen/sec_continuity_desc_summary_dot_width" android:layout_height="wrap_content" android:text="@string/wifi_network_scorer_picker_description_bullet" android:importantForAccessibility="no" style="@style/ContinuityDescSummaryDot" />
+        <TextView android:gravity="start" android:id="@id/help_description_app_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContinuityDescSummaryList" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/device_container" android:background="@color/sec_bluetooth_auracast_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/devices_list" android:background="@color/sec_bluetooth_auracast_background_color" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>

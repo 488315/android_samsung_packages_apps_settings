@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/sesl_round_and_bgcolor_light" android:paddingTop="11.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="start" android:id="@id/previous_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/sesl_date_picker_prev" android:scaleType="fitXY" android:tint="@color/wifi_ap_left_right_arrow_icon_color" android:text="@string/wifi_ap_previous_button_label" />
+    <TextView android:textSize="@dimen/dw_header_date_text_size" android:textColor="@color/wifi_ap_title_text_color" android:gravity="center" android:layout_gravity="center" android:id="@android:id/summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" style="@style/sec_regular" />
+    <ImageButton android:layout_gravity="end" android:id="@id/next_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/sesl_date_picker_next" android:scaleType="fitXY" android:tint="@color/sesl_date_picker_button_tint_color_light" android:text="@string/wifi_ap_next_button_label" />
+</LinearLayout>

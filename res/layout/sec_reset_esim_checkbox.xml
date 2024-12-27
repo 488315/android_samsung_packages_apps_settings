@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/erase_esim" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_list_item_checkbox_margin_right" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/reset_checkbox_title_text_size" android:id="@id/erase_esim_title" android:paddingTop="@dimen/reset_checkbox_title_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/body_text_style" />
+        <TextView android:textSize="@dimen/reset_checkbox_summary_text_size" android:paddingTop="@dimen/reset_checkbox_summary_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reset_esim_desc" style="@style/sub_body_text_style" />
+    </LinearLayout>
+</LinearLayout>

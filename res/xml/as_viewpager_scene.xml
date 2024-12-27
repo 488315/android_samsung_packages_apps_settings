@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:autoTransition="none" motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:layoutDuringTransition="honorRequest">
+        <KeyFrameSet>
+            <KeyPosition motion:framePosition="50" motion:keyPositionType="parentRelative" motion:motionTarget="@id/as_usage_summary_container" motion:percentY="0.0" />
+            <KeyPosition motion:framePosition="0" motion:keyPositionType="parentRelative" motion:motionTarget="@id/as_usage_summary_container" motion:percentY="0.0" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="50" motion:motionTarget="@id/as_usage_detail_item" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/as_usage_rate_container">
+            <PropertySet motion:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/as_usage_progress_container">
+            <PropertySet motion:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/as_usage_detail_item">
+            <PropertySet motion:visibilityMode="ignore" />
+        </Constraint>
+        <Constraint android:id="@id/mount_view">
+            <PropertySet motion:visibilityMode="ignore" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/as_usage_summary_container" android:layout_width="0.0dip" android:layout_height="wrap_content" motion:layout_constraintEnd_toStartOf="@id/as_usage_progress_container" motion:layout_constraintHorizontal_weight="0.4" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/as_usage_rate_container" android:layout_width="0.0dip" android:layout_height="wrap_content" motion:layout_constraintEnd_toStartOf="@id/as_usage_progress_container" motion:layout_constraintHorizontal_weight="0.4" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/as_usage_summary_container" />
+        <Constraint android:id="@id/more_option_icon_container" android:layout_width="0.0dip" android:layout_height="wrap_content" motion:layout_constraintEnd_toEndOf="@id/as_usage_summary_container" motion:layout_constraintTop_toTopOf="@id/as_usage_summary_container" />
+        <Constraint android:id="@id/space_size_container" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:layout_constraintBottom_toTopOf="@id/as_usage_progress_container" motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint android:id="@id/as_usage_progress_container" android:layout_width="0.0dip" android:layout_height="wrap_content" motion:layout_constraintBottom_toBottomOf="@id/as_usage_rate_container" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHorizontal_weight="0.6" motion:layout_constraintStart_toEndOf="@id/as_usage_summary_container" />
+        <Constraint android:id="@id/mount_view" android:layout_width="fill_parent" android:layout_height="wrap_content" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/as_usage_rate_container" />
+        <Constraint android:id="@id/as_usage_detail_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchMode="columnWidth" motion:layout_constraintBottom_toTopOf="@id/view" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toBottomOf="@id/as_usage_rate_container" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/description_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="18.0dip" android:paddingVertical="14.0dip">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:gravity="center_vertical" android:id="@id/description_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/description_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/animation" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/sec_widget_img_margin" android:scaleType="fitXY" android:adjustViewBounds="true" android:maxWidth="@dimen/sec_widget_img_max_width" android:maxHeight="@dimen/sec_widget_img_max_height" android:contentDescription="@null" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/blank_background" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_body_text_padding_bottom" />
+</LinearLayout>

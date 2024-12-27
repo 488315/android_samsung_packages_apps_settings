@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/as_viewpager_round_stroke" android:paddingTop="@dimen/as_recommend_card_viewpager_padding" android:paddingBottom="@dimen/as_recommend_card_viewpager_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/as_recommend_card_viewpager_margin" android:paddingHorizontal="@dimen/as_recommend_card_viewpager_padding">
+        <LinearLayout android:orientation="vertical" android:id="@id/loading_view_pager" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/as_recommend_loading_content_area_height">
+            <FrameLayout android:id="@id/text1" android:background="@drawable/skeleton_text_16" android:layout_width="@dimen/as_recommend_loading_textview_1line" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_recommend_card_viewpager_padding_top" style="@style/AsSkeletonResource" />
+            <FrameLayout android:id="@id/text2" android:background="@drawable/skeleton_text_16" android:layout_width="@dimen/as_recommend_loading_textview_2line" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/as_recommend_loading_textview_margin_bottom" style="@style/AsSkeletonResource" />
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/as_recommend_loading_button_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <FrameLayout android:background="@drawable/skeleton_text_16" android:layout_width="@dimen/as_recommend_loading_button_width" android:layout_height="wrap_content" style="@style/AsSkeletonResource" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <FrameLayout android:background="@drawable/skeleton_text_16" android:layout_width="@dimen/as_recommend_loading_button_width" android:layout_height="wrap_content" style="@style/AsSkeletonResource" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_home_viewpager_indicator_margin_top">
+        <ImageView android:layout_width="@dimen/as_home_viewpager_indicator_height" android:layout_height="@dimen/as_home_viewpager_indicator_height" android:src="@drawable/skeleton_circle" android:layout_marginHorizontal="@dimen/as_home_viewpager_indicator_margin_horizontal" style="@style/AsSkeletonResource" />
+        <ImageView android:layout_width="@dimen/as_home_viewpager_indicator_height" android:layout_height="@dimen/as_home_viewpager_indicator_height" android:src="@drawable/skeleton_circle" android:layout_marginHorizontal="@dimen/as_home_viewpager_indicator_margin_horizontal" style="@style/AsSkeletonResource" />
+        <ImageView android:layout_width="@dimen/as_home_viewpager_indicator_height" android:layout_height="@dimen/as_home_viewpager_indicator_height" android:src="@drawable/skeleton_circle" android:layout_marginHorizontal="@dimen/as_home_viewpager_indicator_margin_horizontal" style="@style/AsSkeletonResource" />
+    </LinearLayout>
+</LinearLayout>

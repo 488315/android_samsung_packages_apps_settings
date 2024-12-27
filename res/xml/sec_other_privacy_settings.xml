@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/other_privacy_settings_title" android:key="other_privacy_settings" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreferenceCategory android:title="@string/samsung" android:key="samsung_privacy_category" android:order="-1000" settings:controller="com.samsung.android.settings.privacy.SamsungPrivacyCategoryPreferenceController" />
+    <SecPreference android:title="@string/samsung_privacy_portal_title" android:key="samsung_privacy_portal" android:order="-950" settings:controller="com.samsung.android.settings.privacy.SamsungPrivacyPortalPreferenceController" />
+    <SecPreference android:title="@string/customization_service_title" android:key="customization_service" android:order="-900" settings:controller="com.samsung.android.settings.privacy.CustomizationServicePreferenceController" />
+    <SecPreference android:title="@string/customized_service_device_title" android:key="customized_service_device" android:order="-890" settings:controller="com.samsung.android.settings.privacy.CustomizedServiceDevicePreferenceController" />
+    <SecPreference android:title="@string/get_news_special_offers_title" android:key="marketing_consent" android:order="-880" settings:controller="com.samsung.android.settings.privacy.MarketingConsentPreferenceController" />
+    <SecPreference android:title="@string/data_processing_merketing_title" android:key="data_processing_marketing" android:order="-870" settings:controller="com.samsung.android.settings.privacy.DataProcessingPreferenceController" />
+    <SecPreference android:title="@string/improve_personalized_ad_title" android:key="personal_ad_consent" android:order="-860" settings:controller="com.samsung.android.settings.privacy.PersonalAdConsentPreferenceController" />
+    <SecSwitchPreference android:title="@string/label_diagnostics_info" android:key="device_info_report_diagnostics_info" android:order="-840" settings:controller="com.samsung.android.settings.privacy.DiagnosticInfoPreferenceController" />
+    <SecPreferenceCategory android:title="@string/google" android:key="advanced_google_category" android:order="-800" settings:controller="com.samsung.android.settings.privacy.AdvancedGoogleCategoryPreferenceController" />
+    <SecSwitchPreferenceScreen android:title="@string/android_personalization_servie_title" android:key="content_capture" android:order="-700" android:fragment="com.samsung.android.settings.privacy.PersonalizationServiceSettings" settings:controller="com.android.settings.privacy.EnableContentCapturePreferenceController" />
+    <SecPreference android:title="@string/app_data_sharing_updates_title" android:key="privacy_app_data_sharing_updates" android:summary="@string/app_data_sharing_updates_summary" android:order="-600" settings:controller="com.android.settings.privacy.AppDataSharingUpdatesPreferenceController">
+        <intent android:action="android.intent.action.REVIEW_APP_DATA_SHARING_UPDATES" />
+    </SecPreference>
+    <SecPreference android:title="@string/app_permissions" android:key="privacy_manage_perms" android:summary="@string/permission_manager_summary" android:order="7" settings:keywords="@string/keywords_app_permissions">
+        <intent android:action="android.intent.action.MANAGE_PERMISSIONS" />
+    </SecPreference>
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="category_reset_collect_diagnostics" android:order="50" />
+    <SecPreferenceScreen android:title="@string/sec_collect_diagnostics_title" android:key="collect_diagnostics" android:summary="@string/sec_collect_diagnostics_summary" android:order="100" settings:controller="com.samsung.android.settings.general.CollectDiagnosticsPreferenceController" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LockScreenTheme" parent="@style/Theme.Settings">
+        <item name="android:magnifierHeight">@style/SecLockPatternStyle</item>
+        <item name="confirmDeviceCredentialsSideMargin">16.0dip</item>
+        <item name="confirmDeviceCredentialsTopMargin">16.0dip</item>
+        <item name="lockscreen_dialog">false</item>
+        <item name="preferenceTheme">@style/SecPreferenceTheme</item>
+    </style>
+</resources>

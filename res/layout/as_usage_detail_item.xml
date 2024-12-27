@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/as_home_usage_detail_ripple_background" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/as_viewpager_padding_horizontal" android:paddingVertical="@dimen/as_home_usage_detail_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/as_home_usage_detail_item_height" android:stateListAnimator="?seslLargeTouchAnimator">
+        <View android:id="@id/detail_color" android:background="@drawable/as_oval_icon" android:layout_width="@dimen/as_home_usage_detail_color_height" android:layout_height="@dimen/as_home_usage_detail_color_height" android:layout_marginEnd="@dimen/as_home_usage_detail_color_margin_end" />
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:ellipsize="end" android:id="@id/detail_name" android:singleLine="true" android:textDirection="locale" android:textAlignment="gravity" android:layout_marginEnd="@dimen/as_usage_detail_text_margin" style="@style/AsSaUsageDetailName" />
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:id="@id/detail_size" android:text="" style="@style/AsSaUsageDetailSize" />
+        <ImageView android:id="@id/category_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/analyze_storage_category_btn" android:tint="@color/as_category_btn_color" android:layout_marginStart="@dimen/as_home_usage_detail_category_btn_margin_start" />
+    </LinearLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loading_as_over_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_base_alpha="0.4" app:shimmer_dropoff="0.6" app:shimmer_duration="1200" app:shimmer_highlight_alpha="0.2" app:shimmer_intensity="0.2" app:shimmer_tilt="18.0">
+        <include layout="@layout/as_loading_layout" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</LinearLayout>

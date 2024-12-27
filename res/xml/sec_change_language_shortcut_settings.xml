@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/change_language_shortcut" settings:hierarchicalParentFragment="com.samsung.android.settings.inputmethod.PhysicalKeyboardFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreference android:title="@string/language_shortcut_shift_space" android:key="shift_space" />
+    <SecSwitchPreference android:title="@string/language_shortcut_control_space" android:key="control_space" />
+    <SecSwitchPreference android:title="@string/language_shortcut_leftalt_shift" android:key="leftalt_shift" />
+</PreferenceScreen>

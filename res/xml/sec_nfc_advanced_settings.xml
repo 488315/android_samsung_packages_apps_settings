@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/nfc_settings_advanced_setting" android:key="nfc_advanced_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/nfc_settings_advanced_explain" android:key="DESC" settings:positionMode="first_item" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/nfc_settings_advanced_uicc" android:key="SIM" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/nfc_settings_advanced_hce" android:key="DH" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/nfc_settings_advanced_ese" android:key="ESE" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/nfc_settings_advanced_auto_select" android:key="AUTO_SELECT" />
+</PreferenceScreen>

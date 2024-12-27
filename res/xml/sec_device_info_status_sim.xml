@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sim_status_title" settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.statusinfo.StatusInfoSettings" settings:topLevelPreferenceKey="top_level_about_phone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_operator" android:key="operator_name" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_data_state" android:key="data_state" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:keywords="@string/keywords_status_data_state" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_latest_area_info" android:key="latest_area_info" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_service_state" android:key="service_state" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_ims" android:key="ims_reg" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_signal_strength" android:key="signal_strength" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:keywords="@string/keywords_status_signal_strength" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_voice_network_type" android:key="voice_network_type" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_data_network_type" android:key="data_network_type" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_roaming" android:key="roaming_state" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_icc_id" android:key="icc_id" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
+</PreferenceScreen>

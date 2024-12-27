@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_development_wifi_labs_header" android:key="wifi_development_prefs_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.wifi.develop.WifiLabsConnectionStatusPreference android:key="connection_status_preference" />
+    <PreferenceCategory>
+        <com.samsung.android.settings.wifi.develop.WifiLabsWeeklyReportPreference android:key="weekly_report_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Network information">
+        <com.samsung.android.settings.wifi.develop.WifiLabsSavedNetworksPreference android:key="saved_networks_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:title="Home Wi-Fi inspection" android:key="home_wifi_inspection">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.VIEW" android:targetClass="com.samsung.android.settings.wifi.develop.homewifi.IntroActivity" />
+        </Preference>
+        <SecSwitchPreference android:title="Auto reconnect to carrier Wi-Fi" android:key="auto_reconnect_to_carrier_networks" settings:controller="com.samsung.android.settings.wifi.develop.CarrierNetworkOffloadPreferenceController" />
+        <SecSwitchPreference android:title="L4S" android:key="wifi_labs_l4s" android:summary="Enable receiver-side L4S in the Wi-Fi" settings:controller="com.samsung.android.settings.wifi.develop.L4sPreferenceController" />
+        <SecSwitchPreferenceScreen android:title="@string/sec_wifi_7_mode_title" android:key="wifi_7_mode" android:fragment="com.samsung.android.settings.wifi.develop.WifiLabs7ModeSettingsFragment" settings:controller="com.samsung.android.settings.wifi.develop.WifiLabs7ModeSettingsController" />
+        <SecSwitchPreference android:title="Switching to mobile data faster" android:key="switch_to_mobile_data_super_aggressive_mode" settings:controller="com.samsung.android.settings.wifi.develop.SuperAggressiveModePreferenceController" />
+        <SecSwitchPreference android:title="Intelligent Wi-Fi Handover" android:key="wifi_handover_ai_mode" settings:controller="com.samsung.android.settings.wifi.develop.IwhModePreferenceController" />
+        <SecSwitchPreference android:title="Switching to mobile data with AI" android:key="switch_to_mobile_data_ai_mode" settings:controller="com.samsung.android.settings.wifi.develop.IlaModePreferenceController" />
+        <SecSwitchPreferenceScreen android:title="Connect to 2.4GHz for IOT setup" android:key="wifi_connection_for_iot_setup" android:fragment="com.samsung.android.settings.wifi.develop.WifiConnectivityIoTSetupFragment" settings:controller="com.samsung.android.settings.wifi.develop.WifiConnectivityIoTSetupController" />
+        <SecSwitchPreference android:title="@string/wifi_network_scorer_picker_title" android:key="network_scorer" android:summary="@string/wifi_network_scorer_picker_summary" settings:controller="com.samsung.android.settings.wifi.develop.NetworkScorerPickerPreferenceController" />
+        <Preference android:title="@string/sec_wifi_development_btm_title" android:key="btm_manager" android:fragment="com.samsung.android.settings.wifi.develop.btm.BtmFragment" settings:controller="com.samsung.android.settings.wifi.develop.btm.BtmController" />
+        <Preference android:title="@string/sec_wifi_list_settings_title" android:key="wifi_labs_list_settings" android:fragment="com.samsung.android.settings.wifi.develop.list.WifiLabsListSettingsFragment" />
+        <Preference android:title="@string/wifi_development_options_header" android:key="wifi_developer_options" android:fragment="com.samsung.android.settings.wifi.develop.WifiDevelopmentSettingsFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:title="@string/wifi_development_reset_settings_title" android:key="wifi_development_reset_settings" android:fragment="com.samsung.android.settings.wifi.develop.WifiDevelopmentResetSettingsFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

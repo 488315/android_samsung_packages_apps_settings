@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_wifi_network_information_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.wifi.develop.savednetwork.WifiLabsNetworkInformationTabPreference android:key="network_information_tab_preference" android:order="1" settings:allowDividerBelow="false" />
+    <com.samsung.android.settings.wifi.develop.savednetwork.WifiLabsPreferenceCategory android:key="network_information_list" android:order="100" />
+</PreferenceScreen>

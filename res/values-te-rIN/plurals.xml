@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_timeout_summary_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_seconds">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_app_cache_title">
+        <item quantity="other">%1$d అప్లికేషన్ కాష్‌లు (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d అప్లికేషన్ కాష్ (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_archive_apps">
+        <item quantity="other">%d అప్లికేషన్‌లను ఆర్కైవ్ చేయాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్‌ను ఆర్కైవ్ చేయాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_archive_button_text">
+        <item quantity="other">%1$d అప్లికేషన్‌లను ఆర్కైవ్ చేయి (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d అప్లికేషన్‌ను ఆర్కైవ్ చేయి (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_clear_apps_cache">
+        <item quantity="other">%d అప్లికేషన్‌ల కోసం కాష్‌ని క్లియర్ చేయాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్ కోసం కాష్‌ని క్లియర్ చేయాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_clear_button_text">
+        <item quantity="other">%1$d కాష్‌లను క్లియర్ చేయి (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d కాష్‌ని క్లియర్ చేయి (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_n_selected">
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_recommend_card_description_archive_apps">
+        <item quantity="other">%2$d ఉపయోగించని అప్లికేషన్‌లను ఆర్కైవ్ చేయడం ద్వారా %1$s స్థలాన్ని ఖాళీ చేయండి. మీ వ్యక్తిగత డేటా మరియు సెట్టింగ్‌లు సేవ్ చేయబడతాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d ఉపయోగించని అప్లికేషన్‌ని ఆర్కైవ్ చేయడం ద్వారా %1$s స్థలాన్ని ఖాళీ చేయండి. మీ వ్యక్తిగత డేటా మరియు సెట్టింగ్‌లు సేవ్ చేయబడతాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_uninstall_apps">
+        <item quantity="other">%d అప్లికేషన్‌లను అన్ఇన్‌స్టాల్ చేయాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్‌ను అన్ఇన్‌స్టాల్ చేయాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_uninstall_button_text">
+        <item quantity="other">%1$d అప్లికేషన్‌లను అన్ఇన్‌స్టాల్ చేయి (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d అప్లికేషన్‌ని అన్ఇన్‌స్టాల్ చేయి (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_unused_apps_title">
+        <item quantity="other">%1$d ఉపయోగించని అప్లికేషన్‌లు (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ఉపయోగించని అప్లికేషన్ (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_connected_devices_subtext">
+        <item quantity="other">ఇంటర్నెట్ కనెక్షన్‌ను %d పరికరాలతో భాగస్వామ్యం చేస్తోంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇంటర్నెట్ కనెక్షన్‌ను %d పరికరంతో భాగస్వామ్యం చేస్తోంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="camera_flash_notification_n_apps">
+        <item quantity="other">%d అప్లికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dex_timeout_day">
+        <item quantity="other">%d రోజులు</item>
+        <item quantity="one">1 రోజు</item>
+    </plurals>
+    <plurals name="dex_timeout_hour">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">1 గంట</item>
+    </plurals>
+    <plurals name="dex_timeout_minute">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">1 నిమిషం</item>
+    </plurals>
+    <plurals name="dex_timeout_second">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="one">1 సెకను</item>
+    </plurals>
+    <plurals name="dex_timeout_week">
+        <item quantity="other">%d వారాలు</item>
+        <item quantity="one">1 వారం</item>
+    </plurals>
+    <plurals name="installed_apps_summary_no_enabled_app">
+        <item quantity="other">%d అప్లికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకను</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
+        <item quantity="other">మీరు ఈ ప్రదేశాలను తొలగించినట్లయితే, మీరు సున్నితమైన సెట్టింగ్‌లను మార్చినప్పుడు బయోమెట్రిక్‌లు మరియు భద్రతా జాప్యం ఎల్లప్పుడూ అవసరం అవుతాయి.</item>
+        <item quantity="one">మీరు ఈ ప్రదేశాన్ని తొలగించినట్లయితే, మీరు సున్నితమైన సెట్టింగ్‌లను మార్చినప్పుడు బయోమెట్రిక్‌లు మరియు భద్రతా జాప్యం ఎల్లప్పుడూ అవసరం అవుతాయి.</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
+        <item quantity="other">%d ప్రదేశాలను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ప్రదేశాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+        <item quantity="one">1 ఎంపిక చేయబడింది</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_summary">
+        <item quantity="other">%1$s మరియు %2$d ఇతరాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_char_reached_msg_plural">
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="no_memory_use_summary">
+        <item quantity="other">గత %d గంటలలో ఏ మెమరీ ఉపయోగించబడలేదు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">గత %d గంటలో ఏ మెమరీ ఉపయోగించబడలేదు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d నోటిఫికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నోటిఫికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_reminder_custom_summary">
+        <item quantity="other">ఎంచుకున్న అప్లికేషన్‌లకు సంబంధించిన నోటిఫికేషన్‌లను ప్రతి %d నిమిషాలకు గుర్తు చేస్తుంది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఎంచుకున్న అప్లికేషన్‌లకు సంబంధించిన నోటిఫికేషన్‌లను ప్రతి %d నిమిషానికి గుర్తు చేస్తుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="other">గరిష్టంగా %d అప్లికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">గరిష్టంగా %d అప్లికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="passkeys_and_autofill_subtext">
+        <item quantity="other">%1$s మరియు %2$d ఇతర అప్లికేషన్‌లు పాస్‌కీలను ఉపయోగించి, పాస్‌వర్డ్‌లు మరియు ఇతర సమాచారాన్ని స్వయంచాలకంగా నమోదు చేస్తాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు %2$d మరొక అప్లికేషన్ పాస్‌కీలను ఉపయోగించి, పాస్‌వర్డ్‌లు మరియు ఇతర సమాచారాన్ని స్వయంచాలకంగా నమోదు చేస్తాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="ps_apps">
+        <item quantity="other">%1$s అనుమతిని %2$d అప్లికేషన్‌లు ఉపయోగించాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s అనుమతిని %2$d అప్లికేషన్ ఉపయోగించింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recommended_for_you_enabled_summary">
+        <item quantity="other">%d యాక్సెసబిలిటీ విధులు ఉపయోగించబడుతున్నాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d యాక్సెసబిలిటీ విధి ఉపయోగించబడుతోంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="reminder_select_apps">
+        <item quantity="other">%d అప్లికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remove_language_title_multiple_plurals">
+        <item quantity="other">%d భాషలను తీసివేయాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d భాషని తీసివేయాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_accessibility_usage_summary">
+        <item quantity="other">%d అప్లికేషన్‌లు మీ ఫోన్‌కు పూర్తి ప్రాప్యతని కలిగి ఉన్నాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అప్లికేషన్ మీ ఫోన్‌కు పూర్తి ప్రాప్యతని కలిగి ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals">
+        <item quantity="other">మీ ఫోన్ %d సెకన్ల తర్వాత స్వయంచాలకంగా పవర్ ఆఫ్ అవుతుంది. ఈ సారికి మీ ఫోన్ పవర్‌ని ఆన్ చేసి ఉంచడానికి, “రద్దు చేయి” నొక్కండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ ఫోన్ %d సెకను తర్వాత స్వయంచాలకంగా పవర్ ఆఫ్ అవుతుంది. ఈ సారికి మీ ఫోన్ పవర్‌ని ఆన్ చేసి ఉంచడానికి, “రద్దు చేయి” నొక్కండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
+        <item quantity="other">మీ టాబ్లెట్ %d సెకన్ల తర్వాత స్వయంచాలకంగా పవర్ ఆఫ్ అవుతుంది. ఈ సారికి మీ టాబ్లెట్ పవర్‌ని ఆన్ చేసి ఉంచడానికి, “రద్దు చేయి” నొక్కండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ టాబ్లెట్ %d సెకను తర్వాత స్వయంచాలకంగా పవర్ ఆఫ్ అవుతుంది. ఈ సారికి మీ టాబ్లెట్ పవర్‌ని ఆన్ చేసి ఉంచడానికి, “రద్దు చేయి” నొక్కండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
+        <item quantity="other">ప్రతి %d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_choose_lock_password_password_too_short">
+        <item quantity="other">కనీసం 1 అక్షరంతో సహా, మీ పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">కనీసం 1 అక్షరంతో సహా, మీ పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అక్షరాన్ని కలిగి ఉండాలి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_choose_lock_pin_pin_too_short">
+        <item quantity="other">మీ PIN తప్పక కనీసం %d అంకెలను కలిగి ఉండాలి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ PIN తప్పక కనీసం %d అంకెను కలిగి ఉండాలి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+        <item quantity="other">1 గంట %d నిమిషాల్లో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 గంట %d నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+        <item quantity="other">%d గంటలలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంటలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+        <item quantity="other">%d గంటల 1 నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట 1 నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+        <item quantity="other">%d నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="one">%d నిమిషాల్లో మళ్లీ ప్రయత్నించండి</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">%d సెకన్ల తర్వాత మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="one">%d సెకన్లలో మళ్లీ ప్రయత్నించండి</item>
+    </plurals>
+    <plurals name="sec_credman_services_limit_text">
+        <item quantity="other">%d కంటే ఎక్కువ అదనపు సేవలను ఆన్ చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అదనపు సేవను ఆన్ చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_dnd_select_contact">
+        <item quantity="other">%d పరిచయాలు అనుమతించబడ్డాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d పరిచయం అనుమతించబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_fingerprint_added_summary">
+        <item quantity="other">%d వేలిముద్రలు జోడించబడ్డాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వేలిముద్ర జోడించబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+        <item quantity="other">%1$s, %2$s మరియు మరో %3$d అప్లికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s​ మరియు మరో %3$d అప్లికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_password_attempts_left">
+        <item quantity="other">పాస్‌వర్డ్ చెల్లదు. %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">పాస్‌వర్డ్ చెల్లదు. %d ప్రయత్నం మిగిలి ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_pattern_attempts_left">
+        <item quantity="other">నమూనా చెల్లదు. %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నమూనా చెల్లదు. %d ప్రయత్నం మిగిలి ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_pin_attempts_left">
+        <item quantity="other">PIN చెల్లదు. %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">PIN చెల్లదు. %d ప్రయత్నం మిగిలి ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_intelligence_service_child_popup_message">
+        <item quantity="other">మీరు Galaxy AI యొక్క ఆధునిక ఇంటెలిజెన్స్ ఫీచర్‌లను ఉపయోగించడానికి కనీసం %d సంవత్సరాల వయస్సును కలిగి ఉండాలి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు Galaxy AI యొక్క ఆధునిక ఇంటెలిజెన్స్ ఫీచర్‌లను ఉపయోగించడానికి కనీసం %d సంవత్సరం వయస్సును కలిగి ఉండాలి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_letters">
+        <item quantity="other">మీ పాస్‌వర్డ్ కనీసం %d అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ పాస్‌వర్డ్ కనీసం %d అక్షరాన్ని కలిగి ఉండాలి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_lowercase">
+        <item quantity="other">పాస్‌వర్డ్ కనీసం %d లోవర్‌కేస్ అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ కనీసం 1 లోవర్‌కేస్ అక్షరంను కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_nonletter">
+        <item quantity="other">పాస్‌వర్డ్ కనీసం %d నంబర్లను లేదా చిహ్నాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ కనీసం 1 నంబర్‌ను లేదా చిహ్నంను కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_numeric">
+        <item quantity="other">పాస్‌వర్డ్ కనీసం %d నంబర్లను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్‌ కనీసం 1 నంబర్‌ను కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_symbols">
+        <item quantity="other">పాస్‌వర్డ్ కనీసం %d చిహ్నాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ కనీసం 1 చిహ్నంను కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_uppercase">
+        <item quantity="other">పాస్‌వర్డ్ కనీసం %d అప్పర్‌కేస్ అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ కనీసం 1 అప్పర్‌కేస్ అక్షరంను కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="sec_mde_suggestions_summary">
+        <item quantity="other">మరో %d సూచనలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మరో %d సూచన</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_number_of_device_admins">
+        <item quantity="other">%d సక్రియ అప్లికేషన్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సక్రియ అప్లికేషన్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_remove_dialog_title">
+        <item quantity="other">%d భాషా ప్యాక్‌లను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d భాషా ప్యాక్‌ను తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_tts_title">
+        <item quantity="other">%d వాయిస్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వాయిస్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_runtime_permissions_additional_count">
+        <item quantity="other">%d అదనపు అనుమతులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అదనపు అనుమతి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_show_dev_countdown">
+        <item quantity="other">మీరు డెవలపర్ కావడానికి %d ట్యాప్‌లు మిగిలి ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీరు డెవలపర్ కావడానికి %d ట్యాప్ మిగిలి ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_zen_mode_selected_rules">
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_apps_detected">
+        <item quantity="other">%d మాల్వేర్ అప్లికేషన్‌లు గుర్తించబడ్డాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d మాల్వేర్ అప్లికేషన్ గుర్తించబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext">
+        <item quantity="other">మీ ఫోన్‌లో %d మాల్వేర్ అప్లికేషన్‌లు కనుగొనబడ్డాయి. మీ ఫోన్‌ని సురక్షితంగా ఉంచడానికి ఈ అప్లికేషన్‌లను అన్ఇన్‌స్టాల్ చేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ ఫోన్‌లో %d మాల్వేర్ అప్లికేషన్ కనుగొనబడింది. మీ ఫోన్‌ని సురక్షితంగా ఉంచడానికి ఈ అప్లికేషన్‌ని అన్ఇన్‌స్టాల్ చేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
+        <item quantity="other">మీ టాబ్లెట్‌లో %d మాల్వేర్ అప్లికేషన్‌లు కనుగొనబడ్డాయి. మీ టాబ్లెట్‌ని సురక్షితంగా ఉంచడానికి ఈ అప్లికేషన్‌ని అన్ఇన్‌స్టాల్ చేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ టాబ్లెట్‌లో %d మాల్వేర్ అప్లికేషన్ కనుగొనబడింది. మీ టాబ్లెట్‌ని సురక్షితంగా ఉంచడానికి ఈ అప్లికేషన్‌ని అన్ఇన్‌స్టాల్ చేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_suggestion">
+        <item quantity="other">%d సూచనలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సూచన</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_warning">
+        <item quantity="other">%d హెచ్చరికలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d హెచ్చరిక</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">నిద్ర సమయం: %d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">నిద్ర సమయం: %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">నిద్ర సమయం: %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="temporary_cloud_backup_summary_plurals">
+        <item quantity="other">గరిష్టంగా %2$d రోజుల పాటు %1$sకు అపరిమిత డేటాని బ్యాకప్ చేయండి లేదా మీరు బ్యాకప్ చేసిన డేటాని పునరుద్ధరించండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">గరిష్టంగా %2$d రోజు పాటు %1$sకు అపరిమిత డేటాని బ్యాకప్ చేయండి లేదా మీరు బ్యాకప్ చేసిన డేటాని పునరుద్ధరించండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="touch_settings_test_will_reset">
+        <item quantity="other">ఈ పరీక్ష %d సెకన్లలో రీసెట్ చేయబడుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ పరీక్ష %d సెకనులో రీసెట్ చేయబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_device_connected">
+        <item quantity="other">%d పరికరాలు కనెక్ట్ చేయబడ్డాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d పరికరం కనెక్ట్ చేయబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+        <item quantity="other">మీ ఫోన్‌ని Wi-Fi ప్రాప్యతా పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ను ప్రాప్యత చేయడానికి గరిష్టంగా మరో %d పరికరాలు మీ ఫోన్ మొబైల్ డేటా లేదా Wi-Fi కనెక్షన్‌ని ఉపయోగించగలవు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ ఫోన్‌ని Wi-Fi ప్రాప్యతా పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ను ప్రాప్యత చేయడానికి గరిష్టంగా మరో %d పరికరం మీ ఫోన్ మొబైల్ డేటా లేదా Wi-Fi కనెక్షన్‌ని ఉపయోగించగలదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+        <item quantity="other">మీ ఫోన్‌ని Wi-Fi ప్రాప్యతా పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ని ప్రాప్యత చేయడానికి మరో %d పరికరాల వరకు మీ ఫోన్ మొబైల్ డేటాని ఉపయోగించగలవు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ ఫోన్‌ని Wi-Fi యాక్సెస్ పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ను ప్రాప్యత చేయడానికి మరో %d పరికరం వరకు మీ ఫోన్ మొబైల్ డేటాను ఉపయోగించగలదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+        <item quantity="other">మీ టాబ్లెట్‌ని Wi-Fi ప్రాప్యతా పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ని ప్రాప్యత చేయడానికి మరో %d పరికరాల వరకు మీ టాబ్లెట్ మొబైల్ డేటాని ఉపయోగించగలవు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ టాబ్లెట్‌ని Wi-Fi ప్రాప్యత పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ను ప్రాప్యత చేయడానికి మరో %d పరికరం వరకు మీ టాబ్లెట్ మొబైల్ డేటాను ఉపయోగించగలదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+        <item quantity="other">మీ టాబ్లెట్‌ని Wi-Fi యాక్సెస్ పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ను ప్రాప్యత చేయడానికి గరిష్టంగా మరో %d పరికరాలు మీ టాబ్లెట్ మొబైల్ డేటాను లేదా Wi-Fi కనెక్షన్‌ని ఉపయోగించగలదు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ టాబ్లెట్‌ని Wi-Fi యాక్సెస్ పాయింట్‌కు మార్చండి. ఇంటర్నెట్‌ను ప్రాప్యత చేయడానికి గరిష్టంగా మరో %d పరికరం మీ టాబ్లెట్ మొబైల్ డేటాను లేదా Wi-Fi కనెక్షన్‌ని ఉపయోగించగలదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_n_members">
+        <item quantity="other">%d సభ్యులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సభ్యుడు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_delete_item_network">
+        <item quantity="other">%d నెట్‌వర్క్‌లను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నెట్‌వర్క్‌ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_select_item_network">
+        <item quantity="other">%d ఎంచుకోబడింది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఎంచుకోబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_2">
+        <item quantity="other">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి 1 ప్రయత్నం మిగిలి ఉంది. ఈ ఫోన్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి 1 ప్రయత్నం మిగిలి ఉంది. ఈ ఫోన్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_4">
+        <item quantity="other">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి %d ప్రయత్నాలు మిగిలి ఉన్నాయి. ఈ ఫోన్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు 1 ప్రయత్నం మిగిలి ఉంది మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి %d ప్రయత్నం మిగిలి ఉంది. ఈ ఫోన్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు 1 ప్రయత్నం మిగిలి ఉంది మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_2">
+        <item quantity="other">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి 1 ప్రయత్నం మిగిలి ఉంది. ఈ టాబ్లెట్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి 1 ప్రయత్నం మిగిలి ఉంది. ఈ టాబ్లెట్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_4">
+        <item quantity="other">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి %d ప్రయత్నాలు మిగిలి ఉన్నాయి. ఈ టాబ్లెట్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు 1 ప్రయత్నం మిగిలి ఉంది మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ కార్యాలయ ప్రొఫైల్‌ని అన్‌లాక్ చేయడానికి %d ప్రయత్నం మిగిలి ఉంది. ఈ టాబ్లెట్ ఫ్యాక్టరీ సెట్టింగ్‌లకు రీసెట్ చేయబడటానికి ముందు మీకు 1 ప్రయత్నం మిగిలి ఉంది మరియు మొత్తం డేటా తుడిచివేయబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

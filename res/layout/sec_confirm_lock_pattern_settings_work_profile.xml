@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/confirm_lock_background_base_work_profile" />
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="vertical" android:id="@id/topLayout" android:paddingTop="@dimen/sec_lock_pattern_header_text_marginTop_knox" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/sec_work_profile_knox_logo" />
+        <TextView android:textSize="@dimen/sec_lock_pattern_footer_text_size" android:gravity="center_horizontal" android:id="@id/errorText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+        <TextView android:textColor="?android:colorAccent" android:id="@id/headerText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@android:style/TextAppearance.Material.Headline" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/knox_two_step_image" android:visibility="gone" android:layout_width="@dimen/keyguard_two_step_image_width" android:layout_height="@dimen/keyguard_two_step_image_height" android:src="@drawable/ws_ic_2step_01" />
+        <TextView android:textSize="@dimen/knox_lock_pattern_details_text_size" android:gravity="bottom|center" android:id="@id/detailsText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/cancelButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/SudGlifButton.Secondary" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_pattern_view_padding" style="@style/sec_pattern_lock_background" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_pattern_view_size" android:minHeight="200.0dip" style="@style/sec_pattern_lock_background">
+            <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:layout_width="@dimen/sec_lock_pattern_view_size" android:layout_height="@dimen/sec_lock_pattern_view_size" android:minHeight="200.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/sec_fingerprint_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/sec_pattern_lock_background" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/sec_pattern_lock_confirm_bottom" style="@style/sec_pattern_lock_background">
+            <com.samsung.android.settings.widget.SecBottomBarButton android:layout_gravity="bottom" android:id="@id/backupPin" android:background="@drawable/sec_ripple_bottom_bar_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/sec_confirm_lock_pattern_backup_pin" android:textAlignment="center" style="@style/SecurityPreferenceButton" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/fingerprintIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <Button android:textSize="@dimen/forgot_txt_size" android:textColor="@color/work_profile_lock_screen_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/forgotButton" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keyguard_main_knoxlogo_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sec-roboto-regular" />
+    </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+</FrameLayout>

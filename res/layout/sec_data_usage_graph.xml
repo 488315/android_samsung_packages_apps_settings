@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_data_usage_app_usage_chart_padding_start" android:paddingEnd="@dimen/sec_data_usage_app_usage_chart_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.UsageView android:gravity="end" android:id="@id/data_usage" android:layout_width="fill_parent" android:layout_height="@dimen/data_usage_chart_height" android:colorAccent="@color/sec_data_usage_graph_line_color" settings:sideLabels="@array/battery_labels" settings:textColor="@color/sec_data_usage_graph_label_text_color" />
+</LinearLayout>

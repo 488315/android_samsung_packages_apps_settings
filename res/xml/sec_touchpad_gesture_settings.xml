@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/touchpad_gestures_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SecPreference android:title="@string/tap_with_3_fingers" android:key="key_tap_with_3_fingers">
+        <intent android:targetPackage="com.sec.android.app.desktoplauncher" android:action="android.intent.action.MAIN" android:targetClass="com.android.launcher3.settings.TouchPadGestureOptionSelectionActivity">
+            <extra android:name="multi_finger_selected_key" android:value="@string/three" />
+        </intent>
+    </SecPreference>
+</PreferenceScreen>

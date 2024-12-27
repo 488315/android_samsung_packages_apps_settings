@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_badge_app_icon_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreferenceCategory android:key="no_stroke" settings:roundStroke="none" />
+    <SecPreferenceCategory android:title="@string/notification_badge_app_icon_badge_style" settings:roundStroke="top_left|top_right" />
+    <com.samsung.android.settings.notification.RadioPreference android:persistent="false" android:title="@string/notification_badge_app_number" android:key="app_icon_number" settings:allowDividerAbove="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_icon_preference_divider" />
+    <com.samsung.android.settings.notification.RadioPreference android:persistent="false" android:title="@string/notification_badge_app_dot" android:key="app_icon_dot" settings:allowDividerAbove="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="homescreen_noti_preview_category" />
+    <SecSwitchPreference android:title="@string/notification_homescreen_preview_title_new" android:key="homescreen_noti_preview" android:summary="@string/notification_homescreen_preview_description" />
+</PreferenceScreen>

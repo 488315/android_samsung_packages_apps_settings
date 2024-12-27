@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/as_home_usage_detail_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/skeleton_circle" android:layout_width="@dimen/as_home_usage_detail_color_height" android:layout_height="@dimen/as_home_usage_detail_color_height" android:layout_marginEnd="@dimen/as_home_usage_detail_color_margin_end" style="@style/AsSkeletonResource" />
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:background="@drawable/skeleton_text_12" android:layout_width="@dimen/as_usage_detail_loading_name_textview_width" android:layout_height="fill_parent" style="@style/AsSkeletonResource" />
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_home_usage_detail_name_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end" android:background="@drawable/skeleton_text_12" android:layout_width="@dimen/as_usage_detail_loading_size_textview_width" android:layout_height="fill_parent" style="@style/AsSkeletonResource" />
+    <ImageView android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/analyze_storage_category_btn" android:tint="@color/as_category_btn_color" android:layout_marginStart="@dimen/as_home_usage_detail_category_btn_margin_start" />
+</LinearLayout>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d na araw ang nakalipas</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d na min ang nakalipas</item>
+        <item quantity="one">%d min ang nakalipas</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d na taon ang nakalipas</item>
+        <item quantity="one">%d taon ang nakalipas</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_minutes">
+        <item quantity="other">%d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_app_cache_title">
+        <item quantity="other">%1$d cache ng app (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d cache ng app (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_archive_apps">
+        <item quantity="other">I-archive ang %d app?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-archive ang %d app?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_archive_button_text">
+        <item quantity="other">I-archive ang %1$d app (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-archive ang %1$d app (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_clear_apps_cache">
+        <item quantity="other">I-clear ang cache para sa %d app?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-clear ang cache para sa %d app?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_clear_button_text">
+        <item quantity="other">I-clear ang %1$d cache (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-clear ang %1$d cache (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_n_selected">
+        <item quantity="other">%d ang napili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ang napili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_recommend_card_description_archive_apps">
+        <item quantity="other">Magbakante ng hanggang %1$s na espasyo sa pamamagitan ng pag-archive ng %2$d app na hindi ginagamit. Isi-save ang mga personal na data at setting mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magbakante ng hanggang %1$s na espasyo sa pamamagitan ng pag-archive ng %2$d app na hindi ginagamit. Isi-save ang mga personal na data at setting mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_uninstall_apps">
+        <item quantity="other">I-uninstall ang %d app?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-uninstall ang %d app?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_uninstall_button_text">
+        <item quantity="other">I-uninstall ang %1$d app (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-uninstall ang %1$d app (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="as_unused_apps_title">
+        <item quantity="other">%1$d di-ginamit na app (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d di-ginamit na app (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_connected_devices_subtext">
+        <item quantity="other">Nagbabahagi ng koneksyon sa internet sa %d device.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nagbabahagi ng koneksyon sa internet sa %d device.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="camera_flash_notification_n_apps">
+        <item quantity="other">%d app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dex_timeout_day">
+        <item quantity="other">%d araw</item>
+        <item quantity="one">1 araw</item>
+    </plurals>
+    <plurals name="dex_timeout_hour">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+    <plurals name="dex_timeout_minute">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="dex_timeout_second">
+        <item quantity="other">%d (na) segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="dex_timeout_week">
+        <item quantity="other">%d linggo</item>
+        <item quantity="one">1 linggo</item>
+    </plurals>
+    <plurals name="installed_apps_summary_no_enabled_app">
+        <item quantity="other">%d app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_hours">
+        <item quantity="other">%d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d seg</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seg</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
+        <item quantity="other">Kung tatanggalin mo ang mga lugar na ito, palaging hihingin ang biometrics at security delay kapag binago mo ang maseselang setting.</item>
+        <item quantity="one">Kung tatanggalin mo ang lugar na ito, palaging hihingin ang biometrics at security delay kapag binago mo ang maseselang setting.</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
+        <item quantity="other">Tanggalin ang %d lugar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d lugar?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
+        <item quantity="other">%d ang napili</item>
+        <item quantity="one">1 ang napili</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_summary">
+        <item quantity="other">%1$s at %2$d pang iba</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s at %2$d pang iba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_char_reached_msg_plural">
+        <item quantity="other">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="no_memory_use_summary">
+        <item quantity="other">Walang ginamit na memory sa nakalipas na %d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Walang ginamit na memory sa nakalipas na %d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d notification</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notification</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_reminder_custom_summary">
+        <item quantity="other">Ipaalala bawat %d minuto tungkol sa mga notification para sa mga piniling app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ipaalala bawat %d minuto tungkol sa mga notification para sa mga piniling app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="other">Hanggang %d app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hanggang %d app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="passkeys_and_autofill_subtext">
+        <item quantity="other">%1$s at %2$d iba pang app ang gumagamit ng mga passkey at awtomatikong nagpapasok ng mga password at iba pang impormasyon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s at %2$d iba pang app ang gumagamit ng mga passkey at awtomatikong nagpapasok ng mga password at iba pang impormasyon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="ps_apps">
+        <item quantity="other">%1$s pahintulot ang ginamit ng %2$d app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s pahintulot ang ginamit ng %2$d app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recommended_for_you_enabled_summary">
+        <item quantity="other">%d accessibility function ang ginagamit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d accessibility function ang ginagamit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="reminder_select_apps">
+        <item quantity="other">%d app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remove_language_title_multiple_plurals">
+        <item quantity="other">Alisin ang %d wika?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Alisin ang %d wika?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_accessibility_usage_summary">
+        <item quantity="other">%d app ang may ganap na access sa telepono mo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app ang may ganap na access sa telepono mo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals">
+        <item quantity="other">Awtomatikong io-off ang telepono mo sa loob ng %d segundo. Para mapanatiling naka-on ang telepono mo, i-tap ang Ikansela.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Awtomatikong io-off ang telepono mo sa loob ng %d segundo. Para mapanatiling naka-on ang telepono mo, i-tap ang Ikansela.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
+        <item quantity="other">Awtomatikong io-off ang tablet mo sa loob ng %d segundo. Para mapanatiling naka-on ang tablet mo, i-tap ang Ikansela.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Awtomatikong io-off ang tablet mo sa loob ng %d segundo. Para mapanatiling naka-on ang tablet mo, i-tap ang Ikansela.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
+        <item quantity="other">Bawat %d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_choose_lock_password_password_too_short">
+        <item quantity="other">Dapat may %d character man lang ang password mo, kabilang ang 1 titik man lang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dapat may %d character man lang ang password mo, kabilang ang 1 titik man lang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_choose_lock_pin_pin_too_short">
+        <item quantity="other">Dapat na may %d digit man lang ang PIN mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dapat na may %d digit man lang ang PIN mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+        <item quantity="other">Subukang muli sa loob ng 1 oras %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Subukang muli sa loob ng 1 oras %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+        <item quantity="other">Subukang muli sa loob ng %d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Subukang muli sa loob ng %d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+        <item quantity="other">Subukang muli sa loob ng %d oras 1 minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Subukang muli sa loob ng %d oras 1 minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+        <item quantity="other">Subukan muli sa loob ng %d minuto</item>
+        <item quantity="one">Subukan muli sa loob ng %d minuto</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">Subukan muli sa loob ng %d segundo</item>
+        <item quantity="one">Subukan muli sa loob ng %d segundo</item>
+    </plurals>
+    <plurals name="sec_credman_services_limit_text">
+        <item quantity="other">Hindi maaaring i-on ang higit sa %d dagdag na serbisyo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi maaaring i-on ang higit sa %d dagdag na serbisyo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_dnd_select_contact">
+        <item quantity="other">%d contact ang pinayagan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d contact ang pinayagan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_fingerprint_added_summary">
+        <item quantity="other">%d fingerprint ang naidagdag</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fingerprint ang naidagdag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+        <item quantity="other">%1$s, %2$s at %3$d marami pang app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s at %3$d marami pang app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_password_attempts_left">
+        <item quantity="other">Maling password. %d tangka ang natitira.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Maling password. %d tangka ang natitira.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_pattern_attempts_left">
+        <item quantity="other">Mali ang pattern. %d tangka ang natitira.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mali ang pattern. %d tangka ang natitira.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_incorrect_pin_attempts_left">
+        <item quantity="other">Mali ang PIN. %d tangka ang nalalabi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mali ang PIN. %d tangka ang natitira.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_intelligence_service_child_popup_message">
+        <item quantity="other">Kailangan mong hindi bababa sa %d taong gulang upang magamit ang mga feature ng advanced intelligence ng Galaxy AI.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kailangan mong hindi bababa sa %d taong gulang upang magamit ang mga feature ng advanced intelligence ng Galaxy AI.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_letters">
+        <item quantity="other">Naglalaman dapat ang password mo ng %d titik man lang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naglalaman dapat ang password mo ng %d titik man lang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_lowercase">
+        <item quantity="other">Dapat maglaman ng kahit %d maliit na titik ang password.</item>
+        <item quantity="one">Dapat maglaman ng kahit 1 maliit na titik ang password.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_nonletter">
+        <item quantity="other">Dapat maglaman ng kahit %d numero o simbolo ang password.</item>
+        <item quantity="one">Dapat maglaman ng kahit 1 numero o simbolo ang password.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_numeric">
+        <item quantity="other">Dapat maglaman ng kahit %d numero ang password.</item>
+        <item quantity="one">Dapat maglaman ng kahit 1 numero ang password.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_symbols">
+        <item quantity="other">Dapat maglaman ng kahit %d simbolo ang password.</item>
+        <item quantity="one">Dapat maglaman ng kahit 1 simbolo ang password.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_uppercase">
+        <item quantity="other">Dapat maglaman ng kahit %d malaking titik ang password.</item>
+        <item quantity="one">Dapat maglaman ng kahit 1 malaking titik ang password.</item>
+    </plurals>
+    <plurals name="sec_mde_suggestions_summary">
+        <item quantity="other">%d pang mungkahi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pang mungkahi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_number_of_device_admins">
+        <item quantity="other">%d aktibong app</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aktibong app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_remove_dialog_title">
+        <item quantity="other">Tanggalin ang %d language pack?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d language pack?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_tts_title">
+        <item quantity="other">%d boses</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d boses</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_runtime_permissions_additional_count">
+        <item quantity="other">%d karagdagang pahintulot</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d karagdagang pahintulot</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_show_dev_countdown">
+        <item quantity="other">%d tap ka na lang bago maging isang developer.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tap ka na lang bago maging isang developer.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sec_zen_mode_selected_rules">
+        <item quantity="other">%d ang napili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ang napili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_apps_detected">
+        <item quantity="other">%d malware app ang nadetekta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d malware app ang nadetekta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext">
+        <item quantity="other">%d malware app ang nakita sa telepono mo. I-uninstall ang mga app na ito para mapanatiling ligtas ang telepono mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d malware app ang nakita sa telepono mo. I-uninstall ang app na ito para mapanatiling ligtas ang telepono mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
+        <item quantity="other">%d malware app ang nakita sa tablet mo. I-uninstall ang app na ito para mapanatiling ligtas ang tablet mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d malware app ang nakita sa tablet mo. I-uninstall ang app na ito para mapanatiling ligtas ang tablet mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_suggestion">
+        <item quantity="other">%d mungkahi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mungkahi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="security_dashboard_warning">
+        <item quantity="other">%d babala</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d babala</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Oras ng tulog: %d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oras ng tulog: %d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Oras ng tulog: %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oras ng tulog: %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="temporary_cloud_backup_summary_plurals">
+        <item quantity="other">Mag-back up ng unlimited na data sa %1$s nang hanggang %2$d araw o i-restore ang data na nai-back up mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mag-back up ng unlimited na data sa %1$s nang hanggang %2$d araw o i-restore ang data na nai-back up mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="touch_settings_test_will_reset">
+        <item quantity="other">Magre-reset ang pagsusuring ito sa loob ng %d segundo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magre-reset ang pagsusuring ito sa loob ng %d segundo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_device_connected">
+        <item quantity="other">%d device ang nakakonekta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d device ang nakakonekta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+        <item quantity="other">Gawing Wi-Fi access point ang telepono mo. Hanggang sa %d iba pang device ang makakagamit sa mobile data ng telepono mo o koneksiyon sa Wi-Fi para maka-access sa internet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gawing Wi-Fi access point ang telepono mo. Hanggang sa %d iba pang device ang makakagamit sa mobile data ng telepono mo o koneksiyon sa Wi-Fi para maka-access sa internet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+        <item quantity="other">Gawing Wi-Fi access point ang telepono mo. Hanggang sa %d iba pang device ang makakagamit ng mobile data ng telepono mo para maka-access sa internet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gawing Wi-Fi access point ang telepono mo. Hanggang sa %d iba pang device ang makakagamit sa mobile data ng telepono mo para maka-access sa internet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+        <item quantity="other">Gawing Wi-Fi access point ang tablet mo. Hanggang sa %d iba pang device ang makakagamit sa mobile data ng tablet mo para maka-access sa internet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gawing Wi-Fi access point ang tablet mo. Hanggang sa %d iba pang device ang makakagamit ng mobile data ng tablet mo para maka-access sa internet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+        <item quantity="other">Gawing isang Wi-Fi access point ang tablet mo. Hanggang sa %d iba pang device ang makakagamit sa mobile data o koneksiyon sa Wi-Fi ng tablet mo para ma-access ang internet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gawing isang Wi-Fi access point ang tablet mo. Hanggang sa %d iba pang device ang makakagamit sa mobile data o koneksiyon sa Wi-Fi ng tablet mo para ma-access ang internet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_ap_n_members">
+        <item quantity="other">%d miyembro</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d miyembro</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_delete_item_network">
+        <item quantity="other">Tanggalin ang %d network?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d network?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wifi_select_item_network">
+        <item quantity="other">%d ang napili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ang napili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_2">
+        <item quantity="other">Nagkaroon ng 1 tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang %d tangkang nalalabi bago mag-reset ang telepono na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nagkaroon ng 1 tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang %d tangkang nalalabi bago mag-reset ang telepono na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_4">
+        <item quantity="other">Nagkaroon ng %d tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang 1 tangkang nalalabi bago mag-reset ang telepono na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nagkaroon ng %d tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang 1 tangkang nalalabi bago mag-reset ang telepono na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_2">
+        <item quantity="other">Nagkaroon ng 1 tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang %d tangkang nalalabi bago mag-reset ang tablet na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nagkaroon ng 1 tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang %d tangkang nalalabi bago mag-reset ang tablet na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_4">
+        <item quantity="other">Nagkaroon ng %d tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang 1 tangkang nalalabi bago mag-reset ang tablet na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nagkaroon ng %d tangka na i-unlock ang profile mong pangtrabaho. Mayroon kang 1 tangkang nalalabi bago mag-reset ang tablet na ito sa mga factory default na setting at mabubura ang lahat ng data.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_minutes">
+        <item quantity="other">%d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

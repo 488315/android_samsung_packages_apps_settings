@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LockPatternContainerStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:maxWidth">@dimen/biometric_auth_pattern_view_max_size</item>
+        <item name="android:maxHeight">@dimen/biometric_auth_pattern_view_max_size</item>
+        <item name="android:minWidth">@dimen/biometric_auth_pattern_view_size</item>
+        <item name="android:minHeight">@dimen/biometric_auth_pattern_view_size</item>
+        <item name="android:paddingHorizontal">0.0dip</item>
+    </style>
+    <style name="Nfc.Antenna.AppTheme.Dialog" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Skeleton.TextBlockText.Multiple.Display.Medium" parent="">
+        <item name="android:background">@drawable/skeleton_text_22</item>
+    </style>
+    <style name="SudCardTitle" parent="@style/SudBaseCardTitle">
+        <item name="android:maxLines">6</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textAppearance">?textAppearanceHeadline6</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton" parent="@style/Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+    <style name="Nfc.Antenna.AppTheme.Dialog_land" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentials" parent="@style/Theme.SubSettings">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

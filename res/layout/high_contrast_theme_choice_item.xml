@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/single_choice_top_padding" android:paddingBottom="@dimen/single_choice_gridView_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/item_guide_image" android:layout_width="wrap_content" android:layout_height="147.0dip" />
+    <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView android:textSize="16.0sp" android:textColor="@color/a11y_visibility_single_choice_item_title_color" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="6.0dip" android:textAlignment="center" settings:limitedScale="5" />
+    <include layout="@layout/preference_widget_radiobutton" />
+</LinearLayout>

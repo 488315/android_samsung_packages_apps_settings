@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_bluetooth_advanced_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreference android:title="@string/sec_bluetooth_advanced_sync_with_account_vzw" android:key="key_bluetooth_cloud_none_switch" android:summary="" android:order="100" />
+    <SecSwitchPreferenceScreen android:title="@string/sec_bluetooth_advanced_sync_with_account_vzw" android:key="key_bluetooth_cloud_switch" android:summary="@string/sec_bluetooth_advanced_auto_sync_disabled" android:order="200" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="300" />
+    <SecPreference android:title="@string/phone_name_title" android:key="key_bluetooth_rename" android:order="400" />
+    <SecPreference android:title="@string/bluetooth_show_received_files" android:key="key_bluetooth_received_files" android:summary="@string/sec_bluetooth_advanced_received_summary" android:order="500" />
+    <SecSwitchPreferenceScreen android:title="@string/sec_bluetooth_cast_title" android:key="key_bluetooth_cast" android:order="600" settings:controller="com.samsung.android.settings.bluetooth.bluetoothcast.BluetoothCastTogglePreferenceController" settings:keywords="@string/keywords_music_share" />
+    <SecSwitchPreference android:title="@string/sec_bluetooth_ibr_title" android:key="key_bluetooth_ibr" android:summary="@string/sec_bluetooth_advanced_ibr_summary" android:order="700" />
+    <SecSwitchPreference android:title="@string/sec_ask_to_use_bluetooth" android:key="key_bluetooth_ask_to_use" android:summary="@string/asks_your_permission_to_use" android:order="800" />
+    <SecPreference android:title="@string/sec_bluetooth_control_history_title" android:key="key_bluetooth_control_history" android:order="900" android:fragment="com.samsung.android.settings.bluetooth.BluetoothControlHistory" settings:keywords="@string/sec_bluetooth_control_history_keywords" />
+    <SecPreference android:title="@string/sec_bluetooth_pairing_block_request_menu" android:key="key_pairing_block" android:order="1000" android:fragment="com.samsung.android.settings.bluetooth.BluetoothPairingBlockSettings" />
+    <SecPreference android:title="@string/sec_bluetooth_scan_history_title" android:key="key_bluetooth_scan_activity" android:order="1100" android:fragment="com.samsung.android.settings.bluetooth.BluetoothScanActivity" settings:keywords="@string/sec_bluetooth_scan_history_keywords" />
+</PreferenceScreen>

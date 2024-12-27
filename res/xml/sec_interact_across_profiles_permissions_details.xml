@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/interact_across_profiles_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesRestrictedSwitchPreference android:key="interact_across_profiles_settings_switch" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/interact_across_profiles_summary_1" android:selectable="false" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="install_app_banner" />
+    <com.samsung.android.settings.widget.SecButtonPreference android:key="install_app_banner_button" />
+</PreferenceScreen>

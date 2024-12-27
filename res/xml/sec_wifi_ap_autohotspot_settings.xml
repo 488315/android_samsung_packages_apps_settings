@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_ap_smart_tethering_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:selectable="false" android:key="auto_hotspot_description_layout_preference" android:order="1" />
+    <SecPreferenceCategory android:title="@string/wifi_ap_auto_hotspot_my_account_title" android:key="my_account_preference_category" android:order="10" />
+    <PreferenceCategory android:title="@string/wifi_ap_auto_hotspot_my_family_title" android:key="my_family_preference_category" android:order="20">
+        <SecSwitchPreferenceScreen android:title="@string/family_switch_title" android:key="family_sharing_switch_preference_screen" settings:controller="com.samsung.android.settings.wifi.mobileap.autohotspot.WifiApFamilySharingSwitchController" />
+    </PreferenceCategory>
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:selectable="false" android:key="family_sharing_description_preference" android:order="99" />
+</PreferenceScreen>

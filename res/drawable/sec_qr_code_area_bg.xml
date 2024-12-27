@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/wifi_ap_qrcode_background_color" />
+    <stroke android:width="@dimen/wifi_ap_qr_code_image_stroke_width" android:color="@color/wifi_ap_qrcode_stroke_color" />
+    <corners android:radius="@dimen/wifi_ap_qr_code_area_radius" />
+</shape>

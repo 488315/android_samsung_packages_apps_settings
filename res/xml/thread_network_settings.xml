@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/thread_network_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.MainSwitchPreference android:title="@string/thread_network_settings_main_switch_title" android:key="toggle_thread_network" settings:controller="com.android.settings.connecteddevice.threadnetwork.ThreadNetworkToggleController" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/thread_network_settings_footer_title" android:selectable="false" android:key="thread_network_settings_footer" settings:controller="com.android.settings.connecteddevice.threadnetwork.ThreadNetworkFooterController" settings:searchable="false" />
+</PreferenceScreen>

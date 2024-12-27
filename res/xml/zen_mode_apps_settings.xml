@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_apps_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/zen_mode_apps_category" android:key="zen_mode_apps_category">
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/zen_mode_apps_priority_apps" android:key="zen_mode_apps_priority" settings:searchable="false" />
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/zen_mode_apps_none_apps" android:key="zen_mode_apps_none" settings:searchable="false" />
+        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/zen_mode_apps_all_apps" android:key="zen_mode_apps_all" settings:searchable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

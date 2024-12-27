@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_entity_header" android:selectable="false" android:key="wifi_detail_header" settings:allowDividerBelow="true" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="header_inset" />
+    <androidx.preference.Preference android:title="@string/wifi_security" android:key="security" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="connect_info" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_details_password" android:title="@string/wifi_eap_identity" android:selectable="false" android:key="eap_identity" settings:allowDividerBelow="true" settings:isPreferenceVisible="false" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_details_password" android:title="@string/wifi_password" android:selectable="false" android:key="wifi_password" settings:allowDividerAbove="true" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <androidx.preference.Preference android:title="@string/wifi_dialog_passpoint_fqdn" android:key="passpoint" settings:isPreferenceVisible="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/wifi_auto_reconnect" android:key="auto_connect" />
+    <androidx.preference.Preference android:title="@string/wifi_ap_location_map_link" android:key="router_location" settings:isPreferenceVisible="false" />
+    <androidx.preference.Preference android:title="@string/wifi_manage_router" android:key="manage_router" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="basic_setting" />
+    <com.samsung.android.settings.wifi.details.WifiExpandablePreference android:title="wifi_menu_advanced" android:key="expander" />
+    <PreferenceCategory android:key="advanced">
+        <androidx.preference.DropDownPreference android:entries="@array/wifi_privacy_entries" android:title="@string/wifi_privacy_settings" android:key="privacy" android:entryValues="@array/wifi_privacy_values" />
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_preference_error_text" android:selectable="false" android:key="privacy_warning_text" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/wifi_connect_send_device_name_to_network" android:key="dhcp_name_sharing" />
+        <androidx.preference.Preference android:title="@string/wifi_advanced_mac_address_title" android:key="mac_address" />
+        <androidx.preference.Preference android:title="@string/wifi_advanced_ip_address_title" android:key="ip_address" />
+    </PreferenceCategory>
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="general" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/sec_ic_settings_software_update" android:title="@string/sec_software_update_title" android:key="software_update_screen" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:topLevelPreferenceKey="top_level_software_update"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreference android:title="@string/sec_software_update_download_updates_manually_title" android:key="key_update" android:summary="@string/sec_software_update_download_updates_manually_summary_for_search" />
+    <SecSwitchPreference android:title="@string/sec_software_update_auto_download_over_wifi_title" android:key="key_auto_download_over_wifi" android:summary="@string/sec_software_update_auto_download_over_wifi_summary" />
+    <SecPreference android:title="@string/sec_software_update_auto_download_title" android:key="key_auto_download" android:fragment="com.samsung.android.settings.softwareupdate.AutoDownloadSettings" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <SecPreference android:title="@string/sec_software_update_last_software_information_title" android:key="key_last_update" android:summary="@string/sec_software_update_last_software_information_summary_for_search" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="key_category_for_spr" />
+    <PreferenceScreen android:title="@string/update_prl" android:key="update_prl" />
+    <PreferenceScreen android:title="@string/update_profile" android:key="update_profile" />
+    <PreferenceScreen android:title="@string/uicc_unlock" android:key="uicc_unlock" />
+</PreferenceScreen>

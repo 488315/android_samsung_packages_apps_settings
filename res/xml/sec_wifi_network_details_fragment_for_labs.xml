@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_entity_header" android:selectable="false" android:key="wifi_detail_header_for_labs" settings:allowDividerBelow="true" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="creation_info_inset" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_creation_detail" android:selectable="false" android:key="wifi_detail_creation_info" settings:allowDividerBelow="true" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="connection_info_inset" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_connection_detail" android:selectable="false" android:key="wifi_detail_connection_info" settings:allowDividerBelow="true" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="mlo_info_inset" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_network_mlo_detail" android:selectable="false" android:key="wifi_detail_mlo_info" settings:allowDividerBelow="true" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="router_history_inset" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_layout" android:selectable="false" android:key="goto_connection_info" settings:allowDividerBelow="true" settings:isPreferenceVisible="false" />
+</PreferenceScreen>

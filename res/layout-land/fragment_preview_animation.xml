@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/animation_area" android:paddingLeft="@dimen/list_area_horizontal_padding" android:paddingRight="@dimen/list_area_horizontal_padding" android:paddingBottom="@dimen/list_bottom_spacing" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/description_image_area_weight_land">
+        <com.samsung.android.settings.widget.PlayPauseLottieAnimationView android:id="@id/preview_animation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/accessibility_screen_magnification_all" />
+    </LinearLayout>
+    <View android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="@dimen/description_help_image_padding" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/list_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/description_text_area_weight_land">
+        <FrameLayout android:id="@android:id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

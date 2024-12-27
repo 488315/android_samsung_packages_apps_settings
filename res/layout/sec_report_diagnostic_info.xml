@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/diagnostics_info_body" android:paddingTop="@dimen/sec_widget_alert_dialog_padding_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_alert_dialog_padding_start_end" android:paddingEnd="@dimen/sec_widget_alert_dialog_padding_start_end">
+        <TextView android:id="@id/diagnostics_info_message" android:paddingBottom="@dimen/sec_widget_alert_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_diagnostics_info_text_dream_phone" style="@style/description_text" />
+        <LinearLayout android:orientation="vertical" android:id="@id/global_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/learn_more" android:background="@drawable/sec_tw_common_list_item_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_body_text_padding_bottom">
+                <TextView android:textAppearance="@style/TextAppearance.SudDescription.Secondary" android:textColor="@color/weblink_color" android:id="@id/learn_more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diagnostic_data" android:fontFamily="sec" android:textFontWeight="400" />
+            </LinearLayout>
+            <CheckedTextView android:id="@id/agree_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_body_text_padding_bottom" android:text="@string/diagnostic_data_agreed" style="@style/SecDiagnosticCheckedTextViewStyle" />
+            <CheckedTextView android:id="@id/other_info_agree_Btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_body_text_padding_bottom" android:text="@string/diagnostic_other_info_agreed" style="@style/SecDiagnosticCheckedTextViewStyle" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/learn_more_2" android:background="@drawable/sec_tw_common_list_item_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_body_text_padding_bottom" android:layout_marginStart="@dimen/sec_locale_label_start_padding">
+                <TextView android:textAppearance="@style/TextAppearance.SudDescription.Secondary" android:textColor="@color/weblink_color" android:id="@id/learn_more_2_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diagnostic_other_info_linked" android:fontFamily="sec" android:textFontWeight="400" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/sec_report_diagnostic_info_chn" />
+    </LinearLayout>
+</ScrollView>

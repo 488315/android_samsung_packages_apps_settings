@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/front_screen_apps_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_front_screen_apps_preview" android:selectable="false" android:key="front_screen_apps_preview" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/front_screen_apps_on_cover_screen_description" android:selectable="false" android:key="front_screen_apps_description" style="@style/description_text" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="sec_camera_cutout_dummy_item" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/front_screen_apps_always" android:key="sec_front_screen_apps_radio_button_always" android:summary="@string/front_screen_apps_always_summary" settings:allowDividerBelow="false" settings:isPreferenceVisible="true" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/front_screen_apps_swipe_up_to_continue_app" android:key="sec_front_screen_apps_radio_button_swipe_up" android:summary="@string/front_screen_apps_swipe_up_to_continue_app_summary" settings:allowDividerBelow="false" settings:isPreferenceVisible="true" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/front_screen_apps_never" android:key="sec_front_screen_apps_radio_button_never" android:summary="@string/front_screen_apps_never_summary" settings:allowDividerBelow="false" settings:isPreferenceVisible="true" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="sec_camera_cutout_dummy_item" />
+</PreferenceScreen>

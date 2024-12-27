@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bottom_divider" android:layout_width="fill_parent" style="@style/sec_widget_bottom_bar_divider" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/pwd_button_layout" android:layout_width="fill_parent" style="@style/SecurityPreferenceButtonContainer">
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/cancel_button" android:layout_width="fill_parent" android:text="@string/lockpassword_cancel_label" style="@style/SecurityPreferenceButton" />
+        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/save_button" android:layout_width="fill_parent" android:text="@string/menu_save" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</RelativeLayout>

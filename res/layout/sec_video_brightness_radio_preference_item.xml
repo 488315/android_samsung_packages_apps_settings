@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingBottom="@dimen/sec_widget_body_text_padding_top" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/image_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:minHeight="@dimen/sec_widget_Video_Brightness_horizontal_radio_preference_icon_min_height" />
+        <TextView android:textSize="@dimen/sec_widget_two_btn_preference_text_size" android:textColor="@color/sec_radio_preference_text_color" android:gravity="center" android:id="@id/icon_title" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_bottom_bar_divider_padding" android:fontFamily="sec" android:textFontWeight="400" />
+    </LinearLayout>
+    <RadioButton android:gravity="center" android:id="@id/radio_button" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_multi_btn_preference_dot_height" />
+</LinearLayout>

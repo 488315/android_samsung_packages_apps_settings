@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_development_nearbywifi_information"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.wifi.develop.nearbywifi.view.NearbyWifiTabPreference android:key="nearbywifi_tab_preference" android:order="1" settings:allowDividerBelow="false" />
+    <com.samsung.android.settings.wifi.develop.nearbywifi.view.NearbyWifiPreference android:key="nearbywifi_preference" android:order="2" settings:allowDividerBelow="false" />
+    <PreferenceCategory android:title="@string/wifi_development_nearbywifi_24g_cu_chart_title" android:key="nearbywifi_category_cu_24g" android:order="3">
+        <com.samsung.android.settings.wifi.develop.nearbywifi.view.CuBarChart android:key="cu_bar_chart_24g" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/wifi_development_nearbywifi_5g_cu_chart_title" android:key="nearbywifi_category_cu_5g" android:order="4">
+        <com.samsung.android.settings.wifi.develop.nearbywifi.view.CuBarChart android:key="cu_bar_chart_5g" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/wifi_development_nearbywifi_6g_cu_chart_title" android:key="nearbywifi_category_cu_6g" android:order="5">
+        <com.samsung.android.settings.wifi.develop.nearbywifi.view.CuBarChart android:key="cu_bar_chart_6g" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="channel_utilization" android:order="200">
+        <Preference android:title="@string/wifi_development_nearbywifi_best_channel_recommendation" android:key="best_channel" />
+    </PreferenceCategory>
+</PreferenceScreen>

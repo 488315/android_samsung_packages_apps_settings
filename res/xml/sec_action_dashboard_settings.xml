@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Action Dashboard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/filter">
+        <SecDropDownPreference android:title="Select a source package" android:key="source_filter" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="action_list_category" />
+</PreferenceScreen>

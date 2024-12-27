@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_function_key_tips_title" android:key="tips_for_power_off" settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeySettings" settings:topLevelPreferenceKey="top_level_advanced_features"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_function_key_tips_layout" android:selectable="false" android:key="function_key_tips_layout_1" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_function_key_tips_layout" android:selectable="false" android:key="function_key_tips_layout_2" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_function_key_tips_layout" android:selectable="false" android:key="function_key_tips_layout_3" />
+</PreferenceScreen>

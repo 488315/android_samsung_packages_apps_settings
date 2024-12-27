@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_first_margin_top" android:layout_marginBottom="@dimen/sec_widget_preference_unclickable_first_margin_top" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_reset_mobile_network_desc" style="@style/body_text_style" />
+                <include android:id="@id/erase_esim_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_reset_esim_checkbox" />
+                <Spinner android:layout_gravity="center_horizontal" android:id="@id/reset_network_subscription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:backgroundTint="@color/sec_widget_body_text_color" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

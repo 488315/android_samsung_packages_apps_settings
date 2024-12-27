@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_summary_title" android:key="data_usage_screen" settings:hierarchicalParentFragment="com.samsung.android.settings.connection.ConnectionsSettings" settings:topLevelPreferenceKey="top_level_connections"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.datausage.DataUsageSummaryPreference android:selectable="false" android:key="status_header" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="0.0dip" settings:roundStroke="top_left|top_right" />
+    <com.android.settings.datausage.DataSaverPreference android:title="@string/data_saver_title" android:key="restrict_background" android:fragment="com.android.settings.datausage.DataSaverSummary" settings:controller="com.samsung.android.settings.datausage.SecDataSaverSummaryPreferenceController" />
+    <SecPreferenceScreen android:title="@string/allowed_networks_for_apps_title" android:key="allowed_networks_for_apps" android:fragment="com.samsung.android.settings.datausage.SecAllowedNetworksSettings" settings:controller="com.samsung.android.settings.datausage.SecAllowedNetworksPreferenceController" />
+    <SecPreferenceCategory android:title="@string/data_usage_tab_mobile" android:key="mobile_category" settings:searchable="false">
+        <SecPreference android:persistent="false" android:title="@string/data_usage_enable_mobile" android:key="data_usage_enable_att" settings:controller="com.samsung.android.settings.datausage.SecAttMobileDataPreferenceController">
+            <intent android:action="com.samsung.android.app.telephonyui.action.OPEN_NET_SETTINGS" />
+        </SecPreference>
+        <SecPreference android:persistent="false" android:title="@string/international_data_roaming" android:key="international_data_roaming" settings:controller="com.samsung.android.settings.datausage.SecAttMobileDataPreferenceController">
+            <intent android:action="com.samsung.android.app.telephonyui.action.OPEN_NET_SETTINGS" />
+        </SecPreference>
+        <SecSwitchPreference android:title="@string/data_usage_enable_mobile" android:key="data_usage_enable" android:summary="@string/data_usage_enable_mobile_summery" settings:controller="com.samsung.android.settings.datausage.SecMobileDataPreferenceController" />
+        <SecSwitchPreference android:title="@string/data_usage_enable_confirmation" android:key="confirm_at_boot" settings:controller="com.samsung.android.settings.datausage.SecConfirmAtBootPreferenceController" />
+        <SecPreferenceCategory android:title="@string/data_usage_tab_mobile" android:key="sim1_category" settings:searchable="false" />
+        <SecPreference android:title="@string/cellular_data_usage" android:key="data_usage_list_sim_slot_0" settings:controller="com.samsung.android.settings.datausage.SecDataUsageListPreferenceController" />
+        <SecPreference android:title="@string/billing_cycle" android:key="billing_preference_sim_slot_0" settings:controller="com.samsung.android.settings.datausage.SecBillingCyclePreferenceController" />
+        <SecPreferenceCategory android:title="@string/data_usage_tab_mobile" android:key="sim2_category" settings:searchable="false" />
+        <SecPreference android:title="@string/cellular_data_usage" android:key="data_usage_list_sim_slot_1" settings:controller="com.samsung.android.settings.datausage.SecDataUsageListPreferenceController" />
+        <SecPreference android:title="@string/billing_cycle" android:key="billing_preference_sim_slot_1" settings:controller="com.samsung.android.settings.datausage.SecBillingCyclePreferenceController" />
+    </SecPreferenceCategory>
+    <SecPreferenceCategory android:title="@string/wifi" android:key="wifi_category" settings:searchable="false">
+        <SecPreference android:title="@string/wifi_data_usage" android:key="wifi_data_usage" settings:controller="com.samsung.android.settings.datausage.SecWifiDataUsagePreferenceController" />
+    </SecPreferenceCategory>
+    <SecPreferenceCategory android:title="@string/roaming_datauage_category" android:key="roaming_category" settings:searchable="false">
+        <SecPreference android:title="@string/roaming_datauage_title" android:key="roaming_data_usage" settings:controller="com.samsung.android.settings.datausage.SecRoamingDataUsagePreferenceController" />
+    </SecPreferenceCategory>
+</PreferenceScreen>

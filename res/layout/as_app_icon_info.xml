@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/vertical_divider" android:background="@color/as_basic_divider_line_color" android:layout_width="@dimen/as_list_item_vertical_divider_width" android:layout_height="@dimen/as_list_item_vertical_divider_height" android:layout_marginEnd="@dimen/as_list_item_vertical_divider_end_margin" />
+    <ImageView android:id="@id/app_info_icon" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="@dimen/as_app_info_icon_size" android:layout_height="@dimen/as_app_info_icon_size" android:src="@drawable/as_app_info" />
+</LinearLayout>

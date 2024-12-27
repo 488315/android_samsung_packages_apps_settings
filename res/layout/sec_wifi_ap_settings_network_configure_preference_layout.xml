@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/network_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/sec_wifi_ap_preference_merge_view" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/sec_wifi_ap_preference_merge_view" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/band_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/sec_wifi_ap_preference_merge_view" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,153 @@
+package com.samsung.android.settings.backup.controller;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.Bundle;
+import android.os.UserHandle;
+import android.provider.Settings;
+
+import androidx.preference.PreferenceScreen;
+import androidx.preference.SecSwitchPreference;
+
+import com.android.settings.R;
+import com.android.settings.core.SubSettingLauncher;
+import com.android.settings.core.TogglePreferenceController;
+
+import com.samsung.android.settings.Rune;
+import com.samsung.android.settings.account.AccountUtils;
+import com.samsung.android.settings.account.CloudAccountSettings;
+import com.samsung.android.settings.account.controller.SecAccountPreferenceController$$ExternalSyntheticOutline0;
+import com.samsung.android.settings.cube.Controllable$ControllableType;
+import com.samsung.android.settings.knox.KnoxUtils;
+import com.samsung.android.settings.logging.LoggingHelper;
+
+import java.util.List;
+
+/* compiled from: qb/89523975 2c9f6d15a1195540f21380d26e2599d2824bfc1ae85110b01296b5f4d9a9b658 */
+/* loaded from: classes4.dex */
+public class SamsungCloudPreferenceController extends TogglePreferenceController {
+    private static final String TAG = "SamsungCloudPreferenceController";
+    private SecSwitchPreference mPreference;
+
+    public SamsungCloudPreferenceController(Context context, String str) {
+        super(context, str);
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.core.BasePreferenceController,
+              // com.android.settingslib.core.AbstractPreferenceController
+    public void displayPreference(PreferenceScreen preferenceScreen) {
+        super.displayPreference(preferenceScreen);
+        this.mPreference =
+                (SecSwitchPreference) preferenceScreen.findPreference(getPreferenceKey());
+    }
+
+    @Override // com.android.settings.core.BasePreferenceController
+    public int getAvailabilityStatus() {
+        if (Rune.isChinaModel()
+                && !Rune.SUPPORT_DISABLE_ACCOUNTS_SETTINGS
+                && UserHandle.myUserId() == 0
+                && AccountUtils.checkSamsungBackupAvailble(this.mContext)
+                && !AccountUtils.checkIsDeviceOwner(this.mContext)) {
+            return KnoxUtils.checkKnoxCustomSettingsHiddenItem(2048) ? 2 : 0;
+        }
+        return 3;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.slices.Sliceable
+    public /* bridge */ /* synthetic */ Class getBackgroundWorkerClass() {
+        return null;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController
+    public /* bridge */ /* synthetic */ List getBackupKeys() {
+        return super.getBackupKeys();
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.slices.Sliceable
+    public /* bridge */ /* synthetic */ IntentFilter getIntentFilter() {
+        return null;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.core.BasePreferenceController
+    public Intent getLaunchIntent() {
+        Bundle bundle = new Bundle();
+        bundle.putString(":settings:fragment_args_key", getPreferenceKey());
+        SubSettingLauncher subSettingLauncher = new SubSettingLauncher(this.mContext);
+        String name = CloudAccountSettings.class.getName();
+        SubSettingLauncher.LaunchRequest launchRequest = subSettingLauncher.mLaunchRequest;
+        launchRequest.mDestinationName = name;
+        launchRequest.mSourceMetricsCategory = 7900;
+        launchRequest.mArguments = bundle;
+        return SecAccountPreferenceController$$ExternalSyntheticOutline0.m(
+                subSettingLauncher, null, R.string.cloud_and_accounts_title, 268468224);
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.slices.Sliceable
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_accounts_backup;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.core.BasePreferenceController
+    public /* bridge */ /* synthetic */ String getStatusText() {
+        return super.getStatusText();
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.slices.Sliceable
+    public /* bridge */ /* synthetic */ boolean hasAsyncUpdate() {
+        return false;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController
+    public /* bridge */ /* synthetic */ void ignoreUserInteraction() {
+        super.ignoreUserInteraction();
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController
+    /* renamed from: isChecked */
+    public boolean getThreadEnabled() {
+        return Settings.System.getInt(
+                        this.mContext.getContentResolver(), "samsung_cloud_switch_china_delta", 1)
+                != 0;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.core.BasePreferenceController
+    public boolean isControllable() {
+        return true;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.core.BasePreferenceController
+    public /* bridge */ /* synthetic */ Controllable$ControllableType needUserInteraction(
+            Object obj) {
+        return super.needUserInteraction(obj);
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.core.BasePreferenceController
+    public /* bridge */ /* synthetic */ boolean runDefaultAction() {
+        return super.runDefaultAction();
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController
+    public boolean setChecked(boolean z) {
+        Settings.System.putInt(
+                this.mContext.getContentResolver(), "samsung_cloud_switch_china_delta", z ? 1 : 0);
+        LoggingHelper.insertEventLogging(81, 4657, z);
+        return true;
+    }
+
+    @Override // com.android.settings.core.TogglePreferenceController,
+              // com.android.settings.slices.Sliceable
+    public /* bridge */ /* synthetic */ boolean useDynamicSliceSummary() {
+        return false;
+    }
+}

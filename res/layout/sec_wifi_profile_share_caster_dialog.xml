@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/sec_wifi_picker_dialog_top_margin" android:paddingBottom="@dimen/sec_widget_alert_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sec_widget_alert_dialog_body_text_size" android:textColor="@color/sec_widget_alert_dialog_text_color" android:id="@id/textView" android:paddingBottom="@dimen/sec_widget_alert_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/imageView" android:layout_width="@dimen/sec_app_list_item_icon_min_width" android:layout_height="@dimen/sec_app_list_item_icon_min_width" android:layout_marginBottom="@dimen/sec_splash_icon_margin_top" android:contentDescription="" />
+        <TextView android:textSize="@dimen/sec_wifi_dialog_error_text_size" android:textColor="@color/sec_app_name_text_color" android:gravity="center" android:id="@id/iconTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="@dimen/touchpad_icon" android:layout_height="@dimen/touchpad_icon" android:layout_marginLeft="@dimen/touchpad_icon_marginLeft" android:layout_marginTop="@dimen/touchpad_icon_margin" android:layout_marginBottom="@dimen/touchpad_icon_margin" android:foreground="@drawable/sec_touchpad_help_icon_background">
+            <ImageView android:id="@id/touchpad_gesture_list_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/relativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/touchpad_text_marginLeft" android:layout_marginRight="@dimen/touchpad_text_marginRight">
+                <TextView android:textAppearance="@style/sec_regular" android:textSize="@dimen/touchpad_tips_feature_title_context" android:textColor="@color/touchpad_settings_tips_title_text_color" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="@style/sec_regular" android:textSize="@dimen/touchpad_tips_feature_desc" android:textColor="@color/touchpad_settings_tips_list_desc_text_color" android:id="@id/detail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider_view" android:background="@color/sec_touchpad_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/touchpad_divider_view_marginLeft" android:layout_marginRight="@dimen/touchpad_divider_view_marginRight" />
+</LinearLayout>

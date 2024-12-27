@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/nested_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container_material" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="@null" android:id="@android:id/list" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:elevation="2.0dip" style="@style/PreferenceFragmentListSinglePane" />
+        <RelativeLayout android:id="@id/relative_layout" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/list_bottom_view" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="@dimen/sec_bluetooth_list_bottom_margin" android:layout_alignParentBottom="true" />
+            <android.widget.SemExpandableListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="@null" android:id="@id/tw_expandable_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:groupIndicator="@null" android:layout_above="@id/list_bottom_view" android:layout_alignParentTop="true" style="@style/BluetoothPreferenceHeaderListSinglePane" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/sec_widget_body_text_size" android:id="@id/contact_us_view" android:background="@color/sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/bluetooth_is_visible_message_text_padding_bottom_scandialog" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lineSpacingExtra="@dimen/sec_widget_body_text_line_spacing_extra" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

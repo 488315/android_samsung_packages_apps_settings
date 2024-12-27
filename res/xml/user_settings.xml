@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/user_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/user_settings_footer_text" android:selectable="false" android:key="multiuser_top_intro" settings:controller="com.android.settings.users.MultiUserTopIntroPreferenceController" settings:positionMode="first_item" settings:searchable="false" style="@style/description_text" />
+    <SecPreferenceCategory android:title="@string/user_list_me_title" android:key="user_list_me" android:order="8" settings:searchable="false" />
+    <SecPreferenceCategory android:title="@string/user_list_other_title" android:key="user_list" android:order="10" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/guest_new_guest" android:key="guest_add" android:order="15" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:icon="@drawable/ic_add_40dp" android:title="@string/user_add_user_or_profile_menu" android:key="user_add" android:order="20" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:icon="@drawable/ic_add_40dp" android:title="@null" android:key="supervised_user_add" android:order="25" />
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/user_add_on_lockscreen_menu" android:key="user_settings_add_users_when_locked" android:order="105" android:singleLineTitle="false" settings:allowDividerAbove="true" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/switch_to_dock_user_when_docked" android:key="timeout_to_dock_user_preference" android:order="106" android:fragment="com.android.settings.users.TimeoutToDockUserSettings" settings:controller="com.android.settings.users.TimeoutToDockUserPreferenceController" />
+</PreferenceScreen>

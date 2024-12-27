@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Capture airlog"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Packet Capture" android:key="pktCaptureCategory">
+        <SwitchPreference android:title="Air log Capture" android:key="capture_switch" android:summaryOn="Packet Capture In Progress" android:summaryOff="Packet Capture Off" />
+        <Preference android:title="" android:summary="select all frames you want to capture" />
+        <CheckBoxPreference android:title="Management Frames" android:key="mgmtframe" android:summary="uncheck to not capture" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Data Frames" android:key="dataframe" android:summary="uncheck to not capture" android:defaultValue="true" />
+        <CheckBoxPreference android:title="Control Frames" android:key="ctrlframe" android:summary="uncheck to not capture" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">%d дня тому</item>
+        <item quantity="one">%d день тому</item>
+        <item quantity="few">%d дні тому</item>
+        <item quantity="many">%d днів тому</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">%d хвилини тому</item>
+        <item quantity="one">%d хвилину тому</item>
+        <item quantity="few">%d хвилини тому</item>
+        <item quantity="many">%d хвилин тому</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">%d року тому</item>
+        <item quantity="one">%d рік тому</item>
+        <item quantity="few">%d роки тому</item>
+        <item quantity="many">%d років тому</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_minutes">
+        <item quantity="other">%d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="accessibility_timeout_summary_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="as_app_cache_title">
+        <item quantity="other">%1$d кешу програм (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d кеш програми (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d кеші програм (%2$s)</item>
+        <item quantity="many">%1$d кешів програм (%2$s)</item>
+    </plurals>
+    <plurals name="as_archive_apps">
+        <item quantity="other">Архівувати %d програми?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Архівувати %d програму?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Архівувати %d програми?</item>
+        <item quantity="many">Архівувати %d програм?</item>
+    </plurals>
+    <plurals name="as_archive_button_text">
+        <item quantity="other">Архівувати %1$d програми (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Архівувати %1$d програму (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Архівувати %1$d програми (+%2$s)</item>
+        <item quantity="many">Архівувати %1$d програм (+%2$s)</item>
+    </plurals>
+    <plurals name="as_clear_apps_cache">
+        <item quantity="other">Очистити кеш %d програми?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Очистити кеш %d програми?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Очистити кеш %d програм?</item>
+        <item quantity="many">Очистити кеш %d програм?</item>
+    </plurals>
+    <plurals name="as_clear_button_text">
+        <item quantity="other">Очистити %1$d кешу (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Очистити %1$d кеш (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Очистити %1$d кеші (+%2$s)</item>
+        <item quantity="many">Очистити %1$d кешів (+%2$s)</item>
+    </plurals>
+    <plurals name="as_n_selected">
+        <item quantity="other">Вибрано: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вибрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вибрано: %d</item>
+        <item quantity="many">Вибрано: %d</item>
+    </plurals>
+    <plurals name="as_recommend_card_description_archive_apps">
+        <item quantity="other">Звільніть до %1$s, архівувавши %2$d програми, що не використовуються. Персональні дані та налаштування буде збережено.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Звільніть до %1$s, архівувавши %2$d програму, що не використовується. Персональні дані та налаштування буде збережено.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Звільніть до %1$s, архівувавши %2$d програми, що не використовуються. Персональні дані та налаштування буде збережено.</item>
+        <item quantity="many">Звільніть до %1$s, архівувавши %2$d програм, що не використовуються. Персональні дані та налаштування буде збережено.</item>
+    </plurals>
+    <plurals name="as_uninstall_apps">
+        <item quantity="other">Видалити %d програми?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d програму?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d програми?</item>
+        <item quantity="many">Видалити %d програм?</item>
+    </plurals>
+    <plurals name="as_uninstall_button_text">
+        <item quantity="other">Видалити %1$d програми (+%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %1$d програму (+%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %1$d програми (+%2$s)</item>
+        <item quantity="many">Видалити %1$d програм (+%2$s)</item>
+    </plurals>
+    <plurals name="as_unused_apps_title">
+        <item quantity="other">%1$d програми, що не використовуються (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d програма, що не використовується (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d програми, що не використовуються (%2$s)</item>
+        <item quantity="many">%1$d програм, що не використовуються (%2$s)</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_connected_devices_subtext">
+        <item quantity="other">Спільний доступ до Інтернету надається для %d пристрою.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спільний доступ до Інтернету надається для %d пристрою.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спільний доступ до Інтернету надається для %d пристроїв.</item>
+        <item quantity="many">Спільний доступ до Інтернету надається для %d пристроїв.</item>
+    </plurals>
+    <plurals name="camera_flash_notification_n_apps">
+        <item quantity="other">%d програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d програма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d програми</item>
+        <item quantity="many">%d програм</item>
+    </plurals>
+    <plurals name="dex_timeout_day">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">1 день</item>
+    </plurals>
+    <plurals name="dex_timeout_hour">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">1 година</item>
+    </plurals>
+    <plurals name="dex_timeout_minute">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">1 хвилина</item>
+    </plurals>
+    <plurals name="dex_timeout_second">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">1 секунда</item>
+    </plurals>
+    <plurals name="dex_timeout_week">
+        <item quantity="other">Тижнів: %d</item>
+        <item quantity="one">1 тиждень</item>
+    </plurals>
+    <plurals name="installed_apps_summary_no_enabled_app">
+        <item quantity="other">%d програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d програма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d програми</item>
+        <item quantity="many">%d програм</item>
+    </plurals>
+    <plurals name="lock_timeout_hours">
+        <item quantity="other">%d години</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="lock_timeout_minutes">
+        <item quantity="other">%d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="lock_timeout_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
+        <item quantity="other">Якщо ви видалите ці місця, під час кожної зміни важливих налаштувань відображатиметься запит на введення біометричних даних і застосовуватиметься захисна затримка.</item>
+        <item quantity="one">Якщо ви видалите це місце, під час кожної зміни важливих налаштувань відображатиметься запит на введення біометричних даних і виконуватиметься захисна затримка.</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
+        <item quantity="other">Видалити %d місця?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d місце?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d місця?</item>
+        <item quantity="many">Видалити %d місць?</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
+        <item quantity="other">Вибрано: %d</item>
+        <item quantity="one">Вибрано: 1</item>
+    </plurals>
+    <plurals name="mandatory_biometric_trusted_places_summary">
+        <item quantity="other">%1$s і ще %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і ще %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і ще %2$d</item>
+        <item quantity="many">%1$s і ще %2$d</item>
+    </plurals>
+    <plurals name="max_char_reached_msg_plural">
+        <item quantity="other">Неможливо ввести більше %d символу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо ввести більше %d символу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо ввести більше %d символів.</item>
+        <item quantity="many">Неможливо ввести більше %d символів.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+    <plurals name="no_memory_use_summary">
+        <item quantity="other">За останні %d години пам’ять не використовувалася</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За останні %d годину пам’ять не використовувалася</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За останні %d години пам’ять не використовувалася</item>
+        <item quantity="many">За останні %d годин пам’ять не використовувалася</item>
+    </plurals>
+    <plurals name="notification_history_count">
+        <item quantity="other">%d сповіщення</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сповіщення</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d сповіщення</item>
+        <item quantity="many">%d сповіщень</item>
+    </plurals>
+    <plurals name="notification_reminder_custom_summary">
+        <item quantity="other">Нагадування щодо сповіщень від обраних програм кожні %d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нагадування щодо сповіщень від обраних програм кожну %d хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Нагадування щодо сповіщень від обраних програм кожні %d хвилини</item>
+        <item quantity="many">Нагадування щодо сповіщень від обраних програм кожні %d хвилин</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="other">До %d програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">До %d програми</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">До %d програм</item>
+        <item quantity="many">До %d програм</item>
+    </plurals>
+    <plurals name="passkeys_and_autofill_subtext">
+        <item quantity="other">«%1$s» і ще %2$d програми використовують ключі доступу й автоматично вводять паролі та іншу інформацію.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">«%1$s» і ще %2$d програма використовують ключі доступу й автоматично вводять паролі та іншу інформацію.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">«%1$s» і ще %2$d програми використовують ключі доступу й автоматично вводять паролі та іншу інформацію.</item>
+        <item quantity="many">«%1$s» і ще %2$d програм використовують ключі доступу й автоматично вводять паролі та іншу інформацію.</item>
+    </plurals>
+    <plurals name="ps_apps">
+        <item quantity="other">Дозвіл «%1$s» використаний %2$d програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Дозвіл «%1$s» використаний %2$d програмою</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Дозвіл «%1$s» використаний %2$d програмами</item>
+        <item quantity="many">Дозвіл «%1$s» використаний %2$d програмами</item>
+    </plurals>
+    <plurals name="recommended_for_you_enabled_summary">
+        <item quantity="other">Використовується спеціальних можливостей: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовується спеціальних можливостей: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовується спеціальних можливостей: %d</item>
+        <item quantity="many">Використовується спеціальних можливостей: %d</item>
+    </plurals>
+    <plurals name="reminder_select_apps">
+        <item quantity="other">%d програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d програма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d програми</item>
+        <item quantity="many">%d програм</item>
+    </plurals>
+    <plurals name="remove_language_title_multiple_plurals">
+        <item quantity="other">Видалити %d мови?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d мову?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d мови?</item>
+        <item quantity="many">Видалити %d мов?</item>
+    </plurals>
+    <plurals name="sec_accessibility_usage_summary">
+        <item quantity="other">У %d програми є повний доступ до вашого телефону</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">У %d програми є повний доступ до вашого телефону</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">У %d програм є повний доступ до вашого телефону</item>
+        <item quantity="many">У %d програм є повний доступ до вашого телефону</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals">
+        <item quantity="other">Телефон буде автоматично вимкнено через %d секунди. Щоб не вимикати телефон зараз, торкніться кнопки «Скасувати».</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Телефон буде автоматично вимкнено через %d секунду. Щоб не вимикати телефон зараз, торкніться кнопки «Скасувати».</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Телефон буде автоматично вимкнено через %d секунди. Щоб не вимикати телефон зараз, торкніться кнопки «Скасувати».</item>
+        <item quantity="many">Телефон буде автоматично вимкнено через %d секунд. Щоб не вимикати телефон зараз, торкніться кнопки «Скасувати».</item>
+    </plurals>
+    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
+        <item quantity="other">Планшет буде автоматично вимкнено через %d секунди. Щоб не вимикати планшет зараз, торкніться кнопки «Скасувати».</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Планшет буде автоматично вимкнено через %d секунду. Щоб не вимикати планшет зараз, торкніться кнопки «Скасувати».</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Планшет буде автоматично вимкнено через %d секунди. Щоб не вимикати планшет зараз, торкніться кнопки «Скасувати».</item>
+        <item quantity="many">Планшет буде автоматично вимкнено через %d секунд. Щоб не вимикати планшет зараз, торкніться кнопки «Скасувати».</item>
+    </plurals>
+    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
+        <item quantity="other">Кожні %d години</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Кожну %d годину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожні %d години</item>
+        <item quantity="many">Кожні %d годин</item>
+    </plurals>
+    <plurals name="sec_choose_lock_password_password_too_short">
+        <item quantity="other">Пароль має містити щонайменше %d символу, зокрема хоча б 1 букву.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пароль має містити щонайменше %d символ, зокрема хоча б 1 букву.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пароль має містити щонайменше %d символи, зокрема хоча б 1 букву.</item>
+        <item quantity="many">Пароль має містити щонайменше %d символів, зокрема хоча б 1 букву.</item>
+    </plurals>
+    <plurals name="sec_choose_lock_pin_pin_too_short">
+        <item quantity="other">PIN-код має містити принаймні %d цифри.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">PIN-код має містити принаймні %d цифру.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">PIN-код має містити принаймні %d цифри.</item>
+        <item quantity="many">PIN-код має містити принаймні %d цифр.</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+        <item quantity="other">Спробуйте ще раз через 1 годину %d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через 1 годину %d хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через 1 годину %d хвилини</item>
+        <item quantity="many">Спробуйте ще раз через 1 годину %d хвилин</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+        <item quantity="other">Спробуйте ще раз через %d години</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через %d годину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через %d години</item>
+        <item quantity="many">Спробуйте ще раз через %d годин</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+        <item quantity="other">Спробуйте ще раз через %d години 1 хвилину</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через %d годину 1 хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через %d години 1 хвилину</item>
+        <item quantity="many">Спробуйте ще раз через %d годин 1 хвилину</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+        <item quantity="other">Спробуйте знову через %d хв.</item>
+        <item quantity="one">Спробуйте знову через %d хв.</item>
+    </plurals>
+    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">Спробуйте знову через %d сек.</item>
+        <item quantity="one">Спробуйте знову через %d сек.</item>
+    </plurals>
+    <plurals name="sec_credman_services_limit_text">
+        <item quantity="other">Неможливо ввімкнути понад %d додаткової служби.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо ввімкнути понад %d додаткової служби.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо ввімкнути понад %d додаткові служби.</item>
+        <item quantity="many">Неможливо ввімкнути понад %d додаткових служб.</item>
+    </plurals>
+    <plurals name="sec_dnd_select_contact">
+        <item quantity="other">%d контакту додано до списку дозволених</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d контакт додано до списку дозволених</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d контакти додано до списку дозволених</item>
+        <item quantity="many">%d контактів додано до списку дозволених</item>
+    </plurals>
+    <plurals name="sec_fingerprint_added_summary">
+        <item quantity="other">Додано %d відбитка пальця</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Додано %d відбиток пальця</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Додано %d відбитки пальців</item>
+        <item quantity="many">Додано %d відбитків пальців</item>
+    </plurals>
+    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+        <item quantity="other">%1$s, %2$s та ще %3$d програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s та ще %3$d програма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s, %2$s та ще %3$d програми</item>
+        <item quantity="many">%1$s, %2$s та ще %3$d програм</item>
+    </plurals>
+    <plurals name="sec_incorrect_password_attempts_left">
+        <item quantity="other">Неправильний пароль. Залишилося %d спроби.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильний пароль. Залишилася %d спроба.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильний пароль. Залишилося %d спроби.</item>
+        <item quantity="many">Неправильний пароль. Залишилося %d спроб.</item>
+    </plurals>
+    <plurals name="sec_incorrect_pattern_attempts_left">
+        <item quantity="other">Неправильний ключ розблокування. Залишилося %d спроби.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильний ключ розблокування. Залишилася %d спроба.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильний ключ розблокування. Залишилося %d спроби.</item>
+        <item quantity="many">Неправильний ключ розблокування. Залишилося %d спроб.</item>
+    </plurals>
+    <plurals name="sec_incorrect_pin_attempts_left">
+        <item quantity="other">Неправильний PIN-код. Залишилося %d спроби.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неправильний PIN-код. Залишилася %d спроба.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неправильний PIN-код. Залишилося %d спроби.</item>
+        <item quantity="many">Неправильний PIN-код. Залишилося %d спроб.</item>
+    </plurals>
+    <plurals name="sec_intelligence_service_child_popup_message">
+        <item quantity="other">Використовувати інтелектуальні інструменти Galaxy AI можуть лише користувачі, яким виповнилося %d року.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовувати інтелектуальні інструменти Galaxy AI можуть лише користувачі, яким виповнився %d рік.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовувати інтелектуальні інструменти Galaxy AI можуть лише користувачі, яким виповнилося %d роки.</item>
+        <item quantity="many">Використовувати інтелектуальні інструменти Galaxy AI можуть лише користувачі, яким виповнилося %d років.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_letters">
+        <item quantity="other">Пароль має містити щонайменше %d літери.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пароль має містити щонайменше %d літеру.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пароль має містити щонайменше %d літери.</item>
+        <item quantity="many">Пароль має містити щонайменше %d літер.</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль має містити принаймні таку кількість літер нижнього регістру: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість літер нижнього регістру: 1</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль має містити принаймні таку кількість цифр чи символів: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість цифр чи символів: 1</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль має містити принаймні таку кількість цифр: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість цифр: 1</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль має містити принаймні таку кількість символів: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість символів: 1</item>
+    </plurals>
+    <plurals name="sec_lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль має містити принаймні таку кількість літер верхнього регістру: %d</item>
+        <item quantity="one">Пароль має містити принаймні таку кількість літер верхнього регістру: 1</item>
+    </plurals>
+    <plurals name="sec_mde_suggestions_summary">
+        <item quantity="other">Ще %d пропозиції</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ще %d пропозиція</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ще %d пропозиції</item>
+        <item quantity="many">Ще %d пропозицій</item>
+    </plurals>
+    <plurals name="sec_number_of_device_admins">
+        <item quantity="other">%d активної програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d активна програма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d активні програми</item>
+        <item quantity="many">%d активних програм</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_remove_dialog_title">
+        <item quantity="other">Видалити %d мовного пакета?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d мовний пакет?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d мовні пакети?</item>
+        <item quantity="many">Видалити %d мовних пакетів?</item>
+    </plurals>
+    <plurals name="sec_offline_lang_pack_tts_title">
+        <item quantity="other">%d голосу</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d голос</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d голоси</item>
+        <item quantity="many">%d голосів</item>
+    </plurals>
+    <plurals name="sec_runtime_permissions_additional_count">
+        <item quantity="other">%d додаткового дозволу</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d додатковий дозвіл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d додаткові дозволи</item>
+        <item quantity="many">%d додаткових дозволів</item>
+    </plurals>
+    <plurals name="sec_show_dev_countdown">
+        <item quantity="other">Ще %d дотику до ввімкнення режиму розробника.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ще %d дотик до ввімкнення режиму розробника.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ще %d дотики до ввімкнення режиму розробника.</item>
+        <item quantity="many">Ще %d дотиків до ввімкнення режиму розробника.</item>
+    </plurals>
+    <plurals name="sec_zen_mode_selected_rules">
+        <item quantity="other">Вибрано: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вибрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вибрано: %d</item>
+        <item quantity="many">Вибрано: %d</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_apps_detected">
+        <item quantity="other">Виявлено %d шкідливої програми</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Виявлено %d шкідливу програму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Виявлено %d шкідливі програми</item>
+        <item quantity="many">Виявлено %d шкідливих програм</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext">
+        <item quantity="other">Виявлено %d шкідливої програми. Видаліть їх, щоб захистити свій телефон.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Виявлено %d шкідливу програму. Видаліть її, щоб захистити свій телефон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Виявлено %d шкідливі програми. Видаліть їх, щоб захистити свій телефон.</item>
+        <item quantity="many">Виявлено %d шкідливих програм. Видаліть їх, щоб захистити свій телефон.</item>
+    </plurals>
+    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
+        <item quantity="other">На планшеті виявлено %d шкідливої програми. Видаліть їх, щоб захистити планшет.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На планшеті виявлено %d шкідливу програму. Видаліть її, щоб захистити планшет.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На планшеті виявлено %d шкідливі програми. Видаліть їх, щоб захистити планшет.</item>
+        <item quantity="many">На планшеті виявлено %d шкідливих програм. Видаліть їх, щоб захистити планшет.</item>
+    </plurals>
+    <plurals name="security_dashboard_suggestion">
+        <item quantity="other">%d пропозиції</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d пропозиція</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d пропозиції</item>
+        <item quantity="many">%d пропозицій</item>
+    </plurals>
+    <plurals name="security_dashboard_warning">
+        <item quantity="other">%d попередження</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d попередження</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d попередження</item>
+        <item quantity="many">%d попереджень</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="other">Час сну: %d години</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d години</item>
+        <item quantity="many">Час сну: %d годин</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="other">Час сну: %d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвилина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвилини</item>
+        <item quantity="many">Час сну: %d хвилин</item>
+    </plurals>
+    <plurals name="temporary_cloud_backup_summary_plurals">
+        <item quantity="other">Створюйте резервні копії необмеженого обсягу даних у %1$s строком на %2$d дня або відновлюйте вже наявні резервні копії.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Створюйте резервні копії необмеженого обсягу даних у %1$s строком на %2$d день або відновлюйте вже наявні резервні копії.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Створюйте резервні копії необмеженого обсягу даних у %1$s строком на %2$d дні або відновлюйте вже наявні резервні копії.</item>
+        <item quantity="many">Створюйте резервні копії необмеженого обсягу даних у %1$s строком на %2$d днів або відновлюйте вже наявні резервні копії.</item>
+    </plurals>
+    <plurals name="touch_settings_test_will_reset">
+        <item quantity="other">Тест буде перезапущено через %d секунди.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Тест буде перезапущено через %d секунду.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Тест буде перезапущено через %d секунди.</item>
+        <item quantity="many">Тест буде перезапущено через %d секунд.</item>
+    </plurals>
+    <plurals name="wifi_ap_device_connected">
+        <item quantity="other">Підключено %d пристрою</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Підключено %d пристрій</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Підключено %d пристрої</item>
+        <item quantity="many">Підключено %d пристроїв</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+        <item quantity="other">Використовуйте телефон як точку доступу Wi-Fi. До нього можна буде підключити до %d пристрою. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на телефоні.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовуйте телефон як точку доступу Wi-Fi. До нього можна буде підключити до %d пристрою. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на телефоні.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовуйте телефон як точку доступу Wi-Fi. До нього можна буде підключити до %d пристроїв. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на телефоні.</item>
+        <item quantity="many">Використовуйте телефон як точку доступу Wi-Fi. До нього можна буде підключити до %d пристроїв. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на телефоні.</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+        <item quantity="other">Використовуйте телефон як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані телефону для підключення до Інтернету на %d пристрою.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовуйте телефон як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані телефону для підключення до Інтернету на %d пристрої.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовуйте телефон як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані телефону для підключення до Інтернету на %d пристроях.</item>
+        <item quantity="many">Використовуйте телефон як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані телефону для підключення до Інтернету на %d пристроях.</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+        <item quantity="other">Використовуйте планшет як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані планшета для підключення до Інтернету на %d пристрою.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовуйте планшет як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані планшета для підключення до Інтернету на %d пристрої.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовуйте планшет як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані планшета для підключення до Інтернету на %d пристроях.</item>
+        <item quantity="many">Використовуйте планшет як точку доступу Wi-Fi. Функція дозволить використовувати мобільні дані планшета для підключення до Інтернету на %d пристроях.</item>
+    </plurals>
+    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+        <item quantity="other">Використовуйте планшет як точку доступу Wi-Fi. До нього можна буде підключити до %d пристрою. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на планшеті.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Використовуйте планшет як точку доступу Wi-Fi. До нього можна буде підключити до %d пристрою. Цей пристрій отримуватиме доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на планшеті.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Використовуйте планшет як точку доступу Wi-Fi. До нього можна буде підключити до %d пристроїв. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на планшеті.</item>
+        <item quantity="many">Використовуйте планшет як точку доступу Wi-Fi. До нього можна буде підключити до %d пристроїв. Ці пристрої отримають доступ до Інтернету за допомогою мобільних даних або мережі Wi-Fi на планшеті.</item>
+    </plurals>
+    <plurals name="wifi_ap_n_members">
+        <item quantity="other">%d учасника</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d учасник</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d учасники</item>
+        <item quantity="many">%d учасників</item>
+    </plurals>
+    <plurals name="wifi_delete_item_network">
+        <item quantity="other">Видалити %d мережі?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d мережу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d мережі?</item>
+        <item quantity="many">Видалити %d мереж?</item>
+    </plurals>
+    <plurals name="wifi_select_item_network">
+        <item quantity="other">Вибрано: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вибрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вибрано: %d</item>
+        <item quantity="many">Вибрано: %d</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_2">
+        <item quantity="other">Здійснено 1 спробу розблокування робочого профілю. У вас залишилося %d спроби, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Здійснено 1 спробу розблокування робочого профілю. У вас залишилася %d спроба, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Здійснено 1 спробу розблокування робочого профілю. У вас залишилося %d спроби, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="many">Здійснено 1 спробу розблокування робочого профілю. У вас залишилося %d спроб, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+    </plurals>
+    <plurals name="wpc_phone_incorrect_dialog_4">
+        <item quantity="other">Здійснено %d спроби розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Здійснено %d спробу розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Здійснено %d спроби розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="many">Здійснено %d спроб розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування телефона буде скинуто до заводських, а всі дані – видалено.</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_2">
+        <item quantity="other">Здійснено 1 спробу розблокування робочого профілю. У вас залишилося %d спроби, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Здійснено 1 спробу розблокування робочого профілю. У вас залишилася %d спроба, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Здійснено 1 спробу розблокування робочого профілю. У вас залишилося %d спроби, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="many">Здійснено 1 спробу розблокування робочого профілю. У вас залишилося %d спроб, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+    </plurals>
+    <plurals name="wpc_tablet_incorrect_dialog_4">
+        <item quantity="other">Здійснено %d спроби розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Здійснено %d спробу розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Здійснено %d спроби розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+        <item quantity="many">Здійснено %d спроб розблокування робочого профілю. У вас залишилася 1 спроба, перш ніж налаштування планшета буде скинуто до заводських, а всі дані – видалено.</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d години</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d година</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="zen_mode_duration_summary_time_minutes">
+        <item quantity="other">%d хвилини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+</resources>

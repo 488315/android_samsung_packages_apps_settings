@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/schedule_name_input_layout" android:paddingTop="@dimen/sec_dnd_schedule_activity_edit_text_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_dnd_schedule_activity_edit_text_padding_start" android:paddingEnd="@dimen/sec_dnd_schedule_activity_edit_text_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/sec_dnd_schedule_rule_edit_text_size" android:ellipsize="end" android:id="@id/edittext" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:maxLength="21" android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+</com.google.android.material.textfield.TextInputLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/distance_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Distance" android:layout_toRightOf="@id/distance_imageview" android:paddingStart="16.0dip" style="@style/uwbLabsFiraRangingResultItemTextStyle" />
+            <TextView android:id="@id/textView_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsFiraRangingResultTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/rssi_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RSSI" android:layout_toRightOf="@id/rssi_imageview" android:paddingStart="16.0dip" style="@style/uwbLabsFiraRangingResultItemTextStyle" />
+            <TextView android:id="@id/textView_rssi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsFiraRangingResultTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/rangingCount_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Ranging Count" android:layout_toRightOf="@id/rangingCount_imageview" android:paddingStart="16.0dip" style="@style/uwbLabsFiraRangingResultItemTextStyle" />
+            <TextView android:id="@id/textView_rangingCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsFiraRangingResultTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/successCount_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ranging Success Count" android:layout_toRightOf="@id/successCount_imageview" android:paddingStart="16.0dip" style="@style/uwbLabsFiraRangingResultItemTextStyle" />
+            <TextView android:id="@id/textView_successCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" style="@style/uwbLabsFiraRangingResultTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="80.0dip" android:layout_marginBottom="7.0dip">
+            <ImageView android:id="@id/rangingStatus_imageview" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ranging Status" android:layout_toRightOf="@id/rangingStatus_imageview" android:layout_centerVertical="true" android:paddingStart="16.0dip" style="@style/uwbLabsFiraRangingResultItemTextStyle" />
+            <ImageView android:id="@id/imageView_rangingStatus" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginTop="10.0dip">
+            <com.github.mikephil.charting.charts.LineChart android:id="@id/distanceChart" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SecPreference android:title="@string/wifi_intelligent_wifi_header" android:key="wifi_more_intelligent" android:fragment="com.samsung.android.settings.wifi.intelligent.IntelligentWifiSettings" />
+    <SecPreference android:title="@string/wifi_menu_advanced_button" android:key="wifi_more_advanced" android:fragment="com.samsung.android.settings.wifi.advanced.ConfigureWifiSettings" />
+    <SecPreference android:title="@string/wifi_menu_p2p" android:key="wifi_more_p2p" android:fragment="com.samsung.android.settings.wifi.advanced.ConfigureWifiSettings" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action category="lifestylemode" icon="@drawable/ic_do_not_disturb_on_24dp" label="@string/zen_access_detail_switch" tag="LifeStyle/DND">
+        <configuration targetUi="com.android.settings.notification.zen.lifestyle.LifeStyleDND">
+            <parameters>
+                <parameter key="dnd_switch" name="lifestylednd" type="BOOLEAN" /> // name optional </parameters>
+        </configuration>
+    </action>
+</actions>

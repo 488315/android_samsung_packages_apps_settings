@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/corner_area_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/sec_swipe_for_popup_view_corner_area_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_body_text_top_bottom_margin" android:text="@string/sec_swipe_for_popup_view_corner_area_title" android:layout_marginStart="@dimen/sec_widget_list_margin_inner" android:layout_marginEnd="@dimen/sec_widget_list_margin_inner" style="@style/list_title_text_style" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_body_text_top_bottom_margin" android:layout_marginStart="@dimen/sec_widget_list_item_padding_start" android:layout_marginEnd="@dimen/sec_widget_list_item_padding_end">
+            <TextView android:id="@id/sec_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_small" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/seekbar_preference_seekbar_label_text_style" />
+            <TextView android:id="@id/sec_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_large" android:layout_weight="1.0" android:textAlignment="viewEnd" android:layout_alignParentEnd="true" style="@style/seekbar_preference_seekbar_label_text_style" />
+        </LinearLayout>
+        <SeekBar android:id="@android:id/textClassifier" android:layout_width="fill_parent" android:layout_height="@dimen/sec_swipe_for_popup_view_corner_area_seekbar_height" android:layout_marginBottom="@dimen/sec_seekbar_preference_item_bottom_padding" android:max="4" android:progressDrawable="@drawable/sec_screenzoom_seekbar_progress_drawable" android:thumb="@drawable/sec_screenzoom_seekbar_thumb_drawable" android:layout_marginStart="@dimen/sec_swipe_for_popup_view_corner_area_common_padding" android:layout_marginEnd="@dimen/sec_swipe_for_popup_view_corner_area_common_padding" android:tickMark="@drawable/sec_screenzoom_seekbar_tickmark_drawable" />
+    </LinearLayout>
+</FrameLayout>

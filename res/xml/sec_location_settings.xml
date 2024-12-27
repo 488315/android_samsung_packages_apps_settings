@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/sec_ic_settings_location" android:title="@string/location_settings_title" android:key="location_settings" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:keywords="@string/keywords_location" settings:topLevelPreferenceKey="top_level_location"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecClickableTextPreference android:key="location_declaration_privacy" settings:controller="com.samsung.android.settings.location.LocationDeclarationPrivacyController" style="@style/description_text" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <SecPreference android:title="@string/location_app_level_permissions" android:key="app_level_permissions" settings:controller="com.android.settings.location.AppLocationPermissionPreferenceController" settings:keywords="@string/keywords_app_level_permissions">
+        <intent android:action="android.intent.action.MANAGE_PERMISSION_APPS">
+            <extra android:name="android.intent.extra.PERMISSION_NAME" android:value="android.permission-group.LOCATION" />
+        </intent>
+    </SecPreference>
+    <SecPreference android:title="@string/location_services_screen_title" android:key="location_services_menu" android:fragment="com.android.settings.location.LocationServices" settings:controller="com.android.settings.location.LocationServicesPreferenceController" />
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:enabled="false" android:title="@string/managed_profile_location_switch_title" android:selectable="true" android:key="managed_profile_location_switch" settings:controller="com.android.settings.location.LocationForWorkPreferenceController" settings:forWork="true" settings:useAdminDisabledSummary="true" />
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:enabled="false" android:title="@string/private_profile_location_switch_title" android:selectable="true" android:key="private_profile_location_switch" settings:controller="com.android.settings.location.LocationForPrivateProfilePreferenceController" />
+    <SecPreferenceCategory android:title="@string/location_category_recent_location_access" android:key="recent_location_access" settings:controller="com.android.settings.location.RecentLocationAccessPreferenceController" />
+    <SecPreference android:icon="@drawable/ic_chevron_right_24dp" android:layout="@layout/sec_recent_access_see_all" android:title="@string/location_recent_location_access_see_all" android:key="recent_location_access_see_all_button" android:fragment="com.android.settings.location.RecentLocationAccessSeeAllFragment" settings:controller="com.android.settings.location.RecentLocationAccessSeeAllButtonPreferenceController" settings:searchable="false" />
+    <PreferenceCategory android:title="@string/sec_location_gps_chn" android:key="cmcc_agpsmenu" settings:controller="com.samsung.android.settings.location.CmccAgpsPreferenceCategoryController" />
+    <SecPreference android:title="@string/assisted_gps_function_switch" android:key="assisted_gps_function_switch" android:summary="@string/assisted_gps_function_switch_summary" android:fragment="com.samsung.android.settings.location.LocationCmccAgps" settings:controller="com.samsung.android.settings.location.LocationCmccAgpsPreferenceController" />
+</PreferenceScreen>

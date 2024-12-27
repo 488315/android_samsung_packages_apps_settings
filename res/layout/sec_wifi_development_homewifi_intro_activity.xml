@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/sec_widget_round_and_bgcolor" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintBottom_toTopOf="@id/start" app:layout_constraintTop_toTopOf="parent">
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="fill_parent" android:layout_height="234.0dip" android:layout_marginBottom="14.0dip" app:lottie_autoPlay="true" app:lottie_fileName="sec_wifi_labs_homewifi_01.json" app:lottie_loop="true" />
+            <TextView android:textSize="24.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Let's check your" android:textAlignment="center" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/sec_widget_color_round_button_bg_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Home Wi-Fi" android:textAlignment="center" />
+            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="We will check Wi-Fi configuration and advise better home Wi-Fi setup." android:textAlignment="center" android:paddingStart="36.0dip" android:paddingEnd="36.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@id/start" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="Start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/main_text_layout" style="@style/ColorRoundButtonStyle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

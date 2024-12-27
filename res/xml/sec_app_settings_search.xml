@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/ic_settings_applications" android:title="@string/category_applications" android:key="sec_apps_screen" settings:keywords="@string/keywords_apps_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreference android:title="@string/app_default_dashboard_title" android:key="default_apps" android:summary="@string/sec_default_apps_summary" settings:controller="com.android.settings.applications.DefaultAppsPreferenceController" settings:keywords="@string/keywords_default_apps_settings">
+        <intent android:action="android.settings.MANAGE_DEFAULT_APPS_SETTINGS" />
+    </SecPreference>
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <SecPreference android:key="app_settings" android:fragment="com.android.settings.applications.manageapplications.ManageApplications">
+        <extra android:name="classname" android:value="AppSetting" />
+    </SecPreference>
+    <SecPreference android:title="@string/special_access" android:key="apps_more" android:fragment="com.android.settings.applications.specialaccess.SpecialAccessSettings" settings:searchable="false" />
+    <SecPreference android:title="@string/application_info_label" android:key="app_info" android:fragment="com.android.settings.applications.InstalledAppDetailsTop" settings:keywords="@string/keywords_application_info" />
+</PreferenceScreen>

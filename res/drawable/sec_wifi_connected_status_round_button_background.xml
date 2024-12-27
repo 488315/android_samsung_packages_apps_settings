@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/sec_widget_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:radius="26.0dip" />
+            <padding android:left="@dimen/sec_widget_round_button_padding_start_end" android:top="0.0dip" android:right="@dimen/sec_widget_round_button_padding_start_end" android:bottom="0.0dip" />
+        </shape>
+    </item>
+    <item android:id="@id/rec_shape">
+        <shape android:tint="#fffcfcff" android:shape="rectangle">
+            <corners android:radius="26.0dip" />
+            <padding android:left="@dimen/sec_widget_round_button_padding_start_end" android:top="0.0dip" android:right="@dimen/sec_widget_round_button_padding_start_end" android:bottom="0.0dip" />
+        </shape>
+    </item>
+</ripple>

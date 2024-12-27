@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/uwb_fira_test_application_layout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@id/radioGroup1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0">
+            <Button android:textSize="10.0dip" android:id="@id/openInitiatorButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="open\n(I)" android:layout_weight="1.0" android:autoSizeTextType="uniform" />
+            <Button android:textSize="10.0dip" android:id="@id/openResponderButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="open\n(R)" android:layout_weight="1.0" android:autoSizeTextType="uniform" />
+            <Button android:textSize="12.0sp" android:id="@id/startRangingButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="start" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:id="@id/stopRangingButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="stop" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:id="@id/closeButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="close" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_overlay_settings" android:key="draw_overlay_permission_detail_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="app_ops_settings_switch" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/allow_overlay_description" android:selectable="false" />
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:actionBarSize" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:scrimAnimationDuration="250" style="@style/AsCollapsingToolbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/AsToolbarStyle" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" app:subtitleTextColor="@color/as_actionbar_text_color" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/contents_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/overview_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/as_home_overview_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+                <GridView android:gravity="center" android:id="@id/indicator" android:layout_width="@dimen/as_home_viewpager_indicator_width" android:layout_height="@dimen/as_home_viewpager_indicator_height" android:layout_marginTop="@dimen/as_home_viewpager_indicator_margin_top" android:stretchMode="columnWidth" android:layoutDirection="locale" />
+            </LinearLayout>
+            <FrameLayout android:gravity="center_horizontal" android:id="@id/recommend_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/as_recommend_card_description_margin_vertical">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/view_pager_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.viewpager2.widget.ViewPager2 android:id="@id/as_home_recommend_card_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/as_recommend_card_viewpager_margin" />
+                    <GridView android:gravity="center" android:id="@id/recommend_card_indicator" android:layout_width="@dimen/as_home_viewpager_indicator_width" android:layout_height="@dimen/as_home_viewpager_indicator_height" android:stretchMode="columnWidth" android:layoutDirection="locale" android:layout_marginVertical="@dimen/as_recommend_indicator_margin_vertical" />
+                </LinearLayout>
+                <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_base_alpha="0.45" app:shimmer_dropoff="0.6" app:shimmer_duration="1200" app:shimmer_highlight_alpha="0.25" app:shimmer_intensity="0.2" app:shimmer_tilt="18.0">
+                    <include layout="@layout/as_recommend_loading_layout" />
+                </com.facebook.shimmer.ShimmerFrameLayout>
+            </FrameLayout>
+            <include android:id="@id/as_sub_list_trash_app" layout="@layout/as_sub_list_view_layout" />
+            <include android:id="@id/as_sub_list_unused_app" layout="@layout/as_sub_list_view_layout" />
+            <include android:id="@id/as_sub_list_duplicated_file" layout="@layout/as_sub_list_view_layout" />
+            <include android:id="@id/as_sub_list_large_file" layout="@layout/as_sub_list_view_layout" />
+            <include android:id="@id/as_sub_list_app_cache" layout="@layout/as_sub_list_view_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,32 @@
+package com.android.settingslib.enterprise;
+
+import android.content.Context;
+import android.content.DialogInterface;
+
+import com.android.settings.enterprise.DeviceAdminStringProviderImpl;
+import com.android.settingslib.RestrictedLockUtils;
+
+/* compiled from: qb/89523975 2c9f6d15a1195540f21380d26e2599d2824bfc1ae85110b01296b5f4d9a9b658 */
+/* loaded from: classes2.dex */
+public abstract class BaseActionDisabledByAdminController {
+    public RestrictedLockUtils.EnforcedAdmin mEnforcedAdmin;
+    public int mEnforcementAdminUserId;
+    public ActionDisabledLearnMoreButtonLauncher mLauncher;
+    public final DeviceAdminStringProviderImpl mStringProvider;
+
+    public BaseActionDisabledByAdminController(
+            DeviceAdminStringProviderImpl deviceAdminStringProviderImpl) {
+        this.mStringProvider = deviceAdminStringProviderImpl;
+    }
+
+    public abstract CharSequence getAdminSupportContentString(CharSequence charSequence);
+
+    public abstract String getAdminSupportTitle();
+
+    public DialogInterface.OnClickListener getPositiveButtonListener(
+            Context context, RestrictedLockUtils.EnforcedAdmin enforcedAdmin) {
+        return null;
+    }
+
+    public abstract void setupLearnMoreButton(Context context);
+}

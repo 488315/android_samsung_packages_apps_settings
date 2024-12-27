@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/sec_widget_round_and_bgcolor" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/more_apps_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/more_apps_description_container" android:background="@android:color/transparent" android:paddingTop="@dimen/sec_widget_preference_unclickable_margin_top" android:paddingBottom="@dimen/sec_widget_preference_unclickable_margin_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sec_widget_body_text_padding_start_end">
+            <TextView android:id="@id/more_apps_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_labs_cover_screen_apps_allowed_on_cover_screen_more_apps_description" style="@style/description_text" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/more_apps_button_container" android:background="@android:color/transparent" android:paddingTop="@dimen/sec_widget_button_preference_top_padding" android:paddingBottom="@dimen/sec_widget_button_preference_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.settings.widget.SecRoundButtonView android:gravity="center" android:id="@id/more_apps_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_labs_cover_screen_apps_allowed_on_cover_screen_more_apps_button" style="@style/ColorRoundButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    </LinearLayout>
+</FrameLayout>

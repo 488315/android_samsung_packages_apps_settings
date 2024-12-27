@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="start|center" android:paddingTop="12.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_list_item_start_padding" android:paddingEnd="@dimen/sec_list_item_end_padding">
+        <TextView android:id="@id/p2ptitle" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="1" android:textAlignment="viewStart" style="@style/sec_WifiDirectPreferenceMydeviceSummaryText" />
+    </RelativeLayout>
+</LinearLayout>

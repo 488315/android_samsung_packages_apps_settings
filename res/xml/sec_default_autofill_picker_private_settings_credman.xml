@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_spass_title_body" android:key="default_autofill_picker" settings:keywords="@string/autofill_keywords"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_spass_main_page_desc" android:selectable="false" settings:positionMode="first_item" style="@style/description_text" />
+    <SecPreferenceCategory android:title="@string/sec_spass_preferred_service_header" android:key="default_service_category">
+        <com.samsung.android.settings.widget.SecGearPreference android:title="@string/sec_spass_preferred_service_header" android:key="default_credman_autofill_private" android:fragment="com.android.settings.applications.credentials.DefaultCombinedPickerWork" settings:searchable="false">
+            <extra android:name="for_work" android:value="false" />
+        </com.samsung.android.settings.widget.SecGearPreference>
+    </SecPreferenceCategory>
+    <SecPreferenceCategory android:persistent="false" android:title="@string/credman_credentials" android:key="credman_category" settings:controller="com.android.settings.applications.credentials.CredentialManagerPreferenceController" settings:keywords="@string/credman_keywords" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_fingerprint_useful_feature_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:selectable="false" android:key="fingerprint_useful_description_text" style="@style/description_text" />
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_fingerprint_set_as_screen_lock" android:key="set_screen_lock" android:order="@integer/sec_fingerprint_option_category_order_unlock" />
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_fingerprint_always_on_title" android:key="set_always_on" android:summary="@string/sec_fingerprint_always_on_summary" android:order="@integer/sec_fingerprint_option_category_order_always_on" />
+    <SecPreferenceScreen android:title="@string/sec_fingerprint_always_on_title" android:key="set_always_on_type" android:order="@integer/sec_fingerprint_option_category_order_always_on_dual_display" />
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_biometrics_common_option_stay_on_lock_screen_switch" android:key="stay_on_lock_screen" android:summary="@string/sec_fingerprint_stay_on_lock_screen_summary" android:order="@integer/sec_fingerprint_option_category_order_stay_on_lock_screen" />
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_fingerprint_screen_off_icon_switch" android:key="screen_off_icon" android:order="@integer/sec_fingerprint_option_category_order_screen_off_icon" />
+    <SecDropDownPreference android:title="@string/sec_fingerprint_screen_off_icon_title" android:key="screen_off_icon_aod" android:order="@integer/sec_fingerprint_option_category_order_screen_off_icon_aod" />
+    <SecPreferenceScreen android:title="@string/sec_fingerprint_show_fingerprint_icon_title" android:key="show_fingerprint_icon" android:order="@integer/sec_fingerprint_option_category_order_show_fingerprint_icon" />
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_fingerprint_effect_title" android:key="fingerprint_effect" android:order="@integer/sec_fingerprint_option_category_fingerprint_effect" />
+    <com.samsung.android.settings.biometrics.BiometricsTipPreference android:key="key_face_enroll_tip" android:order="7000" />
+</PreferenceScreen>

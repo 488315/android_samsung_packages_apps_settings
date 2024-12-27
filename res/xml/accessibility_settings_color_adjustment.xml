@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/color_adjustment_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/color_adjustment_description" android:key="description_preference" settings:searchable="false" settings:showFullSizeImage="true" />
+    <PreferenceCategory />
+    <PreferenceCategory android:key="empty_category_1" />
+    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference android:layout="@layout/preference_accessibility_seek_bar_layout" android:title="@string/intensity_seekbar_title" android:key="seek_bar_preference" android:order="50" settings:leftLabelName="@string/intensity_seekbar_weak_label" settings:rightLabelName="@string/intensity_seekbar_strong_label" settings:seekBarMode="expand" />
+    <PreferenceCategory android:key="empty_category_2" />
+    <com.samsung.android.settings.accessibility.vision.color.ColorAdjustmentResetRadioPreference android:persistent="false" android:title="@string/color_adjustment_gray_scale" android:key="color_adjustment_gray_scale" />
+    <com.samsung.android.settings.accessibility.vision.color.ColorAdjustmentResetRadioPreference android:persistent="false" android:title="@string/color_adjustment_protan" android:key="color_adjustment_protan" />
+    <com.samsung.android.settings.accessibility.vision.color.ColorAdjustmentResetRadioPreference android:persistent="false" android:title="@string/color_adjustment_deutan" android:key="color_adjustment_deutan" />
+    <com.samsung.android.settings.accessibility.vision.color.ColorAdjustmentResetRadioPreference android:persistent="false" android:title="@string/color_adjustment_tritan" android:key="color_adjustment_tritan" />
+    <com.samsung.android.settings.accessibility.vision.color.ColorAdjustmentResetRadioPreference android:persistent="false" android:title="@string/color_adjustment_personalized" android:key="color_adjustment_personalized" />
+</PreferenceScreen>

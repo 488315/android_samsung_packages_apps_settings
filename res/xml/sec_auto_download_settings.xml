@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_software_update_auto_download_title" settings:hierarchicalParentFragment="com.samsung.android.settings.softwareupdate.SoftwareUpdateSettings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_software_update_auto_download_setting_description" android:selectable="false" android:key="key_auto_download_description" settings:positionMode="first_item" style="@style/description_text" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_software_update_auto_download_option_never" android:key="key_never" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_software_update_auto_download_option_using_wifi_only" android:key="key_wifi_only" />
+    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_software_update_auto_download_option_using_wifi_or_mobile_data" android:key="key_wifi_or_mobile" android:summary="@string/sec_software_update_auto_download_setting_summary_for_charge" />
+</PreferenceScreen>

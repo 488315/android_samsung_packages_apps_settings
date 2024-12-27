@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/physical_keyboard_title" settings:hierarchicalParentFragment="com.samsung.android.settings.general.GeneralDeviceSettings" settings:topLevelPreferenceKey="top_level_general"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecPreferenceCategory android:title="@string/keyboard_assistance_category" android:key="keyboard_assistance_category">
+        <SecSwitchPreference android:title="@string/show_ime" android:key="show_virtual_keyboard_switch" android:summary="@string/show_ime_summary" android:defaultValue="false" settings:keywords="@string/keywords_show_on_screen_keyboard" />
+        <SecSwitchPreference android:title="@string/show_virtual_keyboard_for_dex" android:key="show_virtual_keyboard_switch_for_dex" android:summary="@string/show_ime_summary" android:defaultValue="false" settings:keywords="@string/keywords_show_on_screen_keyboard_in_samsung_dex" />
+        <SecPreferenceScreen android:title="@string/keyboard_shortcuts_helper" android:key="keyboard_shortcuts_helper" android:summary="@string/keyboard_shortcuts_helper_summary" settings:keywords="@string/keywords_keyboard_shorcuts" />
+        <SecPreferenceScreen android:title="@string/change_language_shortcut" android:key="change_language_shortcut" android:fragment="com.samsung.android.settings.inputmethod.ChangeLanguageShortcutOptionFragment" />
+        <SecPreferenceScreen android:title="@string/customize_keys_settings" android:key="modifier_keys_settings" android:fragment="com.android.settings.inputmethod.ModifierKeysSettings" />
+    </SecPreferenceCategory>
+    <SecPreferenceCategory android:title="@string/wireless_keyboard_sharing" android:key="wireless_keyboard_sharing" settings:isPreferenceVisible="false">
+        <SecPreferenceScreen android:title="@string/share_keyboard" android:key="share_keyboard" android:fragment="com.samsung.android.settings.inputmethod.WirelessKeyboardShareFragment" settings:keywords="@string/share_keyboard" />
+    </SecPreferenceCategory>
+</PreferenceScreen>

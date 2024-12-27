@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vision_enhancements_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings" settings:topLevelPreferenceKey="top_level_accessibility"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/customized_display_mode_title" android:key="customized_display_mode_category">
+        <com.samsung.android.settings.accessibility.base.widget.CustomDisplayPreference android:key="single_choice_pref" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.CustomDisplayModePreferenceController" settings:itemLayout="@layout/customized_display_mode_choice_item" settings:searchable="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/view_clear_category_title" android:key="view_clear_category">
+        <Preference android:title="@string/high_contrast_theme_title" android:key="high_contrast_theme_preference" android:fragment="com.samsung.android.settings.accessibility.vision.HighContrastThemePreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.HighContrastThemePreferenceController" settings:keywords="@string/keyword_highcontrast_theme" />
+        <SecSwitchPreferenceScreen android:title="@string/high_contrast_font_title" android:key="toggle_high_text_contrast_preference" android:fragment="com.samsung.android.settings.accessibility.vision.HighContrastFontFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.HighContrastFontPreferenceController" settings:keywords="@string/keywords_hightcontrast_font" />
+        <SecSwitchPreferenceScreen android:title="@string/accessibility_toggle_high_keyboard_contrast_preference_title" android:key="high_keyboard_contrast_preference_screen" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.HighContrastKeyboardPreferenceController" settings:keywords="@string/keywords_highcontrast_keyboard" />
+        <SecSwitchPreferenceScreen android:title="@string/high_light_buttons_title" android:key="high_light_buttons_preference_screen" android:fragment="com.samsung.android.settings.accessibility.vision.HighLightButtonFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.HighLightButtonPreferenceController" />
+        <SecSwitchPreferenceScreen android:persistent="false" android:title="@string/relumino_title" android:key="toggle_relumino_preference" android:fragment="com.samsung.android.settings.accessibility.vision.color.ReluminoFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ReluminoPreferenceController" />
+        <SecSwitchPreferenceScreen android:persistent="false" android:title="@string/accessibility_display_inversion_preference_title" android:key="toggle_inversion_preference" android:fragment="com.android.settings.accessibility.ToggleColorInversionPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ColorInversionPreferenceController" settings:keywords="@string/keyword_color_inversion" />
+        <Preference android:title="@string/accessibility_display_daltonizer_preference_title" android:key="daltonizer_preference_screen" android:fragment="com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment" settings:controller="com.android.settings.accessibility.DaltonizerPreferenceController" settings:keywords="@string/keywords_color_adjustment">
+            <intent android:action="com.android.settings.ACCESSIBILITY_COLOR_SPACE_SETTINGS" />
+        </Preference>
+        <Preference android:title="@string/color_adjustment_title" android:key="color_adjustment_preference_screen" android:fragment="com.samsung.android.settings.accessibility.vision.color.ColorAdjustmentMainFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ColorAdjustmentPreferenceController" settings:keywords="@string/keywords_color_adjustment">
+            <intent android:action="com.samsung.accessibility.COLOR_ADJUSTMENT" />
+        </Preference>
+        <Preference android:title="@string/colour_lens_title" android:key="color_lens_preference_screen" android:fragment="com.samsung.android.settings.accessibility.vision.color.ColorLensFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ColorLensPreferenceController" settings:keywords="@string/keyword_color_filter" />
+        <SwitchPreference android:title="@string/accessibility_disable_animations" android:key="toggle_remove_animations" android:summary="@string/accessibility_toggle_remove_animations_summary" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.RemoveAnimationPreferenceController" settings:keywords="@string/keywords_remove_animation" />
+        <SwitchPreference android:title="@string/reduce_transparency_title" android:key="toggle_reduce_transparency" android:summary="@string/accessibility_toggle_reduce_transparency_summary" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ReduceTransparencyPreferenceController" />
+        <SecSwitchPreferenceScreen android:persistent="false" android:title="@string/reduce_bright_colors_preference_title" android:key="reduce_bright_colors_preference" android:fragment="com.android.settings.accessibility.ToggleReduceBrightColorsPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ReduceBrightColorsPreferenceController" settings:keywords="@string/keyword_extra_dim" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/view_larger_category_title" android:key="view_larger_category">
+        <Preference android:persistent="false" android:title="@string/accessibility_screen_magnification_title" android:key="magnification_preference_screen" android:fragment="com.samsung.android.settings.accessibility.vision.MagnificationPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationPreferenceController" />
+        <Preference android:title="@string/accessibility_magnifier_title" android:key="magnifier_camera_preference" android:fragment="com.samsung.android.settings.accessibility.vision.MagnifierCameraFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnifierCameraPreferenceController" settings:keywords="@string/keyword_magnifier" />
+        <Preference android:title="@string/sec_cursor_thickness_title" android:key="cursor_thickness_preference" android:fragment="com.samsung.android.settings.display.SecCursorThicknessPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.CursorThicknessPreferenceController" />
+        <Preference android:title="@string/mouse_pointer_size_and_color_title" android:key="pointer_size_color" settings:controller="com.samsung.android.settings.inputmethod.MousePointerSettingsPreferenceController" settings:keywords="@string/keyword_pointersize_and_color">
+            <intent android:action="com.samsung.settings.MOUSE_POINTER_SETTINGS" />
+        </Preference>
+        <Preference android:title="@string/sec_font_size_and_style_title" android:key="sec_font_size_a11y" settings:controller="com.samsung.android.settings.display.controller.SecFontSizeAndStylePreferenceController" settings:keywords="@string/keywords_font_size_and_style">
+            <intent android:action="com.samsung.settings.FontPreview" />
+        </Preference>
+        <com.samsung.android.settings.display.DisplayDisabledAppearancePreference android:title="@string/sec_screen_zoom_title" android:key="sec_screen_size_a11y" settings:controller="com.samsung.android.settings.display.controller.SecScreenSizePreferenceController" settings:keywords="@string/keywords_screen_zoom">
+            <intent android:action="com.samsung.settings.ScreenSize" />
+        </com.samsung.android.settings.display.DisplayDisabledAppearancePreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/spoken_assistance_title" android:key="spoken_assistance_category">
+        <SecSwitchPreferenceScreen android:title="@string/speak_keyboard_input_aloud" android:key="speak_keyboard_input_aloud" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.SpeakKeyboardPreferenceController" settings:keywords="@string/keywords_input_speak_keyboard">
+            <intent android:action="com.samsung.android.honeyboard.intent.action.SPEAK_KEYBOARD_INPUT_ALOUD_SETTING" />
+        </SecSwitchPreferenceScreen>
+        <SecSwitchPreference android:title="@string/accessibility_toggle_audio_description_preference_title" android:key="toggle_audio_description" android:summary="@string/accessibility_audio_description_summary" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.SecAudioDescriptionPreferenceController" settings:keywords="@string/keyword_audio_description" />
+        <Preference android:title="@string/bixby_vision_for_accessibility_title" android:key="bixby_vision_for_accessibility" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.BixbyVisionAccessibilityPreferenceController">
+            <intent android:action="samsung.intentfilter.visionintelligence.accessibility">
+                <extra android:name="SHOW_START_BIXBYVISION" android:value="true" />
+            </intent>
+        </Preference>
+        <Preference android:persistent="false" android:title="@string/voice_label_title" android:key="voice_label_preference_screen" android:summary="@string/voice_label_summary" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.VoiceLabelPreferenceController" settings:keywords="@string/keywords_voice_label" />
+    </PreferenceCategory>
+</PreferenceScreen>

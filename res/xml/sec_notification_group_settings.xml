@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="1.0px" settings:roundStroke="none" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_settings_entity_header" android:key="pref_app_header" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="1.0px" settings:roundStroke="top_left|top_right" />
+    <com.android.settings.widget.SettingsMainSwitchPreference android:key="block" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="desc" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="block_desc" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="SecInsetCategory_for_desc" />
+    <SecPreferenceCategory android:key="more_settings" android:order="1000" />
+    <Preference android:title="@string/app_settings_link" android:key="app_link" />
+</PreferenceScreen>

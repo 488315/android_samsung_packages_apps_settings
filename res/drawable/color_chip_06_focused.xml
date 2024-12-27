@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/color_chip_shadow" />
+            <padding android:bottom="@dimen/chip_mtr_bottom_padding" />
+            <corners android:radius="@dimen/chip_shape_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/chip_mtr_stroke_focus_width" android:color="@color/color_chip_stroke_focused" />
+            <solid android:color="@color/color_chip_06" />
+            <size android:height="@dimen/chip_mtr_height_inner" android:width="@dimen/chip_mtr_width_inner" />
+        </shape>
+    </item>
+</layer-list>

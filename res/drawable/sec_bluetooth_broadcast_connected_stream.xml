@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="88.0dip" android:width="88.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/sec_bluetooth_auracast_connected_stream_outline_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="68.0dip" android:width="68.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/sec_bluetooth_auracast_connected_stream_inline_color" />
+        </shape>
+    </item>
+</layer-list>

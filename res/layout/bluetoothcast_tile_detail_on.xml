@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/bluetoothcast_tile_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_cast_description" style="@style/qstile_description_text_style" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <TextView android:id="@id/bluetooth_cast_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_preference_found_media_devices" style="@style/qstile_description_main_text_style" />
+        <ImageView android:layout_gravity="center" android:background="@drawable/sec_bluetoothcast_qs_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bluetooth_cast_device_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

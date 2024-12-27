@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/incoming_call_volume_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/sec_sim1" android:key="ringtone" android:summary="@string/sec_ringtone_summary_ds" android:dialogTitle="@string/sec_ringtone_title" android:ringtoneType="ringtone" />
+    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/sec_sim2" android:key="ringtone_2" android:summary="@string/sec_ringtone_summary_ds" android:dialogTitle="@string/sec_ringtone_title" android:ringtoneType="ringtone" />
+</PreferenceScreen>

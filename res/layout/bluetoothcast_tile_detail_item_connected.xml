@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bluetooth_cast_device_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/device_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <TextView android:textAppearance="@style/DetailCatetoryItem" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/device_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" android:layout_marginStart="12.0dip" />
+        <TextView android:id="@id/device_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:textDirection="locale" android:layout_marginStart="12.0dip" />
+    </LinearLayout>
+    <Switch android:theme="@android:style/Theme.DeviceDefault.Light" android:layout_gravity="center_vertical" android:id="@id/device_switch" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/new_mode_preview_layout" android:background="@color/sec_widget_round_and_bgcolor" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/new_mode_preview_linear_layout" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/preview_layout" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true">
+                <com.samsung.android.settings.widget.SecWrapContentHeightViewPager android:id="@id/pager" android:background="@drawable/sec_rounded_view_pager_bg" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" android:clipToOutline="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/point_area" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/sec_screen_mode_preview_point_area_padding_top" android:paddingBottom="@dimen/sec_screen_mode_preview_point_area_padding_bottom" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/sec_screen_mode_preview_point_area_height" android:importantForAccessibility="noHideDescendants" android:layoutDirection="ltr" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mode_list" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true" />
+        <LinearLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_inset_category_height" />
+        <LinearLayout android:orientation="vertical" android:id="@id/vivid_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/seekbar_area" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:clipToOutline="true">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sec_font_size_and_screen_mode_seekbar_title_text_size" android:textColor="@color/sec_font_size_screen_zoom_seekbar_title_text_color" android:ellipsize="end" android:gravity="start|center" android:id="@id/sub_header" android:layout_width="wrap_content" android:layout_height="52.0dip" android:text="@string/sec_screen_mode_white_balance" android:singleLine="true" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/question_icon" android:visibility="gone" android:layout_width="@dimen/sec_screen_mode_icon_size" android:layout_height="@dimen/sec_screen_mode_icon_size" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layoutDirection="locale" android:layout_alignParentEnd="true" app:lottie_rawRes="@raw/sec_wifi_tips_question_icon" />
+                </RelativeLayout>
+                <SeekBar android:id="@id/seekbar_white_balance" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/sec_screen_mode_seekbar_height" android:max="4" android:progressDrawable="@drawable/sec_screen_mode_progress_white_balance" android:thumb="@drawable/sec_screen_mode_progress_thumb" android:tickMark="@drawable/sec_screen_mode_progress_white_balance_tick" android:min="0" />
+                <RelativeLayout android:paddingTop="8.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+                    <TextView android:id="@id/preset_cool" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_display_temperature_preset_cool" android:layout_alignParentStart="true" style="@style/seekbar_preference_seekbar_label_text_style" />
+                    <TextView android:id="@id/preset_warm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_display_temperature_preset_warm" android:layout_alignParentEnd="true" style="@style/seekbar_preference_seekbar_label_text_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/advanced_white_balance" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/reset_button_top_margin" android:paddingBottom="@dimen/reset_button_bottom_margin" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2" />
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6">
+                    <com.samsung.android.settings.widget.SecRoundButtonView android:gravity="center" android:layout_gravity="center" android:id="@id/advanced_setting_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/reset_button_min_height" android:text="@string/sec_screen_mode_advanced_settings" android:paddingStart="@dimen/sec_screen_mode_advanced_button_padding" android:paddingEnd="@dimen/sec_screen_mode_advanced_button_padding" style="@style/RoundButtonStyle" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/blackView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

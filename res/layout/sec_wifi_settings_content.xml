@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/connected_network_category" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_preference_connected_network" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/connected_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/mcf_auto_hotspot_network_category" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mcf Auto Hotspot" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mcf_auto_hotspot_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/auto_hotspot_network_category" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_smart_tethering_title" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/auto_hotspot_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/instant_hotspot_network_category" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_instant_hotspot_title" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/instant_hotspot_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/filter_layout" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/sec_wifi_list_item_start_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/ssid_filter_input_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/wifi_ssid_hint" android:singleLine="true" android:drawableRight="@drawable/ic_clear" android:backgroundTint="@color/sec_wifi_subtitle_text_color" />
+        <LinearLayout android:gravity="end|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.chip.SeslChipGroup android:id="@id/filtered_item" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <RelativeLayout android:gravity="end" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/multi_select_filter_icon" android:clickable="true" android:layout_width="@dimen/sec_wifi_actionbar_icon_size" android:layout_height="@dimen/sec_wifi_actionbar_icon_size" android:src="@drawable/sec_ic_wifi_filter_by" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="end" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_wifi_actionbar_icon_margin">
+                <ImageView android:id="@id/ssid_filter_icon" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="@dimen/sec_wifi_actionbar_icon_size" android:layout_height="@dimen/sec_wifi_actionbar_icon_size" android:src="@drawable/ic_homepage_search" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/available_network_category" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_preference_availavle_networks" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/twlist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/easy_setup_category" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_easy_setup_category" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/easy_setup_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+    <TextView android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WifiEmptyViewStyle" />
+    <View android:id="@id/bottom_area" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/sec_widget_preference_unclickable_margin_bottom" />
+</LinearLayout>

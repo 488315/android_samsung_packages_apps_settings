@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="fill_parent" android:layout_height="234.0dip" android:layout_marginBottom="44.0dip" app:lottie_autoPlay="true" app:lottie_fileName="sec_wifi_labs_homewifi_05.json" app:lottie_loop="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="36.0dip" android:paddingEnd="36.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="If you are ready, press 'start' button and walk around home with your device to check weak signal area." />
+            <TextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:gravity="start" android:paddingTop="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Weak signal area will be shown as red background on the graph in the next page." />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

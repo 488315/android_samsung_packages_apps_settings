@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_unlock_set_unlock_launch_picker_title" android:key="lock_settings_picker"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.lockscreen.SecLockScreenUnclickablePreference android:visibility="gone" android:title="@string/sec_fingerprint_chooselock_help_text_1" android:key="inform_text" settings:positionMode="first_item" />
+    <com.samsung.android.settings.lockscreen.SecLockScreenUnclickablePreference android:visibility="gone" android:title="@string/sec_biometrics_chooselock_description_common" android:key="warning_text" settings:positionMode="first_item" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_unlock_set_unlock_pin_title" android:key="unlock_set_pin" android:summary="@string/unlock_set_unlock_pin_summary" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_unlock_set_unlock_password_title" android:key="unlock_set_password" android:summary="@string/unlock_set_unlock_password_summary" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/unlock_set_unlock_ucm_pin_title" android:key="unlock_set_ucm_pin" android:summary="@string/unlock_set_unlock_password_summary" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_unlock_set_unlock_pattern_title" android:key="unlock_set_pattern" android:summary="@string/unlock_set_unlock_pattern_summary" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_unlock_set_unlock_none_title" android:key="unlock_set_none" android:summary="@string/unlock_set_unlock_none_summary" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:key="unlock_set_managed" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_unlock_set_unlock_off_title" android:key="unlock_set_off" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_unlock_set_unlock_two_factor_title" android:key="unlock_set_two_factor" />
+    <SecPreferenceCategory android:key="fingerprint_category" />
+    <com.android.settingslib.RestrictedPreference android:persistent="false" android:title="@string/sec_fingerprint" android:key="unlock_set_fingerprint" android:summary="@string/unlock_set_unlock_off_summary" />
+    <SwitchPreference android:title="@string/sec_face_title" android:key="switch_face" />
+    <SwitchPreference android:title="@string/sec_fingerprint" android:key="switch_fingerprint" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/bio_face_recognition_title" android:key="key_face_menu" />
+    <com.samsung.android.settings.lockscreen.SecLockTypePreference android:persistent="false" android:title="@string/sec_fingerprint" android:key="key_fingerprint_menu" />
+    <SecPreferenceScreen android:title="@string/sec_biometrics_common_about_security_notice_title" android:key="key_about_unlock_biometrics" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:persistent="false" android:title="@string/pref_lock_type_title" android:key="pref_lock_type" android:summary="@string/pref_lock_type_summary" />
+    <SecPreferenceCategory android:title="@string/biometrics" android:key="biometrics_category" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:persistent="false" android:clickable="false" android:title="@string/pref_Biometrics_summary" android:selectable="false" android:key="pref_biometrics_description" style="@style/description_text" />
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:persistent="false" android:clickable="false" android:title="@string/sec_text_security_title_b2c" android:selectable="false" android:key="pref_locktype_description" settings:positionMode="first_item" style="@style/description_text" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="reset_secure_folder_category" />
+    <SwitchPreference android:title="@string/sec_reset_with_samsung_account" android:key="switch_reset_with_sa" />
+</PreferenceScreen>

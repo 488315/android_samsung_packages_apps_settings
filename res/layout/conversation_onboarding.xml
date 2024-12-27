@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_no_modified_conversations" android:contentDescription="@string/sec_no_modified_conversations" android:fontFamily="roboto-medium" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="?android:textColorSecondary" android:gravity="center" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/sec_no_modified_conversations_summary" android:contentDescription="@string/sec_no_modified_conversations_summary" android:fontFamily="roboto-regular" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</LinearLayout>

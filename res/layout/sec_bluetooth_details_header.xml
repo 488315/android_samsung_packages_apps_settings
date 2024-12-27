@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <View android:id="@id/bluetooth_title_top_icon_header_view" android:background="@drawable/ic_bluetooth_battery_header" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/bluetooth_title_top_icon_header_imageview" android:layout_width="46.0dip" android:layout_height="28.0dip" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/bluetooth_title_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxLines="2" android:textAlignment="center" style="@style/TextAppearance.EntityBluetoothHeaderTitle" />
+    <TextView android:gravity="center_horizontal" android:id="@id/bluetooth_subtitle_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:textAlignment="center" style="@style/TextAppearance.EntityBluetoothSubHeaderTitle" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_header_layout_top_margin">
+        <LinearLayout android:orientation="horizontal" android:id="@id/header_layout_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <include android:id="@id/layout_connected" layout="@layout/sec_bluetooth_details_header_sub_connected" />
+            <include android:id="@id/layout_no_cradle" android:visibility="gone" layout="@layout/sec_bluetooth_details_header_sub_no_cradle" />
+            <include android:id="@id/layout_no_cradle_one_battery" android:visibility="gone" layout="@layout/sec_bluetooth_details_header_sub_no_cradle_one_battery" />
+            <include android:id="@id/layout_one_battery" android:visibility="gone" layout="@layout/sec_bluetooth_details_header_sub_one_battery" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

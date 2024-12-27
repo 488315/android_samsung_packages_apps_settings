@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/updates_title" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/security_dashboard_action_updates_activity_description" android:selectable="false" android:order="-300" settings:positionMode="first_item" settings:searchable="false" />
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_updates" android:title="@string/security_update" android:key="key_security_update" android:summary="@string/summary_placeholder" android:order="-200" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardSecurityUpdatePreferenceController" settings:isDividerVisible="false" settings:isPreferenceVisible="false" />
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_google_play_system_updates" android:title="@string/security_dashboard_google_play_system_update_title" android:key="key_google_play_system_update" android:summary="@string/summary_placeholder" android:order="-100" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardGPSUPreferenceController" settings:isPreferenceVisible="false" />
+</PreferenceScreen>

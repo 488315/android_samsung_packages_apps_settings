@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_summary_title" android:key="data_usage_cellular_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.datausage.TemplatePreferenceCategory android:title="@string/data_usage_list_mobile" android:key="mobile_category">
+        <com.android.settings.datausage.CellDataPreference android:title="@string/data_usage_enable_mobile" android:key="data_usage_enable" />
+        <SecPreference android:title="@string/cellular_data_usage" android:key="mobile_data_usage_detail" />
+        <SecPreferencee android:title="@string/restrcit_network" android:key="restrict_app_data" android:summary="@string/data_usage_metered_help_text" />
+        <SecPreferencee android:title="@string/data_usage_plan" android:key="billing_preference_chn" />
+        <SecPreference android:title="@string/phone_data_recharge" android:key="top_up_data_balance" />
+    </com.android.settings.datausage.TemplatePreferenceCategory>
+</PreferenceScreen>

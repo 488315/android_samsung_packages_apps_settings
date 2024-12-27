@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_function_key_setting_title" settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.Usefulfeature" settings:topLevelPreferenceKey="top_level_advanced_features"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreferenceScreen android:title="@string/sec_function_key_double_press_title" android:key="function_key_double_press" android:fragment="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeyDoublePressSettings" settings:controller="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeyDoublePressPreferenceController" settings:keywords="@string/keywords_side_key_double_press_settings" />
+    <SecSwitchPreferenceScreen android:title="@string/sec_short_press_dedicated_app" android:key="short_press_dedicated_app" android:fragment="com.samsung.android.settings.activekey.DedicatedAppView" settings:controller="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeyShortPressDedicatedAppPreferenceController">
+        <extra android:name="pressed_type" android:value="sidekey" />
+    </SecSwitchPreferenceScreen>
+    <SecPreference android:title="@string/sec_function_key_long_press_title" android:key="function_key_long_press" android:fragment="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeyLongPressSettings" settings:controller="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeyLongPressPreferenceController" settings:keywords="@string/keywords_side_key_long_press_settings" />
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <SecPreference android:title="@string/sec_function_key_tips_title" android:key="tips_for_power_off" settings:controller="com.samsung.android.settings.usefulfeature.functionkey.FunctionKeyTipsForPowerOffPreferenceController" settings:keywords="@string/keywords_side_key_tips_settings" />
+</PreferenceScreen>

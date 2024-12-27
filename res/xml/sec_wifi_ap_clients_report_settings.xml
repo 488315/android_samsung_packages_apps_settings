@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_ap_hotspot_usage_report"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.wifi.mobileap.clients.report.WifiApClientsMonthlyWeeklyTabPreference android:key="weekly_monthly_tab_preference" android:order="1" settings:allowDividerBelow="false" />
+    <com.samsung.android.settings.wifi.mobileap.clients.report.WifiApClientsReportCalendarRangeSelectorPreference android:key="report_calendar_range_selector_preference" android:order="2" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
+    <SecPreferenceCategory android:key="bar_chart_list_preference_category" android:order="3">
+        <com.samsung.android.settings.wifi.mobileap.clients.report.WifiApClientsReportBarChartPreference android:key="report_bar_chart_preference" android:order="2" settings:allowDividerBelow="false" />
+        <Preference android:layout="@layout/sec_wifi_ap_dummy_preference" android:order="999" settings:allowDividerAbove="false" settings:allowDividerBelow="false" settings:isPreferenceVisible="false" />
+    </SecPreferenceCategory>
+</PreferenceScreen>

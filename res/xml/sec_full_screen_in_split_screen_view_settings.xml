@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_full_screen_in_split_screen_view_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecHelpAnimationLayoutPreference android:layout="@layout/sec_guide" android:key="full_screen_in_split_screen_preview" settings:searchable="false" />
+</PreferenceScreen>

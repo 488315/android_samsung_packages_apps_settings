@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_delete_accent" android:orientation="vertical" android:id="@id/private_space_delete_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/private_space_delete_header"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/private_space_delete_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/private_space_delete_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/SudContentFrame">
+            <TextView android:id="@id/sud_layout_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/private_space_delete_summary" style="@style/TextAppearance.PreferenceTitle.SettingsLib" />
+            <TextView android:id="@id/accounts_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/private_space_accounts" style="@style/TextAppearance.PreferenceTitle.SettingsLib" />
+            <LinearLayout android:orientation="vertical" android:id="@id/accounts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.setupdesign.GlifLayout>

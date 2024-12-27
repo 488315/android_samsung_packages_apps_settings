@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/hearing_aid_support_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment" settings:topLevelPreferenceKey="top_level_accessibility"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreference android:title="@string/accessibility_hac_mode_title" android:key="call_hearing_aid" android:summary="@string/hearing_aid_compatibility_summary" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecHearingAidCompatibilityPreferenceController" />
+    <PreferenceCategory />
+    <Preference android:title="@string/bluetooth_hearing_aid_title" android:key="hearing_aid_preference" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecAccessibilityHearingAidPreferenceController" settings:keywords="@string/keywords_bt_aid" />
+</PreferenceScreen>

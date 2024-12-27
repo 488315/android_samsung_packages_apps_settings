@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/nested_scroll_view" android:background="@color/sec_widget_round_and_bgcolor" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:background="@color/sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_lock_after_timeout_subtext" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/lock_after_timeout_list" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/black_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" android:minHeight="@dimen/sec_widget_inset_category_height" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

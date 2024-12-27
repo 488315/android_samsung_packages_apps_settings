@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0sp" android:textColor="@color/sec_device_admin_add_dialog_title" android:id="@id/permission_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:fontFamily="sec" android:textFontWeight="600" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0sp" android:textColor="@color/sec_device_admin_add_dialog_description" android:id="@id/permission_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:fontFamily="sec" android:textFontWeight="400" />
+</LinearLayout>

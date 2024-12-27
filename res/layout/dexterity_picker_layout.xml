@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.samsung.android.settings.accessibility.base.widget.PickerCompat android:id="@id/picker" android:background="@color/content_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/content_area" android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:importantForAccessibility="no">
+            <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:id="@id/test_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_settings_layout_test_button_top_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/test_edit_text_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_settings_layout_test_button_top_margin" android:hint="@string/type_here_to_test" android:layout_below="@id/test_btn" android:layout_marginStart="@dimen/list_settings_layout_test_text_start_margin" android:layout_marginEnd="@dimen/list_settings_layout_test_button_top_margin">
+                <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/list_settings_layout_test_text_input_text_size" android:layout_gravity="bottom" android:paddingTop="@dimen/list_settings_layout_test_text_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView android:id="@id/picker_dialog_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/test_edit_text_layout" style="@style/Accessibility.Widget.TextView.Description" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

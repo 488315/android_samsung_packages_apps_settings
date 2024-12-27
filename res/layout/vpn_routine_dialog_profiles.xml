@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_vpn_list_dialog_padding_top" android:paddingBottom="@dimen/sec_vpn_list_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_vpn_list_dialog_padding_bottom" android:text="@string/vpn_routine_dialog_message_choose_profile" android:layout_marginStart="@dimen/sec_widget_alert_dialog_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_alert_dialog_padding_start_end" style="@style/TextAppearance.DialogMessage" />
+    <ListView android:id="@id/vpn_routine_dialog_profiles_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

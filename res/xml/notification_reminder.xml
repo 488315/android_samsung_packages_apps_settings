@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/repeat_notification_alerts_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/repeat_notification_summary" android:key="badge_description" />
+    <SecPreferenceScreen android:title="@string/repeat_notification_app_picker" android:key="notification_reminder_app_picker" android:summary="@string/summary_placeholder" android:fragment="com.samsung.android.settings.notification.reminder.NotificationReminderAppListSettings" />
+    <SecDropDownPreference android:entries="@array/time_interval_entries_selectable" android:title="@string/repeat_notifications_interval" android:key="notification_time_interval" android:entryValues="@array/time_interval_values_selectable" />
+    <SwitchPreference android:title="@string/notification_reminder_preference_vibrate" android:key="notification_reminder_vibrate" apps:controller="com.samsung.android.settings.notification.reminder.controller.VibratePreferenceController" />
+</PreferenceScreen>

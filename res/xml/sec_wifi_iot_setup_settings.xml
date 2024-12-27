@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:selectable="false" android:key="iot_description_layout_preference" android:order="1" />
+    <PreferenceCategory android:key="ssid_detail_preference_category" android:order="2">
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:title="Connected SSID" android:selectable="false" android:key="connected_ssid_preference" android:order="2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="bssid_detail_preference_category" android:order="3">
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:title="Matching BSSID" android:selectable="false" android:key="bssid_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:order="4">
+        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:title="Current SSID matching BSSIDs" android:selectable="false" android:key="matching_scan_results_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

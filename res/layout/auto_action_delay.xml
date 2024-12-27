@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:layout_gravity="start" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="9.0dip" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:ellipsize="marquee" android:layout_gravity="center" android:id="@android:id/summary" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/seekbar_margin_top_bottom" android:layout_marginBottom="@dimen/seekbar_margin_top_bottom" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/zoom_layer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/delete_button" android:scaleType="center" android:contentDescription="@string/decrease_button_content_description" style="@style/Accessibility.Widget.Button.Delete" />
+        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBar android:id="@id/seekbar" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/slider_min_height" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/add_button" android:scaleType="center" android:contentDescription="@string/increase_button_content_description" style="@style/Accessibility.Widget.Button.Add" />
+    </LinearLayout>
+</LinearLayout>

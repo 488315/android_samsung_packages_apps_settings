@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="@dimen/bluetooth_preference_list_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/sec_no_item_text_color" android:ellipsize="none" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_scan_history_not_found" android:singleLine="false" android:layout_weight="1.0" style="@style/BluetoothNoItemText" />
+</LinearLayout>

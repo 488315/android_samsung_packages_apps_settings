@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sec_hrr_preview_ll" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/sec_hrr_preview_lottie_ll" android:paddingTop="@dimen/sec_high_refresh_rate_vi_padding" android:paddingBottom="@dimen/sec_high_refresh_rate_vi_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sec_high_refresh_rate_vi_padding">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sec_hrr_preview_120f_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/sec_high_refresh_rate_vi_text_size" android:textColor="@color/sec_high_refresh_rate_vi_text_color" android:id="@id/sec_hrr_preview_120f_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_high_refresh_rate_vi_text_margin_bottom" android:fontFamily="sec" android:textFontWeight="400" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/sec_hrr_preview_120f_image" android:layout_width="fill_parent" android:layout_height="0.0dip" app:lottie_autoPlay="true" app:lottie_fileName="sec_hrr_preview_120f_light.json" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="@dimen/sec_high_refresh_rate_vi_padding_between" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sec_hrr_preview_60f_ll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/sec_high_refresh_rate_vi_text_size" android:textColor="@color/sec_high_refresh_rate_vi_text_color" android:id="@id/sec_hrr_preview_60f_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_high_refresh_rate_vi_text_margin_bottom" android:fontFamily="sec" android:textFontWeight="400" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/sec_hrr_preview_60f_image" android:layout_width="fill_parent" android:layout_height="0.0dip" app:lottie_autoPlay="true" app:lottie_fileName="sec_hrr_preview_60f_light.json" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/sec_hrr_preview_desc_ll" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/sec_hrr_preview_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/sec_high_refresh_rate_desc" android:layout_marginHorizontal="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+    </LinearLayout>
+</LinearLayout>

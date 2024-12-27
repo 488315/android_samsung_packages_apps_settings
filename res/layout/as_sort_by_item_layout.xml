@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sort_by" android:background="@drawable/as_sort_by_text_background" android:paddingTop="@dimen/as_sort_by_list_sort_padding" android:paddingBottom="@dimen/as_sort_by_list_sort_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/as_sort_by_list_shape_padding" android:paddingEnd="@dimen/as_sort_by_list_shape_padding_end">
+        <ImageView android:id="@id/sort_by_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/as_sort_by" android:tint="@color/as_sort_by_text_color" android:layout_marginEnd="@dimen/as_sort_by_list_sort_image_margin_end" />
+        <TextView android:textSize="@dimen/as_sort_by_list_sort_text_size" android:textColor="@color/as_sort_by_text_color" android:id="@id/sort_by_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/as_basic_horizontal_divider_line_color" android:layout_width="@dimen/as_sort_by_list_sort_divider_width" android:layout_height="@dimen/as_sort_by_list_sort_divider_height" />
+    <ImageView android:id="@id/sort_by_order" android:background="@drawable/as_sort_by_icon_background" android:paddingTop="@dimen/as_sort_by_list_sort_padding" android:paddingBottom="@dimen/as_sort_by_list_sort_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/as_sort_ascending" android:tint="@color/as_sort_by_text_color" android:paddingStart="@dimen/as_sort_by_list_sort_icon_padding_start" android:paddingEnd="@dimen/as_sort_by_list_sort_icon_padding_end" />
+</LinearLayout>

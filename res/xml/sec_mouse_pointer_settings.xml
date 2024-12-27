@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mouse_pointer_size_and_color_title" settings:hierarchicalParentFragment="com.samsung.android.settings.inputmethod.MouseAndTrackpadSettings" settings:topLevelPreferenceKey="top_level_general"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference />
+    <com.samsung.android.settings.inputmethod.SecMousePointerSizePreference android:title="@string/mouse_pointer_size" android:key="mouse_pointer_size" settings:controller="com.samsung.android.settings.inputmethod.SecMousePointerSizeController" />
+    <com.samsung.android.settings.inputmethod.MouseCustomPointerColorPreference android:layout="@layout/sec_mouse_pointer_color_container" android:title="@string/mouse_pointer_color" android:key="mouse_custom_pointer_color" />
+</PreferenceScreen>

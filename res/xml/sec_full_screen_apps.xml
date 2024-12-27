@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/full_screen_apps_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/full_screen_aspect_ratio_preview" android:selectable="false" android:key="full_screen_preview" settings:positionMode="first_item" />
+    <SecPreferenceCategory android:layout="@layout/preference_category_no_label" android:key="full_screen_apps" settings:roundStroke="top_left|top_right" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_full_screen_app_picker" android:key="full_screen_apps_picker" settings:roundStroke="bottom_left|bottom_right" />
+</PreferenceScreen>

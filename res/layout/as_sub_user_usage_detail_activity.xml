@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:actionBarSize" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:scrimAnimationDuration="250" style="@style/AsCollapsingToolbarLayoutStyle">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/AsToolbarStyle" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" app:subtitleTextColor="@color/as_actionbar_text_color" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.samsung.android.settings.analyzestorage.ui.view.analyzestorage.UsageDetailItem android:layout_gravity="center_horizontal" android:id="@id/as_usage_detail_item" android:paddingTop="@dimen/as_sub_viewpager_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchMode="columnWidth" android:columnCount="1" android:paddingStart="@dimen/as_sub_viewpager_padding_start" />
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

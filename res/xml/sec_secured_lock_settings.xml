@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sec_secured_lock_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <SecSwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title" android:key="visiblepattern" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:persistent="false" android:title="@string/sec_secured_lock_settings_lock_after_timeout_title" android:key="lock_after_timeout" />
+    <SecSwitchPreference android:key="power_button_instantly_locks" android:summary="@string/sec_secured_lock_settings_lock_instantly_with_power_key_summary" />
+    <SecSwitchPreference android:title="@string/sec_secured_lock_settings_folder_instantly_locks_title" android:key="lock_instantly_with_folding" android:summary="@string/sec_secured_lock_settings_lock_instantly_with_power_key_summary" />
+    <SecSwitchPreference android:title="@string/sec_secured_lock_settings_auto_swipe_title" android:key="auto_factory_reset" />
+    <SecSwitchPreference android:title="@string/sec_secured_lock_settings_lock_network_and_security" android:key="lock_network_and_security" android:summary="@string/sec_secure_lock_settings_lock_network_and_security_summary" />
+    <SecSwitchPreference android:title="@string/sec_secured_lock_settings_lock_down_summary_title" android:key="lockdown_in_power_menu" android:summary="@string/sec_secured_lock_settings_lock_down_summary" />
+    <com.samsung.android.settings.widget.SecRestrictedPreference android:persistent="false" android:title="@string/sec_secured_lock_settings_delete_previous_pin_title" android:key="delete_previous_pin" />
+</PreferenceScreen>

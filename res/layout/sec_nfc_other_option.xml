@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/nfc_payment_pref" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:listChoiceBackgroundIndicator" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearlayout" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@android:id/checkbox" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <ImageView android:layout_gravity="fill_horizontal|center" android:id="@id/banner" android:background="@drawable/sec_nfc_icon_bg" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" android:layout_marginStart="13.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sec_payment_option_text" android:textColor="?android:textColorPrimary" android:id="@id/serviceDescription" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="@dimen/sec_work_profile_text" android:textColor="?android:textColorSecondary" android:id="@id/workProfileText" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:textDirection="locale" android:layout_marginStart="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
