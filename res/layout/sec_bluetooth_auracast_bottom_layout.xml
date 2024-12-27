@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottom_navigation" android:background="@color/sec_bluetooth_auracast_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/sec_bluetooth_source_bottom_navigation_height" app:menu="@menu/sec_bluetooth_auracast_bottom_menu" style="@style/Widget.Sample.BottomNavigationView"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/bottom_navigation"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/sec_bluetooth_source_bottom_navigation_height"
+    android:layout_gravity="bottom"
+    android:background="@color/sec_bluetooth_auracast_background_color"
+    app:menu="@menu/sec_bluetooth_auracast_bottom_menu"
+    style="@style/Widget.Sample.BottomNavigationView" />

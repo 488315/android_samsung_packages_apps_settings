@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.widget.SecRoundButtonView android:layout_gravity="center" android:id="@id/reset_importance_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/asst_importance_reset_title" android:paddingStart="@dimen/sec_widget_round_button_padding_start_end" android:paddingEnd="@dimen/sec_widget_round_button_padding_start_end" style="@style/ColorRoundButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.samsung.android.settings.widget.SecRoundButtonView
+        android:id="@id/reset_importance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/asst_importance_reset_title"
+        android:paddingStart="@dimen/sec_widget_round_button_padding_start_end"
+        android:paddingEnd="@dimen/sec_widget_round_button_padding_start_end"
+        style="@style/ColorRoundButtonStyle" />
+
 </LinearLayout>

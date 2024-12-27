@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:persistent="true" android:title="@string/flash_notification" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.advanced.AdvancedSettingsFragment" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:key="guide_preference" settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.FlashNotificationsDescriptionPreferenceController" settings:image_contentDescription="@string/flash_notification_guide_image_content_description" settings:lottie_rawRes="@raw/flash_notification" settings:searchable="false" />
-    <SecSwitchPreferenceScreen android:title="@string/flash_notification_camera_flash" android:key="camera_flash" android:fragment="com.samsung.android.settings.accessibility.advanced.flashnotification.CameraFlashNotificationAppPickerFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.SecCameraFlashNotificationPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:persistent="true"
+    android:title="@string/flash_notification"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.advanced.AdvancedSettingsFragment"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:key="guide_preference"
+        settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.FlashNotificationsDescriptionPreferenceController"
+        settings:image_contentDescription="@string/flash_notification_guide_image_content_description"
+        settings:lottie_rawRes="@raw/flash_notification"
+        settings:searchable="false" />
+
+    <SecSwitchPreferenceScreen
+        android:title="@string/flash_notification_camera_flash"
+        android:key="camera_flash"
+        android:fragment="com.samsung.android.settings.accessibility.advanced.flashnotification.CameraFlashNotificationAppPickerFragment"
+        settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.SecCameraFlashNotificationPreferenceController" />
+
     <PreferenceCategory>
-        <SecSwitchPreference android:title="@string/flash_notification_screen" android:key="screen_flash" settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.SecScreenFlashNotificationPreferenceController" />
-        <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:layout="@layout/preference_screen_flash_notification_all_apps" android:title="@string/screen_flash_notification_all_apps" android:key="screen_all_apps" settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.ScreenFlashNotificationAllAppsPreferenceController" />
-        <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:title="@string/screen_flash_notification_customize_apps" android:key="screen_custom_apps" settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.ScreenFlashNotificationCustomAppsPreferenceController" />
+
+        <SecSwitchPreference
+            android:title="@string/flash_notification_screen"
+            android:key="screen_flash"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.SecScreenFlashNotificationPreferenceController" />
+
+        <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+            android:layout="@layout/preference_screen_flash_notification_all_apps"
+            android:title="@string/screen_flash_notification_all_apps"
+            android:key="screen_all_apps"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.ScreenFlashNotificationAllAppsPreferenceController" />
+
+        <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+            android:title="@string/screen_flash_notification_customize_apps"
+            android:key="screen_custom_apps"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.ScreenFlashNotificationCustomAppsPreferenceController" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:key="preview_category">
-        <com.samsung.android.settings.accessibility.base.widget.AccessibilityContainedButtonPreference android:title="@string/flash_notifications_preview" android:key="flash_notifications_preview" settings:controller="com.android.settings.accessibility.FlashNotificationsPreviewPreferenceController" />
+
+    <PreferenceCategory
+        android:key="preview_category">
+
+        <com.samsung.android.settings.accessibility.base.widget.AccessibilityContainedButtonPreference
+            android:title="@string/flash_notifications_preview"
+            android:key="flash_notifications_preview"
+            settings:controller="com.android.settings.accessibility.FlashNotificationsPreviewPreferenceController" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

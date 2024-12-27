@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_bluetooth_source_info_about_auracast_top_padding" android:paddingBottom="@dimen/sec_bluetooth_source_info_about_auracast_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_bluetooth_source_info_about_auracast_start_end_padding" android:paddingEnd="@dimen/sec_bluetooth_source_info_about_auracast_start_end_padding">
-        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_info_about_auracast_content" style="@style/AuracastInfoAboutAuracastTextStyle" />
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_source_info_about_auracast_text_top_margin">
-            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_info_how_to_broadcast_title" android:textFontWeight="600" style="@style/AuracastInfoAboutAuracastTextStyle" />
-            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_info_how_to_broadcast_content" style="@style/AuracastInfoAboutAuracastTextStyle" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/sec_bluetooth_source_info_about_auracast_top_padding"
+        android:paddingBottom="@dimen/sec_bluetooth_source_info_about_auracast_bottom_padding"
+        android:paddingStart="@dimen/sec_bluetooth_source_info_about_auracast_start_end_padding"
+        android:paddingEnd="@dimen/sec_bluetooth_source_info_about_auracast_start_end_padding">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sec_auracast_info_about_auracast_content"
+            style="@style/AuracastInfoAboutAuracastTextStyle" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/sec_bluetooth_source_info_about_auracast_text_top_margin">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sec_auracast_info_how_to_broadcast_title"
+                android:textFontWeight="600"
+                style="@style/AuracastInfoAboutAuracastTextStyle" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sec_auracast_info_how_to_broadcast_content"
+                style="@style/AuracastInfoAboutAuracastTextStyle" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_source_info_about_auracast_text_top_margin">
-            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_info_how_to_listen_title" android:textFontWeight="600" style="@style/AuracastInfoAboutAuracastTextStyle" />
-            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_info_how_to_listen_content" style="@style/AuracastInfoAboutAuracastTextStyle" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/sec_bluetooth_source_info_about_auracast_text_top_margin">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sec_auracast_info_how_to_listen_title"
+                android:textFontWeight="600"
+                style="@style/AuracastInfoAboutAuracastTextStyle" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sec_auracast_info_how_to_listen_content"
+                style="@style/AuracastInfoAboutAuracastTextStyle" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>

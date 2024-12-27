@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/wifi_auto_connect_hotspot_title" android:key="wifi_auto_connect_hotspot_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:persistent="false" android:layout="@layout/sec_wifi_ap_control_history_description" android:title="@string/wifi_auto_connect_hotspot_detail_description" android:selectable="false" android:key="auto_connect_hotspot_header" />
-    <PreferenceCategory android:key="auto_connect_hotspot_break_line" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/wifi_auto_connect_hotspot_never_option" android:key="auto_connect_hotspot_never_option" settings:allowDividerBelow="true" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/wifi_auto_connect_hotspot_ask_before_connecting_option" android:key="auto_connect_hotspot_ask_before_connecting_option" settings:allowDividerBelow="true" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/wifi_auto_connect_hotspot_always_option" android:key="auto_connect_hotspot_always_option" settings:allowDividerBelow="true" />
-    <PreferenceCategory android:key="auto_connect_hotspot_break_line" />
-    <SecSwitchPreference android:persistent="true" android:title="@string/wifi_disconnect_when_not_in_use_title" android:key="disconnect_when_not_in_use" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/wifi_auto_connect_hotspot_title"
+    android:key="wifi_auto_connect_hotspot_screen">
+
+    <Preference
+        android:persistent="false"
+        android:layout="@layout/sec_wifi_ap_control_history_description"
+        android:title="@string/wifi_auto_connect_hotspot_detail_description"
+        android:selectable="false"
+        android:key="auto_connect_hotspot_header" />
+
+    <PreferenceCategory
+        android:key="auto_connect_hotspot_break_line" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/wifi_auto_connect_hotspot_never_option"
+        android:key="auto_connect_hotspot_never_option"
+        settings:allowDividerBelow="true" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/wifi_auto_connect_hotspot_ask_before_connecting_option"
+        android:key="auto_connect_hotspot_ask_before_connecting_option"
+        settings:allowDividerBelow="true" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/wifi_auto_connect_hotspot_always_option"
+        android:key="auto_connect_hotspot_always_option"
+        settings:allowDividerBelow="true" />
+
+    <PreferenceCategory
+        android:key="auto_connect_hotspot_break_line" />
+
+    <SecSwitchPreference
+        android:persistent="true"
+        android:title="@string/wifi_disconnect_when_not_in_use_title"
+        android:key="disconnect_when_not_in_use" />
+
 </PreferenceScreen>

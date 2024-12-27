@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/connected_device_saved_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="saved_device_list" settings:controller="com.android.settings.connecteddevice.SavedDeviceGroupController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/connected_device_saved_title">
+
+    <PreferenceCategory
+        android:key="saved_device_list"
+        settings:controller="com.android.settings.connecteddevice.SavedDeviceGroupController" />
+
 </PreferenceScreen>

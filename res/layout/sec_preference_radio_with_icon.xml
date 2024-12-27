@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/tts_engine_radiobutton" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-    <ImageView android:id="@android:id/icon" android:layout_width="@dimen/sec_widget_list_app_icon_size" android:layout_height="@dimen/sec_widget_list_app_icon_size" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/sec_widget_list_padding_inner" />
-    <RelativeLayout android:id="@id/tts_engine_pref_text" android:paddingTop="@dimen/sec_widget_list_item_padding_top" android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="@dimen/sec_widget_list_padding_inner">
-        <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/list_title_text_style" />
-        <TextView android:ellipsize="end" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/list_summary_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="?android:listChoiceBackgroundIndicator"
+    android:minHeight="?android:listPreferredItemHeightSmall">
+
+    <RadioButton
+        android:id="@id/tts_engine_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+        android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/sec_widget_list_app_icon_size"
+        android:layout_height="@dimen/sec_widget_list_app_icon_size"
+        android:adjustViewBounds="true"
+        android:layout_marginEnd="@dimen/sec_widget_list_padding_inner" />
+
+    <RelativeLayout
+        android:id="@id/tts_engine_pref_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/sec_widget_list_item_padding_top"
+        android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom"
+        android:layout_weight="1.0"
+        android:paddingEnd="@dimen/sec_widget_list_padding_inner">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            style="@style/list_title_text_style" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:maxLines="4"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            style="@style/list_summary_text_style" />
+
     </RelativeLayout>
+
 </LinearLayout>

@@ -1,27 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/bluetooth_settings_nested_scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bluetooth_scandialog_frame_layout_padding_start_end" android:paddingEnd="@dimen/bluetooth_scandialog_frame_layout_padding_start_end">
-            <TextView android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bluetooth_scandialog_preference_layout_padding_start_end" android:paddingEnd="@dimen/bluetooth_scandialog_preference_layout_padding_start_end" style="@style/description_text" />
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/bluetooth_settings_nested_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:overScrollMode="always">
+
+    <LinearLayout
+        android:id="@id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/bluetooth_scandialog_frame_layout_padding_start_end"
+            android:paddingEnd="@dimen/bluetooth_scandialog_frame_layout_padding_start_end">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/bluetooth_scandialog_preference_layout_padding_start_end"
+                android:paddingEnd="@dimen/bluetooth_scandialog_preference_layout_padding_start_end"
+                style="@style/description_text" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/cast_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/cast_device_category" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_cast_title" android:paddingEnd="0.0dip" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
-            <View android:id="@id/category_divider_cast" android:background="@drawable/sec_subheader_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="14.0dip" />
+
+        <LinearLayout
+            android:id="@id/cast_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/cast_device_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_wifi_subtitle_text_color"
+                android:visibility="visible"
+                android:text="@string/sec_bluetooth_cast_title"
+                android:paddingEnd="0.0dip"
+                android:accessibilityHeading="true"
+                style="?android:listSeparatorTextViewStyle" />
+
+            <View
+                android:id="@id/category_divider_cast"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sec_subheader_divider"
+                android:layout_marginTop="7.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="14.0dip" />
+
         </LinearLayout>
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/cast_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
-        <LinearLayout android:orientation="horizontal" android:id="@id/paired_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/paired_device_category" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_preference_paired_devices" android:paddingEnd="0.0dip" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
-            <View android:id="@id/category_divider_paired" android:background="@drawable/sec_subheader_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="14.0dip" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/cast_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <LinearLayout
+            android:id="@id/paired_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/paired_device_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_wifi_subtitle_text_color"
+                android:visibility="visible"
+                android:text="@string/sec_bluetooth_preference_paired_devices"
+                android:paddingEnd="0.0dip"
+                android:accessibilityHeading="true"
+                style="?android:listSeparatorTextViewStyle" />
+
+            <View
+                android:id="@id/category_divider_paired"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sec_subheader_divider"
+                android:layout_marginTop="7.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="14.0dip" />
+
         </LinearLayout>
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/paired_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
-        <LinearLayout android:orientation="horizontal" android:id="@id/available_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textColor="@color/sec_wifi_subtitle_text_color" android:id="@id/available_device_category" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_preference_found_devices" android:paddingEnd="0.0dip" android:accessibilityHeading="true" style="?android:listSeparatorTextViewStyle" />
-            <View android:id="@id/category_divider_available" android:background="@drawable/sec_subheader_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="14.0dip" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/paired_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <LinearLayout
+            android:id="@id/available_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/available_device_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_wifi_subtitle_text_color"
+                android:visibility="visible"
+                android:text="@string/bluetooth_preference_found_devices"
+                android:paddingEnd="0.0dip"
+                android:accessibilityHeading="true"
+                style="?android:listSeparatorTextViewStyle" />
+
+            <View
+                android:id="@id/category_divider_available"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/sec_subheader_divider"
+                android:layout_marginTop="7.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="14.0dip" />
+
         </LinearLayout>
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/available_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/no_item_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" />
-        <TextView android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WifiEmptyViewStyle" />
-        <View android:id="@id/bottom_area" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/sec_widget_preference_unclickable_margin_bottom" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/available_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/no_item_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:nestedScrollingEnabled="false" />
+
+        <TextView
+            android:id="@id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            style="@style/WifiEmptyViewStyle" />
+
+        <View
+            android:id="@id/bottom_area"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/sec_widget_round_and_bgcolor"
+            android:visibility="gone"
+            android:minHeight="@dimen/sec_widget_preference_unclickable_margin_bottom" />
+
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

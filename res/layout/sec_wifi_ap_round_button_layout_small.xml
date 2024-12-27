@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Button android:textSize="15.0sp" android:textColor="@color/wifi_ap_data_limit_button_color" android:layout_gravity="center" android:id="@id/button" android:background="@drawable/sec_wifi_ap_round_button_small_ripple_radius" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="12.0dip"
+    android:layout_marginBottom="12.0dip"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <Button
+        android:id="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15.0sp"
+        android:textColor="@color/wifi_ap_data_limit_button_color"
+        android:layout_gravity="center"
+        android:background="@drawable/sec_wifi_ap_round_button_small_ripple_radius"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip" />
+
 </FrameLayout>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/highlight_button_desc" android:key="guide_description" settings:image_contentDescription="@string/highlight_button_guide_content_description" settings:lottie_rawRes="@raw/highlight_buttons" settings:searchable="false" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/highlight_button_desc"
+        android:key="guide_description"
+        settings:image_contentDescription="@string/highlight_button_guide_content_description"
+        settings:lottie_rawRes="@raw/highlight_buttons"
+        settings:searchable="false" />
+
 </PreferenceScreen>

@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/touch_and_hold_delay_header"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/touch_and_hold_delay_description" android:key="accessibility_touch_and_hold_description" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:title="@string/touch_and_hold_delay_very_short" android:key="touch_and_hold_delay_very_short" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:title="@string/touch_and_hold_delay_short" android:key="touch_and_hold_delay_short" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:title="@string/touch_and_hold_delay_medium" android:key="touch_and_hold_delay_medium" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:title="@string/touch_and_hold_delay_long" android:key="touch_and_hold_delay_long" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:title="@string/touch_and_hold_delay_custom" android:key="touch_and_hold_delay_custom" settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/touch_and_hold_delay_header">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/touch_and_hold_delay_description"
+        android:key="accessibility_touch_and_hold_description" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:title="@string/touch_and_hold_delay_very_short"
+        android:key="touch_and_hold_delay_very_short"
+        settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:title="@string/touch_and_hold_delay_short"
+        android:key="touch_and_hold_delay_short"
+        settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:title="@string/touch_and_hold_delay_medium"
+        android:key="touch_and_hold_delay_medium"
+        settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:title="@string/touch_and_hold_delay_long"
+        android:key="touch_and_hold_delay_long"
+        settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:title="@string/touch_and_hold_delay_custom"
+        android:key="touch_and_hold_delay_custom"
+        settings:controller="com.samsung.android.settings.accessibility.dexterity.controllers.TouchAndHoldController" />
+
 </PreferenceScreen>

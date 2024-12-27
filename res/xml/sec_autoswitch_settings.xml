@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/autoswitch_title" settings:hierarchicalParentFragment="com.samsung.android.settings.multidevices.MultiDevicesFragment"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecHelpAnimationLayoutPreference android:layout="@layout/sec_guide" android:key="auto_switch_preview" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/autoswitch_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.multidevices.MultiDevicesFragment">
+
+    <com.samsung.android.settings.widget.SecHelpAnimationLayoutPreference
+        android:layout="@layout/sec_guide"
+        android:key="auto_switch_preview" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_autoswitch_guide" android:selectable="false" android:key="auto_switch_dot_list" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_autoswitch_guide"
+        android:selectable="false"
+        android:key="auto_switch_dot_list" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <SecPreferenceCategory android:key="auto_switch_device_list" />
-    <Preference android:key="samsung_account_preference" android:order="40000" />
+
+    <SecPreferenceCategory
+        android:key="auto_switch_device_list" />
+
+    <Preference
+        android:key="samsung_account_preference"
+        android:order="40000" />
+
 </PreferenceScreen>

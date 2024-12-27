@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_high_refresh_rate_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_hrr_preview" android:selectable="false" android:key="sec_high_refresh_rate_preview" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="@dimen/sec_widget_preference_unclickable_margin_top" settings:roundStroke="top_left|top_right" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_high_refresh_rate_best_display_title" android:key="sec_high_refresh_rate_powerful_on" settings:allowDividerBelow="false" settings:isPreferenceVisible="false" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_high_refresh_rate_dynamic_title" android:key="sec_high_refresh_rate_adaptive_on" settings:allowDividerBelow="false" settings:isPreferenceVisible="false" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_high_refresh_rate_standard_title" android:key="sec_high_refresh_rate_standard_off" android:summary="@string/sec_high_refresh_rate_standard_summary" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="@dimen/sec_widget_preference_unclickable_margin_top" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_hrr_preview_text_power_saving" android:key="sec_high_refresh_rate_preview_power_saving" />
-    <com.samsung.android.settings.widget.SecButtonPreference android:key="sec_high_refresh_rate_apply" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_high_refresh_rate_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_hrr_preview"
+        android:selectable="false"
+        android:key="sec_high_refresh_rate_preview" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="@dimen/sec_widget_preference_unclickable_margin_top"
+        settings:roundStroke="top_left|top_right" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_high_refresh_rate_best_display_title"
+        android:key="sec_high_refresh_rate_powerful_on"
+        settings:allowDividerBelow="false"
+        settings:isPreferenceVisible="false" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_high_refresh_rate_dynamic_title"
+        android:key="sec_high_refresh_rate_adaptive_on"
+        settings:allowDividerBelow="false"
+        settings:isPreferenceVisible="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_high_refresh_rate_standard_title"
+        android:key="sec_high_refresh_rate_standard_off"
+        android:summary="@string/sec_high_refresh_rate_standard_summary" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="@dimen/sec_widget_preference_unclickable_margin_top" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_hrr_preview_text_power_saving"
+        android:key="sec_high_refresh_rate_preview_power_saving" />
+
+    <com.samsung.android.settings.widget.SecButtonPreference
+        android:key="sec_high_refresh_rate_apply" />
+
 </PreferenceScreen>

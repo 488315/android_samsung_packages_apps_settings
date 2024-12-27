@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/bluetooth_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <SecPreference android:title="@string/sec_bluetooth_advanced_title" android:key="bluetooth_more_advanced" android:fragment="com.samsung.android.settings.bluetooth.BluetoothAdvancedSettings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/bluetooth_settings">
+
+    <SecPreference
+        android:title="@string/sec_bluetooth_advanced_title"
+        android:key="bluetooth_more_advanced"
+        android:fragment="com.samsung.android.settings.bluetooth.BluetoothAdvancedSettings" />
+
 </PreferenceScreen>

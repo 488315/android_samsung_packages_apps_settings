@@ -1,17 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/accessory" settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.Usefulfeature" settings:topLevelPreferenceKey="top_level_advanced_features"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto"
-  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
-    <SecPreferenceCategory android:key="cover" android:order="1000" settings:controller="com.samsung.android.settings.accessories.controller.CoverCategoryController" />
-    <SecSwitchPreference android:persistent="false" android:title="@string/automatic_unlock" android:key="automatic_unlock" android:summary="@string/automatic_unlock_summary" android:order="2000" settings:controller="com.samsung.android.settings.accessories.controller.AutomaticUnlockController" />
-    <SecSwitchPreference android:persistent="false" android:title="@string/auto_screen_on_title" android:key="auto_screen_on" android:summary="@string/auto_screen_on_summary" android:order="2500" settings:controller="com.samsung.android.settings.accessories.controller.AutoScreenOnController" settings:keywords="@string/keywords_xcover_key_lockscreen_settings" />
-    <SecPreferenceScreen android:title="@string/cover_screen_orientation" android:key="cover_screen_orientation" android:order="3000" android:fragment="com.samsung.android.settings.accessories.CoverScreenOrientation" settings:controller="com.samsung.android.settings.accessories.controller.CoverScreenOrientationController" />
-    <SecPreferenceScreen android:title="@string/sec_additional_information_title" android:key="cover_lock_screen_additional_info" android:summary="@string/sec_additional_information_summary_accessory" android:order="3500" settings:controller="com.samsung.android.settings.accessories.controller.FaceWidgetsController" />
-    <SecPreferenceScreen android:title="@string/sec_lockscreen_notifications" android:key="cover_show_sec_notifications" android:summary="@string/clearview_notifications_summary" android:order="4000" settings:controller="com.samsung.android.settings.accessories.controller.DockNotificationsController" />
-    <SecPreferenceScreen android:title="@string/sview_led_cover_icon_editor" android:key="led_icon_editor" android:summary="@string/sview_led_cover_icon_editor_summary" android:order="5000" settings:controller="com.samsung.android.settings.accessories.controller.LedIconEditorController" />
-    <SecPreferenceScreen android:title="@string/about_led_view_cover" android:key="about_led_view_cover" android:order="6000" settings:controller="com.samsung.android.settings.accessories.controller.AboutLedViewCoverController" />
-    <SecPreferenceScreen android:title="@string/led_cover_user_manual" android:key="led_cover_user_manual" android:order="7000" settings:controller="com.samsung.android.settings.accessories.controller.LedCoverUserManualController" settings:keywords="@string/keywords_led_cover_user_manual_settings" />
-    <SecPreferenceScreen android:title="@string/led_back_cover_title" android:key="led_back_cover" android:summary="@string/led_back_cover_summary" android:order="8000" settings:controller="com.samsung.android.settings.accessories.controller.LedBackCoverController" />
-    <SecPreferenceCategory android:title="@string/smart_accessory" android:key="smart_accessory" android:order="9000" settings:controller="com.samsung.android.settings.accessories.controller.SmartAccessoryCategoryController" />
-    <SecPreferenceScreen android:title="@string/smart_accessory_settings" android:key="smart_accessory_settings" android:order="10000" settings:controller="com.samsung.android.settings.accessories.controller.SmartAccessoryController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz"
+    android:title="@string/accessory"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.Usefulfeature"
+    settings:topLevelPreferenceKey="top_level_advanced_features">
+
+    <SecPreferenceCategory
+        android:key="cover"
+        android:order="1000"
+        settings:controller="com.samsung.android.settings.accessories.controller.CoverCategoryController" />
+
+    <SecSwitchPreference
+        android:persistent="false"
+        android:title="@string/automatic_unlock"
+        android:key="automatic_unlock"
+        android:summary="@string/automatic_unlock_summary"
+        android:order="2000"
+        settings:controller="com.samsung.android.settings.accessories.controller.AutomaticUnlockController" />
+
+    <SecSwitchPreference
+        android:persistent="false"
+        android:title="@string/auto_screen_on_title"
+        android:key="auto_screen_on"
+        android:summary="@string/auto_screen_on_summary"
+        android:order="2500"
+        settings:controller="com.samsung.android.settings.accessories.controller.AutoScreenOnController"
+        settings:keywords="@string/keywords_xcover_key_lockscreen_settings" />
+
+    <SecPreferenceScreen
+        android:title="@string/cover_screen_orientation"
+        android:key="cover_screen_orientation"
+        android:order="3000"
+        android:fragment="com.samsung.android.settings.accessories.CoverScreenOrientation"
+        settings:controller="com.samsung.android.settings.accessories.controller.CoverScreenOrientationController" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_additional_information_title"
+        android:key="cover_lock_screen_additional_info"
+        android:summary="@string/sec_additional_information_summary_accessory"
+        android:order="3500"
+        settings:controller="com.samsung.android.settings.accessories.controller.FaceWidgetsController" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_lockscreen_notifications"
+        android:key="cover_show_sec_notifications"
+        android:summary="@string/clearview_notifications_summary"
+        android:order="4000"
+        settings:controller="com.samsung.android.settings.accessories.controller.DockNotificationsController" />
+
+    <SecPreferenceScreen
+        android:title="@string/sview_led_cover_icon_editor"
+        android:key="led_icon_editor"
+        android:summary="@string/sview_led_cover_icon_editor_summary"
+        android:order="5000"
+        settings:controller="com.samsung.android.settings.accessories.controller.LedIconEditorController" />
+
+    <SecPreferenceScreen
+        android:title="@string/about_led_view_cover"
+        android:key="about_led_view_cover"
+        android:order="6000"
+        settings:controller="com.samsung.android.settings.accessories.controller.AboutLedViewCoverController" />
+
+    <SecPreferenceScreen
+        android:title="@string/led_cover_user_manual"
+        android:key="led_cover_user_manual"
+        android:order="7000"
+        settings:controller="com.samsung.android.settings.accessories.controller.LedCoverUserManualController"
+        settings:keywords="@string/keywords_led_cover_user_manual_settings" />
+
+    <SecPreferenceScreen
+        android:title="@string/led_back_cover_title"
+        android:key="led_back_cover"
+        android:summary="@string/led_back_cover_summary"
+        android:order="8000"
+        settings:controller="com.samsung.android.settings.accessories.controller.LedBackCoverController" />
+
+    <SecPreferenceCategory
+        android:title="@string/smart_accessory"
+        android:key="smart_accessory"
+        android:order="9000"
+        settings:controller="com.samsung.android.settings.accessories.controller.SmartAccessoryCategoryController" />
+
+    <SecPreferenceScreen
+        android:title="@string/smart_accessory_settings"
+        android:key="smart_accessory_settings"
+        android:order="10000"
+        settings:controller="com.samsung.android.settings.accessories.controller.SmartAccessoryController" />
+
 </PreferenceScreen>

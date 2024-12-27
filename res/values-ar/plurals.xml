@@ -1,715 +1,2564 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">قبل %d يوم</item>
-        <item quantity="zero">قبل %d يوم</item>
-        <item quantity="one">قبل %d يوم</item>
-        <item quantity="two">قبل يومين (%d)</item>
-        <item quantity="few">قبل %d أيام</item>
-        <item quantity="many">قبل %d يومًا</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">قبل %d دقيقة</item>
-        <item quantity="zero">قبل %d دقيقة</item>
-        <item quantity="one">قبل %d دقيقة</item>
-        <item quantity="two">قبل دقيقتين (%d)</item>
-        <item quantity="few">قبل %d دقائق</item>
-        <item quantity="many">قبل %d دقيقة</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">قبل %d سنة</item>
-        <item quantity="zero">قبل %d سنة</item>
-        <item quantity="one">قبل %d سنة</item>
-        <item quantity="two">قبل سنتين (%d)</item>
-        <item quantity="few">قبل %d سنوات</item>
-        <item quantity="many">قبل %d سنة</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">دقيقة واحدة</item>
-        <item quantity="two">دقيقتان</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقيقة</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d ثانية</item>
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">ثانية واحدة</item>
-        <item quantity="two">ثانيتان</item>
-        <item quantity="few">%d ثوانٍ</item>
-        <item quantity="many">%d ثانية</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d ذاكرة تخزين مؤقت للتطبيق (%2$s)</item>
-        <item quantity="zero">%1$d ذاكرة تخزين مؤقت للتطبيق (%2$s)</item>
-        <item quantity="one">ذاكرة تخزين مؤقت واحدة للتطبيق (%2$s)</item>
-        <item quantity="two">ذاكرتي تخزين مؤقت للتطبيق (%2$s)</item>
-        <item quantity="few">%1$d ذاكرات تخزين مؤقت للتطبيق (%2$s)</item>
-        <item quantity="many">%1$d ذاكرة تخزين مؤقت للتطبيق (%2$s)</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">هل تريد أرشفة %d تطبيق؟</item>
-        <item quantity="zero">هل تريد أرشفة %d تطبيق؟</item>
-        <item quantity="one">هل تريد أرشفة تطبيق واحد؟</item>
-        <item quantity="two">هل تريد أرشفة تطبيقين؟</item>
-        <item quantity="few">هل تريد أرشفة %d تطبيقات؟</item>
-        <item quantity="many">هل تريد أرشفة %d تطبيقاً؟</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">أرشفة %1$d تطبيق (+%2$s)</item>
-        <item quantity="zero">أرشفة %1$d تطبيق (+%2$s)</item>
-        <item quantity="one">أرشفة تطبيق واحد (+%2$s)</item>
-        <item quantity="two">أرشفة تطبيقين (+%2$s)</item>
-        <item quantity="few">أرشفة %1$d تطبيقات (+%2$s)</item>
-        <item quantity="many">أرشفة %1$d تطبيقاً (+%2$s)</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيق؟</item>
-        <item quantity="zero">هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيق؟</item>
-        <item quantity="one">هل تريد مسح ذاكرة التخزين المؤقت‬ لتطبيق واحد؟</item>
-        <item quantity="two">هل تريد مسح ذاكرة التخزين المؤقت‬ لتطبيقين؟</item>
-        <item quantity="few">هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيقات؟</item>
-        <item quantity="many">هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيقاً؟</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">مسح %1$d ذاكرة تخزين مؤقت (+%2$s)</item>
-        <item quantity="zero">مسح %1$d ذاكرة تخزين مؤقت (+%2$s)</item>
-        <item quantity="one">مسح ذاكرة تخزين مؤقت (+%2$s)</item>
-        <item quantity="two">مسح ذاكرتي تخزين مؤقت (+%2$s)</item>
-        <item quantity="few">مسح %1$d ذاكرات تخزين (+%2$s)</item>
-        <item quantity="many">مسح %1$d ذاكرة تخزين مؤقت (+%2$s)</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">تم تحديد %d</item>
-        <item quantity="zero">تم تحديد %d</item>
-        <item quantity="one">تم تحديد %d</item>
-        <item quantity="two">تم تحديد %d</item>
-        <item quantity="few">تم تحديد %d</item>
-        <item quantity="many">تم تحديد %d</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيق غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
-        <item quantity="zero">يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيق غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
-        <item quantity="one">يمكنك تحرير %1$s من المساحة من خلال أرشفة تطبيق واحد غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
-        <item quantity="two">يمكنك تحرير %1$s من المساحة من خلال أرشفة تطبيقين غير مستخدمين. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
-        <item quantity="few">يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيقات غير مستخدمة. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
-        <item quantity="many">يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيقاً غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">هل تريد إلغاء تثبيت %d تطبيق؟</item>
-        <item quantity="zero">هل تريد إلغاء تثبيت %d تطبيق؟</item>
-        <item quantity="one">هل تريد إلغاء تثبيت تطبيق واحد؟</item>
-        <item quantity="two">هل تريد إلغاء تثبيت تطبيقَين؟</item>
-        <item quantity="few">هل تريد إلغاء تثبيت %d تطبيقات؟</item>
-        <item quantity="many">هل تريد إلغاء تثبيت %d تطبيقاً؟</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">إلغاء تثبيت %1$d تطبيق (+%2$s)</item>
-        <item quantity="zero">إلغاء تثبيت %1$d تطبيق (+%2$s)</item>
-        <item quantity="one">إلغاء تثبيت تطبيق واحد (+%2$s)</item>
-        <item quantity="two">إلغاء تثبيت تطبيقين (+%2$s)</item>
-        <item quantity="few">إلغاء تثبيت %1$d تطبيقات (+%2$s)</item>
-        <item quantity="many">إلغاء تثبيت %1$d تطبيقاً (+%2$s)</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d تطبيق غير مستخدم (%2$s)</item>
-        <item quantity="zero">%1$d تطبيق غير مستخدم (%2$s)</item>
-        <item quantity="one">تطبيق واحد غير مستخدم (%2$s)</item>
-        <item quantity="two">تطبيقان غير مستخدمان (%2$s)</item>
-        <item quantity="few">%1$d تطبيقات غير مستخدمة (%2$s)</item>
-        <item quantity="many">%1$d تطبيقاً غير مستخدماً (%2$s)</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">تتم مشاركة اتصال الإنترنت مع %d جهاز.</item>
-        <item quantity="zero">تتم مشاركة اتصال الإنترنت مع %d جهاز.</item>
-        <item quantity="one">تتم مشاركة اتصال الإنترنت مع جهاز واحد.</item>
-        <item quantity="two">تتم مشاركة اتصال الإنترنت مع جهازين.</item>
-        <item quantity="few">تتم مشاركة اتصال الإنترنت مع %d أجهزة.</item>
-        <item quantity="many">تتم مشاركة اتصال الإنترنت مع %d جهازاً.</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d تطبيق</item>
-        <item quantity="zero">%d تطبيق</item>
-        <item quantity="one">تطبيق واحد</item>
-        <item quantity="two">تطبيقان</item>
-        <item quantity="few">%d تطبيقات</item>
-        <item quantity="many">%d تطبيقاً</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d من الأيام</item>
-        <item quantity="one">يوم واحد</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d ساعات</item>
-        <item quantity="one">ساعة واحدة</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="one">دقيقة واحدة</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d ثانية</item>
-        <item quantity="one">ثانية واحدة</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d من الأسابيع</item>
-        <item quantity="one">أسبوع واحد</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d تطبيق</item>
-        <item quantity="zero">%d تطبيق</item>
-        <item quantity="one">تطبيق واحد</item>
-        <item quantity="two">تطبيقان</item>
-        <item quantity="few">%d تطبيقات</item>
-        <item quantity="many">%d تطبيقاً</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d ساعة</item>
-        <item quantity="zero">%d ساعة</item>
-        <item quantity="one">ساعة واحدة</item>
-        <item quantity="two">ساعتان</item>
-        <item quantity="few">%d ساعات</item>
-        <item quantity="many">%d ساعة</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">دقيقة واحدة</item>
-        <item quantity="two">دقيقتان</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقيقة</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d ثانية</item>
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">ثانية واحدة</item>
-        <item quantity="two">ثانيتان</item>
-        <item quantity="few">%d ثوانٍ</item>
-        <item quantity="many">%d ثانية</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">إذا قمت بحذف هذه الأماكن، فستكون المقاييس الحيوية وتأخير الحماية مطلوبين دائماً عندما تقوم بتغيير الضبط الحساس.</item>
-        <item quantity="one">إذا قمت بحذف هذا المكان، فستكون المقاييس الحيوية وتأخير الحماية مطلوبين دائماً عندما تقوم بتغيير الضبط الحساس.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">هل تريد حذف %d مكان؟</item>
-        <item quantity="zero">هل تريد حذف %d مكان؟</item>
-        <item quantity="one">هل تريد حذف مكان واحد؟</item>
-        <item quantity="two">هل تريد حذف مكانين؟</item>
-        <item quantity="few">هل تريد حذف %d أماكن؟</item>
-        <item quantity="many">هل تريد حذف %d مكاناً؟</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">تم تحديد %d</item>
-        <item quantity="one">تم تحديد ۱</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s و%2$d مكان آخر</item>
-        <item quantity="zero">%1$s و%2$d مكان آخر</item>
-        <item quantity="one">%1$s ومكان واحد آخر</item>
-        <item quantity="two">%1$s ومكانان آخران</item>
-        <item quantity="few">%1$s و%2$d أماكن أخرى</item>
-        <item quantity="many">%1$s و%2$d مكاناً آخراً</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
-        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
-        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
-        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
-        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
-        <item quantity="many">يتعذر إدخال أكثر من %d حرفاً.</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d إشعار جديد</item>
-        <item quantity="zero">%d إشعار جديد</item>
-        <item quantity="one">إشعار جديد واحد (%d)</item>
-        <item quantity="two">إشعاران جديدان (%d)</item>
-        <item quantity="few">%d إشعارات جديدة</item>
-        <item quantity="many">%d إشعارًا جديدًا</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">لم يتم استخدام ذاكرة خلال آخر %d ساعة</item>
-        <item quantity="zero">لم يتم استخدام ذاكرة خلال آخر %d ساعة</item>
-        <item quantity="one">لم يتم استخدام ذاكرة خلال آخر ساعة واحدة</item>
-        <item quantity="two">لم يتم استخدام ذاكرة خلال آخر ساعتين</item>
-        <item quantity="few">لم يتم استخدام ذاكرة خلال آخر %d ساعات</item>
-        <item quantity="many">لم يتم استخدام ذاكرة خلال آخر %d ساعةً</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d إشعار</item>
-        <item quantity="zero">%d إشعار</item>
-        <item quantity="one">إشعار واحد</item>
-        <item quantity="two">إشعاران</item>
-        <item quantity="few">%d إشعارات</item>
-        <item quantity="many">%d إشعاراً</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">التذكير كل %d دقيقة حول الإشعارات للتطبيقات المحددة</item>
-        <item quantity="zero">التذكير كل %d دقيقة حول الإشعارات للتطبيقات المحددة</item>
-        <item quantity="one">التذكير كل دقيقة حول الإشعارات للتطبيقات المحددة</item>
-        <item quantity="two">التذكير كل دقيقتَين حول الإشعارات للتطبيقات المحددة</item>
-        <item quantity="few">التذكير كل %d دقائق حول الإشعارات للتطبيقات المحددة</item>
-        <item quantity="many">التذكير كل %d دقيقة حول الإشعارات للتطبيقات المحددة</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">ما يصل إلى %d تطبيق</item>
-        <item quantity="zero">ما يصل إلى %d تطبيق</item>
-        <item quantity="one">ما يصل إلى تطبيق واحد</item>
-        <item quantity="two">ما يصل إلى تطبيقين</item>
-        <item quantity="few">ما يصل إلى %d تطبيقات</item>
-        <item quantity="many">ما يصل إلى %d تطبيقاً</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">يستخدم %1$s و%2$d تطبيق آخر مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
-        <item quantity="zero">يستخدم %1$s و%2$d تطبيق آخر مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
-        <item quantity="one">يستخدم %1$s وتطبيق واحد آخر مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
-        <item quantity="two">يستخدم %1$s وتطبيقان آخران مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
-        <item quantity="few">يستخدم %1$s و%2$d تطبيقات أخرى مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
-        <item quantity="many">يستخدم %1$s و%2$d تطبيقاً آخراً مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">تم استخدام إذن %1$s بواسطة %2$d تطبيق</item>
-        <item quantity="zero">تم استخدام إذن %1$s بواسطة %2$d تطبيق</item>
-        <item quantity="one">تم استخدام إذن %1$s بواسطة تطبيق واحد</item>
-        <item quantity="two">تم استخدام إذن %1$s بواسطة تطبيقين</item>
-        <item quantity="few">تم استخدام إذن %1$s بواسطة %2$d تطبيقات</item>
-        <item quantity="many">تم استخدام إذن %1$s بواسطة %2$d تطبيقاً</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d وظيفة إمكانية الوصول قيد الاستخدام‬</item>
-        <item quantity="zero">%d وظيفة إمكانية الوصول قيد الاستخدام‬</item>
-        <item quantity="one">وظيفة إمكانية الوصول واحدة قيد الاستخدام‬</item>
-        <item quantity="two">وظيفتا إمكانية الوصول قيد الاستخدام‬</item>
-        <item quantity="few">%d وظائف إمكانية الوصول قيد الاستخدام‬</item>
-        <item quantity="many">%d وظيفة إمكانية الوصول قيد الاستخدام‬</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d تطبيق</item>
-        <item quantity="zero">%d تطبيق</item>
-        <item quantity="one">تطبيق واحد</item>
-        <item quantity="two">تطبيقان</item>
-        <item quantity="few">%d تطبيقات</item>
-        <item quantity="many">%d تطبيقاً</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">هل تريد إزالة %d لغة؟</item>
-        <item quantity="zero">هل تريد إزالة %d لغة؟</item>
-        <item quantity="one">هل تريد إزالة لغة واحدة؟</item>
-        <item quantity="two">هل تريد إزالة لغتَين؟</item>
-        <item quantity="few">هل تريد إزالة %d لغات؟</item>
-        <item quantity="many">هل تريد إزالة %d لغة؟</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">يتمتع %d تطبيق بإمكانية الوصول الكامل إلى هاتفك</item>
-        <item quantity="zero">يتمتع %d تطبيق بإمكانية الوصول الكامل إلى هاتفك</item>
-        <item quantity="one">يتمتع تطبيق واحد بإمكانية الوصول الكامل إلى هاتفك</item>
-        <item quantity="two">يتمتع تطبيقان بإمكانية الوصول الكامل إلى هاتفك</item>
-        <item quantity="few">يتمتع %d تطبيقات بإمكانية الوصول الكامل إلى هاتفك</item>
-        <item quantity="many">يتمتع %d تطبيقاً بإمكانية الوصول الكامل إلى هاتفك</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="zero">سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="one">سيتم إيقاف تشغيل هاتفك تلقائياً في غضون ثانية واحدة. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="two">سيتم إيقاف تشغيل هاتفك تلقائياً في غضون ثانيتَين. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="few">سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثوانٍ. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="many">سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="zero">سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="one">سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون ثانية واحدة. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="two">سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون ثانيتَين. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="few">سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثوانٍ. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-        <item quantity="many">سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">كل %d ساعة</item>
-        <item quantity="zero">كل %d ساعة</item>
-        <item quantity="one">كل ساعة</item>
-        <item quantity="two">كل ساعتين</item>
-        <item quantity="few">كل %d ساعات</item>
-        <item quantity="many">كل %d ساعةً</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">يجب أن تحتوي كلمة المرور على %d رمز على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
-        <item quantity="zero">يجب أن تحتوي كلمة المرور على %d رمز على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور على رمز واحد على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
-        <item quantity="two">يجب أن تحتوي كلمة المرور على رمزَين على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
-        <item quantity="few">يجب أن تحتوي كلمة المرور على %d رموز على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
-        <item quantity="many">يجب أن تحتوي كلمة المرور على %d رمزاً على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">يجب أن يحتوي رقم PIN على %d رقم على الأقل.</item>
-        <item quantity="zero">يجب أن يحتوي رقم PIN على %d رقم على الأقل.</item>
-        <item quantity="one">يجب أن يحتوي رقم PIN على رقم واحد على الأقل.</item>
-        <item quantity="two">يجب أن يحتوي رقم PIN على رقمين على الأقل.</item>
-        <item quantity="few">يجب أن يحتوي رقم PIN على %d أرقام على الأقل.</item>
-        <item quantity="many">يجب أن يحتوي رقم PIN على %d رقماً على الأقل.</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">حاول مرة أخرى خلال ساعة واحدة و%d دقيقة</item>
-        <item quantity="zero">حاول مرة أخرى خلال ساعة واحدة و%d دقيقة</item>
-        <item quantity="one">حاول مرة أخرى خلال ساعة واحدة ودقيقة واحدة</item>
-        <item quantity="two">حاول مرة أخرى خلال ساعة واحدة ودقيقتين</item>
-        <item quantity="few">حاول مرة أخرى خلال ساعة واحدة و%d دقائق</item>
-        <item quantity="many">حاول مرة أخرى خلال ساعة واحدة و%d دقيقةً</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">حاول مرة أخرى خلال %d ساعة</item>
-        <item quantity="zero">حاول مرة أخرى خلال %d ساعة</item>
-        <item quantity="one">حاول مرة أخرى خلال ساعة واحدة</item>
-        <item quantity="two">حاول مرة أخرى خلال ساعتين</item>
-        <item quantity="few">حاول مرة أخرى خلال %d ساعات</item>
-        <item quantity="many">حاول مرة أخرى خلال %d ساعةً</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">حاول مرة أخرى خلال %d ساعة ودقيقة واحدة</item>
-        <item quantity="zero">حاول مرة أخرى خلال %d ساعة ودقيقة واحدة</item>
-        <item quantity="one">حاول مرة أخرى خلال ساعة واحدة ودقيقة واحدة</item>
-        <item quantity="two">حاول مرة أخرى خلال ساعتين ودقيقة واحدة</item>
-        <item quantity="few">حاول مرة أخرى خلال %d ساعات ودقيقة واحدة</item>
-        <item quantity="many">حاول مرة أخرى خلال %d ساعةً ودقيقة واحدة</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">حاول مجدداً بعد %d من الدقائق</item>
-        <item quantity="one">المحاولة مرة أخرى بعد %d من الدقائق</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">حاول مجدداً بعد %d من الثواني</item>
-        <item quantity="one">المحاولة مرة أخرى بعد %d من الثواني</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">يتعذر تشغيل أكثر من %d خدمة إضافية.</item>
-        <item quantity="zero">يتعذر تشغيل أكثر من %d خدمة إضافية.</item>
-        <item quantity="one">يتعذر تشغيل أكثر من خدمة واحدة إضافية.</item>
-        <item quantity="two">يتعذر تشغيل أكثر من خدمتين إضافيتين.</item>
-        <item quantity="few">يتعذر تشغيل أكثر من %d خدمات إضافية.</item>
-        <item quantity="many">يتعذر تشغيل أكثر من %d خدمةً إضافيةً.</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d جهة اتصال مسموح بها</item>
-        <item quantity="zero">%d جهة اتصال مسموح بها</item>
-        <item quantity="one">جهة اتصال واحدة مسموح بها</item>
-        <item quantity="two">جهتا اتصال مسموح بهما</item>
-        <item quantity="few">%d جهات اتصال مسموح بها</item>
-        <item quantity="many">%d جهة اتصال مسموح بها</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">تمت إضافة %d بصمة أصابع</item>
-        <item quantity="zero">تمت إضافة %d بصمة أصابع</item>
-        <item quantity="one">تمت إضافة بصمة إصبع واحدة</item>
-        <item quantity="two">تمت إضافة بصمتَي أصابع</item>
-        <item quantity="few">تمت إضافة %d بصمات أصابع</item>
-        <item quantity="many">تمت إضافة %d بصمة أصابع</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s و%2$s و%3$d تطبيق إضافي</item>
-        <item quantity="zero">%1$s و%2$s و%3$d تطبيق إضافي</item>
-        <item quantity="one">%1$s و%2$s وتطبيق واحد إضافي</item>
-        <item quantity="two">%1$s و%2$s وتطبيقان إضافيان</item>
-        <item quantity="few">%1$s و%2$s و%3$d تطبيقات إضافية</item>
-        <item quantity="many">%1$s و%2$s و%3$d تطبيقاً إضافياً</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">كلمة المرور غير صحيحة. باقٍ %d محاولة.</item>
-        <item quantity="zero">كلمة المرور غير صحيحة. باقٍ %d محاولة.</item>
-        <item quantity="one">كلمة المرور غير صحيحة. باقٍ محاولة واحدة.</item>
-        <item quantity="two">كلمة المرور غير صحيحة. باقٍ محاولتَين.</item>
-        <item quantity="few">كلمة المرور غير صحيحة. باقٍ %d محاولات.</item>
-        <item quantity="many">كلمة المرور غير صحيحة. باقٍ %d محاولة.</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">النمط غير صحيح. باقٍ %d محاولة.</item>
-        <item quantity="zero">النمط غير صحيح. باقٍ %d محاولة.</item>
-        <item quantity="one">النمط غير صحيح. باقٍ محاولة واحدة.</item>
-        <item quantity="two">النمط غير صحيح. باقٍ محاولتَين.</item>
-        <item quantity="few">النمط غير صحيح. باقٍ %d محاولات.</item>
-        <item quantity="many">النمط غير صحيح. باقٍ %d محاولة.</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">رقم PIN غير صحيح. باقٍ %d محاولة.</item>
-        <item quantity="zero">رقم PIN غير صحيح. باقٍ %d محاولة.</item>
-        <item quantity="one">رقم PIN غير صحيح. باقٍ محاولة واحدة.</item>
-        <item quantity="two">رقم PIN غير صحيح. باقٍ محاولتَين.</item>
-        <item quantity="few">رقم PIN غير صحيح. باقٍ %d محاولات.</item>
-        <item quantity="many">رقم PIN غير صحيح. باقٍ %d محاولة.</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
-        <item quantity="zero">يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
-        <item quantity="one">يجب أن يكون عمرك سنة واحدة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
-        <item quantity="two">يجب أن يكون عمرك سنتين على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
-        <item quantity="few">يجب أن يكون عمرك %d سنوات على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
-        <item quantity="many">يجب أن يكون عمرك %d سنةً على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">يجب أن تحتوي كلمة المرور الخاصة بك على %d حرف على الأقل.</item>
-        <item quantity="zero">يجب أن تحتوي كلمة المرور الخاصة بك على %d حرف على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور الخاصة بك على حرف واحد على الأقل.</item>
-        <item quantity="two">يجب أن تحتوي كلمة المرور الخاصة بك على حرفين على الأقل.</item>
-        <item quantity="few">يجب أن تحتوي كلمة المرور الخاصة بك على %d أحرف على الأقل.</item>
-        <item quantity="many">يجب أن تحتوي كلمة المرور الخاصة بك على %d حرفاً على الأقل.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">يجب أن تحتوي كلمة المرور على %d حروف صغيرة على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف واحد صغير على الأقل.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">يجب أن تحتوي كلمة المرور على %d أرقام أو رموز على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور على رقم أو رمز واحد على الأقل.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">يجب أن تحتوي كلمة المرور على %d أرقام على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">يجب أن تحتوي كلمة المرور على %d رموز على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور على رمز واحد على الأقل.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">يجب أن تحتوي كلمة المرور على %d حروف كبيرة على الأقل.</item>
-        <item quantity="one">يجب أن تحتوي كلمة المرور على حرف واحد كبير على الأقل.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">%d اقتراح إضافي</item>
-        <item quantity="zero">%d اقتراح إضافي</item>
-        <item quantity="one">اقتراح واحد إضافي</item>
-        <item quantity="two">اقتراحان إضافيان</item>
-        <item quantity="few">%d اقتراحات إضافية</item>
-        <item quantity="many">%d اقتراحاً إضافياً</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d تطبيق نشط</item>
-        <item quantity="zero">%d تطبيق نشط</item>
-        <item quantity="one">تطبيق واحد نشط</item>
-        <item quantity="two">تطبيقان نشطان</item>
-        <item quantity="few">%d تطبيقات نشطة</item>
-        <item quantity="many">%d تطبيقاً نشطاً</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">هل تريد حذف %d حزمة لغة؟</item>
-        <item quantity="zero">هل تريد حذف %d حزمة لغة؟</item>
-        <item quantity="one">هل تريد حذف حزمة لغة واحدة؟</item>
-        <item quantity="two">هل تريد حذف حزمتي لغة؟</item>
-        <item quantity="few">هل تريد حذف %d حزم لغة؟</item>
-        <item quantity="many">هل تريد حذف %d حزمة لغة؟</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d صوت</item>
-        <item quantity="zero">%d صوت</item>
-        <item quantity="one">صوت واحد</item>
-        <item quantity="two">صوتان</item>
-        <item quantity="few">%d أصوات</item>
-        <item quantity="many">%d صوتاً</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d إذن إضافي</item>
-        <item quantity="zero">%d إذن إضافي</item>
-        <item quantity="one">إذن واحد إضافي</item>
-        <item quantity="two">إذنان إضافيان</item>
-        <item quantity="few">%d أذونات إضافية</item>
-        <item quantity="many">%d إذناً إضافياً</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">أنت على بعد %d خطوة من أن تكون مطوراً.</item>
-        <item quantity="zero">أنت على بعد %d خطوة من أن تكون مطوراً.</item>
-        <item quantity="one">أنت على بعد خطوة واحدة من أن تكون مطوراً.</item>
-        <item quantity="two">أنت على بعد خطوتين من أن تكون مطوراً.</item>
-        <item quantity="few">أنت على بعد %d خطوات من أن تكون مطوراً.</item>
-        <item quantity="many">أنت على بعد %d خطوةً من أن تكون مطوراً.</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">تم تحديد %d</item>
-        <item quantity="zero">تم تحديد %d</item>
-        <item quantity="one">تم تحديد %d</item>
-        <item quantity="two">تم تحديد %d</item>
-        <item quantity="few">تم تحديد %d</item>
-        <item quantity="many">تم تحديد %d</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">تم اكتشاف %d تطبيق ضار</item>
-        <item quantity="zero">تم اكتشاف %d تطبيق ضار</item>
-        <item quantity="one">تم اكتشاف تطبيق ضار واحد</item>
-        <item quantity="two">تم اكتشاف تطبيقين ضارين</item>
-        <item quantity="few">تم اكتشاف %d تطبيقات ضارة</item>
-        <item quantity="many">تم اكتشاف %d تطبيقاً ضاراً</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">تم العثور على %d تطبيق ضار على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
-        <item quantity="zero">تم العثور على %d تطبيق ضار على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
-        <item quantity="one">تم العثور على تطبيق ضار واحد على هاتفك. قم بإلغاء تثبيت هذا التطبيق للمحافظة على سلامة هاتفك.</item>
-        <item quantity="two">تم العثور على تطبيقين ضارين على هاتفك. قم بإلغاء تثبيت هذين التطبيقين للمحافظة على سلامة هاتفك.</item>
-        <item quantity="few">تم العثور على %d تطبيقات ضارة على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
-        <item quantity="many">تم العثور على %d تطبيقاً ضاراً على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">تم العثور على %d تطبيق ضار على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
-        <item quantity="zero">تم العثور على %d تطبيق ضار على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
-        <item quantity="one">تم العثور على تطبيق ضار واحد على جهازك اللوحي. قم بإلغاء تثبيت هذا التطبيق للمحافظة على سلامة جهازك اللوحي.</item>
-        <item quantity="two">تم العثور على تطبيقين ضارين على جهازك اللوحي. قم بإلغاء تثبيت هذين التطبيقين للمحافظة على سلامة جهازك اللوحي.</item>
-        <item quantity="few">تم العثور على %d تطبيقات ضارة على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
-        <item quantity="many">تم العثور على %d تطبيقاً ضاراً على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d اقتراح</item>
-        <item quantity="zero">%d اقتراح</item>
-        <item quantity="one">اقتراح واحد</item>
-        <item quantity="two">اقتراحان</item>
-        <item quantity="few">%d اقتراحات</item>
-        <item quantity="many">%d اقتراحاً</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d تحذير</item>
-        <item quantity="zero">%d تحذير</item>
-        <item quantity="one">تحذير واحد</item>
-        <item quantity="two">تحذيران</item>
-        <item quantity="few">%d تحذيرات</item>
-        <item quantity="many">%d تحذيراً</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">وقت النوم: %d ساعة</item>
-        <item quantity="zero">وقت النوم: %d ساعة</item>
-        <item quantity="one">وقت النوم: ساعة واحدة</item>
-        <item quantity="two">وقت النوم: ساعتان</item>
-        <item quantity="few">وقت النوم: %d ساعات</item>
-        <item quantity="many">وقت النوم: %d ساعةً</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">وقت النوم: %d دقيقة</item>
-        <item quantity="zero">وقت النوم: %d دقيقة</item>
-        <item quantity="one">وقت النوم: دقيقة واحدة</item>
-        <item quantity="two">وقت النوم: دقيقتان</item>
-        <item quantity="few">وقت النوم: %d دقائق</item>
-        <item quantity="many">وقت النوم: %d دقيقةً</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d يوم أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
-        <item quantity="zero">يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d يوم أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
-        <item quantity="one">يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى يوم واحد أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
-        <item quantity="two">يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى يومين أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
-        <item quantity="few">يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d أيام أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
-        <item quantity="many">يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d يوماً أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">ستتم إعادة ضبط هذا الاختبار في غضون %d ثانية.</item>
-        <item quantity="zero">ستتم إعادة ضبط هذا الاختبار في غضون %d ثانية.</item>
-        <item quantity="one">ستتم إعادة ضبط هذا الاختبار في غضون ثانية واحدة.</item>
-        <item quantity="two">ستتم إعادة ضبط هذا الاختبار في غضون ثانيتين.</item>
-        <item quantity="few">ستتم إعادة ضبط هذا الاختبار في غضون %d ثواني.</item>
-        <item quantity="many">ستتم إعادة ضبط هذا الاختبار في غضون %d ثانيةً.</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d جهاز متصل</item>
-        <item quantity="zero">%d جهاز متصل</item>
-        <item quantity="one">جهاز واحد متصل</item>
-        <item quantity="two">جهازان متصلان</item>
-        <item quantity="few">%d أجهزة متصلة</item>
-        <item quantity="many">%d جهازاً متصلاً</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="zero">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="one">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="two">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيَين من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="few">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="many">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
-        <item quantity="zero">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
-        <item quantity="one">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
-        <item quantity="two">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيَين من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
-        <item quantity="few">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
-        <item quantity="many">حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
-        <item quantity="zero">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
-        <item quantity="one">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
-        <item quantity="two">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيَين من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
-        <item quantity="few">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
-        <item quantity="many">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="zero">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="one">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="two">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيين من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="few">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-        <item quantity="many">حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d عضو</item>
-        <item quantity="zero">%d عضو</item>
-        <item quantity="one">عضو واحد</item>
-        <item quantity="two">عضوان</item>
-        <item quantity="few">%d أعضاء</item>
-        <item quantity="many">%d عضواً</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">هل تريد حذف %d شبكة؟</item>
-        <item quantity="zero">هل تريد حذف %d شبكة؟</item>
-        <item quantity="one">حذف شبكة واحدة؟</item>
-        <item quantity="two">هل تريد حذف شبكتين؟</item>
-        <item quantity="few">هل تريد حذف %d شبكات؟</item>
-        <item quantity="many">هل تريد حذف %d شبكةً؟</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">تم تحديد %d</item>
-        <item quantity="zero">تم تحديد %d</item>
-        <item quantity="one">تم تحديد %d</item>
-        <item quantity="two">تم تحديد %d</item>
-        <item quantity="few">تم تحديد %d</item>
-        <item quantity="many">تم تحديد %d</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="zero">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="one">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="two">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولتين متبقيتين قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="few">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولات متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="many">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولةً متبقيةً قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="zero">‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="one">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="two">‏‫تم إجراء محاولتين لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="few">‏‫تم إجراء %d محاولات لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="many">‏‫تم إجراء %d محاولةً لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="zero">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="one">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="two">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولتين متبقيتين قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="few">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولات متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="many">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولةً متبقيةً قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
-        <item quantity="zero">‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
-        <item quantity="one">‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
-        <item quantity="two">‏‫تم إجراء محاولتين لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
-        <item quantity="few">‏‫تم إجراء %d محاولات لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
-        <item quantity="many">‏‫تم إجراء %d محاولةً لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d ساعة</item>
-        <item quantity="zero">%d ساعة</item>
-        <item quantity="one">ساعة واحدة</item>
-        <item quantity="two">ساعتان</item>
-        <item quantity="few">%d ساعات</item>
-        <item quantity="many">%d ساعةً</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">دقيقة واحدة</item>
-        <item quantity="two">دقيقتان</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقيقة</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+قبل %d يوم</item>
+
+        <item
+            quantity="zero">
+قبل %d يوم</item>
+
+        <item
+            quantity="one">
+قبل %d يوم</item>
+
+        <item
+            quantity="two">
+قبل يومين (%d)</item>
+
+        <item
+            quantity="few">
+قبل %d أيام</item>
+
+        <item
+            quantity="many">
+قبل %d يومًا</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+قبل %d دقيقة</item>
+
+        <item
+            quantity="zero">
+قبل %d دقيقة</item>
+
+        <item
+            quantity="one">
+قبل %d دقيقة</item>
+
+        <item
+            quantity="two">
+قبل دقيقتين (%d)</item>
+
+        <item
+            quantity="few">
+قبل %d دقائق</item>
+
+        <item
+            quantity="many">
+قبل %d دقيقة</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+قبل %d سنة</item>
+
+        <item
+            quantity="zero">
+قبل %d سنة</item>
+
+        <item
+            quantity="one">
+قبل %d سنة</item>
+
+        <item
+            quantity="two">
+قبل سنتين (%d)</item>
+
+        <item
+            quantity="few">
+قبل %d سنوات</item>
+
+        <item
+            quantity="many">
+قبل %d سنة</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d دقيقة</item>
+
+        <item
+            quantity="zero">
+%d دقيقة</item>
+
+        <item
+            quantity="one">
+دقيقة واحدة</item>
+
+        <item
+            quantity="two">
+دقيقتان</item>
+
+        <item
+            quantity="few">
+%d دقائق</item>
+
+        <item
+            quantity="many">
+%d دقيقة</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d ثانية</item>
+
+        <item
+            quantity="zero">
+%d ثانية</item>
+
+        <item
+            quantity="one">
+ثانية واحدة</item>
+
+        <item
+            quantity="two">
+ثانيتان</item>
+
+        <item
+            quantity="few">
+%d ثوانٍ</item>
+
+        <item
+            quantity="many">
+%d ثانية</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d ذاكرة تخزين مؤقت للتطبيق (%2$s)</item>
+
+        <item
+            quantity="zero">
+%1$d ذاكرة تخزين مؤقت للتطبيق (%2$s)</item>
+
+        <item
+            quantity="one">
+ذاكرة تخزين مؤقت واحدة للتطبيق (%2$s)</item>
+
+        <item
+            quantity="two">
+ذاكرتي تخزين مؤقت للتطبيق (%2$s)</item>
+
+        <item
+            quantity="few">
+%1$d ذاكرات تخزين مؤقت للتطبيق (%2$s)</item>
+
+        <item
+            quantity="many">
+%1$d ذاكرة تخزين مؤقت للتطبيق (%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+هل تريد أرشفة %d تطبيق؟</item>
+
+        <item
+            quantity="zero">
+هل تريد أرشفة %d تطبيق؟</item>
+
+        <item
+            quantity="one">
+هل تريد أرشفة تطبيق واحد؟</item>
+
+        <item
+            quantity="two">
+هل تريد أرشفة تطبيقين؟</item>
+
+        <item
+            quantity="few">
+هل تريد أرشفة %d تطبيقات؟</item>
+
+        <item
+            quantity="many">
+هل تريد أرشفة %d تطبيقاً؟</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+أرشفة %1$d تطبيق (+%2$s)</item>
+
+        <item
+            quantity="zero">
+أرشفة %1$d تطبيق (+%2$s)</item>
+
+        <item
+            quantity="one">
+أرشفة تطبيق واحد (+%2$s)</item>
+
+        <item
+            quantity="two">
+أرشفة تطبيقين (+%2$s)</item>
+
+        <item
+            quantity="few">
+أرشفة %1$d تطبيقات (+%2$s)</item>
+
+        <item
+            quantity="many">
+أرشفة %1$d تطبيقاً (+%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيق؟</item>
+
+        <item
+            quantity="zero">
+هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيق؟</item>
+
+        <item
+            quantity="one">
+هل تريد مسح ذاكرة التخزين المؤقت‬ لتطبيق واحد؟</item>
+
+        <item
+            quantity="two">
+هل تريد مسح ذاكرة التخزين المؤقت‬ لتطبيقين؟</item>
+
+        <item
+            quantity="few">
+هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيقات؟</item>
+
+        <item
+            quantity="many">
+هل تريد مسح ذاكرة التخزين المؤقت‬ لـ %d تطبيقاً؟</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+مسح %1$d ذاكرة تخزين مؤقت (+%2$s)</item>
+
+        <item
+            quantity="zero">
+مسح %1$d ذاكرة تخزين مؤقت (+%2$s)</item>
+
+        <item
+            quantity="one">
+مسح ذاكرة تخزين مؤقت (+%2$s)</item>
+
+        <item
+            quantity="two">
+مسح ذاكرتي تخزين مؤقت (+%2$s)</item>
+
+        <item
+            quantity="few">
+مسح %1$d ذاكرات تخزين (+%2$s)</item>
+
+        <item
+            quantity="many">
+مسح %1$d ذاكرة تخزين مؤقت (+%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+تم تحديد %d</item>
+
+        <item
+            quantity="zero">
+تم تحديد %d</item>
+
+        <item
+            quantity="one">
+تم تحديد %d</item>
+
+        <item
+            quantity="two">
+تم تحديد %d</item>
+
+        <item
+            quantity="few">
+تم تحديد %d</item>
+
+        <item
+            quantity="many">
+تم تحديد %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيق غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
+
+        <item
+            quantity="zero">
+يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيق غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
+
+        <item
+            quantity="one">
+يمكنك تحرير %1$s من المساحة من خلال أرشفة تطبيق واحد غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
+
+        <item
+            quantity="two">
+يمكنك تحرير %1$s من المساحة من خلال أرشفة تطبيقين غير مستخدمين. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
+
+        <item
+            quantity="few">
+يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيقات غير مستخدمة. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
+
+        <item
+            quantity="many">
+يمكنك تحرير %1$s من المساحة من خلال أرشفة %2$d تطبيقاً غير مستخدم. سيتم حفظ بياناتك الشخصية والضبط الخاص بك.</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+هل تريد إلغاء تثبيت %d تطبيق؟</item>
+
+        <item
+            quantity="zero">
+هل تريد إلغاء تثبيت %d تطبيق؟</item>
+
+        <item
+            quantity="one">
+هل تريد إلغاء تثبيت تطبيق واحد؟</item>
+
+        <item
+            quantity="two">
+هل تريد إلغاء تثبيت تطبيقَين؟</item>
+
+        <item
+            quantity="few">
+هل تريد إلغاء تثبيت %d تطبيقات؟</item>
+
+        <item
+            quantity="many">
+هل تريد إلغاء تثبيت %d تطبيقاً؟</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+إلغاء تثبيت %1$d تطبيق (+%2$s)</item>
+
+        <item
+            quantity="zero">
+إلغاء تثبيت %1$d تطبيق (+%2$s)</item>
+
+        <item
+            quantity="one">
+إلغاء تثبيت تطبيق واحد (+%2$s)</item>
+
+        <item
+            quantity="two">
+إلغاء تثبيت تطبيقين (+%2$s)</item>
+
+        <item
+            quantity="few">
+إلغاء تثبيت %1$d تطبيقات (+%2$s)</item>
+
+        <item
+            quantity="many">
+إلغاء تثبيت %1$d تطبيقاً (+%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d تطبيق غير مستخدم (%2$s)</item>
+
+        <item
+            quantity="zero">
+%1$d تطبيق غير مستخدم (%2$s)</item>
+
+        <item
+            quantity="one">
+تطبيق واحد غير مستخدم (%2$s)</item>
+
+        <item
+            quantity="two">
+تطبيقان غير مستخدمان (%2$s)</item>
+
+        <item
+            quantity="few">
+%1$d تطبيقات غير مستخدمة (%2$s)</item>
+
+        <item
+            quantity="many">
+%1$d تطبيقاً غير مستخدماً (%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+تتم مشاركة اتصال الإنترنت مع %d جهاز.</item>
+
+        <item
+            quantity="zero">
+تتم مشاركة اتصال الإنترنت مع %d جهاز.</item>
+
+        <item
+            quantity="one">
+تتم مشاركة اتصال الإنترنت مع جهاز واحد.</item>
+
+        <item
+            quantity="two">
+تتم مشاركة اتصال الإنترنت مع جهازين.</item>
+
+        <item
+            quantity="few">
+تتم مشاركة اتصال الإنترنت مع %d أجهزة.</item>
+
+        <item
+            quantity="many">
+تتم مشاركة اتصال الإنترنت مع %d جهازاً.</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d تطبيق</item>
+
+        <item
+            quantity="zero">
+%d تطبيق</item>
+
+        <item
+            quantity="one">
+تطبيق واحد</item>
+
+        <item
+            quantity="two">
+تطبيقان</item>
+
+        <item
+            quantity="few">
+%d تطبيقات</item>
+
+        <item
+            quantity="many">
+%d تطبيقاً</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d من الأيام</item>
+
+        <item
+            quantity="one">
+يوم واحد</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d ساعات</item>
+
+        <item
+            quantity="one">
+ساعة واحدة</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d دقيقة</item>
+
+        <item
+            quantity="one">
+دقيقة واحدة</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d ثانية</item>
+
+        <item
+            quantity="one">
+ثانية واحدة</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d من الأسابيع</item>
+
+        <item
+            quantity="one">
+أسبوع واحد</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d تطبيق</item>
+
+        <item
+            quantity="zero">
+%d تطبيق</item>
+
+        <item
+            quantity="one">
+تطبيق واحد</item>
+
+        <item
+            quantity="two">
+تطبيقان</item>
+
+        <item
+            quantity="few">
+%d تطبيقات</item>
+
+        <item
+            quantity="many">
+%d تطبيقاً</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d ساعة</item>
+
+        <item
+            quantity="zero">
+%d ساعة</item>
+
+        <item
+            quantity="one">
+ساعة واحدة</item>
+
+        <item
+            quantity="two">
+ساعتان</item>
+
+        <item
+            quantity="few">
+%d ساعات</item>
+
+        <item
+            quantity="many">
+%d ساعة</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d دقيقة</item>
+
+        <item
+            quantity="zero">
+%d دقيقة</item>
+
+        <item
+            quantity="one">
+دقيقة واحدة</item>
+
+        <item
+            quantity="two">
+دقيقتان</item>
+
+        <item
+            quantity="few">
+%d دقائق</item>
+
+        <item
+            quantity="many">
+%d دقيقة</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d ثانية</item>
+
+        <item
+            quantity="zero">
+%d ثانية</item>
+
+        <item
+            quantity="one">
+ثانية واحدة</item>
+
+        <item
+            quantity="two">
+ثانيتان</item>
+
+        <item
+            quantity="few">
+%d ثوانٍ</item>
+
+        <item
+            quantity="many">
+%d ثانية</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+إذا قمت بحذف هذه الأماكن، فستكون المقاييس الحيوية وتأخير الحماية مطلوبين دائماً عندما تقوم بتغيير الضبط الحساس.</item>
+
+        <item
+            quantity="one">
+إذا قمت بحذف هذا المكان، فستكون المقاييس الحيوية وتأخير الحماية مطلوبين دائماً عندما تقوم بتغيير الضبط الحساس.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+هل تريد حذف %d مكان؟</item>
+
+        <item
+            quantity="zero">
+هل تريد حذف %d مكان؟</item>
+
+        <item
+            quantity="one">
+هل تريد حذف مكان واحد؟</item>
+
+        <item
+            quantity="two">
+هل تريد حذف مكانين؟</item>
+
+        <item
+            quantity="few">
+هل تريد حذف %d أماكن؟</item>
+
+        <item
+            quantity="many">
+هل تريد حذف %d مكاناً؟</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+تم تحديد %d</item>
+
+        <item
+            quantity="one">
+تم تحديد ۱</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s و%2$d مكان آخر</item>
+
+        <item
+            quantity="zero">
+%1$s و%2$d مكان آخر</item>
+
+        <item
+            quantity="one">
+%1$s ومكان واحد آخر</item>
+
+        <item
+            quantity="two">
+%1$s ومكانان آخران</item>
+
+        <item
+            quantity="few">
+%1$s و%2$d أماكن أخرى</item>
+
+        <item
+            quantity="many">
+%1$s و%2$d مكاناً آخراً</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+يتعذر إدخال أكثر من %d حرف.</item>
+
+        <item
+            quantity="zero">
+يتعذر إدخال أكثر من %d حرف.</item>
+
+        <item
+            quantity="one">
+يتعذر إدخال أكثر من حرف واحد.</item>
+
+        <item
+            quantity="two">
+يتعذر إدخال أكثر من حرفين.</item>
+
+        <item
+            quantity="few">
+يتعذر إدخال أكثر من %d أحرف.</item>
+
+        <item
+            quantity="many">
+يتعذر إدخال أكثر من %d حرفاً.</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d إشعار جديد</item>
+
+        <item
+            quantity="zero">
+%d إشعار جديد</item>
+
+        <item
+            quantity="one">
+إشعار جديد واحد (%d)</item>
+
+        <item
+            quantity="two">
+إشعاران جديدان (%d)</item>
+
+        <item
+            quantity="few">
+%d إشعارات جديدة</item>
+
+        <item
+            quantity="many">
+%d إشعارًا جديدًا</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+لم يتم استخدام ذاكرة خلال آخر %d ساعة</item>
+
+        <item
+            quantity="zero">
+لم يتم استخدام ذاكرة خلال آخر %d ساعة</item>
+
+        <item
+            quantity="one">
+لم يتم استخدام ذاكرة خلال آخر ساعة واحدة</item>
+
+        <item
+            quantity="two">
+لم يتم استخدام ذاكرة خلال آخر ساعتين</item>
+
+        <item
+            quantity="few">
+لم يتم استخدام ذاكرة خلال آخر %d ساعات</item>
+
+        <item
+            quantity="many">
+لم يتم استخدام ذاكرة خلال آخر %d ساعةً</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d إشعار</item>
+
+        <item
+            quantity="zero">
+%d إشعار</item>
+
+        <item
+            quantity="one">
+إشعار واحد</item>
+
+        <item
+            quantity="two">
+إشعاران</item>
+
+        <item
+            quantity="few">
+%d إشعارات</item>
+
+        <item
+            quantity="many">
+%d إشعاراً</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+التذكير كل %d دقيقة حول الإشعارات للتطبيقات المحددة</item>
+
+        <item
+            quantity="zero">
+التذكير كل %d دقيقة حول الإشعارات للتطبيقات المحددة</item>
+
+        <item
+            quantity="one">
+التذكير كل دقيقة حول الإشعارات للتطبيقات المحددة</item>
+
+        <item
+            quantity="two">
+التذكير كل دقيقتَين حول الإشعارات للتطبيقات المحددة</item>
+
+        <item
+            quantity="few">
+التذكير كل %d دقائق حول الإشعارات للتطبيقات المحددة</item>
+
+        <item
+            quantity="many">
+التذكير كل %d دقيقة حول الإشعارات للتطبيقات المحددة</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+ما يصل إلى %d تطبيق</item>
+
+        <item
+            quantity="zero">
+ما يصل إلى %d تطبيق</item>
+
+        <item
+            quantity="one">
+ما يصل إلى تطبيق واحد</item>
+
+        <item
+            quantity="two">
+ما يصل إلى تطبيقين</item>
+
+        <item
+            quantity="few">
+ما يصل إلى %d تطبيقات</item>
+
+        <item
+            quantity="many">
+ما يصل إلى %d تطبيقاً</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+يستخدم %1$s و%2$d تطبيق آخر مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
+
+        <item
+            quantity="zero">
+يستخدم %1$s و%2$d تطبيق آخر مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
+
+        <item
+            quantity="one">
+يستخدم %1$s وتطبيق واحد آخر مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
+
+        <item
+            quantity="two">
+يستخدم %1$s وتطبيقان آخران مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
+
+        <item
+            quantity="few">
+يستخدم %1$s و%2$d تطبيقات أخرى مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
+
+        <item
+            quantity="many">
+يستخدم %1$s و%2$d تطبيقاً آخراً مفاتيح المرور وإدخال كلمات المرور والمعلومات الأخرى تلقائياً.</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+تم استخدام إذن %1$s بواسطة %2$d تطبيق</item>
+
+        <item
+            quantity="zero">
+تم استخدام إذن %1$s بواسطة %2$d تطبيق</item>
+
+        <item
+            quantity="one">
+تم استخدام إذن %1$s بواسطة تطبيق واحد</item>
+
+        <item
+            quantity="two">
+تم استخدام إذن %1$s بواسطة تطبيقين</item>
+
+        <item
+            quantity="few">
+تم استخدام إذن %1$s بواسطة %2$d تطبيقات</item>
+
+        <item
+            quantity="many">
+تم استخدام إذن %1$s بواسطة %2$d تطبيقاً</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d وظيفة إمكانية الوصول قيد الاستخدام‬</item>
+
+        <item
+            quantity="zero">
+%d وظيفة إمكانية الوصول قيد الاستخدام‬</item>
+
+        <item
+            quantity="one">
+وظيفة إمكانية الوصول واحدة قيد الاستخدام‬</item>
+
+        <item
+            quantity="two">
+وظيفتا إمكانية الوصول قيد الاستخدام‬</item>
+
+        <item
+            quantity="few">
+%d وظائف إمكانية الوصول قيد الاستخدام‬</item>
+
+        <item
+            quantity="many">
+%d وظيفة إمكانية الوصول قيد الاستخدام‬</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d تطبيق</item>
+
+        <item
+            quantity="zero">
+%d تطبيق</item>
+
+        <item
+            quantity="one">
+تطبيق واحد</item>
+
+        <item
+            quantity="two">
+تطبيقان</item>
+
+        <item
+            quantity="few">
+%d تطبيقات</item>
+
+        <item
+            quantity="many">
+%d تطبيقاً</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+هل تريد إزالة %d لغة؟</item>
+
+        <item
+            quantity="zero">
+هل تريد إزالة %d لغة؟</item>
+
+        <item
+            quantity="one">
+هل تريد إزالة لغة واحدة؟</item>
+
+        <item
+            quantity="two">
+هل تريد إزالة لغتَين؟</item>
+
+        <item
+            quantity="few">
+هل تريد إزالة %d لغات؟</item>
+
+        <item
+            quantity="many">
+هل تريد إزالة %d لغة؟</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+يتمتع %d تطبيق بإمكانية الوصول الكامل إلى هاتفك</item>
+
+        <item
+            quantity="zero">
+يتمتع %d تطبيق بإمكانية الوصول الكامل إلى هاتفك</item>
+
+        <item
+            quantity="one">
+يتمتع تطبيق واحد بإمكانية الوصول الكامل إلى هاتفك</item>
+
+        <item
+            quantity="two">
+يتمتع تطبيقان بإمكانية الوصول الكامل إلى هاتفك</item>
+
+        <item
+            quantity="few">
+يتمتع %d تطبيقات بإمكانية الوصول الكامل إلى هاتفك</item>
+
+        <item
+            quantity="many">
+يتمتع %d تطبيقاً بإمكانية الوصول الكامل إلى هاتفك</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="zero">
+سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="one">
+سيتم إيقاف تشغيل هاتفك تلقائياً في غضون ثانية واحدة. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="two">
+سيتم إيقاف تشغيل هاتفك تلقائياً في غضون ثانيتَين. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="few">
+سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثوانٍ. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="many">
+سيتم إيقاف تشغيل هاتفك تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="zero">
+سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="one">
+سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون ثانية واحدة. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="two">
+سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون ثانيتَين. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="few">
+سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثوانٍ. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+        <item
+            quantity="many">
+سيتم إيقاف تشغيل جهازك اللوحي تلقائياً في غضون %d ثانية. لإبقائه قيد التشغيل هذه المرة، انقر فوق ”إلغاء“.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+كل %d ساعة</item>
+
+        <item
+            quantity="zero">
+كل %d ساعة</item>
+
+        <item
+            quantity="one">
+كل ساعة</item>
+
+        <item
+            quantity="two">
+كل ساعتين</item>
+
+        <item
+            quantity="few">
+كل %d ساعات</item>
+
+        <item
+            quantity="many">
+كل %d ساعةً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور على %d رمز على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
+
+        <item
+            quantity="zero">
+يجب أن تحتوي كلمة المرور على %d رمز على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور على رمز واحد على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
+
+        <item
+            quantity="two">
+يجب أن تحتوي كلمة المرور على رمزَين على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
+
+        <item
+            quantity="few">
+يجب أن تحتوي كلمة المرور على %d رموز على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
+
+        <item
+            quantity="many">
+يجب أن تحتوي كلمة المرور على %d رمزاً على الأقل، على أن تتضمن حرفاً واحداً على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+يجب أن يحتوي رقم PIN على %d رقم على الأقل.</item>
+
+        <item
+            quantity="zero">
+يجب أن يحتوي رقم PIN على %d رقم على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن يحتوي رقم PIN على رقم واحد على الأقل.</item>
+
+        <item
+            quantity="two">
+يجب أن يحتوي رقم PIN على رقمين على الأقل.</item>
+
+        <item
+            quantity="few">
+يجب أن يحتوي رقم PIN على %d أرقام على الأقل.</item>
+
+        <item
+            quantity="many">
+يجب أن يحتوي رقم PIN على %d رقماً على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+حاول مرة أخرى خلال ساعة واحدة و%d دقيقة</item>
+
+        <item
+            quantity="zero">
+حاول مرة أخرى خلال ساعة واحدة و%d دقيقة</item>
+
+        <item
+            quantity="one">
+حاول مرة أخرى خلال ساعة واحدة ودقيقة واحدة</item>
+
+        <item
+            quantity="two">
+حاول مرة أخرى خلال ساعة واحدة ودقيقتين</item>
+
+        <item
+            quantity="few">
+حاول مرة أخرى خلال ساعة واحدة و%d دقائق</item>
+
+        <item
+            quantity="many">
+حاول مرة أخرى خلال ساعة واحدة و%d دقيقةً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+حاول مرة أخرى خلال %d ساعة</item>
+
+        <item
+            quantity="zero">
+حاول مرة أخرى خلال %d ساعة</item>
+
+        <item
+            quantity="one">
+حاول مرة أخرى خلال ساعة واحدة</item>
+
+        <item
+            quantity="two">
+حاول مرة أخرى خلال ساعتين</item>
+
+        <item
+            quantity="few">
+حاول مرة أخرى خلال %d ساعات</item>
+
+        <item
+            quantity="many">
+حاول مرة أخرى خلال %d ساعةً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+حاول مرة أخرى خلال %d ساعة ودقيقة واحدة</item>
+
+        <item
+            quantity="zero">
+حاول مرة أخرى خلال %d ساعة ودقيقة واحدة</item>
+
+        <item
+            quantity="one">
+حاول مرة أخرى خلال ساعة واحدة ودقيقة واحدة</item>
+
+        <item
+            quantity="two">
+حاول مرة أخرى خلال ساعتين ودقيقة واحدة</item>
+
+        <item
+            quantity="few">
+حاول مرة أخرى خلال %d ساعات ودقيقة واحدة</item>
+
+        <item
+            quantity="many">
+حاول مرة أخرى خلال %d ساعةً ودقيقة واحدة</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+حاول مجدداً بعد %d من الدقائق</item>
+
+        <item
+            quantity="one">
+المحاولة مرة أخرى بعد %d من الدقائق</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+حاول مجدداً بعد %d من الثواني</item>
+
+        <item
+            quantity="one">
+المحاولة مرة أخرى بعد %d من الثواني</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+يتعذر تشغيل أكثر من %d خدمة إضافية.</item>
+
+        <item
+            quantity="zero">
+يتعذر تشغيل أكثر من %d خدمة إضافية.</item>
+
+        <item
+            quantity="one">
+يتعذر تشغيل أكثر من خدمة واحدة إضافية.</item>
+
+        <item
+            quantity="two">
+يتعذر تشغيل أكثر من خدمتين إضافيتين.</item>
+
+        <item
+            quantity="few">
+يتعذر تشغيل أكثر من %d خدمات إضافية.</item>
+
+        <item
+            quantity="many">
+يتعذر تشغيل أكثر من %d خدمةً إضافيةً.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d جهة اتصال مسموح بها</item>
+
+        <item
+            quantity="zero">
+%d جهة اتصال مسموح بها</item>
+
+        <item
+            quantity="one">
+جهة اتصال واحدة مسموح بها</item>
+
+        <item
+            quantity="two">
+جهتا اتصال مسموح بهما</item>
+
+        <item
+            quantity="few">
+%d جهات اتصال مسموح بها</item>
+
+        <item
+            quantity="many">
+%d جهة اتصال مسموح بها</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+تمت إضافة %d بصمة أصابع</item>
+
+        <item
+            quantity="zero">
+تمت إضافة %d بصمة أصابع</item>
+
+        <item
+            quantity="one">
+تمت إضافة بصمة إصبع واحدة</item>
+
+        <item
+            quantity="two">
+تمت إضافة بصمتَي أصابع</item>
+
+        <item
+            quantity="few">
+تمت إضافة %d بصمات أصابع</item>
+
+        <item
+            quantity="many">
+تمت إضافة %d بصمة أصابع</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s و%2$s و%3$d تطبيق إضافي</item>
+
+        <item
+            quantity="zero">
+%1$s و%2$s و%3$d تطبيق إضافي</item>
+
+        <item
+            quantity="one">
+%1$s و%2$s وتطبيق واحد إضافي</item>
+
+        <item
+            quantity="two">
+%1$s و%2$s وتطبيقان إضافيان</item>
+
+        <item
+            quantity="few">
+%1$s و%2$s و%3$d تطبيقات إضافية</item>
+
+        <item
+            quantity="many">
+%1$s و%2$s و%3$d تطبيقاً إضافياً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+كلمة المرور غير صحيحة. باقٍ %d محاولة.</item>
+
+        <item
+            quantity="zero">
+كلمة المرور غير صحيحة. باقٍ %d محاولة.</item>
+
+        <item
+            quantity="one">
+كلمة المرور غير صحيحة. باقٍ محاولة واحدة.</item>
+
+        <item
+            quantity="two">
+كلمة المرور غير صحيحة. باقٍ محاولتَين.</item>
+
+        <item
+            quantity="few">
+كلمة المرور غير صحيحة. باقٍ %d محاولات.</item>
+
+        <item
+            quantity="many">
+كلمة المرور غير صحيحة. باقٍ %d محاولة.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+النمط غير صحيح. باقٍ %d محاولة.</item>
+
+        <item
+            quantity="zero">
+النمط غير صحيح. باقٍ %d محاولة.</item>
+
+        <item
+            quantity="one">
+النمط غير صحيح. باقٍ محاولة واحدة.</item>
+
+        <item
+            quantity="two">
+النمط غير صحيح. باقٍ محاولتَين.</item>
+
+        <item
+            quantity="few">
+النمط غير صحيح. باقٍ %d محاولات.</item>
+
+        <item
+            quantity="many">
+النمط غير صحيح. باقٍ %d محاولة.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+رقم PIN غير صحيح. باقٍ %d محاولة.</item>
+
+        <item
+            quantity="zero">
+رقم PIN غير صحيح. باقٍ %d محاولة.</item>
+
+        <item
+            quantity="one">
+رقم PIN غير صحيح. باقٍ محاولة واحدة.</item>
+
+        <item
+            quantity="two">
+رقم PIN غير صحيح. باقٍ محاولتَين.</item>
+
+        <item
+            quantity="few">
+رقم PIN غير صحيح. باقٍ %d محاولات.</item>
+
+        <item
+            quantity="many">
+رقم PIN غير صحيح. باقٍ %d محاولة.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+
+        <item
+            quantity="zero">
+يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+
+        <item
+            quantity="one">
+يجب أن يكون عمرك سنة واحدة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+
+        <item
+            quantity="two">
+يجب أن يكون عمرك سنتين على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+
+        <item
+            quantity="few">
+يجب أن يكون عمرك %d سنوات على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+
+        <item
+            quantity="many">
+يجب أن يكون عمرك %d سنةً على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور الخاصة بك على %d حرف على الأقل.</item>
+
+        <item
+            quantity="zero">
+يجب أن تحتوي كلمة المرور الخاصة بك على %d حرف على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور الخاصة بك على حرف واحد على الأقل.</item>
+
+        <item
+            quantity="two">
+يجب أن تحتوي كلمة المرور الخاصة بك على حرفين على الأقل.</item>
+
+        <item
+            quantity="few">
+يجب أن تحتوي كلمة المرور الخاصة بك على %d أحرف على الأقل.</item>
+
+        <item
+            quantity="many">
+يجب أن تحتوي كلمة المرور الخاصة بك على %d حرفاً على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور على %d حروف صغيرة على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور على حرف واحد صغير على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور على %d أرقام أو رموز على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور على رقم أو رمز واحد على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور على %d أرقام على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور على %d رموز على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور على رمز واحد على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+يجب أن تحتوي كلمة المرور على %d حروف كبيرة على الأقل.</item>
+
+        <item
+            quantity="one">
+يجب أن تحتوي كلمة المرور على حرف واحد كبير على الأقل.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+%d اقتراح إضافي</item>
+
+        <item
+            quantity="zero">
+%d اقتراح إضافي</item>
+
+        <item
+            quantity="one">
+اقتراح واحد إضافي</item>
+
+        <item
+            quantity="two">
+اقتراحان إضافيان</item>
+
+        <item
+            quantity="few">
+%d اقتراحات إضافية</item>
+
+        <item
+            quantity="many">
+%d اقتراحاً إضافياً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d تطبيق نشط</item>
+
+        <item
+            quantity="zero">
+%d تطبيق نشط</item>
+
+        <item
+            quantity="one">
+تطبيق واحد نشط</item>
+
+        <item
+            quantity="two">
+تطبيقان نشطان</item>
+
+        <item
+            quantity="few">
+%d تطبيقات نشطة</item>
+
+        <item
+            quantity="many">
+%d تطبيقاً نشطاً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+هل تريد حذف %d حزمة لغة؟</item>
+
+        <item
+            quantity="zero">
+هل تريد حذف %d حزمة لغة؟</item>
+
+        <item
+            quantity="one">
+هل تريد حذف حزمة لغة واحدة؟</item>
+
+        <item
+            quantity="two">
+هل تريد حذف حزمتي لغة؟</item>
+
+        <item
+            quantity="few">
+هل تريد حذف %d حزم لغة؟</item>
+
+        <item
+            quantity="many">
+هل تريد حذف %d حزمة لغة؟</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d صوت</item>
+
+        <item
+            quantity="zero">
+%d صوت</item>
+
+        <item
+            quantity="one">
+صوت واحد</item>
+
+        <item
+            quantity="two">
+صوتان</item>
+
+        <item
+            quantity="few">
+%d أصوات</item>
+
+        <item
+            quantity="many">
+%d صوتاً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d إذن إضافي</item>
+
+        <item
+            quantity="zero">
+%d إذن إضافي</item>
+
+        <item
+            quantity="one">
+إذن واحد إضافي</item>
+
+        <item
+            quantity="two">
+إذنان إضافيان</item>
+
+        <item
+            quantity="few">
+%d أذونات إضافية</item>
+
+        <item
+            quantity="many">
+%d إذناً إضافياً</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+أنت على بعد %d خطوة من أن تكون مطوراً.</item>
+
+        <item
+            quantity="zero">
+أنت على بعد %d خطوة من أن تكون مطوراً.</item>
+
+        <item
+            quantity="one">
+أنت على بعد خطوة واحدة من أن تكون مطوراً.</item>
+
+        <item
+            quantity="two">
+أنت على بعد خطوتين من أن تكون مطوراً.</item>
+
+        <item
+            quantity="few">
+أنت على بعد %d خطوات من أن تكون مطوراً.</item>
+
+        <item
+            quantity="many">
+أنت على بعد %d خطوةً من أن تكون مطوراً.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+تم تحديد %d</item>
+
+        <item
+            quantity="zero">
+تم تحديد %d</item>
+
+        <item
+            quantity="one">
+تم تحديد %d</item>
+
+        <item
+            quantity="two">
+تم تحديد %d</item>
+
+        <item
+            quantity="few">
+تم تحديد %d</item>
+
+        <item
+            quantity="many">
+تم تحديد %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+تم اكتشاف %d تطبيق ضار</item>
+
+        <item
+            quantity="zero">
+تم اكتشاف %d تطبيق ضار</item>
+
+        <item
+            quantity="one">
+تم اكتشاف تطبيق ضار واحد</item>
+
+        <item
+            quantity="two">
+تم اكتشاف تطبيقين ضارين</item>
+
+        <item
+            quantity="few">
+تم اكتشاف %d تطبيقات ضارة</item>
+
+        <item
+            quantity="many">
+تم اكتشاف %d تطبيقاً ضاراً</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+تم العثور على %d تطبيق ضار على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
+
+        <item
+            quantity="zero">
+تم العثور على %d تطبيق ضار على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
+
+        <item
+            quantity="one">
+تم العثور على تطبيق ضار واحد على هاتفك. قم بإلغاء تثبيت هذا التطبيق للمحافظة على سلامة هاتفك.</item>
+
+        <item
+            quantity="two">
+تم العثور على تطبيقين ضارين على هاتفك. قم بإلغاء تثبيت هذين التطبيقين للمحافظة على سلامة هاتفك.</item>
+
+        <item
+            quantity="few">
+تم العثور على %d تطبيقات ضارة على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
+
+        <item
+            quantity="many">
+تم العثور على %d تطبيقاً ضاراً على هاتفك. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة هاتفك.</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+تم العثور على %d تطبيق ضار على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
+
+        <item
+            quantity="zero">
+تم العثور على %d تطبيق ضار على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
+
+        <item
+            quantity="one">
+تم العثور على تطبيق ضار واحد على جهازك اللوحي. قم بإلغاء تثبيت هذا التطبيق للمحافظة على سلامة جهازك اللوحي.</item>
+
+        <item
+            quantity="two">
+تم العثور على تطبيقين ضارين على جهازك اللوحي. قم بإلغاء تثبيت هذين التطبيقين للمحافظة على سلامة جهازك اللوحي.</item>
+
+        <item
+            quantity="few">
+تم العثور على %d تطبيقات ضارة على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
+
+        <item
+            quantity="many">
+تم العثور على %d تطبيقاً ضاراً على جهازك اللوحي. قم بإلغاء تثبيت هذه التطبيقات للمحافظة على سلامة جهازك اللوحي.</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d اقتراح</item>
+
+        <item
+            quantity="zero">
+%d اقتراح</item>
+
+        <item
+            quantity="one">
+اقتراح واحد</item>
+
+        <item
+            quantity="two">
+اقتراحان</item>
+
+        <item
+            quantity="few">
+%d اقتراحات</item>
+
+        <item
+            quantity="many">
+%d اقتراحاً</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d تحذير</item>
+
+        <item
+            quantity="zero">
+%d تحذير</item>
+
+        <item
+            quantity="one">
+تحذير واحد</item>
+
+        <item
+            quantity="two">
+تحذيران</item>
+
+        <item
+            quantity="few">
+%d تحذيرات</item>
+
+        <item
+            quantity="many">
+%d تحذيراً</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+وقت النوم: %d ساعة</item>
+
+        <item
+            quantity="zero">
+وقت النوم: %d ساعة</item>
+
+        <item
+            quantity="one">
+وقت النوم: ساعة واحدة</item>
+
+        <item
+            quantity="two">
+وقت النوم: ساعتان</item>
+
+        <item
+            quantity="few">
+وقت النوم: %d ساعات</item>
+
+        <item
+            quantity="many">
+وقت النوم: %d ساعةً</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+وقت النوم: %d دقيقة</item>
+
+        <item
+            quantity="zero">
+وقت النوم: %d دقيقة</item>
+
+        <item
+            quantity="one">
+وقت النوم: دقيقة واحدة</item>
+
+        <item
+            quantity="two">
+وقت النوم: دقيقتان</item>
+
+        <item
+            quantity="few">
+وقت النوم: %d دقائق</item>
+
+        <item
+            quantity="many">
+وقت النوم: %d دقيقةً</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d يوم أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
+
+        <item
+            quantity="zero">
+يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d يوم أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
+
+        <item
+            quantity="one">
+يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى يوم واحد أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
+
+        <item
+            quantity="two">
+يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى يومين أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
+
+        <item
+            quantity="few">
+يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d أيام أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
+
+        <item
+            quantity="many">
+يمكنك نسخ البيانات غير المحدودة احتياطياً إلى %1$s لمدة تصل إلى %2$d يوماً أو استعادة البيانات التي قمت بنسخها احتياطياً.</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+ستتم إعادة ضبط هذا الاختبار في غضون %d ثانية.</item>
+
+        <item
+            quantity="zero">
+ستتم إعادة ضبط هذا الاختبار في غضون %d ثانية.</item>
+
+        <item
+            quantity="one">
+ستتم إعادة ضبط هذا الاختبار في غضون ثانية واحدة.</item>
+
+        <item
+            quantity="two">
+ستتم إعادة ضبط هذا الاختبار في غضون ثانيتين.</item>
+
+        <item
+            quantity="few">
+ستتم إعادة ضبط هذا الاختبار في غضون %d ثواني.</item>
+
+        <item
+            quantity="many">
+ستتم إعادة ضبط هذا الاختبار في غضون %d ثانيةً.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d جهاز متصل</item>
+
+        <item
+            quantity="zero">
+%d جهاز متصل</item>
+
+        <item
+            quantity="one">
+جهاز واحد متصل</item>
+
+        <item
+            quantity="two">
+جهازان متصلان</item>
+
+        <item
+            quantity="few">
+%d أجهزة متصلة</item>
+
+        <item
+            quantity="many">
+%d جهازاً متصلاً</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="zero">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="one">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="two">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيَين من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="few">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="many">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بهاتفك أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="zero">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="one">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="two">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيَين من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="few">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="many">
+حوّل هاتفك إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بهاتفك للوصول إلى الإنترنت.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="zero">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="one">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="two">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيَين من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="few">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="many">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي للوصول إلى الإنترنت.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="zero">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهاز إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="one">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهاز واحد إضافي من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="two">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى جهازَين إضافيين من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="few">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d أجهزة إضافية من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+        <item
+            quantity="many">
+حوّل جهازك اللوحي إلى نقطة وصول شبكة Wi-Fi. سيتمكن ما يصل إلى %d جهازاً إضافياً من استخدام بيانات الهاتف المحمول الخاصة بجهازك اللوحي أو اتصال شبكة Wi-Fi للوصول إلى الإنترنت.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d عضو</item>
+
+        <item
+            quantity="zero">
+%d عضو</item>
+
+        <item
+            quantity="one">
+عضو واحد</item>
+
+        <item
+            quantity="two">
+عضوان</item>
+
+        <item
+            quantity="few">
+%d أعضاء</item>
+
+        <item
+            quantity="many">
+%d عضواً</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+هل تريد حذف %d شبكة؟</item>
+
+        <item
+            quantity="zero">
+هل تريد حذف %d شبكة؟</item>
+
+        <item
+            quantity="one">
+حذف شبكة واحدة؟</item>
+
+        <item
+            quantity="two">
+هل تريد حذف شبكتين؟</item>
+
+        <item
+            quantity="few">
+هل تريد حذف %d شبكات؟</item>
+
+        <item
+            quantity="many">
+هل تريد حذف %d شبكةً؟</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+تم تحديد %d</item>
+
+        <item
+            quantity="zero">
+تم تحديد %d</item>
+
+        <item
+            quantity="one">
+تم تحديد %d</item>
+
+        <item
+            quantity="two">
+تم تحديد %d</item>
+
+        <item
+            quantity="few">
+تم تحديد %d</item>
+
+        <item
+            quantity="many">
+تم تحديد %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="zero">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="one">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="two">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولتين متبقيتين قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="few">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولات متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="many">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولةً متبقيةً قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="zero">
+‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="one">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="two">
+‏‫تم إجراء محاولتين لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="few">
+‏‫تم إجراء %d محاولات لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="many">
+‏‫تم إجراء %d محاولةً لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الهاتف على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="zero">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="one">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="two">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولتين متبقيتين قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="few">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولات متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="many">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك %d محاولةً متبقيةً قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
+
+        <item
+            quantity="zero">
+‏‫تم إجراء %d محاولة لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
+
+        <item
+            quantity="one">
+‏‫تم إجراء محاولة واحدة لإلغاء قفل ملف تعريف العمل الخاص بك. لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.</item>
+
+        <item
+            quantity="two">
+‏‫تم إجراء محاولتين لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
+
+        <item
+            quantity="few">
+‏‫تم إجراء %d محاولات لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
+
+        <item
+            quantity="many">
+‏‫تم إجراء %d محاولةً لإلغاء قفل ملف تعريف العمل الخاص بك.‬ لديك محاولة واحدة متبقية قبل إعادة ضبط هذا الجهاز اللوحي على ضبط المصنع وسيتم مسح كل البيانات.‬</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d ساعة</item>
+
+        <item
+            quantity="zero">
+%d ساعة</item>
+
+        <item
+            quantity="one">
+ساعة واحدة</item>
+
+        <item
+            quantity="two">
+ساعتان</item>
+
+        <item
+            quantity="few">
+%d ساعات</item>
+
+        <item
+            quantity="many">
+%d ساعةً</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d دقيقة</item>
+
+        <item
+            quantity="zero">
+%d دقيقة</item>
+
+        <item
+            quantity="one">
+دقيقة واحدة</item>
+
+        <item
+            quantity="two">
+دقيقتان</item>
+
+        <item
+            quantity="few">
+%d دقائق</item>
+
+        <item
+            quantity="many">
+%d دقيقة</item>
+
+    </plurals>
+
 </resources>

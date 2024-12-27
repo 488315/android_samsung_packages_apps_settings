@@ -1,15 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textAppearance="@android:style/TextAppearance.Material.Menu.Inverse" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:paddingTop="16.5dip" android:paddingBottom="16.5dip" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Material.Menu.Inverse"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="marquee"
+            android:paddingTop="16.5dip"
+            android:paddingBottom="16.5dip"
+            android:fadingEdge="horizontal"
+            android:singleLine="true" />
+
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip">
-        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon_frame" android:layout_width="@dimen/sec_widget_list_app_icon_size" android:layout_height="@dimen/sec_widget_list_app_icon_size">
-            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/sec_widget_list_app_icon_size" android:layout_height="@dimen/sec_widget_list_app_icon_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="42.0dip"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@id/icon_frame"
+            android:layout_width="@dimen/sec_widget_list_app_icon_size"
+            android:layout_height="@dimen/sec_widget_list_app_icon_size"
+            android:gravity="start|center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="@dimen/sec_widget_list_app_icon_size"
+                android:layout_height="@dimen/sec_widget_list_app_icon_size" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="6.0dip">
-            <SeekBar android:layout_gravity="center_vertical" android:id="@android:id/textClassifier" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_app_icon_size" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="6.0dip">
+
+            <SeekBar
+                android:id="@android:id/textClassifier"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_widget_list_app_icon_size"
+                android:layout_gravity="center_vertical" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

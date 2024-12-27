@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_notification_sound_category_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/sec_sim1" android:key="notification" android:summary="@string/sec_ringtone_summary_ds" android:dialogTitle="@string/sec_ringtone_title" android:ringtoneType="notification" />
-    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/sec_sim2" android:key="notification_2" android:summary="@string/sec_ringtone_summary_ds" android:dialogTitle="@string/sec_ringtone_title" android:ringtoneType="notification" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/sec_notification_sound_category_title">
+
+    <com.android.settings.DefaultRingtonePreference
+        android:persistent="false"
+        android:title="@string/sec_sim1"
+        android:key="notification"
+        android:summary="@string/sec_ringtone_summary_ds"
+        android:dialogTitle="@string/sec_ringtone_title"
+        android:ringtoneType="notification" />
+
+    <com.android.settings.DefaultRingtonePreference
+        android:persistent="false"
+        android:title="@string/sec_sim2"
+        android:key="notification_2"
+        android:summary="@string/sec_ringtone_summary_ds"
+        android:dialogTitle="@string/sec_ringtone_title"
+        android:ringtoneType="notification" />
+
 </PreferenceScreen>

@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/bluetooth_pairing_pref_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.TopIntroPreference android:title="@string/accessibility_hearing_device_pairing_intro" settings:searchable="false" />
-    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@string/accessibility_found_hearing_devices" android:key="available_hearing_devices" />
-    <PreferenceCategory android:title="@string/accessibility_found_all_devices" android:key="more_devices_category">
-        <com.android.settings.accessibility.ArrowPreference android:title="@string/accessibility_list_all_devices_title" android:key="more_devices" settings:controller="com.android.settings.accessibility.ViewAllBluetoothDevicesPreferenceController" settings:searchable="false" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_bluetooth" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/bluetooth_pairing_pref_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/accessibility_hearing_device_pairing_intro"
+        settings:searchable="false" />
+
+    <com.android.settings.bluetooth.BluetoothProgressCategory
+        android:title="@string/accessibility_found_hearing_devices"
+        android:key="available_hearing_devices" />
+
+    <PreferenceCategory
+        android:title="@string/accessibility_found_all_devices"
+        android:key="more_devices_category">
+
+        <com.android.settings.accessibility.ArrowPreference
+            android:title="@string/accessibility_list_all_devices_title"
+            android:key="more_devices"
+            settings:controller="com.android.settings.accessibility.ViewAllBluetoothDevicesPreferenceController"
+            settings:searchable="false"
+            settings:useAdminDisabledSummary="true"
+            settings:userRestriction="no_config_bluetooth" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

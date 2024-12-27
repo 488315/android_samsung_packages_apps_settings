@@ -1,18 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/data_usage_app_summary_title" android:key="app_data_usage_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settings.datausage.SpinnerPreference android:key="cycle" settings:controller="com.android.settings.datausage.AppDataUsageCycleController" settings:isPreferenceVisible="false" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_category_1" />
-    <Preference android:layout="@layout/sec_horizontal_preference" android:title="@string/total_size_label" android:key="total_usage" />
-    <com.samsung.android.settings.widget.SecDividerPreference android:selectable="false" />
-    <Preference android:layout="@layout/sec_horizontal_preference" android:title="@string/data_usage_label_foreground" android:key="foreground_usage" />
-    <com.samsung.android.settings.widget.SecDividerPreference android:selectable="false" />
-    <Preference android:layout="@layout/sec_horizontal_preference" android:title="@string/data_usage_label_background" android:key="background_usage" />
-    <com.samsung.android.settings.widget.SecDividerPreference android:selectable="false" android:key="divider_1" />
-    <Preference android:title="@string/data_usage_app_settings" android:key="app_settings" settings:controller="com.android.settings.datausage.AppDataUsageAppSettingsController" />
-    <PreferenceCategory android:key="data_restrict">
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/sec_data_usage_app_restrict_background" android:key="restrict_background" />
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/sec_allow_data_while_data_saver" android:key="unrestricted_data_saver" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/data_usage_app_summary_title"
+    android:key="app_data_usage_screen">
+
+    <com.android.settings.datausage.SpinnerPreference
+        android:key="cycle"
+        settings:controller="com.android.settings.datausage.AppDataUsageCycleController"
+        settings:isPreferenceVisible="false" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="inset_category_1" />
+
+    <Preference
+        android:layout="@layout/sec_horizontal_preference"
+        android:title="@string/total_size_label"
+        android:key="total_usage" />
+
+    <com.samsung.android.settings.widget.SecDividerPreference
+        android:selectable="false" />
+
+    <Preference
+        android:layout="@layout/sec_horizontal_preference"
+        android:title="@string/data_usage_label_foreground"
+        android:key="foreground_usage" />
+
+    <com.samsung.android.settings.widget.SecDividerPreference
+        android:selectable="false" />
+
+    <Preference
+        android:layout="@layout/sec_horizontal_preference"
+        android:title="@string/data_usage_label_background"
+        android:key="background_usage" />
+
+    <com.samsung.android.settings.widget.SecDividerPreference
+        android:selectable="false"
+        android:key="divider_1" />
+
+    <Preference
+        android:title="@string/data_usage_app_settings"
+        android:key="app_settings"
+        settings:controller="com.android.settings.datausage.AppDataUsageAppSettingsController" />
+
+    <PreferenceCategory
+        android:key="data_restrict">
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+            android:title="@string/sec_data_usage_app_restrict_background"
+            android:key="restrict_background" />
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+            android:title="@string/sec_allow_data_while_data_saver"
+            android:key="unrestricted_data_saver" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/data_usage_other_apps" android:key="app_list" settings:controller="com.android.settings.datausage.AppDataUsageListController" />
+
+    <PreferenceCategory
+        android:title="@string/data_usage_other_apps"
+        android:key="app_list"
+        settings:controller="com.android.settings.datausage.AppDataUsageListController" />
+
 </PreferenceScreen>

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:layout_gravity="start" android:id="@id/security_settings_face_settings_enroll_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_settings_face_settings_enroll" android:layout_marginStart="0.0dip" style="@style/SudGlifButton.Primary" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <Button
+        android:id="@id/security_settings_face_settings_enroll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/security_settings_face_settings_enroll"
+        android:layout_marginStart="0.0dip"
+        style="@style/SudGlifButton.Primary" />
+
 </LinearLayout>

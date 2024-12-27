@@ -1,12 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_min_height_dream_info_row" android:paddingStart="@dimen/sec_list_item_checkbox_margin_left" android:paddingEnd="@dimen/sec_list_item_checkbox_margin_left">
-        <RadioButton android:layout_gravity="center_vertical" android:id="@android:id/button1" android:background="@null" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-        <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="@dimen/sec_dream_info_row_imageview_size" android:layout_height="@dimen/sec_dream_info_row_imageview_size" android:scaleType="fitCenter" android:maxWidth="@android:dimen/app_icon_size" android:maxHeight="@android:dimen/app_icon_size" android:contentDescription="@null" android:layout_marginStart="@dimen/sec_dream_info_row_imageview_padding" android:layout_marginEnd="@dimen/sec_dream_info_row_imageview_padding" />
-        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" android:labelFor="@android:id/button2" style="@style/list_title_text_style" />
-        <View android:layout_gravity="center_vertical" android:id="@id/config_divider" android:background="@color/sec_widget_preference_screen_divider_color" android:layout_width="@dimen/sec_list_divider_height" android:layout_height="@dimen/sec_dream_info_row_config_divider_height" />
-        <ImageView android:id="@android:id/button2" android:focusable="true" android:clickable="true" android:layout_width="@dimen/sec_dream_info_row_config_size" android:layout_height="@dimen/sec_dream_info_row_config_size" android:layout_margin="0.0dip" android:src="@drawable/sec_st_list_icon_setting" android:tint="@color/sec_widget_list_item_config_normal_color" android:contentDescription="@string/screensaver_settings_button" android:paddingStart="@dimen/sec_dream_info_row_config_start_margin" style="?android:actionModeCloseButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/sec_min_height_dream_info_row"
+        android:paddingStart="@dimen/sec_list_item_checkbox_margin_left"
+        android:paddingEnd="@dimen/sec_list_item_checkbox_margin_left">
+
+        <RadioButton
+            android:id="@android:id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:focusable="false"
+            android:clickable="false"
+            android:duplicateParentState="true" />
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="@dimen/sec_dream_info_row_imageview_size"
+            android:layout_height="@dimen/sec_dream_info_row_imageview_size"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter"
+            android:maxWidth="@android:dimen/app_icon_size"
+            android:maxHeight="@android:dimen/app_icon_size"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/sec_dream_info_row_imageview_padding"
+            android:layout_marginEnd="@dimen/sec_dream_info_row_imageview_padding" />
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:layout_weight="1.0"
+            android:textAlignment="viewStart"
+            android:labelFor="@android:id/button2"
+            style="@style/list_title_text_style" />
+
+        <View
+            android:id="@id/config_divider"
+            android:layout_width="@dimen/sec_list_divider_height"
+            android:layout_height="@dimen/sec_dream_info_row_config_divider_height"
+            android:layout_gravity="center_vertical"
+            android:background="@color/sec_widget_preference_screen_divider_color" />
+
+        <ImageView
+            android:id="@android:id/button2"
+            android:layout_width="@dimen/sec_dream_info_row_config_size"
+            android:layout_height="@dimen/sec_dream_info_row_config_size"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_margin="0.0dip"
+            android:src="@drawable/sec_st_list_icon_setting"
+            android:tint="@color/sec_widget_list_item_config_normal_color"
+            android:contentDescription="@string/screensaver_settings_button"
+            android:paddingStart="@dimen/sec_dream_info_row_config_start_margin"
+            style="?android:actionModeCloseButtonStyle" />
+
     </LinearLayout>
-    <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="@dimen/sec_list_divider_height" android:layout_marginStart="@dimen/sec_dream_info_row_divider_start_margin" />
+
+    <View
+        android:id="@id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sec_list_divider_height"
+        android:background="?android:listDivider"
+        android:layout_marginStart="@dimen/sec_dream_info_row_divider_start_margin" />
+
 </LinearLayout>

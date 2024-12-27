@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
-    <TextView android:textColor="@color/as_basic_list_item_text1" android:ellipsize="end" android:id="@id/loading_view_text" android:paddingTop="@dimen/as_loading_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/as_loading" android:textAlignment="center" android:paddingStart="@dimen/as_basic_dialog_padding_horizontal" android:paddingEnd="@dimen/as_basic_dialog_padding_horizontal" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:progressBarStyleLarge" />
+
+    <TextView
+        android:id="@id/loading_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/as_basic_list_item_text1"
+        android:ellipsize="end"
+        android:paddingTop="@dimen/as_loading_padding_top"
+        android:text="@string/as_loading"
+        android:textAlignment="center"
+        android:paddingStart="@dimen/as_basic_dialog_padding_horizontal"
+        android:paddingEnd="@dimen/as_basic_dialog_padding_horizontal" />
+
 </LinearLayout>

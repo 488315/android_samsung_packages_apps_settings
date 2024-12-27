@@ -1,16 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/terms_and_condition" settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.legalinfo.LegalInfoSettings" settings:topLevelPreferenceKey="top_level_about_phone"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/dispute_resolution_agreement" android:key="arbitration_agreement" android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.SamsungEula" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.ArbitrationAgreementPreferenceController">
-        <extra android:name="ShowAAOnly" android:value="true" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/terms_and_condition"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.legalinfo.LegalInfoSettings"
+    settings:topLevelPreferenceKey="top_level_about_phone">
+
+    <Preference
+        android:title="@string/dispute_resolution_agreement"
+        android:key="arbitration_agreement"
+        android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.SamsungEula"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.ArbitrationAgreementPreferenceController">
+
+        <extra
+            android:name="ShowAAOnly"
+            android:value="true" />
+
     </Preference>
-    <Preference android:title="@string/standard_limited_warranty" android:key="warranty" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.WarrantyPreferenceController">
-        <intent android:action="com.samsung.safetyinformation.WARRANTY" />
+
+    <Preference
+        android:title="@string/standard_limited_warranty"
+        android:key="warranty"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.WarrantyPreferenceController">
+
+        <intent
+            android:action="com.samsung.safetyinformation.WARRANTY" />
+
     </Preference>
-    <Preference android:title="@string/end_user_license_agreement" android:key="end_user_license_agreement" android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.SamsungEula" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.EulaPreferenceController" />
-    <Preference android:title="@string/health_and_safety" android:key="health_safety" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.HealthAndSafetyPreferenceController">
-        <intent android:action="com.samsung.safetyinformation.SAFETY_INFORMATION" />
+
+    <Preference
+        android:title="@string/end_user_license_agreement"
+        android:key="end_user_license_agreement"
+        android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.SamsungEula"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.EulaPreferenceController" />
+
+    <Preference
+        android:title="@string/health_and_safety"
+        android:key="health_safety"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.HealthAndSafetyPreferenceController">
+
+        <intent
+            android:action="com.samsung.safetyinformation.SAFETY_INFORMATION" />
+
     </Preference>
-    <Preference android:title="@string/device_and_care" android:key="features_ratings" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.FeaturesAndRatingsPreferenceController" />
-    <Preference android:title="@string/warranty_repair_parts" android:key="warranty_repair" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.RepairPartsPreferenceController" />
+
+    <Preference
+        android:title="@string/device_and_care"
+        android:key="features_ratings"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.FeaturesAndRatingsPreferenceController" />
+
+    <Preference
+        android:title="@string/warranty_repair_parts"
+        android:key="warranty_repair"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.samsunglegal.RepairPartsPreferenceController" />
+
 </PreferenceScreen>

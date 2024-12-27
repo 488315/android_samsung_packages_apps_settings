@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/zen_modes_list_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="zen_modes_list" />
-    <Preference android:icon="@drawable/ic_add_24dp" android:title="@string/zen_modes_add_mode" android:key="add_mode" settings:allowDividerAbove="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/zen_modes_list_title">
+
+    <PreferenceCategory
+        android:key="zen_modes_list" />
+
+    <Preference
+        android:icon="@drawable/ic_add_24dp"
+        android:title="@string/zen_modes_add_mode"
+        android:key="add_mode"
+        settings:allowDividerAbove="false" />
+
 </PreferenceScreen>

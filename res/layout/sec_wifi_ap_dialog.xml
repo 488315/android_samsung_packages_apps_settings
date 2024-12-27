@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:paddingBottom="@dimen/wifi_ap_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/wifi_ap_dialog_padding">
-        <TextView android:textSize="14.0sp" android:id="@id/message1_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:breakStrategy="simple" android:textFontWeight="400" style="@style/body_text_style" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <EditText android:id="@id/edittext1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" />
-            <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/sec_alert_dialog_text_size" android:id="@id/edittext1_unit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/wifi_ap_md_unite_padding_right" android:layout_marginStart="16.0dip" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="12.0dip"
+        android:paddingBottom="@dimen/wifi_ap_dialog_padding"
+        android:paddingHorizontal="@dimen/wifi_ap_dialog_padding">
+
+        <TextView
+            android:id="@id/message1_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14.0sp"
+            android:fontFamily="sec"
+            android:breakStrategy="simple"
+            android:textFontWeight="400"
+            style="@style/body_text_style" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@id/edittext1"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="20.0dip"
+                android:singleLine="true"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@id/edittext1_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textSize="@dimen/sec_alert_dialog_text_size"
+                android:visibility="gone"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="@dimen/wifi_ap_md_unite_padding_right"
+                android:layout_marginStart="16.0dip" />
+
         </LinearLayout>
-        <TextView android:id="@id/edittext1_error_textview" android:visibility="gone" android:text="@string/max_char_reached" style="@style/wifi_ap_item_error_text" />
+
+        <TextView
+            android:id="@id/edittext1_error_textview"
+            android:visibility="gone"
+            android:text="@string/max_char_reached"
+            style="@style/wifi_ap_item_error_text" />
+
     </LinearLayout>
+
 </ScrollView>

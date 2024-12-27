@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/media_drm_settings_title" settings:searchable="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SwitchPreferenceCompat android:title="@string/force_swcrypto_fallback_title" android:key="force_swcrypto_fallback" android:summary="@string/force_swcrypto_fallback_summary" settings:controller="com.android.settings.development.mediadrm.ForceSwSecureCryptoFallbackPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/media_drm_settings_title"
+    settings:searchable="false">
+
+    <SwitchPreferenceCompat
+        android:title="@string/force_swcrypto_fallback_title"
+        android:key="force_swcrypto_fallback"
+        android:summary="@string/force_swcrypto_fallback_summary"
+        settings:controller="com.android.settings.development.mediadrm.ForceSwSecureCryptoFallbackPreferenceController" />
+
 </PreferenceScreen>

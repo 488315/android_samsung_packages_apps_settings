@@ -1,20 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/pointer_settings_category" settings:hierarchicalParentFragment="com.samsung.android.settings.general.GeneralDeviceSettings" settings:topLevelPreferenceKey="top_level_general"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.inputmethod.SecPointerSpeedPreference android:title="@string/pointer_speed" android:key="pointer_speed" android:dialogTitle="@string/pointer_speed" settings:controller="com.android.settings.language.PointerSpeedController" />
-    <com.samsung.android.settings.inputmethod.SecMouseScrollingSpeedPreference android:title="@string/mouse_scrolling_speed" android:key="mouse_scrolling_speed" settings:controller="com.samsung.android.settings.inputmethod.SecMouseScrollingSpeedController" />
-    <SecSwitchPreference android:title="@string/mouse_enhance_pointer_precision_title" android:key="enhance_pointer_precision" android:summary="@string/mouse_enhance_pointer_precision_summary" settings:controller="com.samsung.android.settings.inputmethod.EnhancePointerPrecisionPreferenceController" />
-    <SecPreference android:title="@string/mouse_pointer_size_and_color_title" android:key="mouse_pointer_settings" android:fragment="com.samsung.android.settings.inputmethod.MousePointerSettingsFragment" settings:controller="com.samsung.android.settings.inputmethod.MousePointerSettingsPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/pointer_settings_category"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.general.GeneralDeviceSettings"
+    settings:topLevelPreferenceKey="top_level_general">
+
+    <com.samsung.android.settings.inputmethod.SecPointerSpeedPreference
+        android:title="@string/pointer_speed"
+        android:key="pointer_speed"
+        android:dialogTitle="@string/pointer_speed"
+        settings:controller="com.android.settings.language.PointerSpeedController" />
+
+    <com.samsung.android.settings.inputmethod.SecMouseScrollingSpeedPreference
+        android:title="@string/mouse_scrolling_speed"
+        android:key="mouse_scrolling_speed"
+        settings:controller="com.samsung.android.settings.inputmethod.SecMouseScrollingSpeedController" />
+
+    <SecSwitchPreference
+        android:title="@string/mouse_enhance_pointer_precision_title"
+        android:key="enhance_pointer_precision"
+        android:summary="@string/mouse_enhance_pointer_precision_summary"
+        settings:controller="com.samsung.android.settings.inputmethod.EnhancePointerPrecisionPreferenceController" />
+
+    <SecPreference
+        android:title="@string/mouse_pointer_size_and_color_title"
+        android:key="mouse_pointer_settings"
+        android:fragment="com.samsung.android.settings.inputmethod.MousePointerSettingsFragment"
+        settings:controller="com.samsung.android.settings.inputmethod.MousePointerSettingsPreferenceController" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <SecDropDownPreference android:title="@string/primary_mouse_button_title" android:key="key_primary_mouse_button" settings:controller="com.samsung.android.settings.inputmethod.PrimaryMouseButtonPreferenceController" />
-    <SecPreference android:title="@string/mouse_secondary_button" android:key="key_secondary_button" android:fragment="com.samsung.android.settings.inputmethod.MouseSecondaryButtonFragment" settings:controller="com.samsung.android.settings.inputmethod.MouseSecondaryPreferenceController" />
-    <SecPreference android:title="@string/mouse_middle_button" android:key="key_middle_button" android:fragment="com.samsung.android.settings.inputmethod.MouseMiddleButtonFragment" settings:controller="com.samsung.android.settings.inputmethod.MouseMiddlePreferenceController" />
-    <SecPreference android:title="@string/mouse_additional_1_button" android:key="key_additional_button_1" android:fragment="com.samsung.android.settings.inputmethod.MouseAdditionalFirstButtonFragment" settings:controller="com.samsung.android.settings.inputmethod.MouseAdditionalFirstPreferenceController" />
-    <SecPreference android:title="@string/mouse_additional_2_button" android:key="key_additional_button_2" android:fragment="com.samsung.android.settings.inputmethod.MouseAdditionalSecondButtonFragment" settings:controller="com.samsung.android.settings.inputmethod.MouseAdditionalSecondPreferenceController" />
+
+    <SecDropDownPreference
+        android:title="@string/primary_mouse_button_title"
+        android:key="key_primary_mouse_button"
+        settings:controller="com.samsung.android.settings.inputmethod.PrimaryMouseButtonPreferenceController" />
+
+    <SecPreference
+        android:title="@string/mouse_secondary_button"
+        android:key="key_secondary_button"
+        android:fragment="com.samsung.android.settings.inputmethod.MouseSecondaryButtonFragment"
+        settings:controller="com.samsung.android.settings.inputmethod.MouseSecondaryPreferenceController" />
+
+    <SecPreference
+        android:title="@string/mouse_middle_button"
+        android:key="key_middle_button"
+        android:fragment="com.samsung.android.settings.inputmethod.MouseMiddleButtonFragment"
+        settings:controller="com.samsung.android.settings.inputmethod.MouseMiddlePreferenceController" />
+
+    <SecPreference
+        android:title="@string/mouse_additional_1_button"
+        android:key="key_additional_button_1"
+        android:fragment="com.samsung.android.settings.inputmethod.MouseAdditionalFirstButtonFragment"
+        settings:controller="com.samsung.android.settings.inputmethod.MouseAdditionalFirstPreferenceController" />
+
+    <SecPreference
+        android:title="@string/mouse_additional_2_button"
+        android:key="key_additional_button_2"
+        android:fragment="com.samsung.android.settings.inputmethod.MouseAdditionalSecondButtonFragment"
+        settings:controller="com.samsung.android.settings.inputmethod.MouseAdditionalSecondPreferenceController" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <SecPreferenceCategory android:key="key_touchpad_option" settings:controller="com.samsung.android.settings.inputmethod.TouchPadPreferenceController">
-        <SecDropDownPreference android:title="@string/touchpad_scrolling_direction" android:key="key_touchpad_scrolling_direction" settings:controller="com.samsung.android.settings.inputmethod.TouchpadScrollingDirectionPreferenceController" />
-        <SecPreference android:title="@string/touchpad_gestures_title" android:key="key_touchpad_gestures" android:summary="@string/touchpad_gestures_summary" android:fragment="com.samsung.android.settings.inputmethod.TouchPadGestureSettings" settings:controller="com.samsung.android.settings.inputmethod.TouchPadGestureSettingsController" />
-        <SecSwitchPreference android:title="@string/tap_to_click" android:key="key_tap_to_click" settings:controller="com.samsung.android.settings.inputmethod.TapToClickPreferenceController" />
+
+    <SecPreferenceCategory
+        android:key="key_touchpad_option"
+        settings:controller="com.samsung.android.settings.inputmethod.TouchPadPreferenceController">
+
+        <SecDropDownPreference
+            android:title="@string/touchpad_scrolling_direction"
+            android:key="key_touchpad_scrolling_direction"
+            settings:controller="com.samsung.android.settings.inputmethod.TouchpadScrollingDirectionPreferenceController" />
+
+        <SecPreference
+            android:title="@string/touchpad_gestures_title"
+            android:key="key_touchpad_gestures"
+            android:summary="@string/touchpad_gestures_summary"
+            android:fragment="com.samsung.android.settings.inputmethod.TouchPadGestureSettings"
+            settings:controller="com.samsung.android.settings.inputmethod.TouchPadGestureSettingsController" />
+
+        <SecSwitchPreference
+            android:title="@string/tap_to_click"
+            android:key="key_tap_to_click"
+            settings:controller="com.samsung.android.settings.inputmethod.TapToClickPreferenceController" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

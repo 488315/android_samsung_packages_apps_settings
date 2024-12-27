@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_sound_work_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SwitchPreference android:title="@string/sec_work_use_personal_sounds_title" android:key="work_use_personal_sounds" android:summary="@string/sec_work_use_personal_sounds_summary" android:disableDependentsState="true" />
-    <com.android.settings.DefaultRingtonePreference android:title="@string/sec_work_ringtone_title" android:key="work_ringtone" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="ringtone" settings:keywords="@string/keywords_sound_and_vibrations_settings_ringtone" />
-    <com.android.settings.DefaultRingtonePreference android:title="@string/sec_work_notification_ringtone_title" android:key="work_notification_ringtone" android:dependency="work_use_personal_sounds" android:dialogTitle="@string/work_alarm_ringtone_title" android:ringtoneType="notification" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_sound_work_settings">
+
+    <SwitchPreference
+        android:title="@string/sec_work_use_personal_sounds_title"
+        android:key="work_use_personal_sounds"
+        android:summary="@string/sec_work_use_personal_sounds_summary"
+        android:disableDependentsState="true" />
+
+    <com.android.settings.DefaultRingtonePreference
+        android:title="@string/sec_work_ringtone_title"
+        android:key="work_ringtone"
+        android:dependency="work_use_personal_sounds"
+        android:dialogTitle="@string/work_alarm_ringtone_title"
+        android:ringtoneType="ringtone"
+        settings:keywords="@string/keywords_sound_and_vibrations_settings_ringtone" />
+
+    <com.android.settings.DefaultRingtonePreference
+        android:title="@string/sec_work_notification_ringtone_title"
+        android:key="work_notification_ringtone"
+        android:dependency="work_use_personal_sounds"
+        android:dialogTitle="@string/work_alarm_ringtone_title"
+        android:ringtoneType="notification" />
+
 </PreferenceScreen>

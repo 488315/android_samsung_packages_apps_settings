@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/notification_floating_icons_title" android:key="floating_icon_notification_settings" settings:hierarchicalParentFragment="com.samsung.android.settings.notification.ConfigureNotificationMoreSettings" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.notification.RadioPreference android:title="@string/notification_floating_icons_off_summary" android:key="floating_icon_off" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_icon_preference_divider" android:selectable="false" />
-    <com.samsung.android.settings.notification.RadioPreference android:title="@string/notification_floating_icons_bubble_summary" android:key="floating_icon_bubble" settings:allowDividerAbove="false" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_icon_preference_divider" android:selectable="false" />
-    <com.samsung.android.settings.notification.RadioPreference android:title="@string/notification_floating_icons_popup_summary" android:key="floating_icon_popup" settings:allowDividerAbove="false" />
-    <SecPreference android:title="@string/notification_floating_included_apps" android:key="included_apps" android:fragment="com.samsung.android.settings.smartpopupview.SmartPopupViewSettings" settings:controller="com.samsung.android.settings.notification.FloatingPopupAppsPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/notification_floating_icons_title"
+    android:key="floating_icon_notification_settings"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.notification.ConfigureNotificationMoreSettings"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.samsung.android.settings.notification.RadioPreference
+        android:title="@string/notification_floating_icons_off_summary"
+        android:key="floating_icon_off" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_icon_preference_divider"
+        android:selectable="false" />
+
+    <com.samsung.android.settings.notification.RadioPreference
+        android:title="@string/notification_floating_icons_bubble_summary"
+        android:key="floating_icon_bubble"
+        settings:allowDividerAbove="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_icon_preference_divider"
+        android:selectable="false" />
+
+    <com.samsung.android.settings.notification.RadioPreference
+        android:title="@string/notification_floating_icons_popup_summary"
+        android:key="floating_icon_popup"
+        settings:allowDividerAbove="false" />
+
+    <SecPreference
+        android:title="@string/notification_floating_included_apps"
+        android:key="included_apps"
+        android:fragment="com.samsung.android.settings.smartpopupview.SmartPopupViewSettings"
+        settings:controller="com.samsung.android.settings.notification.FloatingPopupAppsPreferenceController" />
+
 </PreferenceScreen>

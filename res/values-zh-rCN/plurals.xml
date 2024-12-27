@@ -1,699 +1,2500 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">%d 天前</item>
-        <item quantity="one">%d 天前</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d 分钟前</item>
-        <item quantity="one">%d 分钟前</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">%d 年前</item>
-        <item quantity="one">%d 年前</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d 分钟</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d 秒</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d 个应用程序缓存 (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">要存档 %d 个应用程序吗？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">存档 %1$d 个应用程序 (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">要清除 %d 个应用程序的缓存吗？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">清除 %1$d 个缓存 (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">已选中 %d 个</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">通过存档 %2$d 个未使用的应用程序来释放 %1$s 的空间。您的个人数据和设置将被保存。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">是否卸载 %d 个应用程序？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">卸载 %1$d 个应用程序 (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d 个未使用过的应用程序 (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">正在与 %d 个设备共享互联网连接。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d 个应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d 天</item>
-        <item quantity="one">1 天</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d 小时</item>
-        <item quantity="one">1 小时</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d 分钟</item>
-        <item quantity="one">1 分钟</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d秒</item>
-        <item quantity="one">1 秒</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d 周</item>
-        <item quantity="one">1 周</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d 个应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d 小时</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d 分钟</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d 秒</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">若删除这些地点，则在更改敏感设置时将始终需要使用生物识别和安全延迟。</item>
-        <item quantity="one">若删除此地点，则在更改敏感设置时将始终需要使用生物识别和安全延迟。</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">确定删除 %d 个地点吗？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">已选择 %d 个</item>
-        <item quantity="one">选中 1 个</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s和其他 %2$d 个地点</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">最多可输入 %d 个字符</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d 条新通知</item>
-        <item quantity="one">%d 条新通知</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">过去 %d 小时未使用内存</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d 条通知</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">选定应用程序的通知每 %d 分钟提醒一次</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">最多 %d 个应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s 和其他 %2$d 个应用程序使用密钥并自动输入密码和其他信息。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%2$d 个应用程序使用了%1$s权限</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">正在使用 %d 个辅助功能</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d 个应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">是否移除 %d 种语言？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d 个应用程序对您的手机拥有完全访问权限</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">您的手机将在 %d 秒后自动关机。若要保持手机开启，请点击【取消】。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">您的平板电脑将在 %d 秒后自动关机。若要保持平板电脑开启，请点击【取消】。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">每 %d 小时</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">您的混合密码必须包含至少 %d 个字符，其中包括至少 1 个字母。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">您的数字密码必须包含至少 %d 个数字。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">请在 1 小时 %d 分钟后重试</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">请在 %d 小时后重试</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">请在 %d 小时 1 分钟后重试</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">请在 %d 分钟后重试</item>
-        <item quantity="one">请在 %d 分钟后重试</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">请在 %d 秒钟后重试</item>
-        <item quantity="one">请在 %d 秒后重试</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">最多开启 %d 个附加服务。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d 位联系人已允许</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">已添加 %d 个指纹</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s、%2$s和其他 %3$d 个应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">混合密码错误。还可以尝试 %d 次。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">图案错误。还可以尝试 %d 次。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">数字密码错误。还可以尝试 %d 次。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">您必须至少年满 %d 周岁才能使用盖乐世 AI 的智能服务功能。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">混合密码必须含有至少 %d 个字母。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">密码必须至少包含%d个小写字母。</item>
-        <item quantity="one">密码必须至少包含一个小写字母。</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">密码必须至少包含%d个数字或符号。</item>
-        <item quantity="one">密码必须至少包含1个数字或符号。</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">密码必须至少包含%d个数字。</item>
-        <item quantity="one">密码必须至少包含一个数字。</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">密码必须至少包含%d个符号。</item>
-        <item quantity="one">密码必须至少包含1个符号。</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">密码必须至少包含%d个大写字母。</item>
-        <item quantity="one">密码必须至少包含一个大写字母。</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">其他 %d 条建议</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d 个活动应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">要删除 %d 个语言包吗？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d 个语音</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d 项其他权限</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">您只需点击 %d 次即可成为开发者。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">已选中 %d 个</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">检测到 %d 个恶意应用程序</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">在您的手机上发现 %d 个恶意应用程序。为确保手机安全，请卸载这些应用程序。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">在您的平板电脑上发现 %d 个恶意应用程序。为确保平板电脑安全，请卸载此应用程序。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d 条建议</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d 个警告</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">睡眠时间：%d 小时</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">睡眠时间：%d 分钟</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">备份无限数据至%1$s长达 %2$d 天，或恢复已备份的数据。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">此测试将在 %d 秒后重置。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">已连接 %d 个设备</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">将您的手机变成 &lt;cst>Wi-Fi&lt;/cst> 接入点。最多 %d 台其他设备将可以使用您手机的移动数据或 &lt;cst>Wi-Fi&lt;/cst> 连接来访问互联网。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">将您的手机变成 &lt;cst>Wi-Fi&lt;/cst> 接入点。最多 %d 台其他设备将可以使用您手机的移动数据来访问互联网。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">将您的平板电脑变成 &lt;cst>Wi-Fi&lt;/cst> 接入点。最多 %d 台其他设备将可以使用您平板电脑的移动数据来访问互联网。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">将您的平板电脑变成 &lt;cst>Wi-Fi&lt;/cst> 接入点。最多 %d 台其他设备将可以使用您平板电脑的移动数据或 &lt;cst>Wi-Fi&lt;/cst> 连接来访问互联网。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d 位成员</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">要删除 %d 个网络吗？</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">已选中 %d 个</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">已尝试解锁您的工作配置文件 1 次。您还可尝试 %d 次，之后此手机将被重置为出厂设置，并且所有数据都将被清除。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">已尝试解锁您的工作配置文件 %d 次。您还可尝试 1 次，之后此手机将被重置为出厂设置，并且所有数据都将被清除。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">已尝试解锁您的工作配置文件 1 次。您还可尝试 %d 次，之后此平板电脑将被重置为出厂设置，并且所有数据都将被清除。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">已尝试解锁您的工作配置文件 %d 次。您还可尝试 1 次，之后此平板电脑将被重置为出厂设置，并且所有数据都将被清除。</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d 小时</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d 分钟</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">N/A</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+%d 天前</item>
+
+        <item
+            quantity="one">
+%d 天前</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+%d 分钟前</item>
+
+        <item
+            quantity="one">
+%d 分钟前</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+%d 年前</item>
+
+        <item
+            quantity="one">
+%d 年前</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d 分钟</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d 秒</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d 个应用程序缓存 (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+要存档 %d 个应用程序吗？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+存档 %1$d 个应用程序 (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+要清除 %d 个应用程序的缓存吗？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+清除 %1$d 个缓存 (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+已选中 %d 个</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+通过存档 %2$d 个未使用的应用程序来释放 %1$s 的空间。您的个人数据和设置将被保存。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+是否卸载 %d 个应用程序？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+卸载 %1$d 个应用程序 (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d 个未使用过的应用程序 (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+正在与 %d 个设备共享互联网连接。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d 个应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d 天</item>
+
+        <item
+            quantity="one">
+1 天</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d 小时</item>
+
+        <item
+            quantity="one">
+1 小时</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d 分钟</item>
+
+        <item
+            quantity="one">
+1 分钟</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d秒</item>
+
+        <item
+            quantity="one">
+1 秒</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d 周</item>
+
+        <item
+            quantity="one">
+1 周</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d 个应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d 小时</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d 分钟</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d 秒</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+若删除这些地点，则在更改敏感设置时将始终需要使用生物识别和安全延迟。</item>
+
+        <item
+            quantity="one">
+若删除此地点，则在更改敏感设置时将始终需要使用生物识别和安全延迟。</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+确定删除 %d 个地点吗？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+已选择 %d 个</item>
+
+        <item
+            quantity="one">
+选中 1 个</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s和其他 %2$d 个地点</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+最多可输入 %d 个字符</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d 条新通知</item>
+
+        <item
+            quantity="one">
+%d 条新通知</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+过去 %d 小时未使用内存</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d 条通知</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+选定应用程序的通知每 %d 分钟提醒一次</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+最多 %d 个应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s 和其他 %2$d 个应用程序使用密钥并自动输入密码和其他信息。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%2$d 个应用程序使用了%1$s权限</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+正在使用 %d 个辅助功能</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d 个应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+是否移除 %d 种语言？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d 个应用程序对您的手机拥有完全访问权限</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+您的手机将在 %d 秒后自动关机。若要保持手机开启，请点击【取消】。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+您的平板电脑将在 %d 秒后自动关机。若要保持平板电脑开启，请点击【取消】。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+每 %d 小时</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+您的混合密码必须包含至少 %d 个字符，其中包括至少 1 个字母。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+您的数字密码必须包含至少 %d 个数字。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+请在 1 小时 %d 分钟后重试</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+请在 %d 小时后重试</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+请在 %d 小时 1 分钟后重试</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+请在 %d 分钟后重试</item>
+
+        <item
+            quantity="one">
+请在 %d 分钟后重试</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+请在 %d 秒钟后重试</item>
+
+        <item
+            quantity="one">
+请在 %d 秒后重试</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+最多开启 %d 个附加服务。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d 位联系人已允许</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+已添加 %d 个指纹</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s、%2$s和其他 %3$d 个应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+混合密码错误。还可以尝试 %d 次。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+图案错误。还可以尝试 %d 次。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+数字密码错误。还可以尝试 %d 次。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+您必须至少年满 %d 周岁才能使用盖乐世 AI 的智能服务功能。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+混合密码必须含有至少 %d 个字母。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+密码必须至少包含%d个小写字母。</item>
+
+        <item
+            quantity="one">
+密码必须至少包含一个小写字母。</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+密码必须至少包含%d个数字或符号。</item>
+
+        <item
+            quantity="one">
+密码必须至少包含1个数字或符号。</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+密码必须至少包含%d个数字。</item>
+
+        <item
+            quantity="one">
+密码必须至少包含一个数字。</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+密码必须至少包含%d个符号。</item>
+
+        <item
+            quantity="one">
+密码必须至少包含1个符号。</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+密码必须至少包含%d个大写字母。</item>
+
+        <item
+            quantity="one">
+密码必须至少包含一个大写字母。</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+其他 %d 条建议</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d 个活动应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+要删除 %d 个语言包吗？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d 个语音</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d 项其他权限</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+您只需点击 %d 次即可成为开发者。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+已选中 %d 个</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+检测到 %d 个恶意应用程序</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+在您的手机上发现 %d 个恶意应用程序。为确保手机安全，请卸载这些应用程序。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+在您的平板电脑上发现 %d 个恶意应用程序。为确保平板电脑安全，请卸载此应用程序。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d 条建议</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d 个警告</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+睡眠时间：%d 小时</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+睡眠时间：%d 分钟</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+备份无限数据至%1$s长达 %2$d 天，或恢复已备份的数据。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+此测试将在 %d 秒后重置。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+已连接 %d 个设备</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+将您的手机变成 &lt;cst&gt;Wi-Fi&lt;/cst&gt; 接入点。最多 %d 台其他设备将可以使用您手机的移动数据或 &lt;cst&gt;Wi-Fi&lt;/cst&gt; 连接来访问互联网。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+将您的手机变成 &lt;cst&gt;Wi-Fi&lt;/cst&gt; 接入点。最多 %d 台其他设备将可以使用您手机的移动数据来访问互联网。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+将您的平板电脑变成 &lt;cst&gt;Wi-Fi&lt;/cst&gt; 接入点。最多 %d 台其他设备将可以使用您平板电脑的移动数据来访问互联网。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+将您的平板电脑变成 &lt;cst&gt;Wi-Fi&lt;/cst&gt; 接入点。最多 %d 台其他设备将可以使用您平板电脑的移动数据或 &lt;cst&gt;Wi-Fi&lt;/cst&gt; 连接来访问互联网。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d 位成员</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+要删除 %d 个网络吗？</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+已选中 %d 个</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+已尝试解锁您的工作配置文件 1 次。您还可尝试 %d 次，之后此手机将被重置为出厂设置，并且所有数据都将被清除。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+已尝试解锁您的工作配置文件 %d 次。您还可尝试 1 次，之后此手机将被重置为出厂设置，并且所有数据都将被清除。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+已尝试解锁您的工作配置文件 1 次。您还可尝试 %d 次，之后此平板电脑将被重置为出厂设置，并且所有数据都将被清除。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+已尝试解锁您的工作配置文件 %d 次。您还可尝试 1 次，之后此平板电脑将被重置为出厂设置，并且所有数据都将被清除。</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d 小时</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d 分钟</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+N/A</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

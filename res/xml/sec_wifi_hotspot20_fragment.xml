@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.preference.Preference android:title="@string/wifi_dialog_passpoint_fqdn" android:key="passpoint" />
-    <androidx.preference.SwitchPreferenceCompat android:title="@string/wifi_auto_reconnect" android:key="auto_connect" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.Preference
+        android:title="@string/wifi_dialog_passpoint_fqdn"
+        android:key="passpoint" />
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:title="@string/wifi_auto_reconnect"
+        android:key="auto_connect" />
+
 </PreferenceScreen>

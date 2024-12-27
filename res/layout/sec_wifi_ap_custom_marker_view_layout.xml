@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#ff1ca5e9" android:layout_width="wrap_content" android:layout_height="15.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="11.0sp" android:textColor="@android:color/white" android:ellipsize="middle" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_centerHorizontal="true" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="15.0dip"
+    android:background="#ff1ca5e9">
+
+    <TextView
+        android:id="@id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textSize="11.0sp"
+        android:textColor="@android:color/white"
+        android:ellipsize="middle"
+        android:text=""
+        android:singleLine="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

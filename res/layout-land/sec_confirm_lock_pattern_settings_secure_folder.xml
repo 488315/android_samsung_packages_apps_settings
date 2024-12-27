@@ -1,34 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/confirm_lock_background_base_secure_folder" />
-    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="vertical" android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0">
-            <View android:id="@id/leftSpacer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" />
-            <ScrollView android:orientation="vertical" android:id="@id/pattern_view_land_left_panel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-                <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                        <include layout="@layout/sec_secure_folder_knox_logo" />
-                        <TextView android:textSize="@dimen/sec_lock_pattern_footer_text_size" android:gravity="center_horizontal" android:id="@id/errorText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
-                        <TextView android:textColor="?android:colorAccent" android:id="@id/headerText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@android:style/TextAppearance.Material.Headline" />
-                        <TextView android:textSize="@dimen/knox_lock_pattern_details_text_size" android:gravity="center" android:layout_gravity="center" android:id="@id/detailsText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sec_lock_layout_margin_start" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/sec_lock_layout_margin_start" android:text="Draw unlock Pattern" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
-                        <Button android:id="@id/cancelButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.Material.Button.Borderless" />
-                        <TextView android:textSize="@dimen/knox_lock_pattern_header_text_size" android:gravity="center_horizontal" android:id="@id/btn_forgot_txt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Reset PPP" android:layout_centerHorizontal="true" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        layout="@layout/confirm_lock_background_base_secure_folder" />
+
+    <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient
+        
+        android:id="@id/topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_weight="1.0">
+
+            <View
+                android:id="@id/leftSpacer"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:visibility="gone" />
+
+            <ScrollView
+                android:id="@id/pattern_view_land_left_panel"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1.0">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <include
+                            layout="@layout/sec_secure_folder_knox_logo" />
+
+                        <TextView
+                            android:id="@id/errorText"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sec_lock_pattern_footer_text_size"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone"
+                            android:layout_marginTop="32.0dip"
+                            android:layout_marginStart="32.0dip"
+                            android:layout_marginEnd="32.0dip"
+                            style="TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+
+                        <TextView
+                            android:id="@id/headerText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="?android:colorAccent"
+                            android:visibility="gone"
+                            android:layout_marginTop="32.0dip"
+                            android:layout_marginStart="32.0dip"
+                            android:layout_marginEnd="32.0dip"
+                            style="@android:style/TextAppearance.Material.Headline" />
+
+                        <TextView
+                            android:id="@id/detailsText"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/knox_lock_pattern_details_text_size"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/sec_lock_layout_margin_start"
+                            android:layout_marginTop="8.0dip"
+                            android:layout_marginRight="@dimen/sec_lock_layout_margin_start"
+                            android:text="Draw unlock Pattern"
+                            style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+
+                        <Button
+                            android:id="@id/cancelButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            style="@android:style/Widget.Material.Button.Borderless" />
+
+                        <TextView
+                            android:id="@id/btn_forgot_txt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/knox_lock_pattern_header_text_size"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone"
+                            android:layout_marginTop="16.0dip"
+                            android:text="Reset PPP"
+                            android:layout_centerHorizontal="true"
+                            style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+
                     </LinearLayout>
+
                 </LinearLayout>
+
             </ScrollView>
-            <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/pattern_view_land_right_panel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/sec_pattern_lock_background">
-                <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_pattern_view_size" />
-                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
-                    <TextView android:textSize="15.0dip" android:textColor="@color/work_profile_lock_screen_text_color" android:gravity="center" android:id="@id/sf_uninstall_bottom_btn" android:background="@drawable/ripple_effect_transparent_button_drawable" android:paddingLeft="@dimen/activity_main_knox_emergencyCall_finger_pading_left_right" android:paddingRight="@dimen/activity_main_knox_emergencyCall_finger_pading_left_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/activity_main_locked_bottom_btn_height" android:layout_marginTop="24.0dip" android:minWidth="@dimen/activity_main_locked_bottom_btn_width" android:text="@string/uninstall" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+
+            <LinearLayout
+                android:id="@id/pattern_view_land_right_panel"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="1.0"
+                style="@style/sec_pattern_lock_background">
+
+                <com.android.internal.widget.LockPatternView
+                    android:id="@id/lockPattern"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/sec_lock_pattern_view_size" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:id="@id/sf_uninstall_bottom_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/activity_main_locked_bottom_btn_height"
+                        android:textSize="15.0dip"
+                        android:textColor="@color/work_profile_lock_screen_text_color"
+                        android:gravity="center"
+                        android:background="@drawable/ripple_effect_transparent_button_drawable"
+                        android:paddingLeft="@dimen/activity_main_knox_emergencyCall_finger_pading_left_right"
+                        android:paddingRight="@dimen/activity_main_knox_emergencyCall_finger_pading_left_right"
+                        android:visibility="gone"
+                        android:layout_marginTop="24.0dip"
+                        android:minWidth="@dimen/activity_main_locked_bottom_btn_width"
+                        android:text="@string/uninstall"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif-medium" />
+
                 </RelativeLayout>
+
             </LinearLayout>
-            <View android:id="@id/rightSpacer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" />
-            <ImageView android:layout_gravity="center_vertical" android:id="@id/fingerprintIcon" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+
+            <View
+                android:id="@id/rightSpacer"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@id/fingerprintIcon"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                android:layout_weight="1.0" />
+
         </LinearLayout>
-        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.samsung.android.settings.widget.SecBottomBarButton android:layout_gravity="bottom" android:id="@id/backupPin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.samsung.android.settings.widget.SecBottomBarButton
+                android:id="@id/backupPin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone"
+                android:textAlignment="center" />
+
         </LinearLayout>
+
     </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+
 </FrameLayout>

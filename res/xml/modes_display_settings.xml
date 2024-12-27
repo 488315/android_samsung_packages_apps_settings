@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/mode_display_settings_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="@string/mode_display_options_section" android:key="display_options">
-        <Preference android:title="@string/zen_mode_restrict_notifications_title" android:key="notification_visibility" />
-        <SwitchPreferenceCompat android:title="@string/mode_grayscale_title" android:key="effect_greyscale" android:summary="@string/mode_grayscale_summary" />
-        <SwitchPreferenceCompat android:title="@string/mode_aod_title" android:key="effect_aod" android:summary="@string/mode_aod_summary" />
-        <SwitchPreferenceCompat android:title="@string/mode_wallpaper_title" android:key="effect_wallpaper" android:summary="@string/mode_wallpaper_summary" />
-        <SwitchPreferenceCompat android:title="@string/mode_dark_theme_title" android:key="effect_dark_theme" android:summary="@string/mode_dark_theme_summary" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/mode_display_settings_title">
+
+    <PreferenceCategory
+        android:title="@string/mode_display_options_section"
+        android:key="display_options">
+
+        <Preference
+            android:title="@string/zen_mode_restrict_notifications_title"
+            android:key="notification_visibility" />
+
+        <SwitchPreferenceCompat
+            android:title="@string/mode_grayscale_title"
+            android:key="effect_greyscale"
+            android:summary="@string/mode_grayscale_summary" />
+
+        <SwitchPreferenceCompat
+            android:title="@string/mode_aod_title"
+            android:key="effect_aod"
+            android:summary="@string/mode_aod_summary" />
+
+        <SwitchPreferenceCompat
+            android:title="@string/mode_wallpaper_title"
+            android:key="effect_wallpaper"
+            android:summary="@string/mode_wallpaper_summary" />
+
+        <SwitchPreferenceCompat
+            android:title="@string/mode_dark_theme_title"
+            android:key="effect_dark_theme"
+            android:summary="@string/mode_dark_theme_summary" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

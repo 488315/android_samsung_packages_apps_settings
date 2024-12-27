@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
-        <item android:id="@id/both_on" android:title="@string/use_both_data" />
-        <item android:id="@id/wifi_only" android:title="@string/use_wifi_data_only" />
-        <item android:id="@id/mobile_data_preferred" android:title="@string/use_mobile_data_preferred" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@id/both_on"
+            android:title="@string/use_both_data" />
+
+        <item
+            android:id="@id/wifi_only"
+            android:title="@string/use_wifi_data_only" />
+
+        <item
+            android:id="@id/mobile_data_preferred"
+            android:title="@string/use_mobile_data_preferred" />
+
     </group>
+
 </menu>

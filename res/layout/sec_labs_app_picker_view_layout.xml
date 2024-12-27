@@ -1,17 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ScrollView android:id="@id/loading_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="@dimen/loading_progress_size_large" style="@style/LoadingTheme" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@id/loading_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@id/loading"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/loading_progress_size_large"
+                android:layout_gravity="center_vertical"
+                style="@style/LoadingTheme" />
+
         </LinearLayout>
+
     </ScrollView>
-    <androidx.apppickerview.widget.AppPickerView android:id="@id/sec_labs_suggested_app_picker_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_app_info_title_margin" android:nestedScrollingEnabled="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
-    <androidx.apppickerview.widget.AppPickerView android:id="@id/sec_labs_app_picker_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
-    <androidx.core.widget.NestedScrollView android:id="@id/empty_view" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <TextView android:gravity="center" android:id="@android:id/empty" android:paddingBottom="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sec_app_search_no_result" android:paddingStart="@null" android:paddingEnd="@null" style="@style/no_item_text_style" />
-            <LinearLayout android:orientation="vertical" android:id="@id/blackView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+
+    <androidx.apppickerview.widget.AppPickerView
+        android:id="@id/sec_labs_suggested_app_picker_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/sec_app_info_title_margin"
+        android:nestedScrollingEnabled="true"
+        app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
+
+    <androidx.apppickerview.widget.AppPickerView
+        android:id="@id/sec_labs_app_picker_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true"
+        app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:fillViewport="true"
+        app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:paddingBottom="@null"
+                android:visibility="gone"
+                android:text="@string/sec_app_search_no_result"
+                android:paddingStart="@null"
+                android:paddingEnd="@null"
+                style="@style/no_item_text_style" />
+
+            <LinearLayout
+                android:id="@id/blackView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:foreground="@color/sec_widget_round_and_bgcolor" />
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </LinearLayout>

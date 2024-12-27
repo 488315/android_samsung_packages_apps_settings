@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/sec_bluetooth_assistant_round_and_bgcolor" />
-    <corners android:radius="@dimen/sec_bluetooth_assistant_connected_card_radius" />
-    <stroke android:width="0.0dip" android:color="@color/sec_bluetooth_assistant_backgound_color" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/sec_bluetooth_assistant_round_and_bgcolor" />
+
+    <corners
+        android:radius="@dimen/sec_bluetooth_assistant_connected_card_radius" />
+
+    <stroke
+        android:width="0.0dip"
+        android:color="@color/sec_bluetooth_assistant_backgound_color" />
+
 </shape>

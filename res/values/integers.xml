@@ -1,242 +1,969 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="app_bar_elevation_anim_duration">150</integer>
-    <integer name="as_no_item_bottom_weight">550</integer>
-    <integer name="as_no_item_top_weight">450</integer>
-    <integer name="as_no_item_weight_sum">1000</integer>
-    <integer name="avatar_picker_columns">3</integer>
-    <integer name="bluetooth_message_view_text_size_tablet_tall">20</integer>
-    <integer name="bluetooth_pairing_view_text_size_tablet_tall">18</integer>
-    <integer name="bluetooth_preference_text_size_tablet_tall">20</integer>
-    <integer name="bluetooth_settings_empty_view_text_size">18</integer>
-    <integer name="bluetooth_settings_empty_view_text_size_vzw">16</integer>
-    <integer name="bottom_sheet_slide_duration">150</integer>
-    <integer name="cancel_button_image_alpha">127</integer>
-    <integer name="config_activity_embed_split_min_cur_dp">0</integer>
-    <integer name="config_activity_embed_split_min_sw_dp">600</integer>
-    <integer name="config_battery_extra_tip_value">12</integer>
-    <integer name="config_chargingFastThreshold">7500000</integer>
-    <integer name="config_chargingFastThreshold_v2">20000000</integer>
-    <integer name="config_chargingSlowlyThreshold">5000000</integer>
-    <integer name="config_default_lock_noticard_opacity">80</integer>
-    <integer name="config_default_lock_noticard_opacity_dark_mode">40</integer>
-    <integer name="config_face_enroll_supported_posture">0</integer>
-    <integer name="config_navAnimTime">150</integer>
-    <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
-    <integer name="config_num_visible_app_icons">20</integer>
-    <integer name="config_udfpsEnrollProgressBar">280</integer>
-    <integer name="config_vibration_supported_intensity_levels">1</integer>
-    <integer name="dashboard_main_list_text_size">17</integer>
-    <integer name="data_usage_application_data_usage_cn_change_period_event_id">9202</integer>
-    <integer name="data_usage_application_data_usage_cn_restrict_background_event_id">9204</integer>
-    <integer name="data_usage_application_data_usage_cn_screen_id">910</integer>
-    <integer name="data_usage_application_data_usage_cn_use_data_without_restriction_event_id">9205</integer>
-    <integer name="data_usage_application_data_usage_cn_view_app_setting_event_id">9203</integer>
-    <integer name="daydream_settings_empty_view_text_size">16</integer>
-    <integer name="design_snackbar_text_max_lines">2</integer>
-    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
-    <integer name="device_index_update">103</integer>
-    <integer name="enrollment_collect_time">0</integer>
-    <integer name="enrollment_help_minimum_time_display">0</integer>
-    <integer name="enrollment_progress_minimum_time_display">0</integer>
-    <integer name="expansion_button_duration">1200</integer>
-    <integer name="expansion_button_fade_anim_duration">150</integer>
-    <integer name="expansion_button_rotate_anim_duration">300</integer>
-    <integer name="google_play_services_version">12451000</integer>
-    <integer name="gts_cell_version">2</integer>
-    <integer name="hide_password_duration">320</integer>
-    <integer name="job_anomaly_clean_up">100</integer>
-    <integer name="job_anomaly_config_update">101</integer>
-    <integer name="job_anomaly_detection">102</integer>
-    <integer name="m3_badge_max_number">999</integer>
-    <integer name="m3_btn_anim_delay_ms">100</integer>
-    <integer name="m3_btn_anim_duration_ms">100</integer>
-    <integer name="m3_card_anim_delay_ms">75</integer>
-    <integer name="m3_card_anim_duration_ms">120</integer>
-    <integer name="m3_chip_anim_duration">100</integer>
-    <integer name="m3_sys_motion_duration_extra_long1">700</integer>
-    <integer name="m3_sys_motion_duration_extra_long2">800</integer>
-    <integer name="m3_sys_motion_duration_extra_long3">900</integer>
-    <integer name="m3_sys_motion_duration_extra_long4">1000</integer>
-    <integer name="m3_sys_motion_duration_long1">450</integer>
-    <integer name="m3_sys_motion_duration_long2">500</integer>
-    <integer name="m3_sys_motion_duration_long3">550</integer>
-    <integer name="m3_sys_motion_duration_long4">600</integer>
-    <integer name="m3_sys_motion_duration_medium1">250</integer>
-    <integer name="m3_sys_motion_duration_medium2">300</integer>
-    <integer name="m3_sys_motion_duration_medium3">350</integer>
-    <integer name="m3_sys_motion_duration_medium4">400</integer>
-    <integer name="m3_sys_motion_duration_short1">50</integer>
-    <integer name="m3_sys_motion_duration_short2">100</integer>
-    <integer name="m3_sys_motion_duration_short3">150</integer>
-    <integer name="m3_sys_motion_duration_short4">200</integer>
-    <integer name="m3_sys_motion_path">0</integer>
-    <integer name="m3_sys_shape_corner_extra_large_corner_family">0</integer>
-    <integer name="m3_sys_shape_corner_extra_small_corner_family">0</integer>
-    <integer name="m3_sys_shape_corner_full_corner_family">0</integer>
-    <integer name="m3_sys_shape_corner_large_corner_family">0</integer>
-    <integer name="m3_sys_shape_corner_medium_corner_family">0</integer>
-    <integer name="m3_sys_shape_corner_small_corner_family">0</integer>
-    <integer name="m3c_window_layout_in_display_cutout_mode">3</integer>
-    <integer name="main_screen_brightness">130</integer>
-    <integer name="main_screen_lockscreen">1500</integer>
-    <integer name="main_screen_sound">140</integer>
-    <integer name="main_screen_sound_and_vibration">1900</integer>
-    <integer name="material_motion_duration_long_1">300</integer>
-    <integer name="material_motion_duration_long_2">350</integer>
-    <integer name="material_motion_duration_medium_1">200</integer>
-    <integer name="material_motion_duration_medium_2">250</integer>
-    <integer name="material_motion_duration_short_1">75</integer>
-    <integer name="material_motion_duration_short_2">150</integer>
-    <integer name="material_motion_path">0</integer>
-    <integer name="maximum_user_dictionary_word_length">48</integer>
-    <integer name="mr_cast_volume_slider_layout_animation_duration_ms">400</integer>
-    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
-    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
-    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
-    <integer name="mr_update_routes_delay_ms">300</integer>
-    <integer name="mtrl_badge_max_character_count">4</integer>
-    <integer name="mtrl_btn_anim_delay_ms">100</integer>
-    <integer name="mtrl_btn_anim_duration_ms">100</integer>
-    <integer name="mtrl_calendar_header_orientation">1</integer>
-    <integer name="mtrl_calendar_selection_text_lines">1</integer>
-    <integer name="mtrl_calendar_year_selector_span">3</integer>
-    <integer name="mtrl_card_anim_delay_ms">75</integer>
-    <integer name="mtrl_card_anim_duration_ms">120</integer>
-    <integer name="mtrl_chip_anim_duration">100</integer>
-    <item type="integer" name="mtrl_switch_thumb_motion_duration">@integer/m3_sys_motion_duration_medium1</item>
-    <item type="integer" name="mtrl_switch_thumb_post_morphing_duration">@integer/m3_sys_motion_duration_short3</item>
-    <item type="integer" name="mtrl_switch_thumb_pre_morphing_duration">@integer/m3_sys_motion_duration_short2</item>
-    <item type="integer" name="mtrl_switch_thumb_pressed_duration">@integer/m3_sys_motion_duration_short2</item>
-    <integer name="mtrl_switch_thumb_viewport_center_coordinate">16</integer>
-    <integer name="mtrl_switch_thumb_viewport_size">32</integer>
-    <integer name="mtrl_switch_track_viewport_height">32</integer>
-    <integer name="mtrl_switch_track_viewport_width">52</integer>
-    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
-    <integer name="mtrl_view_gone">2</integer>
-    <integer name="mtrl_view_invisible">1</integer>
-    <integer name="mtrl_view_visible">0</integer>
-    <integer name="navigationbar_pressure_test_description_size">15</integer>
-    <integer name="power_monitor_receiver">106</integer>
-    <integer name="preferences_detail_pane_weight">1</integer>
-    <integer name="preferences_header_pane_weight">0</integer>
-    <integer name="primary_subscription_list_changed">107</integer>
-    <integer name="sec_biometrics_title_font_weight">700</integer>
-    <item type="integer" name="sec_bluetooth_assistant_main_content_weight">1.0</item>
-    <item type="integer" name="sec_bluetooth_assistant_space_weight">0.0</item>
-    <integer name="sec_face_application_category_order_inset">5000</integer>
-    <integer name="sec_face_application_category_order_samsung_pass">5100</integer>
-    <integer name="sec_face_auth_option_category_order_brighten_screen">4300</integer>
-    <integer name="sec_face_auth_option_category_order_inset">4000</integer>
-    <integer name="sec_face_auth_option_category_order_open_eyes">4200</integer>
-    <integer name="sec_face_auth_option_category_order_recognize_with_mask">4100</integer>
-    <integer name="sec_face_biometrics_security_category_order_about_biometircs_unlock">7100</integer>
-    <integer name="sec_face_biometrics_security_category_order_about_face_recognition">7200</integer>
-    <integer name="sec_face_biometrics_security_category_order_advanced_access_control">6100</integer>
-    <integer name="sec_face_biometrics_security_category_order_advanced_access_control_inset">6000</integer>
-    <integer name="sec_face_biometrics_security_category_order_cmfa_touch_dynamics">6200</integer>
-    <integer name="sec_face_biometrics_security_category_order_inset">7000</integer>
-    <integer name="sec_face_register_category_order_add">2100</integer>
-    <integer name="sec_face_register_category_order_add_alternative">2300</integer>
-    <integer name="sec_face_register_category_order_inset">1100</integer>
-    <integer name="sec_face_register_category_order_remove_alternative_face">2400</integer>
-    <integer name="sec_face_register_category_order_remove_face">2200</integer>
-    <integer name="sec_face_tips_category_order_security_tips">1000</integer>
-    <integer name="sec_face_unlock_option_category_order_faster_recognition">3300</integer>
-    <integer name="sec_face_unlock_option_category_order_inset">3000</integer>
-    <integer name="sec_face_unlock_option_category_order_stay_on_lock_screen">3200</integer>
-    <integer name="sec_face_unlock_option_category_order_unlock">3100</integer>
-    <integer name="sec_fingerprint_application_category_order_inset">5000</integer>
-    <integer name="sec_fingerprint_biometrics_security_category_order_about_biometircs_unlock">6100</integer>
-    <integer name="sec_fingerprint_biometrics_security_category_order_about_fingerprints">6200</integer>
-    <integer name="sec_fingerprint_biometrics_security_category_order_inset">6000</integer>
-    <integer name="sec_fingerprint_icon_and_animation_style">5500</integer>
-    <integer name="sec_fingerprint_option_category_fingerprint_effect">3700</integer>
-    <integer name="sec_fingerprint_option_category_order_always_on">3200</integer>
-    <integer name="sec_fingerprint_option_category_order_always_on_dual_display">3250</integer>
-    <integer name="sec_fingerprint_option_category_order_inset">3000</integer>
-    <integer name="sec_fingerprint_option_category_order_samsung_account">5400</integer>
-    <integer name="sec_fingerprint_option_category_order_screen_off_icon">3400</integer>
-    <integer name="sec_fingerprint_option_category_order_screen_off_icon_aod">3300</integer>
-    <integer name="sec_fingerprint_option_category_order_show_fingerprint_icon">3600</integer>
-    <integer name="sec_fingerprint_option_category_order_stay_on_lock_screen">3260</integer>
-    <integer name="sec_fingerprint_option_category_order_unlock">3100</integer>
-    <integer name="sec_fingerprint_option_category_order_web_sign_in">5300</integer>
-    <integer name="sec_fingerprint_register_category_order_add">2200</integer>
-    <integer name="sec_fingerprint_register_category_order_check_added_fingerprint">2300</integer>
-    <integer name="sec_fingerprint_register_category_order_default">2100</integer>
-    <integer name="sec_fingerprint_register_category_order_inset">1100</integer>
-    <integer name="sec_fingerprint_security_category_order_faster_recognition">4100</integer>
-    <integer name="sec_fingerprint_security_category_order_inset">4000</integer>
-    <integer name="sec_fingerprint_tips_category_order_security_tips">1000</integer>
-    <integer name="sec_font_preview_message_conversation_contact_shape">0</integer>
-    <integer name="sec_intelligentscan_application_category_order_inset">4000</integer>
-    <integer name="sec_intelligentscan_application_category_order_samsung_pass">4100</integer>
-    <integer name="sec_intelligentscan_application_category_order_samsung_pay">4200</integer>
-    <integer name="sec_intelligentscan_biometrics_security_category_order_about_biometircs_unlock">5100</integer>
-    <integer name="sec_intelligentscan_biometrics_security_category_order_inset">5000</integer>
-    <integer name="sec_intelligentscan_option_category_order_inset">3000</integer>
-    <integer name="sec_intelligentscan_option_category_order_samsung_account">3500</integer>
-    <integer name="sec_intelligentscan_option_category_order_screen_on_intelligentscan">3200</integer>
-    <integer name="sec_intelligentscan_option_category_order_stay_on_lock_screen">3300</integer>
-    <integer name="sec_intelligentscan_option_category_order_unlock">3100</integer>
-    <integer name="sec_intelligentscan_option_category_order_web_sign_in">3400</integer>
-    <integer name="sec_intelligentscan_register_category_order_add">2100</integer>
-    <integer name="sec_intelligentscan_register_category_order_inset">1100</integer>
-    <integer name="sec_intelligentscan_register_category_order_remove_intelligentscan">2200</integer>
-    <integer name="sec_intelligentscan_tips_category_order_security_tips">1000</integer>
-    <integer name="sec_preferences_primary_pane_weight">42</integer>
-    <integer name="sec_preferences_secondary_pane_weight">58</integer>
-    <integer name="sec_screen_preveiw_text_size_integer">15</integer>
-    <integer name="sec_secure_folder_status_fingerprint">3101</integer>
-    <integer name="sec_secure_folder_status_lock_type">3100</integer>
-    <integer name="sec_tw_loading_progress_anim_duration">750</integer>
-    <integer name="sec_tw_loading_progress_rot_duration">3000</integer>
-    <integer name="sesl_chip_default_anim_duration">450</integer>
-    <integer name="sesl_config_activityDefaultDur">220</integer>
-    <integer name="sesl_config_activityShortDur">150</integer>
-    <integer name="sesl_config_tooltipAnimTime">150</integer>
-    <integer name="sesl_date_picker_abnormal_start_end_date_background_alpha">38</integer>
-    <integer name="sesl_date_picker_spinner_long_month_text_size">19</integer>
-    <integer name="sesl_date_picker_spinner_number_text_size">22</integer>
-    <integer name="sesl_date_picker_spinner_number_text_size_with_unit">19</integer>
-    <integer name="sesl_day_number_disabled_alpha_dark">51</integer>
-    <integer name="sesl_day_number_disabled_alpha_light">26</integer>
-    <integer name="sesl_day_number_theme_disabled_alpha">102</integer>
-    <integer name="sesl_dialog_disabled_anim_duration">100</integer>
-    <integer name="sesl_dialog_enter_anim_duration">100</integer>
-    <integer name="sesl_dialog_exit_anim_duration">100</integer>
-    <integer name="sesl_glance_combine_body_small_2nd_text__visibility">0</integer>
-    <integer name="sesl_glance_combine_body_tiny_2nd_text_visibility">0</integer>
-    <integer name="sesl_glance_grid_item_with_label_medium_label_visibility">0</integer>
-    <integer name="sesl_glance_linear_graph_small_label_text_visibility">8</integer>
-    <integer name="sesl_glance_multi_textblock_small_3rd_text_visibility">0</integer>
-    <integer name="sesl_loading_progress_anim_duration">750</integer>
-    <integer name="sesl_loading_progress_rot_duration">3000</integer>
-    <integer name="sesl_menu_popup_max_item_count">10</integer>
-    <integer name="sesl_menu_popup_max_item_count_mobile_keyboard">7</integer>
-    <integer name="sesl_people_picker_alpha_delay">200</integer>
-    <integer name="sesl_people_picker_alpha_duration">200</integer>
-    <integer name="sesl_recoil_effect_disabled_duration">100</integer>
-    <integer name="sesl_recoil_effect_press_duration">100</integer>
-    <integer name="sesl_recoil_effect_release_duration">350</integer>
-    <integer name="sesl_spinning_date_picker_spinner_view_weight">47</integer>
-    <item type="integer" name="sesl_spinning_date_time_picker_empty_view_left_weight">7.5</item>
-    <integer name="sesl_spinning_date_time_picker_margin_view_left_weight">4</integer>
-    <integer name="sesl_spinning_datepicker_time_ampm_weight">13</integer>
-    <integer name="sesl_spinning_datepicker_time_hr_min_container_weight">30</integer>
-    <integer name="sesl_spinning_datepicker_time_hr_weight">14</integer>
-    <integer name="sesl_spinning_datepicker_time_margin_right_weight">6</integer>
-    <integer name="sesl_spinning_datepicker_time_min_weight">14</integer>
-    <item type="integer" name="sesl_spinning_datepicker_time_padding_left">11.5</item>
-    <item type="integer" name="sesl_spinning_datepicker_time_padding_right">11.5</item>
-    <integer name="sesl_tablayout_over_screen_width_dp">480</integer>
-    <integer name="show_password_duration">200</integer>
-    <integer name="sim_notification_send">104</integer>
-    <integer name="sim_slot_changed">105</integer>
-    <integer name="status_bar_notification_info_maxnum">999</integer>
-    <integer name="sudTransitionDuration">450</integer>
-    <integer name="suw_max_faces_enrollable">1</integer>
-    <integer name="suw_max_fingerprints_enrollable">1</integer>
-    <integer name="work_profile_bottom_bar_view_gone">2</integer>
+
+    <integer
+        name="app_bar_elevation_anim_duration">
+150</integer>
+
+    <integer
+        name="as_no_item_bottom_weight">
+550</integer>
+
+    <integer
+        name="as_no_item_top_weight">
+450</integer>
+
+    <integer
+        name="as_no_item_weight_sum">
+1000</integer>
+
+    <integer
+        name="avatar_picker_columns">
+3</integer>
+
+    <integer
+        name="bluetooth_message_view_text_size_tablet_tall">
+20</integer>
+
+    <integer
+        name="bluetooth_pairing_view_text_size_tablet_tall">
+18</integer>
+
+    <integer
+        name="bluetooth_preference_text_size_tablet_tall">
+20</integer>
+
+    <integer
+        name="bluetooth_settings_empty_view_text_size">
+18</integer>
+
+    <integer
+        name="bluetooth_settings_empty_view_text_size_vzw">
+16</integer>
+
+    <integer
+        name="bottom_sheet_slide_duration">
+150</integer>
+
+    <integer
+        name="cancel_button_image_alpha">
+127</integer>
+
+    <integer
+        name="config_activity_embed_split_min_cur_dp">
+0</integer>
+
+    <integer
+        name="config_activity_embed_split_min_sw_dp">
+600</integer>
+
+    <integer
+        name="config_battery_extra_tip_value">
+12</integer>
+
+    <integer
+        name="config_chargingFastThreshold">
+7500000</integer>
+
+    <integer
+        name="config_chargingFastThreshold_v2">
+20000000</integer>
+
+    <integer
+        name="config_chargingSlowlyThreshold">
+5000000</integer>
+
+    <integer
+        name="config_default_lock_noticard_opacity">
+80</integer>
+
+    <integer
+        name="config_default_lock_noticard_opacity_dark_mode">
+40</integer>
+
+    <integer
+        name="config_face_enroll_supported_posture">
+0</integer>
+
+    <integer
+        name="config_navAnimTime">
+150</integer>
+
+    <integer
+        name="config_network_scan_helper_max_search_time_sec">
+300</integer>
+
+    <integer
+        name="config_num_visible_app_icons">
+20</integer>
+
+    <integer
+        name="config_udfpsEnrollProgressBar">
+280</integer>
+
+    <integer
+        name="config_vibration_supported_intensity_levels">
+1</integer>
+
+    <integer
+        name="dashboard_main_list_text_size">
+17</integer>
+
+    <integer
+        name="data_usage_application_data_usage_cn_change_period_event_id">
+9202</integer>
+
+    <integer
+        name="data_usage_application_data_usage_cn_restrict_background_event_id">
+9204</integer>
+
+    <integer
+        name="data_usage_application_data_usage_cn_screen_id">
+910</integer>
+
+    <integer
+        name="data_usage_application_data_usage_cn_use_data_without_restriction_event_id">
+9205</integer>
+
+    <integer
+        name="data_usage_application_data_usage_cn_view_app_setting_event_id">
+9203</integer>
+
+    <integer
+        name="daydream_settings_empty_view_text_size">
+16</integer>
+
+    <integer
+        name="design_snackbar_text_max_lines">
+2</integer>
+
+    <integer
+        name="design_tab_indicator_anim_duration_ms">
+300</integer>
+
+    <integer
+        name="device_index_update">
+103</integer>
+
+    <integer
+        name="enrollment_collect_time">
+0</integer>
+
+    <integer
+        name="enrollment_help_minimum_time_display">
+0</integer>
+
+    <integer
+        name="enrollment_progress_minimum_time_display">
+0</integer>
+
+    <integer
+        name="expansion_button_duration">
+1200</integer>
+
+    <integer
+        name="expansion_button_fade_anim_duration">
+150</integer>
+
+    <integer
+        name="expansion_button_rotate_anim_duration">
+300</integer>
+
+    <integer
+        name="google_play_services_version">
+12451000</integer>
+
+    <integer
+        name="gts_cell_version">
+2</integer>
+
+    <integer
+        name="hide_password_duration">
+320</integer>
+
+    <integer
+        name="job_anomaly_clean_up">
+100</integer>
+
+    <integer
+        name="job_anomaly_config_update">
+101</integer>
+
+    <integer
+        name="job_anomaly_detection">
+102</integer>
+
+    <integer
+        name="m3_badge_max_number">
+999</integer>
+
+    <integer
+        name="m3_btn_anim_delay_ms">
+100</integer>
+
+    <integer
+        name="m3_btn_anim_duration_ms">
+100</integer>
+
+    <integer
+        name="m3_card_anim_delay_ms">
+75</integer>
+
+    <integer
+        name="m3_card_anim_duration_ms">
+120</integer>
+
+    <integer
+        name="m3_chip_anim_duration">
+100</integer>
+
+    <integer
+        name="m3_sys_motion_duration_extra_long1">
+700</integer>
+
+    <integer
+        name="m3_sys_motion_duration_extra_long2">
+800</integer>
+
+    <integer
+        name="m3_sys_motion_duration_extra_long3">
+900</integer>
+
+    <integer
+        name="m3_sys_motion_duration_extra_long4">
+1000</integer>
+
+    <integer
+        name="m3_sys_motion_duration_long1">
+450</integer>
+
+    <integer
+        name="m3_sys_motion_duration_long2">
+500</integer>
+
+    <integer
+        name="m3_sys_motion_duration_long3">
+550</integer>
+
+    <integer
+        name="m3_sys_motion_duration_long4">
+600</integer>
+
+    <integer
+        name="m3_sys_motion_duration_medium1">
+250</integer>
+
+    <integer
+        name="m3_sys_motion_duration_medium2">
+300</integer>
+
+    <integer
+        name="m3_sys_motion_duration_medium3">
+350</integer>
+
+    <integer
+        name="m3_sys_motion_duration_medium4">
+400</integer>
+
+    <integer
+        name="m3_sys_motion_duration_short1">
+50</integer>
+
+    <integer
+        name="m3_sys_motion_duration_short2">
+100</integer>
+
+    <integer
+        name="m3_sys_motion_duration_short3">
+150</integer>
+
+    <integer
+        name="m3_sys_motion_duration_short4">
+200</integer>
+
+    <integer
+        name="m3_sys_motion_path">
+0</integer>
+
+    <integer
+        name="m3_sys_shape_corner_extra_large_corner_family">
+0</integer>
+
+    <integer
+        name="m3_sys_shape_corner_extra_small_corner_family">
+0</integer>
+
+    <integer
+        name="m3_sys_shape_corner_full_corner_family">
+0</integer>
+
+    <integer
+        name="m3_sys_shape_corner_large_corner_family">
+0</integer>
+
+    <integer
+        name="m3_sys_shape_corner_medium_corner_family">
+0</integer>
+
+    <integer
+        name="m3_sys_shape_corner_small_corner_family">
+0</integer>
+
+    <integer
+        name="m3c_window_layout_in_display_cutout_mode">
+3</integer>
+
+    <integer
+        name="main_screen_brightness">
+130</integer>
+
+    <integer
+        name="main_screen_lockscreen">
+1500</integer>
+
+    <integer
+        name="main_screen_sound">
+140</integer>
+
+    <integer
+        name="main_screen_sound_and_vibration">
+1900</integer>
+
+    <integer
+        name="material_motion_duration_long_1">
+300</integer>
+
+    <integer
+        name="material_motion_duration_long_2">
+350</integer>
+
+    <integer
+        name="material_motion_duration_medium_1">
+200</integer>
+
+    <integer
+        name="material_motion_duration_medium_2">
+250</integer>
+
+    <integer
+        name="material_motion_duration_short_1">
+75</integer>
+
+    <integer
+        name="material_motion_duration_short_2">
+150</integer>
+
+    <integer
+        name="material_motion_path">
+0</integer>
+
+    <integer
+        name="maximum_user_dictionary_word_length">
+48</integer>
+
+    <integer
+        name="mr_cast_volume_slider_layout_animation_duration_ms">
+400</integer>
+
+    <integer
+        name="mr_controller_volume_group_list_animation_duration_ms">
+400</integer>
+
+    <integer
+        name="mr_controller_volume_group_list_fade_in_duration_ms">
+400</integer>
+
+    <integer
+        name="mr_controller_volume_group_list_fade_out_duration_ms">
+200</integer>
+
+    <integer
+        name="mr_update_routes_delay_ms">
+300</integer>
+
+    <integer
+        name="mtrl_badge_max_character_count">
+4</integer>
+
+    <integer
+        name="mtrl_btn_anim_delay_ms">
+100</integer>
+
+    <integer
+        name="mtrl_btn_anim_duration_ms">
+100</integer>
+
+    <integer
+        name="mtrl_calendar_header_orientation">
+1</integer>
+
+    <integer
+        name="mtrl_calendar_selection_text_lines">
+1</integer>
+
+    <integer
+        name="mtrl_calendar_year_selector_span">
+3</integer>
+
+    <integer
+        name="mtrl_card_anim_delay_ms">
+75</integer>
+
+    <integer
+        name="mtrl_card_anim_duration_ms">
+120</integer>
+
+    <integer
+        name="mtrl_chip_anim_duration">
+100</integer>
+
+    <item
+        type="integer"
+        name="mtrl_switch_thumb_motion_duration">
+@integer/m3_sys_motion_duration_medium1</item>
+
+    <item
+        type="integer"
+        name="mtrl_switch_thumb_post_morphing_duration">
+@integer/m3_sys_motion_duration_short3</item>
+
+    <item
+        type="integer"
+        name="mtrl_switch_thumb_pre_morphing_duration">
+@integer/m3_sys_motion_duration_short2</item>
+
+    <item
+        type="integer"
+        name="mtrl_switch_thumb_pressed_duration">
+@integer/m3_sys_motion_duration_short2</item>
+
+    <integer
+        name="mtrl_switch_thumb_viewport_center_coordinate">
+16</integer>
+
+    <integer
+        name="mtrl_switch_thumb_viewport_size">
+32</integer>
+
+    <integer
+        name="mtrl_switch_track_viewport_height">
+32</integer>
+
+    <integer
+        name="mtrl_switch_track_viewport_width">
+52</integer>
+
+    <integer
+        name="mtrl_tab_indicator_anim_duration_ms">
+250</integer>
+
+    <integer
+        name="mtrl_view_gone">
+2</integer>
+
+    <integer
+        name="mtrl_view_invisible">
+1</integer>
+
+    <integer
+        name="mtrl_view_visible">
+0</integer>
+
+    <integer
+        name="navigationbar_pressure_test_description_size">
+15</integer>
+
+    <integer
+        name="power_monitor_receiver">
+106</integer>
+
+    <integer
+        name="preferences_detail_pane_weight">
+1</integer>
+
+    <integer
+        name="preferences_header_pane_weight">
+0</integer>
+
+    <integer
+        name="primary_subscription_list_changed">
+107</integer>
+
+    <integer
+        name="sec_biometrics_title_font_weight">
+700</integer>
+
+    <item
+        type="integer"
+        name="sec_bluetooth_assistant_main_content_weight">
+1.0</item>
+
+    <item
+        type="integer"
+        name="sec_bluetooth_assistant_space_weight">
+0.0</item>
+
+    <integer
+        name="sec_face_application_category_order_inset">
+5000</integer>
+
+    <integer
+        name="sec_face_application_category_order_samsung_pass">
+5100</integer>
+
+    <integer
+        name="sec_face_auth_option_category_order_brighten_screen">
+4300</integer>
+
+    <integer
+        name="sec_face_auth_option_category_order_inset">
+4000</integer>
+
+    <integer
+        name="sec_face_auth_option_category_order_open_eyes">
+4200</integer>
+
+    <integer
+        name="sec_face_auth_option_category_order_recognize_with_mask">
+4100</integer>
+
+    <integer
+        name="sec_face_biometrics_security_category_order_about_biometircs_unlock">
+7100</integer>
+
+    <integer
+        name="sec_face_biometrics_security_category_order_about_face_recognition">
+7200</integer>
+
+    <integer
+        name="sec_face_biometrics_security_category_order_advanced_access_control">
+6100</integer>
+
+    <integer
+        name="sec_face_biometrics_security_category_order_advanced_access_control_inset">
+6000</integer>
+
+    <integer
+        name="sec_face_biometrics_security_category_order_cmfa_touch_dynamics">
+6200</integer>
+
+    <integer
+        name="sec_face_biometrics_security_category_order_inset">
+7000</integer>
+
+    <integer
+        name="sec_face_register_category_order_add">
+2100</integer>
+
+    <integer
+        name="sec_face_register_category_order_add_alternative">
+2300</integer>
+
+    <integer
+        name="sec_face_register_category_order_inset">
+1100</integer>
+
+    <integer
+        name="sec_face_register_category_order_remove_alternative_face">
+2400</integer>
+
+    <integer
+        name="sec_face_register_category_order_remove_face">
+2200</integer>
+
+    <integer
+        name="sec_face_tips_category_order_security_tips">
+1000</integer>
+
+    <integer
+        name="sec_face_unlock_option_category_order_faster_recognition">
+3300</integer>
+
+    <integer
+        name="sec_face_unlock_option_category_order_inset">
+3000</integer>
+
+    <integer
+        name="sec_face_unlock_option_category_order_stay_on_lock_screen">
+3200</integer>
+
+    <integer
+        name="sec_face_unlock_option_category_order_unlock">
+3100</integer>
+
+    <integer
+        name="sec_fingerprint_application_category_order_inset">
+5000</integer>
+
+    <integer
+        name="sec_fingerprint_biometrics_security_category_order_about_biometircs_unlock">
+6100</integer>
+
+    <integer
+        name="sec_fingerprint_biometrics_security_category_order_about_fingerprints">
+6200</integer>
+
+    <integer
+        name="sec_fingerprint_biometrics_security_category_order_inset">
+6000</integer>
+
+    <integer
+        name="sec_fingerprint_icon_and_animation_style">
+5500</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_fingerprint_effect">
+3700</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_always_on">
+3200</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_always_on_dual_display">
+3250</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_inset">
+3000</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_samsung_account">
+5400</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_screen_off_icon">
+3400</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_screen_off_icon_aod">
+3300</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_show_fingerprint_icon">
+3600</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_stay_on_lock_screen">
+3260</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_unlock">
+3100</integer>
+
+    <integer
+        name="sec_fingerprint_option_category_order_web_sign_in">
+5300</integer>
+
+    <integer
+        name="sec_fingerprint_register_category_order_add">
+2200</integer>
+
+    <integer
+        name="sec_fingerprint_register_category_order_check_added_fingerprint">
+2300</integer>
+
+    <integer
+        name="sec_fingerprint_register_category_order_default">
+2100</integer>
+
+    <integer
+        name="sec_fingerprint_register_category_order_inset">
+1100</integer>
+
+    <integer
+        name="sec_fingerprint_security_category_order_faster_recognition">
+4100</integer>
+
+    <integer
+        name="sec_fingerprint_security_category_order_inset">
+4000</integer>
+
+    <integer
+        name="sec_fingerprint_tips_category_order_security_tips">
+1000</integer>
+
+    <integer
+        name="sec_font_preview_message_conversation_contact_shape">
+0</integer>
+
+    <integer
+        name="sec_intelligentscan_application_category_order_inset">
+4000</integer>
+
+    <integer
+        name="sec_intelligentscan_application_category_order_samsung_pass">
+4100</integer>
+
+    <integer
+        name="sec_intelligentscan_application_category_order_samsung_pay">
+4200</integer>
+
+    <integer
+        name="sec_intelligentscan_biometrics_security_category_order_about_biometircs_unlock">
+5100</integer>
+
+    <integer
+        name="sec_intelligentscan_biometrics_security_category_order_inset">
+5000</integer>
+
+    <integer
+        name="sec_intelligentscan_option_category_order_inset">
+3000</integer>
+
+    <integer
+        name="sec_intelligentscan_option_category_order_samsung_account">
+3500</integer>
+
+    <integer
+        name="sec_intelligentscan_option_category_order_screen_on_intelligentscan">
+3200</integer>
+
+    <integer
+        name="sec_intelligentscan_option_category_order_stay_on_lock_screen">
+3300</integer>
+
+    <integer
+        name="sec_intelligentscan_option_category_order_unlock">
+3100</integer>
+
+    <integer
+        name="sec_intelligentscan_option_category_order_web_sign_in">
+3400</integer>
+
+    <integer
+        name="sec_intelligentscan_register_category_order_add">
+2100</integer>
+
+    <integer
+        name="sec_intelligentscan_register_category_order_inset">
+1100</integer>
+
+    <integer
+        name="sec_intelligentscan_register_category_order_remove_intelligentscan">
+2200</integer>
+
+    <integer
+        name="sec_intelligentscan_tips_category_order_security_tips">
+1000</integer>
+
+    <integer
+        name="sec_preferences_primary_pane_weight">
+42</integer>
+
+    <integer
+        name="sec_preferences_secondary_pane_weight">
+58</integer>
+
+    <integer
+        name="sec_screen_preveiw_text_size_integer">
+15</integer>
+
+    <integer
+        name="sec_secure_folder_status_fingerprint">
+3101</integer>
+
+    <integer
+        name="sec_secure_folder_status_lock_type">
+3100</integer>
+
+    <integer
+        name="sec_tw_loading_progress_anim_duration">
+750</integer>
+
+    <integer
+        name="sec_tw_loading_progress_rot_duration">
+3000</integer>
+
+    <integer
+        name="sesl_chip_default_anim_duration">
+450</integer>
+
+    <integer
+        name="sesl_config_activityDefaultDur">
+220</integer>
+
+    <integer
+        name="sesl_config_activityShortDur">
+150</integer>
+
+    <integer
+        name="sesl_config_tooltipAnimTime">
+150</integer>
+
+    <integer
+        name="sesl_date_picker_abnormal_start_end_date_background_alpha">
+38</integer>
+
+    <integer
+        name="sesl_date_picker_spinner_long_month_text_size">
+19</integer>
+
+    <integer
+        name="sesl_date_picker_spinner_number_text_size">
+22</integer>
+
+    <integer
+        name="sesl_date_picker_spinner_number_text_size_with_unit">
+19</integer>
+
+    <integer
+        name="sesl_day_number_disabled_alpha_dark">
+51</integer>
+
+    <integer
+        name="sesl_day_number_disabled_alpha_light">
+26</integer>
+
+    <integer
+        name="sesl_day_number_theme_disabled_alpha">
+102</integer>
+
+    <integer
+        name="sesl_dialog_disabled_anim_duration">
+100</integer>
+
+    <integer
+        name="sesl_dialog_enter_anim_duration">
+100</integer>
+
+    <integer
+        name="sesl_dialog_exit_anim_duration">
+100</integer>
+
+    <integer
+        name="sesl_glance_combine_body_small_2nd_text__visibility">
+0</integer>
+
+    <integer
+        name="sesl_glance_combine_body_tiny_2nd_text_visibility">
+0</integer>
+
+    <integer
+        name="sesl_glance_grid_item_with_label_medium_label_visibility">
+0</integer>
+
+    <integer
+        name="sesl_glance_linear_graph_small_label_text_visibility">
+8</integer>
+
+    <integer
+        name="sesl_glance_multi_textblock_small_3rd_text_visibility">
+0</integer>
+
+    <integer
+        name="sesl_loading_progress_anim_duration">
+750</integer>
+
+    <integer
+        name="sesl_loading_progress_rot_duration">
+3000</integer>
+
+    <integer
+        name="sesl_menu_popup_max_item_count">
+10</integer>
+
+    <integer
+        name="sesl_menu_popup_max_item_count_mobile_keyboard">
+7</integer>
+
+    <integer
+        name="sesl_people_picker_alpha_delay">
+200</integer>
+
+    <integer
+        name="sesl_people_picker_alpha_duration">
+200</integer>
+
+    <integer
+        name="sesl_recoil_effect_disabled_duration">
+100</integer>
+
+    <integer
+        name="sesl_recoil_effect_press_duration">
+100</integer>
+
+    <integer
+        name="sesl_recoil_effect_release_duration">
+350</integer>
+
+    <integer
+        name="sesl_spinning_date_picker_spinner_view_weight">
+47</integer>
+
+    <item
+        type="integer"
+        name="sesl_spinning_date_time_picker_empty_view_left_weight">
+7.5</item>
+
+    <integer
+        name="sesl_spinning_date_time_picker_margin_view_left_weight">
+4</integer>
+
+    <integer
+        name="sesl_spinning_datepicker_time_ampm_weight">
+13</integer>
+
+    <integer
+        name="sesl_spinning_datepicker_time_hr_min_container_weight">
+30</integer>
+
+    <integer
+        name="sesl_spinning_datepicker_time_hr_weight">
+14</integer>
+
+    <integer
+        name="sesl_spinning_datepicker_time_margin_right_weight">
+6</integer>
+
+    <integer
+        name="sesl_spinning_datepicker_time_min_weight">
+14</integer>
+
+    <item
+        type="integer"
+        name="sesl_spinning_datepicker_time_padding_left">
+11.5</item>
+
+    <item
+        type="integer"
+        name="sesl_spinning_datepicker_time_padding_right">
+11.5</item>
+
+    <integer
+        name="sesl_tablayout_over_screen_width_dp">
+480</integer>
+
+    <integer
+        name="show_password_duration">
+200</integer>
+
+    <integer
+        name="sim_notification_send">
+104</integer>
+
+    <integer
+        name="sim_slot_changed">
+105</integer>
+
+    <integer
+        name="status_bar_notification_info_maxnum">
+999</integer>
+
+    <integer
+        name="sudTransitionDuration">
+450</integer>
+
+    <integer
+        name="suw_max_faces_enrollable">
+1</integer>
+
+    <integer
+        name="suw_max_fingerprints_enrollable">
+1</integer>
+
+    <integer
+        name="work_profile_bottom_bar_view_gone">
+2</integer>
+
 </resources>

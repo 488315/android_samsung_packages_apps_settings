@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_apps_to_view_as_brief_popup" android:key="apps_to_view_as_brief_popup" settings:hierarchicalParentFragment="com.samsung.android.settings.notification.brief.BriefPopUpSettings" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="brief_popup_list_settings_category" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_apps_to_view_as_brief_popup"
+    android:key="apps_to_view_as_brief_popup"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.notification.brief.BriefPopUpSettings"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <PreferenceCategory
+        android:key="brief_popup_list_settings_category" />
+
 </PreferenceScreen>

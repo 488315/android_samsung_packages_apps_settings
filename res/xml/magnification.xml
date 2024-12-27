@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:key="description_image_preference" settings:image_contentDescription="@string/magnification_guide_image_content_description" settings:lottie_rawRes="@raw/a11y_accessibility_screen_magnification" settings:searchable="false" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:key="description_image_preference"
+        settings:image_contentDescription="@string/magnification_guide_image_content_description"
+        settings:lottie_rawRes="@raw/a11y_accessibility_screen_magnification"
+        settings:searchable="false" />
+
     <PreferenceCategory>
-        <Preference android:title="@string/magnification_mode_title" android:key="screen_magnification_mode" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypePreferenceController">
-            <intent android:action="com.android.settings.ACCESSIBILITY_MAGNIFICATION_MODE" />
+
+        <Preference
+            android:title="@string/magnification_mode_title"
+            android:key="screen_magnification_mode"
+            settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypePreferenceController">
+
+            <intent
+                android:action="com.android.settings.ACCESSIBILITY_MAGNIFICATION_MODE" />
+
         </Preference>
-        <SwitchPreference android:title="@string/magnification_always_on_fullscreen_title" android:key="accessibility_magnification_always_on_enabled" settings:controller="com.android.settings.accessibility.MagnificationAlwaysOnPreferenceController" />
-        <SwitchPreference android:title="@string/magnification_follow_typing_cursor_title" android:key="magnification_follow_typing" android:summary="@string/magnification_follow_typing_cursor_summary" settings:controller="com.android.settings.accessibility.MagnificationFollowTypingPreferenceController" />
+
+        <SwitchPreference
+            android:title="@string/magnification_always_on_fullscreen_title"
+            android:key="accessibility_magnification_always_on_enabled"
+            settings:controller="com.android.settings.accessibility.MagnificationAlwaysOnPreferenceController" />
+
+        <SwitchPreference
+            android:title="@string/magnification_follow_typing_cursor_title"
+            android:key="magnification_follow_typing"
+            android:summary="@string/magnification_follow_typing_cursor_summary"
+            settings:controller="com.android.settings.accessibility.MagnificationFollowTypingPreferenceController" />
+
     </PreferenceCategory>
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:key="description_text_preference" settings:searchable="false" settings:showTopPadding="true" />
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:key="description_text_preference"
+        settings:searchable="false"
+        settings:showTopPadding="true" />
+
 </PreferenceScreen>

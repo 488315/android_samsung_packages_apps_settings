@@ -1,184 +1,524 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="bluetooth_cast_timeout_entries">
-        <item>Mintoci 5</item>
-        <item>Mintoci 10</item>
-        <item>30 mintuna</item>
-        <item>"Don't disconnect"</item>
+
+    <string-array
+        name="bluetooth_cast_timeout_entries">
+
+        <item>
+Mintoci 5</item>
+
+        <item>
+Mintoci 10</item>
+
+        <item>
+30 mintuna</item>
+
+        <item>
+"Don't disconnect"</item>
+
     </string-array>
-    <string-array name="bluetooth_pbap_property_picture_entries">
-        <item>Eh</item>
-        <item>"A'a"</item>
+
+    <string-array
+        name="bluetooth_pbap_property_picture_entries">
+
+        <item>
+Eh</item>
+
+        <item>
+"A'a"</item>
+
     </string-array>
-    <string-array name="bluetooth_sap_activation_entries">
-        <item>Default (no effect)</item>
-        <item>Turn on SAP by force</item>
-        <item>Turn off SAP by force</item>
+
+    <string-array
+        name="bluetooth_sap_activation_entries">
+
+        <item>
+Default (no effect)</item>
+
+        <item>
+Turn on SAP by force</item>
+
+        <item>
+Turn off SAP by force</item>
+
     </string-array>
-    <string-array name="data_usage_billing_cycle_summary">
-        <item>1st day of each month</item>
-        <item>2nd day of each month</item>
-        <item>3rd day of each month</item>
-        <item>4th day of each month</item>
-        <item>5th day of each month</item>
-        <item>6th day of each month</item>
-        <item>7th day of each month</item>
-        <item>8th day of each month</item>
-        <item>9th day of each month</item>
-        <item>10th day of each month</item>
-        <item>11th day of each month</item>
-        <item>12th day of each month</item>
-        <item>13th day of each month</item>
-        <item>14th day of each month</item>
-        <item>15th day of each month</item>
-        <item>16th day of each month</item>
-        <item>17th day of each month</item>
-        <item>18th day of each month</item>
-        <item>19th day of each month</item>
-        <item>20th day of each month</item>
-        <item>21st day of each month</item>
-        <item>22nd day of each month</item>
-        <item>23rd day of each month</item>
-        <item>24th day of each month</item>
-        <item>25th day of each month</item>
-        <item>26th day of each month</item>
-        <item>27th day of each month</item>
-        <item>28th day of each month</item>
-        <item>29th day of each month</item>
-        <item>30th day of each month</item>
-        <item>31st day of each month</item>
+
+    <string-array
+        name="data_usage_billing_cycle_summary">
+
+        <item>
+1st day of each month</item>
+
+        <item>
+2nd day of each month</item>
+
+        <item>
+3rd day of each month</item>
+
+        <item>
+4th day of each month</item>
+
+        <item>
+5th day of each month</item>
+
+        <item>
+6th day of each month</item>
+
+        <item>
+7th day of each month</item>
+
+        <item>
+8th day of each month</item>
+
+        <item>
+9th day of each month</item>
+
+        <item>
+10th day of each month</item>
+
+        <item>
+11th day of each month</item>
+
+        <item>
+12th day of each month</item>
+
+        <item>
+13th day of each month</item>
+
+        <item>
+14th day of each month</item>
+
+        <item>
+15th day of each month</item>
+
+        <item>
+16th day of each month</item>
+
+        <item>
+17th day of each month</item>
+
+        <item>
+18th day of each month</item>
+
+        <item>
+19th day of each month</item>
+
+        <item>
+20th day of each month</item>
+
+        <item>
+21st day of each month</item>
+
+        <item>
+22nd day of each month</item>
+
+        <item>
+23rd day of each month</item>
+
+        <item>
+24th day of each month</item>
+
+        <item>
+25th day of each month</item>
+
+        <item>
+26th day of each month</item>
+
+        <item>
+27th day of each month</item>
+
+        <item>
+28th day of each month</item>
+
+        <item>
+29th day of each month</item>
+
+        <item>
+30th day of each month</item>
+
+        <item>
+31st day of each month</item>
+
     </string-array>
-    <string-array name="dex_timeout_entries">
-        <item>15 sakanni</item>
-        <item>30 sakanni</item>
-        <item>1 minti</item>
-        <item>2 mintuna</item>
-        <item>Mintoci 5</item>
-        <item>Mintoci 10</item>
-        <item>Mintoci 20</item>
-        <item>30 mintuna</item>
-        <item>Mintuna 60</item>
+
+    <string-array
+        name="dex_timeout_entries">
+
+        <item>
+15 sakanni</item>
+
+        <item>
+30 sakanni</item>
+
+        <item>
+1 minti</item>
+
+        <item>
+2 mintuna</item>
+
+        <item>
+Mintoci 5</item>
+
+        <item>
+Mintoci 10</item>
+
+        <item>
+Mintoci 20</item>
+
+        <item>
+30 mintuna</item>
+
+        <item>
+Mintuna 60</item>
+
     </string-array>
-    <string-array name="gpuwatch_rendering_api_entries">
-        <item>Vulkan</item>
-        <item>OpenGL</item>
+
+    <string-array
+        name="gpuwatch_rendering_api_entries">
+
+        <item>
+Vulkan</item>
+
+        <item>
+OpenGL</item>
+
     </string-array>
-    <string-array name="gpuwatch_widget_positions">
-        <item>Top - Left</item>
-        <item>Top - Center horizontal</item>
-        <item>Top - Right</item>
-        <item>Center vertical - Left</item>
-        <item>Center vertical - Right</item>
-        <item>Bottom - Left</item>
-        <item>Bottom - Center horizontal</item>
-        <item>Bottom - Right</item>
+
+    <string-array
+        name="gpuwatch_widget_positions">
+
+        <item>
+Top - Left</item>
+
+        <item>
+Top - Center horizontal</item>
+
+        <item>
+Top - Right</item>
+
+        <item>
+Center vertical - Left</item>
+
+        <item>
+Center vertical - Right</item>
+
+        <item>
+Bottom - Left</item>
+
+        <item>
+Bottom - Center horizontal</item>
+
+        <item>
+Bottom - Right</item>
+
     </string-array>
-    <string-array name="key_backlight_entries">
-        <item>Always off</item>
-        <item>Daƙiƙa 1</item>
-        <item>Sakan 32</item>
-        <item>Sakan 5</item>
-        <item>dakika 10</item>
-        <item>15 sakanni</item>
+
+    <string-array
+        name="key_backlight_entries">
+
+        <item>
+Always off</item>
+
+        <item>
+Daƙiƙa 1</item>
+
+        <item>
+Sakan 32</item>
+
+        <item>
+Sakan 5</item>
+
+        <item>
+dakika 10</item>
+
+        <item>
+15 sakanni</item>
+
     </string-array>
-    <string-array name="mouse_pointer_color_type">
-        <item>Fari</item>
-        <item>Baƙi</item>
-        <item>Kore mai haske shigen shuɗi</item>
-        <item>Ruwan ɗorawa</item>
-        <item>Ja mai haske</item>
-        <item>Shanshanbale mai haske</item>
-        <item>Shuɗi mai haske</item>
+
+    <string-array
+        name="mouse_pointer_color_type">
+
+        <item>
+Fari</item>
+
+        <item>
+Baƙi</item>
+
+        <item>
+Kore mai haske shigen shuɗi</item>
+
+        <item>
+Ruwan ɗorawa</item>
+
+        <item>
+Ja mai haske</item>
+
+        <item>
+Shanshanbale mai haske</item>
+
+        <item>
+Shuɗi mai haske</item>
+
     </string-array>
-    <string-array name="num_allowed_devices">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
+
+    <string-array
+        name="num_allowed_devices">
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
     </string-array>
-    <string-array name="sec_bt_stack_log_level_entries">
-        <item>Verbose</item>
-        <item>Debug</item>
-        <item>Bayani</item>
-        <item>Warn</item>
-        <item>Error</item>
+
+    <string-array
+        name="sec_bt_stack_log_level_entries">
+
+        <item>
+Verbose</item>
+
+        <item>
+Debug</item>
+
+        <item>
+Bayani</item>
+
+        <item>
+Warn</item>
+
+        <item>
+Error</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_phone">
-        <item>"Find your phone if it's lost."</item>
-        <item>Sync apps and settings across your devices.</item>
-        <item>Share files with friends, family, and other devices.</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_phone">
+
+        <item>
+"Find your phone if it's lost."</item>
+
+        <item>
+Sync apps and settings across your devices.</item>
+
+        <item>
+Share files with friends, family, and other devices.</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_tablet">
-        <item>"Find your tablet if it's lost."</item>
-        <item>Copy and paste between your phone and tablet.</item>
-        <item>Automatically switch your Buds between devices.</item>
-        <item>Answer calls and texts on your tablet.</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_tablet">
+
+        <item>
+"Find your tablet if it's lost."</item>
+
+        <item>
+Copy and paste between your phone and tablet.</item>
+
+        <item>
+Automatically switch your Buds between devices.</item>
+
+        <item>
+Answer calls and texts on your tablet.</item>
+
     </string-array>
-    <string-array name="wifi_ap_broadcast_channel_entries">
-        <item>Atomatik</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
+
+    <string-array
+        name="wifi_ap_broadcast_channel_entries">
+
+        <item>
+Atomatik</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
+        <item>
+11</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_phone_entries">
-        <item>Randomized MAC</item>
-        <item>Phone MAC</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_phone_entries">
+
+        <item>
+Randomized MAC</item>
+
+        <item>
+Phone MAC</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_tablet_entries">
-        <item>Randomized MAC</item>
-        <item>Tablet MAC</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_tablet_entries">
+
+        <item>
+Randomized MAC</item>
+
+        <item>
+Tablet MAC</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_security_type_entries">
-        <item>Bude</item>
-        <item>Enhanced Open</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_owe_security_type_entries">
+
+        <item>
+Bude</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
-        <item>Bude</item>
-        <item>Enhanced Open</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_owe_wpa3_security_type_entries">
+
+        <item>
+Bude</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_ap_security_type_entries">
-        <item>Bude</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_security_type_entries">
+
+        <item>
+Bude</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
-        <item>Ka da ya kasu</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>60 minutes</item>
+
+    <string-array
+        name="wifi_ap_turn_off_hotspot_timer_entries">
+
+        <item>
+Ka da ya kasu</item>
+
+        <item>
+5 minutes</item>
+
+        <item>
+10 minutes</item>
+
+        <item>
+20 minutes</item>
+
+        <item>
+30 minutes</item>
+
+        <item>
+60 minutes</item>
+
     </string-array>
-    <string-array name="wifi_ap_wifi_sharing">
-        <item>Turn on Wi-Fi sharing</item>
-        <item>Turn off Wi-Fi sharing</item>
+
+    <string-array
+        name="wifi_ap_wifi_sharing">
+
+        <item>
+Turn on Wi-Fi sharing</item>
+
+        <item>
+Turn off Wi-Fi sharing</item>
+
     </string-array>
-    <string-array name="wifi_ap_wpa3_security_type_entries">
-        <item>Bude</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_wpa3_security_type_entries">
+
+        <item>
+Bude</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_connect_entries">
-        <item>Atomatik</item>
-        <item>Kundin bayanai</item>
-        <item>A tamabaya ko yaushe</item>
+
+    <string-array
+        name="wifi_connect_entries">
+
+        <item>
+Atomatik</item>
+
+        <item>
+Kundin bayanai</item>
+
+        <item>
+A tamabaya ko yaushe</item>
+
     </string-array>
+
 </resources>

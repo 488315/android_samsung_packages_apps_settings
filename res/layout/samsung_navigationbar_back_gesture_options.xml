@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/navigationbar_back_gesture_sensitivity_options" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/gesture_sensitivity_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_list_item_padding_top" android:text="@string/navigationbar_back_gesture_sensitivity_title" android:layout_marginStart="@dimen/sec_widget_list_item_padding_start" style="@style/list_title_text_style" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/label_pressure" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_list_item_padding_top" android:layout_marginStart="@dimen/sec_widget_list_item_padding_start" android:layout_marginEnd="@dimen/sec_widget_list_item_padding_end">
-        <TextView android:id="@id/sensitivity_lower" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigationbar_back_gesture_sensitivity_lower" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/seekbar_preference_seekbar_label_text_style" />
-        <TextView android:id="@id/sensitivity_higher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigationbar_back_gesture_sensitivity_higher" android:layout_weight="1.0" android:textAlignment="viewEnd" android:layout_alignParentEnd="true" style="@style/seekbar_preference_seekbar_label_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/navigationbar_back_gesture_sensitivity_options"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/gesture_sensitivity_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sec_widget_list_item_padding_top"
+        android:text="@string/navigationbar_back_gesture_sensitivity_title"
+        android:layout_marginStart="@dimen/sec_widget_list_item_padding_start"
+        style="@style/list_title_text_style" />
+
+    <LinearLayout
+        android:id="@id/label_pressure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/sec_widget_list_item_padding_top"
+        android:layout_marginStart="@dimen/sec_widget_list_item_padding_start"
+        android:layout_marginEnd="@dimen/sec_widget_list_item_padding_end">
+
+        <TextView
+            android:id="@id/sensitivity_lower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigationbar_back_gesture_sensitivity_lower"
+            android:layout_weight="1.0"
+            android:textAlignment="viewStart"
+            style="@style/seekbar_preference_seekbar_label_text_style" />
+
+        <TextView
+            android:id="@id/sensitivity_higher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigationbar_back_gesture_sensitivity_higher"
+            android:layout_weight="1.0"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            style="@style/seekbar_preference_seekbar_label_text_style" />
+
     </LinearLayout>
-    <SeekBar android:id="@android:id/textClassifier" android:layout_width="fill_parent" android:layout_height="@dimen/navigationbar_seekbar_height" android:layout_marginBottom="@dimen/sec_seekbar_preference_item_bottom_padding" android:max="3" android:progressDrawable="@drawable/sec_screenzoom_seekbar_progress_drawable" android:thumb="@drawable/sec_screenzoom_seekbar_thumb_drawable" android:layout_marginStart="@dimen/navigationbar_common_padding" android:layout_marginEnd="@dimen/navigationbar_common_padding" android:tickMark="@drawable/sec_screenzoom_seekbar_tickmark_drawable" />
-    <TextView android:id="@id/navigationbar_back_gesture_sensitivity_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/navigationbar_gesture_detail_bottom_margin" android:text="@string/navigationbar_back_gesture_sensitivity_description" android:layout_marginStart="@dimen/navigationbar_common_padding" android:layout_marginEnd="@dimen/navigationbar_common_padding" style="@style/list_summary_text_style" />
+
+    <SeekBar
+        android:id="@android:id/textClassifier"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/navigationbar_seekbar_height"
+        android:layout_marginBottom="@dimen/sec_seekbar_preference_item_bottom_padding"
+        android:max="3"
+        android:progressDrawable="@drawable/sec_screenzoom_seekbar_progress_drawable"
+        android:thumb="@drawable/sec_screenzoom_seekbar_thumb_drawable"
+        android:layout_marginStart="@dimen/navigationbar_common_padding"
+        android:layout_marginEnd="@dimen/navigationbar_common_padding"
+        android:tickMark="@drawable/sec_screenzoom_seekbar_tickmark_drawable" />
+
+    <TextView
+        android:id="@id/navigationbar_back_gesture_sensitivity_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/navigationbar_gesture_detail_bottom_margin"
+        android:text="@string/navigationbar_back_gesture_sensitivity_description"
+        android:layout_marginStart="@dimen/navigationbar_common_padding"
+        android:layout_marginEnd="@dimen/navigationbar_common_padding"
+        style="@style/list_summary_text_style" />
+
 </LinearLayout>

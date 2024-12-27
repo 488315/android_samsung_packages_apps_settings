@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:layout_gravity="center" android:id="@id/default_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_set_as_default_button_title" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="?roundedCornerColor">
+
+    <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton
+        android:id="@id/default_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/accessibility_set_as_default_button_title" />
+
 </LinearLayout>

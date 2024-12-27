@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/usage_access"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="app_ops_settings_switch" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/usage_access_description" android:selectable="false" android:key="app_ops_settings_description" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/usage_access">
+
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+        android:title="@string/sec_special_access_detail_switch"
+        android:key="app_ops_settings_switch" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/usage_access_description"
+        android:selectable="false"
+        android:key="app_ops_settings_description" />
+
 </PreferenceScreen>

@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="bottom" android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/bottom_divider" android:layout_width="fill_parent" style="@style/sec_widget_bottom_bar_divider" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:weightSum="0.0" style="@style/sec_widget_bottom_bar_container">
-        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/cancel_button" android:layout_width="fill_parent" android:text="@string/common_cancel" android:layout_marginStart="@dimen/sec_wifi_button_margin_start" style="@style/sec_widget_bottom_bar_button" />
-        <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/save_button" android:layout_width="fill_parent" android:text="@string/wifi_advanced_save_button" android:layout_marginEnd="@dimen/sec_wifi_button_margin_start" style="@style/sec_widget_bottom_bar_button" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/button_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:layout_weight="0.0">
+
+    <View
+        android:id="@id/bottom_divider"
+        android:layout_width="fill_parent"
+        style="@style/sec_widget_bottom_bar_divider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="0.0"
+        style="@style/sec_widget_bottom_bar_container">
+
+        <com.samsung.android.settings.widget.SecBottomBarButton
+            android:id="@id/cancel_button"
+            android:layout_width="fill_parent"
+            android:text="@string/common_cancel"
+            android:layout_marginStart="@dimen/sec_wifi_button_margin_start"
+            style="@style/sec_widget_bottom_bar_button" />
+
+        <com.samsung.android.settings.widget.SecBottomBarButton
+            android:id="@id/save_button"
+            android:layout_width="fill_parent"
+            android:text="@string/wifi_advanced_save_button"
+            android:layout_marginEnd="@dimen/sec_wifi_button_margin_start"
+            style="@style/sec_widget_bottom_bar_button" />
+
     </LinearLayout>
+
 </RelativeLayout>

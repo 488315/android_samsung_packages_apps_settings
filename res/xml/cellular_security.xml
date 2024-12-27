@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/cellular_security_settings_title" android:key="cellular_security_settings_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.TopIntroPreference android:title="@string/cellular_security_top_intro" android:key="cellular_security_prefs_top_intro" />
-    <PreferenceCategory android:title="@string/cellular_security_notifications" android:key="cellular_security_notifications_category" settings:controller="com.android.settings.network.telephony.CellularSecurityNotificationsDividerController">
-        <SwitchPreferenceCompat android:title="@string/cellular_security_notifications_controller_title" android:key="cellular_security_notifications" android:summary="@string/cellular_security_notifications_controller_summary" settings:controller="com.android.settings.network.telephony.CellularSecurityNotificationsPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/cellular_security_settings_title"
+    android:key="cellular_security_settings_screen">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/cellular_security_top_intro"
+        android:key="cellular_security_prefs_top_intro" />
+
+    <PreferenceCategory
+        android:title="@string/cellular_security_notifications"
+        android:key="cellular_security_notifications_category"
+        settings:controller="com.android.settings.network.telephony.CellularSecurityNotificationsDividerController">
+
+        <SwitchPreferenceCompat
+            android:title="@string/cellular_security_notifications_controller_title"
+            android:key="cellular_security_notifications"
+            android:summary="@string/cellular_security_notifications_controller_summary"
+            settings:controller="com.android.settings.network.telephony.CellularSecurityNotificationsPreferenceController" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/cellular_security_settings_encryption_title" settings:controller="com.android.settings.network.telephony.CellularSecurityEncryptionDividerController">
-        <SwitchPreferenceCompat android:title="@string/require_cellular_encryption_title" android:key="require_cellular_encryption" android:summary="@string/require_cellular_encryption_summary" settings:controller="com.android.settings.network.telephony.NullAlgorithmsPreferenceController" />
+
+    <PreferenceCategory
+        android:title="@string/cellular_security_settings_encryption_title"
+        settings:controller="com.android.settings.network.telephony.CellularSecurityEncryptionDividerController">
+
+        <SwitchPreferenceCompat
+            android:title="@string/require_cellular_encryption_title"
+            android:key="require_cellular_encryption"
+            android:summary="@string/require_cellular_encryption_summary"
+            settings:controller="com.android.settings.network.telephony.NullAlgorithmsPreferenceController" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

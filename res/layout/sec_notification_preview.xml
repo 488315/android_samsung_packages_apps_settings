@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/notification_preview_layout" android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_setting_notification_preview_notification_layout_height">
-        <ImageView android:layout_gravity="center_vertical" android:id="@id/notification_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" android:contentDescription="@null" />
-        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/notification_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/sec_lock_setting_notification_preview_notification_side_margin" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@id/notification_preview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sec_lock_setting_notification_preview_notification_layout_height">
+
+        <ImageView
+            android:id="@id/notification_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@null"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:id="@id/notification_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/sec_lock_setting_notification_preview_notification_side_margin" />
+
     </FrameLayout>
+
 </LinearLayout>

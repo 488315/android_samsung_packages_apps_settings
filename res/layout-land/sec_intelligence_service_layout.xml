@@ -1,23 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/sec_intelligence_service_onboarding_background" android:paddingTop="@dimen/sec_intelligence_service_onboarding_layout_padding_top_land" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_layout_margin_top" android:paddingHorizontal="@dimen/sec_intelligence_service_onboarding_layout_padding_horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/sec_intelligence_service_onboarding_header_title_size" android:textColor="@color/sec_intelligence_service_header_title_text_color" android:id="@id/header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_header_title_padding_bottom" android:minHeight="@dimen/sec_intelligence_service_onboarding_header_title_min_height" android:text="@string/sec_intelligence_service_title" android:fontFamily="sec" android:textFontWeight="600" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ScrollView android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0">
-            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/sec_intelligence_service_onboarding_land_description_padding_end">
-                <TextView android:textSize="@dimen/sec_intelligence_service_onboarding_header_description_size" android:textColor="@color/sec_intelligence_service_header_desc_text_color" android:id="@id/header_description" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/sec_intelligence_service_onboarding_header_description_min_height" android:text="@string/sec_intelligence_service_sub_title" android:layout_weight="1.0" android:fontFamily="sec" android:textFontWeight="600" />
-                <include android:id="@id/terms_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_button_margin_top" android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_button_margin_bottom" layout="@layout/sec_intelligence_service_terms_layout" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sec_intelligence_service_onboarding_background"
+    android:paddingTop="@dimen/sec_intelligence_service_onboarding_layout_padding_top_land"
+    android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_layout_margin_top"
+    android:paddingHorizontal="@dimen/sec_intelligence_service_onboarding_layout_padding_horizontal">
+
+    <TextView
+        android:id="@id/header_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sec_intelligence_service_onboarding_header_title_size"
+        android:textColor="@color/sec_intelligence_service_header_title_text_color"
+        android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_header_title_padding_bottom"
+        android:minHeight="@dimen/sec_intelligence_service_onboarding_header_title_min_height"
+        android:text="@string/sec_intelligence_service_title"
+        android:fontFamily="sec"
+        android:textFontWeight="600" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:fillViewport="true"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/sec_intelligence_service_onboarding_land_description_padding_end">
+
+                <TextView
+                    android:id="@id/header_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:textSize="@dimen/sec_intelligence_service_onboarding_header_description_size"
+                    android:textColor="@color/sec_intelligence_service_header_desc_text_color"
+                    android:minHeight="@dimen/sec_intelligence_service_onboarding_header_description_min_height"
+                    android:text="@string/sec_intelligence_service_sub_title"
+                    android:layout_weight="1.0"
+                    android:fontFamily="sec"
+                    android:textFontWeight="600" />
+
+                <include
+                    android:id="@id/terms_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_button_margin_top"
+                    android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_button_margin_bottom"
+                    layout="@layout/sec_intelligence_service_terms_layout" />
+
             </LinearLayout>
+
         </ScrollView>
-        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/sec_intelligence_service_onboarding_land_description_padding_start">
-            <ScrollView android:id="@id/scroll_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
-                <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/sec_intelligence_service_onboarding_land_description_padding_start">
+
+            <ScrollView
+                android:id="@id/scroll_container"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:scrollbars="none"
+                android:fillViewport="true"
+                android:layout_weight="1.0">
+
+                <LinearLayout
+                    android:id="@id/container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
             </ScrollView>
-            <com.samsung.android.settings.widget.SecRoundButtonView android:layout_gravity="center" android:id="@id/button_continue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_button_margin_top" android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_button_margin_bottom" android:text="@string/sec_intelligence_service_button_continue" style="@style/ColorRoundButtonStyle" />
-            <LinearLayout android:orientation="horizontal" android:id="@id/button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_button_margin_top" android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_button_margin_bottom">
-                <com.samsung.android.settings.widget.SecRoundButtonView android:layout_gravity="center_horizontal" android:id="@id/button_not_now" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sec_intelligence_service_china_button_not_now" android:layout_weight="1.0" android:layout_marginEnd="@dimen/sec_intelligence_service_onboarding_button_margin_end" style="@style/RoundButtonStyle" />
-                <com.samsung.android.settings.widget.SecRoundButtonView android:layout_gravity="center_horizontal" android:id="@id/button_agree" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sec_intelligence_service_china_button_agree" android:layout_weight="1.0" android:layout_marginStart="@dimen/sec_intelligence_service_onboarding_button_margin_start_land" style="@style/ColorRoundButtonStyle" />
+
+            <com.samsung.android.settings.widget.SecRoundButtonView
+                android:id="@id/button_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_button_margin_top"
+                android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_button_margin_bottom"
+                android:text="@string/sec_intelligence_service_button_continue"
+                style="@style/ColorRoundButtonStyle" />
+
+            <LinearLayout
+                android:id="@id/button_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/sec_intelligence_service_onboarding_button_margin_top"
+                android:layout_marginBottom="@dimen/sec_intelligence_service_onboarding_button_margin_bottom">
+
+                <com.samsung.android.settings.widget.SecRoundButtonView
+                    android:id="@id/button_not_now"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/sec_intelligence_service_china_button_not_now"
+                    android:layout_weight="1.0"
+                    android:layout_marginEnd="@dimen/sec_intelligence_service_onboarding_button_margin_end"
+                    style="@style/RoundButtonStyle" />
+
+                <com.samsung.android.settings.widget.SecRoundButtonView
+                    android:id="@id/button_agree"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/sec_intelligence_service_china_button_agree"
+                    android:layout_weight="1.0"
+                    android:layout_marginStart="@dimen/sec_intelligence_service_onboarding_button_margin_start_land"
+                    style="@style/ColorRoundButtonStyle" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

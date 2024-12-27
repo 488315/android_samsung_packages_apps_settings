@@ -1,28 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/conversation_category_title" android:key="conversation_settings" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="1.0px" settings:roundStroke="none" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:key="pref_app_header" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="block_desc" />
-    <com.samsung.android.settings.notification.SecRadioPreference android:icon="@drawable/ic_setting_button_important" android:title="@string/notification_priority_title" android:key="priority_importance" android:summary="@string/notification_priority_summary" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.notification.SecRadioPreference android:icon="@drawable/ic_setting_button_alert" android:title="@string/sec_notification_importance_radio_alert_title" android:key="alert_importance" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.notification.SecRadioPreference android:icon="@drawable/ic_setting_button_silent" android:title="@string/sec_notification_importance_radio_silent_title" android:key="silent_importance" />
-    <PreferenceCategory android:key="bubble_category">
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:icon="@drawable/ic_create_bubble" android:title="@string/bubbles_conversation_toggle_title" android:key="bubble_pref" android:summary="@string/bubbles_conversation_toggle_summary" settings:restrictedSwitchSummary="@string/enabled_by_admin" />
-        <Preference android:title="@string/bubbles_conversation_app_link" android:key="notification_bubbles" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/conversation_category_title"
+    android:key="conversation_settings"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke"
+        settings:height="1.0px"
+        settings:roundStroke="none" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_app_info_submenu_header"
+        android:key="pref_app_header" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:key="block_desc" />
+
+    <com.samsung.android.settings.notification.SecRadioPreference
+        android:icon="@drawable/ic_setting_button_important"
+        android:title="@string/notification_priority_title"
+        android:key="priority_importance"
+        android:summary="@string/notification_priority_summary" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.notification.SecRadioPreference
+        android:icon="@drawable/ic_setting_button_alert"
+        android:title="@string/sec_notification_importance_radio_alert_title"
+        android:key="alert_importance" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.notification.SecRadioPreference
+        android:icon="@drawable/ic_setting_button_silent"
+        android:title="@string/sec_notification_importance_radio_silent_title"
+        android:key="silent_importance" />
+
+    <PreferenceCategory
+        android:key="bubble_category">
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+            android:icon="@drawable/ic_create_bubble"
+            android:title="@string/bubbles_conversation_toggle_title"
+            android:key="bubble_pref"
+            android:summary="@string/bubbles_conversation_toggle_summary"
+            settings:restrictedSwitchSummary="@string/enabled_by_admin" />
+
+        <Preference
+            android:title="@string/bubbles_conversation_app_link"
+            android:key="notification_bubbles" />
+
     </PreferenceCategory>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="sec_inset_category_popup" />
-    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/notification_importance_high_title" android:key="high_importance" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="sec_inset_category_popup" />
+
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+        android:title="@string/notification_importance_high_title"
+        android:key="high_importance" />
+
     <PreferenceCategory>
-        <com.android.settings.notification.app.NotificationSoundPreference android:title="@string/notification_channel_sound_title" android:key="ringtone" android:dialogTitle="@string/notification_channel_sound_title" android:showDefault="true" android:showSilent="true" />
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/notification_vibrate_title" android:key="vibrate" settings:useAdditionalSummary="true" />
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/notification_show_lights_title" android:key="lights" settings:useAdditionalSummary="true" />
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/notification_badge_app_icon_title" android:key="badge" settings:restrictedSwitchSummary="@string/enabled_by_admin" settings:useAdditionalSummary="true" />
-        <com.android.settings.RestrictedListPreference android:title="@string/sec_app_notification_visibility_override_title" android:key="visibility_override" />
+
+        <com.android.settings.notification.app.NotificationSoundPreference
+            android:title="@string/notification_channel_sound_title"
+            android:key="ringtone"
+            android:dialogTitle="@string/notification_channel_sound_title"
+            android:showDefault="true"
+            android:showSilent="true" />
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+            android:title="@string/notification_vibrate_title"
+            android:key="vibrate"
+            settings:useAdditionalSummary="true" />
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+            android:title="@string/notification_show_lights_title"
+            android:key="lights"
+            settings:useAdditionalSummary="true" />
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+            android:title="@string/notification_badge_app_icon_title"
+            android:key="badge"
+            settings:restrictedSwitchSummary="@string/enabled_by_admin"
+            settings:useAdditionalSummary="true" />
+
+        <com.android.settings.RestrictedListPreference
+            android:title="@string/sec_app_notification_visibility_override_title"
+            android:key="visibility_override" />
+
     </PreferenceCategory>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="sec_inset_category_2" />
-    <Preference android:title="@string/demote_conversation_title" android:key="demote" android:summary="@string/demote_conversation_summary" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="sec_inset_category_2" />
+
+    <Preference
+        android:title="@string/demote_conversation_title"
+        android:key="demote"
+        android:summary="@string/demote_conversation_summary" />
+
 </PreferenceScreen>

@@ -1,29 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/container_left_space" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-    <LinearLayout android:orientation="vertical" android:id="@id/recommend_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="18.0dip">
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="14.0dip">
-                <TextView android:textSize="17.0sp" android:textColor="@color/mandatory_biometrics_suggestion_title_color" android:id="@id/recommend_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sec" android:textFontWeight="400" />
-                <ImageView android:id="@id/close_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_close_suggestion" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@id/container_left_space"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor" />
+
+    <LinearLayout
+        android:id="@id/recommend_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="18.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginVertical="14.0dip">
+
+                <TextView
+                    android:id="@id/recommend_title"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:textSize="17.0sp"
+                    android:textColor="@color/mandatory_biometrics_suggestion_title_color"
+                    android:layout_weight="1.0"
+                    android:fontFamily="sec"
+                    android:textFontWeight="400" />
+
+                <ImageView
+                    android:id="@id/close_button"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_close_suggestion" />
+
             </LinearLayout>
-            <TextView android:textSize="14.0sp" android:textColor="@color/sec_widget_sub_body_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mandatory_biometric_trusted_places_recommend_subtext" android:fontFamily="sec" android:textFontWeight="400" />
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeightSmall">
-                <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/icon_frame" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="36.0dip" android:paddingStart="0.0dip" android:paddingEnd="16.0dip">
-                    <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxHeight="36.0dip" app:maxWidth="36.0dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14.0sp"
+                android:textColor="@color/sec_widget_sub_body_text_color"
+                android:text="@string/mandatory_biometric_trusted_places_recommend_subtext"
+                android:fontFamily="sec"
+                android:textFontWeight="400" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:clipToPadding="false"
+                android:baselineAligned="false"
+                android:minHeight="?android:listPreferredItemHeightSmall">
+
+                <LinearLayout
+                    android:id="@id/icon_frame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:orientation="horizontal"
+                    android:paddingTop="4.0dip"
+                    android:paddingBottom="4.0dip"
+                    android:minWidth="36.0dip"
+                    android:paddingStart="0.0dip"
+                    android:paddingEnd="16.0dip">
+
+                    <androidx.preference.internal.PreferenceImageView
+                        android:id="@android:id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:maxHeight="36.0dip"
+                        app:maxWidth="36.0dip" />
+
                 </LinearLayout>
-                <RelativeLayout android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                    <TextView android:textColor="?android:textColorSecondary" android:layout_gravity="start" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:textAlignment="viewStart" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" style="@style/PreferenceSummaryTextStyle" />
-                    <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:layout_gravity="start" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/summary" android:fontFamily="sec" android:textAlignment="viewStart" android:layout_alignStart="@android:id/summary" android:hyphenationFrequency="normalFast" android:textFontWeight="400" android:lineBreakWordStyle="phrase" />
+
+                <RelativeLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16.0dip"
+                    android:paddingBottom="16.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:id="@android:id/summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="?android:textColorSecondary"
+                        android:layout_gravity="start"
+                        android:maxLines="10"
+                        android:textAlignment="viewStart"
+                        android:hyphenationFrequency="normalFast"
+                        android:lineBreakWordStyle="phrase"
+                        style="@style/PreferenceSummaryTextStyle" />
+
+                    <TextView
+                        android:id="@android:id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceListItem"
+                        android:ellipsize="marquee"
+                        android:layout_gravity="start"
+                        android:maxLines="2"
+                        android:layout_below="@android:id/summary"
+                        android:fontFamily="sec"
+                        android:textAlignment="viewStart"
+                        android:layout_alignStart="@android:id/summary"
+                        android:hyphenationFrequency="normalFast"
+                        android:textFontWeight="400"
+                        android:lineBreakWordStyle="phrase" />
+
                 </RelativeLayout>
+
             </LinearLayout>
-            <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingEnd="6.0dip">
-                <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/add_button" android:layout_width="wrap_content" android:layout_height="56.0dip" android:minWidth="54.0dip" android:paddingEnd="6.0dip">
-                    <TextView android:textSize="17.0sp" android:textColor="@color/mandatory_biometrics_suggestion_add_color" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:fontFamily="sec" android:textFontWeight="600" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="56.0dip"
+                android:gravity="end|center"
+                android:orientation="horizontal"
+                android:paddingEnd="6.0dip">
+
+                <LinearLayout
+                    android:id="@id/add_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56.0dip"
+                    android:gravity="end|center"
+                    android:orientation="horizontal"
+                    android:minWidth="54.0dip"
+                    android:paddingEnd="6.0dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17.0sp"
+                        android:textColor="@color/mandatory_biometrics_suggestion_add_color"
+                        android:background="?android:selectableItemBackgroundBorderless"
+                        android:text="@string/add"
+                        android:fontFamily="sec"
+                        android:textFontWeight="600" />
+
                 </LinearLayout>
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
-    <View android:id="@id/container_right_space" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <View
+        android:id="@id/container_right_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/sec_widget_round_and_bgcolor" />
+
 </LinearLayout>

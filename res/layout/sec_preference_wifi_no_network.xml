@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_wifi_list_text_margin" android:paddingBottom="@dimen/sec_wifi_list_text_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/wifi_list_item_preference_padding_start" android:paddingEnd="@dimen/wifi_list_item_preference_padding_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center" android:id="@android:id/title" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/no_item_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/sec_wifi_list_text_margin"
+    android:paddingBottom="@dimen/sec_wifi_list_text_margin"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingStart="@dimen/wifi_list_item_preference_padding_start"
+    android:paddingEnd="@dimen/wifi_list_item_preference_padding_end">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:focusable="false"
+        android:clickable="false"
+        style="@style/no_item_text_style" />
+
 </LinearLayout>

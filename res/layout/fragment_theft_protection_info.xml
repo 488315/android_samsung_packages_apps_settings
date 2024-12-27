@@ -1,34 +1,262 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SecBiometricsDisclaimerStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="vertical" android:id="@id/layout_info" android:background="@drawable/rounded_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/sec_security_dashboard_card_indicator_bottom_margin" android:layout_marginBottom="@dimen/theft_protection_info_margin_bottom" android:layout_marginStart="@dimen/theft_protection_info_margin_start_end" android:layout_marginEnd="@dimen/theft_protection_info_margin_start_end" android:elevation="@dimen/theft_protection_info_card_elevation">
-        <TextView android:textSize="@dimen/sec_security_dashboard_textview_textsize" android:textColor="@color/sec_widget_tip_title_text_color" android:id="@id/action_bar" android:paddingBottom="@dimen/privacy_dashboard_label_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/theft_protection_button_margin_top_bottom" android:text="@string/theft_protection_info_title" android:fontFamily="sec" android:paddingStart="@dimen/theft_protection_about_us_margin_start" android:textFontWeight="700" />
-        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_ok" android:layout_below="@id/action_bar">
-            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/theft_protection_about_us_margin_start" android:layout_marginEnd="@dimen/theft_protection_about_us_margin_start">
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/theft_protection_info_activity_description" style="@style/description_text" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_theft_detection_lock_menu_title" style="@style/sec_semi_bold" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:text="@string/theft_protection_how_it_works" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:text="@string/theft_protection_theft_detection_lock_activity_description_part_1" style="@style/description_text" />
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_theft_detection_lock_activity_description_part_2" style="@style/description_text" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_keep_in_mind" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:id="@id/tv_keep_in_mind_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text1" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text2" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_offline_lock_menu_title" style="@style/sec_semi_bold" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:text="@string/theft_protection_how_it_works" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:text="@string/theft_protection_offline_lock_activity_description" style="@style/description_text" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_keep_in_mind" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text1" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text2" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text3" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_remote_lock_menu_title" style="@style/sec_semi_bold" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:text="@string/theft_protection_how_it_works" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_keep_in_mind" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:text="@string/theft_protection_theft_detection_lock_activity_description_part_1" style="@style/description_text" />
-                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/theft_protection_keep_in_mind" android:textAlignment="viewStart" style="@style/sec_tip_title" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text1" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
-                <TextView android:gravity="start" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin" android:text="@string/theft_protection_keep_in_mind_desc_text2" android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/description_text" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    style="@style/SecBiometricsDisclaimerStyle">
+
+    <RelativeLayout
+        android:id="@id/layout_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginTop="@dimen/sec_security_dashboard_card_indicator_bottom_margin"
+        android:layout_marginBottom="@dimen/theft_protection_info_margin_bottom"
+        android:layout_marginStart="@dimen/theft_protection_info_margin_start_end"
+        android:layout_marginEnd="@dimen/theft_protection_info_margin_start_end"
+        android:elevation="@dimen/theft_protection_info_card_elevation">
+
+        <TextView
+            android:id="@id/action_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sec_security_dashboard_textview_textsize"
+            android:textColor="@color/sec_widget_tip_title_text_color"
+            android:paddingBottom="@dimen/privacy_dashboard_label_padding"
+            android:layout_marginTop="@dimen/theft_protection_button_margin_top_bottom"
+            android:text="@string/theft_protection_info_title"
+            android:fontFamily="sec"
+            android:paddingStart="@dimen/theft_protection_about_us_margin_start"
+            android:textFontWeight="700" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/btn_ok"
+            android:layout_below="@id/action_bar">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/theft_protection_about_us_margin_start"
+                android:layout_marginEnd="@dimen/theft_protection_about_us_margin_start">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theft_protection_info_activity_description"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_theft_detection_lock_menu_title"
+                    style="@style/sec_semi_bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:text="@string/theft_protection_how_it_works"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:text="@string/theft_protection_theft_detection_lock_activity_description_part_1"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_theft_detection_lock_activity_description_part_2"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_keep_in_mind"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:id="@id/tv_keep_in_mind_description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text1"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text2"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_offline_lock_menu_title"
+                    style="@style/sec_semi_bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:text="@string/theft_protection_how_it_works"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:text="@string/theft_protection_offline_lock_activity_description"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_keep_in_mind"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text1"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text2"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text3"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_remote_lock_menu_title"
+                    style="@style/sec_semi_bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:text="@string/theft_protection_how_it_works"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_keep_in_mind"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:text="@string/theft_protection_theft_detection_lock_activity_description_part_1"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+                    android:text="@string/theft_protection_keep_in_mind"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text1"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="@dimen/sec_ca_cert_warning_description_bottom_margin"
+                    android:text="@string/theft_protection_keep_in_mind_desc_text2"
+                    android:lineSpacingExtra="@dimen/sec_ca_cert_warning_description_line_spacing_extra"
+                    android:textAlignment="viewStart"
+                    style="@style/description_text" />
+
             </LinearLayout>
+
         </androidx.core.widget.NestedScrollView>
-        <TextView android:textSize="@dimen/sec_widget_round_button_text_size" android:gravity="center_vertical" android:id="@id/btn_ok" android:paddingLeft="@dimen/sec_widget_round_button_padding_top_bottom" android:paddingTop="@dimen/sec_widget_round_button_padding_top_bottom" android:paddingRight="@dimen/sec_widget_round_button_padding_top_bottom" android:paddingBottom="@dimen/sec_widget_round_button_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:layout_marginBottom="@dimen/theft_protection_button_margin_top_bottom" android:text="@android:string/ok" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/sec_tip_title" />
+
+        <TextView
+            android:id="@id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sec_widget_round_button_text_size"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sec_widget_round_button_padding_top_bottom"
+            android:paddingTop="@dimen/sec_widget_round_button_padding_top_bottom"
+            android:paddingRight="@dimen/sec_widget_round_button_padding_top_bottom"
+            android:paddingBottom="@dimen/sec_widget_round_button_padding_top_bottom"
+            android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+            android:layout_marginBottom="@dimen/theft_protection_button_margin_top_bottom"
+            android:text="@android:string/ok"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            style="@style/sec_tip_title" />
+
     </RelativeLayout>
+
 </RelativeLayout>

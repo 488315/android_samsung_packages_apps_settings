@@ -1,707 +1,2532 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">pred %d dnevi</item>
-        <item quantity="one">pred %d dnem</item>
-        <item quantity="two">pred %d dnevoma</item>
-        <item quantity="few">pred %d dnevi</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">pred %d minutami</item>
-        <item quantity="one">pred %d minuto</item>
-        <item quantity="two">pred %d minutama</item>
-        <item quantity="few">pred %d minutami</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">pred %d leti</item>
-        <item quantity="one">pred %d letom</item>
-        <item quantity="two">pred %d letoma</item>
-        <item quantity="few">pred %d leti</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">%d minuti</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d sekund</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekunda</item>
-        <item quantity="two">%d sekundi</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d predpomnilnikov aplikacij (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d predpomnilnik aplikacije (%2$s)</item>
-        <item quantity="two">%1$d predpomnilnika aplikacij (%2$s)</item>
-        <item quantity="few">%1$d predpomnilniki aplikacij (%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Želite arhivirati %d aplikacij?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite arhivirati %d aplikacijo?</item>
-        <item quantity="two">Želite arhivirati %d aplikaciji?</item>
-        <item quantity="few">Želite arhivirati %d aplikacije?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Arhiviraj %1$d aplikacij (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Arhiviraj %1$d aplikacijo (+%2$s)</item>
-        <item quantity="two">Arhiviraj %1$d aplikaciji (+%2$s)</item>
-        <item quantity="few">Arhiviraj %1$d aplikacije (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Želite počistiti predpomnilnik za %d aplikacij?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite počistiti predpomnilnik za %d aplikacijo?</item>
-        <item quantity="two">Želite počistiti predpomnilnik za %d aplikaciji?</item>
-        <item quantity="few">Želite počistiti predpomnilnik za %d aplikacije?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Počisti %1$d predpomniln. (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Počisti %1$d predpomniln. (+%2$s)</item>
-        <item quantity="two">Počisti %1$d predpomniln. (+%2$s)</item>
-        <item quantity="few">Počisti %1$d predpomniln. (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">Izbrano: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrano: %d</item>
-        <item quantity="two">Izbrano: %d</item>
-        <item quantity="few">Izbrano: %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Arhivirajte %2$d neuporabljenih aplikacij, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Arhivirajte %2$d neuporabljeno aplikacijo, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
-        <item quantity="two">Arhivirajte %2$d neuporabljeni aplikaciji, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
-        <item quantity="few">Arhivirajte %2$d neuporabljene aplikacije, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Želite odstraniti %d aplikacij?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite odstraniti %d aplikacijo?</item>
-        <item quantity="two">Želite odstraniti %d aplikaciji?</item>
-        <item quantity="few">Želite odstraniti %d aplikacije?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Odstrani %1$d aplikacij (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odstrani %1$d aplikacijo (+%2$s)</item>
-        <item quantity="two">Odstrani %1$d aplikaciji (+%2$s)</item>
-        <item quantity="few">Odstrani %1$d aplikacije (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d neuporabljenih aplikacij (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d neuporabljena aplikacija (%2$s)</item>
-        <item quantity="two">%1$d neuporabljeni aplikaciji (%2$s)</item>
-        <item quantity="few">%1$d neuporabljene aplikacije (%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Deljenje internetne povezave s/z %d napravami.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Deljenje internetne povezave z %d napravo.</item>
-        <item quantity="two">Deljenje internetne povezave z %d napravama.</item>
-        <item quantity="few">Deljenje internetne povezave s %d napravami.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija</item>
-        <item quantity="two">%d aplikaciji</item>
-        <item quantity="few">%d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d dni</item>
-        <item quantity="one">1 dan</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d ur</item>
-        <item quantity="one">1 ura</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d minut</item>
-        <item quantity="one">1 minuta</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d sekund</item>
-        <item quantity="one">1 sekunda</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">Tednov: %d</item>
-        <item quantity="one">1 teden</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija</item>
-        <item quantity="two">%d aplikaciji</item>
-        <item quantity="few">%d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d ur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ura</item>
-        <item quantity="two">%d uri</item>
-        <item quantity="few">%d ure</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">%d minuti</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d sekund</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekunda</item>
-        <item quantity="two">%d sekundi</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Če izbrišete te kraje, bodo biometrični podatki in varnostna zakasnitev vedno zahtevani, ko spremenite občutljive nastavitve.</item>
-        <item quantity="one">Če izbrišete ta kraj, bodo biometrični podatki in varnostna zakasnitev vedno zahtevani, ko spremenite občutljive nastavitve.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Želite izbrisati %d krajev?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite izbrisati %d kraj?</item>
-        <item quantity="two">Želite izbrisati %d kraja?</item>
-        <item quantity="few">Želite izbrisati %d kraje?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">Število izbranih: %d</item>
-        <item quantity="one">Izbran je 1 element</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s in še %2$d drugih</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s in še %2$d drug</item>
-        <item quantity="two">%1$s in še %2$d druga</item>
-        <item quantity="few">%1$s in še %2$d drugi</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Vnesete lahko največ %d znakov.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vnesete lahko največ %d znak.</item>
-        <item quantity="two">Vnesete lahko največ %d znaka.</item>
-        <item quantity="few">Vnesete lahko največ %d znake.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d novih obvestil</item>
-        <item quantity="one">%d novo obvestilo</item>
-        <item quantity="two">%d novi obvestili</item>
-        <item quantity="few">%d nova obvestila</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">V zadnjih %d urah ni bilo uporabljenega pomnilnika</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">V zadnji %d uri ni bilo uporabljenega pomnilnika</item>
-        <item quantity="two">V zadnjih %d urah ni bilo uporabljenega pomnilnika</item>
-        <item quantity="few">V zadnjih %d urah ni bilo uporabljenega pomnilnika</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d obvestil</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d obvestilo</item>
-        <item quantity="two">%d obvestili</item>
-        <item quantity="few">%d obvestila</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Prikaz opomnika za obvestila za izbrane aplikacije vsakih %d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Prikaz opomnika za obvestila za izbrane aplikacije vsako %d minuto</item>
-        <item quantity="two">Prikaz opomnika za obvestila za izbrane aplikacije vsaki %d minuti</item>
-        <item quantity="few">Prikaz opomnika za obvestila za izbrane aplikacije vsake %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Največ %d aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Največ %d aplikacija</item>
-        <item quantity="two">Največ %d aplikaciji</item>
-        <item quantity="few">Največ %d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s in še %2$d drugih aplikacij uporablja ključe ter samodejno vnaša gesla in druge podatke.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s in še %2$d druga aplikacija uporabljata ključe ter samodejno vnašata gesla in druge podatke.</item>
-        <item quantity="two">%1$s in še %2$d drugi aplikaciji uporabljajo ključe ter samodejno vnašajo gesla in druge podatke.</item>
-        <item quantity="few">%1$s in še %2$d druge aplikacije uporabljajo ključe ter samodejno vnašajo gesla in druge podatke.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">Dovoljenje %1$s je uporabljalo %2$d aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dovoljenje %1$s je uporabljala %2$d aplikacija</item>
-        <item quantity="two">Dovoljenje %1$s sta uporabljali %2$d aplikaciji</item>
-        <item quantity="few">Dovoljenje %1$s so uporabljale %2$d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">V uporabi je %d funkcij dostopnosti</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">V uporabi je %d funkcija dostopnosti</item>
-        <item quantity="two">V uporabi sta %d funkciji dostopnosti</item>
-        <item quantity="few">V uporabi so %d funkcije dostopnosti</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija</item>
-        <item quantity="two">%d aplikaciji</item>
-        <item quantity="few">%d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Želite odstraniti %d jezikov?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite odstraniti %d jezik?</item>
-        <item quantity="two">Želite odstraniti %d jezika?</item>
-        <item quantity="few">Želite odstraniti %d jezike?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d aplikacij ima popoln dostop do telefona</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija ima popoln dostop do telefona</item>
-        <item quantity="two">%d aplikaciji imata popoln dostop do telefona</item>
-        <item quantity="few">%d aplikacije imajo popoln dostop do telefona</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Telefon se bo samodejno izklopil čez %d sekund. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefon se bo samodejno izklopil čez %d sekundo. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="two">Telefon se bo samodejno izklopil čez %d sekundi. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="few">Telefon se bo samodejno izklopil čez %d sekunde. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Tablični računalnik se bo samodejno izklopil čez %d sekund. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tablični računalnik se bo samodejno izklopil čez %d sekundo. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="two">Tablični računalnik se bo samodejno izklopil čez %d sekundi. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="few">Tablični računalnik se bo samodejno izklopil čez %d sekunde. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Vsakih %d ur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vsako %d uro</item>
-        <item quantity="two">Vsaki %d uri</item>
-        <item quantity="few">Vsake %d ure</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Geslo mora vsebovati vsaj %d znakov, vključno z vsaj 1 črko.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Geslo mora vsebovati vsaj %d znak, vključno z vsaj 1 črko.</item>
-        <item quantity="two">Geslo mora vsebovati vsaj %d znaka, vključno z vsaj 1 črko.</item>
-        <item quantity="few">Geslo mora vsebovati vsaj %d znake, vključno z vsaj 1 črko.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">Koda PIN mora vsebovati vsaj %d številk.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Koda PIN mora vsebovati vsaj %d številko.</item>
-        <item quantity="two">Koda PIN mora vsebovati vsaj %d številki.</item>
-        <item quantity="few">Koda PIN mora vsebovati vsaj %d številke.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Poskusite znova čez 1 uro %d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Poskusite znova čez 1 uro %d minuto</item>
-        <item quantity="two">Poskusite znova čez 1 uro %d minuti</item>
-        <item quantity="few">Poskusite znova čez 1 uro %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Poskusite znova čez %d ur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Poskusite znova čez %d uro</item>
-        <item quantity="two">Poskusite znova čez %d uri</item>
-        <item quantity="few">Poskusite znova čez %d ure</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Poskusite znova čez %d ur 1 minuto</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Poskusite znova čez %d uro 1 minuto</item>
-        <item quantity="two">Poskusite znova čez %d uri 1 minuto</item>
-        <item quantity="few">Poskusite znova čez %d ure 1 minuto</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Poskusite znova čez %d min</item>
-        <item quantity="one">Poskusite znova čez %d min</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Poskusite znova čez %d s</item>
-        <item quantity="one">Poskusite znova čez %d s</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Vklopite lahko največ %d dodatnih storitev.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vklopite lahko največ %d dodatno storitev.</item>
-        <item quantity="two">Vklopite lahko največ %d dodatni storitvi.</item>
-        <item quantity="few">Vklopite lahko največ %d dodatne storitve.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d dovoljenih stikov</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dovoljen stik</item>
-        <item quantity="two">%d dovoljena stika</item>
-        <item quantity="few">%d dovoljeni stiki</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">Dodanih je %d prstnih odtisov</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dodan je %d prstni odtis</item>
-        <item quantity="two">Dodana sta %d prstna odtisa</item>
-        <item quantity="few">Dodani so %d prstni odtisi</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s in še %3$d aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s in še %3$d aplikacija</item>
-        <item quantity="two">%1$s, %2$s in še %3$d aplikaciji</item>
-        <item quantity="few">%1$s, %2$s in še %3$d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Napačno geslo. Imate še %d poskusov.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Napačno geslo. Imate še %d poskus.</item>
-        <item quantity="two">Napačno geslo. Imate še %d poskusa.</item>
-        <item quantity="few">Napačno geslo. Imate še %d poskuse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Napačen vzorec. Imate še %d poskusov.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Napačen vzorec. Imate še %d poskus.</item>
-        <item quantity="two">Napačen vzorec. Imate še %d poskusa.</item>
-        <item quantity="few">Napačen vzorec. Imate še %d poskuse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Napačna koda PIN. Imate še %d poskusov.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Napačna koda PIN. Imate še %d poskus.</item>
-        <item quantity="two">Napačna koda PIN. Imate še %d poskusa.</item>
-        <item quantity="few">Napačna koda PIN. Imate še %d poskuse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d let.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leto.</item>
-        <item quantity="two">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leti.</item>
-        <item quantity="few">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leta.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Geslo mora vsebovati vsaj %d črk.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Geslo mora vsebovati vsaj %d črko.</item>
-        <item quantity="two">Geslo mora vsebovati vsaj %d črki.</item>
-        <item quantity="few">Geslo mora vsebovati vsaj %d črke.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Geslo mora vsebovati vsaj %d malih črk.</item>
-        <item quantity="one">Geslo mora vsebovati vsaj eno malo črko.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Geslo mora vsebovati vsaj %d številk ali simbolov.</item>
-        <item quantity="one">Geslo mora vsebovati vsaj 1 številko ali simbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Geslo mora vsebovati vsaj %d številk.</item>
-        <item quantity="one">Geslo mora vsebovati vsaj eno številko.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Geslo mora vsebovati vsaj %d simbolov.</item>
-        <item quantity="one">Geslo mora vsebovati vsaj 1 simbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Geslo mora vsebovati vsaj %d velikih črk.</item>
-        <item quantity="one">Geslo mora vsebovati vsaj eno veliko črko.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">Še %d predlogov</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Še %d predlog</item>
-        <item quantity="two">Še %d predloga</item>
-        <item quantity="few">Še %d predlogi</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aktivnih aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aktivna aplikacija</item>
-        <item quantity="two">%d aktivni aplikaciji</item>
-        <item quantity="few">%d aktivne aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Želite izbrisati %d jezikovnih paketov?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite izbrisati %d jezikovni paket?</item>
-        <item quantity="two">Želite izbrisati %d jezikovna paketa?</item>
-        <item quantity="few">Želite izbrisati %d jezikovne pakete?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d glasov</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d glas</item>
-        <item quantity="two">%d glasova</item>
-        <item quantity="few">%d glasovi</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d dodatnih dovoljenj</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dodatno dovoljenje</item>
-        <item quantity="two">%d dodatni dovoljenji</item>
-        <item quantity="few">%d dodatna dovoljenja</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Samo še %d pritiskov vas loči od tega, da postanete razvijalec.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Samo še %d pritisk vas loči od tega, da postanete razvijalec.</item>
-        <item quantity="two">Samo še %d pritiska vas ločita od tega, da postanete razvijalec.</item>
-        <item quantity="few">Samo še %d pritiski vas ločijo od tega, da postanete razvijalec.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">Izbrano: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrano: %d</item>
-        <item quantity="two">Izbrano: %d</item>
-        <item quantity="few">Izbrano: %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">Zaznanih je %d zlonamernih aplikacij</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Zaznana je %d zlonamerna aplikacija</item>
-        <item quantity="two">Zaznani sta %d zlonamerni aplikaciji</item>
-        <item quantity="few">Zaznane so %d zlonamerne aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">V telefonu je bilo zaznanih %d zlonamernih aplikacij. Odstranite te aplikacije, da bo vaš telefon varen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">V telefonu je bila zaznana %d zlonamerna aplikacija. Odstranite to aplikacijo, da bo vaš telefon varen.</item>
-        <item quantity="two">V telefonu sta bili zaznani %d zlonamerni aplikaciji. Odstranite ti aplikaciji, da bo vaš telefon varen.</item>
-        <item quantity="few">V telefonu so bile zaznane %d zlonamerne aplikacije. Odstranite te aplikacije, da bo vaš telefon varen.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">V tabličnem računalniku je bilo zaznanih %d zlonamernih aplikacij. Odstranite te aplikacije, da bo vaš tablični računalnik varen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">V tabličnem računalniku je bila zaznana %d zlonamerna aplikacija. Odstranite to aplikacijo, da bo vaš tablični računalnik varen.</item>
-        <item quantity="two">V tabličnem računalniku sta bili zaznani %d zlonamerni aplikaciji. Odstranite ti aplikaciji, da bo vaš tablični računalnik varen.</item>
-        <item quantity="few">V tabličnem računalniku so bile zaznane %d zlonamerne aplikacije. Odstranite te aplikacije, da bo vaš tablični računalnik varen.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d predlogov</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d predlog</item>
-        <item quantity="two">%d predloga</item>
-        <item quantity="few">%d predlogi</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d opozoril</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d opozorilo</item>
-        <item quantity="two">%d opozorili</item>
-        <item quantity="few">%d opozorila</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Čas spanja: %d ur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Čas spanja: %d ura</item>
-        <item quantity="two">Čas spanja: %d uri</item>
-        <item quantity="few">Čas spanja: %d ure</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Čas spanja: %d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Čas spanja: %d minuta</item>
-        <item quantity="two">Čas spanja: %d minuti</item>
-        <item quantity="few">Čas spanja: %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dni ali obnovite podatke, ki ste jih varnostno kopirali.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dan ali obnovite podatke, ki ste jih varnostno kopirali.</item>
-        <item quantity="two">Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dneva ali obnovite podatke, ki ste jih varnostno kopirali.</item>
-        <item quantity="few">Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dni ali obnovite podatke, ki ste jih varnostno kopirali.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Ta preskus se bo ponastavil čez %d sekund.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ta preskus se bo ponastavil čez %d sekundo.</item>
-        <item quantity="two">Ta preskus se bo ponastavil čez %d sekundi.</item>
-        <item quantity="few">Ta preskus se bo ponastavil čez %d sekunde.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d naprav je povezanih</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d naprava je povezana</item>
-        <item quantity="two">%d napravi sta povezani</item>
-        <item quantity="few">%d naprave so povezane</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bo do interneta lahko dostopalo še %d dodatnih naprav.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bo do interneta lahko dostopala še %d dodatna naprava.</item>
-        <item quantity="two">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bosta do interneta lahko dostopali še %d dodatni napravi.</item>
-        <item quantity="few">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bodo do interneta lahko dostopale še %d dodatne naprave.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bo do interneta lahko dostopalo še %d dodatnih naprav.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bo do interneta lahko dostopala še %d dodatna naprava.</item>
-        <item quantity="two">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bosta do interneta lahko dostopali še %d dodatni napravi.</item>
-        <item quantity="few">Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bodo do interneta lahko dostopale še %d dodatne naprave.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bo do interneta lahko dostopalo še %d dodatnih naprav.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bo do interneta lahko dostopala še %d dodatna naprava.</item>
-        <item quantity="two">Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bosta do interneta lahko dostopali še %d dodatni napravi.</item>
-        <item quantity="few">Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bodo do interneta lahko dostopale še %d dodatne naprave.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bo za dostop do interneta lahko uporabljalo še %d naprav.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bo za dostop do interneta lahko uporabljala še %d naprava.</item>
-        <item quantity="two">Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bosta za dostop do interneta lahko uporabljali še %d napravi.</item>
-        <item quantity="few">Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bodo za dostop do interneta lahko uporabljale še %d naprave.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d članov</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d član</item>
-        <item quantity="two">%d člana</item>
-        <item quantity="few">%d člani</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Želite izbrisati %d omrežij?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Želite izbrisati %d omrežje?</item>
-        <item quantity="two">Želite izbrisati %d omrežji?</item>
-        <item quantity="few">Želite izbrisati %d omrežja?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">Izbrano: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrano: %d</item>
-        <item quantity="two">Izbrano: %d</item>
-        <item quantity="few">Izbrano: %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusov, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="two">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusa, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="few">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskuse, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="two">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="few">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusov, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="two">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusa, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="few">1-krat ste poskusili odkleniti delovni profil. Imate še %d poskuse, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="two">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="few">%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d ur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ura</item>
-        <item quantity="two">%d uri</item>
-        <item quantity="few">%d ure</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">%d minuti</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+pred %d dnevi</item>
+
+        <item
+            quantity="one">
+pred %d dnem</item>
+
+        <item
+            quantity="two">
+pred %d dnevoma</item>
+
+        <item
+            quantity="few">
+pred %d dnevi</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+pred %d minutami</item>
+
+        <item
+            quantity="one">
+pred %d minuto</item>
+
+        <item
+            quantity="two">
+pred %d minutama</item>
+
+        <item
+            quantity="few">
+pred %d minutami</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+pred %d leti</item>
+
+        <item
+            quantity="one">
+pred %d letom</item>
+
+        <item
+            quantity="two">
+pred %d letoma</item>
+
+        <item
+            quantity="few">
+pred %d leti</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+%d minuti</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d sekund</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekunda</item>
+
+        <item
+            quantity="two">
+%d sekundi</item>
+
+        <item
+            quantity="few">
+%d sekunde</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d predpomnilnikov aplikacij (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d predpomnilnik aplikacije (%2$s)</item>
+
+        <item
+            quantity="two">
+%1$d predpomnilnika aplikacij (%2$s)</item>
+
+        <item
+            quantity="few">
+%1$d predpomnilniki aplikacij (%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Želite arhivirati %d aplikacij?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite arhivirati %d aplikacijo?</item>
+
+        <item
+            quantity="two">
+Želite arhivirati %d aplikaciji?</item>
+
+        <item
+            quantity="few">
+Želite arhivirati %d aplikacije?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Arhiviraj %1$d aplikacij (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Arhiviraj %1$d aplikacijo (+%2$s)</item>
+
+        <item
+            quantity="two">
+Arhiviraj %1$d aplikaciji (+%2$s)</item>
+
+        <item
+            quantity="few">
+Arhiviraj %1$d aplikacije (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Želite počistiti predpomnilnik za %d aplikacij?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite počistiti predpomnilnik za %d aplikacijo?</item>
+
+        <item
+            quantity="two">
+Želite počistiti predpomnilnik za %d aplikaciji?</item>
+
+        <item
+            quantity="few">
+Želite počistiti predpomnilnik za %d aplikacije?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Počisti %1$d predpomniln. (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Počisti %1$d predpomniln. (+%2$s)</item>
+
+        <item
+            quantity="two">
+Počisti %1$d predpomniln. (+%2$s)</item>
+
+        <item
+            quantity="few">
+Počisti %1$d predpomniln. (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+Izbrano: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrano: %d</item>
+
+        <item
+            quantity="two">
+Izbrano: %d</item>
+
+        <item
+            quantity="few">
+Izbrano: %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Arhivirajte %2$d neuporabljenih aplikacij, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Arhivirajte %2$d neuporabljeno aplikacijo, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
+
+        <item
+            quantity="two">
+Arhivirajte %2$d neuporabljeni aplikaciji, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
+
+        <item
+            quantity="few">
+Arhivirajte %2$d neuporabljene aplikacije, da sprostite %1$s prostora. Vaši osebni podatki in nastavitve bodo shranjeni.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Želite odstraniti %d aplikacij?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite odstraniti %d aplikacijo?</item>
+
+        <item
+            quantity="two">
+Želite odstraniti %d aplikaciji?</item>
+
+        <item
+            quantity="few">
+Želite odstraniti %d aplikacije?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Odstrani %1$d aplikacij (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odstrani %1$d aplikacijo (+%2$s)</item>
+
+        <item
+            quantity="two">
+Odstrani %1$d aplikaciji (+%2$s)</item>
+
+        <item
+            quantity="few">
+Odstrani %1$d aplikacije (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d neuporabljenih aplikacij (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d neuporabljena aplikacija (%2$s)</item>
+
+        <item
+            quantity="two">
+%1$d neuporabljeni aplikaciji (%2$s)</item>
+
+        <item
+            quantity="few">
+%1$d neuporabljene aplikacije (%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Deljenje internetne povezave s/z %d napravami.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Deljenje internetne povezave z %d napravo.</item>
+
+        <item
+            quantity="two">
+Deljenje internetne povezave z %d napravama.</item>
+
+        <item
+            quantity="few">
+Deljenje internetne povezave s %d napravami.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija</item>
+
+        <item
+            quantity="two">
+%d aplikaciji</item>
+
+        <item
+            quantity="few">
+%d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d dni</item>
+
+        <item
+            quantity="one">
+1 dan</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d ur</item>
+
+        <item
+            quantity="one">
+1 ura</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="one">
+1 minuta</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d sekund</item>
+
+        <item
+            quantity="one">
+1 sekunda</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+Tednov: %d</item>
+
+        <item
+            quantity="one">
+1 teden</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija</item>
+
+        <item
+            quantity="two">
+%d aplikaciji</item>
+
+        <item
+            quantity="few">
+%d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d ur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ura</item>
+
+        <item
+            quantity="two">
+%d uri</item>
+
+        <item
+            quantity="few">
+%d ure</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+%d minuti</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d sekund</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekunda</item>
+
+        <item
+            quantity="two">
+%d sekundi</item>
+
+        <item
+            quantity="few">
+%d sekunde</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Če izbrišete te kraje, bodo biometrični podatki in varnostna zakasnitev vedno zahtevani, ko spremenite občutljive nastavitve.</item>
+
+        <item
+            quantity="one">
+Če izbrišete ta kraj, bodo biometrični podatki in varnostna zakasnitev vedno zahtevani, ko spremenite občutljive nastavitve.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Želite izbrisati %d krajev?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite izbrisati %d kraj?</item>
+
+        <item
+            quantity="two">
+Želite izbrisati %d kraja?</item>
+
+        <item
+            quantity="few">
+Želite izbrisati %d kraje?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+Število izbranih: %d</item>
+
+        <item
+            quantity="one">
+Izbran je 1 element</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s in še %2$d drugih</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s in še %2$d drug</item>
+
+        <item
+            quantity="two">
+%1$s in še %2$d druga</item>
+
+        <item
+            quantity="few">
+%1$s in še %2$d drugi</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Vnesete lahko največ %d znakov.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vnesete lahko največ %d znak.</item>
+
+        <item
+            quantity="two">
+Vnesete lahko največ %d znaka.</item>
+
+        <item
+            quantity="few">
+Vnesete lahko največ %d znake.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d novih obvestil</item>
+
+        <item
+            quantity="one">
+%d novo obvestilo</item>
+
+        <item
+            quantity="two">
+%d novi obvestili</item>
+
+        <item
+            quantity="few">
+%d nova obvestila</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+V zadnjih %d urah ni bilo uporabljenega pomnilnika</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+V zadnji %d uri ni bilo uporabljenega pomnilnika</item>
+
+        <item
+            quantity="two">
+V zadnjih %d urah ni bilo uporabljenega pomnilnika</item>
+
+        <item
+            quantity="few">
+V zadnjih %d urah ni bilo uporabljenega pomnilnika</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d obvestil</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d obvestilo</item>
+
+        <item
+            quantity="two">
+%d obvestili</item>
+
+        <item
+            quantity="few">
+%d obvestila</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Prikaz opomnika za obvestila za izbrane aplikacije vsakih %d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Prikaz opomnika za obvestila za izbrane aplikacije vsako %d minuto</item>
+
+        <item
+            quantity="two">
+Prikaz opomnika za obvestila za izbrane aplikacije vsaki %d minuti</item>
+
+        <item
+            quantity="few">
+Prikaz opomnika za obvestila za izbrane aplikacije vsake %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Največ %d aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Največ %d aplikacija</item>
+
+        <item
+            quantity="two">
+Največ %d aplikaciji</item>
+
+        <item
+            quantity="few">
+Največ %d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s in še %2$d drugih aplikacij uporablja ključe ter samodejno vnaša gesla in druge podatke.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s in še %2$d druga aplikacija uporabljata ključe ter samodejno vnašata gesla in druge podatke.</item>
+
+        <item
+            quantity="two">
+%1$s in še %2$d drugi aplikaciji uporabljajo ključe ter samodejno vnašajo gesla in druge podatke.</item>
+
+        <item
+            quantity="few">
+%1$s in še %2$d druge aplikacije uporabljajo ključe ter samodejno vnašajo gesla in druge podatke.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+Dovoljenje %1$s je uporabljalo %2$d aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dovoljenje %1$s je uporabljala %2$d aplikacija</item>
+
+        <item
+            quantity="two">
+Dovoljenje %1$s sta uporabljali %2$d aplikaciji</item>
+
+        <item
+            quantity="few">
+Dovoljenje %1$s so uporabljale %2$d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+V uporabi je %d funkcij dostopnosti</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+V uporabi je %d funkcija dostopnosti</item>
+
+        <item
+            quantity="two">
+V uporabi sta %d funkciji dostopnosti</item>
+
+        <item
+            quantity="few">
+V uporabi so %d funkcije dostopnosti</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija</item>
+
+        <item
+            quantity="two">
+%d aplikaciji</item>
+
+        <item
+            quantity="few">
+%d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Želite odstraniti %d jezikov?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite odstraniti %d jezik?</item>
+
+        <item
+            quantity="two">
+Želite odstraniti %d jezika?</item>
+
+        <item
+            quantity="few">
+Želite odstraniti %d jezike?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d aplikacij ima popoln dostop do telefona</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija ima popoln dostop do telefona</item>
+
+        <item
+            quantity="two">
+%d aplikaciji imata popoln dostop do telefona</item>
+
+        <item
+            quantity="few">
+%d aplikacije imajo popoln dostop do telefona</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Telefon se bo samodejno izklopil čez %d sekund. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefon se bo samodejno izklopil čez %d sekundo. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="two">
+Telefon se bo samodejno izklopil čez %d sekundi. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="few">
+Telefon se bo samodejno izklopil čez %d sekunde. Če želite, da telefon tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Tablični računalnik se bo samodejno izklopil čez %d sekund. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tablični računalnik se bo samodejno izklopil čez %d sekundo. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="two">
+Tablični računalnik se bo samodejno izklopil čez %d sekundi. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="few">
+Tablični računalnik se bo samodejno izklopil čez %d sekunde. Če želite, da tablični računalnik tokrat ostane vklopljen, pritisnite Prekliči.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Vsakih %d ur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vsako %d uro</item>
+
+        <item
+            quantity="two">
+Vsaki %d uri</item>
+
+        <item
+            quantity="few">
+Vsake %d ure</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d znakov, vključno z vsaj 1 črko.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj %d znak, vključno z vsaj 1 črko.</item>
+
+        <item
+            quantity="two">
+Geslo mora vsebovati vsaj %d znaka, vključno z vsaj 1 črko.</item>
+
+        <item
+            quantity="few">
+Geslo mora vsebovati vsaj %d znake, vključno z vsaj 1 črko.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+Koda PIN mora vsebovati vsaj %d številk.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Koda PIN mora vsebovati vsaj %d številko.</item>
+
+        <item
+            quantity="two">
+Koda PIN mora vsebovati vsaj %d številki.</item>
+
+        <item
+            quantity="few">
+Koda PIN mora vsebovati vsaj %d številke.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Poskusite znova čez 1 uro %d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Poskusite znova čez 1 uro %d minuto</item>
+
+        <item
+            quantity="two">
+Poskusite znova čez 1 uro %d minuti</item>
+
+        <item
+            quantity="few">
+Poskusite znova čez 1 uro %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Poskusite znova čez %d ur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Poskusite znova čez %d uro</item>
+
+        <item
+            quantity="two">
+Poskusite znova čez %d uri</item>
+
+        <item
+            quantity="few">
+Poskusite znova čez %d ure</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Poskusite znova čez %d ur 1 minuto</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Poskusite znova čez %d uro 1 minuto</item>
+
+        <item
+            quantity="two">
+Poskusite znova čez %d uri 1 minuto</item>
+
+        <item
+            quantity="few">
+Poskusite znova čez %d ure 1 minuto</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Poskusite znova čez %d min</item>
+
+        <item
+            quantity="one">
+Poskusite znova čez %d min</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Poskusite znova čez %d s</item>
+
+        <item
+            quantity="one">
+Poskusite znova čez %d s</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Vklopite lahko največ %d dodatnih storitev.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vklopite lahko največ %d dodatno storitev.</item>
+
+        <item
+            quantity="two">
+Vklopite lahko največ %d dodatni storitvi.</item>
+
+        <item
+            quantity="few">
+Vklopite lahko največ %d dodatne storitve.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d dovoljenih stikov</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dovoljen stik</item>
+
+        <item
+            quantity="two">
+%d dovoljena stika</item>
+
+        <item
+            quantity="few">
+%d dovoljeni stiki</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+Dodanih je %d prstnih odtisov</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dodan je %d prstni odtis</item>
+
+        <item
+            quantity="two">
+Dodana sta %d prstna odtisa</item>
+
+        <item
+            quantity="few">
+Dodani so %d prstni odtisi</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s in še %3$d aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s in še %3$d aplikacija</item>
+
+        <item
+            quantity="two">
+%1$s, %2$s in še %3$d aplikaciji</item>
+
+        <item
+            quantity="few">
+%1$s, %2$s in še %3$d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Napačno geslo. Imate še %d poskusov.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Napačno geslo. Imate še %d poskus.</item>
+
+        <item
+            quantity="two">
+Napačno geslo. Imate še %d poskusa.</item>
+
+        <item
+            quantity="few">
+Napačno geslo. Imate še %d poskuse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Napačen vzorec. Imate še %d poskusov.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Napačen vzorec. Imate še %d poskus.</item>
+
+        <item
+            quantity="two">
+Napačen vzorec. Imate še %d poskusa.</item>
+
+        <item
+            quantity="few">
+Napačen vzorec. Imate še %d poskuse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Napačna koda PIN. Imate še %d poskusov.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Napačna koda PIN. Imate še %d poskus.</item>
+
+        <item
+            quantity="two">
+Napačna koda PIN. Imate še %d poskusa.</item>
+
+        <item
+            quantity="few">
+Napačna koda PIN. Imate še %d poskuse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d let.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leto.</item>
+
+        <item
+            quantity="two">
+Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leti.</item>
+
+        <item
+            quantity="few">
+Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leta.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d črk.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj %d črko.</item>
+
+        <item
+            quantity="two">
+Geslo mora vsebovati vsaj %d črki.</item>
+
+        <item
+            quantity="few">
+Geslo mora vsebovati vsaj %d črke.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d malih črk.</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj eno malo črko.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d številk ali simbolov.</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj 1 številko ali simbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d številk.</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj eno številko.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d simbolov.</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj 1 simbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Geslo mora vsebovati vsaj %d velikih črk.</item>
+
+        <item
+            quantity="one">
+Geslo mora vsebovati vsaj eno veliko črko.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+Še %d predlogov</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Še %d predlog</item>
+
+        <item
+            quantity="two">
+Še %d predloga</item>
+
+        <item
+            quantity="few">
+Še %d predlogi</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aktivnih aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aktivna aplikacija</item>
+
+        <item
+            quantity="two">
+%d aktivni aplikaciji</item>
+
+        <item
+            quantity="few">
+%d aktivne aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Želite izbrisati %d jezikovnih paketov?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite izbrisati %d jezikovni paket?</item>
+
+        <item
+            quantity="two">
+Želite izbrisati %d jezikovna paketa?</item>
+
+        <item
+            quantity="few">
+Želite izbrisati %d jezikovne pakete?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d glasov</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d glas</item>
+
+        <item
+            quantity="two">
+%d glasova</item>
+
+        <item
+            quantity="few">
+%d glasovi</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d dodatnih dovoljenj</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dodatno dovoljenje</item>
+
+        <item
+            quantity="two">
+%d dodatni dovoljenji</item>
+
+        <item
+            quantity="few">
+%d dodatna dovoljenja</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Samo še %d pritiskov vas loči od tega, da postanete razvijalec.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Samo še %d pritisk vas loči od tega, da postanete razvijalec.</item>
+
+        <item
+            quantity="two">
+Samo še %d pritiska vas ločita od tega, da postanete razvijalec.</item>
+
+        <item
+            quantity="few">
+Samo še %d pritiski vas ločijo od tega, da postanete razvijalec.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+Izbrano: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrano: %d</item>
+
+        <item
+            quantity="two">
+Izbrano: %d</item>
+
+        <item
+            quantity="few">
+Izbrano: %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+Zaznanih je %d zlonamernih aplikacij</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Zaznana je %d zlonamerna aplikacija</item>
+
+        <item
+            quantity="two">
+Zaznani sta %d zlonamerni aplikaciji</item>
+
+        <item
+            quantity="few">
+Zaznane so %d zlonamerne aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+V telefonu je bilo zaznanih %d zlonamernih aplikacij. Odstranite te aplikacije, da bo vaš telefon varen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+V telefonu je bila zaznana %d zlonamerna aplikacija. Odstranite to aplikacijo, da bo vaš telefon varen.</item>
+
+        <item
+            quantity="two">
+V telefonu sta bili zaznani %d zlonamerni aplikaciji. Odstranite ti aplikaciji, da bo vaš telefon varen.</item>
+
+        <item
+            quantity="few">
+V telefonu so bile zaznane %d zlonamerne aplikacije. Odstranite te aplikacije, da bo vaš telefon varen.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+V tabličnem računalniku je bilo zaznanih %d zlonamernih aplikacij. Odstranite te aplikacije, da bo vaš tablični računalnik varen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+V tabličnem računalniku je bila zaznana %d zlonamerna aplikacija. Odstranite to aplikacijo, da bo vaš tablični računalnik varen.</item>
+
+        <item
+            quantity="two">
+V tabličnem računalniku sta bili zaznani %d zlonamerni aplikaciji. Odstranite ti aplikaciji, da bo vaš tablični računalnik varen.</item>
+
+        <item
+            quantity="few">
+V tabličnem računalniku so bile zaznane %d zlonamerne aplikacije. Odstranite te aplikacije, da bo vaš tablični računalnik varen.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d predlogov</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d predlog</item>
+
+        <item
+            quantity="two">
+%d predloga</item>
+
+        <item
+            quantity="few">
+%d predlogi</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d opozoril</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d opozorilo</item>
+
+        <item
+            quantity="two">
+%d opozorili</item>
+
+        <item
+            quantity="few">
+%d opozorila</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Čas spanja: %d ur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Čas spanja: %d ura</item>
+
+        <item
+            quantity="two">
+Čas spanja: %d uri</item>
+
+        <item
+            quantity="few">
+Čas spanja: %d ure</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Čas spanja: %d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Čas spanja: %d minuta</item>
+
+        <item
+            quantity="two">
+Čas spanja: %d minuti</item>
+
+        <item
+            quantity="few">
+Čas spanja: %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dni ali obnovite podatke, ki ste jih varnostno kopirali.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dan ali obnovite podatke, ki ste jih varnostno kopirali.</item>
+
+        <item
+            quantity="two">
+Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dneva ali obnovite podatke, ki ste jih varnostno kopirali.</item>
+
+        <item
+            quantity="few">
+Varnostno kopirajte neomejeno količino podatkov v storitev %1$s za do %2$d dni ali obnovite podatke, ki ste jih varnostno kopirali.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Ta preskus se bo ponastavil čez %d sekund.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ta preskus se bo ponastavil čez %d sekundo.</item>
+
+        <item
+            quantity="two">
+Ta preskus se bo ponastavil čez %d sekundi.</item>
+
+        <item
+            quantity="few">
+Ta preskus se bo ponastavil čez %d sekunde.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d naprav je povezanih</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d naprava je povezana</item>
+
+        <item
+            quantity="two">
+%d napravi sta povezani</item>
+
+        <item
+            quantity="few">
+%d naprave so povezane</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bo do interneta lahko dostopalo še %d dodatnih naprav.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bo do interneta lahko dostopala še %d dodatna naprava.</item>
+
+        <item
+            quantity="two">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bosta do interneta lahko dostopali še %d dodatni napravi.</item>
+
+        <item
+            quantity="few">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja ali omrežjem Wi-Fi v telefonu bodo do interneta lahko dostopale še %d dodatne naprave.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bo do interneta lahko dostopalo še %d dodatnih naprav.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bo do interneta lahko dostopala še %d dodatna naprava.</item>
+
+        <item
+            quantity="two">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bosta do interneta lahko dostopali še %d dodatni napravi.</item>
+
+        <item
+            quantity="few">
+Spremenite telefon v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v telefonu bodo do interneta lahko dostopale še %d dodatne naprave.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bo do interneta lahko dostopalo še %d dodatnih naprav.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bo do interneta lahko dostopala še %d dodatna naprava.</item>
+
+        <item
+            quantity="two">
+Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bosta do interneta lahko dostopali še %d dodatni napravi.</item>
+
+        <item
+            quantity="few">
+Spremenite tablični računalnik v dostopno točko Wi-Fi. S prenosom podatkov prek mobilnega omrežja v tabličnem računalniku bodo do interneta lahko dostopale še %d dodatne naprave.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bo za dostop do interneta lahko uporabljalo še %d naprav.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bo za dostop do interneta lahko uporabljala še %d naprava.</item>
+
+        <item
+            quantity="two">
+Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bosta za dostop do interneta lahko uporabljali še %d napravi.</item>
+
+        <item
+            quantity="few">
+Spremenite tablični računalnik v dostopno točko za Wi-Fi. Prenos podatkov prek mobilnega omrežja ali povezavo Wi-Fi v vašem tabličnem računalniku bodo za dostop do interneta lahko uporabljale še %d naprave.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d članov</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d član</item>
+
+        <item
+            quantity="two">
+%d člana</item>
+
+        <item
+            quantity="few">
+%d člani</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Želite izbrisati %d omrežij?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Želite izbrisati %d omrežje?</item>
+
+        <item
+            quantity="two">
+Želite izbrisati %d omrežji?</item>
+
+        <item
+            quantity="few">
+Želite izbrisati %d omrežja?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+Izbrano: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrano: %d</item>
+
+        <item
+            quantity="two">
+Izbrano: %d</item>
+
+        <item
+            quantity="few">
+Izbrano: %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusov, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="two">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusa, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="few">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskuse, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="two">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="few">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta telefon ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusov, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="two">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskusa, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="few">
+1-krat ste poskusili odkleniti delovni profil. Imate še %d poskuse, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="two">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="few">
+%d-krat ste poskusili odkleniti delovni profil. Imate še 1 poskus, nato bo ta tablični računalnik ponastavljen na tovarniške nastavitve, vsi podatki pa bodo izbrisani.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d ur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ura</item>
+
+        <item
+            quantity="two">
+%d uri</item>
+
+        <item
+            quantity="few">
+%d ure</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+%d minuti</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

@@ -1,14 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.samsung.android.settings.asbase.routine.action.ui.VolumeActionRow android:gravity="center_vertical" android:orientation="vertical" android:paddingBottom="12.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
-        <TextView android:textSize="17.0sp" android:textColor="@color/sec_widget_default_round_button_text_color" android:gravity="center_vertical" android:id="@id/volume_row_header" android:paddingTop="16.5dip" android:paddingBottom="16.5dip" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="8.0" android:fontFamily="sec" android:textDirection="locale" android:textFontWeight="400" />
-        <TextView android:textSize="14.0sp" android:gravity="end|center" android:layout_gravity="end" android:id="@id/volume_percent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="35.0dip" android:layout_weight="2.0" android:color="@color/sec_sound_routines_volume_color" android:fontFamily="sec" android:textDirection="locale" android:textFontWeight="600" />
+<com.samsung.android.settings.asbase.routine.action.ui.VolumeActionRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="12.0dip"
+    android:clickable="false"
+    android:minHeight="?android:listPreferredItemHeightSmall">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="24.0dip"
+        android:paddingEnd="24.0dip">
+
+        <TextView
+            android:id="@id/volume_row_header"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:textSize="17.0sp"
+            android:textColor="@color/sec_widget_default_round_button_text_color"
+            android:gravity="center_vertical"
+            android:paddingTop="16.5dip"
+            android:paddingBottom="16.5dip"
+            android:visibility="invisible"
+            android:layout_weight="8.0"
+            android:fontFamily="sec"
+            android:textDirection="locale"
+            android:textFontWeight="400" />
+
+        <TextView
+            android:id="@id/volume_percent"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:textSize="14.0sp"
+            android:gravity="end|center"
+            android:layout_gravity="end"
+            android:minHeight="35.0dip"
+            android:layout_weight="2.0"
+            android:color="@color/sec_sound_routines_volume_color"
+            android:fontFamily="sec"
+            android:textDirection="locale"
+            android:textFontWeight="600" />
+
     </LinearLayout>
-    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip" android:paddingStart="24.0dip" android:paddingEnd="8.0dip">
-        <com.samsung.android.settings.asbase.widget.SecVolumeIcon android:layout_gravity="center" android:id="@id/volume_default_icon" android:layout_width="@dimen/volume_icon_size" android:layout_height="@dimen/volume_icon_size" android:scaleType="fitCenter" />
-        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <androidx.appcompat.widget.SeslSeekBar android:id="@id/volume_row_slider" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/volume_control_slider_padding_start" android:paddingEnd="16.0dip" android:mirrorForRtl="true" app:seslHapticEnabled="false" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingStart="24.0dip"
+        android:paddingEnd="8.0dip">
+
+        <com.samsung.android.settings.asbase.widget.SecVolumeIcon
+            android:id="@id/volume_default_icon"
+            android:layout_width="@dimen/volume_icon_size"
+            android:layout_height="@dimen/volume_icon_size"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.SeslSeekBar
+                android:id="@id/volume_row_slider"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:paddingStart="@dimen/volume_control_slider_padding_start"
+                android:paddingEnd="16.0dip"
+                android:mirrorForRtl="true"
+                app:seslHapticEnabled="false" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </com.samsung.android.settings.asbase.routine.action.ui.VolumeActionRow>

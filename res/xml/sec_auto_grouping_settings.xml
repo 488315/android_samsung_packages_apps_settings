@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/noti_intelligence_group_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_noti_intelligence_group_notification" android:selectable="false" android:key="auto_group_preview" settings:roundStroke="top_left|top_right" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/noti_intelligence_group_notifications">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_noti_intelligence_group_notification"
+        android:selectable="false"
+        android:key="auto_group_preview"
+        settings:roundStroke="top_left|top_right" />
+
 </PreferenceScreen>

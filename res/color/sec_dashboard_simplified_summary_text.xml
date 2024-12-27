@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false" android:color="@color/sec_dashboard_simplified_summary_text_color" android:alpha="@dimen/sesl_disabled_color_alpha" />
-    <item android:color="@color/sec_dashboard_simplified_summary_text_color" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@color/sec_dashboard_simplified_summary_text_color"
+        android:alpha="@dimen/sesl_disabled_color_alpha" />
+
+    <item
+        android:color="@color/sec_dashboard_simplified_summary_text_color" />
+
 </selector>

@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/nfcpayment_quick_toggle_title" settings:hierarchicalParentFragment="com.samsung.android.settings.connection.ConnectionsSettings" settings:topLevelPreferenceKey="top_level_connections"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_nfc_explain" android:selectable="false" android:key="nfc_explain" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="empty_nfc_explain" />
-    <SecSwitchPreference android:title="@string/nfc_reader_mode_title" android:key="nfc_mode_reader" settings:controller="com.samsung.android.settings.nfc.NfcModeController" settings:keywords="@string/nfc_reader_mode_title" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="empty_general" />
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/nfc_payment_settings_title_jpn" android:key="nfc_header_contactless" />
-    <SecPreference android:title="@string/default_wallet_app" android:key="nfc_payment_settings" />
-    <SecPreference android:title="@string/default_wallet_app" android:key="nfc_payment_settings_dcm" />
-    <SecPreferenceScreen android:title="@string/non_payment_nfc_services" android:key="nfc_other_services" android:fragment="com.samsung.android.settings.nfc.OtherSettings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="empty_nfc_payment_sim" />
-    <com.samsung.android.settings.nfc.PaymentDropDownPreference android:entries="@array/nfc_preferred_sim_entries" android:key="nfc_payment_sim" android:entryValues="@array/nfc_preferred_sim_values" />
-    <androidx.preference.PreferenceCategory android:title="" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/nfcpayment_quick_toggle_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.connection.ConnectionsSettings"
+    settings:topLevelPreferenceKey="top_level_connections">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_nfc_explain"
+        android:selectable="false"
+        android:key="nfc_explain" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="empty_nfc_explain" />
+
+    <SecSwitchPreference
+        android:title="@string/nfc_reader_mode_title"
+        android:key="nfc_mode_reader"
+        settings:controller="com.samsung.android.settings.nfc.NfcModeController"
+        settings:keywords="@string/nfc_reader_mode_title" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="empty_general" />
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/nfc_payment_settings_title_jpn"
+        android:key="nfc_header_contactless" />
+
+    <SecPreference
+        android:title="@string/default_wallet_app"
+        android:key="nfc_payment_settings" />
+
+    <SecPreference
+        android:title="@string/default_wallet_app"
+        android:key="nfc_payment_settings_dcm" />
+
+    <SecPreferenceScreen
+        android:title="@string/non_payment_nfc_services"
+        android:key="nfc_other_services"
+        android:fragment="com.samsung.android.settings.nfc.OtherSettings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="empty_nfc_payment_sim" />
+
+    <com.samsung.android.settings.nfc.PaymentDropDownPreference
+        android:entries="@array/nfc_preferred_sim_entries"
+        android:key="nfc_payment_sim"
+        android:entryValues="@array/nfc_preferred_sim_values" />
+
+    <androidx.preference.PreferenceCategory
+        android:title="" />
+
 </PreferenceScreen>

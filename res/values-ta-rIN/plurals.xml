@@ -1,683 +1,2448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d நிமிடங்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d நிமிடம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d வினாடிகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d வினாடி</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d பயன்பாட்டு தேக்ககங்கள் (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d பயன்பாட்டு தேக்ககம் (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">%d பயன்பாடுகளை காப்பகப்படுத்தவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாட்டை காப்பகப்படுத்தவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">%1$d பயன்பாடுகளை (+%2$s) காப்பகப்படுத்தவும்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d பயன்பாட்டை (+%2$s) காப்பகப்படுத்தவும்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">%d பயன்பாடுகளுக்கான தேக்ககத்தை அழிக்கவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாட்டிற்கான தேக்ககத்தை அழிக்கவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">%1$d தேக்ககங்களை (+%2$s) அழி.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d தேக்கத்தை (+%2$s) அழி.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">பயன்படுத்தப்படாத %2$d பயன்பாடுகளைக் காப்பகப்படுத்துவதன் மூலம் %1$s இடத்தைக் காலி செய்யவும். உங்கள் தனிப்பட்ட தரவும் அமைவுகளும் சேமிக்கப்படும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">பயன்படுத்தப்படாத %2$d பயன்பாட்டைக் காப்பகப்படுத்துவதன் மூலம் %1$s இடத்தைக் காலி செய்யவும். உங்கள் தனிப்பட்ட தரவும் அமைவுகளும் சேமிக்கப்படும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">%d பயன்பாடுகளை நிறுவல்நீக்கவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாட்டை நிறுவல்நீக்கவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">%1$d பயன்பாடுகளை (+%2$s) நிறுவல் நீக்குக</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d பயன்பாட்டை (+%2$s) நிறுவல் நீக்குக</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d பயன்படுத்தாத பயன்பாடுகள் (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d பயன்படுத்தாத பயன்பாடு (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">%d சாதனங்களுடன் இணைய இணைப்பைப் பகிர்கிறது.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d சாதனத்துடன் இணைய இணைப்பைப் பகிர்கிறது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d பயன்பாடுகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாடு</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d நாட்கள்</item>
-        <item quantity="one">1 நாள்</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d மணி நேரம்</item>
-        <item quantity="one">1 மணிநேரம்</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d நிமிடங்கள்</item>
-        <item quantity="one">1 நிமிடம்</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d வினாடிகள்</item>
-        <item quantity="one">1 வினாடி</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d வாரங்கள்</item>
-        <item quantity="one">1 வாரம்</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d பயன்பாடுகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாடு</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d மணிநேரம்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மணிநேரம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d நிமிடங்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d நிமிடம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d வினாடிகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d வினாடி</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">இந்த இடங்களை நீங்கள் நீக்கினால், கூருணர்வுள்ள அமைவுகளை மாற்றும்போது பயோமெட்ரிக்ஸ் மற்றும் பாதுகாப்பு எப்போதும் தேவைப்படும்.</item>
-        <item quantity="one">இந்த இடத்தை நீங்கள் நீக்கினால், கூருணர்வுள்ள அமைவுகளை மாற்றும்போது பயோமெட்ரிக்ஸ் மற்றும் பாதுகாப்பு எப்போதும் தேவைப்படும்.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">%d இடங்களை நீக்கவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d இடத்தை நீக்கவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d தேர்வுசெய்யப்பட்டது</item>
-        <item quantity="one">1 தேர்வு செய்யப்பட்டுள்ளது</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s, மற்ற %2$d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, மற்ற %2$d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">%d எழுத்துகளுக்கு மேல் உள்ளிட இயலாது.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d எழுத்துக்கு மேல் உள்ளிட இயலாது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">கடந்த %d மணிநேரங்களில் நினைவகம் பயன்படுத்தப்படவில்லை</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">கடந்த %d மணிநேரத்தில் நினைவகம் பயன்படுத்தப்படவில்லை</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d அறிவிப்புகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d அறிவிப்பு</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">தேர்வு செய்யப்பட்ட பயன்பாடுகளுக்கான அறிவிப்புகளைப் பற்றி, %d நிமிடங்களுக்கு ஒருமுறை நினைவூட்டவும்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">தேர்வு செய்யப்பட்ட பயன்பாடுகளுக்கான அறிவிப்புகளைப் பற்றி, %d நிமிடத்திற்கு ஒருமுறை நினைவூட்டவும்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">%d பயன்பாடுகள் வரை</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாடு வரை</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s மற்றும் %2$d பிற பயன்பாடுகள் கடவுவிசைகளைப் பயன்படுத்துவதுடன் தானாகவே கடவுச்சொற்களையும் பிற விவரத்தையும் உள்ளிடுகின்றன.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s மற்றும் %2$d பிற பயன்பாடு கடவுவிசைகளைப் பயன்படுத்துவதுடன் தானாகவே கடவுச்சொற்களையும் பிற விவரத்தையும் உள்ளிடுகின்றன.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%2$d பயன்பாடுகளால் %1$s அனுமதி பயன்படுத்தப்பட்டுள்ளது</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$d பயன்பாட்டால் %1$s அனுமதி பயன்படுத்தப்பட்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d அணுகல் செயல்பாடுகள் உபயோகத்தில் உள்ளன</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d அணுகல் செயல்பாடு உபயோகத்தில் உள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d பயன்பாடுகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாடு</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">%d மொழிகளை அகற்றவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மொழியை அகற்றவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d பயன்பாடுகள், உங்கள் ஃபோனிற்கான முழு அணுகலையும் கொண்டுள்ளன</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பயன்பாடு, உங்கள் ஃபோனிற்கான முழு அணுகலையும் கொண்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">உங்கள் ஃபோன் %d வினாடிகளில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் ஃபோனை பவர் ஆன் செய்து வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் ஃபோன் %d வினாடியில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் ஃபோனை பவர் ஆன் செய்து வைத்திருக்க வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">உங்கள் டேப்லெட் %d வினாடிகளில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் டேப்லெட்டை பவர் ஆன் செய்து வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் டேப்லெட் %d வினாடியில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் டேப்லெட்டை பவர் ஆன் செய்து வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">ஒவ்வொரு %d மணிநேரங்களுக்கும்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ஒவ்வொரு %d மணிநேரத்திற்கும்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">உங்கள் கடவுச்சொல்லில் குறைந்தது 1 எழுத்து உட்பட, %d எழுத்துகளாவது இருக்க வேண்டும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் கடவுச்சொல்லில் குறைந்தது 1 எழுத்து உட்பட, %d எழுத்தாவது இருக்க வேண்டும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">உங்கள் PIN குறைந்தது %d இலக்குகளை கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் PIN குறைந்தது %d இலக்கத்தை கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">1 மணிநேரம் %d நிமிடங்களில் மீண்டும் முயலவும்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1 மணிநேரம் %d நிமிடத்தில் மீண்டும் முயலவும்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">%d மணிநேரங்களில் மீண்டும் முயலவும்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மணிநேரத்தில் மீண்டும் முயலவும்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">%d மணிநேரங்கள் 1 நிமிடத்தில் மீண்டும் முயலவும்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மணிநேரம் 1 நிமிடத்தில் மீண்டும் முயலவும்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">%d நிமிடங்களில் மீண்டும் முயலவும்</item>
-        <item quantity="one">%d நிமிடத்தில் மீண்டும் முயலவும்</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">%d வினாடிகளில் மீண்டும் முயலவும்</item>
-        <item quantity="one">%d வினாடியில் மீண்டும் முயலவும்</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">%d கூடுதல் சேவைகளுக்கு மேல் ஆன் செய்ய இயலாது.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d கூடுதல் சேவைக்கு மேல் ஆன் செய்ய இயலாது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d தொடர்புகள் அனுமதிக்கப்பட்டன</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d தொடர்பு அனுமதிக்கப்பட்டது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%d கைரேகைப் பதிவுகள் சேர்க்கப்பட்டுள்ளன</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d கைரேகைப் பதிவு சேர்க்கப்பட்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s மேலும் %3$d பயன்பாடுகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s மேலும் %3$d பயன்பாடு</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">தவறான கடவுச்சொல். %d முயற்சிகள் மீதமுள்ளன.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">தவறான கடவுச்சொல். %d முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">தவறான பேட்டர்ன். %d முயற்சிகள் மீதமுள்ளன.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">தவறான பேட்டர்ன். %d முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">தவறான PIN. %d முயற்சிகள் மீதமுள்ளன.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">தவறான PIN. %d முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Galaxy AI மேம்பட்ட நுண்ணறிவு அம்சங்களைப் பயன்படுத்த, நீங்கள் குறைந்தது %d வயதுடையவராக இருக்க வேண்டும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Galaxy AI மேம்பட்ட நுண்ணறிவு அம்சங்களைப் பயன்படுத்த, நீங்கள் குறைந்தது %d வயதுடையவராக இருக்க வேண்டும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">உங்கள் கடவுச்சொல்லில் குறைந்தபட்சம் %d எழுத்துகள் இருக்க வேண்டும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் கடவுச்சொல்லில் குறைந்தபட்சம் %d எழுத்து இருக்க வேண்டும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">கடவுச்சொல் குறைந்தது %d சிறிய எழுத்துக்கள் கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="one">கடவுச்சொல் குறைந்தது 1 சிறிய எழுத்தாவது கொண்டிருக்க வேண்டும்.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">கடவுச்சொல் குறைந்தது %d எண்கள் அல்லது குறியீடுகளை கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="one">கடவுச்சொல் குறைந்தது 1 எண் அல்லது குறியீட்டை கொண்டிருக்க வேண்டும்.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">கடவுச்சொல் குறைந்தது %d எண்கள் கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="one">கடவுச்சொல் குறைந்தது 1 எண்ணாவது கொண்டிருக்க வேண்டும்.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">கடவுச்சொல் குறைந்தது %d குறியீடுகளை கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="one">கடவுச்சொல் குறைந்தது 1 குறியீடாவது கொண்டிருக்க வேண்டும்.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">கடவுச்சொல் குறைந்தது %d பெரிய எழுத்துக்கள் கொண்டிருக்க வேண்டும்.</item>
-        <item quantity="one">கடவுச்சொல் குறைந்தது 1 பெரிய எழுத்தாவது கொண்டிருக்க வேண்டும்.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">மேலும் %d பரிந்துரைகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">மேலும் %d பரிந்துரை</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d செயல்படும் பயன்பாடுகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d செயல்படும் பயன்பாடு</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">%d மொழி தொகுப்புகளை நீக்கவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மொழி தொகுப்பை நீக்கவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d குரல்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d குரல்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d கூடுதல் அனுமதிகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d கூடுதல் அனுமதி</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">டெவலப்பர் ஆவதிலிருந்து நீங்கள் %d டேப்கள் தொலைவில் உள்ளீர்கள்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">டெவலப்பர் ஆவதிலிருந்து நீங்கள் %d டேப் தொலைவில் உள்ளீர்கள்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%d மால்வேர் பயன்பாடுகள் கண்டறியப்பட்டுள்ளன</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மால்வேர் பயன்பாடு கண்டறியப்பட்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">உங்கள் ஃபோனில் %d மால்வேர் பயன்பாடுகள் கண்டறியப்பட்டது. உங்கள் ஃபோனைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாடுகளை நிறுவல் நீக்கவும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் ஃபோனில் %d மால்வேர் பயன்பாடு கண்டறியப்பட்டது. உங்கள் ஃபோனைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாட்டை நிறுவல் நீக்கவும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">உங்கள் டேப்லெட்டில் %d மால்வேர் பயன்பாடுகள் கண்டறியப்பட்டன. உங்கள் டேப்லெட்டைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாடுகளை நிறுவல் நீக்கவும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் டேப்லெட்டில் %d மால்வேர் பயன்பாடு கண்டறியப்பட்டது. உங்கள் டேப்லெட்டைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாட்டை நிறுவல் நீக்கவும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d பரிந்துரைகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d பரிந்துரை</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d எச்சரிக்கைகள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d எச்சரிக்கை</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">உறக்க நேரம்: %d மணிநேரங்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உறக்க நேரம்: %d மணிநேரம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">உறக்க நேரம்: %d நிமிடங்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உறக்க நேரம்: %d நிமிடம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">%1$s-இல் %2$d நாட்கள் வரை வரம்பற்ற தரவை பின்சேமிக்கலாம் அல்லது நீங்கள் பின்சேமித்த தரவை மீள்சேமிக்கலாம்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s-இல் %2$d நாள் வரை வரம்பற்ற தரவை பின்சேமிக்கலாம் அல்லது நீங்கள் பின்சேமித்த தரவை மீள்சேமிக்கலாம்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">%d வினாடிகளில் இந்த சோதனை ரீசெட் செய்யப்படும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d வினாடியில் இந்த சோதனை ரீசெட் செய்யப்படும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d சாதனங்கள் இணைக்கப்பட்டன</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d சாதனம் இணைக்கப்பட்டது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனங்களால் உங்கள் ஃபோனின் மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் ஃபோனின் மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனங்கள் வரை உங்கள் ஃபோனின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளிக்கு மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் ஃபோனின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">உங்கள் டேப்லெட்டை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனங்கள் வரை உங்கள் டேப்லெட்டின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் டேப்லெட்டை Wi-Fi அணுகல் புள்ளிக்கு மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் டேப்லெட்டின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் ஃபோனின்மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் டேப்லெட்டை Wi-Fi அணுகல் புள்ளிக்கு மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் டேப்லெட்டின் மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d உறுப்பினர்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d உறுப்பினர்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">%d நெட்வொர்க்குகளை நீக்கவா?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d நெட்வொர்க்கை நீக்கவா?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சிகள் மீதமுள்ளன.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சிகள் மேற்கொள்ளப்பட்டுள்ளன. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சிகள் மீதமுள்ளன.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சிகள் மேற்கொள்ளப்பட்டுள்ளன. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d மணிநேரங்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d மணிநேரம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d நிமிடங்கள்</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d நிமிடம்</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d நிமிடங்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d நிமிடம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d வினாடிகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d வினாடி</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d பயன்பாட்டு தேக்ககங்கள் (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d பயன்பாட்டு தேக்ககம் (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகளை காப்பகப்படுத்தவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாட்டை காப்பகப்படுத்தவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+%1$d பயன்பாடுகளை (+%2$s) காப்பகப்படுத்தவும்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d பயன்பாட்டை (+%2$s) காப்பகப்படுத்தவும்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகளுக்கான தேக்ககத்தை அழிக்கவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாட்டிற்கான தேக்ககத்தை அழிக்கவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+%1$d தேக்ககங்களை (+%2$s) அழி.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d தேக்கத்தை (+%2$s) அழி.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+பயன்படுத்தப்படாத %2$d பயன்பாடுகளைக் காப்பகப்படுத்துவதன் மூலம் %1$s இடத்தைக் காலி செய்யவும். உங்கள் தனிப்பட்ட தரவும் அமைவுகளும் சேமிக்கப்படும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+பயன்படுத்தப்படாத %2$d பயன்பாட்டைக் காப்பகப்படுத்துவதன் மூலம் %1$s இடத்தைக் காலி செய்யவும். உங்கள் தனிப்பட்ட தரவும் அமைவுகளும் சேமிக்கப்படும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகளை நிறுவல்நீக்கவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாட்டை நிறுவல்நீக்கவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+%1$d பயன்பாடுகளை (+%2$s) நிறுவல் நீக்குக</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d பயன்பாட்டை (+%2$s) நிறுவல் நீக்குக</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d பயன்படுத்தாத பயன்பாடுகள் (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d பயன்படுத்தாத பயன்பாடு (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+%d சாதனங்களுடன் இணைய இணைப்பைப் பகிர்கிறது.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d சாதனத்துடன் இணைய இணைப்பைப் பகிர்கிறது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாடு</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d நாட்கள்</item>
+
+        <item
+            quantity="one">
+1 நாள்</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d மணி நேரம்</item>
+
+        <item
+            quantity="one">
+1 மணிநேரம்</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d நிமிடங்கள்</item>
+
+        <item
+            quantity="one">
+1 நிமிடம்</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d வினாடிகள்</item>
+
+        <item
+            quantity="one">
+1 வினாடி</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d வாரங்கள்</item>
+
+        <item
+            quantity="one">
+1 வாரம்</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாடு</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d மணிநேரம்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மணிநேரம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d நிமிடங்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d நிமிடம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d வினாடிகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d வினாடி</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+இந்த இடங்களை நீங்கள் நீக்கினால், கூருணர்வுள்ள அமைவுகளை மாற்றும்போது பயோமெட்ரிக்ஸ் மற்றும் பாதுகாப்பு எப்போதும் தேவைப்படும்.</item>
+
+        <item
+            quantity="one">
+இந்த இடத்தை நீங்கள் நீக்கினால், கூருணர்வுள்ள அமைவுகளை மாற்றும்போது பயோமெட்ரிக்ஸ் மற்றும் பாதுகாப்பு எப்போதும் தேவைப்படும்.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+%d இடங்களை நீக்கவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d இடத்தை நீக்கவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d தேர்வுசெய்யப்பட்டது</item>
+
+        <item
+            quantity="one">
+1 தேர்வு செய்யப்பட்டுள்ளது</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s, மற்ற %2$d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, மற்ற %2$d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+%d எழுத்துகளுக்கு மேல் உள்ளிட இயலாது.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d எழுத்துக்கு மேல் உள்ளிட இயலாது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+கடந்த %d மணிநேரங்களில் நினைவகம் பயன்படுத்தப்படவில்லை</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+கடந்த %d மணிநேரத்தில் நினைவகம் பயன்படுத்தப்படவில்லை</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d அறிவிப்புகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d அறிவிப்பு</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+தேர்வு செய்யப்பட்ட பயன்பாடுகளுக்கான அறிவிப்புகளைப் பற்றி, %d நிமிடங்களுக்கு ஒருமுறை நினைவூட்டவும்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+தேர்வு செய்யப்பட்ட பயன்பாடுகளுக்கான அறிவிப்புகளைப் பற்றி, %d நிமிடத்திற்கு ஒருமுறை நினைவூட்டவும்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகள் வரை</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாடு வரை</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s மற்றும் %2$d பிற பயன்பாடுகள் கடவுவிசைகளைப் பயன்படுத்துவதுடன் தானாகவே கடவுச்சொற்களையும் பிற விவரத்தையும் உள்ளிடுகின்றன.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s மற்றும் %2$d பிற பயன்பாடு கடவுவிசைகளைப் பயன்படுத்துவதுடன் தானாகவே கடவுச்சொற்களையும் பிற விவரத்தையும் உள்ளிடுகின்றன.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%2$d பயன்பாடுகளால் %1$s அனுமதி பயன்படுத்தப்பட்டுள்ளது</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$d பயன்பாட்டால் %1$s அனுமதி பயன்படுத்தப்பட்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d அணுகல் செயல்பாடுகள் உபயோகத்தில் உள்ளன</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d அணுகல் செயல்பாடு உபயோகத்தில் உள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாடு</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+%d மொழிகளை அகற்றவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மொழியை அகற்றவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d பயன்பாடுகள், உங்கள் ஃபோனிற்கான முழு அணுகலையும் கொண்டுள்ளன</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பயன்பாடு, உங்கள் ஃபோனிற்கான முழு அணுகலையும் கொண்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+உங்கள் ஃபோன் %d வினாடிகளில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் ஃபோனை பவர் ஆன் செய்து வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் ஃபோன் %d வினாடியில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் ஃபோனை பவர் ஆன் செய்து வைத்திருக்க வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+உங்கள் டேப்லெட் %d வினாடிகளில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் டேப்லெட்டை பவர் ஆன் செய்து வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் டேப்லெட் %d வினாடியில் தானாக பவர் ஆஃப் செய்யப்படும். இந்த நேரத்தில் டேப்லெட்டை பவர் ஆன் செய்து வைத்திருக்க “ரத்துசெய்க” என்பதை டேப் செய்யவும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+ஒவ்வொரு %d மணிநேரங்களுக்கும்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ஒவ்வொரு %d மணிநேரத்திற்கும்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+உங்கள் கடவுச்சொல்லில் குறைந்தது 1 எழுத்து உட்பட, %d எழுத்துகளாவது இருக்க வேண்டும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் கடவுச்சொல்லில் குறைந்தது 1 எழுத்து உட்பட, %d எழுத்தாவது இருக்க வேண்டும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+உங்கள் PIN குறைந்தது %d இலக்குகளை கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் PIN குறைந்தது %d இலக்கத்தை கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+1 மணிநேரம் %d நிமிடங்களில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1 மணிநேரம் %d நிமிடத்தில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+%d மணிநேரங்களில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மணிநேரத்தில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+%d மணிநேரங்கள் 1 நிமிடத்தில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மணிநேரம் 1 நிமிடத்தில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+%d நிமிடங்களில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="one">
+%d நிமிடத்தில் மீண்டும் முயலவும்</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+%d வினாடிகளில் மீண்டும் முயலவும்</item>
+
+        <item
+            quantity="one">
+%d வினாடியில் மீண்டும் முயலவும்</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+%d கூடுதல் சேவைகளுக்கு மேல் ஆன் செய்ய இயலாது.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d கூடுதல் சேவைக்கு மேல் ஆன் செய்ய இயலாது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d தொடர்புகள் அனுமதிக்கப்பட்டன</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d தொடர்பு அனுமதிக்கப்பட்டது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%d கைரேகைப் பதிவுகள் சேர்க்கப்பட்டுள்ளன</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d கைரேகைப் பதிவு சேர்க்கப்பட்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s மேலும் %3$d பயன்பாடுகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s மேலும் %3$d பயன்பாடு</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+தவறான கடவுச்சொல். %d முயற்சிகள் மீதமுள்ளன.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+தவறான கடவுச்சொல். %d முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+தவறான பேட்டர்ன். %d முயற்சிகள் மீதமுள்ளன.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+தவறான பேட்டர்ன். %d முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+தவறான PIN. %d முயற்சிகள் மீதமுள்ளன.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+தவறான PIN. %d முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Galaxy AI மேம்பட்ட நுண்ணறிவு அம்சங்களைப் பயன்படுத்த, நீங்கள் குறைந்தது %d வயதுடையவராக இருக்க வேண்டும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Galaxy AI மேம்பட்ட நுண்ணறிவு அம்சங்களைப் பயன்படுத்த, நீங்கள் குறைந்தது %d வயதுடையவராக இருக்க வேண்டும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+உங்கள் கடவுச்சொல்லில் குறைந்தபட்சம் %d எழுத்துகள் இருக்க வேண்டும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் கடவுச்சொல்லில் குறைந்தபட்சம் %d எழுத்து இருக்க வேண்டும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+கடவுச்சொல் குறைந்தது %d சிறிய எழுத்துக்கள் கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="one">
+கடவுச்சொல் குறைந்தது 1 சிறிய எழுத்தாவது கொண்டிருக்க வேண்டும்.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+கடவுச்சொல் குறைந்தது %d எண்கள் அல்லது குறியீடுகளை கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="one">
+கடவுச்சொல் குறைந்தது 1 எண் அல்லது குறியீட்டை கொண்டிருக்க வேண்டும்.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+கடவுச்சொல் குறைந்தது %d எண்கள் கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="one">
+கடவுச்சொல் குறைந்தது 1 எண்ணாவது கொண்டிருக்க வேண்டும்.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+கடவுச்சொல் குறைந்தது %d குறியீடுகளை கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="one">
+கடவுச்சொல் குறைந்தது 1 குறியீடாவது கொண்டிருக்க வேண்டும்.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+கடவுச்சொல் குறைந்தது %d பெரிய எழுத்துக்கள் கொண்டிருக்க வேண்டும்.</item>
+
+        <item
+            quantity="one">
+கடவுச்சொல் குறைந்தது 1 பெரிய எழுத்தாவது கொண்டிருக்க வேண்டும்.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+மேலும் %d பரிந்துரைகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+மேலும் %d பரிந்துரை</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d செயல்படும் பயன்பாடுகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d செயல்படும் பயன்பாடு</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+%d மொழி தொகுப்புகளை நீக்கவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மொழி தொகுப்பை நீக்கவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d குரல்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d குரல்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d கூடுதல் அனுமதிகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d கூடுதல் அனுமதி</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+டெவலப்பர் ஆவதிலிருந்து நீங்கள் %d டேப்கள் தொலைவில் உள்ளீர்கள்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+டெவலப்பர் ஆவதிலிருந்து நீங்கள் %d டேப் தொலைவில் உள்ளீர்கள்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%d மால்வேர் பயன்பாடுகள் கண்டறியப்பட்டுள்ளன</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மால்வேர் பயன்பாடு கண்டறியப்பட்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+உங்கள் ஃபோனில் %d மால்வேர் பயன்பாடுகள் கண்டறியப்பட்டது. உங்கள் ஃபோனைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாடுகளை நிறுவல் நீக்கவும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் ஃபோனில் %d மால்வேர் பயன்பாடு கண்டறியப்பட்டது. உங்கள் ஃபோனைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாட்டை நிறுவல் நீக்கவும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+உங்கள் டேப்லெட்டில் %d மால்வேர் பயன்பாடுகள் கண்டறியப்பட்டன. உங்கள் டேப்லெட்டைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாடுகளை நிறுவல் நீக்கவும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் டேப்லெட்டில் %d மால்வேர் பயன்பாடு கண்டறியப்பட்டது. உங்கள் டேப்லெட்டைப் பாதுகாப்பாக வைத்திருக்க இந்த பயன்பாட்டை நிறுவல் நீக்கவும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d பரிந்துரைகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d பரிந்துரை</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d எச்சரிக்கைகள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d எச்சரிக்கை</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+உறக்க நேரம்: %d மணிநேரங்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உறக்க நேரம்: %d மணிநேரம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+உறக்க நேரம்: %d நிமிடங்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உறக்க நேரம்: %d நிமிடம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+%1$s-இல் %2$d நாட்கள் வரை வரம்பற்ற தரவை பின்சேமிக்கலாம் அல்லது நீங்கள் பின்சேமித்த தரவை மீள்சேமிக்கலாம்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s-இல் %2$d நாள் வரை வரம்பற்ற தரவை பின்சேமிக்கலாம் அல்லது நீங்கள் பின்சேமித்த தரவை மீள்சேமிக்கலாம்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+%d வினாடிகளில் இந்த சோதனை ரீசெட் செய்யப்படும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d வினாடியில் இந்த சோதனை ரீசெட் செய்யப்படும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d சாதனங்கள் இணைக்கப்பட்டன</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d சாதனம் இணைக்கப்பட்டது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனங்களால் உங்கள் ஃபோனின் மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் ஃபோனின் மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனங்கள் வரை உங்கள் ஃபோனின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளிக்கு மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் ஃபோனின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+உங்கள் டேப்லெட்டை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனங்கள் வரை உங்கள் டேப்லெட்டின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் டேப்லெட்டை Wi-Fi அணுகல் புள்ளிக்கு மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் டேப்லெட்டின் மொபைல் தரவைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+உங்கள் ஃபோனை Wi-Fi அணுகல் புள்ளியாக மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் ஃபோனின்மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் டேப்லெட்டை Wi-Fi அணுகல் புள்ளிக்கு மாற்றவும். இணையத்தை அணுகுவதற்கு, மற்ற %d சாதனத்தால் உங்கள் டேப்லெட்டின் மொபைல் தரவு அல்லது Wi-Fi இணைப்பைப் பயன்படுத்த இயலும்.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d உறுப்பினர்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d உறுப்பினர்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+%d நெட்வொர்க்குகளை நீக்கவா?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d நெட்வொர்க்கை நீக்கவா?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சிகள் மீதமுள்ளன.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சிகள் மேற்கொள்ளப்பட்டுள்ளன. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த ஃபோன் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சிகள் மீதமுள்ளன.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க 1 முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு %d முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சிகள் மேற்கொள்ளப்பட்டுள்ளன. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+உங்கள் பணி ப்ரொஃபைலை பூட்டுநீக்க %d முயற்சி மேற்கொள்ளப்பட்டுள்ளது. இந்த டேப்லெட் ஃபேக்டரி அமைவுகளுக்கு ரீசெட் செய்யப்பட்டு எல்லா தரவும் அழிக்கப்படுவதற்கு முன்பு 1 முயற்சி மீதமுள்ளது.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d மணிநேரங்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d மணிநேரம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d நிமிடங்கள்</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d நிமிடம்</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

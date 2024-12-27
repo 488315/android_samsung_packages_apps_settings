@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/notification_polite_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.TopIntroPreference android:title="@string/notification_polite_description" android:key="polite_notification_desc" />
-    <com.android.settingslib.widget.MainSwitchPreference android:title="@string/notification_polite_main_control_title" android:key="polite_notification_global_pref" settings:controller="com.android.settings.notification.PoliteNotificationGlobalPreferenceController" />
-    <SwitchPreferenceCompat android:persistent="false" android:title="@string/notification_polite_work" android:key="notification_polite_work_profile" android:summary="@string/notification_polite_work_summary" settings:controller="com.android.settings.notification.PoliteNotifWorkProfileToggleController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/notification_polite_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/notification_polite_description"
+        android:key="polite_notification_desc" />
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:title="@string/notification_polite_main_control_title"
+        android:key="polite_notification_global_pref"
+        settings:controller="com.android.settings.notification.PoliteNotificationGlobalPreferenceController" />
+
+    <SwitchPreferenceCompat
+        android:persistent="false"
+        android:title="@string/notification_polite_work"
+        android:key="notification_polite_work_profile"
+        android:summary="@string/notification_polite_work_summary"
+        settings:controller="com.android.settings.notification.PoliteNotifWorkProfileToggleController" />
+
 </PreferenceScreen>

@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/lifestyle_allow_apps_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <View android:icon="@drawable/tw_chips_icon_add_mtrl" android:id="@id/lifestyle_app_add_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/sec_high_refresh_rate_save_battery_app_add" android:key="zen_mode_bypassing_apps_add" />
-            <androidx.apppickerview.widget.AppPickerView android:id="@id/lifestyle_allow_app_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/lifestyle_allow_apps_list_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@id/lifestyle_app_add_icon"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/tw_chips_icon_add_mtrl"
+                android:title="@string/sec_high_refresh_rate_save_battery_app_add"
+                android:key="zen_mode_bypassing_apps_add" />
+
+            <androidx.apppickerview.widget.AppPickerView
+                android:id="@id/lifestyle_allow_app_picker"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

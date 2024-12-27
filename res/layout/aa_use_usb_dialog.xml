@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="@style/TextAppearance.ConditionCardSummary" android:textColor="@android:color/holo_blue_dark" android:id="@id/aa_connection_help_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connection help" android:paddingStart="@dimen/sesl_list_item_padding_horizontal" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
-    <com.google.android.material.card.MaterialCardView android:id="@id/aa_empty_cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="@dimen/sesl_list_item_padding_horizontal" android:layout_marginEnd="@dimen/sesl_list_item_padding_horizontal" app:cardBackgroundColor="@android:color/darker_gray" app:cardCornerRadius="@dimen/sec_suggestion_card_rounded_corner_size" app:cardElevation="0.0dip" style="@style/ContextualCardStyle">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" android:paddingStart="@dimen/sesl_list_item_padding_horizontal" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/aa_connection_help_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.ConditionCardSummary"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Connection help"
+        android:paddingStart="@dimen/sesl_list_item_padding_horizontal"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@id/aa_empty_cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginStart="@dimen/sesl_list_item_padding_horizontal"
+        android:layout_marginEnd="@dimen/sesl_list_item_padding_horizontal"
+        app:cardBackgroundColor="@android:color/darker_gray"
+        app:cardCornerRadius="@dimen/sec_suggestion_card_rounded_corner_size"
+        app:cardElevation="0.0dip"
+        style="@style/ContextualCardStyle">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:minHeight="100.0dip"
+            android:paddingStart="@dimen/sesl_list_item_padding_horizontal"
+            android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+
     </com.google.android.material.card.MaterialCardView>
+
 </LinearLayout>

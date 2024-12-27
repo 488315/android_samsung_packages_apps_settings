@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:focusable="false" android:scrollbars="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wifi_ap_list_item_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:id="@id/wifi_ap_connected_device_pref" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/wifi_ap_pref_paddingTop" android:paddingBottom="@dimen/wifi_ap_pref_paddingBottom" android:focusable="true" android:scrollbars="none" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="6.0dip">
-            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="17.0sp" android:textColor="@color/wifi_ap_edit_text_label_color" android:ellipsize="marquee" android:id="@android:id/title" android:focusable="false" android:fadingEdge="horizontal" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" android:fontFamily="sec-roboto-light" />
-            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:textColor="@color/wifi_ap_preference_summary_color" android:id="@android:id/summary" android:paddingBottom="3.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" android:fontFamily="sec-roboto-light" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:focusable="false"
+    android:scrollbars="none"
+    android:clickable="false"
+    android:minHeight="@dimen/wifi_ap_list_item_min_height">
+
+    <LinearLayout
+        android:id="@id/wifi_ap_connected_device_pref"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="@dimen/wifi_ap_pref_paddingTop"
+        android:paddingBottom="@dimen/wifi_ap_pref_paddingBottom"
+        android:focusable="true"
+        android:scrollbars="none"
+        android:clickable="true"
+        android:layout_weight="1.0">
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="6.0dip">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="17.0sp"
+                android:textColor="@color/wifi_ap_edit_text_label_color"
+                android:ellipsize="marquee"
+                android:focusable="false"
+                android:fadingEdge="horizontal"
+                android:clickable="false"
+                android:layout_marginBottom="2.0dip"
+                android:singleLine="true"
+                android:fontFamily="sec-roboto-light" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="14.0sp"
+                android:textColor="@color/wifi_ap_preference_summary_color"
+                android:paddingBottom="3.0dip"
+                android:focusable="false"
+                android:visibility="gone"
+                android:clickable="false"
+                android:maxLines="4"
+                android:layout_below="@android:id/title"
+                android:layout_alignLeft="@android:id/title"
+                android:fontFamily="sec-roboto-light" />
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

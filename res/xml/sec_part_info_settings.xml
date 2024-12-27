@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/part_info_header_title" settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.aboutphone.SecMyDeviceInfoFragment" settings:topLevelPreferenceKey="top_level_about_phone"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceCategory android:title="@string/part_category_screens" android:key="part_screen_category" settings:searchable="false">
-        <Preference android:persistent="false" android:title="@string/part_info_screen" android:key="part_screen" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.ScreenPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_cover_screen" android:key="part_cover_screen" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.CoverScreenPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_main_screen" android:key="part_main_screen" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.MainScreenPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/part_info_header_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.aboutphone.SecMyDeviceInfoFragment"
+    settings:topLevelPreferenceKey="top_level_about_phone">
+
+    <SecPreferenceCategory
+        android:title="@string/part_category_screens"
+        android:key="part_screen_category"
+        settings:searchable="false">
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_screen"
+            android:key="part_screen"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.ScreenPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_cover_screen"
+            android:key="part_cover_screen"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.CoverScreenPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_main_screen"
+            android:key="part_main_screen"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.MainScreenPreferenceController" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:title="@string/part_category_camera" android:key="part_camera_category" settings:searchable="false">
-        <Preference android:persistent="false" android:title="@string/part_info_front_camera" android:key="part_front_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.FrontCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_front_camera_ultra_wide" android:key="part_front_ultra_wide_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.FrontUltraWideCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_rear_camera_wide" android:key="part_rear_wide_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearWideCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_rear_camera_ultra_wide" android:key="part_rear_ultra_wide_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearUltraWideCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_rear_camera_telephoto" android:key="part_rear_tele_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearTeleCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_rear_camera_super_telephoto" android:key="part_rear_super_tele_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearSuperTeleCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_rear_camera_macro" android:key="part_rear_macro_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearMacroCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_rear_camera_depth" android:key="part_rear_depth_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearDepthCameraPreferenceController" />
-        <Preference android:persistent="false" android:title="@string/part_info_inner_camera" android:key="part_inner_camera" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.InnerCameraPreferenceController" />
+
+    <SecPreferenceCategory
+        android:title="@string/part_category_camera"
+        android:key="part_camera_category"
+        settings:searchable="false">
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_front_camera"
+            android:key="part_front_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.FrontCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_front_camera_ultra_wide"
+            android:key="part_front_ultra_wide_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.FrontUltraWideCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_rear_camera_wide"
+            android:key="part_rear_wide_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearWideCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_rear_camera_ultra_wide"
+            android:key="part_rear_ultra_wide_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearUltraWideCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_rear_camera_telephoto"
+            android:key="part_rear_tele_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearTeleCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_rear_camera_super_telephoto"
+            android:key="part_rear_super_tele_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearSuperTeleCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_rear_camera_macro"
+            android:key="part_rear_macro_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearMacroCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_rear_camera_depth"
+            android:key="part_rear_depth_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.RearDepthCameraPreferenceController" />
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_inner_camera"
+            android:key="part_inner_camera"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.InnerCameraPreferenceController" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:title="@string/part_category_other" android:key="part_other_category" settings:searchable="false">
-        <Preference android:persistent="false" android:title="@string/part_info_main_board" android:key="part_main_board" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.partinfo.MainBoardPreferenceController" />
+
+    <SecPreferenceCategory
+        android:title="@string/part_category_other"
+        android:key="part_other_category"
+        settings:searchable="false">
+
+        <Preference
+            android:persistent="false"
+            android:title="@string/part_info_main_board"
+            android:key="part_main_board"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.samsung.android.settings.deviceinfo.partinfo.MainBoardPreferenceController" />
+
     </SecPreferenceCategory>
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/summary_placeholder" android:selectable="false" android:key="unknown_part_description" settings:isPreferenceVisible="false" settings:searchable="false" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/summary_placeholder"
+        android:selectable="false"
+        android:key="unknown_part_description"
+        settings:isPreferenceVisible="false"
+        settings:searchable="false" />
+
 </PreferenceScreen>

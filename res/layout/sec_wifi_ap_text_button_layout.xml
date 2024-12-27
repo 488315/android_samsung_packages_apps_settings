@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_item_container_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="17.0sp" android:textColor="@color/wifi_ap_primary_text_color" android:layout_gravity="center_horizontal" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="24.0dip" style="@style/sec_semi_bold" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/sesl_preference_item_padding_vertical"
+    android:paddingBottom="@dimen/sesl_preference_item_padding_vertical"
+    style="@style/list_item_container_style">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17.0sp"
+        android:textColor="@color/wifi_ap_primary_text_color"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="24.0dip"
+        style="@style/sec_semi_bold" />
+
 </LinearLayout>

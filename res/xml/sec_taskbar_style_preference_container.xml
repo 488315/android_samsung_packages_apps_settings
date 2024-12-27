@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/taskbar_style" android:key="pref_taskbar_style" settings:hierarchicalParentFragment="com.android.settings.DisplaySettings"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_taskbar_style_help_ui" android:selectable="false" android:key="task_bar_style_help_preview" settings:allowDividerBelow="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/taskbar_style"
+    android:key="pref_taskbar_style"
+    settings:hierarchicalParentFragment="com.android.settings.DisplaySettings">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_taskbar_style_help_ui"
+        android:selectable="false"
+        android:key="task_bar_style_help_preview"
+        settings:allowDividerBelow="false" />
+
     <PreferenceCategory>
-        <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/floating_taskbar_text" android:key="auto_hide_taskbar_on" settings:allowDividerBelow="false" settings:roundStroke="top_left|top_right" />
-        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-        <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/fixed_taskbar_text" android:key="stay_on_screen" settings:allowDividerBelow="false" />
+
+        <com.samsung.android.settings.widget.SecRadioButtonPreference
+            android:title="@string/floating_taskbar_text"
+            android:key="auto_hide_taskbar_on"
+            settings:allowDividerBelow="false"
+            settings:roundStroke="top_left|top_right" />
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:layout="@layout/sec_button_preference_divider"
+            android:selectable="false"
+            android:key="divider" />
+
+        <com.samsung.android.settings.widget.SecRadioButtonPreference
+            android:title="@string/fixed_taskbar_text"
+            android:key="stay_on_screen"
+            settings:allowDividerBelow="false" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

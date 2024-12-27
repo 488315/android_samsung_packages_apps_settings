@@ -1,683 +1,2448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d মিনিট</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d মিনিট</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d সেকেন্ড</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d সেকেন্ড</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$dটি অ্যাপের ক্যাশে (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$dটি অ্যাপের ক্যাশে (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">%dটি অ্যাপ আর্কাইভ করবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপ আর্কাইভ করবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">%1$dটি অ্যাপ (+%2$s) আর্কাইভ করুন</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$dটি অ্যাপ (+%2$s) আর্কাইভ করুন</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">%dটি অ্যাপের জন্য ক্যাশে মুছবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপের জন্য ক্যাশে মুছবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">%1$d ক্যাশে পরিষ্কার করুন (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d ক্যাশে পরিষ্কার করুন (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">%dটি নির্বাচিত</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি নির্বাচিত</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">%2$dটি অব্যবহৃত অ্যাপকে আর্কাইভ করে %1$s স্থান খালি করুন। আপনার ব্যক্তিগত তথ্য এবং সেটিংস সেভ করা হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$dটি অব্যবহৃত অ্যাপকে আর্কাইভ করে %1$s স্থান খালি করুন। আপনার ব্যক্তিগত তথ্য এবং সেটিংস সেভ করা হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">%dটি অ্যাপ আনইনস্টল করবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপ আনইনস্টল করবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">%1$dটি অ্যাপ আনইনস্টল করুন (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$dটি অ্যাপ আনইনস্টল করুন (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$dটি অব্যবহৃত অ্যাপ (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$dটি অব্যবহৃত অ্যাপ (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">%dটি ডিভাইসের সাথে ইন্টারনেট কানেকশন শেয়ার করা হচ্ছে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি ডিভাইসের সাথে ইন্টারনেট কানেকশন শেয়ার করা হচ্ছে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%dটি অ্যাপ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d দিন</item>
-        <item quantity="one">1 দিন</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d ঘণ্টা</item>
-        <item quantity="one">1 ঘণ্টা</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d মিনিট</item>
-        <item quantity="one">1 মিনিট</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d সেকেন্ড</item>
-        <item quantity="one">1 সেকেন্ড</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d সপ্তাহ</item>
-        <item quantity="one">1 সপ্তাহ</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%dটি অ্যাপ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d ঘণ্টা</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ঘণ্টা</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d মিনিট</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d মিনিট</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d সেকেন্ড</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d সেকেন্ড</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">আপনি এই স্থানগুলি মুছে দিলে, আপনি সংবেদনশীল সেটিংস পরিবর্তন করার সময় সর্বদা বায়োমেট্রিক এবং নিরাপত্তা সংক্রান্ত সময়ের বিলম্বের প্রয়োজন হবে।</item>
-        <item quantity="one">আপনি এই স্থানটি মুছে দিলে, আপনি সংবেদনশীল সেটিংস পরিবর্তন করার সময় সর্বদা বায়োমেট্রিক এবং নিরাপত্তা সংক্রান্ত সময়ের বিলম্বের প্রয়োজন হবে।</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">%dটি স্থান মুছবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি স্থান মুছবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%dটি নির্বাচিত</item>
-        <item quantity="one">1টি নির্বাচিত</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s এবং অন্য %2$dটি</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s এবং অন্য %2$dটি</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">%dটির চেয়ে বেশি অক্ষর লেখা যাচ্ছে না।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটির চেয়ে বেশি অক্ষর লেখা যাচ্ছে না।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">গত %d ঘণ্টায় কোনও মেমোরি ব্যবহার করা হয়নি</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">গত %d ঘণ্টায় কোনও মেমোরি ব্যবহার করা হয়নি</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%dটি নোটিফিকেশন</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি নোটিফিকেশন</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">নির্বাচিত অ্যাপগুলির নোটিফিকেশন সম্বন্ধে প্রতি %d মিনিটে মনে করান</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">নির্বাচিত অ্যাপগুলির নোটিফিকেশন সম্বন্ধে প্রতি %d মিনিটে মনে করান</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">%dটি অ্যাপ পর্যন্ত</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপ পর্যন্ত</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s এবং অন্য %2$dটি অ্যাপ পাসকীগুলি ব্যবহার করে এবং স্বয়ংক্রিয়ভাবে পাসওয়ার্ড ও অন্যান্য তথ্য লেখে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s এবং অন্য %2$dটি অ্যাপ পাসকীগুলি ব্যবহার করে এবং স্বয়ংক্রিয়ভাবে পাসওয়ার্ড ও অন্যান্য তথ্য লেখে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%2$dটি অ্যাপ %1$s-এর অনুমতি ব্যবহার করেছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$dটি অ্যাপ %1$s-এর অনুমতি ব্যবহার করেছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%dটি অ্যাক্সেসযোগ্যতার কার্যকারিতা ব্যবহৃত হচ্ছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাক্সেসযোগ্যতার কার্যকারিতা ব্যবহৃত হচ্ছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%dটি অ্যাপ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অ্যাপ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">%dটি ভাষা অপসারণ করবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি ভাষা অপসারণ করবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">আপনার ফোনে %dটি অ্যাপের সম্পূর্ণ অ্যাক্সেস রয়েছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ফোনে %dটি অ্যাপের সম্পূর্ণ অ্যাক্সেস রয়েছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">আপনার ফোনের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ফোনের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ফোনের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ফোনের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">আপনার ট্যাবলেটের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ট্যাবলেটের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ট্যাবলেটের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ট্যাবলেটের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">প্রতি %d ঘণ্টায়</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">প্রতি %d ঘণ্টায়</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">আপনার পাসওয়ার্ডে অবশ্যই কমপক্ষে 1টি বর্ণ সহ কমপক্ষে %dটি অক্ষর থাকতে হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার পাসওয়ার্ডে অবশ্যই কমপক্ষে 1টি বর্ণ সহ কমপক্ষে %dটি অক্ষর থাকতে হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">আপনার PIN-এ অবশ্যই কমপক্ষে %dটি সংখ্যা থাকতে হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার PIN-এ অবশ্যই কমপক্ষে %dটি সংখ্যা থাকতে হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">1 ঘণ্টা %d মিনিটে আবার চেষ্টা করুন</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1 ঘণ্টা %d মিনিটে আবার চেষ্টা করুন</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">%d ঘণ্টায় আবার চেষ্টা করুন</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ঘণ্টায় আবার চেষ্টা করুন</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">%d ঘণ্টা 1 মিনিটে আবার চেষ্টা করুন</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ঘণ্টা 1 মিনিটে আবার চেষ্টা করুন</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">%d মিনিট পরে পুনরায় চেষ্টা করুন</item>
-        <item quantity="one">%d মিনিটে আবার চেষ্টা করুন</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">%d সেকেন্ড পরে পুনরায় চেষ্টা করুন</item>
-        <item quantity="one">%d সেকেন্ডে আবার চেষ্টা করুন</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">%dটির বেশি অতিরিক্ত পরিষেবা চালু করা যাচ্ছে না।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটির বেশি অতিরিক্ত পরিষেবা চালু করা যাচ্ছে না।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%dটি পরিচিতি অনুমোদিত হয়েছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি পরিচিতি অনুমোদিত হয়েছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%dটি আঙুলের ছাপ যুক্ত হয়েছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি আঙুলের ছাপ যুক্ত হয়েছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s এবং আরও %3$dটি অ্যাপ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s এবং আরও %3$dটি অ্যাপ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">ভুল পাসওয়ার্ড। %dটি প্রয়াস বাকি আছে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ভুল পাসওয়ার্ড। %dটি প্রয়াস বাকি আছে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">ভুল প্যাটার্ন। %dটি প্রয়াস বাকি আছে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ভুল প্যাটার্ন। %dটি প্রয়াস বাকি আছে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">ভুল PIN। %dটি প্রয়াস বাকি আছে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ভুল PIN। %dটি প্রয়াস বাকি আছে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Galaxy AI-এর উন্নত ইন্টেলিজেন্সের বৈশিষ্ট্যগুলি ব্যবহার করতে আপনার বয়স কমপক্ষে %d বছর হতে হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Galaxy AI-এর উন্নত ইন্টেলিজেন্সের বৈশিষ্ট্যগুলি ব্যবহার করতে আপনার বয়স কমপক্ষে %d বছর হতে হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">আপনার পাসওয়ার্ডে অন্ততপক্ষে %dটি অক্ষর অবশ্যই থাকতে হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার পাসওয়ার্ডে অন্ততপক্ষে %dটি অক্ষর অবশ্যই থাকতে হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">পাসওয়ার্ডে অন্তত %dটি ছোটহাতের বর্ণ থাকতে হবে।</item>
-        <item quantity="one">পাসওয়ার্ডে অন্তত 1টি ছোটহাতের বর্ণ থাকতে হবে।</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">পাসওয়ার্ডে অন্তত %dটি সংখ্যা বা চিহ্ন থাকতে হবে।</item>
-        <item quantity="one">পাসওয়ার্ডে অন্তত 1টি সংখ্যা বা চিহ্ন থাকতে হবে।</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">পাসওয়ার্ডে অন্তত %dটি সংখ্যা থাকতে হবে।</item>
-        <item quantity="one">পাসওয়ার্ডে অন্তত 1টি সংখ্যা থাকতে হবে।</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">পাসওয়ার্ডে অন্তত %dটি চিহ্ন থাকতে হবে।</item>
-        <item quantity="one">পাসওয়ার্ডে অন্তত 1টি চিহ্ন থাকতে হবে।</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">পাসওয়ার্ডে অন্তত %dটি বড়হাতের বর্ণ থাকতে হবে।</item>
-        <item quantity="one">পাসওয়ার্ডে অন্তত 1টি বড়হাতের বর্ণ থাকতে হবে।</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">আরও %dটি পরামর্শ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আরও %dটি পরামর্শ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%dটি সক্রিয় অ্যাপ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি সক্রিয় অ্যাপ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">%dটি ভাষার প্যাক মুছবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি ভাষার প্যাক মুছবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%dটি ভয়েস</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি ভয়েস</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%dটি অতিরিক্ত অনুমতি</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি অতিরিক্ত অনুমতি</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">আপনার ডেভেলপার হয়ে ওঠার ক্ষেত্রে আর %d বার ট্যাপ করা বাকি আছে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ডেভেলপার হয়ে ওঠার ক্ষেত্রে আর %d বার ট্যাপ করা বাকি আছে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">%dটি নির্বাচিত</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি নির্বাচিত</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%dটি ম্যালওয়্যার অ্যাপ শনাক্ত হয়েছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি ম্যালওয়্যার অ্যাপ শনাক্ত হয়েছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">আপনার ফোনে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ফোন নিরাপদ রাখতে এই অ্যাপগুলি আনইনস্টল করুন।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ফোনে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ফোন নিরাপদ রাখতে এই অ্যাপটি আনইনস্টল করুন।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">আপনার ট্যাবলেটে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ট্যাবলেট নিরাপদ রাখতে এই অ্যাপটি আনইনস্টল করুন।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ট্যাবলেটে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ট্যাবলেট নিরাপদ রাখতে এই অ্যাপটি আনইনস্টল করুন।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%dটি পরামর্শ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি পরামর্শ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%dটি সতর্কীকরণ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি সতর্কীকরণ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">নিদ্রার সময়: %d ঘণ্টা</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">নিদ্রার সময়: %d ঘণ্টা</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">নিদ্রার সময়: %d মিনিট</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">নিদ্রার সময়: %d মিনিট</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">%1$s-এ %2$d দিন অবধি অসীমিত তথ্যের ব্যাক আপ নিন বা আপনার ব্যাক আপ নেওয়া তথ্য পুনরুদ্ধার করুন।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s-এ %2$d দিন অবধি অসীমিত তথ্যের ব্যাক আপ নিন বা আপনার ব্যাক আপ নেওয়া তথ্য পুনরুদ্ধার করুন।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">এই পরীক্ষাটি %d সেকেন্ডের মধ্যে রিসেট হয়ে যাবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">এই পরীক্ষাটি %d সেকেন্ডের মধ্যে রিসেট হয়ে যাবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%dটি ডিভাইস কানেক্ট হয়েছে</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি ডিভাইস কানেক্ট হয়েছে</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d জন সদস্য</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d জন সদস্য</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">%dটি নেটওয়ার্ক মুছবেন?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি নেটওয়ার্ক মুছবেন?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">%dটি নির্বাচিত</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dটি নির্বাচিত</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d ঘণ্টা</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ঘণ্টা</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d মিনিট</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d মিনিট</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d মিনিট</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d মিনিট</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d সেকেন্ড</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d সেকেন্ড</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$dটি অ্যাপের ক্যাশে (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$dটি অ্যাপের ক্যাশে (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+%dটি অ্যাপ আর্কাইভ করবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপ আর্কাইভ করবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+%1$dটি অ্যাপ (+%2$s) আর্কাইভ করুন</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$dটি অ্যাপ (+%2$s) আর্কাইভ করুন</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+%dটি অ্যাপের জন্য ক্যাশে মুছবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপের জন্য ক্যাশে মুছবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+%1$d ক্যাশে পরিষ্কার করুন (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d ক্যাশে পরিষ্কার করুন (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+%2$dটি অব্যবহৃত অ্যাপকে আর্কাইভ করে %1$s স্থান খালি করুন। আপনার ব্যক্তিগত তথ্য এবং সেটিংস সেভ করা হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$dটি অব্যবহৃত অ্যাপকে আর্কাইভ করে %1$s স্থান খালি করুন। আপনার ব্যক্তিগত তথ্য এবং সেটিংস সেভ করা হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+%dটি অ্যাপ আনইনস্টল করবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপ আনইনস্টল করবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+%1$dটি অ্যাপ আনইনস্টল করুন (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$dটি অ্যাপ আনইনস্টল করুন (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$dটি অব্যবহৃত অ্যাপ (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$dটি অব্যবহৃত অ্যাপ (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+%dটি ডিভাইসের সাথে ইন্টারনেট কানেকশন শেয়ার করা হচ্ছে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি ডিভাইসের সাথে ইন্টারনেট কানেকশন শেয়ার করা হচ্ছে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%dটি অ্যাপ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d দিন</item>
+
+        <item
+            quantity="one">
+1 দিন</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d ঘণ্টা</item>
+
+        <item
+            quantity="one">
+1 ঘণ্টা</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d মিনিট</item>
+
+        <item
+            quantity="one">
+1 মিনিট</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d সেকেন্ড</item>
+
+        <item
+            quantity="one">
+1 সেকেন্ড</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d সপ্তাহ</item>
+
+        <item
+            quantity="one">
+1 সপ্তাহ</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%dটি অ্যাপ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d ঘণ্টা</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ঘণ্টা</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d মিনিট</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d মিনিট</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d সেকেন্ড</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d সেকেন্ড</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+আপনি এই স্থানগুলি মুছে দিলে, আপনি সংবেদনশীল সেটিংস পরিবর্তন করার সময় সর্বদা বায়োমেট্রিক এবং নিরাপত্তা সংক্রান্ত সময়ের বিলম্বের প্রয়োজন হবে।</item>
+
+        <item
+            quantity="one">
+আপনি এই স্থানটি মুছে দিলে, আপনি সংবেদনশীল সেটিংস পরিবর্তন করার সময় সর্বদা বায়োমেট্রিক এবং নিরাপত্তা সংক্রান্ত সময়ের বিলম্বের প্রয়োজন হবে।</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+%dটি স্থান মুছবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি স্থান মুছবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="one">
+1টি নির্বাচিত</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s এবং অন্য %2$dটি</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s এবং অন্য %2$dটি</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+%dটির চেয়ে বেশি অক্ষর লেখা যাচ্ছে না।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটির চেয়ে বেশি অক্ষর লেখা যাচ্ছে না।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+গত %d ঘণ্টায় কোনও মেমোরি ব্যবহার করা হয়নি</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+গত %d ঘণ্টায় কোনও মেমোরি ব্যবহার করা হয়নি</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%dটি নোটিফিকেশন</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি নোটিফিকেশন</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+নির্বাচিত অ্যাপগুলির নোটিফিকেশন সম্বন্ধে প্রতি %d মিনিটে মনে করান</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+নির্বাচিত অ্যাপগুলির নোটিফিকেশন সম্বন্ধে প্রতি %d মিনিটে মনে করান</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+%dটি অ্যাপ পর্যন্ত</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপ পর্যন্ত</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s এবং অন্য %2$dটি অ্যাপ পাসকীগুলি ব্যবহার করে এবং স্বয়ংক্রিয়ভাবে পাসওয়ার্ড ও অন্যান্য তথ্য লেখে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s এবং অন্য %2$dটি অ্যাপ পাসকীগুলি ব্যবহার করে এবং স্বয়ংক্রিয়ভাবে পাসওয়ার্ড ও অন্যান্য তথ্য লেখে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%2$dটি অ্যাপ %1$s-এর অনুমতি ব্যবহার করেছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$dটি অ্যাপ %1$s-এর অনুমতি ব্যবহার করেছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%dটি অ্যাক্সেসযোগ্যতার কার্যকারিতা ব্যবহৃত হচ্ছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাক্সেসযোগ্যতার কার্যকারিতা ব্যবহৃত হচ্ছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%dটি অ্যাপ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অ্যাপ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+%dটি ভাষা অপসারণ করবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি ভাষা অপসারণ করবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+আপনার ফোনে %dটি অ্যাপের সম্পূর্ণ অ্যাক্সেস রয়েছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ফোনে %dটি অ্যাপের সম্পূর্ণ অ্যাক্সেস রয়েছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+আপনার ফোনের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ফোনের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ফোনের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ফোনের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+আপনার ট্যাবলেটের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ট্যাবলেটের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ট্যাবলেটের স্বয়ংক্রিয়ভাবে %d সেকেন্ডে পাওয়ার বন্ধ হবে। এই সময়ে আপনার ট্যাবলেটের পাওয়ার চালু রাখতে “বাতিল করুন” ট্যাপ করুন।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+প্রতি %d ঘণ্টায়</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+প্রতি %d ঘণ্টায়</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+আপনার পাসওয়ার্ডে অবশ্যই কমপক্ষে 1টি বর্ণ সহ কমপক্ষে %dটি অক্ষর থাকতে হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার পাসওয়ার্ডে অবশ্যই কমপক্ষে 1টি বর্ণ সহ কমপক্ষে %dটি অক্ষর থাকতে হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+আপনার PIN-এ অবশ্যই কমপক্ষে %dটি সংখ্যা থাকতে হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার PIN-এ অবশ্যই কমপক্ষে %dটি সংখ্যা থাকতে হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+1 ঘণ্টা %d মিনিটে আবার চেষ্টা করুন</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1 ঘণ্টা %d মিনিটে আবার চেষ্টা করুন</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+%d ঘণ্টায় আবার চেষ্টা করুন</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ঘণ্টায় আবার চেষ্টা করুন</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+%d ঘণ্টা 1 মিনিটে আবার চেষ্টা করুন</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ঘণ্টা 1 মিনিটে আবার চেষ্টা করুন</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+%d মিনিট পরে পুনরায় চেষ্টা করুন</item>
+
+        <item
+            quantity="one">
+%d মিনিটে আবার চেষ্টা করুন</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+%d সেকেন্ড পরে পুনরায় চেষ্টা করুন</item>
+
+        <item
+            quantity="one">
+%d সেকেন্ডে আবার চেষ্টা করুন</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+%dটির বেশি অতিরিক্ত পরিষেবা চালু করা যাচ্ছে না।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটির বেশি অতিরিক্ত পরিষেবা চালু করা যাচ্ছে না।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%dটি পরিচিতি অনুমোদিত হয়েছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি পরিচিতি অনুমোদিত হয়েছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%dটি আঙুলের ছাপ যুক্ত হয়েছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি আঙুলের ছাপ যুক্ত হয়েছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s এবং আরও %3$dটি অ্যাপ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s এবং আরও %3$dটি অ্যাপ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+ভুল পাসওয়ার্ড। %dটি প্রয়াস বাকি আছে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ভুল পাসওয়ার্ড। %dটি প্রয়াস বাকি আছে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+ভুল প্যাটার্ন। %dটি প্রয়াস বাকি আছে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ভুল প্যাটার্ন। %dটি প্রয়াস বাকি আছে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+ভুল PIN। %dটি প্রয়াস বাকি আছে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ভুল PIN। %dটি প্রয়াস বাকি আছে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Galaxy AI-এর উন্নত ইন্টেলিজেন্সের বৈশিষ্ট্যগুলি ব্যবহার করতে আপনার বয়স কমপক্ষে %d বছর হতে হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Galaxy AI-এর উন্নত ইন্টেলিজেন্সের বৈশিষ্ট্যগুলি ব্যবহার করতে আপনার বয়স কমপক্ষে %d বছর হতে হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+আপনার পাসওয়ার্ডে অন্ততপক্ষে %dটি অক্ষর অবশ্যই থাকতে হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার পাসওয়ার্ডে অন্ততপক্ষে %dটি অক্ষর অবশ্যই থাকতে হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+পাসওয়ার্ডে অন্তত %dটি ছোটহাতের বর্ণ থাকতে হবে।</item>
+
+        <item
+            quantity="one">
+পাসওয়ার্ডে অন্তত 1টি ছোটহাতের বর্ণ থাকতে হবে।</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+পাসওয়ার্ডে অন্তত %dটি সংখ্যা বা চিহ্ন থাকতে হবে।</item>
+
+        <item
+            quantity="one">
+পাসওয়ার্ডে অন্তত 1টি সংখ্যা বা চিহ্ন থাকতে হবে।</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+পাসওয়ার্ডে অন্তত %dটি সংখ্যা থাকতে হবে।</item>
+
+        <item
+            quantity="one">
+পাসওয়ার্ডে অন্তত 1টি সংখ্যা থাকতে হবে।</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+পাসওয়ার্ডে অন্তত %dটি চিহ্ন থাকতে হবে।</item>
+
+        <item
+            quantity="one">
+পাসওয়ার্ডে অন্তত 1টি চিহ্ন থাকতে হবে।</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+পাসওয়ার্ডে অন্তত %dটি বড়হাতের বর্ণ থাকতে হবে।</item>
+
+        <item
+            quantity="one">
+পাসওয়ার্ডে অন্তত 1টি বড়হাতের বর্ণ থাকতে হবে।</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+আরও %dটি পরামর্শ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আরও %dটি পরামর্শ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%dটি সক্রিয় অ্যাপ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি সক্রিয় অ্যাপ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+%dটি ভাষার প্যাক মুছবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি ভাষার প্যাক মুছবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%dটি ভয়েস</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি ভয়েস</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%dটি অতিরিক্ত অনুমতি</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি অতিরিক্ত অনুমতি</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+আপনার ডেভেলপার হয়ে ওঠার ক্ষেত্রে আর %d বার ট্যাপ করা বাকি আছে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ডেভেলপার হয়ে ওঠার ক্ষেত্রে আর %d বার ট্যাপ করা বাকি আছে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%dটি ম্যালওয়্যার অ্যাপ শনাক্ত হয়েছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি ম্যালওয়্যার অ্যাপ শনাক্ত হয়েছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+আপনার ফোনে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ফোন নিরাপদ রাখতে এই অ্যাপগুলি আনইনস্টল করুন।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ফোনে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ফোন নিরাপদ রাখতে এই অ্যাপটি আনইনস্টল করুন।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+আপনার ট্যাবলেটে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ট্যাবলেট নিরাপদ রাখতে এই অ্যাপটি আনইনস্টল করুন।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ট্যাবলেটে %dটি ম্যালওয়্যার অ্যাপ খুঁজে পাওয়া গেছে। আপনার ট্যাবলেট নিরাপদ রাখতে এই অ্যাপটি আনইনস্টল করুন।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%dটি পরামর্শ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি পরামর্শ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%dটি সতর্কীকরণ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি সতর্কীকরণ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+নিদ্রার সময়: %d ঘণ্টা</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+নিদ্রার সময়: %d ঘণ্টা</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+নিদ্রার সময়: %d মিনিট</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+নিদ্রার সময়: %d মিনিট</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+%1$s-এ %2$d দিন অবধি অসীমিত তথ্যের ব্যাক আপ নিন বা আপনার ব্যাক আপ নেওয়া তথ্য পুনরুদ্ধার করুন।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s-এ %2$d দিন অবধি অসীমিত তথ্যের ব্যাক আপ নিন বা আপনার ব্যাক আপ নেওয়া তথ্য পুনরুদ্ধার করুন।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+এই পরীক্ষাটি %d সেকেন্ডের মধ্যে রিসেট হয়ে যাবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+এই পরীক্ষাটি %d সেকেন্ডের মধ্যে রিসেট হয়ে যাবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%dটি ডিভাইস কানেক্ট হয়েছে</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি ডিভাইস কানেক্ট হয়েছে</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ফোনকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ফোনের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্যান্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার ট্যাবলেটকে কোনও Wi-Fi অ্যাক্সেস পয়েন্টে পরিণত করুন। ইন্টারনেট অ্যাক্সেস করার জন্য অন্য %dটি অবধি ডিভাইস আপনার ট্যাবলেটের মোবাইল ডেটা বা Wi-Fi কানেকশন ব্যবহার করতে সক্ষম হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d জন সদস্য</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d জন সদস্য</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+%dটি নেটওয়ার্ক মুছবেন?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি নেটওয়ার্ক মুছবেন?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dটি নির্বাচিত</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ফোনটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য 1টি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার %dটি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+আপনার কর্মক্ষেত্রের প্রোফাইল আনলক করার জন্য %dটি প্রয়াস করা হয়েছে। এই ট্যাবলেটটিকে ফ্যাক্টরি সেটিংসে রিসেট করার আগে আপনার 1টি প্রয়াস বাকি আছে এবং সমস্ত তথ্য মুছে ফেলা হবে।</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d ঘণ্টা</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ঘণ্টা</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d মিনিট</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d মিনিট</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

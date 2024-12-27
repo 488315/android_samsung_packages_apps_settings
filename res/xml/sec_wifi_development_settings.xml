@@ -1,23 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/wifi_development_options_header" android:key="wifi_development_prefs_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/wifi_development_options_header"
+    android:key="wifi_development_prefs_screen">
+
     <PreferenceCategory>
-        <androidx.preference.Preference android:title="@string/wifi_develop_connection_info_title" android:key="connection_info" android:fragment="com.samsung.android.settings.wifi.develop.connectioninfo.ConnectionInfoTabFragment" />
-        <androidx.preference.Preference android:title="@string/wifi_development_nearbywifi_information" android:key="nearby_wifi" android:fragment="com.samsung.android.settings.wifi.develop.nearbywifi.view.NearbyWifiMainFragment" />
-        <androidx.preference.Preference android:title="Wi-Fi and network diagnosis" android:key="diagnosis" android:fragment="com.samsung.android.settings.wifi.develop.diagnosis.WifiDeveloperDiagnosisFragment" />
+
+        <androidx.preference.Preference
+            android:title="@string/wifi_develop_connection_info_title"
+            android:key="connection_info"
+            android:fragment="com.samsung.android.settings.wifi.develop.connectioninfo.ConnectionInfoTabFragment" />
+
+        <androidx.preference.Preference
+            android:title="@string/wifi_development_nearbywifi_information"
+            android:key="nearby_wifi"
+            android:fragment="com.samsung.android.settings.wifi.develop.nearbywifi.view.NearbyWifiMainFragment" />
+
+        <androidx.preference.Preference
+            android:title="Wi-Fi and network diagnosis"
+            android:key="diagnosis"
+            android:fragment="com.samsung.android.settings.wifi.develop.diagnosis.WifiDeveloperDiagnosisFragment" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="Packet Capture" android:key="pktCaptureCategory">
-        <androidx.preference.Preference android:title="Wi-Fi packet log for debugging" android:key="packet_capture" android:fragment="com.samsung.android.settings.wifi.develop.diagnosis.PacketCaptureFragment" />
+
+    <PreferenceCategory
+        android:title="Packet Capture"
+        android:key="pktCaptureCategory">
+
+        <androidx.preference.Preference
+            android:title="Wi-Fi packet log for debugging"
+            android:key="packet_capture"
+            android:fragment="com.samsung.android.settings.wifi.develop.diagnosis.PacketCaptureFragment" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="Wi-Fi history">
-        <androidx.preference.Preference android:title="Wi-Fi connection history" android:key="total_history" android:fragment="com.samsung.android.settings.wifi.develop.history.view.TotalHistoryFragment" />
-        <androidx.preference.Preference android:title="Wi-Fi link status history" android:key="time" android:fragment="com.samsung.android.settings.wifi.develop.history.view.TimeHistoryFragment" />
+
+    <PreferenceCategory
+        android:title="Wi-Fi history">
+
+        <androidx.preference.Preference
+            android:title="Wi-Fi connection history"
+            android:key="total_history"
+            android:fragment="com.samsung.android.settings.wifi.develop.history.view.TotalHistoryFragment" />
+
+        <androidx.preference.Preference
+            android:title="Wi-Fi link status history"
+            android:key="time"
+            android:fragment="com.samsung.android.settings.wifi.develop.history.view.TimeHistoryFragment" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="Network history">
-        <androidx.preference.Preference android:title="Network connection history" android:key="app" android:fragment="com.samsung.android.settings.wifi.develop.history.view.ApplicationHistoryFragment" />
+
+    <PreferenceCategory
+        android:title="Network history">
+
+        <androidx.preference.Preference
+            android:title="Network connection history"
+            android:key="app"
+            android:fragment="com.samsung.android.settings.wifi.develop.history.view.ApplicationHistoryFragment" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="others">
-        <androidx.preference.Preference android:title="@string/sec_wifi_scan_interval_change" android:key="wifi_scan_interval" android:fragment="com.samsung.android.settings.wifi.develop.others.ScanIntervalChangeFragment" />
-        <androidx.preference.Preference android:title="@string/sec_restart_wifi_subsystem_title" android:key="wifi_restart" android:fragment="com.samsung.android.settings.wifi.develop.others.RestartSubsystemFragment" />
+
+    <PreferenceCategory
+        android:title="others">
+
+        <androidx.preference.Preference
+            android:title="@string/sec_wifi_scan_interval_change"
+            android:key="wifi_scan_interval"
+            android:fragment="com.samsung.android.settings.wifi.develop.others.ScanIntervalChangeFragment" />
+
+        <androidx.preference.Preference
+            android:title="@string/sec_restart_wifi_subsystem_title"
+            android:key="wifi_restart"
+            android:fragment="com.samsung.android.settings.wifi.develop.others.RestartSubsystemFragment" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

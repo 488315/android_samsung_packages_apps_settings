@@ -1,707 +1,2532 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">před %d dny</item>
-        <item quantity="one">před %d dnem</item>
-        <item quantity="few">před %d dny</item>
-        <item quantity="many">před %d dne</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">před %d min</item>
-        <item quantity="one">před %d min</item>
-        <item quantity="few">před %d min</item>
-        <item quantity="many">před %d min</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">před %d lety</item>
-        <item quantity="one">před %d rokem</item>
-        <item quantity="few">před %d lety</item>
-        <item quantity="many">před %d roku</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minuty</item>
-        <item quantity="many">%d minut</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d sekund</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekunda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d sekundy</item>
-        <item quantity="many">%d sekund</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d mezipamětí aplikace (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d mezipaměť aplikace (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$d mezipaměti aplikace (%2$s)</item>
-        <item quantity="many">%1$d mezipamětí aplikace (%2$s)</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Archivovat %d aplikací?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Archivovat %d aplikaci?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Archivovat %d aplikace?</item>
-        <item quantity="many">Archivovat %d aplikací?</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Archivovat %1$d aplikací (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Archivovat %1$d aplikaci (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Archivovat %1$d aplikace (+%2$s)</item>
-        <item quantity="many">Archivovat %1$d aplikací (+%2$s)</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Smazat mezipaměť pro %d aplikací?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Smazat mezipaměť pro %d aplikaci?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Smazat mezipaměť pro %d aplikace?</item>
-        <item quantity="many">Smazat mezipaměť pro %d aplikací?</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Smazat %1$d mezipamětí (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Smazat %1$d mezipaměť (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Smazat %1$d mezipaměti (+%2$s)</item>
-        <item quantity="many">Smazat %1$d mezipamětí (+%2$s)</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">Vybráno: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vybráno: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vybráno: %d</item>
-        <item quantity="many">Vybráno: %d</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Uvolněte %1$s místa archivací %2$d nepoužívaných aplikací. Vaše osobní údaje a nastavení budou uloženy.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Uvolněte %1$s místa archivací %2$d nepoužívané aplikace. Vaše osobní údaje a nastavení budou uloženy.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Uvolněte %1$s místa archivací %2$d nepoužívaných aplikací. Vaše osobní údaje a nastavení budou uloženy.</item>
-        <item quantity="many">Uvolněte %1$s místa archivací %2$d nepoužívaných aplikací. Vaše osobní údaje a nastavení budou uloženy.</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Odinstalovat %d aplikací?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odinstalovat %d aplikaci?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odinstalovat %d aplikace?</item>
-        <item quantity="many">Odinstalovat %d aplikací?</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Odinst. %1$d aplikací (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odinst. %1$d aplikaci (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odinst. %1$d aplikace (+%2$s)</item>
-        <item quantity="many">Odinst. %1$d aplikací (+%2$s)</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d nepoužitých aplikací (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d nepoužitá aplikace (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$d nepoužité aplikace (%2$s)</item>
-        <item quantity="many">%1$d nepoužitých aplikací (%2$s)</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Sdílení připojení k internetu s %d zařízeními.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Sdílení připojení k internetu s %d zařízením.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Sdílení připojení k internetu se %d zařízeními.</item>
-        <item quantity="many">Sdílení připojení k internetu s %d zařízeními.</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikace</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikace</item>
-        <item quantity="many">%d aplikací</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d dnů</item>
-        <item quantity="one">1 den</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d hodin</item>
-        <item quantity="one">1 hodina</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">Počet minut: %d</item>
-        <item quantity="one">1 minuta</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">Počet sekund: %d</item>
-        <item quantity="one">1 sekunda</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d týdnů</item>
-        <item quantity="one">1 týden</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikace</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikace</item>
-        <item quantity="many">%d aplikací</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d hodin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d hodina</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d hodiny</item>
-        <item quantity="many">%d hodin</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minuty</item>
-        <item quantity="many">%d minut</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d s</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d s</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d s</item>
-        <item quantity="many">%d s</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Pokud tato místa odstraníte, při změně citlivých nastavení budou vždy vyžadovány biometrické údaje a bezpečnostní zpoždění.</item>
-        <item quantity="one">Pokud toto místo odstraníte, při změně citlivých nastavení budou vždy vyžadovány biometrické údaje a bezpečnostní zpoždění.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Odstranit %d míst?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odstranit %d místo?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odstranit %d místa?</item>
-        <item quantity="many">Odstranit %d míst?</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">Vybráno %d</item>
-        <item quantity="one">Vybrána 1</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s a %2$d dalších</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s a %2$d další</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s a %2$d další</item>
-        <item quantity="many">%1$s a %2$d dalších</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Nelze zadat více než %d znaků.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nelze zadat více než %d znak.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nelze zadat více než %d znaky.</item>
-        <item quantity="many">Nelze zadat více než %d znaků.</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d nových oznámení</item>
-        <item quantity="one">%d nové oznámení</item>
-        <item quantity="few">%d nová oznámení</item>
-        <item quantity="many">%d nového oznámení</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Během posledních %d hodin nebyla použita žádná paměť</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Během poslední %d hodiny nebyla použita žádná paměť</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Během posledních %d hodin nebyla použita žádná paměť</item>
-        <item quantity="many">Během posledních %d hodin nebyla použita žádná paměť</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d oznámení</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d oznámení</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d oznámení</item>
-        <item quantity="many">%d oznámení</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Připomene vám každých %d minut oznámení vybraných aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Připomene vám každou %d minutu oznámení vybraných aplikací</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Připomene vám každé %d minuty oznámení vybraných aplikací</item>
-        <item quantity="many">Připomene vám každých %d minut oznámení vybraných aplikací</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Max. %d aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Max. %d aplikace</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Max. %d aplikace</item>
-        <item quantity="many">Max. %d aplikací</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">Služba %1$s a %2$d dalších aplikací používá kódy a automaticky zadává hesla a další informace.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Služba %1$s a %2$d další aplikace používají kódy a automaticky zadávají hesla a další informace.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Služba %1$s a %2$d další aplikace používají kódy a automaticky zadávají hesla a další informace.</item>
-        <item quantity="many">Služba %1$s a %2$d dalších aplikací používá kódy a automaticky zadává hesla a další informace.</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">Povolení %1$s bylo použito %2$d aplikacemi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Povolení %1$s bylo použito %2$d aplikací</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Povolení %1$s bylo použito %2$d aplikacemi</item>
-        <item quantity="many">Povolení %1$s bylo použito %2$d aplikacemi</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">Používá se %d funkcí usnadnění</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Používá se %d funkce usnadnění</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Používají se %d funkce usnadnění</item>
-        <item quantity="many">Používá se %d funkcí usnadnění</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikace</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikace</item>
-        <item quantity="many">%d aplikací</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Odebrat %d jazyků?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odebrat %d jazyk?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odebrat %d jazyky?</item>
-        <item quantity="many">Odebrat %d jazyků?</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d aplikací má úplný přístup k telefonu</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikace má úplný přístup k telefonu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikace mají úplný přístup k telefonu</item>
-        <item quantity="many">%d aplikací má úplný přístup k telefonu</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Telefon se automaticky vypne za %d sekund. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefon se automaticky vypne za %d sekundu. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Telefon se automaticky vypne za %d sekundy. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-        <item quantity="many">Telefon se automaticky vypne za %d sekund. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Tablet se automaticky vypne za %d sekund. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tablet se automaticky vypne za %d sekundu. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Tablet se automaticky vypne za %d sekundy. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-        <item quantity="many">Tablet se automaticky vypne za %d sekund. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Každých %d hodin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Každou %d hodinu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Každé %d hodiny</item>
-        <item quantity="many">Každých %d hodin</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Heslo musí obsahovat alespoň %d znaků včetně alespoň 1 písmena.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Heslo musí obsahovat alespoň %d znak včetně alespoň 1 písmena.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Heslo musí obsahovat alespoň %d znaky včetně alespoň 1 písmena.</item>
-        <item quantity="many">Heslo musí obsahovat alespoň %d znaků včetně alespoň 1 písmena.</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">PIN kód musí obsahovat alespoň %d číslic.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">PIN kód musí obsahovat alespoň %d číslici.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">PIN kód musí obsahovat alespoň %d číslice.</item>
-        <item quantity="many">PIN kód musí obsahovat alespoň %d číslic.</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Opakujte akci za 1 hodinu, %d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Opakujte akci za 1 hodinu, %d minutu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Opakujte akci za 1 hodinu, %d minuty</item>
-        <item quantity="many">Opakujte akci za 1 hodinu, %d minut</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Opakujte akci za %d hodin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Opakujte akci za %d hodinu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Opakujte akci za %d hodiny</item>
-        <item quantity="many">Opakujte akci za %d hodin</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Opakujte akci za %d hodin, 1 minutu</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Opakujte akci za %d hodinu, 1 minutu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Opakujte akci za %d hodiny, 1 minutu</item>
-        <item quantity="many">Opakujte akci za %d hodin, 1 minutu</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Opakujte akci za %d minut</item>
-        <item quantity="one">Opakujte akci za %d minutu</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Opakovat akci za %d sekund</item>
-        <item quantity="one">Opakovat akci za %d sekundu</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Nelze zapnout více než %d dalších služeb.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nelze zapnout více než %d další službu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nelze zapnout více než %d další služby.</item>
-        <item quantity="many">Nelze zapnout více než %d dalších služeb.</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d povolených kontaktů</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d povolený kontakt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d povolené kontakty</item>
-        <item quantity="many">%d povolených kontaktů</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">Bylo přidáno %d otisků prstu</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Byl přidán %d otisk prstu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Byly přidány %d otisky prstu</item>
-        <item quantity="many">Bylo přidáno %d otisků prstu</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s a %3$d dalších aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s a %3$d další aplikace</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s, %2$s a %3$d další aplikace</item>
-        <item quantity="many">%1$s, %2$s a %3$d dalších aplikací</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Nesprávné heslo. Zbývá %d pokusů.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nesprávné heslo. Zbývá %d pokus.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nesprávné heslo. Zbývají %d pokusy.</item>
-        <item quantity="many">Nesprávné heslo. Zbývá %d pokusů.</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Nesprávný znak. Zbývá %d pokusů.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nesprávný znak. Zbývá %d pokus.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nesprávný znak. Zbývají %d pokusy.</item>
-        <item quantity="many">Nesprávný znak. Zbývá %d pokusů.</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Nesprávný PIN kód. Zbývá %d pokusů.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nesprávný PIN kód. Zbývá %d pokus.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nesprávný PIN kód. Zbývají %d pokusy.</item>
-        <item quantity="many">Nesprávný PIN kód. Zbývá %d pokusů.</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d let.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d rok.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d roky.</item>
-        <item quantity="many">Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d let.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Heslo musí obsahovat alespoň %d písmen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Heslo musí obsahovat alespoň %d písmeno.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Heslo musí obsahovat alespoň %d písmena.</item>
-        <item quantity="many">Heslo musí obsahovat alespoň %d písmen.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Heslo musí obsahovat alespoň %d malých písmen.</item>
-        <item quantity="one">Heslo musí obsahovat alespoň jedno malé písmeno.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Heslo musí obsahovat alespoň %d číslic nebo symbolů.</item>
-        <item quantity="one">Heslo musí obsahovat alespoň 1 číslici nebo symbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Heslo musí obsahovat alespoň %d číslic.</item>
-        <item quantity="one">Heslo musí obsahovat alespoň jednu číslici.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Heslo musí obsahovat alespoň %d symbolů.</item>
-        <item quantity="one">Heslo musí obsahovat alespoň 1 symbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Heslo musí obsahovat alespoň %d velkých písmen.</item>
-        <item quantity="one">Heslo musí obsahovat alespoň jedno velké písmeno.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">%d dalších návrhů</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d další návrh</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d další návrhy</item>
-        <item quantity="many">%d dalších návrhů</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aktivních aplikací</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aktivní aplikace</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aktivní aplikace</item>
-        <item quantity="many">%d aktivních aplikací</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Odstranit %d jazykových sad?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odstranit %d jazykovou sadu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odstranit %d jazykové sady?</item>
-        <item quantity="many">Odstranit %d jazykových sad?</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d hlasů</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d hlas</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d hlasy</item>
-        <item quantity="many">%d hlasů</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d dalších oprávnění</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d další oprávnění</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d další oprávnění</item>
-        <item quantity="many">%d dalších oprávnění</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Nyní jste %d klepnutí od toho stát se vývojářem.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nyní jste %d klepnutí od toho stát se vývojářem.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nyní jste %d klepnutí od toho stát se vývojářem.</item>
-        <item quantity="many">Nyní jste %d klepnutí od toho stát se vývojářem.</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">Vybráno: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vybráno: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vybráno: %d</item>
-        <item quantity="many">Vybráno: %d</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">Zjištěno %d aplikací malwaru</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Zjištěna %d aplikace malwaru</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Zjištěny %d aplikace malwaru</item>
-        <item quantity="many">Zjištěno %d aplikací malwaru</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">V telefonu bylo nalezeno %d aplikací napadených malwarem. Aby byl telefon v bezpečí, odinstalujte aplikace.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">V telefonu byla nalezena %d aplikace napadená malwarem. Aby byl telefon v bezpečí, odinstalujte aplikaci.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">V telefonu byly nalezeny %d aplikace napadené malwarem. Aby byl telefon v bezpečí, odinstalujte aplikace.</item>
-        <item quantity="many">V telefonu bylo nalezeno %d aplikací napadených malwarem. Aby byl telefon v bezpečí, odinstalujte aplikace.</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">V tabletu bylo nalezeno %d aplikací napadených malwarem. Aby byl tablet v bezpečí, odinstalujte aplikace.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">V tabletu byla nalezena %d aplikace napadená malwarem. Aby byl tablet v bezpečí, odinstalujte aplikaci.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">V tabletu byly nalezeny %d aplikace napadené malwarem. Aby byl tablet v bezpečí, odinstalujte aplikace.</item>
-        <item quantity="many">V tabletu bylo nalezeno %d aplikací napadených malwarem. Aby byl tablet v bezpečí, odinstalujte aplikace.</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d návrhů</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d návrh</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d návrhy</item>
-        <item quantity="many">%d návrhů</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d upozornění</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d upozornění</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d upozornění</item>
-        <item quantity="many">%d upozornění</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Doba spánku: %d hodin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Doba spánku: %d hodina</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Doba spánku: %d hodiny</item>
-        <item quantity="many">Doba spánku: %d hodin</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Doba spánku: %d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Doba spánku: %d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Doba spánku: %d minuty</item>
-        <item quantity="many">Doba spánku: %d minut</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Do %1$s můžete zálohovat neomezený objem dat až na %2$d dnů, nebo můžete obnovit zálohovaná data.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Do %1$s můžete zálohovat neomezený objem dat až na %2$d den, nebo můžete obnovit zálohovaná data.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Do %1$s můžete zálohovat neomezený objem dat až na %2$d dny, nebo můžete obnovit zálohovaná data.</item>
-        <item quantity="many">Do %1$s můžete zálohovat neomezený objem dat až na %2$d dnů, nebo můžete obnovit zálohovaná data.</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Tento test bude obnoven za %d sekund.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tento test bude obnoven za %d sekundu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Tento test bude obnoven za %d sekundy.</item>
-        <item quantity="many">Tento test bude obnoven za %d sekund.</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">Připojeno %d zařízení</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Připojeno %d zařízení</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Připojena %d zařízení</item>
-        <item quantity="many">Připojeno %d zařízení</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se bude moci připojit k internetu až %d další zařízení.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se budou moci připojit k internetu až %d další zařízení.</item>
-        <item quantity="many">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se bude moci připojit k internetu až %d další zařízení.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se budou moci připojit k internetu až %d další zařízení.</item>
-        <item quantity="many">Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se bude moci připojit k internetu až %d dalších zařízení.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se bude moci připojit k internetu až %d další zařízení.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se budou moci připojit k internetu až %d další zařízení.</item>
-        <item quantity="many">Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se bude moci připojit k internetu až %d dalších zařízení.</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu bude moci použít pro přístup k internetu až %d dalších zařízení.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu bude moci použít pro přístup k internetu až %d další zařízení.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu budou moci použít pro přístup k internetu až %d další zařízení.</item>
-        <item quantity="many">Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu bude moci použít pro přístup k internetu až %d dalších zařízení.</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d členů</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d člen</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d členové</item>
-        <item quantity="many">%d členů</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Odstranit %d sítí?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odstranit %d síť?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odstranit %d sítě?</item>
-        <item quantity="many">Odstranit %d sítí?</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">Vybráno: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vybráno: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vybráno: %d</item>
-        <item quantity="many">Vybráno: %d</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývají vám %d pokusy, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-        <item quantity="many">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Byl proveden %d pokus o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Byly provedeny %d pokusy o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-        <item quantity="many">Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývají vám %d pokusy, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-        <item quantity="many">Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Byl proveden %d pokus o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Byly provedeny %d pokusy o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-        <item quantity="many">Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d hodin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d hodina</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d hodiny</item>
-        <item quantity="many">%d hodin</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minuty</item>
-        <item quantity="many">%d minut</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+před %d dny</item>
+
+        <item
+            quantity="one">
+před %d dnem</item>
+
+        <item
+            quantity="few">
+před %d dny</item>
+
+        <item
+            quantity="many">
+před %d dne</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+před %d min</item>
+
+        <item
+            quantity="one">
+před %d min</item>
+
+        <item
+            quantity="few">
+před %d min</item>
+
+        <item
+            quantity="many">
+před %d min</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+před %d lety</item>
+
+        <item
+            quantity="one">
+před %d rokem</item>
+
+        <item
+            quantity="few">
+před %d lety</item>
+
+        <item
+            quantity="many">
+před %d roku</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minuty</item>
+
+        <item
+            quantity="many">
+%d minut</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d sekund</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekunda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d sekundy</item>
+
+        <item
+            quantity="many">
+%d sekund</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d mezipamětí aplikace (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d mezipaměť aplikace (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$d mezipaměti aplikace (%2$s)</item>
+
+        <item
+            quantity="many">
+%1$d mezipamětí aplikace (%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Archivovat %d aplikací?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Archivovat %d aplikaci?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Archivovat %d aplikace?</item>
+
+        <item
+            quantity="many">
+Archivovat %d aplikací?</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Archivovat %1$d aplikací (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Archivovat %1$d aplikaci (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Archivovat %1$d aplikace (+%2$s)</item>
+
+        <item
+            quantity="many">
+Archivovat %1$d aplikací (+%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Smazat mezipaměť pro %d aplikací?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Smazat mezipaměť pro %d aplikaci?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Smazat mezipaměť pro %d aplikace?</item>
+
+        <item
+            quantity="many">
+Smazat mezipaměť pro %d aplikací?</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Smazat %1$d mezipamětí (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Smazat %1$d mezipaměť (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Smazat %1$d mezipaměti (+%2$s)</item>
+
+        <item
+            quantity="many">
+Smazat %1$d mezipamětí (+%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+Vybráno: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vybráno: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vybráno: %d</item>
+
+        <item
+            quantity="many">
+Vybráno: %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Uvolněte %1$s místa archivací %2$d nepoužívaných aplikací. Vaše osobní údaje a nastavení budou uloženy.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Uvolněte %1$s místa archivací %2$d nepoužívané aplikace. Vaše osobní údaje a nastavení budou uloženy.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Uvolněte %1$s místa archivací %2$d nepoužívaných aplikací. Vaše osobní údaje a nastavení budou uloženy.</item>
+
+        <item
+            quantity="many">
+Uvolněte %1$s místa archivací %2$d nepoužívaných aplikací. Vaše osobní údaje a nastavení budou uloženy.</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Odinstalovat %d aplikací?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odinstalovat %d aplikaci?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odinstalovat %d aplikace?</item>
+
+        <item
+            quantity="many">
+Odinstalovat %d aplikací?</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Odinst. %1$d aplikací (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odinst. %1$d aplikaci (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odinst. %1$d aplikace (+%2$s)</item>
+
+        <item
+            quantity="many">
+Odinst. %1$d aplikací (+%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d nepoužitých aplikací (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d nepoužitá aplikace (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$d nepoužité aplikace (%2$s)</item>
+
+        <item
+            quantity="many">
+%1$d nepoužitých aplikací (%2$s)</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Sdílení připojení k internetu s %d zařízeními.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Sdílení připojení k internetu s %d zařízením.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Sdílení připojení k internetu se %d zařízeními.</item>
+
+        <item
+            quantity="many">
+Sdílení připojení k internetu s %d zařízeními.</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikace</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikace</item>
+
+        <item
+            quantity="many">
+%d aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d dnů</item>
+
+        <item
+            quantity="one">
+1 den</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d hodin</item>
+
+        <item
+            quantity="one">
+1 hodina</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+Počet minut: %d</item>
+
+        <item
+            quantity="one">
+1 minuta</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+Počet sekund: %d</item>
+
+        <item
+            quantity="one">
+1 sekunda</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d týdnů</item>
+
+        <item
+            quantity="one">
+1 týden</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikace</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikace</item>
+
+        <item
+            quantity="many">
+%d aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d hodin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d hodina</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d hodiny</item>
+
+        <item
+            quantity="many">
+%d hodin</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minuty</item>
+
+        <item
+            quantity="many">
+%d minut</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d s</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d s</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d s</item>
+
+        <item
+            quantity="many">
+%d s</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Pokud tato místa odstraníte, při změně citlivých nastavení budou vždy vyžadovány biometrické údaje a bezpečnostní zpoždění.</item>
+
+        <item
+            quantity="one">
+Pokud toto místo odstraníte, při změně citlivých nastavení budou vždy vyžadovány biometrické údaje a bezpečnostní zpoždění.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Odstranit %d míst?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odstranit %d místo?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odstranit %d místa?</item>
+
+        <item
+            quantity="many">
+Odstranit %d míst?</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+Vybráno %d</item>
+
+        <item
+            quantity="one">
+Vybrána 1</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s a %2$d dalších</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s a %2$d další</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s a %2$d další</item>
+
+        <item
+            quantity="many">
+%1$s a %2$d dalších</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Nelze zadat více než %d znaků.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nelze zadat více než %d znak.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nelze zadat více než %d znaky.</item>
+
+        <item
+            quantity="many">
+Nelze zadat více než %d znaků.</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d nových oznámení</item>
+
+        <item
+            quantity="one">
+%d nové oznámení</item>
+
+        <item
+            quantity="few">
+%d nová oznámení</item>
+
+        <item
+            quantity="many">
+%d nového oznámení</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Během posledních %d hodin nebyla použita žádná paměť</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Během poslední %d hodiny nebyla použita žádná paměť</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Během posledních %d hodin nebyla použita žádná paměť</item>
+
+        <item
+            quantity="many">
+Během posledních %d hodin nebyla použita žádná paměť</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d oznámení</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d oznámení</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d oznámení</item>
+
+        <item
+            quantity="many">
+%d oznámení</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Připomene vám každých %d minut oznámení vybraných aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Připomene vám každou %d minutu oznámení vybraných aplikací</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Připomene vám každé %d minuty oznámení vybraných aplikací</item>
+
+        <item
+            quantity="many">
+Připomene vám každých %d minut oznámení vybraných aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Max. %d aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Max. %d aplikace</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Max. %d aplikace</item>
+
+        <item
+            quantity="many">
+Max. %d aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+Služba %1$s a %2$d dalších aplikací používá kódy a automaticky zadává hesla a další informace.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Služba %1$s a %2$d další aplikace používají kódy a automaticky zadávají hesla a další informace.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Služba %1$s a %2$d další aplikace používají kódy a automaticky zadávají hesla a další informace.</item>
+
+        <item
+            quantity="many">
+Služba %1$s a %2$d dalších aplikací používá kódy a automaticky zadává hesla a další informace.</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+Povolení %1$s bylo použito %2$d aplikacemi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Povolení %1$s bylo použito %2$d aplikací</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Povolení %1$s bylo použito %2$d aplikacemi</item>
+
+        <item
+            quantity="many">
+Povolení %1$s bylo použito %2$d aplikacemi</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+Používá se %d funkcí usnadnění</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Používá se %d funkce usnadnění</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Používají se %d funkce usnadnění</item>
+
+        <item
+            quantity="many">
+Používá se %d funkcí usnadnění</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikace</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikace</item>
+
+        <item
+            quantity="many">
+%d aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Odebrat %d jazyků?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odebrat %d jazyk?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odebrat %d jazyky?</item>
+
+        <item
+            quantity="many">
+Odebrat %d jazyků?</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d aplikací má úplný přístup k telefonu</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikace má úplný přístup k telefonu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikace mají úplný přístup k telefonu</item>
+
+        <item
+            quantity="many">
+%d aplikací má úplný přístup k telefonu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Telefon se automaticky vypne za %d sekund. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefon se automaticky vypne za %d sekundu. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Telefon se automaticky vypne za %d sekundy. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+        <item
+            quantity="many">
+Telefon se automaticky vypne za %d sekund. Chcete-li telefon tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Tablet se automaticky vypne za %d sekund. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tablet se automaticky vypne za %d sekundu. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Tablet se automaticky vypne za %d sekundy. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+        <item
+            quantity="many">
+Tablet se automaticky vypne za %d sekund. Chcete-li tablet tentokrát ponechat zapnutý, klepněte na tlačítko Zrušit.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Každých %d hodin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Každou %d hodinu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Každé %d hodiny</item>
+
+        <item
+            quantity="many">
+Každých %d hodin</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d znaků včetně alespoň 1 písmena.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň %d znak včetně alespoň 1 písmena.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Heslo musí obsahovat alespoň %d znaky včetně alespoň 1 písmena.</item>
+
+        <item
+            quantity="many">
+Heslo musí obsahovat alespoň %d znaků včetně alespoň 1 písmena.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+PIN kód musí obsahovat alespoň %d číslic.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+PIN kód musí obsahovat alespoň %d číslici.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+PIN kód musí obsahovat alespoň %d číslice.</item>
+
+        <item
+            quantity="many">
+PIN kód musí obsahovat alespoň %d číslic.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Opakujte akci za 1 hodinu, %d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Opakujte akci za 1 hodinu, %d minutu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Opakujte akci za 1 hodinu, %d minuty</item>
+
+        <item
+            quantity="many">
+Opakujte akci za 1 hodinu, %d minut</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Opakujte akci za %d hodin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Opakujte akci za %d hodinu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Opakujte akci za %d hodiny</item>
+
+        <item
+            quantity="many">
+Opakujte akci za %d hodin</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Opakujte akci za %d hodin, 1 minutu</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Opakujte akci za %d hodinu, 1 minutu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Opakujte akci za %d hodiny, 1 minutu</item>
+
+        <item
+            quantity="many">
+Opakujte akci za %d hodin, 1 minutu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Opakujte akci za %d minut</item>
+
+        <item
+            quantity="one">
+Opakujte akci za %d minutu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Opakovat akci za %d sekund</item>
+
+        <item
+            quantity="one">
+Opakovat akci za %d sekundu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Nelze zapnout více než %d dalších služeb.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nelze zapnout více než %d další službu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nelze zapnout více než %d další služby.</item>
+
+        <item
+            quantity="many">
+Nelze zapnout více než %d dalších služeb.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d povolených kontaktů</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d povolený kontakt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d povolené kontakty</item>
+
+        <item
+            quantity="many">
+%d povolených kontaktů</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+Bylo přidáno %d otisků prstu</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Byl přidán %d otisk prstu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Byly přidány %d otisky prstu</item>
+
+        <item
+            quantity="many">
+Bylo přidáno %d otisků prstu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s a %3$d dalších aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s a %3$d další aplikace</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s, %2$s a %3$d další aplikace</item>
+
+        <item
+            quantity="many">
+%1$s, %2$s a %3$d dalších aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Nesprávné heslo. Zbývá %d pokusů.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nesprávné heslo. Zbývá %d pokus.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nesprávné heslo. Zbývají %d pokusy.</item>
+
+        <item
+            quantity="many">
+Nesprávné heslo. Zbývá %d pokusů.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Nesprávný znak. Zbývá %d pokusů.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nesprávný znak. Zbývá %d pokus.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nesprávný znak. Zbývají %d pokusy.</item>
+
+        <item
+            quantity="many">
+Nesprávný znak. Zbývá %d pokusů.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Nesprávný PIN kód. Zbývá %d pokusů.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nesprávný PIN kód. Zbývá %d pokus.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nesprávný PIN kód. Zbývají %d pokusy.</item>
+
+        <item
+            quantity="many">
+Nesprávný PIN kód. Zbývá %d pokusů.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d let.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d rok.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d roky.</item>
+
+        <item
+            quantity="many">
+Abyste mohli používat funkce pokročilé inteligence Galaxy AI, musí vám být alespoň %d let.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d písmen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň %d písmeno.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Heslo musí obsahovat alespoň %d písmena.</item>
+
+        <item
+            quantity="many">
+Heslo musí obsahovat alespoň %d písmen.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d malých písmen.</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň jedno malé písmeno.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d číslic nebo symbolů.</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň 1 číslici nebo symbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d číslic.</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň jednu číslici.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d symbolů.</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň 1 symbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Heslo musí obsahovat alespoň %d velkých písmen.</item>
+
+        <item
+            quantity="one">
+Heslo musí obsahovat alespoň jedno velké písmeno.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+%d dalších návrhů</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d další návrh</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d další návrhy</item>
+
+        <item
+            quantity="many">
+%d dalších návrhů</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aktivních aplikací</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aktivní aplikace</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aktivní aplikace</item>
+
+        <item
+            quantity="many">
+%d aktivních aplikací</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Odstranit %d jazykových sad?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odstranit %d jazykovou sadu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odstranit %d jazykové sady?</item>
+
+        <item
+            quantity="many">
+Odstranit %d jazykových sad?</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d hlasů</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d hlas</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d hlasy</item>
+
+        <item
+            quantity="many">
+%d hlasů</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d dalších oprávnění</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d další oprávnění</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d další oprávnění</item>
+
+        <item
+            quantity="many">
+%d dalších oprávnění</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Nyní jste %d klepnutí od toho stát se vývojářem.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nyní jste %d klepnutí od toho stát se vývojářem.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nyní jste %d klepnutí od toho stát se vývojářem.</item>
+
+        <item
+            quantity="many">
+Nyní jste %d klepnutí od toho stát se vývojářem.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+Vybráno: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vybráno: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vybráno: %d</item>
+
+        <item
+            quantity="many">
+Vybráno: %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+Zjištěno %d aplikací malwaru</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Zjištěna %d aplikace malwaru</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Zjištěny %d aplikace malwaru</item>
+
+        <item
+            quantity="many">
+Zjištěno %d aplikací malwaru</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+V telefonu bylo nalezeno %d aplikací napadených malwarem. Aby byl telefon v bezpečí, odinstalujte aplikace.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+V telefonu byla nalezena %d aplikace napadená malwarem. Aby byl telefon v bezpečí, odinstalujte aplikaci.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+V telefonu byly nalezeny %d aplikace napadené malwarem. Aby byl telefon v bezpečí, odinstalujte aplikace.</item>
+
+        <item
+            quantity="many">
+V telefonu bylo nalezeno %d aplikací napadených malwarem. Aby byl telefon v bezpečí, odinstalujte aplikace.</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+V tabletu bylo nalezeno %d aplikací napadených malwarem. Aby byl tablet v bezpečí, odinstalujte aplikace.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+V tabletu byla nalezena %d aplikace napadená malwarem. Aby byl tablet v bezpečí, odinstalujte aplikaci.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+V tabletu byly nalezeny %d aplikace napadené malwarem. Aby byl tablet v bezpečí, odinstalujte aplikace.</item>
+
+        <item
+            quantity="many">
+V tabletu bylo nalezeno %d aplikací napadených malwarem. Aby byl tablet v bezpečí, odinstalujte aplikace.</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d návrhů</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d návrh</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d návrhy</item>
+
+        <item
+            quantity="many">
+%d návrhů</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d upozornění</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d upozornění</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d upozornění</item>
+
+        <item
+            quantity="many">
+%d upozornění</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Doba spánku: %d hodin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Doba spánku: %d hodina</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Doba spánku: %d hodiny</item>
+
+        <item
+            quantity="many">
+Doba spánku: %d hodin</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Doba spánku: %d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Doba spánku: %d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Doba spánku: %d minuty</item>
+
+        <item
+            quantity="many">
+Doba spánku: %d minut</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Do %1$s můžete zálohovat neomezený objem dat až na %2$d dnů, nebo můžete obnovit zálohovaná data.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Do %1$s můžete zálohovat neomezený objem dat až na %2$d den, nebo můžete obnovit zálohovaná data.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Do %1$s můžete zálohovat neomezený objem dat až na %2$d dny, nebo můžete obnovit zálohovaná data.</item>
+
+        <item
+            quantity="many">
+Do %1$s můžete zálohovat neomezený objem dat až na %2$d dnů, nebo můžete obnovit zálohovaná data.</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Tento test bude obnoven za %d sekund.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tento test bude obnoven za %d sekundu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Tento test bude obnoven za %d sekundy.</item>
+
+        <item
+            quantity="many">
+Tento test bude obnoven za %d sekund.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+Připojeno %d zařízení</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Připojeno %d zařízení</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Připojena %d zařízení</item>
+
+        <item
+            quantity="many">
+Připojeno %d zařízení</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se bude moci připojit k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se budou moci připojit k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="many">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat nebo připojení Wi-Fi telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se bude moci připojit k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se budou moci připojit k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="many">
+Proměňte telefon v přístupový bod Wi-Fi. Pomocí mobilních dat telefonu se bude moci připojit k internetu až %d dalších zařízení.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se bude moci připojit k internetu až %d dalších zařízení.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se bude moci připojit k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se budou moci připojit k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="many">
+Proměňte tablet v přístupový bod Wi-Fi. Pomocí mobilních dat tabletu se bude moci připojit k internetu až %d dalších zařízení.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu bude moci použít pro přístup k internetu až %d dalších zařízení.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu bude moci použít pro přístup k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu budou moci použít pro přístup k internetu až %d další zařízení.</item>
+
+        <item
+            quantity="many">
+Proměníte tablet v přístupový bod Wi-Fi. Mobilní data nebo připojení Wi-Fi tabletu bude moci použít pro přístup k internetu až %d dalších zařízení.</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d členů</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d člen</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d členové</item>
+
+        <item
+            quantity="many">
+%d členů</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Odstranit %d sítí?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odstranit %d síť?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odstranit %d sítě?</item>
+
+        <item
+            quantity="many">
+Odstranit %d sítí?</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+Vybráno: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vybráno: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vybráno: %d</item>
+
+        <item
+            quantity="many">
+Vybráno: %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývají vám %d pokusy, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="many">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Byl proveden %d pokus o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Byly provedeny %d pokusy o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="many">
+Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení telefonu a budou vymazána všechna data.</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývají vám %d pokusy, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="many">
+Byl proveden 1 pokus o odemknutí vašeho pracovního profilu. Zbývá vám %d pokusů, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Byl proveden %d pokus o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Byly provedeny %d pokusy o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+        <item
+            quantity="many">
+Bylo provedeno %d pokusů o odemknutí vašeho pracovního profilu. Zbývá vám 1 pokus, než se obnoví výchozí nastavení tabletu a budou vymazána všechna data.</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d hodin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d hodina</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d hodiny</item>
+
+        <item
+            quantity="many">
+%d hodin</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minuty</item>
+
+        <item
+            quantity="many">
+%d minut</item>
+
+    </plurals>
+
 </resources>

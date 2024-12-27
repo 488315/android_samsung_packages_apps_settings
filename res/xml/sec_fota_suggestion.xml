@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shortcuts
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <shortcut android:icon="@drawable/fota_ic_suggestion" android:shortcutId="SS-03" android:shortcutShortLabel="@string/sec_software_update_suggestion_title" android:shortcutLongLabel="@string/sec_software_update_suggestion_description">
-        <intent android:action="com.samsung.android.settings.intent.action.FOTA_SUGGESTION" />
-        <extra android:name="suggestionInterval" android:value="28" />
-        <extra android:name="suggestionCount" android:value="-1" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:icon="@drawable/fota_ic_suggestion"
+        android:shortcutId="SS-03"
+        android:shortcutShortLabel="@string/sec_software_update_suggestion_title"
+        android:shortcutLongLabel="@string/sec_software_update_suggestion_description">
+
+        <intent
+            android:action="com.samsung.android.settings.intent.action.FOTA_SUGGESTION" />
+
+        <extra
+            android:name="suggestionInterval"
+            android:value="28" />
+
+        <extra
+            android:name="suggestionCount"
+            android:value="-1" />
+
     </shortcut>
+
 </shortcuts>

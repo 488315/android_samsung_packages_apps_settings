@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/root" android:background="@drawable/brief_popup_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" android:paddingStart="@dimen/brief_popup_sample_start_padding" android:elevation="@dimen/brief_popup_sample_elevation"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/brief_popup_sample_icon_bg" android:background="@drawable/brief_popup_icon_bg" android:layout_width="@dimen/brief_popup_sample_icon_bg_size" android:layout_height="@dimen/brief_popup_sample_icon_bg_size" android:backgroundTint="@color/brief_popup_sample_icon_color">
-        <ImageView android:id="@id/noti_icon_root" android:layout_width="@dimen/brief_popup_sample_icon_size" android:layout_height="@dimen/brief_popup_sample_icon_size" android:src="@drawable/brief_popup_sample_icon" android:scaleType="center" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/brief_popup_bg"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/brief_popup_sample_start_padding"
+    android:elevation="@dimen/brief_popup_sample_elevation">
+
+    <LinearLayout
+        android:id="@id/brief_popup_sample_icon_bg"
+        android:layout_width="@dimen/brief_popup_sample_icon_bg_size"
+        android:layout_height="@dimen/brief_popup_sample_icon_bg_size"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/brief_popup_icon_bg"
+        android:backgroundTint="@color/brief_popup_sample_icon_color">
+
+        <ImageView
+            android:id="@id/noti_icon_root"
+            android:layout_width="@dimen/brief_popup_sample_icon_size"
+            android:layout_height="@dimen/brief_popup_sample_icon_size"
+            android:src="@drawable/brief_popup_sample_icon"
+            android:scaleType="center" />
+
     </LinearLayout>
-    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/brief_popup_sample_text_start_margin" android:layout_marginEnd="@dimen/brief_popup_sample_text_end_margin">
-        <TextView android:textSize="@dimen/brief_popup_sample_text_size" android:textStyle="bold" android:textColor="@color/sec_color_keyword_preview_text" android:ellipsize="end" android:gravity="center" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brief_popup_sample_text_title" android:maxLines="1" android:singleLine="true" style="@style/sec_semi_bold" />
-        <TextView android:textSize="@dimen/brief_popup_sample_text_size_content" android:textColor="@color/sec_color_keyword_preview_text" android:ellipsize="end" android:gravity="center" android:id="@id/sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brief_popup_sample_text_contents" android:maxLines="1" android:singleLine="true" android:fontFamily="sec-400" android:layout_marginStart="@dimen/brief_popup_sample_text_start_margin" />
+
+    <LinearLayout
+        android:id="@id/text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/brief_popup_sample_text_start_margin"
+        android:layout_marginEnd="@dimen/brief_popup_sample_text_end_margin">
+
+        <TextView
+            android:id="@id/main_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/brief_popup_sample_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/sec_color_keyword_preview_text"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="@string/brief_popup_sample_text_title"
+            android:maxLines="1"
+            android:singleLine="true"
+            style="@style/sec_semi_bold" />
+
+        <TextView
+            android:id="@id/sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/brief_popup_sample_text_size_content"
+            android:textColor="@color/sec_color_keyword_preview_text"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="@string/brief_popup_sample_text_contents"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sec-400"
+            android:layout_marginStart="@dimen/brief_popup_sample_text_start_margin" />
+
     </LinearLayout>
+
 </LinearLayout>

@@ -1,50 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/other_security_settings" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceScreen android:title="@string/secure_wifi" android:key="secure_wifi" android:order="-900" settings:controller="com.samsung.android.settings.security.SecureWifiPreferenceController" settings:keywords="@string/keywords_secure_wifi_settings" />
-    <Preference android:title="@string/sim_lock_settings_category" android:key="sim_lock_settings" android:order="-800" settings:controller="com.android.settings.security.SimLockPreferenceController" settings:keywords="@string/keywords_sim_lock_settings">
-        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$IccLockSettingsActivity" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/other_security_settings"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings"
+    settings:topLevelPreferenceKey="top_level_security_and_privacy">
+
+    <SecPreferenceScreen
+        android:title="@string/secure_wifi"
+        android:key="secure_wifi"
+        android:order="-900"
+        settings:controller="com.samsung.android.settings.security.SecureWifiPreferenceController"
+        settings:keywords="@string/keywords_secure_wifi_settings" />
+
+    <Preference
+        android:title="@string/sim_lock_settings_category"
+        android:key="sim_lock_settings"
+        android:order="-800"
+        settings:controller="com.android.settings.security.SimLockPreferenceController"
+        settings:keywords="@string/keywords_sim_lock_settings">
+
+        <intent
+            android:targetPackage="com.android.settings"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.settings.Settings$IccLockSettingsActivity" />
+
     </Preference>
-    <SecSwitchPreference android:title="@string/block_usb_connections_while_locked" android:key="block_usb_connection" android:summary="@string/block_usb_connections_while_locked_summary" android:order="-750" settings:controller="com.samsung.android.settings.security.BlockUsbConnectionsPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="-700" />
-    <SecPreferenceScreen android:persistent="false" android:title="@string/secure_folder_title" android:key="secure_folder" android:order="-650" settings:controller="com.samsung.android.settings.security.SecureFolderSettingsPreferenceController" settings:keywords="@string/keywords_secure_folder_settings" />
-    <SecPreference android:title="@string/enhanced_data_protection_title" android:key="key_enhanced_data_protection" android:order="-600" settings:controller="com.samsung.android.settings.security.EnhancedDataProtectionPreferenceController" />
-    <SecSwitchPreferenceScreen android:title="@string/screen_pinning_title" android:key="screen_pinning_settings" android:order="-500" android:fragment="com.android.settings.security.ScreenPinningSettings" settings:controller="com.samsung.android.settings.security.SecScreenPinningPreferenceController" settings:keywords="@string/keywords_screen_pinning_settings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="-450" />
-    <SecPreferenceScreen android:persistent="false" android:title="@string/iris_use_samsung_pass" android:key="samsung_pass" android:summary="@string/lockscreen_samsung_pass_summary" android:order="-400" settings:controller="com.samsung.android.settings.security.SamsungPassPreferenceController" settings:keywords="@string/keywords_samsung_pass_settings" />
-    <SecPreference android:title="@string/sec_spass_title_header" android:key="default_autofill" android:order="-300" android:fragment="com.samsung.android.settings.general.AutofillPicker" settings:controller="com.samsung.android.settings.security.PassKeysAndAutofillPreferenceController" settings:keywords="@string/autofill_keywords" />
-    <SecSwitchPreference android:title="@string/show_password" android:key="show_password" android:summary="@string/show_password_summary" android:order="-200" settings:controller="com.android.settings.security.ShowPasswordPreferenceController" />
-    <SecPreferenceScreen android:persistent="false" android:title="@string/blockchain_keystore_app_name" android:key="cold_wallet" android:order="-100" settings:controller="com.samsung.android.settings.biometrics.blockchain.BlockchainKeystoreButtonPreferenceController">
-        <intent android:targetPackage="com.samsung.android.coldwalletservice" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.coldwalletservice.ui.CWHomeActivity" />
+
+    <SecSwitchPreference
+        android:title="@string/block_usb_connections_while_locked"
+        android:key="block_usb_connection"
+        android:summary="@string/block_usb_connections_while_locked_summary"
+        android:order="-750"
+        settings:controller="com.samsung.android.settings.security.BlockUsbConnectionsPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="-700" />
+
+    <SecPreferenceScreen
+        android:persistent="false"
+        android:title="@string/secure_folder_title"
+        android:key="secure_folder"
+        android:order="-650"
+        settings:controller="com.samsung.android.settings.security.SecureFolderSettingsPreferenceController"
+        settings:keywords="@string/keywords_secure_folder_settings" />
+
+    <SecPreference
+        android:title="@string/enhanced_data_protection_title"
+        android:key="key_enhanced_data_protection"
+        android:order="-600"
+        settings:controller="com.samsung.android.settings.security.EnhancedDataProtectionPreferenceController" />
+
+    <SecSwitchPreferenceScreen
+        android:title="@string/screen_pinning_title"
+        android:key="screen_pinning_settings"
+        android:order="-500"
+        android:fragment="com.android.settings.security.ScreenPinningSettings"
+        settings:controller="com.samsung.android.settings.security.SecScreenPinningPreferenceController"
+        settings:keywords="@string/keywords_screen_pinning_settings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="-450" />
+
+    <SecPreferenceScreen
+        android:persistent="false"
+        android:title="@string/iris_use_samsung_pass"
+        android:key="samsung_pass"
+        android:summary="@string/lockscreen_samsung_pass_summary"
+        android:order="-400"
+        settings:controller="com.samsung.android.settings.security.SamsungPassPreferenceController"
+        settings:keywords="@string/keywords_samsung_pass_settings" />
+
+    <SecPreference
+        android:title="@string/sec_spass_title_header"
+        android:key="default_autofill"
+        android:order="-300"
+        android:fragment="com.samsung.android.settings.general.AutofillPicker"
+        settings:controller="com.samsung.android.settings.security.PassKeysAndAutofillPreferenceController"
+        settings:keywords="@string/autofill_keywords" />
+
+    <SecSwitchPreference
+        android:title="@string/show_password"
+        android:key="show_password"
+        android:summary="@string/show_password_summary"
+        android:order="-200"
+        settings:controller="com.android.settings.security.ShowPasswordPreferenceController" />
+
+    <SecPreferenceScreen
+        android:persistent="false"
+        android:title="@string/blockchain_keystore_app_name"
+        android:key="cold_wallet"
+        android:order="-100"
+        settings:controller="com.samsung.android.settings.biometrics.blockchain.BlockchainKeystoreButtonPreferenceController">
+
+        <intent
+            android:targetPackage="com.samsung.android.coldwalletservice"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.samsung.android.coldwalletservice.ui.CWHomeActivity" />
+
     </SecPreferenceScreen>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="0" />
-    <SecPreference android:title="@string/install_other_apps" android:key="install_unknown_apps" android:order="20" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_install_other_apps">
-        <extra android:name="classname" android:value="com.android.settings.Settings$ManageExternalSourcesActivity" />
-        <extra android:name="fromFragment" android:value="security_settings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="0" />
+
+    <SecPreference
+        android:title="@string/install_other_apps"
+        android:key="install_unknown_apps"
+        android:order="20"
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        settings:keywords="@string/keywords_install_other_apps">
+
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$ManageExternalSourcesActivity" />
+
+        <extra
+            android:name="fromFragment"
+            android:value="security_settings" />
+
     </SecPreference>
-    <SecPreference android:title="@string/sec_manage_unknown_app" android:key="manage_unknown_apps" android:order="30" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:controller="com.samsung.android.settings.security.ManageUnknownAppsPreferenceController">
-        <extra android:name="classname" android:value="com.android.settings.Settings$ManageUnknownSourceAppsActivity" />
-        <extra android:name="fromFragment" android:value="security_settings" />
+
+    <SecPreference
+        android:title="@string/sec_manage_unknown_app"
+        android:key="manage_unknown_apps"
+        android:order="30"
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        settings:controller="com.samsung.android.settings.security.ManageUnknownAppsPreferenceController">
+
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$ManageUnknownSourceAppsActivity" />
+
+        <extra
+            android:name="fromFragment"
+            android:value="security_settings" />
+
     </SecPreference>
-    <Preference android:title="@string/manage_device_admin" android:key="manage_device_admin" android:summary="@string/summary_placeholder" android:order="40" android:fragment="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings" settings:controller="com.android.settings.enterprise.ManageDeviceAdminPreferenceController" />
-    <SecPreference android:title="@string/manage_trust_agents" android:key="manage_trust_agents" android:order="50" android:fragment="com.android.settings.security.trustagent.TrustAgentSettings" settings:controller="com.android.settings.security.trustagent.ManageTrustAgentsPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="100" />
-    <Preference android:title="@string/enterprise_privacy_settings" android:key="enterprise_privacy" android:summary="@string/summary_placeholder" android:order="130" android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings" settings:controller="com.android.settings.enterprise.EnterprisePrivacyPreferenceController" />
-    <Preference android:title="@string/financed_privacy_settings" android:key="financed_privacy" android:summary="@string/summary_placeholder" android:order="140" android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings" settings:controller="com.android.settings.enterprise.FinancedPrivacyPreferenceController" />
-    <SecPreferenceCategory android:persistent="false" android:title="@string/credentials_title" android:key="credentials_management" android:order="150">
-        <SecPreference android:title="@string/trusted_credentials" android:key="trusted_credentials" android:summary="@string/trusted_credentials_summary" android:fragment="com.android.settings.TrustedCredentialsSettings" settings:keywords="@string/keywords_view_security_certificates" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/user_credentials" android:key="user_credentials" android:summary="@string/user_credentials_summary" android:fragment="com.android.settings.UserCredentialsSettings" settings:userRestriction="no_config_credentials" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/credentials_install" android:key="install_certificate" android:summary="@string/sec_credentials_install_summary" android:fragment="com.android.settings.security.InstallCertificateFromStorage" settings:userRestriction="no_config_credentials" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/credentials_reset" android:key="credentials_reset" android:summary="@string/credentials_reset_summary" settings:userRestriction="no_config_credentials">
-            <intent android:targetPackage="com.android.settings" android:action="com.android.credentials.RESET" android:targetClass="com.android.settings.security.CredentialStorage" />
+
+    <Preference
+        android:title="@string/manage_device_admin"
+        android:key="manage_device_admin"
+        android:summary="@string/summary_placeholder"
+        android:order="40"
+        android:fragment="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings"
+        settings:controller="com.android.settings.enterprise.ManageDeviceAdminPreferenceController" />
+
+    <SecPreference
+        android:title="@string/manage_trust_agents"
+        android:key="manage_trust_agents"
+        android:order="50"
+        android:fragment="com.android.settings.security.trustagent.TrustAgentSettings"
+        settings:controller="com.android.settings.security.trustagent.ManageTrustAgentsPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="100" />
+
+    <Preference
+        android:title="@string/enterprise_privacy_settings"
+        android:key="enterprise_privacy"
+        android:summary="@string/summary_placeholder"
+        android:order="130"
+        android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings"
+        settings:controller="com.android.settings.enterprise.EnterprisePrivacyPreferenceController" />
+
+    <Preference
+        android:title="@string/financed_privacy_settings"
+        android:key="financed_privacy"
+        android:summary="@string/summary_placeholder"
+        android:order="140"
+        android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings"
+        settings:controller="com.android.settings.enterprise.FinancedPrivacyPreferenceController" />
+
+    <SecPreferenceCategory
+        android:persistent="false"
+        android:title="@string/credentials_title"
+        android:key="credentials_management"
+        android:order="150">
+
+        <SecPreference
+            android:title="@string/trusted_credentials"
+            android:key="trusted_credentials"
+            android:summary="@string/trusted_credentials_summary"
+            android:fragment="com.android.settings.TrustedCredentialsSettings"
+            settings:keywords="@string/keywords_view_security_certificates" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/user_credentials"
+            android:key="user_credentials"
+            android:summary="@string/user_credentials_summary"
+            android:fragment="com.android.settings.UserCredentialsSettings"
+            settings:userRestriction="no_config_credentials" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/credentials_install"
+            android:key="install_certificate"
+            android:summary="@string/sec_credentials_install_summary"
+            android:fragment="com.android.settings.security.InstallCertificateFromStorage"
+            settings:userRestriction="no_config_credentials" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/credentials_reset"
+            android:key="credentials_reset"
+            android:summary="@string/credentials_reset_summary"
+            settings:userRestriction="no_config_credentials">
+
+            <intent
+                android:targetPackage="com.android.settings"
+                android:action="com.android.credentials.RESET"
+                android:targetClass="com.android.settings.security.CredentialStorage" />
+
         </com.samsung.android.settings.widget.SecRestrictedPreference>
-        <SecPreference android:title="@string/certificate_management_app" android:key="certificate_management_app" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.security.CredentialManagementAppFragment" settings:controller="com.android.settings.security.CredentialManagementAppPreferenceController" />
+
+        <SecPreference
+            android:title="@string/certificate_management_app"
+            android:key="certificate_management_app"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.security.CredentialManagementAppFragment"
+            settings:controller="com.android.settings.security.CredentialManagementAppPreferenceController" />
+
     </SecPreferenceCategory>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="200" />
-    <SecPreference android:title="@string/lock_settings_profile_title" android:key="work_profile_security" android:order="250" android:fragment="com.samsung.android.settings.security.WorkProfileSecuritySettings" settings:controller="com.samsung.android.settings.security.WorkProfileSecurityPreferenceController" />
-    <SecPreference android:title="@string/sdcard_encrypt_or_decrypt_title" android:key="sdcard_encrypt_status" android:summary="@string/sdcard_encrypt_title_summary" android:order="400" android:fragment="com.samsung.android.settings.encryption.CryptSDCardSettings" settings:keywords="@string/keywords_sdcard_encrypt_or_decrypt_settings" />
-    <SecSwitchPreferenceScreen android:title="@string/galaxy_system_update" android:key="galaxy_system_update" android:order="500" android:fragment="com.samsung.android.settings.galaxysystemupdate.GalaxySystemUpdateFragment" settings:controller="com.samsung.android.settings.galaxysystemupdate.GalaxySystemUpdateTogglePreferenceController" settings:keywords="@string/galaxy_system_update" />
-    <SecPreference android:title="@string/galaxy_system_apps" android:key="galaxy_system_apps" android:order="600" android:fragment="com.samsung.android.settings.galaxysystemupdate.apps.GalaxySystemAppsFragment" settings:controller="com.samsung.android.settings.galaxysystemupdate.apps.GalaxySystemAppsBasePreferenceController" />
-    <SecPreference android:title="@string/device_id" android:key="device_id" android:order="700" android:fragment="com.samsung.android.settings.security.DeviceIdSettings" settings:controller="com.samsung.android.settings.security.DeviceIdPreferenceController" />
-    <com.android.settingslib.RestrictedPreference android:id="@id/memtag_page" android:title="@string/memtag_title" android:key="memtag_page" android:order="1050" android:fragment="com.android.settings.security.MemtagPage" settings:controller="com.android.settings.security.MemtagPagePreferenceController" settings:keywords="@string/keywords_memtag" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="200" />
+
+    <SecPreference
+        android:title="@string/lock_settings_profile_title"
+        android:key="work_profile_security"
+        android:order="250"
+        android:fragment="com.samsung.android.settings.security.WorkProfileSecuritySettings"
+        settings:controller="com.samsung.android.settings.security.WorkProfileSecurityPreferenceController" />
+
+    <SecPreference
+        android:title="@string/sdcard_encrypt_or_decrypt_title"
+        android:key="sdcard_encrypt_status"
+        android:summary="@string/sdcard_encrypt_title_summary"
+        android:order="400"
+        android:fragment="com.samsung.android.settings.encryption.CryptSDCardSettings"
+        settings:keywords="@string/keywords_sdcard_encrypt_or_decrypt_settings" />
+
+    <SecSwitchPreferenceScreen
+        android:title="@string/galaxy_system_update"
+        android:key="galaxy_system_update"
+        android:order="500"
+        android:fragment="com.samsung.android.settings.galaxysystemupdate.GalaxySystemUpdateFragment"
+        settings:controller="com.samsung.android.settings.galaxysystemupdate.GalaxySystemUpdateTogglePreferenceController"
+        settings:keywords="@string/galaxy_system_update" />
+
+    <SecPreference
+        android:title="@string/galaxy_system_apps"
+        android:key="galaxy_system_apps"
+        android:order="600"
+        android:fragment="com.samsung.android.settings.galaxysystemupdate.apps.GalaxySystemAppsFragment"
+        settings:controller="com.samsung.android.settings.galaxysystemupdate.apps.GalaxySystemAppsBasePreferenceController" />
+
+    <SecPreference
+        android:title="@string/device_id"
+        android:key="device_id"
+        android:order="700"
+        android:fragment="com.samsung.android.settings.security.DeviceIdSettings"
+        settings:controller="com.samsung.android.settings.security.DeviceIdPreferenceController" />
+
+    <com.android.settingslib.RestrictedPreference
+        android:id="@id/memtag_page"
+        android:title="@string/memtag_title"
+        android:key="memtag_page"
+        android:order="1050"
+        android:fragment="com.android.settings.security.MemtagPage"
+        settings:controller="com.android.settings.security.MemtagPagePreferenceController"
+        settings:keywords="@string/keywords_memtag" />
+
 </PreferenceScreen>

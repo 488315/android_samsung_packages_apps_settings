@@ -1,14 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" android:paddingVertical="@dimen/settingslib_switchbar_margin"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/settingslib_switchbar_padding_left" android:paddingEnd="@dimen/settingslib_switchbar_padding_right">
-        <FrameLayout android:id="@id/icon_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginEnd="15.0dip">
-            <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:maxHeight="48.0dip" app:maxWidth="48.0dip" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd"
+    android:paddingVertical="@dimen/settingslib_switchbar_margin">
+
+    <LinearLayout
+        android:id="@id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:paddingStart="@dimen/settingslib_switchbar_padding_left"
+        android:paddingEnd="@dimen/settingslib_switchbar_padding_right">
+
+        <FrameLayout
+            android:id="@id/icon_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginEnd="15.0dip">
+
+            <androidx.preference.internal.PreferenceImageView
+                android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:maxHeight="48.0dip"
+                app:maxWidth="48.0dip" />
+
         </FrameLayout>
-        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settingslib_switch_title_margin" android:layout_marginRight="6.0dip" android:layout_marginBottom="@dimen/settingslib_switch_title_margin" android:layout_weight="1.0" android:layout_marginEnd="6.0dip">
-            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" />
-            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" android:layout_alignStart="@android:id/title" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" />
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settingslib_switch_title_margin"
+            android:layout_marginRight="6.0dip"
+            android:layout_marginBottom="@dimen/settingslib_switch_title_margin"
+            android:layout_weight="1.0"
+            android:layout_marginEnd="6.0dip">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:hyphenationFrequency="normalFast"
+                android:lineBreakWordStyle="phrase" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="?android:textColorSecondary"
+                android:scrollbars="none"
+                android:maxLines="4"
+                android:layout_below="@android:id/title"
+                android:layout_alignLeft="@android:id/title"
+                android:layout_alignStart="@android:id/title"
+                android:hyphenationFrequency="normalFast"
+                android:lineBreakWordStyle="phrase" />
+
         </RelativeLayout>
-        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@android:id/widget_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" />
+
     </LinearLayout>
+
 </FrameLayout>

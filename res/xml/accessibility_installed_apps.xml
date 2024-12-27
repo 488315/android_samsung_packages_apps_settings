@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/installed_apps_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/installed_apps_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings"
+    settings:topLevelPreferenceKey="top_level_accessibility" />

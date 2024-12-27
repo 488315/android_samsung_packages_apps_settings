@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.settings.biometrics.fingerprint2.ui.enrollment.modules.enrolling.udfps.ui.widget.UdfpsEnrollViewV2 android:orientation="vertical" android:id="@id/udfps_animation_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/udfps_enroll_animation_fp_progress_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:id="@id/udfps_enroll_animation_fp_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<com.android.settings.biometrics.fingerprint2.ui.enrollment.modules.enrolling.udfps.ui.widget.UdfpsEnrollViewV2
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/udfps_animation_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@id/udfps_enroll_animation_fp_progress_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@id/udfps_enroll_animation_fp_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
 </com.android.settings.biometrics.fingerprint2.ui.enrollment.modules.enrolling.udfps.ui.widget.UdfpsEnrollViewV2>

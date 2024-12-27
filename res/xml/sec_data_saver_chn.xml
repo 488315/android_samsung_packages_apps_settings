@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/data_saver_title_chn"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_data_saver_desc" android:selectable="false" android:key="data_saver_desc_chn" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="0.0dip" settings:roundStroke="top_left|top_right" />
-    <SecSwitchPreference android:title="@string/sec_enable_now" android:key="data_saver_switch_chn" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/data_saver_title_chn">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_data_saver_desc"
+        android:selectable="false"
+        android:key="data_saver_desc_chn" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="0.0dip"
+        settings:roundStroke="top_left|top_right" />
+
+    <SecSwitchPreference
+        android:title="@string/sec_enable_now"
+        android:key="data_saver_switch_chn" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <Preference android:title="@string/unrestricted_app_title_chn" android:key="unrestricted_access_chn" android:fragment="com.android.settings.datausage.UnrestrictedDataAccess" />
+
+    <Preference
+        android:title="@string/unrestricted_app_title_chn"
+        android:key="unrestricted_access_chn"
+        android:fragment="com.android.settings.datausage.UnrestrictedDataAccess" />
+
 </PreferenceScreen>

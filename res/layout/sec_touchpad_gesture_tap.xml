@@ -1,19 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior" style="@style/Widget.Design.AppBarLayout">
-        <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.Settings.Toolbar" android:layout_gravity="bottom" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_collapseMode="pin" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior"
+        style="@style/Widget.Design.AppBarLayout">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/action_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="?android:actionBarSize"
+            android:theme="@style/Theme.Settings.Toolbar"
+            android:layout_gravity="bottom"
+            app:layout_collapseMode="pin" />
+
     </com.google.android.material.appbar.AppBarLayout>
-    <RelativeLayout android:id="@id/col" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <androidx.viewpager.widget.ViewPager android:id="@id/tips_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/page_count_layout" android:layout_alignParentTop="true" />
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/page_count_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true">
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/previous_page_button_layout" android:clickable="true" android:layout_width="@dimen/touchpad_tips_feature_page_arrow_image_range" android:layout_height="@dimen/touchpad_tips_feature_page_arrow_image_range">
-                <ImageView android:id="@id/previous_page_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" android:contentDescription="@string/previous_page_content_description" />
+
+    <RelativeLayout
+        android:id="@id/col"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@id/tips_view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/page_count_layout"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:id="@id/page_count_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginBottom="14.0dip"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:id="@id/previous_page_button_layout"
+                android:layout_width="@dimen/touchpad_tips_feature_page_arrow_image_range"
+                android:layout_height="@dimen/touchpad_tips_feature_page_arrow_image_range"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@id/previous_page_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back"
+                    android:contentDescription="@string/previous_page_content_description" />
+
             </LinearLayout>
-            <TextView android:textSize="16.0dip" android:textColor="@color/sec_page_count_color" android:id="@id/page_count" android:layout_width="@dimen/touchpad_tips_feature_page_count_width" android:layout_height="wrap_content" android:paddingHorizontal="10.0dip" />
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/next_page_button_layout" android:clickable="true" android:layout_width="@dimen/touchpad_tips_feature_page_arrow_image_range" android:layout_height="@dimen/touchpad_tips_feature_page_arrow_image_range">
-                <ImageView android:id="@id/next_page_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_forward" android:contentDescription="@string/next_page_content_description" />
+
+            <TextView
+                android:id="@id/page_count"
+                android:layout_width="@dimen/touchpad_tips_feature_page_count_width"
+                android:layout_height="wrap_content"
+                android:textSize="16.0dip"
+                android:textColor="@color/sec_page_count_color"
+                android:paddingHorizontal="10.0dip" />
+
+            <LinearLayout
+                android:id="@id/next_page_button_layout"
+                android:layout_width="@dimen/touchpad_tips_feature_page_arrow_image_range"
+                android:layout_height="@dimen/touchpad_tips_feature_page_arrow_image_range"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@id/next_page_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_forward"
+                    android:contentDescription="@string/next_page_content_description" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </RelativeLayout>
+
 </LinearLayout>

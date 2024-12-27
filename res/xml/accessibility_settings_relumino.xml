@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/relumino_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/relumino_description" android:selectable="false" android:key="description_preference" settings:showFullSizeImage="true" />
-    <PreferenceCategory android:key="empty_category_1" />
-    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarWithButtonsPreference android:layout="@layout/relumino_thickness" android:max="4" android:title="@string/edge_thickness_seekbar_title" android:key="seek_bar_preference" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ReluminoThicknessPreferenceController" settings:seekBarMode="levelbar" />
-    <PreferenceCategory android:key="empty_category_2" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/relumino_adaptive" android:key="relumino_adaptive" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/relumino_black" android:key="relumino_black" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/relumino_white" android:key="relumino_white" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/relumino_green" android:key="relumino_green" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/relumino_title">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/relumino_description"
+        android:selectable="false"
+        android:key="description_preference"
+        settings:showFullSizeImage="true" />
+
+    <PreferenceCategory
+        android:key="empty_category_1" />
+
+    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarWithButtonsPreference
+        android:layout="@layout/relumino_thickness"
+        android:max="4"
+        android:title="@string/edge_thickness_seekbar_title"
+        android:key="seek_bar_preference"
+        settings:controller="com.samsung.android.settings.accessibility.vision.controllers.ReluminoThicknessPreferenceController"
+        settings:seekBarMode="levelbar" />
+
+    <PreferenceCategory
+        android:key="empty_category_2" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/relumino_adaptive"
+        android:key="relumino_adaptive" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/relumino_black"
+        android:key="relumino_black" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/relumino_white"
+        android:key="relumino_white" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/relumino_green"
+        android:key="relumino_green" />
+
 </PreferenceScreen>

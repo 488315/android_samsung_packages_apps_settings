@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <include layout="@layout/confirm_lock_background_base" />
-        <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:gravity="center" android:orientation="vertical" android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <RelativeLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_pattern_view_size" android:layout_marginTop="@dimen/sec_lock_pattern_view_padding" android:layout_marginBottom="@dimen/sec_lock_pattern_view_padding" android:minHeight="200.0dip">
-                <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:layout_width="@dimen/sec_lock_pattern_view_size" android:layout_height="@dimen/sec_lock_pattern_view_size" android:minHeight="@dimen/sec_lock_pattern_view_min_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+<com.google.android.setupdesign.GlifLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/setup_wizard_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <include
+            layout="@layout/confirm_lock_background_base" />
+
+        <com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient
+            android:id="@id/topLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_lock_pattern_view_size"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="@dimen/sec_lock_pattern_view_padding"
+                android:layout_marginBottom="@dimen/sec_lock_pattern_view_padding"
+                android:minHeight="200.0dip">
+
+                <com.android.internal.widget.LockPatternView
+                    android:id="@id/lockPattern"
+                    android:layout_width="@dimen/sec_lock_pattern_view_size"
+                    android:layout_height="@dimen/sec_lock_pattern_view_size"
+                    android:minHeight="@dimen/sec_lock_pattern_view_min_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
             </RelativeLayout>
-            <CheckBox android:id="@id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_lock_pattern_checkbox_top_margin" android:checked="true" android:minHeight="@dimen/sec_lock_pattern_checkbox_min_height" />
-            <Button android:textSize="@dimen/sec_widget_body_text_size" android:textStyle="bold" android:textColor="@color/sec_widget_description_link_text_color" android:layout_gravity="center_horizontal" android:id="@id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:fontFamily="sec-roboto-medium" style="@style/SudGlifButton.Secondary" />
-            <FrameLayout android:id="@id/sec_confirm_lock_pattern_bottom_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/sec_pattern_lock_confirm_bottom">
-                <com.samsung.android.settings.widget.SecBottomBarButton android:layout_gravity="bottom" android:id="@id/backupPin" android:background="@drawable/sec_ripple_bottom_bar_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/sec_confirm_lock_pattern_backup_pin" android:textAlignment="center" style="@style/SecurityPreferenceButton" />
+
+            <CheckBox
+                android:id="@id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/sec_lock_pattern_checkbox_top_margin"
+                android:checked="true"
+                android:minHeight="@dimen/sec_lock_pattern_checkbox_min_height" />
+
+            <Button
+                android:id="@id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_widget_body_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/sec_widget_description_link_text_color"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/cancel"
+                android:fontFamily="sec-roboto-medium"
+                style="@style/SudGlifButton.Secondary" />
+
+            <FrameLayout
+                android:id="@id/sec_confirm_lock_pattern_bottom_view"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_pattern_lock_confirm_bottom"
+                android:background="@android:color/transparent">
+
+                <com.samsung.android.settings.widget.SecBottomBarButton
+                    android:id="@id/backupPin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48.0dip"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/sec_ripple_bottom_bar_button"
+                    android:visibility="gone"
+                    android:text="@string/sec_confirm_lock_pattern_backup_pin"
+                    android:textAlignment="center"
+                    style="@style/SecurityPreferenceButton" />
+
             </FrameLayout>
+
         </com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>
+
     </FrameLayout>
+
 </com.google.android.setupdesign.GlifLayout>

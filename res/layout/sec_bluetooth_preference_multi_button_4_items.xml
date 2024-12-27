@@ -1,41 +1,287 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/bluetooth_multi_button" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/frame_layout_main" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.28">
-        <View android:layout_gravity="center|top" android:id="@id/mid_bar" android:background="@color/sec_widget_switchbar_checked_background_color" android:paddingTop="9.0dip" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="28.0dip" />
-        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/low_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="9.0dip" android:paddingEnd="9.0dip">
-                <FrameLayout android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <ImageView android:layout_gravity="center" android:id="@id/low_button_icon_4_items_bg" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
-                    <ImageView android:layout_gravity="center" android:id="@id/low_button_icon_4_items" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" android:contentDescription="TODO" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/bluetooth_multi_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:clickable="false"
+    android:listSelector="#00000000">
+
+    <FrameLayout
+        android:id="@id/frame_layout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:alpha="0.28">
+
+        <View
+            android:id="@id/mid_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="6.0dip"
+            android:layout_gravity="center|top"
+            android:background="@color/sec_widget_switchbar_checked_background_color"
+            android:paddingTop="9.0dip"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:layout_marginTop="28.0dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:focusableInTouchMode="false"
+            android:clickable="false">
+
+            <LinearLayout
+                android:id="@id/low_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="9.0dip"
+                android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                android:layout_weight="1.0"
+                android:paddingStart="9.0dip"
+                android:paddingEnd="9.0dip">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@id/low_button_icon_4_items_bg"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center" />
+
+                    <ImageView
+                        android:id="@id/low_button_icon_4_items"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center"
+                        android:contentDescription="TODO" />
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/low_button_text" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
-                <RadioButton android:gravity="center" android:id="@id/low_button_dot" android:background="@android:color/transparent" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/low_button_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_bluetooth_header_title_text_size"
+                    android:gravity="center"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"
+                    android:minLines="2"
+                    android:fontFamily="sec-roboto-regular"
+                    android:paddingStart="7.0dip"
+                    android:paddingEnd="7.0dip" />
+
+                <RadioButton
+                    android:id="@id/low_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mid_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end" android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
-                <FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <ImageView android:layout_gravity="center" android:id="@id/mid_button_icon_4_items_bg" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
-                    <ImageView android:layout_gravity="center" android:id="@id/mid_button_icon_4_items" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" android:contentDescription="TODO" />
+
+            <LinearLayout
+                android:id="@id/mid_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="9.0dip"
+                android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_weight="1.0"
+                android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end"
+                android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:id="@id/mid_button_icon_4_items_bg"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center" />
+
+                    <ImageView
+                        android:id="@id/mid_button_icon_4_items"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center"
+                        android:contentDescription="TODO" />
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/mid_button_text" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
-                <RadioButton android:gravity="center" android:id="@id/mid_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/mid_button_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_bluetooth_header_title_text_size"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:minLines="2"
+                    android:fontFamily="sec-roboto-regular"
+                    android:paddingStart="7.0dip"
+                    android:paddingEnd="7.0dip" />
+
+                <RadioButton
+                    android:id="@id/mid_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/high_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end" android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
-                <FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <ImageView android:layout_gravity="center" android:id="@id/high_button_icon_4_items_bg" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
-                    <ImageView android:layout_gravity="center" android:id="@id/high_button_icon_4_items" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" android:contentDescription="TODO" />
+
+            <LinearLayout
+                android:id="@id/high_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="9.0dip"
+                android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_weight="1.0"
+                android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end"
+                android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:id="@id/high_button_icon_4_items_bg"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center" />
+
+                    <ImageView
+                        android:id="@id/high_button_icon_4_items"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center"
+                        android:contentDescription="TODO" />
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/high_button_text" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
-                <RadioButton android:gravity="center" android:id="@id/high_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/high_button_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_bluetooth_header_title_text_size"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:minLines="2"
+                    android:fontFamily="sec-roboto-regular"
+                    android:paddingStart="7.0dip"
+                    android:paddingEnd="7.0dip" />
+
+                <RadioButton
+                    android:id="@id/high_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/double_high_button" android:background="?android:selectableItemBackground" android:paddingTop="9.0dip" android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end" android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
-                <FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <ImageView android:layout_gravity="center" android:id="@id/double_high_button_icon_4_items_bg" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" />
-                    <ImageView android:layout_gravity="center" android:id="@id/double_high_button_icon_4_items" android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height" android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height" android:contentDescription="TODO" />
+
+            <LinearLayout
+                android:id="@id/double_high_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="9.0dip"
+                android:paddingBottom="@dimen/sec_widget_multi_btn_preference_padding_bottom"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_weight="1.0"
+                android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end"
+                android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:id="@id/double_high_button_icon_4_items_bg"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center" />
+
+                    <ImageView
+                        android:id="@id/double_high_button_icon_4_items"
+                        android:layout_width="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_height="@dimen/sec_widget_multi_btn_preference_icon_height"
+                        android:layout_gravity="center"
+                        android:contentDescription="TODO" />
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_bluetooth_header_title_text_size" android:gravity="center" android:id="@id/double_high_button_text" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="2" android:fontFamily="sec-roboto-regular" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
-                <RadioButton android:gravity="center" android:id="@id/double_high_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/double_high_button_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_bluetooth_header_title_text_size"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:minLines="2"
+                    android:fontFamily="sec-roboto-regular"
+                    android:paddingStart="7.0dip"
+                    android:paddingEnd="7.0dip" />
+
+                <RadioButton
+                    android:id="@id/double_high_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </FrameLayout>
+
 </LinearLayout>

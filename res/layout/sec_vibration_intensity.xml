@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/sec_seekbar_preference_item_top_padding" android:paddingBottom="@dimen/sec_seekbar_preference_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_seekbar_preference_title_bottom_padding" android:singleLine="true" android:layout_marginStart="@dimen/sec_widget_list_item_padding_start" android:layout_marginEnd="@dimen/sec_widget_list_item_padding_end" style="@style/seekbar_preference_title_text_style" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <androidx.appcompat.widget.SeslSeekBar android:id="@id/vib_intensity_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/sec_volume_seekbar_icon_size" android:paddingStart="@dimen/sec_fingerprint_setupwizard_header_fingeprint_image_margin_bottom" android:paddingEnd="@dimen/sec_fingerprint_setupwizard_header_fingeprint_image_margin_bottom" android:layout_alignParentEnd="true" app:seslHapticEnabled="false" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/sec_seekbar_preference_item_top_padding"
+    android:paddingBottom="@dimen/sec_seekbar_preference_item_bottom_padding"
+    android:minHeight="?android:listPreferredItemHeightSmall">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:fadingEdge="horizontal"
+        android:layout_marginBottom="@dimen/sec_seekbar_preference_title_bottom_padding"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/sec_widget_list_item_padding_start"
+        android:layout_marginEnd="@dimen/sec_widget_list_item_padding_end"
+        style="@style/seekbar_preference_title_text_style" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <androidx.appcompat.widget.SeslSeekBar
+                android:id="@id/vib_intensity_seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_volume_seekbar_icon_size"
+                android:paddingStart="@dimen/sec_fingerprint_setupwizard_header_fingeprint_image_margin_bottom"
+                android:paddingEnd="@dimen/sec_fingerprint_setupwizard_header_fingeprint_image_margin_bottom"
+                android:layout_alignParentEnd="true"
+                app:seslHapticEnabled="false" />
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

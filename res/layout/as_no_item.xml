@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="@integer/as_no_item_weight_sum" android:importantForAccessibility="no" android:paddingStart="@dimen/as_no_item_text_padding_side" android:paddingEnd="@dimen/as_no_item_text_padding_side"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/empty_view_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/as_no_item_top_weight" />
-    <TextView android:textSize="@dimen/as_no_item_text_size" android:textColor="@color/as_no_item_main_text" android:id="@id/no_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textAlignment="center" style="@style/AsSemiBoldSec600" />
-    <TextView android:textSize="@dimen/as_no_item_sub_text_size" android:textColor="@color/as_no_item_sub_text" android:id="@id/no_item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textAlignment="center" style="@style/AsRegularSec400" />
-    <View android:id="@id/empty_view_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/as_no_item_bottom_weight" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="@integer/as_no_item_weight_sum"
+    android:importantForAccessibility="no"
+    android:paddingStart="@dimen/as_no_item_text_padding_side"
+    android:paddingEnd="@dimen/as_no_item_text_padding_side">
+
+    <View
+        android:id="@id/empty_view_top"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="@integer/as_no_item_top_weight" />
+
+    <TextView
+        android:id="@id/no_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/as_no_item_text_size"
+        android:textColor="@color/as_no_item_main_text"
+        android:text=""
+        android:textAlignment="center"
+        style="@style/AsSemiBoldSec600" />
+
+    <TextView
+        android:id="@id/no_item_sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/as_no_item_sub_text_size"
+        android:textColor="@color/as_no_item_sub_text"
+        android:text=""
+        android:textAlignment="center"
+        style="@style/AsRegularSec400" />
+
+    <View
+        android:id="@id/empty_view_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="@integer/as_no_item_bottom_weight" />
+
 </LinearLayout>

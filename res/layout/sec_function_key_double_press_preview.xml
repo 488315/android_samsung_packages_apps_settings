@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_help_image_backgound_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/preview_image_container" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/preivew_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/sec_widget_img_margin" android:src="@drawable/sec_function_key_double_press_preview" android:scaleType="fitXY" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_help_image_backgound_color"
+    android:focusable="false">
+
+    <FrameLayout
+        android:id="@id/preview_image_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@id/preivew_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_margin="@dimen/sec_widget_img_margin"
+            android:src="@drawable/sec_function_key_double_press_preview"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="noHideDescendants" />
+
     </FrameLayout>
+
 </LinearLayout>

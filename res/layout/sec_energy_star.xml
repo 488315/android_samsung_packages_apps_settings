@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:paddingStart="@dimen/sec_widget_list_item_padding_start" android:paddingEnd="@dimen/sec_widget_list_item_padding_end" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <ImageView android:id="@id/energy_star_img" android:layout_width="fill_parent" android:layout_height="@dimen/energy_star_width_height_default" android:src="@drawable/sec_energy_star" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:paddingStart="@dimen/sec_widget_list_item_padding_start"
+    android:paddingEnd="@dimen/sec_widget_list_item_padding_end"
+    app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:id="@id/energy_star_img"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/energy_star_width_height_default"
+            android:src="@drawable/sec_energy_star"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

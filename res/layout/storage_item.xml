@@ -1,12 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart">
-        <include layout="@layout/settingslib_icon_frame" />
-        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textAppearance="@android:style/TextAppearance.Material.Menu.Inverse" android:textSize="20.0sp" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" app:layout_constraintEnd_toStartOf="@android:id/summary" app:layout_constraintStart_toStartOf="parent" />
-            <TextView android:textAppearance="@android:style/TextAppearance.Holo.Light.Widget" android:textSize="20.0sp" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:textAlignment="viewStart" app:layout_constraintBaseline_toBaselineOf="@android:id/title" app:layout_constraintEnd_toEndOf="parent" />
-            <ProgressBar android:id="@android:id/progress" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:max="100" android:layout_below="@android:id/title" app:layout_constraintTop_toBottomOf="@android:id/title" style="?android:progressBarStyleHorizontal" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="14.0dip"
+    android:paddingBottom="14.0dip"
+    android:clipToPadding="false"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:paddingStart="?android:listPreferredItemPaddingStart">
+
+        <include
+            layout="@layout/settingslib_icon_frame" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Material.Menu.Inverse"
+                android:textSize="20.0sp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toStartOf="@android:id/summary"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Holo.Light.Widget"
+                android:textSize="20.0sp"
+                android:textColor="?android:textColorSecondary"
+                android:maxLines="10"
+                android:textAlignment="viewStart"
+                app:layout_constraintBaseline_toBaselineOf="@android:id/title"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ProgressBar
+                android:id="@android:id/progress"
+                android:layout_width="fill_parent"
+                android:layout_height="4.0dip"
+                android:layout_marginTop="12.0dip"
+                android:layout_marginBottom="4.0dip"
+                android:max="100"
+                android:layout_below="@android:id/title"
+                app:layout_constraintTop_toBottomOf="@android:id/title"
+                style="?android:progressBarStyleHorizontal" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </LinearLayout>
+
 </LinearLayout>

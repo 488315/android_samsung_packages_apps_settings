@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ScrollView android:id="@id/loading_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <ProgressBar android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="@dimen/loading_progress_size_large" style="@style/LoadingTheme" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <ScrollView
+        android:id="@id/loading_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center">
+
+            <ProgressBar
+                android:id="@id/loading"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/loading_progress_size_large"
+                style="@style/LoadingTheme" />
+
         </LinearLayout>
+
     </ScrollView>
-    <TextView android:gravity="center" android:id="@android:id/empty" android:paddingBottom="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sec_app_search_no_result" android:paddingStart="@null" android:paddingEnd="@null" style="@style/no_item_text_style" />
-    <androidx.core.widget.NestedScrollView android:id="@id/app_nested" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <androidx.apppickerview.widget.AppPickerView android:id="@id/sec_aspect_ratio_app_picker_view" android:background="@color/list_item_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_inset_category_height" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
-            <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingBottom="@null"
+        android:visibility="gone"
+        android:text="@string/sec_app_search_no_result"
+        android:paddingStart="@null"
+        android:paddingEnd="@null"
+        style="@style/no_item_text_style" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/app_nested"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <androidx.apppickerview.widget.AppPickerView
+                android:id="@id/sec_aspect_ratio_app_picker_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_item_background_color"
+                android:layout_marginBottom="@dimen/sec_widget_inset_category_height"
+                app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20.0dip" />
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </LinearLayout>

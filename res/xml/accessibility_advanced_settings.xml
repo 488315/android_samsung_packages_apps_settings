@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/advanced_settings_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/accessibility_shortcut_fragment_title">
-        <Preference android:title="@string/accessibility_shortcut_edit_dialog_title_quick_settings" android:key="quick_settings" android:summary="@string/accessibility_shortcut_none" android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.QuickSettingsPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.QuickSettingsPreferenceController" settings:keywords="@string/keywords_accessibility_button" />
-        <Preference android:title="@string/accessibility_shortcut_accessibility_button_title" android:key="accessibility_button" android:summary="@string/accessibility_shortcut_none" android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonGuidePreferenceController" settings:keywords="@string/keywords_accessibility_button" />
-        <Preference android:title="@string/side_volume_up_shortcut_title" android:key="accessibility_power_and_volume_up_keys" android:summary="@string/accessibility_shortcut_none" android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.SideAndVolumeUpSwitchPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.SideAndVolumeUpGuidePreferenceController" settings:keywords="@string/keywords_hw_shortcut" />
-        <Preference android:title="@string/volume_up_down_shortcut_title" android:key="volume_up_and_down" android:summary="@string/accessibility_shortcut_none" android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.VolumeUpAndDownSwitchPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.VolumeUpAndDownGuidePreferenceController" settings:keywords="@string/keywords_hw_shortcut" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/advanced_settings_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <PreferenceCategory
+        android:title="@string/accessibility_shortcut_fragment_title">
+
+        <Preference
+            android:title="@string/accessibility_shortcut_edit_dialog_title_quick_settings"
+            android:key="quick_settings"
+            android:summary="@string/accessibility_shortcut_none"
+            android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.QuickSettingsPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.QuickSettingsPreferenceController"
+            settings:keywords="@string/keywords_accessibility_button" />
+
+        <Preference
+            android:title="@string/accessibility_shortcut_accessibility_button_title"
+            android:key="accessibility_button"
+            android:summary="@string/accessibility_shortcut_none"
+            android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.AccessibilityButtonGuidePreferenceController"
+            settings:keywords="@string/keywords_accessibility_button" />
+
+        <Preference
+            android:title="@string/side_volume_up_shortcut_title"
+            android:key="accessibility_power_and_volume_up_keys"
+            android:summary="@string/accessibility_shortcut_none"
+            android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.SideAndVolumeUpSwitchPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.SideAndVolumeUpGuidePreferenceController"
+            settings:keywords="@string/keywords_hw_shortcut" />
+
+        <Preference
+            android:title="@string/volume_up_down_shortcut_title"
+            android:key="volume_up_and_down"
+            android:summary="@string/accessibility_shortcut_none"
+            android:fragment="com.samsung.android.settings.accessibility.advanced.shortcut.VolumeUpAndDownSwitchPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.shortcut.VolumeUpAndDownGuidePreferenceController"
+            settings:keywords="@string/keywords_hw_shortcut" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/notification_settings_category_title">
-        <Preference android:title="@string/flash_notification" android:key="accessibility_flash_notificaitons" android:fragment="com.samsung.android.settings.accessibility.advanced.flashnotification.SecFlashNotificationsPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.SecFlashNotificationsPreferenceController" />
-        <Preference android:title="@string/accessibility_control_timeout_preference_title" android:key="accessibility_control_timeout_preference_fragment" android:fragment="com.samsung.android.settings.accessibility.advanced.SecAccessibilityControlTimeoutPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.advanced.controller.SecAccessibilityTimeoutPreferenceController" settings:keywords="@string/keywords_time_take_action" />
+
+    <PreferenceCategory
+        android:title="@string/notification_settings_category_title">
+
+        <Preference
+            android:title="@string/flash_notification"
+            android:key="accessibility_flash_notificaitons"
+            android:fragment="com.samsung.android.settings.accessibility.advanced.flashnotification.SecFlashNotificationsPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.flashnotification.SecFlashNotificationsPreferenceController" />
+
+        <Preference
+            android:title="@string/accessibility_control_timeout_preference_title"
+            android:key="accessibility_control_timeout_preference_fragment"
+            android:fragment="com.samsung.android.settings.accessibility.advanced.SecAccessibilityControlTimeoutPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.advanced.controller.SecAccessibilityTimeoutPreferenceController"
+            settings:keywords="@string/keywords_time_take_action" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

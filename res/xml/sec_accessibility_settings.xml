@@ -1,20 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:persistent="true" android:title="@string/accessibility_settings" android:key="sec_accessibility_settings" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:keywords="@string/keywords_accessibility_main" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_features" android:layout="@layout/system_setting_icon_preference" android:title="@string/recommended_for_you_title" android:key="recommended_for_you_preference" android:order="1" android:fragment="com.samsung.android.settings.accessibility.recommend.RecommendedForYouFragment" settings:controller="com.samsung.android.settings.accessibility.home.RecommendedForYouPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="vision_category" android:order="1000" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_visibility" android:layout="@layout/system_setting_icon_preference" android:title="@string/vision_enhancements_title" android:key="vision_enhancements_preference" android:order="1001" android:fragment="com.samsung.android.settings.accessibility.vision.VisibilityEnhancementsFragment" settings:keywords="@string/keywords_color_enhancement" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_screen" android:layout="@layout/system_setting_icon_preference" android:title="@string/talkback_title" android:key="com.samsung.android.accessibility.talkback/com.samsung.android.marvin.talkback.TalkBackService" android:order="1002" settings:controller="com.samsung.android.settings.accessibility.home.TalkBackPreferenceController" settings:keywords="@string/keywords_screen_reader" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="2000" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_hearing" android:layout="@layout/system_setting_icon_preference" android:title="@string/hearing_enhancements_title" android:key="hearing_enhancements_preference" android:order="2001" android:fragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment" settings:keywords="@string/keywords_hearing" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="3000" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_interaction" android:layout="@layout/system_setting_icon_preference" android:title="@string/interaction_and_dexterity_title" android:key="interaction_and_dexterity_preference" android:order="3001" android:fragment="com.samsung.android.settings.accessibility.dexterity.InteractionAndDexterityFragment" settings:keywords="@string/keywords_interaction_dexterity" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="4000" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_advanced" android:layout="@layout/system_setting_icon_preference" android:title="@string/advanced_settings_title" android:key="accessibility_advanced_settings" android:order="4001" android:fragment="com.samsung.android.settings.accessibility.advanced.AdvancedSettingsFragment" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_installed" android:layout="@layout/system_setting_icon_preference" android:title="@string/installed_apps_title" android:key="accessibility_installed_services" android:order="4002" android:fragment="com.samsung.android.settings.accessibility.install.InstalledAppsFragment" settings:controller="com.samsung.android.settings.accessibility.home.InstalledAppsPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="5000" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_about" android:layout="@layout/system_setting_icon_preference" android:title="@string/about_accessibility_title" android:key="about_accessibility" android:order="5001">
-        <intent android:targetPackage="com.samsung.accessibility" android:action="android.intent.action.ACTION_MAIN" android:targetClass="com.samsung.accessibility.Activities$AboutPageActivity" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:persistent="true"
+    android:title="@string/accessibility_settings"
+    android:key="sec_accessibility_settings"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:keywords="@string/keywords_accessibility_main"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_features"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/recommended_for_you_title"
+        android:key="recommended_for_you_preference"
+        android:order="1"
+        android:fragment="com.samsung.android.settings.accessibility.recommend.RecommendedForYouFragment"
+        settings:controller="com.samsung.android.settings.accessibility.home.RecommendedForYouPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="vision_category"
+        android:order="1000" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_visibility"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/vision_enhancements_title"
+        android:key="vision_enhancements_preference"
+        android:order="1001"
+        android:fragment="com.samsung.android.settings.accessibility.vision.VisibilityEnhancementsFragment"
+        settings:keywords="@string/keywords_color_enhancement" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_screen"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/talkback_title"
+        android:key="com.samsung.android.accessibility.talkback/com.samsung.android.marvin.talkback.TalkBackService"
+        android:order="1002"
+        settings:controller="com.samsung.android.settings.accessibility.home.TalkBackPreferenceController"
+        settings:keywords="@string/keywords_screen_reader" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="2000" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_hearing"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/hearing_enhancements_title"
+        android:key="hearing_enhancements_preference"
+        android:order="2001"
+        android:fragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment"
+        settings:keywords="@string/keywords_hearing" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="3000" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_interaction"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/interaction_and_dexterity_title"
+        android:key="interaction_and_dexterity_preference"
+        android:order="3001"
+        android:fragment="com.samsung.android.settings.accessibility.dexterity.InteractionAndDexterityFragment"
+        settings:keywords="@string/keywords_interaction_dexterity" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="4000" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_advanced"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/advanced_settings_title"
+        android:key="accessibility_advanced_settings"
+        android:order="4001"
+        android:fragment="com.samsung.android.settings.accessibility.advanced.AdvancedSettingsFragment" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_installed"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/installed_apps_title"
+        android:key="accessibility_installed_services"
+        android:order="4002"
+        android:fragment="com.samsung.android.settings.accessibility.install.InstalledAppsFragment"
+        settings:controller="com.samsung.android.settings.accessibility.home.InstalledAppsPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="5000" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_about"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/about_accessibility_title"
+        android:key="about_accessibility"
+        android:order="5001">
+
+        <intent
+            android:targetPackage="com.samsung.accessibility"
+            android:action="android.intent.action.ACTION_MAIN"
+            android:targetClass="com.samsung.accessibility.Activities$AboutPageActivity" />
+
     </com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference>
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference android:icon="@drawable/accessibility_setting_list_ic_contact" android:layout="@layout/system_setting_icon_preference" android:title="@string/contact_us_title" android:key="contact_us" android:order="5002" settings:controller="com.samsung.android.settings.accessibility.home.ContactUsPreferenceController" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilityMainIconPreference
+        android:icon="@drawable/accessibility_setting_list_ic_contact"
+        android:layout="@layout/system_setting_icon_preference"
+        android:title="@string/contact_us_title"
+        android:key="contact_us"
+        android:order="5002"
+        settings:controller="com.samsung.android.settings.accessibility.home.ContactUsPreferenceController" />
+
 </PreferenceScreen>

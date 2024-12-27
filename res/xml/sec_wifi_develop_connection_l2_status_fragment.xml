@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.preference.Preference android:key="ssid_bssid" />
-    <androidx.preference.Preference android:title="Frequency" android:key="frequency" />
-    <androidx.preference.Preference android:title="KVR" android:key="kvr" />
-    <androidx.preference.Preference android:title="Country code" android:key="country_code" />
-    <androidx.preference.Preference android:title="Security type" android:key="security_type" />
-    <androidx.preference.Preference android:title="Generation" android:key="generation" />
-    <androidx.preference.Preference android:title="Multi-Link information" android:key="multi_link" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.Preference
+        android:key="ssid_bssid" />
+
+    <androidx.preference.Preference
+        android:title="Frequency"
+        android:key="frequency" />
+
+    <androidx.preference.Preference
+        android:title="KVR"
+        android:key="kvr" />
+
+    <androidx.preference.Preference
+        android:title="Country code"
+        android:key="country_code" />
+
+    <androidx.preference.Preference
+        android:title="Security type"
+        android:key="security_type" />
+
+    <androidx.preference.Preference
+        android:title="Generation"
+        android:key="generation" />
+
+    <androidx.preference.Preference
+        android:title="Multi-Link information"
+        android:key="multi_link" />
+
 </PreferenceScreen>

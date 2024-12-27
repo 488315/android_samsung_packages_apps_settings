@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="1.0px" settings:roundStroke="none" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:selectable="false" android:key="header_view" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="1.0px"
+        settings:roundStroke="none" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_app_info_submenu_header"
+        android:selectable="false"
+        android:key="header_view" />
+
     <PreferenceCategory>
-        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/manager_battery_usage_unrestricted_title" android:key="unrestricted_preference" android:summary="@string/manager_battery_usage_unrestricted_summary" settings:controller="com.android.settings.fuelgauge.UnrestrictedPreferenceController" />
-        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/manager_battery_usage_optimized_title" android:key="optimized_preference" android:summary="@string/manager_battery_usage_optimized_summary" settings:controller="com.android.settings.fuelgauge.OptimizedPreferenceController" />
-        <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/sec_restricted_true_label" android:key="allow_background_usage" android:summary="@string/manager_battery_usage_restricted_summary" settings:controller="com.android.settings.fuelgauge.RestrictedPreferenceController" />
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:title="@string/manager_battery_usage_unrestricted_title"
+            android:key="unrestricted_preference"
+            android:summary="@string/manager_battery_usage_unrestricted_summary"
+            settings:controller="com.android.settings.fuelgauge.UnrestrictedPreferenceController" />
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:title="@string/manager_battery_usage_optimized_title"
+            android:key="optimized_preference"
+            android:summary="@string/manager_battery_usage_optimized_summary"
+            settings:controller="com.android.settings.fuelgauge.OptimizedPreferenceController" />
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:title="@string/sec_restricted_true_label"
+            android:key="allow_background_usage"
+            android:summary="@string/manager_battery_usage_restricted_summary"
+            settings:controller="com.android.settings.fuelgauge.RestrictedPreferenceController" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

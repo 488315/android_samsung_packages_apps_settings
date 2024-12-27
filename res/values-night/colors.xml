@@ -1,664 +1,2648 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="accessibility_text_reading_background">@android:color/black</color>
-    <color name="actionbar_text_color">#fffafaff</color>
-    <color name="add">#fffafafa</color>
-    <color name="advanced_outline_color">#ffffffff</color>
-    <color name="as_actionbar_icon_back_color">#fffafafa</color>
-    <color name="as_actionbar_text_color">#ffa3a3a7</color>
-    <color name="as_actionbar_title_text_color_theme">#fffafafa</color>
-    <color name="as_basic_dialog_positive_button_color_red">@color/sesl_functional_red_dark</color>
-    <color name="as_basic_divider_line_color">#ff3a3a3a</color>
-    <color name="as_basic_text_01_FA">#fffafaff</color>
-    <color name="as_basic_text_25_EA">#ffeaeaeb</color>
-    <color name="as_basic_text_4D_CC">#ffccccce</color>
-    <color name="as_basic_text_8C_A3">#ff929295</color>
-    <color name="as_category_btn_color">#ff999999</color>
-    <color name="as_color_control_activated">#ff171717</color>
-    <color name="as_color_primary_dark">#ff578fff</color>
-    <color name="as_contained_button_bg_color">#4dffffff</color>
-    <color name="as_home_indicator_icon_selected_color">#ffb7b7bb</color>
-    <color name="as_home_indicator_icon_unselected_color">#ff69696c</color>
-    <color name="as_light_theme_background_color">#ff010101</color>
-    <color name="as_list_background_color">#ff010102</color>
-    <color name="as_progressbar_background_color">#ff5a5a5d</color>
-    <color name="as_recommend_card_viewpager_round_stroke_background">#ff252528</color>
-    <color name="as_ripple_color">@color/sesl_list_ripple_color_dark</color>
-    <color name="as_sort_by_text_color">#ffd9d9d9</color>
-    <color name="as_storage_more_option_icon_color">#fffafafa</color>
-    <color name="as_sub_icon_tint_color">#ffffffff</color>
-    <color name="autowifi_main_setting_sub_app_bar_container_color">#ff3e91ff</color>
-    <color name="banner_accent_attention_high">#fff28b82</color>
-    <color name="banner_accent_attention_low">#ff81c995</color>
-    <color name="banner_accent_attention_medium">#fffdd663</color>
-    <color name="banner_background_attention_high">#ff3b2d2c</color>
-    <color name="banner_background_attention_low">#ff2b3328</color>
-    <color name="banner_background_attention_medium">#ff333121</color>
-    <color name="basic_primary_color">#ff999999</color>
-    <color name="basic_secondary_text_color_dimmed">#ff999999</color>
-    <color name="battery_usage_system_icon_color">@android:color/white</color>
-    <color name="biometric_enroll_intro_color_bar">#ff5bb974</color>
-    <color name="biometric_enroll_intro_color_icon">#ff669df6</color>
-    <color name="biometric_enroll_intro_color_outline">#ff5e5e5e</color>
-    <color name="biometric_prompt_dialog_color">#ff252525</color>
-    <color name="biometric_prompt_positive_button_color">#fff2ffff</color>
-    <color name="biometric_prompt_title_text_color">#fffcfcfc</color>
-    <color name="bluetooth_cast_tile_detail_item_bt_icon_tint_color">#ffffffff</color>
-    <color name="bluetooth_highlight_text_color">@color/sesl_primary_dark_color_dark</color>
-    <color name="bluetooth_no_nearby_help_text_color">#66979797</color>
-    <color name="bluetooth_no_nearby_text_color">#66fafafa</color>
-    <color name="body_text_color">#ffe0e0e0</color>
-    <color name="brief_popup_sample_bg_color">#ff3b3b3b</color>
-    <color name="brief_popup_sample_description_text">#ffe5e5e5</color>
-    <color name="bt_cast_qs_detail_secondary_text_color">#ff999999</color>
-    <color name="bt_circle_outline_color">#ff393939</color>
-    <color name="bt_device_icon_tint_color">#fffafafa</color>
-    <color name="bt_dialog_device_icon_tint_color">#fffafafa</color>
-    <color name="bt_pairing_dialog_body_text_color">#fffafafa</color>
-    <color name="bt_pairing_dialog_edittext_title_color">#ffe5e5e5</color>
-    <color name="checkbox_selected_bg_color">#26ffffff</color>
-    <color name="color_history_background_toggle_color">#0afafafa</color>
-    <color name="content_background">@color/sesl_background_color_dark</color>
-    <color name="content_background_color">@color/sesl_background_color_dark</color>
-    <color name="contextual_card_background">@android:color/primary_text_material_dark</color>
-    <color name="data_usage_progress_bar_bg_color">#33a9a9a9</color>
-    <color name="device_info_button_background_color">#2bfafafa</color>
-    <color name="device_info_ce_and_weee_marks_tint_color">#fffafafa</color>
-    <color name="device_info_device_name_button_text_color">#fffafafa</color>
-    <color name="device_info_device_name_text_color">#fffafafa</color>
-    <color name="device_info_dialog_error">#fffc6c65</color>
-    <color name="device_info_energy_star_fill_color_black">#ffffffff</color>
-    <color name="device_info_energy_star_fill_color_white">#ff000000</color>
-    <color name="device_info_info_chart_content_text_color">#fffafafa</color>
-    <color name="device_info_info_chart_text_color">#ff999999</color>
-    <color name="device_info_regulatory_info_kor_kc_logo_tint_color">#ffcccccc</color>
-    <color name="direction_lock_action_bar_background">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="direction_lock_status_bar_background">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="fingerprint_enrollment_finish_color_outline">#ff669df6</color>
-    <color name="font_preview_edit_text_background_color">#26fafafa</color>
-    <color name="gestures_setting_background_color">@android:color/black</color>
-    <color name="glance_colorBackground">@android:color/system_neutral1_900</color>
-    <color name="glance_colorError">#fff2b8b5</color>
-    <color name="glance_colorErrorContainer">#ff8c1d18</color>
-    <color name="glance_colorOnBackground">@android:color/system_neutral1_100</color>
-    <color name="glance_colorOnError">#ff601410</color>
-    <color name="glance_colorOnErrorContainer">#fff2b8b5</color>
-    <color name="glance_colorOnPrimary">@android:color/system_accent1_800</color>
-    <color name="glance_colorOnPrimaryContainer">@android:color/system_accent1_100</color>
-    <color name="glance_colorOnSecondary">@android:color/system_accent2_800</color>
-    <color name="glance_colorOnSecondaryContainer">@android:color/system_accent2_100</color>
-    <color name="glance_colorOnSurface">@android:color/system_neutral1_100</color>
-    <color name="glance_colorOnSurfaceInverse">@android:color/system_neutral1_800</color>
-    <color name="glance_colorOnSurfaceVariant">@android:color/system_neutral2_200</color>
-    <color name="glance_colorOnTertiary">@android:color/system_accent3_800</color>
-    <color name="glance_colorOnTertiaryContainer">@android:color/system_accent3_100</color>
-    <color name="glance_colorOutline">@android:color/system_neutral2_400</color>
-    <color name="glance_colorPrimary">@android:color/system_accent1_200</color>
-    <color name="glance_colorPrimaryContainer">@android:color/system_accent1_700</color>
-    <color name="glance_colorPrimaryInverse">@android:color/system_accent1_600</color>
-    <color name="glance_colorSecondary">@android:color/system_accent2_200</color>
-    <color name="glance_colorSecondaryContainer">@android:color/system_accent2_700</color>
-    <color name="glance_colorSurface">@android:color/system_neutral1_900</color>
-    <color name="glance_colorSurfaceInverse">@android:color/system_neutral1_100</color>
-    <color name="glance_colorSurfaceVariant">@android:color/system_neutral2_700</color>
-    <color name="glance_colorTertiary">@android:color/system_accent3_200</color>
-    <color name="glance_colorTertiaryContainer">@android:color/system_accent3_700</color>
-    <color name="glance_colorWidgetBackground">@android:color/system_accent2_800</color>
-    <color name="help_illustration_background_color">#26171717</color>
-    <color name="home_chart_item_bar_color">#b34596e3</color>
-    <color name="home_chart_item_empty_bar_color">#1affffff</color>
-    <color name="home_chart_item_text_color">#ff9c9c9c</color>
-    <color name="homepage_accessibility_background">#ff783be5</color>
-    <color name="homepage_support_background">#ff3f5fbd</color>
-    <color name="icon_permission_tint">#ffe5e5e5</color>
-    <color name="info_icon_color">#fffafafa</color>
-    <color name="inline_cue_content_text_color">@color/sesl_text2_dark</color>
-    <color name="item_picker_time_edit_color">@color/sesl_blue_dark_color_dark</color>
-    <color name="item_picker_time_text_color">@color/sesl_description_text_color_dark</color>
-    <color name="list_item_background_color">@color/sesl_background_color_dark</color>
-    <color name="list_item_call_background_text">@color/sesl_primary_text_color_dark</color>
-    <color name="list_item_divider_color">@color/sesl_list_divider_color_dark</color>
-    <color name="manage_apps_background_color">#ff252528</color>
-    <color name="manage_apps_body_color">#ffeaeaeb</color>
-    <color name="manage_apps_dialog_knob_color">#66b2b2b2</color>
-    <color name="manage_apps_title_color">#fffafaff</color>
-    <color name="mandatory_biometrics_location_icon_color">@color/sesl_text3_dark</color>
-    <color name="mandatory_biometrics_suggestion_add_color">@color/sesl_blue_dark_color_dark</color>
-    <color name="mandatory_biometrics_suggestion_close_button_color">@color/sesl_text2_dark</color>
-    <color name="mandatory_biometrics_suggestion_title_color">@color/sesl_text1_dark</color>
-    <color name="nfc_antenna_guide_btn_text_color">#fffafaff</color>
-    <color name="nfc_antenna_guide_text_color">#ffe5e5e5</color>
-    <color name="notification_importance_button_unselected">#ff5f6368</color>
-    <color name="notification_radio_icon_tint">#ffd9d9d9</color>
-    <color name="palette_list_color_blue">@color/palette_list_dark_mode_color_blue</color>
-    <color name="palette_list_color_cyan">@color/palette_list_dark_mode_color_cyan</color>
-    <color name="palette_list_color_gray">@color/palette_list_dark_mode_color_gray</color>
-    <color name="palette_list_color_green">@color/palette_list_dark_mode_color_green</color>
-    <color name="palette_list_color_orange">@color/palette_list_dark_mode_color_orange</color>
-    <color name="palette_list_color_purple">@color/palette_list_dark_mode_color_purple</color>
-    <color name="palette_list_color_red">@color/palette_list_dark_mode_color_red</color>
-    <color name="palette_list_color_yellow">@color/palette_list_dark_mode_color_yellow</color>
-    <color name="palette_list_gradient_background">@android:color/black</color>
-    <color name="permission_icon_color">#ffeaeaeb</color>
-    <color name="picker_app_expander_category_indicator">@color/sesl_gray_D10</color>
-    <color name="picker_app_grid_item_background_color">@color/sesl_ripple_color_dark</color>
-    <color name="picker_app_grid_item_view_remove_text_color">@color/sesl_text2_dark</color>
-    <color name="picker_app_list_no_results_found_color">@color/sesl_text3_dark</color>
-    <color name="picker_app_list_subheader_background_color">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="picker_app_list_subheader_text_color">@color/sesl_list_subheader_text_color_dark</color>
-    <color name="picker_app_list_transparent_subheader_text_color">@color/sesl_text3_dark</color>
-    <color name="picker_app_skeleton_app_icon">@color/sesl_gray_D7</color>
-    <color name="power_anomaly_app_warning_hint_color">#fffdd663</color>
-    <color name="privacy_dashboard_category_text_color">#ffeaeaeb</color>
-    <color name="privacy_dashboard_divider_color">#ff3a3a3d</color>
-    <color name="privacy_dashboard_permission_text_color">#ffeaeaeb</color>
-    <color name="privacy_dashboard_text_color">#fffafaff</color>
-    <color name="privacy_dashboard_view_all_text_color">#ffa9a9a9</color>
-    <color name="privacy_empry_text_color">#fffafaff</color>
-    <color name="privacy_header_image_background_color">#d9000000</color>
-    <color name="privacy_more_bg_color">#ff5a5a5d</color>
-    <color name="privacy_more_text_color">#fffafaff</color>
-    <color name="process_text_done_button_ripple_color">#33ffffff</color>
-    <color name="protection_timer_alarm_color">@color/sesl_white</color>
-    <color name="protection_timer_circle_bg_color">#6669696c</color>
-    <color name="protection_timer_circle_ongoing_color">@color/sesl_primary_color_dark</color>
-    <color name="ripple_material_inverse">@android:color/system_on_shade_inactive_light</color>
-    <color name="samsung_navigationbar_setup_wizard_text_color">#ffa3a3a7</color>
-    <color name="sce_intelligence_service_window_background_color">#ff5a5a5d</color>
-    <color name="screen_flash_color_button_outer_circle_stroke_color">#ffffffff</color>
-    <color name="sec_apn_list_item_title_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_app_button_icon_tint_color">@color/sesl_bottom_navigation_icon_dark</color>
-    <color name="sec_app_button_text_color">@color/sesl_bottom_navigation_text_dark</color>
-    <color name="sec_app_data_usage_summary_color">#ff979797</color>
-    <color name="sec_app_data_usage_title_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_app_name_text_color">#fffafafa</color>
-    <color name="sec_app_sort_by_button_color">#ffa6a6a9</color>
-    <color name="sec_appgridview_preference_color">@color/sesl_background_color_dark</color>
-    <color name="sec_autoswitch_icon_color">#ff6daef8</color>
-    <color name="sec_biometrics_choose_lock_header_description_color">#ffe5e5e5</color>
-    <color name="sec_biometrics_common_background_color">#ff010102</color>
-    <color name="sec_biometrics_common_button_ripple_color">@color/sesl_ripple_color_dark</color>
-    <color name="sec_biometrics_common_negative_button_color">#ff2d2d2d</color>
-    <color name="sec_biometrics_common_negative_button_text_color">#fffafafa</color>
-    <color name="sec_biometrics_common_security_notice_common_title_text_color">@color/sesl_action_bar_text_color_title_dark</color>
-    <color name="sec_biometrics_common_suw_background_color_tablet">#ff000000</color>
-    <color name="sec_biometrics_common_suw_bottom_bar_arrow_tint">#ccffffff</color>
-    <color name="sec_biometrics_common_suw_bottom_bar_text_color">#ff3e91ff</color>
-    <color name="sec_biometrics_common_tips_card_background">#ff0381fe</color>
-    <color name="sec_biometrics_dialog_remove_btn_color">#fff76f68</color>
-    <color name="sec_biometrics_guide_common_guide_background">@color/sesl_background_color_dark</color>
-    <color name="sec_biometrics_guide_common_guide_tip_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_biometrics_guide_common_icon_color">#fffbfbfb</color>
-    <color name="sec_biometrics_guide_common_info_text_color">#ff999999</color>
-    <color name="sec_biometrics_guide_common_info_text_theme_color">@color/sesl_secondary_text_color_dark</color>
-    <color name="sec_biometrics_guide_common_knox_icon_color">#4dfafafa</color>
-    <color name="sec_biometrics_guide_common_lock_guide_text_color">#ffeaeaeb</color>
-    <color name="sec_biometrics_guide_common_main_guide_text_color">#ffeaeaeb</color>
-    <color name="sec_biometrics_guide_common_round_background">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="sec_biometrics_guide_common_spinner_icon_color">#ffeaeaeb</color>
-    <color name="sec_biometrics_guide_common_spinner_text_color">#fffafaff</color>
-    <color name="sec_biometrics_guide_common_title_text_color">#fffafaff</color>
-    <color name="sec_biometrics_rotation_guide_desc_text_color">#ffe0e0e0</color>
-    <color name="sec_biometrics_setup_change_password_backspace">#ff000000</color>
-    <color name="sec_bluetooth_assistant_backgound_color">#ff010101</color>
-    <color name="sec_bluetooth_assistant_connected_card_button_text_color">#fffafafa</color>
-    <color name="sec_bluetooth_assistant_connected_card_summary_text_color">#ff999999</color>
-    <color name="sec_bluetooth_assistant_device_info_text_color">#ff999999</color>
-    <color name="sec_bluetooth_assistant_icon_tint_color">#ffffffff</color>
-    <color name="sec_bluetooth_assistant_round_and_bgcolor">#ff171717</color>
-    <color name="sec_bluetooth_assistant_title_text_color">#fffafafa</color>
-    <color name="sec_bluetooth_auracast_background_color">@color/sec_widget_round_and_bgcolor</color>
-    <color name="sec_bluetooth_auracast_connected_stream_inline_color">#ff598fff</color>
-    <color name="sec_bluetooth_auracast_connected_stream_outline_color">#59ffffff</color>
-    <color name="sec_bluetooth_auracast_connected_text_color">@color/sesl_primary_dark_color_dark</color>
-    <color name="sec_bluetooth_auracast_edit_icon_color">@color/sesl_text2_dark</color>
-    <color name="sec_bluetooth_auracast_info_about_broadcast_body_text_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_bluetooth_auracast_item_background_color">@color/sec_widget_help_image_backgound_color</color>
-    <color name="sec_bluetooth_auracast_no_device_description_text_color">@color/sesl_text2_dark</color>
-    <color name="sec_bluetooth_battery_progress_bg_color">@color/sesl_gray_D5</color>
-    <color name="sec_bluetooth_dialog_pincode_color">@color/sesl_text2_dark</color>
-    <color name="sec_bluetooth_header_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_bluetooth_list_background_color">@color/sesl_background_color_dark</color>
-    <color name="sec_bluetooth_list_background_color2">#ff121212</color>
-    <color name="sec_bluetooth_preference_title_color">@color/sesl_extended_appbar_subtitle_dark</color>
-    <color name="sec_bluetooth_sub_header_text_color">@color/sesl_text5_dark</color>
-    <color name="sec_certificate_details_negativebutton_text_color">#fffcfcff</color>
-    <color name="sec_clear_credentials_background_color">@color/sesl_dialog_window_background_color_material_dark</color>
-    <color name="sec_clear_credentials_buttonNegative">@color/sesl_dialog_title_text_color_dark</color>
-    <color name="sec_clear_credentials_buttonPositive">@color/sesl_dialog_button_red_text_dark</color>
-    <color name="sec_clear_credentials_message">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_clear_search_history">@color/sesl_primary_dark_color_dark</color>
-    <color name="sec_color_keyword_preview_text">#fffafafa</color>
-    <color name="sec_continuity_icon_color">#ff4ad093</color>
-    <color name="sec_continuity_supported_app_color">@color/sesl_action_bar_text_color_title_dark</color>
-    <color name="sec_dark_mode_clock_tab_tint_selected">@color/sesl_tablayout_subtab_text_color_selected_dark</color>
-    <color name="sec_dark_mode_clock_tab_tint_unselected">@color/sesl_tablayout_subtab_text_color_default_dark</color>
-    <color name="sec_dark_mode_time_text_color">@color/sesl_dialog_title_text_color_dark</color>
-    <color name="sec_dashboard_layer_color">#19000000</color>
-    <color name="sec_dashboard_simplified_summary_text_color">@color/sesl_secondary_text_color_dark</color>
-    <color name="sec_dashboard_simplified_title_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_dashboard_tab_selected_text_color">@color/sesl_edit_text_tint_color_dark</color>
-    <color name="sec_data_usage_dialog_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_data_usage_graph_limit_line_color">#fffc6c65</color>
-    <color name="sec_data_usage_graph_warning_line_color">#fffc864c</color>
-    <color name="sec_data_usage_header_label_text_color">#ff999999</color>
-    <color name="sec_data_usage_header_title_text_color">#fffafafa</color>
-    <color name="sec_data_usage_spinner_layout">@color/sesl_background_color_dark</color>
-    <color name="sec_delete_saved_query">#fffafafa</color>
-    <color name="sec_device_admin_add_dialog_description">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_device_admin_add_dialog_title">@color/sesl_dialog_title_text_color_dark</color>
-    <color name="sec_dialog_divider_color">@color/sesl_dialog_divider_color_material_dark</color>
-    <color name="sec_dialog_label_text_color">#ffe5e5e5</color>
-    <color name="sec_display_color_balance_bg_color">@color/sesl_background_color_dark</color>
-    <color name="sec_display_color_balance_label_text_color">#ff999999</color>
-    <color name="sec_display_font_size_screen_bg_color">@color/sesl_background_color_dark</color>
-    <color name="sec_display_resolution_desc_text_color">#fffafaff</color>
-    <color name="sec_display_resolution_help_desc_text_color">#fffafafa</color>
-    <color name="sec_display_setting_seek_bar_controller_background_color">#ff171717</color>
-    <color name="sec_display_setting_seek_bar_controller_stroke_color">#ff2a2a2b</color>
-    <color name="sec_display_setting_seek_bar_controller_thumb_drawable_solid_color">#ff010102</color>
-    <color name="sec_dnd_add_app_exception_all_text">@color/sec_notification_menu_info_dialog_summary_color</color>
-    <color name="sec_dnd_schedule_add">#ff11a85f</color>
-    <color name="sec_dnd_schedule_add_apps_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_dnd_schedule_bg_color">#ff252525</color>
-    <color name="sec_dnd_schedule_delete_button_bottom">#fffafafa</color>
-    <color name="sec_dnd_schedule_delete_button_text_color">#fff76f68</color>
-    <color name="sec_dnd_status_text_color">#ffb0b0b0</color>
-    <color name="sec_dynamic_app_bar_default_round_button_bg_color">@color/sesl_btn_background_color_dark</color>
-    <color name="sec_dynamic_app_bar_default_round_button_text_color">@color/sesl_btn_default_text_color_dark</color>
-    <color name="sec_eye_comfort_clock_tab_tint_selected">@color/sesl_tablayout_selected_text_color_dark</color>
-    <color name="sec_eye_comfort_clock_tab_tint_unselected">@color/sesl_tablayout_text_color_default_dark</color>
-    <color name="sec_eye_comfort_spinner_dropdown_default_color">#fffafafa</color>
-    <color name="sec_facelock_useful_features_preference_background_color">@color/sesl_background_color_dark</color>
-    <color name="sec_fingerprint_multiselect_checkboxpreference_background_color">@color/sesl_background_color_dark</color>
-    <color name="sec_fingerprint_plus_button_text_color">#ff000000</color>
-    <color name="sec_fingerprint_plus_desc_text_color">#ffe0e0e0</color>
-    <color name="sec_fingerprint_plus_title_text_color">#ff008cff</color>
-    <color name="sec_font_size_screen_mode_seekbar_title_text_color">#fffafafa</color>
-    <color name="sec_font_size_screen_zoom_seekbar_title_text_color">#fffafaff</color>
-    <color name="sec_group_header_title_text_color">#ff999999</color>
-    <color name="sec_high_refresh_rate_vi_text_color">#ff598fff</color>
-    <color name="sec_intelligence_service_background_color">@color/sesl_background_color_dark</color>
-    <color name="sec_intelligence_service_divider_color">@color/sesl_gray_D8</color>
-    <color name="sec_intelligence_service_download_icon_color">#ff2d2d30</color>
-    <color name="sec_intelligence_service_header_desc_text_color">@color/sesl_action_bar_text_color_subtitle_dark</color>
-    <color name="sec_intelligence_service_header_title_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_intelligence_service_subtitle_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_intelligence_service_summary_color">@color/sesl_secondary_text_color_dark</color>
-    <color name="sec_intelligence_service_suw_subtitle_color">#fffafaff</color>
-    <color name="sec_intelligence_service_suw_summary_color">#ff99999e</color>
-    <color name="sec_intelligence_service_suw_term_text_color">#ffccccce</color>
-    <color name="sec_intelligence_service_suw_title_color">#fffafaff</color>
-    <color name="sec_intelligence_service_term_text_color">@color/sesl_text3_dark</color>
-    <color name="sec_intelligence_service_title_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_intelligentscan_tip_text_desc_color">#ffe0e0e0</color>
-    <color name="sec_intelligentscan_tip_text_header_color">#fffafafa</color>
-    <color name="sec_locale_drag_cell_background_color">#ff171717</color>
-    <color name="sec_locale_prefernce_bg_color">@color/sesl_background_color_dark</color>
-    <color name="sec_lock_pattern_line_color_draw">#fffafafa</color>
-    <color name="sec_lock_suw_background_color">#ff000000</color>
-    <color name="sec_lock_suw_listview_background_color">@color/sesl_gray_D4</color>
-    <color name="sec_lockscreen_choose_lock_hint_bg_color">#ff17171a</color>
-    <color name="sec_lockscreen_choose_lock_hint_img_container_bg_color">@color/sesl_background_color_dark</color>
-    <color name="sec_lockscreen_dialog_remove_btn_color">#fff76f68</color>
-    <color name="sec_lockscreen_notification_dialog_checkbox_text_color">#fffafafa</color>
-    <color name="sec_lockscreen_ppp_help_text_color">#fff76f68</color>
-    <color name="sec_lockscreen_setup_choose_lock_text_color">#ffeaeaeb</color>
-    <color name="sec_main_clear_account_body_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_main_clear_bottom_container_color">@color/sesl_background_color_dark</color>
-    <color name="sec_more_button_background_color">#2bfafafa</color>
-    <color name="sec_more_button_tint_color">#ff999999</color>
-    <color name="sec_mouse_pointer_prefernce_bg_color">@color/sesl_background_color_dark</color>
-    <color name="sec_music_share_icon_color">#ff6daef8</color>
-    <color name="sec_no_item_sub_text_color">@color/sesl_text6_dark</color>
-    <color name="sec_no_item_text_color">@color/sesl_text3_dark</color>
-    <color name="sec_no_result_found_color">#66e5e5e5</color>
-    <color name="sec_noti_stausbar_style_title_color">#fffafafa</color>
-    <color name="sec_notification_history_app_title">@color/sec_app_name_text_color</color>
-    <color name="sec_notification_history_subtext">#ff999999</color>
-    <color name="sec_notification_menu_info_dialog_summary_color">#ffe5e5e5</color>
-    <color name="sec_notification_preview_lock_icon_color">#ffa6aab3</color>
-    <color name="sec_notification_preview_text_color">#bffafafa</color>
-    <color name="sec_notification_preview_text_inverse_color">#bf252525</color>
-    <color name="sec_notification_preview_time_color">#bffafafa</color>
-    <color name="sec_notification_preview_time_inverse_color">#bf252525</color>
-    <color name="sec_notification_preview_title_color">#fffafafa</color>
-    <color name="sec_notification_preview_title_inverse_color">#ff252525</color>
-    <color name="sec_personal_dictionary_delete_icon_color">@color/sesl_action_bar_text_color_title_dark</color>
-    <color name="sec_private_dns_base_summary_color">#fffafafa</color>
-    <color name="sec_private_dns_off_title_color">#fffafafa</color>
-    <color name="sec_private_dns_opportunistic_title_color">#fffafafa</color>
-    <color name="sec_private_dns_provider_title_color">#fffafafa</color>
-    <color name="sec_profile_select_body_text_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_profile_select_icon_tint">#ffcccccc</color>
-    <color name="sec_profile_select_title_text_color">@color/sesl_dialog_title_text_color_dark</color>
-    <color name="sec_register_fingerprint_plus_bg_color">#ff000000</color>
-    <color name="sec_round_and_bgcolor">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="sec_screen_mode_page_indicator_selected_color">#ffb7b7bb</color>
-    <color name="sec_screen_mode_page_indicator_unselected_color">#ff69696c</color>
-    <color name="sec_screen_zoom_seekbar_tickmark_drawable_solid_color">#ff77777a</color>
-    <color name="sec_search_contrast_text">#ff3e91ff</color>
-    <color name="sec_search_correction_text_color">#ff3e91ff</color>
-    <color name="sec_search_recommended_query_chip_background_color">#ff3d3d3d</color>
-    <color name="sec_search_recommended_query_chip_tag_icon_text_color">#fffafafa</color>
-    <color name="sec_search_recommended_query_chip_text_color">#ffe5e5e5</color>
-    <color name="sec_search_recommended_tag_chip_background_color">#400381fe</color>
-    <color name="sec_search_recommended_tag_chip_icon_color">#ff3e91ff</color>
-    <color name="sec_search_recommended_tag_chip_text_color">#ff3e91ff</color>
-    <color name="sec_search_result_divider_color">@color/sesl_switch_divider_color_dark</color>
-    <color name="sec_search_result_header_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_search_result_sub_header_text_color">@color/sesl_list_subheader_text_color_dark</color>
-    <color name="sec_secure_wifi_container_bg_color">#ff252525</color>
-    <color name="sec_secure_wifi_container_bg_ripple_color">@color/sesl_ripple_color_dark</color>
-    <color name="sec_security_dashboard_expandable_menu_divider_color">#ff3a3a3d</color>
-    <color name="sec_security_dashboard_expandable_menu_text_color">#ffcccccc</color>
-    <color name="sec_security_dashboard_list_status_outer">#ff000000</color>
-    <color name="sec_security_dashboard_menu_icons_color">#ffeaeaeb</color>
-    <color name="sec_security_dashboard_status_background_color">#ff010101</color>
-    <color name="sec_security_dashboard_status_card_background">#99414141</color>
-    <color name="sec_security_dashboard_status_card_background_color">#ff171717</color>
-    <color name="sec_security_dashboard_status_card_not_now_color">#fffafaff</color>
-    <color name="sec_security_dashboard_status_ok_bg">#ff21a84a</color>
-    <color name="sec_security_dashboard_status_summary_color">#ff999999</color>
-    <color name="sec_security_dashboard_status_title_color">#fffafaff</color>
-    <color name="sec_security_dashboard_sub_text_color_primary">#ffeaeaeb</color>
-    <color name="sec_security_dashboard_text_color_primary">#fffafaff</color>
-    <color name="sec_security_status_sub_text_color">#ffeaeaeb</color>
-    <color name="sec_security_status_text_color">#fffafaff</color>
-    <color name="sec_select_photo_id_button_ripple_color">#66000000</color>
-    <color name="sec_setupwizard_background_color">#ff2d2d30</color>
-    <color name="sec_share_back_button_color">#fffafafa</color>
-    <color name="sec_share_bg_color">#ff171717</color>
-    <color name="sec_share_bottom_menu_text_color">#fffafafa</color>
-    <color name="sec_share_custom_dialog_list_item_text_color">#fffafafa</color>
-    <color name="sec_share_custom_dialog_title_text_color">#fffafafa</color>
-    <color name="sec_share_drag_hint_circle_color">#4dfafafa</color>
-    <color name="sec_share_drag_hint_dot_color">#ccfafafa</color>
-    <color name="sec_share_label_description_text_color">#fffafafa</color>
-    <color name="sec_share_list_group_title_text_color">#ff999999</color>
-    <color name="sec_share_list_item_label_text_color">#ffe5e5e5</color>
-    <color name="sec_share_round_background_color">#ff010101</color>
-    <color name="sec_share_toolbar_title_color">#fffafafa</color>
-    <color name="sec_sound_routine_bottom_bar_divider_color">#ff47474a</color>
-    <color name="sec_splash_bg_color">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="sec_sub_app_bar_spinner_arrow_color">#fffafaff</color>
-    <color name="sec_sub_app_bar_text_color">@color/sesl_primary_text_color_dark</color>
-    <color name="sec_suggestion_card_background_color">#ff252525</color>
-    <color name="sec_suggestion_card_icon_color">@color/sesl_text2_dark</color>
-    <color name="sec_suggestion_card_text_color">@color/sesl_text2_dark</color>
-    <color name="sec_suw_radio_item_text_color">#ffe5e5e5</color>
-    <color name="sec_tab_custom_clock_tab_tint_selected">@color/sesl_tablayout_text_color_selected_dark</color>
-    <color name="sec_tab_custom_clock_tab_tint_unselected">@color/sesl_tablayout_text_color_default_dark</color>
-    <color name="sec_tab_custom_spinner_dropdown_default_color">#fffafafa</color>
-    <color name="sec_tab_custom_time_text_color">#ffe5e5e5</color>
-    <color name="sec_tapandpay_btn_text_color_normal">#fffafafa</color>
-    <color name="sec_tapandpay_btn_text_color_select">#ff3e91ff</color>
-    <color name="sec_tips_description_link_text_color">#ff598fff</color>
-    <color name="sec_tips_description_text_color">#ffeaeaeb</color>
-    <color name="sec_tips_title_text_color">#fffafaff</color>
-    <color name="sec_touchpad_divider_color">#ff3a3a3d</color>
-    <color name="sec_touchpad_icon_foreground">#ff69696c</color>
-    <color name="sec_touchpad_recycler_view">#ff252528</color>
-    <color name="sec_trusted_credentials_text_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_user_certificates_text_color">#ffa3a3a7</color>
-    <color name="sec_uwb_labs_background_1">#ff010102</color>
-    <color name="sec_uwb_labs_bar_graph_bottom_text_color">#66eaeaea</color>
-    <color name="sec_uwb_labs_bar_graph_highlight_1">#66252525</color>
-    <color name="sec_uwb_labs_gui_text_1">#fffafaff</color>
-    <color name="sec_uwb_labs_gui_text_2">#ffeaeaeb</color>
-    <color name="sec_uwb_labs_gui_text_3">#ffccccce</color>
-    <color name="sec_uwb_labs_gui_text_4">#ffb7b7bb</color>
-    <color name="sec_uwb_labs_gui_text_5">#ffa3a3a7</color>
-    <color name="sec_uwb_labs_gui_text_6">#ff99999e</color>
-    <color name="sec_uwb_labs_simple_test_guideline_text_color">#fffafaff</color>
-    <color name="sec_uwb_labs_simple_test_warning_text_color">#fffafaff</color>
-    <color name="sec_uwb_labs_weekly_report_bar_color_1">#ffe6f0ff</color>
-    <color name="sec_uwb_labs_weekly_report_bar_color_2">#ff99c2ff</color>
-    <color name="sec_uwb_labs_weekly_report_bar_color_3">#ff4d94ff</color>
-    <color name="sec_uwb_labs_weekly_report_date_text_color">#ffccccce</color>
-    <color name="sec_uwb_labs_weekly_report_progressbar_text_color">#fffafaff</color>
-    <color name="sec_vertical_divider_color">#ff3a3a3d</color>
-    <color name="sec_view_security_certificates_dialog_spinner">@color/sesl_spinner_item_text_color_normal_dark</color>
-    <color name="sec_volume_limit_seekbar_tickmark_drawable_solid_color">#ff77777a</color>
-    <color name="sec_volume_limit_thumb_color">#ff010102</color>
-    <color name="sec_vpn_edit_text_value_color">@color/sesl_dialog_list_text_color_dark</color>
-    <color name="sec_widget_alert_dialog_text_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_widget_body_text_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sec_widget_bottom_bar_button_ripple_color">@color/sesl_bottom_navigation_ripple_dark</color>
-    <color name="sec_widget_bottom_bar_button_text_color">@color/sesl_dialog_button_text_color_dark</color>
-    <color name="sec_widget_bottom_bar_button_text_color_tablet">@color/sesl_dialog_button_text_color_dark</color>
-    <color name="sec_widget_color_primary">@color/sesl_primary_dark_color_dark</color>
-    <color name="sec_widget_color_round_button_bg_color">@color/sesl_primary_color_dark</color>
-    <color name="sec_widget_default_round_button_bg_color">@color/sesl_btn_background_color_dark</color>
-    <color name="sec_widget_default_round_button_text_color">#fffafafa</color>
-    <color name="sec_widget_description_link_text_color">#fffafafa</color>
-    <color name="sec_widget_gray_round_button_text_color">#fffafafa</color>
-    <color name="sec_widget_help_image_backgound_color">#ff17171a</color>
-    <color name="sec_widget_homepage_divider_color">#42fafafa</color>
-    <color name="sec_widget_list_divider_color">@color/sesl_list_divider_color_dark</color>
-    <color name="sec_widget_multi_button_divider_color">@color/sesl_list_divider_color_dark</color>
-    <color name="sec_widget_multi_button_selected_color">#ff598fff</color>
-    <color name="sec_widget_multi_button_unselected_color">#ffa3a3a7</color>
-    <color name="sec_widget_multi_button_unselected_icon_color">#ff929295</color>
-    <color name="sec_widget_panel_header_sub_title_color">#ff999999</color>
-    <color name="sec_widget_panel_header_title_color">#ffe5e5e5</color>
-    <color name="sec_widget_preference_screen_divider_color">@color/sesl_switch_divider_color_dark</color>
-    <color name="sec_widget_relative_link_bg_color">#26387aff</color>
-    <color name="sec_widget_relative_link_title_text_color">#fffafaff</color>
-    <color name="sec_widget_remove_animation_play_button_tint_color">#f5fafafa</color>
-    <color name="sec_widget_ripple_color">@color/sesl_ripple_color_dark</color>
-    <color name="sec_widget_round_and_bgcolor">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="sec_widget_seekbar_preference_label_text_color">@color/sesl_text3_dark</color>
-    <color name="sec_widget_sub_body_text_color">@color/sesl_text5_dark</color>
-    <color name="sec_widget_subheader_divider_color">#42fafafa</color>
-    <color name="sec_widget_switchbar_background_color">#ff17171a</color>
-    <color name="sec_widget_switchbar_checked_background_color">#ff2d2d30</color>
-    <color name="sec_widget_switchbar_off_text_color">#fffafafa</color>
-    <color name="sec_widget_switchbar_on_text_color">#ff578fff</color>
-    <color name="sec_widget_tip_body_text_color">#fffafafa</color>
-    <color name="sec_widget_tip_title_text_color">#fffcfcfc</color>
-    <color name="sec_wifi_SwipeRefreshLayout_progress_bg_color">#ff252525</color>
-    <color name="sec_wifi_action_bar_background_color">@color/sesl_action_bar_background_color_dark</color>
-    <color name="sec_wifi_action_menu_text">#fffafafa</color>
-    <color name="sec_wifi_ap_activity_label_text_color">@color/sesl_primary_dark_color_dark</color>
-    <color name="sec_wifi_ap_dialog_spinner_text_color">#fffafafa</color>
-    <color name="sec_wifi_arrow_icon_color">#ff808080</color>
-    <color name="sec_wifi_entity_header_summary_color">@color/sesl_extended_appbar_subtitle_dark</color>
-    <color name="sec_wifi_entity_header_title_color">@color/sesl_action_bar_text_color_title_dark</color>
-    <color name="sec_wifi_icon_gray_color">#66ffffff</color>
-    <color name="sec_wifi_labs_gui_text_1">#fffafaff</color>
-    <color name="sec_wifi_labs_gui_text_2">#ffeaeaeb</color>
-    <color name="sec_wifi_labs_gui_text_3">#ffccccce</color>
-    <color name="sec_wifi_labs_gui_text_4">#ffb7b7bb</color>
-    <color name="sec_wifi_labs_gui_text_5">#ffa3a3a7</color>
-    <color name="sec_wifi_labs_gui_text_6">#ff99999e</color>
-    <color name="sec_wifi_labs_network_info_title_color">#fffafafa</color>
-    <color name="sec_wifi_labs_weekly_report_barchart_text_color">#66eaeaea</color>
-    <color name="sec_wifi_labs_weekly_report_date_text_color">#ffccccce</color>
-    <color name="sec_wifi_labs_weekly_report_progressbar_text_color">#fffafaff</color>
-    <color name="sec_wifi_list_background_color">@color/sesl_background_color_dark</color>
-    <color name="sec_wifi_nearby_share_button_background">#ff2d2d30</color>
-    <color name="sec_wifi_nearby_share_button_text">#fffafafa</color>
-    <color name="sec_wifi_p2p_actionbar_title_color">#fffafafa</color>
-    <color name="sec_wifi_p2p_description_text_color">#ffe0e0e0</color>
-    <color name="sec_wifi_p2p_preference_noitem_color">#28e5e5e5</color>
-    <color name="sec_wifi_p2p_preference_title_color">#fffafafa</color>
-    <color name="sec_wifi_preference_divider_color">@color/sesl_switch_divider_color_dark</color>
-    <color name="sec_wifi_setupwizard_list_title_color">#fffcfcff</color>
-    <color name="sec_wifi_setupwizard_round_and_bg_color">#ff010102</color>
-    <color name="sec_wifi_subtitle_text_color">#ff999999</color>
-    <color name="sec_wifi_suw_bottom_button_text_color">#ffccccce</color>
-    <color name="sec_wifi_suw_vzw_emergency_call_button_text_color">#ffccccce</color>
-    <color name="sec_wifi_suw_vzw_header_content_text_color">#ffccccce</color>
-    <color name="sec_zen_mode_schedule_repeat_toggle_btn_text_color_normal">#ffcccccc</color>
-    <color name="sec_zen_mode_schedule_repeat_toggle_btn_text_color_select">#fffafafa</color>
-    <color name="sec_zen_schedule_title_text_color">#ff99999e</color>
-    <color name="security_dashboard_menu_subtext_default_color">@color/sesl_secondary_text_dark</color>
-    <color name="security_dashboard_menu_subtext_suggestion_color">#fffc864c</color>
-    <color name="security_dashboard_menu_subtext_warning_color">#fffc6c65</color>
-    <color name="sesl_bed_wakeup_time_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="sesl_bed_wakeup_time_icon_color">@color/sesl_text5_dark</color>
-    <color name="sesl_bedtime_wakeup_time_layout_ripple_color">@color/sesl_ripple_color_dark</color>
-    <color name="sesl_chip_background">@color/sesl_gray_D5</color>
-    <color name="sesl_chip_text_color">@color/sesl_text3_dark</color>
-    <color name="sesl_circular_seekbar_color">@color/sesl_gray_D5</color>
-    <color name="sesl_clock_dial_number_color">@color/sesl_text5_dark</color>
-    <color name="sesl_color_picker_divider">#ff585858</color>
-    <color name="sesl_color_picker_text_views">@color/sesl_secondary_text_color_dark</color>
-    <color name="sesl_date_picker_header_spinner">@color/sesl_text3_dark</color>
-    <color name="sesl_date_picker_saturday_text_color_light">@color/sesl_blue_dark_color_dark</color>
-    <color name="sesl_date_picker_saturday_week_text_color_light">@color/sesl_blue_dark_color_dark</color>
-    <color name="sesl_date_picker_sunday_number_text_color_light">@color/sesl_functional_red_text_dark</color>
-    <color name="sesl_eyedropper_icon_color">@color/sesl_text1_dark</color>
-    <color name="sesl_fragment_bgcolor">#ff17171a</color>
-    <color name="sesl_fragment_fgcolor">#ff010102</color>
-    <color name="sesl_ftu_title_color">@color/sesl_text1_dark</color>
-    <color name="sesl_glance_preview_monotone_color_background">#00ffffff</color>
-    <color name="sesl_glance_preview_monotone_color_inverse_on_surface">#ffffffff</color>
-    <color name="sesl_glance_preview_monotone_color_inverse_surface">#1affffff</color>
-    <color name="sesl_glance_preview_monotone_color_on_background">#ffffffff</color>
-    <color name="sesl_glance_preview_monotone_color_on_primary">#ffffffff</color>
-    <color name="sesl_glance_preview_monotone_color_on_primary_container">#ffffffff</color>
-    <color name="sesl_glance_preview_monotone_color_on_surface">#ffffffff</color>
-    <color name="sesl_glance_preview_monotone_color_on_surface_variant">#ffffffff</color>
-    <color name="sesl_glance_preview_monotone_color_primary">#33ffffff</color>
-    <color name="sesl_glance_preview_monotone_color_primary_container">#1affffff</color>
-    <color name="sesl_glance_preview_monotone_color_surface">#26ffffff</color>
-    <color name="sesl_grid_medium_size_color">#b399999e</color>
-    <color name="sesl_grid_small_size_color">#4d99999e</color>
-    <color name="sesl_number_picker_text_color">@color/sesl_text1_dark</color>
-    <color name="sesl_number_picker_text_color_appwidget">@color/sesl_text1_dark</color>
-    <color name="sesl_number_picker_text_highlight_color">#1affffff</color>
-    <color name="sesl_number_picker_text_highlight_color_appwidget">#1affffff</color>
-    <color name="sesl_round_and_bgcolor_light">@color/sesl_round_and_bgcolor_dark</color>
-    <color name="sesl_sleep_duration_text_color_for_dialog">@color/sesl_text4_dark</color>
-    <color name="sesl_sleep_goal_wheel_color">#a6393939</color>
-    <color name="sesl_text_input_layout_hint_text_color">#ff999999</color>
-    <color name="sesl_thumb_control_fill_color_activated">@color/sesl_gray_D1</color>
-    <color name="sesl_thumb_disable_seekbar_level">@color/sesl_seekbar_disable_color_activated_dark</color>
-    <color name="sesl_tick_mark_disable_seekbar_level">@color/sesl_gray_D9</color>
-    <color name="sesl_tick_mark_seekbar_level">@color/sesl_gray_D9</color>
-    <color name="settings_dialog_colorError">#fff28b82</color>
-    <color name="settings_direction_lock_body_warning_text_color">#ffff6666</color>
-    <color name="settings_direction_lock_help_text_background">#ff252525</color>
-    <color name="settingslib_accent_primary_variant">@android:color/system_accent1_300</color>
-    <color name="settingslib_button_ripple">@color/settingslib_ripple_material_light</color>
-    <color name="settingslib_colorSurface">@color/settingslib_surface_dark</color>
-    <color name="settingslib_colorSurfaceVariant">@android:color/system_neutral1_700</color>
-    <color name="settingslib_dialog_colorError">#fff28b82</color>
-    <color name="settingslib_materialColorErrorContainer">@android:color/system_error_container_dark</color>
-    <color name="settingslib_materialColorOnBackground">@android:color/system_on_background_dark</color>
-    <color name="settingslib_materialColorOnError">@android:color/system_on_error_dark</color>
-    <color name="settingslib_materialColorOnErrorContainer">@android:color/system_on_error_container_dark</color>
-    <color name="settingslib_materialColorOnPrimary">@android:color/system_on_primary_dark</color>
-    <color name="settingslib_materialColorOnPrimaryContainer">@android:color/system_on_primary_container_dark</color>
-    <color name="settingslib_materialColorOnSecondary">@android:color/system_on_secondary_dark</color>
-    <color name="settingslib_materialColorOnSecondaryContainer">@android:color/system_on_secondary_container_dark</color>
-    <color name="settingslib_materialColorOnSurface">@android:color/system_on_surface_dark</color>
-    <color name="settingslib_materialColorOnSurfaceInverse">@android:color/system_on_surface_light</color>
-    <color name="settingslib_materialColorOnSurfaceVariant">@android:color/system_on_surface_variant_dark</color>
-    <color name="settingslib_materialColorOnTertiary">@android:color/system_on_tertiary_dark</color>
-    <color name="settingslib_materialColorOnTertiaryContainer">@android:color/system_on_tertiary_container_dark</color>
-    <color name="settingslib_materialColorOutline">@android:color/system_outline_dark</color>
-    <color name="settingslib_materialColorOutlineVariant">@android:color/system_outline_variant_dark</color>
-    <color name="settingslib_materialColorPrimary">@android:color/system_primary_dark</color>
-    <color name="settingslib_materialColorPrimaryContainer">@android:color/system_primary_container_dark</color>
-    <color name="settingslib_materialColorPrimaryInverse">@android:color/system_primary_light</color>
-    <color name="settingslib_materialColorSecondary">@android:color/system_secondary_dark</color>
-    <color name="settingslib_materialColorSecondaryContainer">@android:color/system_secondary_container_dark</color>
-    <color name="settingslib_materialColorSurface">@android:color/system_surface_dark</color>
-    <color name="settingslib_materialColorSurfaceBright">@android:color/system_surface_bright_dark</color>
-    <color name="settingslib_materialColorSurfaceContainer">@android:color/system_surface_container_dark</color>
-    <color name="settingslib_materialColorSurfaceContainerHigh">@android:color/system_surface_container_high_dark</color>
-    <color name="settingslib_materialColorSurfaceContainerHighest">@android:color/system_surface_container_highest_dark</color>
-    <color name="settingslib_materialColorSurfaceContainerLow">@android:color/system_surface_container_low_dark</color>
-    <color name="settingslib_materialColorSurfaceContainerLowest">@android:color/system_surface_container_lowest_dark</color>
-    <color name="settingslib_materialColorSurfaceDim">@android:color/system_surface_dim_dark</color>
-    <color name="settingslib_materialColorSurfaceInverse">@android:color/system_surface_light</color>
-    <color name="settingslib_materialColorSurfaceVariant">@android:color/system_surface_variant_dark</color>
-    <color name="settingslib_materialColorTertiary">@android:color/system_tertiary_dark</color>
-    <color name="settingslib_materialColorTertiaryContainer">@android:color/system_tertiary_container_dark</color>
-    <color name="settingslib_protection_color">@android:color/black</color>
-    <color name="settingslib_switchbar_switch_thumb_tint">@android:color/black</color>
-    <color name="settingslib_switchbar_switch_track_tint">#82000000</color>
-    <color name="settingslib_text_color_primary_device_default">@android:color/system_on_surface_dark</color>
-    <color name="settingslib_text_color_secondary_device_default">@android:color/system_on_surface_variant_dark</color>
-    <color name="sfps_enrollment_progress_bar_bg_color">#ff3c4043</color>
-    <color name="sfps_enrollment_progress_bar_error_color">#ffee675c</color>
-    <color name="sfps_enrollment_progress_bar_fill_color">#ff669df6</color>
-    <color name="skeleton_app_widget_background_color">#33ffffff</color>
-    <color name="skeleton_color">#14ffffff</color>
-    <color name="spinner_contents_text_default_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="ssw_content_text_color">#ffe5e5e5</color>
-    <color name="sud_dynamic_color_accent_glif_v3">@color/sud_dynamic_color_accent_glif_v3_dark</color>
-    <color name="sud_portal_pending_progress">@color/sud_portal_pending_progress_dark</color>
-    <color name="sud_system_accent_icon_text_button">@color/sud_system_accent1_100</color>
-    <color name="sud_system_background_surface">@color/sud_system_neutral1_900</color>
-    <color name="sud_system_button_surface">@color/sud_system_accent1_100</color>
-    <color name="sud_system_button_text">@color/sud_system_neutral1_900</color>
-    <color name="sud_system_dividing_line">@color/sud_system_neutral2_700</color>
-    <color name="sud_system_error_warning">@color/sud_error_warning_default_dark</color>
-    <color name="sud_system_fallback_accent">@color/fallback_color_device_default_dark</color>
-    <color name="sud_system_hyperlink_text">@color/sud_system_accent1_300</color>
-    <color name="sud_system_primary_text">@color/sud_system_neutral1_50</color>
-    <color name="sud_system_secondary_text">@color/sud_system_neutral2_200</color>
-    <color name="sud_system_success_done">@color/success_color_device_default_dark</color>
-    <color name="sud_system_surface">@color/sud_system_neutral1_800</color>
-    <color name="sud_system_tertiary_text_inactive">@color/sud_system_neutral2_400</color>
-    <color name="sud_uniformity_backdrop_color">#ff2a2b2e</color>
-    <color name="switch_bar_state_disabled_color">#1fe3e3e3</color>
-    <color name="tap_duration_time_color">@color/sesl_description_text_color_dark</color>
-    <color name="taskbar_settings_style_background">@color/sesl_background_color_dark</color>
-    <color name="taskbar_settings_text_color">#fffafaff</color>
-    <color name="themed_badge_icon_background_color">@android:color/system_accent1_200</color>
-    <color name="themed_badge_icon_color">@android:color/system_accent2_800</color>
-    <color name="themed_icon_background_color">@android:color/system_accent2_800</color>
-    <color name="themed_icon_color">@android:color/system_accent1_200</color>
-    <color name="touchpad_settings_tips_desc_text_color">#fffafafa</color>
-    <color name="touchpad_settings_tips_title_text_color">#fffafafa</color>
-    <color name="udfps_enroll_icon">#ff7da7f1</color>
-    <color name="udfps_enroll_progress">#ff7da7f1</color>
-    <color name="udfps_enroll_progress_help">#607da7f1</color>
-    <color name="udfps_moving_target_fill">#ff475670</color>
-    <color name="udfps_moving_target_fill_error">#80475670</color>
-    <color name="vertical_divider_color">#26d4d4d4</color>
-    <color name="voice_input_dialog_content_text_color">#ffe5e5e5</color>
-    <color name="voice_input_list_view_back_ground">#ff252525</color>
-    <color name="weblink_color">@color/sesl_primary_dark_color_dark</color>
-    <color name="wifi_ap_bottom_bar_button_ripple_color">#33ffffff</color>
-    <color name="wifi_ap_bottom_bar_text_color">@color/sesl_text1_dark</color>
-    <color name="wifi_ap_connected_client_icon_color">#ff999999</color>
-    <color name="wifi_ap_data_limit_button_color">#b3fafafa</color>
-    <color name="wifi_ap_dialog_body_text_color">@color/sesl_dialog_body_text_color_dark</color>
-    <color name="wifi_ap_dialog_title_text_color">@color/sesl_dialog_title_text_color_dark</color>
-    <color name="wifi_ap_edit_text_color">@color/sesl_edit_text_hint_color_dark</color>
-    <color name="wifi_ap_edit_text_focused_color">@color/sesl_white</color>
-    <color name="wifi_ap_graph_divider_color">#26d8d8d8</color>
-    <color name="wifi_ap_graph_xy_axis_text_color">@color/wifi_ap_marker_text_color_1</color>
-    <color name="wifi_ap_left_right_arrow_icon_color">@color/sesl_date_picker_button_tint_color_dark</color>
-    <color name="wifi_ap_marker_text_color_1">#ffc6c6c6</color>
-    <color name="wifi_ap_no_devices_text_color">#ffccccce</color>
-    <color name="wifi_ap_primary_text_color">@color/sesl_primary_dark_color_dark</color>
-    <color name="wifi_ap_qrcode_menu_color">@color/sesl_action_bar_text_color_title_dark</color>
-    <color name="wifi_ap_qrcode_page_ssid_color">@color/sesl_text2_dark</color>
-    <color name="wifi_ap_qrcode_page_summary_color">#ff99999e</color>
-    <color name="wifi_ap_secondary_text_color">@color/sesl_secondary_text_color_dark</color>
-    <color name="wifi_ap_seekbar_text_color">#ffcccccc</color>
-    <color name="wifi_ap_settings_page_summary_color">#ff99999e</color>
-    <color name="wifi_ap_sub_text_color_1">#ffb1b1b1</color>
-    <color name="wifi_ap_sub_text_color_3">#ff999999</color>
-    <color name="wifi_ap_theme_body_text_color">#ffcccccc</color>
-    <color name="wifi_ap_theme_sub_text_color">#ff99999e</color>
-    <color name="wifi_ap_title_text_color">#ffcccccc</color>
-    <color name="wifi_preference_summary_color">@color/sesl_secondary_text_color_dark</color>
-    <color name="wifi_preference_title_color">@color/sesl_primary_text_color_dark</color>
-    <color name="basic_horizontal_divider_line_color">@color/sesl_switch_divider_color_dark</color>
-    <color name="dialog_body_text_color">#ffe5e5e5</color>
-    <color name="homepage_status_bar_color">#cc000000</color>
-    <color name="manage_apps_list_divider_color_dark">#ff3a3a3d</color>
-    <color name="notification_importance_title_disabled">#fffafafa</color>
-    <color name="search_history_file_type_text_color">#fffafafa</color>
-    <color name="sec_spinner_text_color">@color/sec_dnd_schedule_delete_button_bottom</color>
-    <color name="settingslib_surface_dark">@android:color/system_neutral1_800</color>
-    <color name="switchbar_text_color">@android:color/black</color>
+
+    <color
+        name="accessibility_text_reading_background">
+@android:color/black</color>
+
+    <color
+        name="actionbar_text_color">
+#fffafaff</color>
+
+    <color
+        name="add">
+#fffafafa</color>
+
+    <color
+        name="advanced_outline_color">
+#ffffffff</color>
+
+    <color
+        name="as_actionbar_icon_back_color">
+#fffafafa</color>
+
+    <color
+        name="as_actionbar_text_color">
+#ffa3a3a7</color>
+
+    <color
+        name="as_actionbar_title_text_color_theme">
+#fffafafa</color>
+
+    <color
+        name="as_basic_dialog_positive_button_color_red">
+@color/sesl_functional_red_dark</color>
+
+    <color
+        name="as_basic_divider_line_color">
+#ff3a3a3a</color>
+
+    <color
+        name="as_basic_text_01_FA">
+#fffafaff</color>
+
+    <color
+        name="as_basic_text_25_EA">
+#ffeaeaeb</color>
+
+    <color
+        name="as_basic_text_4D_CC">
+#ffccccce</color>
+
+    <color
+        name="as_basic_text_8C_A3">
+#ff929295</color>
+
+    <color
+        name="as_category_btn_color">
+#ff999999</color>
+
+    <color
+        name="as_color_control_activated">
+#ff171717</color>
+
+    <color
+        name="as_color_primary_dark">
+#ff578fff</color>
+
+    <color
+        name="as_contained_button_bg_color">
+#4dffffff</color>
+
+    <color
+        name="as_home_indicator_icon_selected_color">
+#ffb7b7bb</color>
+
+    <color
+        name="as_home_indicator_icon_unselected_color">
+#ff69696c</color>
+
+    <color
+        name="as_light_theme_background_color">
+#ff010101</color>
+
+    <color
+        name="as_list_background_color">
+#ff010102</color>
+
+    <color
+        name="as_progressbar_background_color">
+#ff5a5a5d</color>
+
+    <color
+        name="as_recommend_card_viewpager_round_stroke_background">
+#ff252528</color>
+
+    <color
+        name="as_ripple_color">
+@color/sesl_list_ripple_color_dark</color>
+
+    <color
+        name="as_sort_by_text_color">
+#ffd9d9d9</color>
+
+    <color
+        name="as_storage_more_option_icon_color">
+#fffafafa</color>
+
+    <color
+        name="as_sub_icon_tint_color">
+#ffffffff</color>
+
+    <color
+        name="autowifi_main_setting_sub_app_bar_container_color">
+#ff3e91ff</color>
+
+    <color
+        name="banner_accent_attention_high">
+#fff28b82</color>
+
+    <color
+        name="banner_accent_attention_low">
+#ff81c995</color>
+
+    <color
+        name="banner_accent_attention_medium">
+#fffdd663</color>
+
+    <color
+        name="banner_background_attention_high">
+#ff3b2d2c</color>
+
+    <color
+        name="banner_background_attention_low">
+#ff2b3328</color>
+
+    <color
+        name="banner_background_attention_medium">
+#ff333121</color>
+
+    <color
+        name="basic_primary_color">
+#ff999999</color>
+
+    <color
+        name="basic_secondary_text_color_dimmed">
+#ff999999</color>
+
+    <color
+        name="battery_usage_system_icon_color">
+@android:color/white</color>
+
+    <color
+        name="biometric_enroll_intro_color_bar">
+#ff5bb974</color>
+
+    <color
+        name="biometric_enroll_intro_color_icon">
+#ff669df6</color>
+
+    <color
+        name="biometric_enroll_intro_color_outline">
+#ff5e5e5e</color>
+
+    <color
+        name="biometric_prompt_dialog_color">
+#ff252525</color>
+
+    <color
+        name="biometric_prompt_positive_button_color">
+#fff2ffff</color>
+
+    <color
+        name="biometric_prompt_title_text_color">
+#fffcfcfc</color>
+
+    <color
+        name="bluetooth_cast_tile_detail_item_bt_icon_tint_color">
+#ffffffff</color>
+
+    <color
+        name="bluetooth_highlight_text_color">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="bluetooth_no_nearby_help_text_color">
+#66979797</color>
+
+    <color
+        name="bluetooth_no_nearby_text_color">
+#66fafafa</color>
+
+    <color
+        name="body_text_color">
+#ffe0e0e0</color>
+
+    <color
+        name="brief_popup_sample_bg_color">
+#ff3b3b3b</color>
+
+    <color
+        name="brief_popup_sample_description_text">
+#ffe5e5e5</color>
+
+    <color
+        name="bt_cast_qs_detail_secondary_text_color">
+#ff999999</color>
+
+    <color
+        name="bt_circle_outline_color">
+#ff393939</color>
+
+    <color
+        name="bt_device_icon_tint_color">
+#fffafafa</color>
+
+    <color
+        name="bt_dialog_device_icon_tint_color">
+#fffafafa</color>
+
+    <color
+        name="bt_pairing_dialog_body_text_color">
+#fffafafa</color>
+
+    <color
+        name="bt_pairing_dialog_edittext_title_color">
+#ffe5e5e5</color>
+
+    <color
+        name="checkbox_selected_bg_color">
+#26ffffff</color>
+
+    <color
+        name="color_history_background_toggle_color">
+#0afafafa</color>
+
+    <color
+        name="content_background">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="content_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="contextual_card_background">
+@android:color/primary_text_material_dark</color>
+
+    <color
+        name="data_usage_progress_bar_bg_color">
+#33a9a9a9</color>
+
+    <color
+        name="device_info_button_background_color">
+#2bfafafa</color>
+
+    <color
+        name="device_info_ce_and_weee_marks_tint_color">
+#fffafafa</color>
+
+    <color
+        name="device_info_device_name_button_text_color">
+#fffafafa</color>
+
+    <color
+        name="device_info_device_name_text_color">
+#fffafafa</color>
+
+    <color
+        name="device_info_dialog_error">
+#fffc6c65</color>
+
+    <color
+        name="device_info_energy_star_fill_color_black">
+#ffffffff</color>
+
+    <color
+        name="device_info_energy_star_fill_color_white">
+#ff000000</color>
+
+    <color
+        name="device_info_info_chart_content_text_color">
+#fffafafa</color>
+
+    <color
+        name="device_info_info_chart_text_color">
+#ff999999</color>
+
+    <color
+        name="device_info_regulatory_info_kor_kc_logo_tint_color">
+#ffcccccc</color>
+
+    <color
+        name="direction_lock_action_bar_background">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="direction_lock_status_bar_background">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="fingerprint_enrollment_finish_color_outline">
+#ff669df6</color>
+
+    <color
+        name="font_preview_edit_text_background_color">
+#26fafafa</color>
+
+    <color
+        name="gestures_setting_background_color">
+@android:color/black</color>
+
+    <color
+        name="glance_colorBackground">
+@android:color/system_neutral1_900</color>
+
+    <color
+        name="glance_colorError">
+#fff2b8b5</color>
+
+    <color
+        name="glance_colorErrorContainer">
+#ff8c1d18</color>
+
+    <color
+        name="glance_colorOnBackground">
+@android:color/system_neutral1_100</color>
+
+    <color
+        name="glance_colorOnError">
+#ff601410</color>
+
+    <color
+        name="glance_colorOnErrorContainer">
+#fff2b8b5</color>
+
+    <color
+        name="glance_colorOnPrimary">
+@android:color/system_accent1_800</color>
+
+    <color
+        name="glance_colorOnPrimaryContainer">
+@android:color/system_accent1_100</color>
+
+    <color
+        name="glance_colorOnSecondary">
+@android:color/system_accent2_800</color>
+
+    <color
+        name="glance_colorOnSecondaryContainer">
+@android:color/system_accent2_100</color>
+
+    <color
+        name="glance_colorOnSurface">
+@android:color/system_neutral1_100</color>
+
+    <color
+        name="glance_colorOnSurfaceInverse">
+@android:color/system_neutral1_800</color>
+
+    <color
+        name="glance_colorOnSurfaceVariant">
+@android:color/system_neutral2_200</color>
+
+    <color
+        name="glance_colorOnTertiary">
+@android:color/system_accent3_800</color>
+
+    <color
+        name="glance_colorOnTertiaryContainer">
+@android:color/system_accent3_100</color>
+
+    <color
+        name="glance_colorOutline">
+@android:color/system_neutral2_400</color>
+
+    <color
+        name="glance_colorPrimary">
+@android:color/system_accent1_200</color>
+
+    <color
+        name="glance_colorPrimaryContainer">
+@android:color/system_accent1_700</color>
+
+    <color
+        name="glance_colorPrimaryInverse">
+@android:color/system_accent1_600</color>
+
+    <color
+        name="glance_colorSecondary">
+@android:color/system_accent2_200</color>
+
+    <color
+        name="glance_colorSecondaryContainer">
+@android:color/system_accent2_700</color>
+
+    <color
+        name="glance_colorSurface">
+@android:color/system_neutral1_900</color>
+
+    <color
+        name="glance_colorSurfaceInverse">
+@android:color/system_neutral1_100</color>
+
+    <color
+        name="glance_colorSurfaceVariant">
+@android:color/system_neutral2_700</color>
+
+    <color
+        name="glance_colorTertiary">
+@android:color/system_accent3_200</color>
+
+    <color
+        name="glance_colorTertiaryContainer">
+@android:color/system_accent3_700</color>
+
+    <color
+        name="glance_colorWidgetBackground">
+@android:color/system_accent2_800</color>
+
+    <color
+        name="help_illustration_background_color">
+#26171717</color>
+
+    <color
+        name="home_chart_item_bar_color">
+#b34596e3</color>
+
+    <color
+        name="home_chart_item_empty_bar_color">
+#1affffff</color>
+
+    <color
+        name="home_chart_item_text_color">
+#ff9c9c9c</color>
+
+    <color
+        name="homepage_accessibility_background">
+#ff783be5</color>
+
+    <color
+        name="homepage_support_background">
+#ff3f5fbd</color>
+
+    <color
+        name="icon_permission_tint">
+#ffe5e5e5</color>
+
+    <color
+        name="info_icon_color">
+#fffafafa</color>
+
+    <color
+        name="inline_cue_content_text_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="item_picker_time_edit_color">
+@color/sesl_blue_dark_color_dark</color>
+
+    <color
+        name="item_picker_time_text_color">
+@color/sesl_description_text_color_dark</color>
+
+    <color
+        name="list_item_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="list_item_call_background_text">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="list_item_divider_color">
+@color/sesl_list_divider_color_dark</color>
+
+    <color
+        name="manage_apps_background_color">
+#ff252528</color>
+
+    <color
+        name="manage_apps_body_color">
+#ffeaeaeb</color>
+
+    <color
+        name="manage_apps_dialog_knob_color">
+#66b2b2b2</color>
+
+    <color
+        name="manage_apps_title_color">
+#fffafaff</color>
+
+    <color
+        name="mandatory_biometrics_location_icon_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="mandatory_biometrics_suggestion_add_color">
+@color/sesl_blue_dark_color_dark</color>
+
+    <color
+        name="mandatory_biometrics_suggestion_close_button_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="mandatory_biometrics_suggestion_title_color">
+@color/sesl_text1_dark</color>
+
+    <color
+        name="nfc_antenna_guide_btn_text_color">
+#fffafaff</color>
+
+    <color
+        name="nfc_antenna_guide_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="notification_importance_button_unselected">
+#ff5f6368</color>
+
+    <color
+        name="notification_radio_icon_tint">
+#ffd9d9d9</color>
+
+    <color
+        name="palette_list_color_blue">
+@color/palette_list_dark_mode_color_blue</color>
+
+    <color
+        name="palette_list_color_cyan">
+@color/palette_list_dark_mode_color_cyan</color>
+
+    <color
+        name="palette_list_color_gray">
+@color/palette_list_dark_mode_color_gray</color>
+
+    <color
+        name="palette_list_color_green">
+@color/palette_list_dark_mode_color_green</color>
+
+    <color
+        name="palette_list_color_orange">
+@color/palette_list_dark_mode_color_orange</color>
+
+    <color
+        name="palette_list_color_purple">
+@color/palette_list_dark_mode_color_purple</color>
+
+    <color
+        name="palette_list_color_red">
+@color/palette_list_dark_mode_color_red</color>
+
+    <color
+        name="palette_list_color_yellow">
+@color/palette_list_dark_mode_color_yellow</color>
+
+    <color
+        name="palette_list_gradient_background">
+@android:color/black</color>
+
+    <color
+        name="permission_icon_color">
+#ffeaeaeb</color>
+
+    <color
+        name="picker_app_expander_category_indicator">
+@color/sesl_gray_D10</color>
+
+    <color
+        name="picker_app_grid_item_background_color">
+@color/sesl_ripple_color_dark</color>
+
+    <color
+        name="picker_app_grid_item_view_remove_text_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="picker_app_list_no_results_found_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="picker_app_list_subheader_background_color">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="picker_app_list_subheader_text_color">
+@color/sesl_list_subheader_text_color_dark</color>
+
+    <color
+        name="picker_app_list_transparent_subheader_text_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="picker_app_skeleton_app_icon">
+@color/sesl_gray_D7</color>
+
+    <color
+        name="power_anomaly_app_warning_hint_color">
+#fffdd663</color>
+
+    <color
+        name="privacy_dashboard_category_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="privacy_dashboard_divider_color">
+#ff3a3a3d</color>
+
+    <color
+        name="privacy_dashboard_permission_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="privacy_dashboard_text_color">
+#fffafaff</color>
+
+    <color
+        name="privacy_dashboard_view_all_text_color">
+#ffa9a9a9</color>
+
+    <color
+        name="privacy_empry_text_color">
+#fffafaff</color>
+
+    <color
+        name="privacy_header_image_background_color">
+#d9000000</color>
+
+    <color
+        name="privacy_more_bg_color">
+#ff5a5a5d</color>
+
+    <color
+        name="privacy_more_text_color">
+#fffafaff</color>
+
+    <color
+        name="process_text_done_button_ripple_color">
+#33ffffff</color>
+
+    <color
+        name="protection_timer_alarm_color">
+@color/sesl_white</color>
+
+    <color
+        name="protection_timer_circle_bg_color">
+#6669696c</color>
+
+    <color
+        name="protection_timer_circle_ongoing_color">
+@color/sesl_primary_color_dark</color>
+
+    <color
+        name="ripple_material_inverse">
+@android:color/system_on_shade_inactive_light</color>
+
+    <color
+        name="samsung_navigationbar_setup_wizard_text_color">
+#ffa3a3a7</color>
+
+    <color
+        name="sce_intelligence_service_window_background_color">
+#ff5a5a5d</color>
+
+    <color
+        name="screen_flash_color_button_outer_circle_stroke_color">
+#ffffffff</color>
+
+    <color
+        name="sec_apn_list_item_title_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_app_button_icon_tint_color">
+@color/sesl_bottom_navigation_icon_dark</color>
+
+    <color
+        name="sec_app_button_text_color">
+@color/sesl_bottom_navigation_text_dark</color>
+
+    <color
+        name="sec_app_data_usage_summary_color">
+#ff979797</color>
+
+    <color
+        name="sec_app_data_usage_title_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_app_name_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_app_sort_by_button_color">
+#ffa6a6a9</color>
+
+    <color
+        name="sec_appgridview_preference_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_autoswitch_icon_color">
+#ff6daef8</color>
+
+    <color
+        name="sec_biometrics_choose_lock_header_description_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_biometrics_common_background_color">
+#ff010102</color>
+
+    <color
+        name="sec_biometrics_common_button_ripple_color">
+@color/sesl_ripple_color_dark</color>
+
+    <color
+        name="sec_biometrics_common_negative_button_color">
+#ff2d2d2d</color>
+
+    <color
+        name="sec_biometrics_common_negative_button_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_biometrics_common_security_notice_common_title_text_color">
+@color/sesl_action_bar_text_color_title_dark</color>
+
+    <color
+        name="sec_biometrics_common_suw_background_color_tablet">
+#ff000000</color>
+
+    <color
+        name="sec_biometrics_common_suw_bottom_bar_arrow_tint">
+#ccffffff</color>
+
+    <color
+        name="sec_biometrics_common_suw_bottom_bar_text_color">
+#ff3e91ff</color>
+
+    <color
+        name="sec_biometrics_common_tips_card_background">
+#ff0381fe</color>
+
+    <color
+        name="sec_biometrics_dialog_remove_btn_color">
+#fff76f68</color>
+
+    <color
+        name="sec_biometrics_guide_common_guide_background">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_biometrics_guide_common_guide_tip_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_biometrics_guide_common_icon_color">
+#fffbfbfb</color>
+
+    <color
+        name="sec_biometrics_guide_common_info_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_biometrics_guide_common_info_text_theme_color">
+@color/sesl_secondary_text_color_dark</color>
+
+    <color
+        name="sec_biometrics_guide_common_knox_icon_color">
+#4dfafafa</color>
+
+    <color
+        name="sec_biometrics_guide_common_lock_guide_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_biometrics_guide_common_main_guide_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_biometrics_guide_common_round_background">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="sec_biometrics_guide_common_spinner_icon_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_biometrics_guide_common_spinner_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_biometrics_guide_common_title_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_biometrics_rotation_guide_desc_text_color">
+#ffe0e0e0</color>
+
+    <color
+        name="sec_biometrics_setup_change_password_backspace">
+#ff000000</color>
+
+    <color
+        name="sec_bluetooth_assistant_backgound_color">
+#ff010101</color>
+
+    <color
+        name="sec_bluetooth_assistant_connected_card_button_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_bluetooth_assistant_connected_card_summary_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_bluetooth_assistant_device_info_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_bluetooth_assistant_icon_tint_color">
+#ffffffff</color>
+
+    <color
+        name="sec_bluetooth_assistant_round_and_bgcolor">
+#ff171717</color>
+
+    <color
+        name="sec_bluetooth_assistant_title_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_bluetooth_auracast_background_color">
+@color/sec_widget_round_and_bgcolor</color>
+
+    <color
+        name="sec_bluetooth_auracast_connected_stream_inline_color">
+#ff598fff</color>
+
+    <color
+        name="sec_bluetooth_auracast_connected_stream_outline_color">
+#59ffffff</color>
+
+    <color
+        name="sec_bluetooth_auracast_connected_text_color">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="sec_bluetooth_auracast_edit_icon_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="sec_bluetooth_auracast_info_about_broadcast_body_text_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_bluetooth_auracast_item_background_color">
+@color/sec_widget_help_image_backgound_color</color>
+
+    <color
+        name="sec_bluetooth_auracast_no_device_description_text_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="sec_bluetooth_battery_progress_bg_color">
+@color/sesl_gray_D5</color>
+
+    <color
+        name="sec_bluetooth_dialog_pincode_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="sec_bluetooth_header_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_bluetooth_list_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_bluetooth_list_background_color2">
+#ff121212</color>
+
+    <color
+        name="sec_bluetooth_preference_title_color">
+@color/sesl_extended_appbar_subtitle_dark</color>
+
+    <color
+        name="sec_bluetooth_sub_header_text_color">
+@color/sesl_text5_dark</color>
+
+    <color
+        name="sec_certificate_details_negativebutton_text_color">
+#fffcfcff</color>
+
+    <color
+        name="sec_clear_credentials_background_color">
+@color/sesl_dialog_window_background_color_material_dark</color>
+
+    <color
+        name="sec_clear_credentials_buttonNegative">
+@color/sesl_dialog_title_text_color_dark</color>
+
+    <color
+        name="sec_clear_credentials_buttonPositive">
+@color/sesl_dialog_button_red_text_dark</color>
+
+    <color
+        name="sec_clear_credentials_message">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_clear_search_history">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="sec_color_keyword_preview_text">
+#fffafafa</color>
+
+    <color
+        name="sec_continuity_icon_color">
+#ff4ad093</color>
+
+    <color
+        name="sec_continuity_supported_app_color">
+@color/sesl_action_bar_text_color_title_dark</color>
+
+    <color
+        name="sec_dark_mode_clock_tab_tint_selected">
+@color/sesl_tablayout_subtab_text_color_selected_dark</color>
+
+    <color
+        name="sec_dark_mode_clock_tab_tint_unselected">
+@color/sesl_tablayout_subtab_text_color_default_dark</color>
+
+    <color
+        name="sec_dark_mode_time_text_color">
+@color/sesl_dialog_title_text_color_dark</color>
+
+    <color
+        name="sec_dashboard_layer_color">
+#19000000</color>
+
+    <color
+        name="sec_dashboard_simplified_summary_text_color">
+@color/sesl_secondary_text_color_dark</color>
+
+    <color
+        name="sec_dashboard_simplified_title_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_dashboard_tab_selected_text_color">
+@color/sesl_edit_text_tint_color_dark</color>
+
+    <color
+        name="sec_data_usage_dialog_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_data_usage_graph_limit_line_color">
+#fffc6c65</color>
+
+    <color
+        name="sec_data_usage_graph_warning_line_color">
+#fffc864c</color>
+
+    <color
+        name="sec_data_usage_header_label_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_data_usage_header_title_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_data_usage_spinner_layout">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_delete_saved_query">
+#fffafafa</color>
+
+    <color
+        name="sec_device_admin_add_dialog_description">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_device_admin_add_dialog_title">
+@color/sesl_dialog_title_text_color_dark</color>
+
+    <color
+        name="sec_dialog_divider_color">
+@color/sesl_dialog_divider_color_material_dark</color>
+
+    <color
+        name="sec_dialog_label_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_display_color_balance_bg_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_display_color_balance_label_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_display_font_size_screen_bg_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_display_resolution_desc_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_display_resolution_help_desc_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_display_setting_seek_bar_controller_background_color">
+#ff171717</color>
+
+    <color
+        name="sec_display_setting_seek_bar_controller_stroke_color">
+#ff2a2a2b</color>
+
+    <color
+        name="sec_display_setting_seek_bar_controller_thumb_drawable_solid_color">
+#ff010102</color>
+
+    <color
+        name="sec_dnd_add_app_exception_all_text">
+@color/sec_notification_menu_info_dialog_summary_color</color>
+
+    <color
+        name="sec_dnd_schedule_add">
+#ff11a85f</color>
+
+    <color
+        name="sec_dnd_schedule_add_apps_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_dnd_schedule_bg_color">
+#ff252525</color>
+
+    <color
+        name="sec_dnd_schedule_delete_button_bottom">
+#fffafafa</color>
+
+    <color
+        name="sec_dnd_schedule_delete_button_text_color">
+#fff76f68</color>
+
+    <color
+        name="sec_dnd_status_text_color">
+#ffb0b0b0</color>
+
+    <color
+        name="sec_dynamic_app_bar_default_round_button_bg_color">
+@color/sesl_btn_background_color_dark</color>
+
+    <color
+        name="sec_dynamic_app_bar_default_round_button_text_color">
+@color/sesl_btn_default_text_color_dark</color>
+
+    <color
+        name="sec_eye_comfort_clock_tab_tint_selected">
+@color/sesl_tablayout_selected_text_color_dark</color>
+
+    <color
+        name="sec_eye_comfort_clock_tab_tint_unselected">
+@color/sesl_tablayout_text_color_default_dark</color>
+
+    <color
+        name="sec_eye_comfort_spinner_dropdown_default_color">
+#fffafafa</color>
+
+    <color
+        name="sec_facelock_useful_features_preference_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_fingerprint_multiselect_checkboxpreference_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_fingerprint_plus_button_text_color">
+#ff000000</color>
+
+    <color
+        name="sec_fingerprint_plus_desc_text_color">
+#ffe0e0e0</color>
+
+    <color
+        name="sec_fingerprint_plus_title_text_color">
+#ff008cff</color>
+
+    <color
+        name="sec_font_size_screen_mode_seekbar_title_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_font_size_screen_zoom_seekbar_title_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_group_header_title_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_high_refresh_rate_vi_text_color">
+#ff598fff</color>
+
+    <color
+        name="sec_intelligence_service_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_intelligence_service_divider_color">
+@color/sesl_gray_D8</color>
+
+    <color
+        name="sec_intelligence_service_download_icon_color">
+#ff2d2d30</color>
+
+    <color
+        name="sec_intelligence_service_header_desc_text_color">
+@color/sesl_action_bar_text_color_subtitle_dark</color>
+
+    <color
+        name="sec_intelligence_service_header_title_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_intelligence_service_subtitle_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_intelligence_service_summary_color">
+@color/sesl_secondary_text_color_dark</color>
+
+    <color
+        name="sec_intelligence_service_suw_subtitle_color">
+#fffafaff</color>
+
+    <color
+        name="sec_intelligence_service_suw_summary_color">
+#ff99999e</color>
+
+    <color
+        name="sec_intelligence_service_suw_term_text_color">
+#ffccccce</color>
+
+    <color
+        name="sec_intelligence_service_suw_title_color">
+#fffafaff</color>
+
+    <color
+        name="sec_intelligence_service_term_text_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="sec_intelligence_service_title_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_intelligentscan_tip_text_desc_color">
+#ffe0e0e0</color>
+
+    <color
+        name="sec_intelligentscan_tip_text_header_color">
+#fffafafa</color>
+
+    <color
+        name="sec_locale_drag_cell_background_color">
+#ff171717</color>
+
+    <color
+        name="sec_locale_prefernce_bg_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_lock_pattern_line_color_draw">
+#fffafafa</color>
+
+    <color
+        name="sec_lock_suw_background_color">
+#ff000000</color>
+
+    <color
+        name="sec_lock_suw_listview_background_color">
+@color/sesl_gray_D4</color>
+
+    <color
+        name="sec_lockscreen_choose_lock_hint_bg_color">
+#ff17171a</color>
+
+    <color
+        name="sec_lockscreen_choose_lock_hint_img_container_bg_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_lockscreen_dialog_remove_btn_color">
+#fff76f68</color>
+
+    <color
+        name="sec_lockscreen_notification_dialog_checkbox_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_lockscreen_ppp_help_text_color">
+#fff76f68</color>
+
+    <color
+        name="sec_lockscreen_setup_choose_lock_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_main_clear_account_body_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_main_clear_bottom_container_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_more_button_background_color">
+#2bfafafa</color>
+
+    <color
+        name="sec_more_button_tint_color">
+#ff999999</color>
+
+    <color
+        name="sec_mouse_pointer_prefernce_bg_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_music_share_icon_color">
+#ff6daef8</color>
+
+    <color
+        name="sec_no_item_sub_text_color">
+@color/sesl_text6_dark</color>
+
+    <color
+        name="sec_no_item_text_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="sec_no_result_found_color">
+#66e5e5e5</color>
+
+    <color
+        name="sec_noti_stausbar_style_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_notification_history_app_title">
+@color/sec_app_name_text_color</color>
+
+    <color
+        name="sec_notification_history_subtext">
+#ff999999</color>
+
+    <color
+        name="sec_notification_menu_info_dialog_summary_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_notification_preview_lock_icon_color">
+#ffa6aab3</color>
+
+    <color
+        name="sec_notification_preview_text_color">
+#bffafafa</color>
+
+    <color
+        name="sec_notification_preview_text_inverse_color">
+#bf252525</color>
+
+    <color
+        name="sec_notification_preview_time_color">
+#bffafafa</color>
+
+    <color
+        name="sec_notification_preview_time_inverse_color">
+#bf252525</color>
+
+    <color
+        name="sec_notification_preview_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_notification_preview_title_inverse_color">
+#ff252525</color>
+
+    <color
+        name="sec_personal_dictionary_delete_icon_color">
+@color/sesl_action_bar_text_color_title_dark</color>
+
+    <color
+        name="sec_private_dns_base_summary_color">
+#fffafafa</color>
+
+    <color
+        name="sec_private_dns_off_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_private_dns_opportunistic_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_private_dns_provider_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_profile_select_body_text_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_profile_select_icon_tint">
+#ffcccccc</color>
+
+    <color
+        name="sec_profile_select_title_text_color">
+@color/sesl_dialog_title_text_color_dark</color>
+
+    <color
+        name="sec_register_fingerprint_plus_bg_color">
+#ff000000</color>
+
+    <color
+        name="sec_round_and_bgcolor">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="sec_screen_mode_page_indicator_selected_color">
+#ffb7b7bb</color>
+
+    <color
+        name="sec_screen_mode_page_indicator_unselected_color">
+#ff69696c</color>
+
+    <color
+        name="sec_screen_zoom_seekbar_tickmark_drawable_solid_color">
+#ff77777a</color>
+
+    <color
+        name="sec_search_contrast_text">
+#ff3e91ff</color>
+
+    <color
+        name="sec_search_correction_text_color">
+#ff3e91ff</color>
+
+    <color
+        name="sec_search_recommended_query_chip_background_color">
+#ff3d3d3d</color>
+
+    <color
+        name="sec_search_recommended_query_chip_tag_icon_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_search_recommended_query_chip_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_search_recommended_tag_chip_background_color">
+#400381fe</color>
+
+    <color
+        name="sec_search_recommended_tag_chip_icon_color">
+#ff3e91ff</color>
+
+    <color
+        name="sec_search_recommended_tag_chip_text_color">
+#ff3e91ff</color>
+
+    <color
+        name="sec_search_result_divider_color">
+@color/sesl_switch_divider_color_dark</color>
+
+    <color
+        name="sec_search_result_header_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_search_result_sub_header_text_color">
+@color/sesl_list_subheader_text_color_dark</color>
+
+    <color
+        name="sec_secure_wifi_container_bg_color">
+#ff252525</color>
+
+    <color
+        name="sec_secure_wifi_container_bg_ripple_color">
+@color/sesl_ripple_color_dark</color>
+
+    <color
+        name="sec_security_dashboard_expandable_menu_divider_color">
+#ff3a3a3d</color>
+
+    <color
+        name="sec_security_dashboard_expandable_menu_text_color">
+#ffcccccc</color>
+
+    <color
+        name="sec_security_dashboard_list_status_outer">
+#ff000000</color>
+
+    <color
+        name="sec_security_dashboard_menu_icons_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_security_dashboard_status_background_color">
+#ff010101</color>
+
+    <color
+        name="sec_security_dashboard_status_card_background">
+#99414141</color>
+
+    <color
+        name="sec_security_dashboard_status_card_background_color">
+#ff171717</color>
+
+    <color
+        name="sec_security_dashboard_status_card_not_now_color">
+#fffafaff</color>
+
+    <color
+        name="sec_security_dashboard_status_ok_bg">
+#ff21a84a</color>
+
+    <color
+        name="sec_security_dashboard_status_summary_color">
+#ff999999</color>
+
+    <color
+        name="sec_security_dashboard_status_title_color">
+#fffafaff</color>
+
+    <color
+        name="sec_security_dashboard_sub_text_color_primary">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_security_dashboard_text_color_primary">
+#fffafaff</color>
+
+    <color
+        name="sec_security_status_sub_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_security_status_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_select_photo_id_button_ripple_color">
+#66000000</color>
+
+    <color
+        name="sec_setupwizard_background_color">
+#ff2d2d30</color>
+
+    <color
+        name="sec_share_back_button_color">
+#fffafafa</color>
+
+    <color
+        name="sec_share_bg_color">
+#ff171717</color>
+
+    <color
+        name="sec_share_bottom_menu_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_share_custom_dialog_list_item_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_share_custom_dialog_title_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_share_drag_hint_circle_color">
+#4dfafafa</color>
+
+    <color
+        name="sec_share_drag_hint_dot_color">
+#ccfafafa</color>
+
+    <color
+        name="sec_share_label_description_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_share_list_group_title_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_share_list_item_label_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_share_round_background_color">
+#ff010101</color>
+
+    <color
+        name="sec_share_toolbar_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_sound_routine_bottom_bar_divider_color">
+#ff47474a</color>
+
+    <color
+        name="sec_splash_bg_color">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="sec_sub_app_bar_spinner_arrow_color">
+#fffafaff</color>
+
+    <color
+        name="sec_sub_app_bar_text_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="sec_suggestion_card_background_color">
+#ff252525</color>
+
+    <color
+        name="sec_suggestion_card_icon_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="sec_suggestion_card_text_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="sec_suw_radio_item_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_tab_custom_clock_tab_tint_selected">
+@color/sesl_tablayout_text_color_selected_dark</color>
+
+    <color
+        name="sec_tab_custom_clock_tab_tint_unselected">
+@color/sesl_tablayout_text_color_default_dark</color>
+
+    <color
+        name="sec_tab_custom_spinner_dropdown_default_color">
+#fffafafa</color>
+
+    <color
+        name="sec_tab_custom_time_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_tapandpay_btn_text_color_normal">
+#fffafafa</color>
+
+    <color
+        name="sec_tapandpay_btn_text_color_select">
+#ff3e91ff</color>
+
+    <color
+        name="sec_tips_description_link_text_color">
+#ff598fff</color>
+
+    <color
+        name="sec_tips_description_text_color">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_tips_title_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_touchpad_divider_color">
+#ff3a3a3d</color>
+
+    <color
+        name="sec_touchpad_icon_foreground">
+#ff69696c</color>
+
+    <color
+        name="sec_touchpad_recycler_view">
+#ff252528</color>
+
+    <color
+        name="sec_trusted_credentials_text_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_user_certificates_text_color">
+#ffa3a3a7</color>
+
+    <color
+        name="sec_uwb_labs_background_1">
+#ff010102</color>
+
+    <color
+        name="sec_uwb_labs_bar_graph_bottom_text_color">
+#66eaeaea</color>
+
+    <color
+        name="sec_uwb_labs_bar_graph_highlight_1">
+#66252525</color>
+
+    <color
+        name="sec_uwb_labs_gui_text_1">
+#fffafaff</color>
+
+    <color
+        name="sec_uwb_labs_gui_text_2">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_uwb_labs_gui_text_3">
+#ffccccce</color>
+
+    <color
+        name="sec_uwb_labs_gui_text_4">
+#ffb7b7bb</color>
+
+    <color
+        name="sec_uwb_labs_gui_text_5">
+#ffa3a3a7</color>
+
+    <color
+        name="sec_uwb_labs_gui_text_6">
+#ff99999e</color>
+
+    <color
+        name="sec_uwb_labs_simple_test_guideline_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_uwb_labs_simple_test_warning_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_uwb_labs_weekly_report_bar_color_1">
+#ffe6f0ff</color>
+
+    <color
+        name="sec_uwb_labs_weekly_report_bar_color_2">
+#ff99c2ff</color>
+
+    <color
+        name="sec_uwb_labs_weekly_report_bar_color_3">
+#ff4d94ff</color>
+
+    <color
+        name="sec_uwb_labs_weekly_report_date_text_color">
+#ffccccce</color>
+
+    <color
+        name="sec_uwb_labs_weekly_report_progressbar_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_vertical_divider_color">
+#ff3a3a3d</color>
+
+    <color
+        name="sec_view_security_certificates_dialog_spinner">
+@color/sesl_spinner_item_text_color_normal_dark</color>
+
+    <color
+        name="sec_volume_limit_seekbar_tickmark_drawable_solid_color">
+#ff77777a</color>
+
+    <color
+        name="sec_volume_limit_thumb_color">
+#ff010102</color>
+
+    <color
+        name="sec_vpn_edit_text_value_color">
+@color/sesl_dialog_list_text_color_dark</color>
+
+    <color
+        name="sec_widget_alert_dialog_text_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_widget_body_text_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sec_widget_bottom_bar_button_ripple_color">
+@color/sesl_bottom_navigation_ripple_dark</color>
+
+    <color
+        name="sec_widget_bottom_bar_button_text_color">
+@color/sesl_dialog_button_text_color_dark</color>
+
+    <color
+        name="sec_widget_bottom_bar_button_text_color_tablet">
+@color/sesl_dialog_button_text_color_dark</color>
+
+    <color
+        name="sec_widget_color_primary">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="sec_widget_color_round_button_bg_color">
+@color/sesl_primary_color_dark</color>
+
+    <color
+        name="sec_widget_default_round_button_bg_color">
+@color/sesl_btn_background_color_dark</color>
+
+    <color
+        name="sec_widget_default_round_button_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_widget_description_link_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_widget_gray_round_button_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_widget_help_image_backgound_color">
+#ff17171a</color>
+
+    <color
+        name="sec_widget_homepage_divider_color">
+#42fafafa</color>
+
+    <color
+        name="sec_widget_list_divider_color">
+@color/sesl_list_divider_color_dark</color>
+
+    <color
+        name="sec_widget_multi_button_divider_color">
+@color/sesl_list_divider_color_dark</color>
+
+    <color
+        name="sec_widget_multi_button_selected_color">
+#ff598fff</color>
+
+    <color
+        name="sec_widget_multi_button_unselected_color">
+#ffa3a3a7</color>
+
+    <color
+        name="sec_widget_multi_button_unselected_icon_color">
+#ff929295</color>
+
+    <color
+        name="sec_widget_panel_header_sub_title_color">
+#ff999999</color>
+
+    <color
+        name="sec_widget_panel_header_title_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sec_widget_preference_screen_divider_color">
+@color/sesl_switch_divider_color_dark</color>
+
+    <color
+        name="sec_widget_relative_link_bg_color">
+#26387aff</color>
+
+    <color
+        name="sec_widget_relative_link_title_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_widget_remove_animation_play_button_tint_color">
+#f5fafafa</color>
+
+    <color
+        name="sec_widget_ripple_color">
+@color/sesl_ripple_color_dark</color>
+
+    <color
+        name="sec_widget_round_and_bgcolor">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="sec_widget_seekbar_preference_label_text_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="sec_widget_sub_body_text_color">
+@color/sesl_text5_dark</color>
+
+    <color
+        name="sec_widget_subheader_divider_color">
+#42fafafa</color>
+
+    <color
+        name="sec_widget_switchbar_background_color">
+#ff17171a</color>
+
+    <color
+        name="sec_widget_switchbar_checked_background_color">
+#ff2d2d30</color>
+
+    <color
+        name="sec_widget_switchbar_off_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_widget_switchbar_on_text_color">
+#ff578fff</color>
+
+    <color
+        name="sec_widget_tip_body_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_widget_tip_title_text_color">
+#fffcfcfc</color>
+
+    <color
+        name="sec_wifi_SwipeRefreshLayout_progress_bg_color">
+#ff252525</color>
+
+    <color
+        name="sec_wifi_action_bar_background_color">
+@color/sesl_action_bar_background_color_dark</color>
+
+    <color
+        name="sec_wifi_action_menu_text">
+#fffafafa</color>
+
+    <color
+        name="sec_wifi_ap_activity_label_text_color">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="sec_wifi_ap_dialog_spinner_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_wifi_arrow_icon_color">
+#ff808080</color>
+
+    <color
+        name="sec_wifi_entity_header_summary_color">
+@color/sesl_extended_appbar_subtitle_dark</color>
+
+    <color
+        name="sec_wifi_entity_header_title_color">
+@color/sesl_action_bar_text_color_title_dark</color>
+
+    <color
+        name="sec_wifi_icon_gray_color">
+#66ffffff</color>
+
+    <color
+        name="sec_wifi_labs_gui_text_1">
+#fffafaff</color>
+
+    <color
+        name="sec_wifi_labs_gui_text_2">
+#ffeaeaeb</color>
+
+    <color
+        name="sec_wifi_labs_gui_text_3">
+#ffccccce</color>
+
+    <color
+        name="sec_wifi_labs_gui_text_4">
+#ffb7b7bb</color>
+
+    <color
+        name="sec_wifi_labs_gui_text_5">
+#ffa3a3a7</color>
+
+    <color
+        name="sec_wifi_labs_gui_text_6">
+#ff99999e</color>
+
+    <color
+        name="sec_wifi_labs_network_info_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_wifi_labs_weekly_report_barchart_text_color">
+#66eaeaea</color>
+
+    <color
+        name="sec_wifi_labs_weekly_report_date_text_color">
+#ffccccce</color>
+
+    <color
+        name="sec_wifi_labs_weekly_report_progressbar_text_color">
+#fffafaff</color>
+
+    <color
+        name="sec_wifi_list_background_color">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="sec_wifi_nearby_share_button_background">
+#ff2d2d30</color>
+
+    <color
+        name="sec_wifi_nearby_share_button_text">
+#fffafafa</color>
+
+    <color
+        name="sec_wifi_p2p_actionbar_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_wifi_p2p_description_text_color">
+#ffe0e0e0</color>
+
+    <color
+        name="sec_wifi_p2p_preference_noitem_color">
+#28e5e5e5</color>
+
+    <color
+        name="sec_wifi_p2p_preference_title_color">
+#fffafafa</color>
+
+    <color
+        name="sec_wifi_preference_divider_color">
+@color/sesl_switch_divider_color_dark</color>
+
+    <color
+        name="sec_wifi_setupwizard_list_title_color">
+#fffcfcff</color>
+
+    <color
+        name="sec_wifi_setupwizard_round_and_bg_color">
+#ff010102</color>
+
+    <color
+        name="sec_wifi_subtitle_text_color">
+#ff999999</color>
+
+    <color
+        name="sec_wifi_suw_bottom_button_text_color">
+#ffccccce</color>
+
+    <color
+        name="sec_wifi_suw_vzw_emergency_call_button_text_color">
+#ffccccce</color>
+
+    <color
+        name="sec_wifi_suw_vzw_header_content_text_color">
+#ffccccce</color>
+
+    <color
+        name="sec_zen_mode_schedule_repeat_toggle_btn_text_color_normal">
+#ffcccccc</color>
+
+    <color
+        name="sec_zen_mode_schedule_repeat_toggle_btn_text_color_select">
+#fffafafa</color>
+
+    <color
+        name="sec_zen_schedule_title_text_color">
+#ff99999e</color>
+
+    <color
+        name="security_dashboard_menu_subtext_default_color">
+@color/sesl_secondary_text_dark</color>
+
+    <color
+        name="security_dashboard_menu_subtext_suggestion_color">
+#fffc864c</color>
+
+    <color
+        name="security_dashboard_menu_subtext_warning_color">
+#fffc6c65</color>
+
+    <color
+        name="sesl_bed_wakeup_time_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="sesl_bed_wakeup_time_icon_color">
+@color/sesl_text5_dark</color>
+
+    <color
+        name="sesl_bedtime_wakeup_time_layout_ripple_color">
+@color/sesl_ripple_color_dark</color>
+
+    <color
+        name="sesl_chip_background">
+@color/sesl_gray_D5</color>
+
+    <color
+        name="sesl_chip_text_color">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="sesl_circular_seekbar_color">
+@color/sesl_gray_D5</color>
+
+    <color
+        name="sesl_clock_dial_number_color">
+@color/sesl_text5_dark</color>
+
+    <color
+        name="sesl_color_picker_divider">
+#ff585858</color>
+
+    <color
+        name="sesl_color_picker_text_views">
+@color/sesl_secondary_text_color_dark</color>
+
+    <color
+        name="sesl_date_picker_header_spinner">
+@color/sesl_text3_dark</color>
+
+    <color
+        name="sesl_date_picker_saturday_text_color_light">
+@color/sesl_blue_dark_color_dark</color>
+
+    <color
+        name="sesl_date_picker_saturday_week_text_color_light">
+@color/sesl_blue_dark_color_dark</color>
+
+    <color
+        name="sesl_date_picker_sunday_number_text_color_light">
+@color/sesl_functional_red_text_dark</color>
+
+    <color
+        name="sesl_eyedropper_icon_color">
+@color/sesl_text1_dark</color>
+
+    <color
+        name="sesl_fragment_bgcolor">
+#ff17171a</color>
+
+    <color
+        name="sesl_fragment_fgcolor">
+#ff010102</color>
+
+    <color
+        name="sesl_ftu_title_color">
+@color/sesl_text1_dark</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_background">
+#00ffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_inverse_on_surface">
+#ffffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_inverse_surface">
+#1affffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_on_background">
+#ffffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_on_primary">
+#ffffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_on_primary_container">
+#ffffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_on_surface">
+#ffffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_on_surface_variant">
+#ffffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_primary">
+#33ffffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_primary_container">
+#1affffff</color>
+
+    <color
+        name="sesl_glance_preview_monotone_color_surface">
+#26ffffff</color>
+
+    <color
+        name="sesl_grid_medium_size_color">
+#b399999e</color>
+
+    <color
+        name="sesl_grid_small_size_color">
+#4d99999e</color>
+
+    <color
+        name="sesl_number_picker_text_color">
+@color/sesl_text1_dark</color>
+
+    <color
+        name="sesl_number_picker_text_color_appwidget">
+@color/sesl_text1_dark</color>
+
+    <color
+        name="sesl_number_picker_text_highlight_color">
+#1affffff</color>
+
+    <color
+        name="sesl_number_picker_text_highlight_color_appwidget">
+#1affffff</color>
+
+    <color
+        name="sesl_round_and_bgcolor_light">
+@color/sesl_round_and_bgcolor_dark</color>
+
+    <color
+        name="sesl_sleep_duration_text_color_for_dialog">
+@color/sesl_text4_dark</color>
+
+    <color
+        name="sesl_sleep_goal_wheel_color">
+#a6393939</color>
+
+    <color
+        name="sesl_text_input_layout_hint_text_color">
+#ff999999</color>
+
+    <color
+        name="sesl_thumb_control_fill_color_activated">
+@color/sesl_gray_D1</color>
+
+    <color
+        name="sesl_thumb_disable_seekbar_level">
+@color/sesl_seekbar_disable_color_activated_dark</color>
+
+    <color
+        name="sesl_tick_mark_disable_seekbar_level">
+@color/sesl_gray_D9</color>
+
+    <color
+        name="sesl_tick_mark_seekbar_level">
+@color/sesl_gray_D9</color>
+
+    <color
+        name="settings_dialog_colorError">
+#fff28b82</color>
+
+    <color
+        name="settings_direction_lock_body_warning_text_color">
+#ffff6666</color>
+
+    <color
+        name="settings_direction_lock_help_text_background">
+#ff252525</color>
+
+    <color
+        name="settingslib_accent_primary_variant">
+@android:color/system_accent1_300</color>
+
+    <color
+        name="settingslib_button_ripple">
+@color/settingslib_ripple_material_light</color>
+
+    <color
+        name="settingslib_colorSurface">
+@color/settingslib_surface_dark</color>
+
+    <color
+        name="settingslib_colorSurfaceVariant">
+@android:color/system_neutral1_700</color>
+
+    <color
+        name="settingslib_dialog_colorError">
+#fff28b82</color>
+
+    <color
+        name="settingslib_materialColorErrorContainer">
+@android:color/system_error_container_dark</color>
+
+    <color
+        name="settingslib_materialColorOnBackground">
+@android:color/system_on_background_dark</color>
+
+    <color
+        name="settingslib_materialColorOnError">
+@android:color/system_on_error_dark</color>
+
+    <color
+        name="settingslib_materialColorOnErrorContainer">
+@android:color/system_on_error_container_dark</color>
+
+    <color
+        name="settingslib_materialColorOnPrimary">
+@android:color/system_on_primary_dark</color>
+
+    <color
+        name="settingslib_materialColorOnPrimaryContainer">
+@android:color/system_on_primary_container_dark</color>
+
+    <color
+        name="settingslib_materialColorOnSecondary">
+@android:color/system_on_secondary_dark</color>
+
+    <color
+        name="settingslib_materialColorOnSecondaryContainer">
+@android:color/system_on_secondary_container_dark</color>
+
+    <color
+        name="settingslib_materialColorOnSurface">
+@android:color/system_on_surface_dark</color>
+
+    <color
+        name="settingslib_materialColorOnSurfaceInverse">
+@android:color/system_on_surface_light</color>
+
+    <color
+        name="settingslib_materialColorOnSurfaceVariant">
+@android:color/system_on_surface_variant_dark</color>
+
+    <color
+        name="settingslib_materialColorOnTertiary">
+@android:color/system_on_tertiary_dark</color>
+
+    <color
+        name="settingslib_materialColorOnTertiaryContainer">
+@android:color/system_on_tertiary_container_dark</color>
+
+    <color
+        name="settingslib_materialColorOutline">
+@android:color/system_outline_dark</color>
+
+    <color
+        name="settingslib_materialColorOutlineVariant">
+@android:color/system_outline_variant_dark</color>
+
+    <color
+        name="settingslib_materialColorPrimary">
+@android:color/system_primary_dark</color>
+
+    <color
+        name="settingslib_materialColorPrimaryContainer">
+@android:color/system_primary_container_dark</color>
+
+    <color
+        name="settingslib_materialColorPrimaryInverse">
+@android:color/system_primary_light</color>
+
+    <color
+        name="settingslib_materialColorSecondary">
+@android:color/system_secondary_dark</color>
+
+    <color
+        name="settingslib_materialColorSecondaryContainer">
+@android:color/system_secondary_container_dark</color>
+
+    <color
+        name="settingslib_materialColorSurface">
+@android:color/system_surface_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceBright">
+@android:color/system_surface_bright_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceContainer">
+@android:color/system_surface_container_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceContainerHigh">
+@android:color/system_surface_container_high_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceContainerHighest">
+@android:color/system_surface_container_highest_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceContainerLow">
+@android:color/system_surface_container_low_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceContainerLowest">
+@android:color/system_surface_container_lowest_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceDim">
+@android:color/system_surface_dim_dark</color>
+
+    <color
+        name="settingslib_materialColorSurfaceInverse">
+@android:color/system_surface_light</color>
+
+    <color
+        name="settingslib_materialColorSurfaceVariant">
+@android:color/system_surface_variant_dark</color>
+
+    <color
+        name="settingslib_materialColorTertiary">
+@android:color/system_tertiary_dark</color>
+
+    <color
+        name="settingslib_materialColorTertiaryContainer">
+@android:color/system_tertiary_container_dark</color>
+
+    <color
+        name="settingslib_protection_color">
+@android:color/black</color>
+
+    <color
+        name="settingslib_switchbar_switch_thumb_tint">
+@android:color/black</color>
+
+    <color
+        name="settingslib_switchbar_switch_track_tint">
+#82000000</color>
+
+    <color
+        name="settingslib_text_color_primary_device_default">
+@android:color/system_on_surface_dark</color>
+
+    <color
+        name="settingslib_text_color_secondary_device_default">
+@android:color/system_on_surface_variant_dark</color>
+
+    <color
+        name="sfps_enrollment_progress_bar_bg_color">
+#ff3c4043</color>
+
+    <color
+        name="sfps_enrollment_progress_bar_error_color">
+#ffee675c</color>
+
+    <color
+        name="sfps_enrollment_progress_bar_fill_color">
+#ff669df6</color>
+
+    <color
+        name="skeleton_app_widget_background_color">
+#33ffffff</color>
+
+    <color
+        name="skeleton_color">
+#14ffffff</color>
+
+    <color
+        name="spinner_contents_text_default_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="ssw_content_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="sud_dynamic_color_accent_glif_v3">
+@color/sud_dynamic_color_accent_glif_v3_dark</color>
+
+    <color
+        name="sud_portal_pending_progress">
+@color/sud_portal_pending_progress_dark</color>
+
+    <color
+        name="sud_system_accent_icon_text_button">
+@color/sud_system_accent1_100</color>
+
+    <color
+        name="sud_system_background_surface">
+@color/sud_system_neutral1_900</color>
+
+    <color
+        name="sud_system_button_surface">
+@color/sud_system_accent1_100</color>
+
+    <color
+        name="sud_system_button_text">
+@color/sud_system_neutral1_900</color>
+
+    <color
+        name="sud_system_dividing_line">
+@color/sud_system_neutral2_700</color>
+
+    <color
+        name="sud_system_error_warning">
+@color/sud_error_warning_default_dark</color>
+
+    <color
+        name="sud_system_fallback_accent">
+@color/fallback_color_device_default_dark</color>
+
+    <color
+        name="sud_system_hyperlink_text">
+@color/sud_system_accent1_300</color>
+
+    <color
+        name="sud_system_primary_text">
+@color/sud_system_neutral1_50</color>
+
+    <color
+        name="sud_system_secondary_text">
+@color/sud_system_neutral2_200</color>
+
+    <color
+        name="sud_system_success_done">
+@color/success_color_device_default_dark</color>
+
+    <color
+        name="sud_system_surface">
+@color/sud_system_neutral1_800</color>
+
+    <color
+        name="sud_system_tertiary_text_inactive">
+@color/sud_system_neutral2_400</color>
+
+    <color
+        name="sud_uniformity_backdrop_color">
+#ff2a2b2e</color>
+
+    <color
+        name="switch_bar_state_disabled_color">
+#1fe3e3e3</color>
+
+    <color
+        name="tap_duration_time_color">
+@color/sesl_description_text_color_dark</color>
+
+    <color
+        name="taskbar_settings_style_background">
+@color/sesl_background_color_dark</color>
+
+    <color
+        name="taskbar_settings_text_color">
+#fffafaff</color>
+
+    <color
+        name="themed_badge_icon_background_color">
+@android:color/system_accent1_200</color>
+
+    <color
+        name="themed_badge_icon_color">
+@android:color/system_accent2_800</color>
+
+    <color
+        name="themed_icon_background_color">
+@android:color/system_accent2_800</color>
+
+    <color
+        name="themed_icon_color">
+@android:color/system_accent1_200</color>
+
+    <color
+        name="touchpad_settings_tips_desc_text_color">
+#fffafafa</color>
+
+    <color
+        name="touchpad_settings_tips_title_text_color">
+#fffafafa</color>
+
+    <color
+        name="udfps_enroll_icon">
+#ff7da7f1</color>
+
+    <color
+        name="udfps_enroll_progress">
+#ff7da7f1</color>
+
+    <color
+        name="udfps_enroll_progress_help">
+#607da7f1</color>
+
+    <color
+        name="udfps_moving_target_fill">
+#ff475670</color>
+
+    <color
+        name="udfps_moving_target_fill_error">
+#80475670</color>
+
+    <color
+        name="vertical_divider_color">
+#26d4d4d4</color>
+
+    <color
+        name="voice_input_dialog_content_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="voice_input_list_view_back_ground">
+#ff252525</color>
+
+    <color
+        name="weblink_color">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="wifi_ap_bottom_bar_button_ripple_color">
+#33ffffff</color>
+
+    <color
+        name="wifi_ap_bottom_bar_text_color">
+@color/sesl_text1_dark</color>
+
+    <color
+        name="wifi_ap_connected_client_icon_color">
+#ff999999</color>
+
+    <color
+        name="wifi_ap_data_limit_button_color">
+#b3fafafa</color>
+
+    <color
+        name="wifi_ap_dialog_body_text_color">
+@color/sesl_dialog_body_text_color_dark</color>
+
+    <color
+        name="wifi_ap_dialog_title_text_color">
+@color/sesl_dialog_title_text_color_dark</color>
+
+    <color
+        name="wifi_ap_edit_text_color">
+@color/sesl_edit_text_hint_color_dark</color>
+
+    <color
+        name="wifi_ap_edit_text_focused_color">
+@color/sesl_white</color>
+
+    <color
+        name="wifi_ap_graph_divider_color">
+#26d8d8d8</color>
+
+    <color
+        name="wifi_ap_graph_xy_axis_text_color">
+@color/wifi_ap_marker_text_color_1</color>
+
+    <color
+        name="wifi_ap_left_right_arrow_icon_color">
+@color/sesl_date_picker_button_tint_color_dark</color>
+
+    <color
+        name="wifi_ap_marker_text_color_1">
+#ffc6c6c6</color>
+
+    <color
+        name="wifi_ap_no_devices_text_color">
+#ffccccce</color>
+
+    <color
+        name="wifi_ap_primary_text_color">
+@color/sesl_primary_dark_color_dark</color>
+
+    <color
+        name="wifi_ap_qrcode_menu_color">
+@color/sesl_action_bar_text_color_title_dark</color>
+
+    <color
+        name="wifi_ap_qrcode_page_ssid_color">
+@color/sesl_text2_dark</color>
+
+    <color
+        name="wifi_ap_qrcode_page_summary_color">
+#ff99999e</color>
+
+    <color
+        name="wifi_ap_secondary_text_color">
+@color/sesl_secondary_text_color_dark</color>
+
+    <color
+        name="wifi_ap_seekbar_text_color">
+#ffcccccc</color>
+
+    <color
+        name="wifi_ap_settings_page_summary_color">
+#ff99999e</color>
+
+    <color
+        name="wifi_ap_sub_text_color_1">
+#ffb1b1b1</color>
+
+    <color
+        name="wifi_ap_sub_text_color_3">
+#ff999999</color>
+
+    <color
+        name="wifi_ap_theme_body_text_color">
+#ffcccccc</color>
+
+    <color
+        name="wifi_ap_theme_sub_text_color">
+#ff99999e</color>
+
+    <color
+        name="wifi_ap_title_text_color">
+#ffcccccc</color>
+
+    <color
+        name="wifi_preference_summary_color">
+@color/sesl_secondary_text_color_dark</color>
+
+    <color
+        name="wifi_preference_title_color">
+@color/sesl_primary_text_color_dark</color>
+
+    <color
+        name="basic_horizontal_divider_line_color">
+@color/sesl_switch_divider_color_dark</color>
+
+    <color
+        name="dialog_body_text_color">
+#ffe5e5e5</color>
+
+    <color
+        name="homepage_status_bar_color">
+#cc000000</color>
+
+    <color
+        name="manage_apps_list_divider_color_dark">
+#ff3a3a3d</color>
+
+    <color
+        name="notification_importance_title_disabled">
+#fffafafa</color>
+
+    <color
+        name="search_history_file_type_text_color">
+#fffafafa</color>
+
+    <color
+        name="sec_spinner_text_color">
+@color/sec_dnd_schedule_delete_button_bottom</color>
+
+    <color
+        name="settingslib_surface_dark">
+@android:color/system_neutral1_800</color>
+
+    <color
+        name="switchbar_text_color">
+@android:color/black</color>
+
 </resources>

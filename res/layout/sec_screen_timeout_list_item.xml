@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:layout_gravity="center_vertical" android:id="@id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-    <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/timeout_title" android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_title_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <RadioButton
+        android:id="@id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        android:paddingEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+    <TextView
+        android:id="@id/timeout_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="@dimen/sesl_preference_item_padding_vertical"
+        android:paddingBottom="@dimen/sesl_preference_item_padding_vertical"
+        style="@style/list_title_text_style" />
+
 </LinearLayout>

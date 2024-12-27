@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
-        <LinearLayout android:orientation="vertical" android:id="@id/image_area" android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <RelativeLayout android:id="@id/preview_layout" android:background="@drawable/sec_rounded_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true">
-                <com.samsung.android.settings.widget.SecWrapContentHeightViewPager android:id="@id/pager" android:background="@drawable/sec_rounded_view_pager_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="centerInside" android:clipToOutline="true" />
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:overScrollMode="always"
+    app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <LinearLayout
+            android:id="@id/image_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?roundedCornerColor">
+
+            <RelativeLayout
+                android:id="@id/preview_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sec_rounded_bg"
+                android:clipToOutline="true">
+
+                <com.samsung.android.settings.widget.SecWrapContentHeightViewPager
+                    android:id="@id/pager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200.0dip"
+                    android:background="@drawable/sec_rounded_view_pager_bg"
+                    android:focusable="true"
+                    android:scaleType="centerInside"
+                    android:clipToOutline="true" />
+
             </RelativeLayout>
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/point_area" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/accessibility_preview_point_area_padding_top" android:paddingBottom="@dimen/accessibility_preview_point_area_padding_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/accessibility_preview_point_area_height" android:layoutDirection="ltr" />
+
+            <LinearLayout
+                android:id="@id/point_area"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/accessibility_preview_point_area_height"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@color/sec_widget_round_and_bgcolor"
+                android:paddingTop="@dimen/accessibility_preview_point_area_padding_top"
+                android:paddingBottom="@dimen/accessibility_preview_point_area_padding_bottom"
+                android:focusable="true"
+                android:layoutDirection="ltr" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:id="@id/list_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <FrameLayout android:id="@android:id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@id/list_area"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <FrameLayout
+                android:id="@android:id/list_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

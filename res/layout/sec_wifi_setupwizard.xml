@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/contents" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/wifi_secsetup_activity_framelayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <fragment android:name="com.android.settings.wifi.WifiSettings" android:id="@id/wifi_secsetup_activity_fragment_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <include layout="@layout/loading_container" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/contents"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@id/wifi_secsetup_activity_framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <fragment
+            android:id="@id/wifi_secsetup_activity_fragment_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="com.android.settings.wifi.WifiSettings" />
+
+        <include
+            layout="@layout/loading_container" />
+
     </FrameLayout>
-    <TextView android:layout_gravity="center" android:id="@id/wifi_secsetup_activity_manual_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ssw_wifi_manual_button_margin" android:text="@string/wifi_suw_turn_off_wifi" style="@style/WifiSetupWizardButtonStyle" />
-    <TextView android:layout_gravity="center" android:id="@id/wifi_secsetup_activity_mobile_data_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_tss_data_on_button" style="@style/WifiSetupWizardButtonStyle" />
-    <View android:id="@id/bottom_margin" android:layout_width="fill_parent" android:layout_height="@dimen/sec_wifi_suw_text_button_bottom_margin" />
+
+    <TextView
+        android:id="@id/wifi_secsetup_activity_manual_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/ssw_wifi_manual_button_margin"
+        android:text="@string/wifi_suw_turn_off_wifi"
+        style="@style/WifiSetupWizardButtonStyle" />
+
+    <TextView
+        android:id="@id/wifi_secsetup_activity_mobile_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:text="@string/wifi_tss_data_on_button"
+        style="@style/WifiSetupWizardButtonStyle" />
+
+    <View
+        android:id="@id/bottom_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sec_wifi_suw_text_button_bottom_margin" />
+
 </LinearLayout>

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/sec_wifi_list_background_color" />
-    <stroke android:width="@dimen/sec_widget_settings_chunk_stroke_width" android:color="@color/sec_widget_round_and_bgcolor" />
-    <corners android:radius="@dimen/sec_widget_settings_chunk_corner_radius" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/sec_wifi_list_background_color" />
+
+    <stroke
+        android:width="@dimen/sec_widget_settings_chunk_stroke_width"
+        android:color="@color/sec_widget_round_and_bgcolor" />
+
+    <corners
+        android:radius="@dimen/sec_widget_settings_chunk_corner_radius" />
+
 </shape>

@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/main_layout" android:background="@color/sec_widget_round_and_bgcolor" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/title" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@android:color/transparent" style="@style/sec_lock_screen_help_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:clickable="false"
+    android:minHeight="?android:listPreferredItemHeightSmall">
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:backgroundTint="@android:color/transparent"
+        style="@style/sec_lock_screen_help_text_style" />
+
 </LinearLayout>

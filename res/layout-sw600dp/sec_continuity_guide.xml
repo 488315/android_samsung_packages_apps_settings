@@ -1,20 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/help_animation_container" android:background="@color/sec_widget_help_image_backgound_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.samsung.android.settings.widget.PlayPauseLottieAnimationView android:id="@id/help_animation" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/sec_widget_img_margin" android:scaleType="fitXY" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" app:lottie_autoPlay="true" app:lottie_loop="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:importantForAccessibility="yes">
+
+    <FrameLayout
+        android:id="@id/help_animation_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sec_widget_help_image_backgound_color"
+        android:focusable="true">
+
+        <com.samsung.android.settings.widget.PlayPauseLottieAnimationView
+            android:id="@id/help_animation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_margin="@dimen/sec_widget_img_margin"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="noHideDescendants"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
     </FrameLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:id="@id/help_description_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:text="@string/continuity_description_1" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
-        <TextView android:id="@id/help_description_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_nearby_device_scanning_body_text_top_padding" android:text="@string/continuity_description_1" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/ContinuityDescText2" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top" android:layout_marginStart="@dimen/sec_alert_dialog_padding_left">
-            <TextView android:layout_gravity="start" android:layout_width="@dimen/sec_continuity_desc_summary_dot_width" android:layout_height="wrap_content" android:text="@string/wifi_network_scorer_picker_description_bullet" android:importantForAccessibility="no" style="@style/ContinuityDescSummaryDot" />
-            <TextView android:gravity="start" android:id="@id/help_description_app_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continuity_samsung_internet" style="@style/ContinuityDescSummaryList" />
+
+    <LinearLayout
+        android:id="@id/description_text_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:focusable="true">
+
+        <TextView
+            android:id="@id/help_description_text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+            android:text="@string/continuity_description_1"
+            android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+            android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+            style="@style/description_text" />
+
+        <TextView
+            android:id="@id/help_description_text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sec_nearby_device_scanning_body_text_top_padding"
+            android:text="@string/continuity_description_1"
+            android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+            android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+            style="@style/ContinuityDescText2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/sec_widget_preference_unclickable_subheader_margin_top"
+            android:layout_marginStart="@dimen/sec_alert_dialog_padding_left">
+
+            <TextView
+                android:layout_width="@dimen/sec_continuity_desc_summary_dot_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/wifi_network_scorer_picker_description_bullet"
+                android:importantForAccessibility="no"
+                style="@style/ContinuityDescSummaryDot" />
+
+            <TextView
+                android:id="@id/help_description_app_text1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/continuity_samsung_internet"
+                style="@style/ContinuityDescSummaryList" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fingerprint_plus_textLineSpace" android:layout_marginStart="@dimen/sec_alert_dialog_padding_left">
-            <TextView android:layout_gravity="start" android:layout_width="@dimen/sec_continuity_desc_summary_dot_width" android:layout_height="wrap_content" android:text="@string/wifi_network_scorer_picker_description_bullet" android:importantForAccessibility="no" style="@style/ContinuityDescSummaryDot" />
-            <TextView android:gravity="start" android:id="@id/help_description_app_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continuity_samsung_notes" style="@style/ContinuityDescSummaryList" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/fingerprint_plus_textLineSpace"
+            android:layout_marginStart="@dimen/sec_alert_dialog_padding_left">
+
+            <TextView
+                android:layout_width="@dimen/sec_continuity_desc_summary_dot_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/wifi_network_scorer_picker_description_bullet"
+                android:importantForAccessibility="no"
+                style="@style/ContinuityDescSummaryDot" />
+
+            <TextView
+                android:id="@id/help_description_app_text2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/continuity_samsung_notes"
+                style="@style/ContinuityDescSummaryList" />
+
         </LinearLayout>
-        <TextView android:id="@id/help_description_text3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_nearby_device_scanning_body_text_top_padding" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
+
+        <TextView
+            android:id="@id/help_description_text3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sec_nearby_device_scanning_body_text_top_padding"
+            android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+            android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+            style="@style/description_text" />
+
     </LinearLayout>
+
 </LinearLayout>

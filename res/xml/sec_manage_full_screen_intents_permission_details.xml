@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_full_screen_intent_title" android:key="manage_full_screen_intents_permission_details"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="full_screen_intents_settings_switch" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_permit_full_screen_intent" android:selectable="false" android:key="full_screen_intents_settings_description" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/sec_full_screen_intent_title"
+    android:key="manage_full_screen_intents_permission_details">
+
+    <com.android.settings.widget.FilterTouchesSwitchPreference
+        android:title="@string/sec_special_access_detail_switch"
+        android:key="full_screen_intents_settings_switch" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_permit_full_screen_intent"
+        android:selectable="false"
+        android:key="full_screen_intents_settings_description" />
+
 </PreferenceScreen>

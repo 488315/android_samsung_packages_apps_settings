@@ -1,15 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:background="@color/sec_dark_mode_time_picker_tab_background" android:paddingTop="@dimen/sec_widget_bottom_bar_divider_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.samsung.android.settings.display.widget.SecStartEndTabLayout android:id="@id/sec_dark_mode_time_picker_tab" style="@style/SecDarkModeTimePickerTab">
-            <com.google.android.material.tabs.TabItem android:tag="@string/edit_event_start_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_start_short" />
-            <com.google.android.material.tabs.TabItem android:tag="@string/edit_event_end_short" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_end_short" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sec_dark_mode_time_picker_tab_background"
+        android:paddingTop="@dimen/sec_widget_bottom_bar_divider_padding">
+
+        <com.samsung.android.settings.display.widget.SecStartEndTabLayout
+            android:id="@id/sec_dark_mode_time_picker_tab"
+            style="@style/SecDarkModeTimePickerTab">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="@string/edit_event_start_short"
+                android:text="@string/edit_event_start_short" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="@string/edit_event_end_short"
+                android:text="@string/edit_event_end_short" />
+
         </com.samsung.android.settings.display.widget.SecStartEndTabLayout>
+
     </FrameLayout>
-    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_dark_mode_time_picker_tab_margin_bottom">
-            <androidx.picker.widget.SeslTimePicker android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="center" android:id="@id/sec_dark_mode_time_picker" android:layout_width="fill_parent" android:layout_height="@dimen/sec_dark_mode_time_picker_height" android:layout_marginTop="@dimen/sec_dark_mode_time_picker_margin_top" android:layout_marginBottom="@dimen/sec_dark_mode_time_picker_margin_bottom" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/sec_dark_mode_time_picker_tab_margin_bottom">
+
+            <androidx.picker.widget.SeslTimePicker
+                android:id="@id/sec_dark_mode_time_picker"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_dark_mode_time_picker_height"
+                android:theme="@style/Theme.AppCompat.DayNight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/sec_dark_mode_time_picker_margin_top"
+                android:layout_marginBottom="@dimen/sec_dark_mode_time_picker_margin_bottom" />
+
         </LinearLayout>
+
     </ScrollView>
+
 </LinearLayout>

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="top_level_lifestyle_dnd"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="sec_lifestyle_zen_header_preference" settings:positionMode="first_item" />
-    <PreferenceCategory android:title="@string/zen_category_behavior">
-        <SecPreference android:title="@string/zen_category_people" android:key="lifestyle_mode_behavior_people" android:fragment="com.android.settings.notification.zen.ZenModePeopleSettings" />
-        <SecPreference android:title="@string/zen_category_apps" android:key="lifestyle_mode_add_apps" android:summary="Add apps" android:fragment="com.android.settings.notification.zen.ZenModeBypassingAppsSettings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/zen_mode_settings_title"
+    android:key="top_level_lifestyle_dnd">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:key="sec_lifestyle_zen_header_preference"
+        settings:positionMode="first_item" />
+
+    <PreferenceCategory
+        android:title="@string/zen_category_behavior">
+
+        <SecPreference
+            android:title="@string/zen_category_people"
+            android:key="lifestyle_mode_behavior_people"
+            android:fragment="com.android.settings.notification.zen.ZenModePeopleSettings" />
+
+        <SecPreference
+            android:title="@string/zen_category_apps"
+            android:key="lifestyle_mode_add_apps"
+            android:summary="Add apps"
+            android:fragment="com.android.settings.notification.zen.ZenModeBypassingAppsSettings" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

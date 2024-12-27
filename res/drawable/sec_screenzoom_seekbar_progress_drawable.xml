@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center_vertical" android:height="@dimen/sec_display_setting_seek_bar_progress_drawable_height" android:start="@dimen/sec_display_setting_seek_bar_progress_drawable_padding" android:end="@dimen/sec_display_setting_seek_bar_progress_drawable_padding">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/sec_screen_zoom_seekbar_progress_drawable_solid_color" />
-            <corners android:radius="@dimen/sec_display_setting_seek_bar_progress_drawable_radius" />
-            <size android:height="@dimen/sec_display_setting_seek_bar_progress_drawable_height" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:gravity="center_vertical"
+        android:height="@dimen/sec_display_setting_seek_bar_progress_drawable_height"
+        android:start="@dimen/sec_display_setting_seek_bar_progress_drawable_padding"
+        android:end="@dimen/sec_display_setting_seek_bar_progress_drawable_padding">
+
+        <shape
+            android:shape="rectangle">
+
+            <solid
+                android:color="@color/sec_screen_zoom_seekbar_progress_drawable_solid_color" />
+
+            <corners
+                android:radius="@dimen/sec_display_setting_seek_bar_progress_drawable_radius" />
+
+            <size
+                android:height="@dimen/sec_display_setting_seek_bar_progress_drawable_height" />
+
         </shape>
+
     </item>
+
 </layer-list>

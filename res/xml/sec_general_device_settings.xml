@@ -1,42 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:icon="@drawable/sec_ic_settings_general_device_management" android:title="@string/general_device_management_title" android:key="general_settings_screen" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:keywords="@string/keywords_general_device_management_settings" settings:topLevelPreferenceKey="top_level_general"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="smart_manager_feature_category" android:order="100">
-        <SecPreferenceScreen android:title="@string/power_usage_summary_title" android:key="battery_settings">
-            <intent android:action="com.samsung.android.sm.ACTION_BATTERY" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/sec_ic_settings_general_device_management"
+    android:title="@string/general_device_management_title"
+    android:key="general_settings_screen"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:keywords="@string/keywords_general_device_management_settings"
+    settings:topLevelPreferenceKey="top_level_general">
+
+    <PreferenceCategory
+        android:key="smart_manager_feature_category"
+        android:order="100">
+
+        <SecPreferenceScreen
+            android:title="@string/power_usage_summary_title"
+            android:key="battery_settings">
+
+            <intent
+                android:action="com.samsung.android.sm.ACTION_BATTERY" />
+
         </SecPreferenceScreen>
-        <SecPreferenceScreen android:title="@string/storage_settings" android:key="storage_settings" android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment" />
-        <SecPreferenceScreen android:title="@string/memory_string" android:key="memory_settings" android:fragment="com.android.settings.applications.ProcessStatsSummary" />
+
+        <SecPreferenceScreen
+            android:title="@string/storage_settings"
+            android:key="storage_settings"
+            android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment" />
+
+        <SecPreferenceScreen
+            android:title="@string/memory_string"
+            android:key="memory_settings"
+            android:fragment="com.android.settings.applications.ProcessStatsSummary" />
+
     </PreferenceCategory>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="300" />
-    <SecPreference android:title="@string/phone_language" android:key="phone_language" android:order="400" android:fragment="com.android.settings.localepicker.LocaleListEditor" settings:controller="com.android.settings.language.PhoneLanguagePreferenceController" />
-    <SecPreference android:title="@string/app_locales_picker_menu_title" android:key="apps_language" android:summary="@string/app_locale_picker_summary" android:order="410" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:controller="com.android.settings.applications.appinfo.ManageAppLocalePreferenceController">
-        <extra android:name="classname" android:value="com.android.settings.applications.appinfo.AppLocaleDetails" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="300" />
+
+    <SecPreference
+        android:title="@string/phone_language"
+        android:key="phone_language"
+        android:order="400"
+        android:fragment="com.android.settings.localepicker.LocaleListEditor"
+        settings:controller="com.android.settings.language.PhoneLanguagePreferenceController" />
+
+    <SecPreference
+        android:title="@string/app_locales_picker_menu_title"
+        android:key="apps_language"
+        android:summary="@string/app_locale_picker_summary"
+        android:order="410"
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        settings:controller="com.android.settings.applications.appinfo.ManageAppLocalePreferenceController">
+
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.applications.appinfo.AppLocaleDetails" />
+
     </SecPreference>
-    <SecPreference android:title="@string/sec_language_pack_title" android:key="offline_langage_pack" android:summary="@string/sec_language_pack_summary" android:order="470" android:fragment="com.samsung.android.settings.languagepack.LanguagePackSettingsFragment" settings:controller="com.samsung.android.settings.languagepack.controller.LanguagePackPreferenceController" />
-    <SecPreference android:title="@string/voice_input_settings_title" android:key="voice_input" android:order="550" settings:controller="com.samsung.android.settings.voiceinput.VoiceInputPreferenceController" settings:keywords="@string/voice_input_settings_title">
-        <intent android:action="samsung.voiceinput.action.GLOBAL_VOICE_INPUT_SETTINGS" />
+
+    <SecPreference
+        android:title="@string/sec_language_pack_title"
+        android:key="offline_langage_pack"
+        android:summary="@string/sec_language_pack_summary"
+        android:order="470"
+        android:fragment="com.samsung.android.settings.languagepack.LanguagePackSettingsFragment"
+        settings:controller="com.samsung.android.settings.languagepack.controller.LanguagePackPreferenceController" />
+
+    <SecPreference
+        android:title="@string/voice_input_settings_title"
+        android:key="voice_input"
+        android:order="550"
+        settings:controller="com.samsung.android.settings.voiceinput.VoiceInputPreferenceController"
+        settings:keywords="@string/voice_input_settings_title">
+
+        <intent
+            android:action="samsung.voiceinput.action.GLOBAL_VOICE_INPUT_SETTINGS" />
+
     </SecPreference>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="600" />
-    <SecPreference android:title="@string/date_and_time_settings_title" android:key="date_time_settings" android:order="700" android:fragment="com.android.settings.datetime.DateTimeSettings" settings:controller="com.android.settings.datetime.DateTimePreferenceController" settings:keywords="@string/keywords_date_and_time_settings" />
-    <SecPreference android:title="@string/regional_preferences_title" android:key="regional_preferences" android:order="800" android:fragment="com.android.settings.regionalpreferences.RegionalPreferencesEntriesFragment" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="800" />
-    <PreferenceCategory android:title="" android:key="default_keyboard_category" android:order="850" settings:controller="com.samsung.android.settings.inputmethod.DefaultKeyboardPreferenceController" />
-    <SecPreference android:title="@string/all_keyboards_list" android:key="virtual_keyboard_pref" android:order="900" android:fragment="com.samsung.android.settings.inputmethod.VirtualKeyboardFragment" settings:keywords="@string/keywords_virtual_keyboard_category_settings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1000" />
-    <SecPreference android:title="@string/physical_keyboard_title" android:key="physical_keyboard_pref" android:summary="@string/summary_placeholder" android:order="1100" android:fragment="com.samsung.android.settings.inputmethod.PhysicalKeyboardFragment" settings:keywords="@string/keywords_physical_keyboard" />
-    <SecPreference android:title="@string/pointer_settings_category" android:key="mouse_and_trackpad_pref" android:order="1200" android:fragment="com.samsung.android.settings.inputmethod.MouseAndTrackpadSettings" settings:controller="com.samsung.android.settings.inputmethod.MouseAndTrackpadPreferenceController" />
-    <SecSwitchPreference android:title="@string/vibrate_input_devices" android:key="vibrate_input_devices" android:summary="@string/vibrate_input_devices_summary" android:order="1200" settings:controller="com.android.settings.inputmethod.GameControllerPreferenceController" settings:keywords="@string/keywords_vibrate_input_devices" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1300" />
-    <SecPreference android:persistent="false" android:title="@string/spellcheckers_settings_title" android:key="spellcheckers_settings" android:order="1400" android:fragment="com.android.settings.inputmethod.SpellCheckersSettings" />
-    <SecPreference android:title="@string/user_dict_settings_title" android:key="key_user_dictionary_settings" android:order="1600" android:fragment="com.android.settings.inputmethod.UserDictionaryList" settings:controller="com.android.settings.language.UserDictionaryPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1700" />
-    <SecPreferenceScreen android:title="@string/reset" android:key="reset_preference" android:order="1800" android:fragment="com.android.settings.system.ResetDashboardFragment" settings:controller="com.android.settings.system.ResetPreferenceController" settings:keywords="@string/keywords_reset_settings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1900" />
-    <SecPreference android:title="@string/customization_service_title" android:key="customized_apps" android:order="1930" settings:controller="com.samsung.android.settings.general.CustomizedAppsPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="1970" />
-    <SecPreferenceScreen android:title="@string/contact_us_title" android:key="device_info_contact_us" android:order="2000" settings:controller="com.samsung.android.settings.general.ContactUsPreferenceController" settings:keywords="@string/keywords_contact_us_settings" />
-    <com.android.settings.widget.WorkOnlyCategory android:title="@string/language_and_input_for_work_category_title" android:key="language_and_input_for_work_category" android:order="2100" settings:keywords="@string/keywords_work_profile_keyboards_and_tools" settings:searchable="false">
-        <SecPreference android:title="@string/virtual_keyboards_for_work_title" android:key="virtual_keyboards_for_work_pref" android:fragment="com.samsung.android.settings.inputmethod.VirtualKeyboardFragment" settings:controller="com.android.settings.inputmethod.VirtualKeyboardForWorkPreferenceController" settings:forWork="true" settings:keywords="@string/keywords_virtual_keyboard_for_work" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="600" />
+
+    <SecPreference
+        android:title="@string/date_and_time_settings_title"
+        android:key="date_time_settings"
+        android:order="700"
+        android:fragment="com.android.settings.datetime.DateTimeSettings"
+        settings:controller="com.android.settings.datetime.DateTimePreferenceController"
+        settings:keywords="@string/keywords_date_and_time_settings" />
+
+    <SecPreference
+        android:title="@string/regional_preferences_title"
+        android:key="regional_preferences"
+        android:order="800"
+        android:fragment="com.android.settings.regionalpreferences.RegionalPreferencesEntriesFragment" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="800" />
+
+    <PreferenceCategory
+        android:title=""
+        android:key="default_keyboard_category"
+        android:order="850"
+        settings:controller="com.samsung.android.settings.inputmethod.DefaultKeyboardPreferenceController" />
+
+    <SecPreference
+        android:title="@string/all_keyboards_list"
+        android:key="virtual_keyboard_pref"
+        android:order="900"
+        android:fragment="com.samsung.android.settings.inputmethod.VirtualKeyboardFragment"
+        settings:keywords="@string/keywords_virtual_keyboard_category_settings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="1000" />
+
+    <SecPreference
+        android:title="@string/physical_keyboard_title"
+        android:key="physical_keyboard_pref"
+        android:summary="@string/summary_placeholder"
+        android:order="1100"
+        android:fragment="com.samsung.android.settings.inputmethod.PhysicalKeyboardFragment"
+        settings:keywords="@string/keywords_physical_keyboard" />
+
+    <SecPreference
+        android:title="@string/pointer_settings_category"
+        android:key="mouse_and_trackpad_pref"
+        android:order="1200"
+        android:fragment="com.samsung.android.settings.inputmethod.MouseAndTrackpadSettings"
+        settings:controller="com.samsung.android.settings.inputmethod.MouseAndTrackpadPreferenceController" />
+
+    <SecSwitchPreference
+        android:title="@string/vibrate_input_devices"
+        android:key="vibrate_input_devices"
+        android:summary="@string/vibrate_input_devices_summary"
+        android:order="1200"
+        settings:controller="com.android.settings.inputmethod.GameControllerPreferenceController"
+        settings:keywords="@string/keywords_vibrate_input_devices" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="1300" />
+
+    <SecPreference
+        android:persistent="false"
+        android:title="@string/spellcheckers_settings_title"
+        android:key="spellcheckers_settings"
+        android:order="1400"
+        android:fragment="com.android.settings.inputmethod.SpellCheckersSettings" />
+
+    <SecPreference
+        android:title="@string/user_dict_settings_title"
+        android:key="key_user_dictionary_settings"
+        android:order="1600"
+        android:fragment="com.android.settings.inputmethod.UserDictionaryList"
+        settings:controller="com.android.settings.language.UserDictionaryPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="1700" />
+
+    <SecPreferenceScreen
+        android:title="@string/reset"
+        android:key="reset_preference"
+        android:order="1800"
+        android:fragment="com.android.settings.system.ResetDashboardFragment"
+        settings:controller="com.android.settings.system.ResetPreferenceController"
+        settings:keywords="@string/keywords_reset_settings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="1900" />
+
+    <SecPreference
+        android:title="@string/customization_service_title"
+        android:key="customized_apps"
+        android:order="1930"
+        settings:controller="com.samsung.android.settings.general.CustomizedAppsPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="1970" />
+
+    <SecPreferenceScreen
+        android:title="@string/contact_us_title"
+        android:key="device_info_contact_us"
+        android:order="2000"
+        settings:controller="com.samsung.android.settings.general.ContactUsPreferenceController"
+        settings:keywords="@string/keywords_contact_us_settings" />
+
+    <com.android.settings.widget.WorkOnlyCategory
+        android:title="@string/language_and_input_for_work_category_title"
+        android:key="language_and_input_for_work_category"
+        android:order="2100"
+        settings:keywords="@string/keywords_work_profile_keyboards_and_tools"
+        settings:searchable="false">
+
+        <SecPreference
+            android:title="@string/virtual_keyboards_for_work_title"
+            android:key="virtual_keyboards_for_work_pref"
+            android:fragment="com.samsung.android.settings.inputmethod.VirtualKeyboardFragment"
+            settings:controller="com.android.settings.inputmethod.VirtualKeyboardForWorkPreferenceController"
+            settings:forWork="true"
+            settings:keywords="@string/keywords_virtual_keyboard_for_work" />
+
     </com.android.settings.widget.WorkOnlyCategory>
+
 </PreferenceScreen>

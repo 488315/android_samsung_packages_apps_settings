@@ -1,24 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/legal_information" settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.aboutphone.SecMyDeviceInfoFragment" settings:topLevelPreferenceKey="top_level_about_phone"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/copyright_title" android:key="copyright" settings:controller="com.android.settings.deviceinfo.legal.CopyrightPreferenceController" />
-    <Preference android:title="@string/license_title" android:key="license" settings:controller="com.android.settings.deviceinfo.legal.LicensePreferenceController" />
-    <Preference android:title="@string/terms_title" android:key="terms" settings:controller="com.android.settings.deviceinfo.legal.TermsPreferenceController" />
-    <Preference android:title="@string/module_license_title" android:key="module_license" android:fragment="com.android.settings.deviceinfo.legal.ModuleLicensesDashboard" settings:controller="com.android.settings.deviceinfo.legal.ModuleLicensesListPreferenceController" settings:searchable="false" />
-    <Preference android:title="@string/webview_license_title" android:key="webview_license" settings:controller="com.android.settings.deviceinfo.legal.WebViewLicensePreferenceController" />
-    <SecPreference android:title="@string/parental_control_declaration_title" android:key="parental_control_declaration" android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.ParentalControlFragment" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.ParentalControlController" />
-    <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetyinfomation" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.SafetyInformationPreferenceController">
-        <intent android:action="com.samsung.safetyinformation.SAFETY_INFORMATION" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/legal_information"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.aboutphone.SecMyDeviceInfoFragment"
+    settings:topLevelPreferenceKey="top_level_about_phone">
+
+    <Preference
+        android:title="@string/copyright_title"
+        android:key="copyright"
+        settings:controller="com.android.settings.deviceinfo.legal.CopyrightPreferenceController" />
+
+    <Preference
+        android:title="@string/license_title"
+        android:key="license"
+        settings:controller="com.android.settings.deviceinfo.legal.LicensePreferenceController" />
+
+    <Preference
+        android:title="@string/terms_title"
+        android:key="terms"
+        settings:controller="com.android.settings.deviceinfo.legal.TermsPreferenceController" />
+
+    <Preference
+        android:title="@string/module_license_title"
+        android:key="module_license"
+        android:fragment="com.android.settings.deviceinfo.legal.ModuleLicensesDashboard"
+        settings:controller="com.android.settings.deviceinfo.legal.ModuleLicensesListPreferenceController"
+        settings:searchable="false" />
+
+    <Preference
+        android:title="@string/webview_license_title"
+        android:key="webview_license"
+        settings:controller="com.android.settings.deviceinfo.legal.WebViewLicensePreferenceController" />
+
+    <SecPreference
+        android:title="@string/parental_control_declaration_title"
+        android:key="parental_control_declaration"
+        android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.ParentalControlFragment"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.ParentalControlController" />
+
+    <PreferenceScreen
+        android:title="@string/settings_safetylegal_title"
+        android:key="safetyinfomation"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.SafetyInformationPreferenceController">
+
+        <intent
+            android:action="com.samsung.safetyinformation.SAFETY_INFORMATION" />
+
     </PreferenceScreen>
-    <Preference android:title="@string/rf_exposure_title" android:key="rf_exposure" android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.RFExposureFragment" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.RFExposurePreferenceController" />
-    <PreferenceScreen android:title="@string/legal_info_samsung_privacy_policy" android:key="samsung_privacy_policy" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.PrivacyPolicyPreferenceController" />
-    <Preference android:title="@string/chinese_preloaded_app_permissions_title" android:key="permissions_for_preloaded" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.ChinaPreloadedAppPermissionsPreferenceController">
-        <intent android:action="com.samsung.android.spv.ACTION_VIEW_APP_LIST" />
+
+    <Preference
+        android:title="@string/rf_exposure_title"
+        android:key="rf_exposure"
+        android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.RFExposureFragment"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.RFExposurePreferenceController" />
+
+    <PreferenceScreen
+        android:title="@string/legal_info_samsung_privacy_policy"
+        android:key="samsung_privacy_policy"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.PrivacyPolicyPreferenceController" />
+
+    <Preference
+        android:title="@string/chinese_preloaded_app_permissions_title"
+        android:key="permissions_for_preloaded"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.ChinaPreloadedAppPermissionsPreferenceController">
+
+        <intent
+            android:action="com.samsung.android.spv.ACTION_VIEW_APP_LIST" />
+
     </Preference>
-    <PreferenceScreen android:title="@string/knox_privacy_notice_title" android:key="knox_privacy_notice" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.KnoxPrivacySectionController">
-        <intent android:action="com.samsung.settings.SAMSUNG_KNOX_PRIVACY_NOTICE" />
+
+    <PreferenceScreen
+        android:title="@string/knox_privacy_notice_title"
+        android:key="knox_privacy_notice"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.KnoxPrivacySectionController">
+
+        <intent
+            android:action="com.samsung.settings.SAMSUNG_KNOX_PRIVACY_NOTICE" />
+
     </PreferenceScreen>
-    <PreferenceScreen android:title="@string/terms_and_condition" android:key="samsung_legal" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.SamsungEulaPreferenceController" />
-    <PreferenceScreen android:title="@string/chinese_wireless_regulations_title" android:key="chinese_wireless_regulations" android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.ChinaWireRegulation" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.ChinaWireRegulationPreferenceController" />
-    <Preference android:title="@string/sec_legal_phrase_version_title" android:key="legal_phrase_version" settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.SamsungLegalPhraseVersionPreferenceController" />
+
+    <PreferenceScreen
+        android:title="@string/terms_and_condition"
+        android:key="samsung_legal"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.SamsungEulaPreferenceController" />
+
+    <PreferenceScreen
+        android:title="@string/chinese_wireless_regulations_title"
+        android:key="chinese_wireless_regulations"
+        android:fragment="com.samsung.android.settings.deviceinfo.legalinfo.ChinaWireRegulation"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.ChinaWireRegulationPreferenceController" />
+
+    <Preference
+        android:title="@string/sec_legal_phrase_version_title"
+        android:key="legal_phrase_version"
+        settings:controller="com.samsung.android.settings.deviceinfo.legalinfo.SamsungLegalPhraseVersionPreferenceController" />
+
 </PreferenceScreen>

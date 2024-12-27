@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/sec_wifi_settings_qr" android:id="@id/qrcode_button" android:title="@string/sec_wifi_qrcode" app:showAsAction="always" />
-    <item android:icon="@drawable/sec_wifi_settings_quickshare" android:id="@id/quickshare_button" android:title="@string/wifi_share_network_button" app:showAsAction="always" />
-    <item android:icon="@drawable/sec_wifi_settings_forget" android:id="@id/forget_button" android:title="@string/wifi_forget" app:showAsAction="always" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/qrcode_button"
+        android:icon="@drawable/sec_wifi_settings_qr"
+        android:title="@string/sec_wifi_qrcode"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@id/quickshare_button"
+        android:icon="@drawable/sec_wifi_settings_quickshare"
+        android:title="@string/wifi_share_network_button"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@id/forget_button"
+        android:icon="@drawable/sec_wifi_settings_forget"
+        android:title="@string/wifi_forget"
+        app:showAsAction="always" />
+
 </menu>

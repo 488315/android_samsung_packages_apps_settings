@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dnd_add_apps_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/icon" android:layout_width="@dimen/dnd_add_apps_icon_width_height" android:layout_height="@dimen/dnd_add_apps_icon_width_height" android:src="@drawable/ic_dnd_add" android:layout_marginStart="@dimen/dnd_add_apps_icon_margin_start" />
-    <TextView android:textSize="@dimen/dnd_add_apps_title_text_size" android:textColor="@color/sec_dnd_schedule_add_apps_text_color" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/dnd_add_apps_title_width_height" android:text="@string/sec_high_refresh_rate_save_battery_app_add" android:layout_marginStart="@dimen/dnd_add_apps_title_margin_start" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dnd_add_apps_height"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="@dimen/dnd_add_apps_icon_width_height"
+        android:layout_height="@dimen/dnd_add_apps_icon_width_height"
+        android:src="@drawable/ic_dnd_add"
+        android:layout_marginStart="@dimen/dnd_add_apps_icon_margin_start" />
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dnd_add_apps_title_width_height"
+        android:textSize="@dimen/dnd_add_apps_title_text_size"
+        android:textColor="@color/sec_dnd_schedule_add_apps_text_color"
+        android:text="@string/sec_high_refresh_rate_save_battery_app_add"
+        android:layout_marginStart="@dimen/dnd_add_apps_title_margin_start" />
+
 </LinearLayout>

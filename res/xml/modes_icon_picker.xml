@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/zen_mode_icon_picker_title" android:key="zen_mode_icon_picker_page" settings:searchable="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/settings_entity_header" android:key="current_icon" />
-    <com.android.settings.applications.SpacePreference android:layout_height="16.0dip" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/modes_icon_list" android:selectable="false" android:key="icon_list" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/zen_mode_icon_picker_title"
+    android:key="zen_mode_icon_picker_page"
+    settings:searchable="false">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/settings_entity_header"
+        android:key="current_icon" />
+
+    <com.android.settings.applications.SpacePreference
+        android:layout_height="16.0dip" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/modes_icon_list"
+        android:selectable="false"
+        android:key="icon_list" />
+
 </PreferenceScreen>

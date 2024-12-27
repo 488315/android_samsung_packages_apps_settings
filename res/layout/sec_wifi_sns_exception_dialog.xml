@@ -1,18 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/wifi_no_internet_dialog_margin_top" android:paddingBottom="@dimen/wifi_no_internet_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/wifi_no_internet_dialog_padding_left_right" android:paddingEnd="@dimen/wifi_no_internet_dialog_padding_left_right">
-        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/wifi_no_internet_dialog_text_container_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wifi_no_internet_dialog_text_container_margin_bottom">
-            <TextView android:textSize="@dimen/sec_tips_description_text_size" android:textColor="@color/sec_widget_body_text_color" android:id="@id/wifi_sns_exception_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <TextView android:textSize="@dimen/sec_tips_description_text_size" android:textColor="@color/sec_widget_sub_body_text_color" android:id="@id/wifi_sns_exception_dialog_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_no_internet_dialog_detail_text_margin_top" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300.0sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/wifi_no_internet_dialog_margin_top"
+        android:paddingBottom="@dimen/wifi_no_internet_dialog_margin_bottom"
+        android:paddingStart="@dimen/wifi_no_internet_dialog_padding_left_right"
+        android:paddingEnd="@dimen/wifi_no_internet_dialog_padding_left_right">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/wifi_no_internet_dialog_text_container_padding_bottom"
+            android:layout_marginBottom="@dimen/wifi_no_internet_dialog_text_container_margin_bottom">
+
+            <TextView
+                android:id="@id/wifi_sns_exception_dialog_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_tips_description_text_size"
+                android:textColor="@color/sec_widget_body_text_color" />
+
+            <TextView
+                android:id="@id/wifi_sns_exception_dialog_warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_tips_description_text_size"
+                android:textColor="@color/sec_widget_sub_body_text_color"
+                android:layout_marginTop="@dimen/wifi_no_internet_dialog_detail_text_margin_top" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
-          xmlns:android="http://schemas.android.com/apk/res/android">
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?android:buttonBarStyle">
-                <Button android:textSize="@dimen/wifi_no_internet_dialog_button_text_size" android:textColor="@color/sec_widget_default_round_button_text_color" android:gravity="center" android:id="@id/connect_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_switch_to_mobile_data_exception_connect_once" android:textAllCaps="false" style="?android:buttonBarPositiveButtonStyle" />
-                <Button android:textSize="@dimen/wifi_no_internet_dialog_button_text_size" android:textColor="@color/sec_widget_default_round_button_text_color" android:gravity="center" android:id="@id/keep_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_switch_to_mobile_data_exception_keep_wifi" android:textAllCaps="false" style="?android:buttonBarPositiveButtonStyle" />
-                <Button android:textSize="@dimen/wifi_no_internet_dialog_button_text_size" android:textColor="@color/sec_widget_default_round_button_text_color" android:gravity="center" android:id="@id/switch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_switch_to_mobile_data_exception_switch_to_mobile" android:textAllCaps="false" style="?android:buttonBarPositiveButtonStyle" />
+
+        <LinearLayout
+            
+            android:id="@id/buttonPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:measureWithLargestChild="true"
+                style="?android:buttonBarStyle">
+
+                <Button
+                    android:id="@id/connect_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/wifi_no_internet_dialog_button_text_size"
+                    android:textColor="@color/sec_widget_default_round_button_text_color"
+                    android:gravity="center"
+                    android:text="@string/wifi_switch_to_mobile_data_exception_connect_once"
+                    android:textAllCaps="false"
+                    style="?android:buttonBarPositiveButtonStyle" />
+
+                <Button
+                    android:id="@id/keep_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/wifi_no_internet_dialog_button_text_size"
+                    android:textColor="@color/sec_widget_default_round_button_text_color"
+                    android:gravity="center"
+                    android:text="@string/wifi_switch_to_mobile_data_exception_keep_wifi"
+                    android:textAllCaps="false"
+                    style="?android:buttonBarPositiveButtonStyle" />
+
+                <Button
+                    android:id="@id/switch_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/wifi_no_internet_dialog_button_text_size"
+                    android:textColor="@color/sec_widget_default_round_button_text_color"
+                    android:gravity="center"
+                    android:text="@string/wifi_switch_to_mobile_data_exception_switch_to_mobile"
+                    android:textAllCaps="false"
+                    style="?android:buttonBarPositiveButtonStyle" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>

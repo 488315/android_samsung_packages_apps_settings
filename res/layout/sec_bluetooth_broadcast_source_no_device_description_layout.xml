@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/sec_bluetooth_auracast_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_bluetooth_srouce_no_device_description_start_end_padding" android:paddingEnd="@dimen/sec_bluetooth_srouce_no_device_description_start_end_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/sec_bluetooth_source_no_device_description_text_size" android:textColor="@color/sec_bluetooth_auracast_no_device_description_text_color" android:id="@id/no_device_description_text" android:background="@color/sec_bluetooth_auracast_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_no_device_description" android:fontFamily="sec" android:textAlignment="textStart" android:textFontWeight="400" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sec_bluetooth_auracast_background_color"
+    android:paddingStart="@dimen/sec_bluetooth_srouce_no_device_description_start_end_padding"
+    android:paddingEnd="@dimen/sec_bluetooth_srouce_no_device_description_start_end_padding">
+
+    <TextView
+        android:id="@id/no_device_description_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sec_bluetooth_source_no_device_description_text_size"
+        android:textColor="@color/sec_bluetooth_auracast_no_device_description_text_color"
+        android:background="@color/sec_bluetooth_auracast_background_color"
+        android:text="@string/sec_auracast_no_device_description"
+        android:fontFamily="sec"
+        android:textAlignment="textStart"
+        android:textFontWeight="400" />
+
 </LinearLayout>

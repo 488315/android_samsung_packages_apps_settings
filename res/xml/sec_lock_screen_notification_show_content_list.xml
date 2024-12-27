@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_lockscreen_notifications_apps_that_can_show_content" android:key="apps_that_can_show_content" app:hierarchicalParentFragment="com.samsung.android.settings.lockscreen.LockScreenNotificationSettings" app:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_lockscreen_notifications_apps_that_can_show_content_description" android:key="apps_that_can_show_content_description" />
-    <PreferenceCategory android:key="apps_that_can_show_content_category" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_lockscreen_notifications_apps_that_can_show_content"
+    android:key="apps_that_can_show_content"
+    app:hierarchicalParentFragment="com.samsung.android.settings.lockscreen.LockScreenNotificationSettings"
+    app:topLevelPreferenceKey="top_level_notifications">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_lockscreen_notifications_apps_that_can_show_content_description"
+        android:key="apps_that_can_show_content_description" />
+
+    <PreferenceCategory
+        android:key="apps_that_can_show_content_category" />
+
 </PreferenceScreen>

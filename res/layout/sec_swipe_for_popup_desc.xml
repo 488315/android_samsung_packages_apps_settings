@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/help_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_swpie_for_popup_view_summary" android:layout_marginStart="@dimen/sec_widget_body_text_margin_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_margin_start_end" style="@style/description_text" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/description_text_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:focusable="true">
+
+    <TextView
+        android:id="@id/help_description_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sec_swpie_for_popup_view_summary"
+        android:layout_marginStart="@dimen/sec_widget_body_text_margin_start_end"
+        android:layout_marginEnd="@dimen/sec_widget_body_text_margin_start_end"
+        style="@style/description_text" />
+
 </LinearLayout>

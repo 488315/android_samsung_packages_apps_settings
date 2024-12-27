@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/location_category_recent_location_access" android:key="all_recent_location_access" settings:controller="com.android.settings.location.RecentLocationAccessSeeAllPreferenceController" settings:hierarchicalParentFragment="com.android.settings.location.LocationSettings"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/location_category_recent_location_access"
+    android:key="all_recent_location_access"
+    settings:controller="com.android.settings.location.RecentLocationAccessSeeAllPreferenceController"
+    settings:hierarchicalParentFragment="com.android.settings.location.LocationSettings" />

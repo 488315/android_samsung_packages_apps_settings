@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Spinner android:textColor="@color/sec_sub_app_bar_text_color" android:id="@id/profile_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingStart="@dimen/user_spinner_padding" android:layout_marginStart="?android:listPreferredItemPaddingStart" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:id="@id/profile_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sec_sub_app_bar_text_color"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/user_spinner_padding"
+        android:layout_marginStart="?android:listPreferredItemPaddingStart" />
+
 </LinearLayout>

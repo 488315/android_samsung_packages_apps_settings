@@ -1,21 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <TextView android:textSize="30.0dip" android:textColor="@color/sec_widget_body_text_color" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:minHeight="160.0dip" android:text="@string/protection_timer_title" android:layout_alignParentTop="true" android:fontFamily="sec" android:layout_marginHorizontal="20.0dip" android:textFontWeight="600" />
-        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" android:layout_alignParentBottom="true" android:layout_marginHorizontal="32.0dip">
-            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/protection_timer_description" style="@style/description_text" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30.0dip"
+            android:textColor="@color/sec_widget_body_text_color"
+            android:gravity="center"
+            android:layout_marginTop="60.0dip"
+            android:minHeight="160.0dip"
+            android:text="@string/protection_timer_title"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sec"
+            android:layout_marginHorizontal="20.0dip"
+            android:textFontWeight="600" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:layout_below="@id/title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="32.0dip">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@id/description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30.0dip"
+                    android:text="@string/protection_timer_description"
+                    style="@style/description_text" />
+
             </ScrollView>
+
         </LinearLayout>
+
     </RelativeLayout>
-    <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <com.samsung.android.settings.theftprotection.timer.ProtectionTimerTimeView android:id="@id/timer_time_view" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/timer_time_view" android:alpha="0.4">
-                <ImageView android:id="@id/timer_end_time_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_timer_alarm" />
-                <TextView android:textSize="@dimen/protection_timer_end_time_text_size" android:textColor="@color/protection_timer_end_time_text_color" android:id="@id/timer_end_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:layout_marginStart="@dimen/protection_timer_end_time_text_margin_start" android:textFontWeight="400" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.samsung.android.settings.theftprotection.timer.ProtectionTimerTimeView
+                android:id="@id/timer_time_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="16.0dip"
+                android:layout_below="@id/timer_time_view"
+                android:alpha="0.4">
+
+                <ImageView
+                    android:id="@id/timer_end_time_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_timer_alarm" />
+
+                <TextView
+                    android:id="@id/timer_end_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/protection_timer_end_time_text_size"
+                    android:textColor="@color/protection_timer_end_time_text_color"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="@dimen/protection_timer_end_time_text_margin_start"
+                    android:textFontWeight="400" />
+
             </LinearLayout>
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

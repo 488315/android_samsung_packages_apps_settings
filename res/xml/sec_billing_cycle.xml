@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/billing_cycle"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreference android:title="@string/app_usage_cycle" android:key="billing_cycle" settings:controller="com.samsung.android.settings.datausage.SecBillingCycleController" />
-    <SecPreferenceCategory android:title="@string/sec_header_category_mobile" android:key="billing_cycle_mobile_category" settings:searchable="false" />
-    <SecSwitchPreference android:title="@string/set_data_warning" android:key="set_data_warning" settings:controller="com.samsung.android.settings.datausage.SecSetDataWarningController" />
-    <SecPreference android:title="@string/data_warning" android:key="data_warning" settings:controller="com.samsung.android.settings.datausage.SecDataWarningController" />
-    <SecSwitchPreference android:title="@string/set_data_limit" android:key="set_data_limit" android:summary="@string/data_usage_limit_summary" settings:controller="com.samsung.android.settings.datausage.SecSetDataLimitController" />
-    <SecPreference android:title="@string/data_limit" android:key="data_limit" settings:controller="com.samsung.android.settings.datausage.SecDataLimitController" />
-    <SecPreferenceCategory android:title="@string/sec_header_category_tethering" android:key="billing_cycle_tethering_category" settings:searchable="false" />
-    <SecSwitchPreference android:title="@string/set_data_warning" android:key="set_tethering_data_warning" settings:controller="com.samsung.android.settings.datausage.SecSetTetheringDataWarningController" />
-    <SecPreference android:title="@string/data_warning" android:key="tethering_data_warning" settings:controller="com.samsung.android.settings.datausage.SecTetheringDataWarningController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/billing_cycle">
+
+    <SecPreference
+        android:title="@string/app_usage_cycle"
+        android:key="billing_cycle"
+        settings:controller="com.samsung.android.settings.datausage.SecBillingCycleController" />
+
+    <SecPreferenceCategory
+        android:title="@string/sec_header_category_mobile"
+        android:key="billing_cycle_mobile_category"
+        settings:searchable="false" />
+
+    <SecSwitchPreference
+        android:title="@string/set_data_warning"
+        android:key="set_data_warning"
+        settings:controller="com.samsung.android.settings.datausage.SecSetDataWarningController" />
+
+    <SecPreference
+        android:title="@string/data_warning"
+        android:key="data_warning"
+        settings:controller="com.samsung.android.settings.datausage.SecDataWarningController" />
+
+    <SecSwitchPreference
+        android:title="@string/set_data_limit"
+        android:key="set_data_limit"
+        android:summary="@string/data_usage_limit_summary"
+        settings:controller="com.samsung.android.settings.datausage.SecSetDataLimitController" />
+
+    <SecPreference
+        android:title="@string/data_limit"
+        android:key="data_limit"
+        settings:controller="com.samsung.android.settings.datausage.SecDataLimitController" />
+
+    <SecPreferenceCategory
+        android:title="@string/sec_header_category_tethering"
+        android:key="billing_cycle_tethering_category"
+        settings:searchable="false" />
+
+    <SecSwitchPreference
+        android:title="@string/set_data_warning"
+        android:key="set_tethering_data_warning"
+        settings:controller="com.samsung.android.settings.datausage.SecSetTetheringDataWarningController" />
+
+    <SecPreference
+        android:title="@string/data_warning"
+        android:key="tethering_data_warning"
+        settings:controller="com.samsung.android.settings.datausage.SecTetheringDataWarningController" />
+
 </PreferenceScreen>

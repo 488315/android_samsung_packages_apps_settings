@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="12.0dip" android:insetRight="12.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ripple android:color="?colorControlHighlight">
-        <item android:id="@android:id/mask">
-            <shape android:shape="rectangle">
-                <corners android:radius="8.0dip" />
-                <solid android:color="@android:color/white" />
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="12.0dip"
+    android:insetRight="12.0dip">
+
+    <ripple
+        android:color="?colorControlHighlight">
+
+        <item
+            android:id="@android:id/mask">
+
+            <shape
+                android:shape="rectangle">
+
+                <corners
+                    android:radius="8.0dip" />
+
+                <solid
+                    android:color="@android:color/white" />
+
             </shape>
+
         </item>
+
         <item>
-            <shape android:shape="rectangle">
-                <corners android:radius="8.0dip" />
-                <solid android:color="@color/sec_widget_default_round_button_bg_color" />
+
+            <shape
+                android:shape="rectangle">
+
+                <corners
+                    android:radius="8.0dip" />
+
+                <solid
+                    android:color="@color/sec_widget_default_round_button_bg_color" />
+
             </shape>
+
         </item>
+
     </ripple>
+
 </inset>

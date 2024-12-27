@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fragment android:name="com.samsung.android.settings.password.SetupChooseLockGenericForNoneGoogle$SetupChooseLockGenericForNoneGoogleFragment" android:id="@id/protect_your_phone_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@id/protect_your_phone_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:name="com.samsung.android.settings.password.SetupChooseLockGenericForNoneGoogle$SetupChooseLockGenericForNoneGoogleFragment" />
+
 </LinearLayout>

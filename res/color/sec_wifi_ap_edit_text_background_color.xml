@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_focused="true" android:color="@color/wifi_ap_edit_text_focused_color" />
-    <item android:color="@color/wifi_ap_edit_text_color" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:color="@color/wifi_ap_edit_text_focused_color" />
+
+    <item
+        android:color="@color/wifi_ap_edit_text_color" />
+
 </selector>

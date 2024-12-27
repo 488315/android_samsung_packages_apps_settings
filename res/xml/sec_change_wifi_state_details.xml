@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/change_wifi_state_title" android:key="change_wifi_state"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="app_ops_settings_switch" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/change_wifi_state_app_detail_summary" android:selectable="false" android:key="app_ops_settings_preference" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/change_wifi_state_title"
+    android:key="change_wifi_state">
+
+    <com.android.settings.widget.FilterTouchesSwitchPreference
+        android:title="@string/sec_special_access_detail_switch"
+        android:key="app_ops_settings_switch" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/change_wifi_state_app_detail_summary"
+        android:selectable="false"
+        android:key="app_ops_settings_preference" />
+
 </PreferenceScreen>

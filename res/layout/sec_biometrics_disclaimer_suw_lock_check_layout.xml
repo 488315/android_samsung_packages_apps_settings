@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:id="@id/biometrics_disclaimer" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_width="@dimen/sec_biometrics_disclaimer_lock_image_width" android:layout_height="@dimen/sec_biometrics_disclaimer_lock_image_height" android:src="@drawable/sec_biometric_lock_help" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/biometrics_disclaimer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/sec_biometrics_disclaimer_lock_image_width"
+        android:layout_height="@dimen/sec_biometrics_disclaimer_lock_image_height"
+        android:src="@drawable/sec_biometric_lock_help" />
+
 </LinearLayout>

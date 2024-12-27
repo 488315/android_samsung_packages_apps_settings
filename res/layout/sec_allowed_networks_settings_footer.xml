@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:orientation="horizontal" />
+
 </FrameLayout>

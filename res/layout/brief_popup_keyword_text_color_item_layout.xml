@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/text_item_root" android:background="?android:selectableItemBackground" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/brief_popup_keyword_text_item_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/text_name" android:background="@null" android:paddingTop="@dimen/brief_popup_keyword_text_item_view_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="50" android:inputType="text" android:imeOptions="actionDone" android:layout_marginStart="@dimen/brief_popup_sample_divider_margin_start" android:layout_marginEnd="@dimen/brief_popup_keyword_text_item_view_margin_end" android:layout_alignParentStart="true" />
-    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/brief_popup_edit_wrong_text_size" android:textColor="@color/brief_popup_edit_keyword_text_delete_icon_color" android:ellipsize="end" android:id="@id/text_wrong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/text_name" android:layout_marginStart="@dimen/brief_popup_sample_divider_margin_start" android:layout_marginEnd="@dimen/brief_popup_keyword_text_item_view_margin_end" />
-    <Button android:id="@id/delete_icon" android:background="@drawable/tw_list_icon_delete_mtrl" android:layout_width="@dimen/brief_popup_edit_text_button_size" android:layout_height="@dimen/brief_popup_edit_text_button_size" android:layout_centerVertical="true" android:contentDescription="@string/brief_popup_remove" android:layout_marginStart="@dimen/brief_popup_keyword_text_item_color_icon_start_margin" android:layout_marginEnd="@dimen/brief_popup_edit_text_margin_end" android:layout_alignParentEnd="true" android:backgroundTint="@color/brief_popup_edit_keyword_text_delete_icon_color" />
-    <Button android:id="@id/text_color_icon" android:background="@drawable/brief_popup_keyword_text_color_icon_bg" android:layout_width="@dimen/brief_popup_keyword_text_item_app_color_icon_size" android:layout_height="@dimen/brief_popup_keyword_text_item_app_color_icon_size" android:layout_centerVertical="true" android:contentDescription="@string/brief_popup_color_picker" android:layout_toStartOf="@id/delete_icon" />
-    <View android:id="@id/normal_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/brief_popup_keyword_text_item_divider_margin" android:layout_marginEnd="@dimen/brief_popup_keyword_text_item_divider_margin" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/text_item_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:focusable="false">
+
+    <EditText
+        android:id="@id/text_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceListItem"
+        android:textSize="@dimen/brief_popup_keyword_text_item_text_size"
+        android:textColor="?android:textColorPrimary"
+        android:ellipsize="end"
+        android:background="@null"
+        android:paddingTop="@dimen/brief_popup_keyword_text_item_view_padding_top_bottom"
+        android:maxLines="1"
+        android:maxLength="50"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_marginStart="@dimen/brief_popup_sample_divider_margin_start"
+        android:layout_marginEnd="@dimen/brief_popup_keyword_text_item_view_margin_end"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@id/text_wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceListItem"
+        android:textSize="@dimen/brief_popup_edit_wrong_text_size"
+        android:textColor="@color/brief_popup_edit_keyword_text_delete_icon_color"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_below="@id/text_name"
+        android:layout_marginStart="@dimen/brief_popup_sample_divider_margin_start"
+        android:layout_marginEnd="@dimen/brief_popup_keyword_text_item_view_margin_end" />
+
+    <Button
+        android:id="@id/delete_icon"
+        android:layout_width="@dimen/brief_popup_edit_text_button_size"
+        android:layout_height="@dimen/brief_popup_edit_text_button_size"
+        android:background="@drawable/tw_list_icon_delete_mtrl"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/brief_popup_remove"
+        android:layout_marginStart="@dimen/brief_popup_keyword_text_item_color_icon_start_margin"
+        android:layout_marginEnd="@dimen/brief_popup_edit_text_margin_end"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/brief_popup_edit_keyword_text_delete_icon_color" />
+
+    <Button
+        android:id="@id/text_color_icon"
+        android:layout_width="@dimen/brief_popup_keyword_text_item_app_color_icon_size"
+        android:layout_height="@dimen/brief_popup_keyword_text_item_app_color_icon_size"
+        android:background="@drawable/brief_popup_keyword_text_color_icon_bg"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/brief_popup_color_picker"
+        android:layout_toStartOf="@id/delete_icon" />
+
+    <View
+        android:id="@id/normal_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="?android:listDivider"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/brief_popup_keyword_text_item_divider_margin"
+        android:layout_marginEnd="@dimen/brief_popup_keyword_text_item_divider_margin" />
+
 </RelativeLayout>

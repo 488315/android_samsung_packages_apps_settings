@@ -1,683 +1,2448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d mínútur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d mínúta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d sekúndur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekúnda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d skyndiminni forrita (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d skyndiminni forrita (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Viltu setja %d forrit í geymslu?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Viltu setja %d forrit í geymslu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Setja %1$d forrit í geymslu (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Setja %1$d forrit í geymslu (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Viltu hreinsa skyndiminni fyrir %d forrit?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Viltu hreinsa skyndiminni fyrir %d forrit?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Hreinsa %1$d skyndim. (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Hreinsa %1$d skyndim. (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">Valið: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Valið: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Losaðu %1$s af plássi með því að setja %2$d ónotuð forrit í geymslu. Persónuupplýsingarnar þínar og stillingar verða vistaðar.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Losaðu %1$s af plássi með því að setja %2$d ónotað forrit í geymslu. Persónuupplýsingarnar þínar og stillingar verða vistaðar.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Fjarlægja %d forrit?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Fjarlægja %d forrit?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Fjarlægja %1$d forrit (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Fjarlægja %1$d forrit (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d ónotuð forrit (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d ónotað forrit (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Nettengingu er deilt með %d tækjum.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nettengingu er deilt með %d tæki.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d forrit</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d forrit</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d dagar</item>
-        <item quantity="one">1 dagur</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d klukkustundir</item>
-        <item quantity="one">1 klst.</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d mínútur</item>
-        <item quantity="one">1 mínúta</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d sekúndur</item>
-        <item quantity="one">1 sekúnda</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d vikur</item>
-        <item quantity="one">1 vika</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d forrit</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d forrit</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d klukkustundir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d klukkustund</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d mínútur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d mínúta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d sekúndur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekúnda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Ef þú eyðir þessum stöðum verður alltaf gerð krafa um lífkenni og öryggistöf þegar þú breytir viðkvæmum stillingum.</item>
-        <item quantity="one">Ef þú eyðir þessum stað verður alltaf gerð krafa um lífkenni og öryggistöf þegar þú breytir viðkvæmum stillingum.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Viltu eyða %d stöðum?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Viltu eyða %d stað?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d valin</item>
-        <item quantity="one">Eitt valið</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">„%1$s“ og %2$d í viðbót</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">„%1$s“ og %2$d í viðbót</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Ekki er hægt að slá inn fleiri en %d stafi.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ekki er hægt að slá inn fleiri en %d staf.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Ekkert minni notað síðustu %d klukkustundir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ekkert minni notað síðustu %d klukkustund</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d tilkynningar</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tilkynning</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Fá áminningu á %d mínútna fresti um tilkynningar fyrir valin forrit</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Fá áminningu á %d mínútu fresti um tilkynningar fyrir valin forrit</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Allt að %d forrit</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Allt að %d forrit</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s og %2$d önnur forrit nota lykilnúmer og slá inn lykilorð og aðrar upplýsingar sjálfkrafa.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s og %2$d annað forrit nota lykilnúmer og slá inn lykilorð og aðrar upplýsingar sjálfkrafa.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">Heimildin „%1$s“ var notuð af %2$d forritum</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Heimildin „%1$s“ var notuð af %2$d forriti</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d aðgengiseiginleikar í notkun</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aðgengiseiginleiki í notkun</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d forrit</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d forrit</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Fjarlægja %d tungumál?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Fjarlægja %d tungumál?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d forrit hafa fullan aðgang að símanum þínum</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d forrit hefur fullan aðgang að símanum þínum</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Slökkt verður sjálfkrafa á símanum eftir %d sekúndur. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á símanum.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Slökkt verður sjálfkrafa á símanum eftir %d sekúndu. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á símanum.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Slökkt verður sjálfkrafa á spjaldtölvunni eftir %d sekúndur. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á spjaldtölvunni.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Slökkt verður sjálfkrafa á spjaldtölvunni eftir %d sekúndu. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á spjaldtölvunni.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Á %d klukkustunda fresti</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Á %d klukkustundar fresti</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Lykilorðið þitt verður að innihalda a.m.k. %d stafi, þar á meðal minnst 1 bókstaf.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Lykilorðið þitt verður að innihalda a.m.k. %d staf, þar á meðal minnst 1 bókstaf.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">PIN-númerið þitt verður að innihalda minnst %d tölustafi.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">PIN-númerið þitt verður að innihalda minnst %d tölustaf.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Reyndu aftur eftir 1 klukkustund og %d mínútur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Reyndu aftur eftir 1 klukkustund og %d mínútu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Reyndu aftur eftir %d klukkustundir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Reyndu aftur eftir %d klukkustund</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Reyndu aftur eftir %d klukkustundir og 1 mínútu</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Reyndu aftur eftir %d klukkustund og 1 mínútu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Reyndu aftur eftir %d mínútur</item>
-        <item quantity="one">Reyndu aftur eftir %d mínútu</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Reyndu aftur eftir %d sekúndur</item>
-        <item quantity="one">Reyndu aftur eftir %d sekúndu</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Ekki er hægt að kveikja á meira en %d viðbótarþjónustum.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ekki er hægt að kveikja á meira en %d viðbótarþjónustu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d tengiliðir leyfðir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tengiliður leyfður</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%d fingraförum bætt við</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d fingrafari bætt við</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s og %3$d forrit í viðbót</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s og %3$d forrit í viðbót</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Rangt lykilorð. %d tilraunir eftir.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Rangt lykilorð. %d tilraun eftir.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Rangt mynstur. %d tilraunir eftir.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Rangt mynstur. %d tilraun eftir.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Rangt PIN-númer. %d tilraunir eftir.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Rangt PIN-númer. %d tilraun eftir.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Þú verður að hafa náð minnst %d ára aldri til að nota háþróaða gervigreindareiginleika Galaxy AI.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Þú verður að hafa náð minnst %d árs aldri til að nota háþróaða gervigreindareiginleika Galaxy AI.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Lykilorðið verður að innihalda minnst %d stafi.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Lykilorðið verður að innihalda minnst %d staf.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Lykilorð verður að innihalda minnst %d lágstafi.</item>
-        <item quantity="one">Lykilorð verður að innihalda minnst 1 lágstaf.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Lykilorð verður að innihalda minnst %d tölur eða tákn.</item>
-        <item quantity="one">Lykilorð verður að innihalda minnst eina tölu eða tákn.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Lykilorð verður að innihalda minnst %d tölustafi.</item>
-        <item quantity="one">Lykilorð verður að innihalda minnst 1 tölustaf.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Lykilorð verður að innihalda minnst %d tákn.</item>
-        <item quantity="one">Lykilorð verður að innihalda minnst eitt tákn.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Lykilorð verður að innihalda minnst %d hástafi.</item>
-        <item quantity="one">Lykilorð verður að innihalda minnst 1 hástaf.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">%d tillögur í viðbót</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tillaga í viðbót</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d virk forrit</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d virkt forrit</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Viltu eyða %d tungumálapökkum?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Viltu eyða %d tungumálapakka?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d raddir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d rödd</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d viðbótarheimildir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d viðbótarheimild</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Þú ert %d pikkum frá því að verða þróunaraðili.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Þú ert %d pikki frá því að verða þróunaraðili.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">Valið: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Valið: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%d spilliforrit fundust</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d spilliforrit fannst</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">%d spilliforrit fundust í símanum. Fjarlægðu þessi forrit til að halda símanum öruggum.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d spilliforrit fannst í símanum. Fjarlægðu þetta forrit til að halda símanum öruggum.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">%d spilliforrit fundust í spjaldtölvunni. Fjarlægðu þessi forrit til að halda spjaldtölvunni öruggri.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d spilliforrit fannst í spjaldtölvunni. Fjarlægðu þetta forrit til að halda spjaldtölvunni öruggri.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d tillögur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tillaga</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d viðvaranir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d viðvörun</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Svefntími: %d klukkustundir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Svefntími: %d klukkustund</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Svefntími: %d mínútur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Svefntími: %d mínúta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Afritaðu ótakmarkað gagnamagn yfir í %1$s í allt að %2$d daga eða endurheimtu gögn sem þú hefur tekið öryggisafrit af.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Afritaðu ótakmarkað gagnamagn yfir í %1$s í allt að %2$d dag eða endurheimtu gögn sem þú hefur tekið öryggisafrit af.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Þessi prófun verður endurstillt eftir %d sekúndur.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Þessi prófun verður endurstillt eftir %d sekúndu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d tæki tengd</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tæki tengt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn eða Wi-Fi tengingu símans til að fá aðgang að internetinu.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn eða Wi-Fi tengingu símans til að fá aðgang að internetinu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn símans til að fá aðgang að internetinu.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn símans til að fá aðgang að internetinu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn spjaldtölvunnar til að fá aðgang að internetinu.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn spjaldtölvunnar til að fá aðgang að internetinu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn eða Wi-Fi tengingu spjaldtölvunnar til að fá aðgang að internetinu.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn eða Wi-Fi tengingu spjaldtölvunnar til að fá aðgang að internetinu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d meðlimir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d meðlimur</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Viltu eyða %d netkerfum?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Viltu eyða %d netkerfi?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">Valið: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Valið: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraunir eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraun eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">%d tilraunir hafa verið gerðar til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraunir eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraun eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">%d tilraunir hafa verið gerðar til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d klukkustundir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d klukkustund</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d mínútur</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d mínúta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d mínútur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d mínúta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d sekúndur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekúnda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d skyndiminni forrita (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d skyndiminni forrita (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Viltu setja %d forrit í geymslu?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Viltu setja %d forrit í geymslu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Setja %1$d forrit í geymslu (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Setja %1$d forrit í geymslu (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Viltu hreinsa skyndiminni fyrir %d forrit?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Viltu hreinsa skyndiminni fyrir %d forrit?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Hreinsa %1$d skyndim. (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Hreinsa %1$d skyndim. (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+Valið: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Valið: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Losaðu %1$s af plássi með því að setja %2$d ónotuð forrit í geymslu. Persónuupplýsingarnar þínar og stillingar verða vistaðar.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Losaðu %1$s af plássi með því að setja %2$d ónotað forrit í geymslu. Persónuupplýsingarnar þínar og stillingar verða vistaðar.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Fjarlægja %d forrit?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Fjarlægja %d forrit?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Fjarlægja %1$d forrit (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Fjarlægja %1$d forrit (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d ónotuð forrit (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d ónotað forrit (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Nettengingu er deilt með %d tækjum.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nettengingu er deilt með %d tæki.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d forrit</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d forrit</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d dagar</item>
+
+        <item
+            quantity="one">
+1 dagur</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d klukkustundir</item>
+
+        <item
+            quantity="one">
+1 klst.</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d mínútur</item>
+
+        <item
+            quantity="one">
+1 mínúta</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d sekúndur</item>
+
+        <item
+            quantity="one">
+1 sekúnda</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d vikur</item>
+
+        <item
+            quantity="one">
+1 vika</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d forrit</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d forrit</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d klukkustundir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d klukkustund</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d mínútur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d mínúta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d sekúndur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekúnda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Ef þú eyðir þessum stöðum verður alltaf gerð krafa um lífkenni og öryggistöf þegar þú breytir viðkvæmum stillingum.</item>
+
+        <item
+            quantity="one">
+Ef þú eyðir þessum stað verður alltaf gerð krafa um lífkenni og öryggistöf þegar þú breytir viðkvæmum stillingum.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Viltu eyða %d stöðum?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Viltu eyða %d stað?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d valin</item>
+
+        <item
+            quantity="one">
+Eitt valið</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+„%1$s“ og %2$d í viðbót</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+„%1$s“ og %2$d í viðbót</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Ekki er hægt að slá inn fleiri en %d stafi.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ekki er hægt að slá inn fleiri en %d staf.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Ekkert minni notað síðustu %d klukkustundir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ekkert minni notað síðustu %d klukkustund</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d tilkynningar</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tilkynning</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Fá áminningu á %d mínútna fresti um tilkynningar fyrir valin forrit</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Fá áminningu á %d mínútu fresti um tilkynningar fyrir valin forrit</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Allt að %d forrit</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Allt að %d forrit</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s og %2$d önnur forrit nota lykilnúmer og slá inn lykilorð og aðrar upplýsingar sjálfkrafa.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s og %2$d annað forrit nota lykilnúmer og slá inn lykilorð og aðrar upplýsingar sjálfkrafa.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+Heimildin „%1$s“ var notuð af %2$d forritum</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Heimildin „%1$s“ var notuð af %2$d forriti</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d aðgengiseiginleikar í notkun</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aðgengiseiginleiki í notkun</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d forrit</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d forrit</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Fjarlægja %d tungumál?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Fjarlægja %d tungumál?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d forrit hafa fullan aðgang að símanum þínum</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d forrit hefur fullan aðgang að símanum þínum</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Slökkt verður sjálfkrafa á símanum eftir %d sekúndur. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á símanum.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Slökkt verður sjálfkrafa á símanum eftir %d sekúndu. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á símanum.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Slökkt verður sjálfkrafa á spjaldtölvunni eftir %d sekúndur. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á spjaldtölvunni.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Slökkt verður sjálfkrafa á spjaldtölvunni eftir %d sekúndu. Pikkaðu á „Hætta við“ ef þú vilt áfram hafa kveikt á spjaldtölvunni.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Á %d klukkustunda fresti</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Á %d klukkustundar fresti</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Lykilorðið þitt verður að innihalda a.m.k. %d stafi, þar á meðal minnst 1 bókstaf.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Lykilorðið þitt verður að innihalda a.m.k. %d staf, þar á meðal minnst 1 bókstaf.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+PIN-númerið þitt verður að innihalda minnst %d tölustafi.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+PIN-númerið þitt verður að innihalda minnst %d tölustaf.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Reyndu aftur eftir 1 klukkustund og %d mínútur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Reyndu aftur eftir 1 klukkustund og %d mínútu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Reyndu aftur eftir %d klukkustundir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Reyndu aftur eftir %d klukkustund</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Reyndu aftur eftir %d klukkustundir og 1 mínútu</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Reyndu aftur eftir %d klukkustund og 1 mínútu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Reyndu aftur eftir %d mínútur</item>
+
+        <item
+            quantity="one">
+Reyndu aftur eftir %d mínútu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Reyndu aftur eftir %d sekúndur</item>
+
+        <item
+            quantity="one">
+Reyndu aftur eftir %d sekúndu</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Ekki er hægt að kveikja á meira en %d viðbótarþjónustum.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ekki er hægt að kveikja á meira en %d viðbótarþjónustu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d tengiliðir leyfðir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tengiliður leyfður</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%d fingraförum bætt við</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d fingrafari bætt við</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s og %3$d forrit í viðbót</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s og %3$d forrit í viðbót</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Rangt lykilorð. %d tilraunir eftir.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Rangt lykilorð. %d tilraun eftir.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Rangt mynstur. %d tilraunir eftir.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Rangt mynstur. %d tilraun eftir.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Rangt PIN-númer. %d tilraunir eftir.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Rangt PIN-númer. %d tilraun eftir.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Þú verður að hafa náð minnst %d ára aldri til að nota háþróaða gervigreindareiginleika Galaxy AI.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Þú verður að hafa náð minnst %d árs aldri til að nota háþróaða gervigreindareiginleika Galaxy AI.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Lykilorðið verður að innihalda minnst %d stafi.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Lykilorðið verður að innihalda minnst %d staf.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Lykilorð verður að innihalda minnst %d lágstafi.</item>
+
+        <item
+            quantity="one">
+Lykilorð verður að innihalda minnst 1 lágstaf.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Lykilorð verður að innihalda minnst %d tölur eða tákn.</item>
+
+        <item
+            quantity="one">
+Lykilorð verður að innihalda minnst eina tölu eða tákn.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Lykilorð verður að innihalda minnst %d tölustafi.</item>
+
+        <item
+            quantity="one">
+Lykilorð verður að innihalda minnst 1 tölustaf.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Lykilorð verður að innihalda minnst %d tákn.</item>
+
+        <item
+            quantity="one">
+Lykilorð verður að innihalda minnst eitt tákn.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Lykilorð verður að innihalda minnst %d hástafi.</item>
+
+        <item
+            quantity="one">
+Lykilorð verður að innihalda minnst 1 hástaf.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+%d tillögur í viðbót</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tillaga í viðbót</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d virk forrit</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d virkt forrit</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Viltu eyða %d tungumálapökkum?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Viltu eyða %d tungumálapakka?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d raddir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d rödd</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d viðbótarheimildir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d viðbótarheimild</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Þú ert %d pikkum frá því að verða þróunaraðili.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Þú ert %d pikki frá því að verða þróunaraðili.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+Valið: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Valið: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%d spilliforrit fundust</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d spilliforrit fannst</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+%d spilliforrit fundust í símanum. Fjarlægðu þessi forrit til að halda símanum öruggum.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d spilliforrit fannst í símanum. Fjarlægðu þetta forrit til að halda símanum öruggum.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+%d spilliforrit fundust í spjaldtölvunni. Fjarlægðu þessi forrit til að halda spjaldtölvunni öruggri.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d spilliforrit fannst í spjaldtölvunni. Fjarlægðu þetta forrit til að halda spjaldtölvunni öruggri.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d tillögur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tillaga</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d viðvaranir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d viðvörun</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Svefntími: %d klukkustundir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Svefntími: %d klukkustund</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Svefntími: %d mínútur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Svefntími: %d mínúta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Afritaðu ótakmarkað gagnamagn yfir í %1$s í allt að %2$d daga eða endurheimtu gögn sem þú hefur tekið öryggisafrit af.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Afritaðu ótakmarkað gagnamagn yfir í %1$s í allt að %2$d dag eða endurheimtu gögn sem þú hefur tekið öryggisafrit af.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Þessi prófun verður endurstillt eftir %d sekúndur.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Þessi prófun verður endurstillt eftir %d sekúndu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d tæki tengd</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tæki tengt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn eða Wi-Fi tengingu símans til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn eða Wi-Fi tengingu símans til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn símans til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Breyttu símanum í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn símans til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn spjaldtölvunnar til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn spjaldtölvunnar til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d önnur tæki geta notað farsímagögn eða Wi-Fi tengingu spjaldtölvunnar til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Breyttu spjaldtölvunni í Wi-Fi aðgangsstað. Allt að %d annað tæki getur notað farsímagögn eða Wi-Fi tengingu spjaldtölvunnar til að fá aðgang að internetinu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d meðlimir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d meðlimur</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Viltu eyða %d netkerfum?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Viltu eyða %d netkerfi?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+Valið: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Valið: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraunir eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraun eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+%d tilraunir hafa verið gerðar til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en síminn verður endurstilltur á grunnstillingar framleiðanda og öllum gögnum hans eytt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraunir eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1 tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt %d tilraun eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+%d tilraunir hafa verið gerðar til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d tilraun hefur verið gerð til að opna vinnuprófílinn þinn. Þú átt 1 tilraun eftir áður en spjaldtölvan verður endurstillt á grunnstillingar framleiðanda og öllum gögnum hennar eytt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d klukkustundir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d klukkustund</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d mínútur</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d mínúta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

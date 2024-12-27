@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBox android:textSize="@dimen/sec_lockscreen_notification_dialog_checkbox_text_size" android:textColor="@color/sec_lockscreen_notification_dialog_checkbox_text_color" android:id="@id/lockscreen_notification_checkbox" android:paddingLeft="@dimen/sec_lockscreen_notification_dialog_checkbox_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_left" android:layout_marginTop="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_top" android:layout_marginRight="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_right" android:layout_marginBottom="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_bottom" style="?android:textAppearanceMedium" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@id/lockscreen_notification_checkbox"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="@dimen/sec_lockscreen_notification_dialog_checkbox_text_size"
+        android:textColor="@color/sec_lockscreen_notification_dialog_checkbox_text_color"
+        android:paddingLeft="@dimen/sec_lockscreen_notification_dialog_checkbox_padding_left"
+        android:layout_marginLeft="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_left"
+        android:layout_marginTop="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_top"
+        android:layout_marginRight="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_right"
+        android:layout_marginBottom="@dimen/sec_lockscreen_notification_dialog_checkbox_margin_bottom"
+        style="?android:textAppearanceMedium" />
+
 </FrameLayout>

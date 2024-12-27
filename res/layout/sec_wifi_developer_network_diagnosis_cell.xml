@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.samsung.android.settings.wifi.develop.diagnosis.accesspoints.NetworkDiagnosisItem android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_wifi_manage_ap_pref_height" android:paddingStart="@dimen/sec_wifi_manage_ap_list_item_start_padding" android:paddingEnd="@dimen/sec_wifi_list_item_end_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_wifi_list_text_margin" android:layout_marginBottom="@dimen/sec_wifi_list_text_margin" android:layout_weight="1.0">
-        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_wifi_manage_ap_pref_start_padding">
-                <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/wifi_preference_title_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/sec_wifi_manage_ap_title_min_height" android:singleLine="true" />
-                <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/wifi_preference_summary_color" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+<com.samsung.android.settings.wifi.develop.diagnosis.accesspoints.NetworkDiagnosisItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="?android:selectableItemBackground"
+    android:minHeight="@dimen/sec_wifi_manage_ap_pref_height"
+    android:paddingStart="@dimen/sec_wifi_manage_ap_list_item_start_padding"
+    android:paddingEnd="@dimen/sec_wifi_list_item_end_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/sec_wifi_list_text_margin"
+        android:layout_marginBottom="@dimen/sec_wifi_list_text_margin"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingStart="@dimen/sec_wifi_manage_ap_pref_start_padding">
+
+                <TextView
+                    android:id="@id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceListItem"
+                    android:textColor="@color/wifi_preference_title_color"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical"
+                    android:fadingEdge="horizontal"
+                    android:minHeight="@dimen/sec_wifi_manage_ap_title_min_height"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@id/summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceListItemSecondary"
+                    android:textColor="@color/wifi_preference_summary_color"
+                    android:maxLines="4"
+                    android:layout_below="@id/title"
+                    android:layout_alignStart="@id/title" />
+
             </RelativeLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </com.samsung.android.settings.wifi.develop.diagnosis.accesspoints.NetworkDiagnosisItem>

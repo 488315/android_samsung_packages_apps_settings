@@ -1,32 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/device_status" settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.aboutphone.SecMyDeviceInfoFragment" settings:topLevelPreferenceKey="top_level_about_phone"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/sim_status_title" android:key="sim_status" android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.simstatus.SecSimStatus" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.simstatus.SecSimStatusPreferenceController" />
-    <PreferenceScreen android:persistent="false" android:title="@string/sim_lock_status_kddi" android:key="sim_lock_status_kddi" android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.simlockstatus.SimLockStatus" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.simlockstatus.SimLockStatusPreferenceController" />
-    <Preference android:persistent="false" android:title="@string/imei_information_title" android:key="imei_info" android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.imei.ImeiInformation" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.imei.SecImeiInformationPreferenceController" />
-    <com.samsung.android.settings.widget.SecCopyableDescriptionPreference android:persistent="false" android:title="@string/status_esim_id" android:key="status_esim_id" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.EidPreferenceController" />
-    <Preference android:title="@string/wifi_ip_address" android:key="wifi_ip_address" android:summary="@string/summary_placeholder" settings:allowDividerAbove="true" />
-    <Preference android:title="@string/status_wifi_mac_address" android:key="saved_accesspoints_wifi_mac_address" android:fragment="com.samsung.android.settings.wifi.managenetwork.SavedWifiEntrySettings" settings:controller="com.samsung.android.settings.wifi.advanced.SavedNetworksPreferenceController" settings:enableCopying="false" />
-    <com.samsung.android.settings.widget.SecCopyableDescriptionPreference android:title="@string/status_device_wifi_mac_address" android:key="wifi_mac_address" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_status_device_wifi_mac_address" />
-    <Preference android:title="@string/status_bt_address" android:key="bt_address" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_status_bt_address" />
-    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_ethernet_mac_address" android:key="ethernet_mac_address" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.EthernetMacAddressPreferenceController" />
-    <Preference android:title="@string/sec_status_ctei_code" android:key="ctei_code" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.CTEICodePreferenceController" />
-    <com.samsung.android.settings.widget.SecCopyableDescriptionPreference android:title="@string/status_serial_number" android:key="hardware_info_device_serial" android:summary="@string/summary_placeholder" settings:controller="com.android.settings.deviceinfo.hardwareinfo.SerialNumberPreferenceController" settings:keywords="@string/keywords_status_serial_number" />
-    <Preference android:title="@string/status_up_time" android:key="up_time" android:summary="@string/summary_placeholder" settings:keywords="@string/keywords_status_up_time" />
-    <Preference android:persistent="false" android:enabled="false" android:title="@string/first_call_date" android:key="first_call_date" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.FirstCallPreferenceController" />
-    <Preference android:persistent="false" android:enabled="false" android:title="@string/status_wimax_mac_address" android:key="wimax_mac_address" android:summary="@string/summary_placeholder" android:shouldDisableView="false" />
-    <Preference android:persistent="false" android:enabled="false" android:title="@string/sysscope_status" android:key="sysscope_status" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SysScopeStatusPreferenceController" settings:keywords="@string/keywords_sysscope_status" />
-    <com.samsung.android.settings.deviceinfo.statusinfo.ActivationPreference android:persistent="false" android:enabled="true" android:title="@string/activation_title" android:key="activation_status" android:summary="@string/device_info_not_available" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ActivationStatusPreferenceController" />
-    <Preference android:persistent="false" android:enabled="false" android:title="@string/kg_installment_status_title" android:key="kg_installment_status" android:summary="@string/kg_installment_status_summary" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.PaymentServicesPreferenceController" settings:searchable="false" />
-    <Preference android:enabled="false" android:title="@string/device_info_fcc_cert" android:key="fcc_id" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.FccCertificationPreferenceController" />
-    <Preference android:enabled="false" android:title="@string/device_info_ic_cert" android:key="ised_id" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.IsedCertificationPreferenceController" />
-    <Preference android:title="@string/device_info_spen_model_name" android:key="spen_model" android:summary="@string/summary_placeholder" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SpenModelPreferenceController" />
-    <Preference android:title="@string/device_info_ce_and_weee_mark_title" android:key="ce_and_weee_marks" android:shouldDisableView="false" android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.CeWeeeMarksFragment" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.CeWeeeMarksPreferenceController" />
-    <Preference android:enabled="false" android:title="@string/device_info_spen_fcc_cert" android:key="spen_fcc_id" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SpenFccCertificationPreferenceController" />
-    <Preference android:enabled="false" android:title="@string/device_info_spen_ic_cert" android:key="spen_ised_id" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SpenIsedCertificationPreferenceController" />
-    <Preference android:enabled="false" android:title="@string/device_info_rated" android:key="rated_value" android:summary="@string/summary_placeholder" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.RatedPreferenceController" />
-    <Preference android:title="@string/device_info_manufacturer_title" android:key="manufacturer" android:shouldDisableView="false" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ManufacturerPreferenceController" />
-    <Preference android:title="@string/device_info_energy_star_title" android:key="energy_star" android:shouldDisableView="false" android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.EnergyStarFragment" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.EnergyStarPreferenceController" />
-    <Preference android:title="@string/status_manufactured_year" android:key="status_info_manufactured_year" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ManufactureInfoController" />
-    <Preference android:title="@string/status_manufactured_country" android:key="status_info_manufactured_country" settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ManufactureInfoController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/device_status"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.aboutphone.SecMyDeviceInfoFragment"
+    settings:topLevelPreferenceKey="top_level_about_phone">
+
+    <Preference
+        android:title="@string/sim_status_title"
+        android:key="sim_status"
+        android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.simstatus.SecSimStatus"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.simstatus.SecSimStatusPreferenceController" />
+
+    <PreferenceScreen
+        android:persistent="false"
+        android:title="@string/sim_lock_status_kddi"
+        android:key="sim_lock_status_kddi"
+        android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.simlockstatus.SimLockStatus"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.simlockstatus.SimLockStatusPreferenceController" />
+
+    <Preference
+        android:persistent="false"
+        android:title="@string/imei_information_title"
+        android:key="imei_info"
+        android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.imei.ImeiInformation"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.imei.SecImeiInformationPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecCopyableDescriptionPreference
+        android:persistent="false"
+        android:title="@string/status_esim_id"
+        android:key="status_esim_id"
+        android:summary="@string/summary_placeholder"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.EidPreferenceController" />
+
+    <Preference
+        android:title="@string/wifi_ip_address"
+        android:key="wifi_ip_address"
+        android:summary="@string/summary_placeholder"
+        settings:allowDividerAbove="true" />
+
+    <Preference
+        android:title="@string/status_wifi_mac_address"
+        android:key="saved_accesspoints_wifi_mac_address"
+        android:fragment="com.samsung.android.settings.wifi.managenetwork.SavedWifiEntrySettings"
+        settings:controller="com.samsung.android.settings.wifi.advanced.SavedNetworksPreferenceController"
+        settings:enableCopying="false" />
+
+    <com.samsung.android.settings.widget.SecCopyableDescriptionPreference
+        android:title="@string/status_device_wifi_mac_address"
+        android:key="wifi_mac_address"
+        android:summary="@string/summary_placeholder"
+        settings:keywords="@string/keywords_status_device_wifi_mac_address" />
+
+    <Preference
+        android:title="@string/status_bt_address"
+        android:key="bt_address"
+        android:summary="@string/summary_placeholder"
+        settings:keywords="@string/keywords_status_bt_address" />
+
+    <Preference
+        android:persistent="false"
+        android:enabled="false"
+        android:title="@string/status_ethernet_mac_address"
+        android:key="ethernet_mac_address"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.EthernetMacAddressPreferenceController" />
+
+    <Preference
+        android:title="@string/sec_status_ctei_code"
+        android:key="ctei_code"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.CTEICodePreferenceController" />
+
+    <com.samsung.android.settings.widget.SecCopyableDescriptionPreference
+        android:title="@string/status_serial_number"
+        android:key="hardware_info_device_serial"
+        android:summary="@string/summary_placeholder"
+        settings:controller="com.android.settings.deviceinfo.hardwareinfo.SerialNumberPreferenceController"
+        settings:keywords="@string/keywords_status_serial_number" />
+
+    <Preference
+        android:title="@string/status_up_time"
+        android:key="up_time"
+        android:summary="@string/summary_placeholder"
+        settings:keywords="@string/keywords_status_up_time" />
+
+    <Preference
+        android:persistent="false"
+        android:enabled="false"
+        android:title="@string/first_call_date"
+        android:key="first_call_date"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.FirstCallPreferenceController" />
+
+    <Preference
+        android:persistent="false"
+        android:enabled="false"
+        android:title="@string/status_wimax_mac_address"
+        android:key="wimax_mac_address"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false" />
+
+    <Preference
+        android:persistent="false"
+        android:enabled="false"
+        android:title="@string/sysscope_status"
+        android:key="sysscope_status"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SysScopeStatusPreferenceController"
+        settings:keywords="@string/keywords_sysscope_status" />
+
+    <com.samsung.android.settings.deviceinfo.statusinfo.ActivationPreference
+        android:persistent="false"
+        android:enabled="true"
+        android:title="@string/activation_title"
+        android:key="activation_status"
+        android:summary="@string/device_info_not_available"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ActivationStatusPreferenceController" />
+
+    <Preference
+        android:persistent="false"
+        android:enabled="false"
+        android:title="@string/kg_installment_status_title"
+        android:key="kg_installment_status"
+        android:summary="@string/kg_installment_status_summary"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.PaymentServicesPreferenceController"
+        settings:searchable="false" />
+
+    <Preference
+        android:enabled="false"
+        android:title="@string/device_info_fcc_cert"
+        android:key="fcc_id"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.FccCertificationPreferenceController" />
+
+    <Preference
+        android:enabled="false"
+        android:title="@string/device_info_ic_cert"
+        android:key="ised_id"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.IsedCertificationPreferenceController" />
+
+    <Preference
+        android:title="@string/device_info_spen_model_name"
+        android:key="spen_model"
+        android:summary="@string/summary_placeholder"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SpenModelPreferenceController" />
+
+    <Preference
+        android:title="@string/device_info_ce_and_weee_mark_title"
+        android:key="ce_and_weee_marks"
+        android:shouldDisableView="false"
+        android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.CeWeeeMarksFragment"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.CeWeeeMarksPreferenceController" />
+
+    <Preference
+        android:enabled="false"
+        android:title="@string/device_info_spen_fcc_cert"
+        android:key="spen_fcc_id"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SpenFccCertificationPreferenceController" />
+
+    <Preference
+        android:enabled="false"
+        android:title="@string/device_info_spen_ic_cert"
+        android:key="spen_ised_id"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.SpenIsedCertificationPreferenceController" />
+
+    <Preference
+        android:enabled="false"
+        android:title="@string/device_info_rated"
+        android:key="rated_value"
+        android:summary="@string/summary_placeholder"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.RatedPreferenceController" />
+
+    <Preference
+        android:title="@string/device_info_manufacturer_title"
+        android:key="manufacturer"
+        android:shouldDisableView="false"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ManufacturerPreferenceController" />
+
+    <Preference
+        android:title="@string/device_info_energy_star_title"
+        android:key="energy_star"
+        android:shouldDisableView="false"
+        android:fragment="com.samsung.android.settings.deviceinfo.statusinfo.EnergyStarFragment"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.EnergyStarPreferenceController" />
+
+    <Preference
+        android:title="@string/status_manufactured_year"
+        android:key="status_info_manufactured_year"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ManufactureInfoController" />
+
+    <Preference
+        android:title="@string/status_manufactured_country"
+        android:key="status_info_manufactured_country"
+        settings:controller="com.samsung.android.settings.deviceinfo.statusinfo.ManufactureInfoController" />
+
 </PreferenceScreen>

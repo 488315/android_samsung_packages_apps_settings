@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_playback_controls_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_playback_controls_settings_layout" android:key="playback_controls_preview" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_playback_controls_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_playback_controls_settings_layout"
+        android:key="playback_controls_preview"
+        settings:searchable="false" />
+
 </PreferenceScreen>

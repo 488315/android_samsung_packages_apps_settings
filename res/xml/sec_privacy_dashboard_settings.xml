@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:icon="@drawable/sec_ic_settings_privacy" android:title="@string/privacy_controls" android:key="privacy_dashboard_page" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:keywords="@string/keywords_privacy_dashboard_settings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreference android:title="@string/work_policy_privacy_settings" android:key="work_policy_info" android:summary="@string/work_policy_privacy_settings_summary" android:order="-900" settings:controller="com.android.settings.privacy.WorkPolicyInfoPreferenceController" />
-    <SecPreference android:title="@string/accessibility_usage_title" android:key="privacy_accessibility_usage" android:order="-700" settings:controller="com.android.settings.privacy.AccessibilityUsagePreferenceController">
-        <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/sec_ic_settings_privacy"
+    android:title="@string/privacy_controls"
+    android:key="privacy_dashboard_page"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings"
+    settings:keywords="@string/keywords_privacy_dashboard_settings"
+    settings:topLevelPreferenceKey="top_level_security_and_privacy">
+
+    <SecPreference
+        android:title="@string/work_policy_privacy_settings"
+        android:key="work_policy_info"
+        android:summary="@string/work_policy_privacy_settings_summary"
+        android:order="-900"
+        settings:controller="com.android.settings.privacy.WorkPolicyInfoPreferenceController" />
+
+    <SecPreference
+        android:title="@string/accessibility_usage_title"
+        android:key="privacy_accessibility_usage"
+        android:order="-700"
+        settings:controller="com.android.settings.privacy.AccessibilityUsagePreferenceController">
+
+        <intent
+            android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES" />
+
     </SecPreference>
-    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/camera_toggle_title" android:key="privacy_camera_toggle" android:summary="@string/camera_toggle_summary" android:order="-650" settings:controller="com.android.settings.privacy.CameraToggleController" />
-    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/mic_toggle_title" android:key="privacy_mic_toggle" android:summary="@string/mic_toggle_summary" android:order="-640" settings:controller="com.android.settings.privacy.MicToggleController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="-600" />
-    <SecSwitchPreference android:title="@string/show_clip_access_notification" android:key="show_clip_access_notification" android:summary="@string/show_clip_access_notification_summary" android:order="-550" settings:controller="com.android.settings.privacy.ShowClipAccessNotificationPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="-400" />
+
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+        android:title="@string/camera_toggle_title"
+        android:key="privacy_camera_toggle"
+        android:summary="@string/camera_toggle_summary"
+        android:order="-650"
+        settings:controller="com.android.settings.privacy.CameraToggleController" />
+
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+        android:title="@string/mic_toggle_title"
+        android:key="privacy_mic_toggle"
+        android:summary="@string/mic_toggle_summary"
+        android:order="-640"
+        settings:controller="com.android.settings.privacy.MicToggleController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="-600" />
+
+    <SecSwitchPreference
+        android:title="@string/show_clip_access_notification"
+        android:key="show_clip_access_notification"
+        android:summary="@string/show_clip_access_notification_summary"
+        android:order="-550"
+        settings:controller="com.android.settings.privacy.ShowClipAccessNotificationPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="-400" />
+
 </PreferenceScreen>

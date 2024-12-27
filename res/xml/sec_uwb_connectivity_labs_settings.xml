@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/uwb_development_uwb_labs_header" android:key="uwb_development_prefs_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.uwb.labs.view.statistics.StatisticsSummaryFragment android:key="uwb_statistics_summary_preference" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/uwb_development_uwb_labs_header"
+    android:key="uwb_development_prefs_screen">
+
+    <com.samsung.android.settings.uwb.labs.view.statistics.StatisticsSummaryFragment
+        android:key="uwb_statistics_summary_preference" />
+
     <PreferenceCategory>
-        <com.samsung.android.settings.uwb.labs.view.statistics.WeeklyReportFragment android:key="uwb_weekly_report_preference" />
+
+        <com.samsung.android.settings.uwb.labs.view.statistics.WeeklyReportFragment
+            android:key="uwb_weekly_report_preference" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="Ultra Wideband (UWB) ranging">
-        <SecPreferenceScreen android:title="@string/uwb_ranging_simple_test_title" android:key="uwb_test_simple_screen" android:fragment="com.samsung.android.settings.uwb.labs.view.uwbtest.UwbSimpleTestFragment" />
-        <PreferenceScreen android:title="@string/uwb_ranging_fira_test_title" android:key="uwb_test_fira_screen" android:fragment="com.samsung.android.settings.uwb.labs.view.uwbtest.UwbFiraTestFragment" />
-        <Preference android:enabled="false" android:title="@string/uwb_ranging_dltdoa_test_title" android:key="uwb_test_dltdoa_preference" android:fragment="com.samsung.android.settings.uwb.labs.view.uwbtest.UwbDltdoaTestFragment" />
+
+    <PreferenceCategory
+        android:title="Ultra Wideband (UWB) ranging">
+
+        <SecPreferenceScreen
+            android:title="@string/uwb_ranging_simple_test_title"
+            android:key="uwb_test_simple_screen"
+            android:fragment="com.samsung.android.settings.uwb.labs.view.uwbtest.UwbSimpleTestFragment" />
+
+        <PreferenceScreen
+            android:title="@string/uwb_ranging_fira_test_title"
+            android:key="uwb_test_fira_screen"
+            android:fragment="com.samsung.android.settings.uwb.labs.view.uwbtest.UwbFiraTestFragment" />
+
+        <Preference
+            android:enabled="false"
+            android:title="@string/uwb_ranging_dltdoa_test_title"
+            android:key="uwb_test_dltdoa_preference"
+            android:fragment="com.samsung.android.settings.uwb.labs.view.uwbtest.UwbDltdoaTestFragment" />
+
     </PreferenceCategory>
+
     <PreferenceCategory>
-        <Preference android:title="@string/uwb_development_reset_settings_title" android:key="uwb_reset_settings" android:fragment="com.samsung.android.settings.uwb.labs.view.settings.UwbLabsSettingsFragment" />
+
+        <Preference
+            android:title="@string/uwb_development_reset_settings_title"
+            android:key="uwb_reset_settings"
+            android:fragment="com.samsung.android.settings.uwb.labs.view.settings.UwbLabsSettingsFragment" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

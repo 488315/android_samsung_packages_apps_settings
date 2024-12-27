@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sec_intelligence_service_subtitle_font_size" android:textColor="@color/sec_intelligence_service_suw_subtitle_color" android:id="@id/sub_title" android:paddingBottom="@dimen/sec_intelligence_service_subtitle_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:textFontWeight="600" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@id/sub_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sec_intelligence_service_subtitle_font_size"
+        android:textColor="@color/sec_intelligence_service_suw_subtitle_color"
+        android:paddingBottom="@dimen/sec_intelligence_service_subtitle_padding_bottom"
+        android:fontFamily="sec"
+        android:textFontWeight="600" />
+
 </LinearLayout>

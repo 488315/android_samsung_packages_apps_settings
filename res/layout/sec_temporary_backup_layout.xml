@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:descendantFocusability="afterDescendants" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/preview_image_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/preview_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/general_management_reset" android:scaleType="fitXY" android:adjustViewBounds="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:descendantFocusability="afterDescendants">
+
+    <LinearLayout
+        android:id="@id/preview_image_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/preview_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/general_management_reset"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:id="@id/help_description_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:layout_marginBottom="@dimen/sec_widget_list_dialog_padding_bottom" android:text="@string/temporary_backup_description" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
+
+    <LinearLayout
+        android:id="@id/description_text_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_round_and_bgcolor">
+
+        <TextView
+            android:id="@id/help_description_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+            android:layout_marginBottom="@dimen/sec_widget_list_dialog_padding_bottom"
+            android:text="@string/temporary_backup_description"
+            android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+            android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+            style="@style/description_text" />
+
     </LinearLayout>
+
 </LinearLayout>

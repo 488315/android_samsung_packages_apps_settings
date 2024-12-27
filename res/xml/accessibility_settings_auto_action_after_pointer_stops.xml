@@ -1,19 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/accessibility_auto_action_preference_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/accessibility_auto_action_after_pointer_stops_preference_description" android:key="guide_description" apps:image_contentDescription="@string/accessibility_auto_action_after_pointer_stops_image_content_description" apps:lottie_rawRes="@raw/auto_action_after_pointer_stops" apps:searchable="false" />
-    <SecSwitchPreference android:title="@string/accessibility_auto_click_title" android:key="auto_click_switch" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.AutoClickPreferenceController" />
-    <DropDownPreference android:entries="@array/pause_auto_click_with_entries" android:title="@string/accessibility_pause_auto_click_with" android:key="pause_auto_click_with" android:entryValues="@array/pause_auto_click_with_values" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.PauseAutoClickWithPreferenceController" />
-    <PreferenceCategory android:title="@string/accessibility_corner_action_preference_title" android:key="corner_action_category">
-        <com.samsung.android.settings.widget.SecDisabledAppearancePreference android:title="@string/accessibility_corner_action_position_top_left" android:key="top_left_corner_action_preference" android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
-        <com.samsung.android.settings.widget.SecDisabledAppearancePreference android:title="@string/accessibility_corner_action_position_top_right" android:key="top_right_corner_action_preference" android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
-        <com.samsung.android.settings.widget.SecDisabledAppearancePreference android:title="@string/accessibility_corner_action_position_bottom_left" android:key="bottom_left_corner_action_preference" android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
-        <com.samsung.android.settings.widget.SecDisabledAppearancePreference android:title="@string/accessibility_corner_action_position_bottom_right" android:key="bottom_right_corner_action_preference" android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:title="@string/accessibility_auto_action_preference_title">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/accessibility_auto_action_after_pointer_stops_preference_description"
+        android:key="guide_description"
+        apps:image_contentDescription="@string/accessibility_auto_action_after_pointer_stops_image_content_description"
+        apps:lottie_rawRes="@raw/auto_action_after_pointer_stops"
+        apps:searchable="false" />
+
+    <SecSwitchPreference
+        android:title="@string/accessibility_auto_click_title"
+        android:key="auto_click_switch"
+        apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.AutoClickPreferenceController" />
+
+    <DropDownPreference
+        android:entries="@array/pause_auto_click_with_entries"
+        android:title="@string/accessibility_pause_auto_click_with"
+        android:key="pause_auto_click_with"
+        android:entryValues="@array/pause_auto_click_with_values"
+        apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.PauseAutoClickWithPreferenceController" />
+
+    <PreferenceCategory
+        android:title="@string/accessibility_corner_action_preference_title"
+        android:key="corner_action_category">
+
+        <com.samsung.android.settings.widget.SecDisabledAppearancePreference
+            android:title="@string/accessibility_corner_action_position_top_left"
+            android:key="top_left_corner_action_preference"
+            android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment"
+            apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
+
+        <com.samsung.android.settings.widget.SecDisabledAppearancePreference
+            android:title="@string/accessibility_corner_action_position_top_right"
+            android:key="top_right_corner_action_preference"
+            android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment"
+            apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
+
+        <com.samsung.android.settings.widget.SecDisabledAppearancePreference
+            android:title="@string/accessibility_corner_action_position_bottom_left"
+            android:key="bottom_left_corner_action_preference"
+            android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment"
+            apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
+
+        <com.samsung.android.settings.widget.SecDisabledAppearancePreference
+            android:title="@string/accessibility_corner_action_position_bottom_right"
+            android:key="bottom_right_corner_action_preference"
+            android:fragment="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePickerFragment"
+            apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.CornerActionTypePreferenceController" />
+
     </PreferenceCategory>
+
     <PreferenceCategory>
-        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarWithButtonsPreference android:layout="@layout/auto_action_delay" android:max="8" android:title="@string/accessibility_auto_action_delay_seekbar_title" android:key="auto_action_delay" apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.AutoActionDelayPreferenceController" apps:seekBarMode="expand" />
+
+        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarWithButtonsPreference
+            android:layout="@layout/auto_action_delay"
+            android:max="8"
+            android:title="@string/accessibility_auto_action_delay_seekbar_title"
+            android:key="auto_action_delay"
+            apps:controller="com.samsung.android.settings.accessibility.dexterity.autoaction.AutoActionDelayPreferenceController"
+            apps:seekBarMode="expand" />
+
     </PreferenceCategory>
+
     <PreferenceCategory>
-        <com.samsung.android.settings.accessibility.dexterity.autoaction.SetAsDefaultButtonPreference android:key="button_preference" apps:searchable="false" />
+
+        <com.samsung.android.settings.accessibility.dexterity.autoaction.SetAsDefaultButtonPreference
+            android:key="button_preference"
+            apps:searchable="false" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

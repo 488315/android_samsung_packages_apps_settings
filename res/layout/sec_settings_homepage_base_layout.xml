@@ -1,20 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/content_parent_start_padding" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
-    <LinearLayout android:orientation="vertical" android:id="@id/content_parent" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_weight="1.0" xmlns:app="http://schemas.android.com/apk/res-auto">
-        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.samsung.android.settings.core.DisableableAppBarLayoutBehavior" style="@style/Widget.Design.AppBarLayout">
-                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="exitUntilCollapsed|scroll" style="@style/Theme.Settings.CollapsingToolbar">
-                    <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.Settings.Toolbar" android:layout_gravity="bottom" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:contentInsetEnd="24.0dip" app:layout_collapseMode="pin" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@id/content_parent_start_padding"
+        android:layout_width="28.0dip"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:visibility="gone"
+        android:layout_weight="0.0" />
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@id/content_parent"
+        android:layout_width="1.0px"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@id/coordinator"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@id/app_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fitsSystemWindows="true"
+                app:layout_behavior="com.samsung.android.settings.core.DisableableAppBarLayoutBehavior"
+                style="@style/Widget.Design.AppBarLayout">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@id/collapsing_app_bar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:layout_scrollFlags="exitUntilCollapsed|scroll"
+                    style="@style/Theme.Settings.CollapsingToolbar">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@id/action_bar"
+                        android:layout_width="fill_parent"
+                        android:layout_height="?android:actionBarSize"
+                        android:theme="@style/Theme.Settings.Toolbar"
+                        android:layout_gravity="bottom"
+                        app:contentInsetEnd="24.0dip"
+                        app:layout_collapseMode="pin" />
+
                 </com.google.android.material.appbar.CollapsingToolbarLayout>
+
             </com.google.android.material.appbar.AppBarLayout>
-            <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
-                <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:id="@id/content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+                <FrameLayout
+                    android:id="@id/content_frame"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <FrameLayout
+                        android:id="@id/main_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
                 </FrameLayout>
+
             </LinearLayout>
-            <LinearLayout android:id="@id/round_corner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:id="@id/round_corner"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
     </LinearLayout>
+
 </LinearLayout>

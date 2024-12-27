@@ -1,16 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.505">
-        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <TextView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/perform_long_press_text" android:contentDescription="@string/touch_and_hold_delay_custom_description_alternative_text" android:textAlignment="center" style="@style/touch_and_hold_description_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="?roundedCornerColor"
+        android:layout_weight="0.505">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/perform_long_press_text"
+                android:contentDescription="@string/touch_and_hold_delay_custom_description_alternative_text"
+                android:textAlignment="center"
+                style="@style/touch_and_hold_description_text_style" />
+
         </ScrollView>
-        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_tap_and_hold_time_view_top_margin" android:layout_marginBottom="@dimen/custom_tap_and_hold_time_view_bottom_margin_land">
-            <TextView android:id="@id/longpress_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/touch_settings_status_between_time_padding" style="@style/touch_and_hold_time_text_style" />
-            <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView android:id="@id/text_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/picker_time_sec" android:layout_alignBaseline="@id/longpress_time" android:layout_toEndOf="@id/longpress_time" app:limitedScale="5" style="@style/touch_and_hold_sec_text_style" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/custom_tap_and_hold_time_view_top_margin"
+            android:layout_marginBottom="@dimen/custom_tap_and_hold_time_view_bottom_margin_land">
+
+            <TextView
+                android:id="@id/longpress_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/touch_settings_status_between_time_padding"
+                style="@style/touch_and_hold_time_text_style" />
+
+            <com.samsung.android.settings.accessibility.base.widget.LimitedScaleTextView
+                android:id="@id/text_sec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/picker_time_sec"
+                android:layout_alignBaseline="@id/longpress_time"
+                android:layout_toEndOf="@id/longpress_time"
+                app:limitedScale="5"
+                style="@style/touch_and_hold_sec_text_style" />
+
         </RelativeLayout>
+
     </LinearLayout>
-    <LinearLayout android:id="@id/touch_container" android:background="@color/content_background_color" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.495" android:contentDescription="@string/touch_and_hold_area_contentDescription" android:importantForAccessibility="yes">
-        <com.samsung.android.settings.accessibility.dexterity.TouchAndHoldView android:id="@id/tapandholdview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@id/touch_container"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:background="@color/content_background_color"
+        android:focusable="true"
+        android:layout_weight="0.495"
+        android:contentDescription="@string/touch_and_hold_area_contentDescription"
+        android:importantForAccessibility="yes">
+
+        <com.samsung.android.settings.accessibility.dexterity.TouchAndHoldView
+            android:id="@id/tapandholdview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
     </LinearLayout>
+
 </LinearLayout>

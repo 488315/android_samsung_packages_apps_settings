@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@android:id/title" android:tag="preferencecategory" android:layout_width="fill_parent" android:layout_height="@dimen/sesl_list_subheader_min_height" android:importantForAccessibility="no" style="?android:listSeparatorTextViewStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/sesl_list_subheader_min_height"
+    android:tag="preferencecategory"
+    android:importantForAccessibility="no"
+    style="?android:listSeparatorTextViewStyle" />

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/conversations_category_title" android:key="conversation_list"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/important_conversations" android:key="important_conversations" />
-    <PreferenceCategory android:title="@string/other_conversations" android:key="other_conversations" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/conversations_category_title"
+    android:key="conversation_list">
+
+    <PreferenceCategory
+        android:title="@string/important_conversations"
+        android:key="important_conversations" />
+
+    <PreferenceCategory
+        android:title="@string/other_conversations"
+        android:key="other_conversations" />
+
 </PreferenceScreen>

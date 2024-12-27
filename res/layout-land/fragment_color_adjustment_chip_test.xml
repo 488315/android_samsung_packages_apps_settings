@@ -1,57 +1,467 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.core.widget.NestedScrollView android:id="@id/main_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <TextView android:id="@id/GuideText" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guide_color_adjustment_test" android:layout_alignParentTop="true" style="@style/Accessibility.Widget.TextView.Description" />
-            <LinearLayout android:id="@id/chunking_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_below="@id/GuideText" android:layout_alignParentBottom="true">
-                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip">
-                    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:fillViewport="true">
-                        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-                            <ImageView android:id="@id/colorChipCmpImg" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_01" android:contentDescription="@string/color_adjustment_reference_color" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg01" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg01" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg02" app:layout_constraintStart_toEndOf="@id/colorChipCmpImg" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg02" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg03" app:layout_constraintStart_toEndOf="@id/colorChipimg01" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg03" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg04" app:layout_constraintStart_toEndOf="@id/colorChipimg02" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg04" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg05" app:layout_constraintStart_toEndOf="@id/colorChipimg03" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg05" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg06" app:layout_constraintStart_toEndOf="@id/colorChipimg04" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg06" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg07" app:layout_constraintStart_toEndOf="@id/colorChipimg05" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg07" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg08" app:layout_constraintStart_toEndOf="@id/colorChipimg06" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg08" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg09" app:layout_constraintStart_toEndOf="@id/colorChipimg07" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg09" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg10" app:layout_constraintStart_toEndOf="@id/colorChipimg08" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg10" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg11" app:layout_constraintStart_toEndOf="@id/colorChipimg09" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg11" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg12" app:layout_constraintStart_toEndOf="@id/colorChipimg10" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg12" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg13" app:layout_constraintStart_toEndOf="@id/colorChipimg11" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg13" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg14" app:layout_constraintStart_toEndOf="@id/colorChipimg12" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg14" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/colorChipimg15" app:layout_constraintStart_toEndOf="@id/colorChipimg13" app:layout_constraintTop_toTopOf="parent" />
-                            <ImageView android:id="@id/colorChipimg15" android:clickable="false" android:layout_width="@dimen/test_big_colorchip_image_size" android:layout_height="@dimen/test_big_colorchip_image_size" android:src="@drawable/small_color_chip_blank" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/colorChipimg14" app:layout_constraintTop_toTopOf="parent" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/main_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/GuideText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0.0dip"
+                android:text="@string/guide_color_adjustment_test"
+                android:layout_alignParentTop="true"
+                style="@style/Accessibility.Widget.TextView.Description" />
+
+            <LinearLayout
+                android:id="@id/chunking_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:layout_below="@id/GuideText"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="24.0dip"
+                    android:layout_marginBottom="24.0dip">
+
+                    <HorizontalScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="32.0dip"
+                        android:fillViewport="true">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@id/colorChipCmpImg"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_01"
+                                android:contentDescription="@string/color_adjustment_reference_color"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg01"
+                                app:layout_constraintHorizontal_chainStyle="spread"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg01"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg02"
+                                app:layout_constraintStart_toEndOf="@id/colorChipCmpImg"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg02"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg03"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg01"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg03"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg04"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg02"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg04"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg05"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg03"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg05"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg06"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg04"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg06"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg07"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg05"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg07"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg08"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg06"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg08"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg09"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg07"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg09"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg10"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg08"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg10"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg11"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg09"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg11"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg12"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg10"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg12"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg13"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg11"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg13"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg14"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg12"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg14"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/colorChipimg15"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg13"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@id/colorChipimg15"
+                                android:layout_width="@dimen/test_big_colorchip_image_size"
+                                android:layout_height="@dimen/test_big_colorchip_image_size"
+                                android:clickable="false"
+                                android:src="@drawable/small_color_chip_blank"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@id/colorChipimg14"
+                                app:layout_constraintTop_toTopOf="parent" />
+
                         </androidx.constraintlayout.widget.ConstraintLayout>
+
                     </HorizontalScrollView>
-                    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:fillViewport="true">
-                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
-                                <ImageView android:id="@id/color_01" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_02" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_02" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_03" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_01" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_03" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_04" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_02" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_04" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_05" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_03" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_05" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_06" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_04" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_06" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_07" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_05" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_07" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_08" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_06" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_08" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_07" app:layout_constraintTop_toTopOf="parent" />
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="32.0dip"
+                        android:fillViewport="true">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="12.0dip">
+
+                                <ImageView
+                                    android:id="@id/color_01"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_02"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_02"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_03"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_01"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_03"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_04"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_02"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_04"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_05"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_03"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_05"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_06"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_04"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_06"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_07"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_05"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_07"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_08"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_06"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_08"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_07"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
                             </androidx.constraintlayout.widget.ConstraintLayout>
-                            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                                <ImageView android:id="@id/color_09" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_10" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_10" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_11" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_09" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_11" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_12" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_10" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_12" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_13" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_11" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_13" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_14" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_12" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_14" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/color_15" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_13" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/color_15" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/blank_view" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_14" app:layout_constraintTop_toTopOf="parent" />
-                                <ImageView android:id="@id/blank_view" android:focusable="true" android:clickable="true" android:layout_width="@dimen/test_small_colorchip_image_size" android:layout_height="@dimen/test_small_colorchip_image_size" android:src="@drawable/color_chip_blank" android:contentDescription="@string/color_adjusetment_no_color_set" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/color_15" app:layout_constraintTop_toTopOf="parent" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@id/color_09"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_10"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_10"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_11"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_09"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_11"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_12"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_10"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_12"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_13"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_11"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_13"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_14"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_12"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_14"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/color_15"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_13"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/color_15"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:layout_marginEnd="12.0dip"
+                                    app:layout_constraintEnd_toStartOf="@id/blank_view"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_14"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@id/blank_view"
+                                    android:layout_width="@dimen/test_small_colorchip_image_size"
+                                    android:layout_height="@dimen/test_small_colorchip_image_size"
+                                    android:focusable="true"
+                                    android:clickable="true"
+                                    android:src="@drawable/color_chip_blank"
+                                    android:contentDescription="@string/color_adjusetment_no_color_set"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_chainStyle="packed"
+                                    app:layout_constraintStart_toEndOf="@id/color_15"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
                             </androidx.constraintlayout.widget.ConstraintLayout>
+
                         </LinearLayout>
+
                     </HorizontalScrollView>
+
                 </LinearLayout>
+
             </LinearLayout>
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
+
 </LinearLayout>

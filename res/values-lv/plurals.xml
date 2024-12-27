@@ -1,703 +1,2516 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">Pirms %d dienām</item>
-        <item quantity="zero">Pirms %d dienām</item>
-        <item quantity="one">Pirms %d dienas</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">Pirms %d minūtēm</item>
-        <item quantity="zero">Pirms %d minūtēm</item>
-        <item quantity="one">Pirms %d minūtes</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">Pirms %d gadiem</item>
-        <item quantity="zero">Pirms %d gadiem</item>
-        <item quantity="one">Pirms %d gada</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d minūtes</item>
-        <item quantity="zero">%d minūtes</item>
-        <item quantity="one">%d minūte</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d sekundes</item>
-        <item quantity="zero">%d sekundes</item>
-        <item quantity="one">%d sekunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d programmu kešatmiņas (%2$s)</item>
-        <item quantity="zero">%1$d programmu kešatmiņas (%2$s)</item>
-        <item quantity="one">%1$d programmas kešatmiņa (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Vai arhivēt %d programmas?</item>
-        <item quantity="zero">Vai arhivēt %d programmas?</item>
-        <item quantity="one">Vai arhivēt %d programmu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Arhivēt %1$d programmas (+%2$s)</item>
-        <item quantity="zero">Arhivēt %1$d programmas (+%2$s)</item>
-        <item quantity="one">Arhivēt %1$d programmu (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Vai iztīrīt %d programmu kešatmiņu?</item>
-        <item quantity="zero">Vai iztīrīt %d programmu kešatmiņu?</item>
-        <item quantity="one">Vai iztīrīt %d programmas kešatmiņu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Notīrīt %1$d kešatm. (+%2$s)</item>
-        <item quantity="zero">Notīrīt %1$d kešatm. (+%2$s)</item>
-        <item quantity="one">Notīrīt %1$d kešatmiņu (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">Izvēlēti %d vienumi</item>
-        <item quantity="zero">Izvēlēti %d</item>
-        <item quantity="one">Izvēlēts %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Atbrīvojiet %1$s vietas, arhivējot %2$d neizmantotas programmas. Jūsu personas dati un iestatījumi tiks saglabāti.</item>
-        <item quantity="zero">Atbrīvojiet %1$s vietas, arhivējot %2$d neizmantotas programmas. Jūsu personas dati un iestatījumi tiks saglabāti.</item>
-        <item quantity="one">Atbrīvojiet %1$s vietas, arhivējot %2$d neizmantotu programmu. Jūsu personas dati un iestatījumi tiks saglabāti.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Vai atinstalēt %d programmas?</item>
-        <item quantity="zero">Vai atinstalēt %d programmas?</item>
-        <item quantity="one">Vai atinstalēt %d programmu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Atinstalēt %1$d progr. (+%2$s)</item>
-        <item quantity="zero">Atinstalēt %1$d progr. (+%2$s)</item>
-        <item quantity="one">Atinstalēt %1$d progr. (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d nelietotas programmas (%2$s)</item>
-        <item quantity="zero">%1$d nelietotas programmas (%2$s)</item>
-        <item quantity="one">%1$d nelietota programma (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Notiek interneta savienojuma koplietošana ar %d ierīcēm.</item>
-        <item quantity="zero">Notiek interneta savienojuma koplietošana ar %d ierīcēm.</item>
-        <item quantity="one">Notiek interneta savienojuma koplietošana ar %d ierīci.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d programmas</item>
-        <item quantity="zero">%d programmas</item>
-        <item quantity="one">%d programma</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d dienas</item>
-        <item quantity="one">1 diena</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d stundas</item>
-        <item quantity="one">1 stunda</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d minūtes</item>
-        <item quantity="one">1 minūte</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d sekundes</item>
-        <item quantity="one">1 sekunde</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d nedēļas</item>
-        <item quantity="one">1 nedēļa</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d programmas</item>
-        <item quantity="zero">%d programmas</item>
-        <item quantity="one">%d programma</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d stundas</item>
-        <item quantity="zero">%d stundas</item>
-        <item quantity="one">%d stunda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d minūtes</item>
-        <item quantity="zero">%d minūtes</item>
-        <item quantity="one">%d minūte</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d sekundes</item>
-        <item quantity="zero">%d sekundes</item>
-        <item quantity="one">%d sekunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Ja izdzēsīsit šīs vietas, mainot sensitīvos iestatījumus, vienmēr būs nepieciešami biometrijas dati un drošības aizkave.</item>
-        <item quantity="one">Ja izdzēsīsit šo vietu, mainot sensitīvos iestatījumus, vienmēr būs nepieciešami biometrijas dati un drošības aizkave.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Vai izdzēst %d vietas?</item>
-        <item quantity="zero">Vai izdzēst %d vietas?</item>
-        <item quantity="one">Vai izdzēst %d vietu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">Izvēlēti %d</item>
-        <item quantity="one">Izvēlēts 1</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s un vēl %2$d citas</item>
-        <item quantity="zero">%1$s un vēl %2$d citas</item>
-        <item quantity="one">%1$s un vēl %2$d cita</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
-        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmju.</item>
-        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d jauni paziņojumi</item>
-        <item quantity="zero">%d jaunu paziņojumu</item>
-        <item quantity="one">%d jauns paziņojums</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Pēdējo %d stundu laikā atmiņa nav izmantota</item>
-        <item quantity="zero">Pēdējo %d stundu laikā atmiņa nav izmantota</item>
-        <item quantity="one">Pēdējās %d stundas laikā atmiņa nav izmantota</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d paziņojumi</item>
-        <item quantity="zero">%d paziņojumi</item>
-        <item quantity="one">%d paziņojums</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Atgādināt reizi %d minūtēs par izvēlēto programmu paziņojumiem</item>
-        <item quantity="zero">Atgādināt reizi %d minūtēs par izvēlēto programmu paziņojumiem</item>
-        <item quantity="one">Atgādināt reizi %d minūtē par izvēlēto programmu paziņojumiem</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Varat iestatīt ne vairāk kā %d programmas</item>
-        <item quantity="zero">Varat iestatīt ne vairāk kā %d programmas</item>
-        <item quantity="one">Varat iestatīt ne vairāk kā %d programmu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s un vēl %2$d programmas lieto piekļuves kodus un automātiski ievada paroles un citu informāciju.</item>
-        <item quantity="zero">%1$s un vēl %2$d programmas lieto piekļuves kodus un automātiski ievada paroles un citu informāciju.</item>
-        <item quantity="one">%1$s un vēl %2$d programma lieto piekļuves kodus un automātiski ievada paroles un citu informāciju.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%2$d programmas izmantoja %1$s atļauju</item>
-        <item quantity="zero">%2$d programmas izmantoja %1$s atļauju</item>
-        <item quantity="one">%2$d programma izmantoja %1$s atļauju</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">Tiek lietotas %d pieejamības funkcijas</item>
-        <item quantity="zero">Tiek lietotas %d pieejamības funkcijas</item>
-        <item quantity="one">Tiek lietota %d pieejamības funkcija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d programmas</item>
-        <item quantity="zero">%d programmas</item>
-        <item quantity="one">%d programma</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Vai noņemt %d valodas?</item>
-        <item quantity="zero">Vai noņemt %d valodas?</item>
-        <item quantity="one">Vai noņemt %d valodu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d programmām ir pilna piekļuve jūsu tālrunim</item>
-        <item quantity="zero">%d programmām ir pilna piekļuve jūsu tālrunim</item>
-        <item quantity="one">%d programmai ir pilna piekļuve jūsu tālrunim</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Jūsu tālrunis tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu tālruni ieslēgtu, pieskarieties pie Atcelt.</item>
-        <item quantity="zero">Jūsu tālrunis tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu tālruni ieslēgtu, pieskarieties pie Atcelt.</item>
-        <item quantity="one">Jūsu tālrunis tiks automātiski izslēgts pēc %d sekundes. Lai šoreiz atstātu tālruni ieslēgtu, pieskarieties pie Atcelt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Jūsu planšetdators tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu planšetdatoru ieslēgtu, pieskarieties pie Atcelt.</item>
-        <item quantity="zero">Jūsu planšetdators tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu planšetdatoru ieslēgtu, pieskarieties pie Atcelt.</item>
-        <item quantity="one">Jūsu planšetdators tiks automātiski izslēgts pēc %d sekundes. Lai šoreiz atstātu planšetdatoru ieslēgtu, pieskarieties pie Atcelt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Ik pēc %d stundām</item>
-        <item quantity="zero">Ik pēc %d stundām</item>
-        <item quantity="one">Ik pēc %d stundas</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Parolē ir jābūt vismaz %d rakstzīmēm, tostarp vismaz 1 burtam.</item>
-        <item quantity="zero">Parolē ir jābūt vismaz %d rakstzīmēm, tostarp vismaz 1 burtam.</item>
-        <item quantity="one">Parolē ir jābūt vismaz %d rakstzīmei, tostarp vismaz 1 burtam.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">PIN kodā ir jābūt vismaz %d cipariem.</item>
-        <item quantity="zero">PIN kodā ir jābūt vismaz %d cipariem.</item>
-        <item quantity="one">PIN kodā ir jābūt vismaz %d ciparam.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Mēģiniet vēlreiz pēc 1 stundas un %d minūtēm</item>
-        <item quantity="zero">Mēģiniet vēlreiz pēc 1 stundas un %d minūtēm</item>
-        <item quantity="one">Mēģiniet vēlreiz pēc 1 stundas un %d minūtes</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Mēģiniet vēlreiz pēc %d stundām</item>
-        <item quantity="zero">Mēģiniet vēlreiz pēc %d stundām</item>
-        <item quantity="one">Mēģiniet vēlreiz pēc %d stundas</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Mēģiniet vēlreiz pēc %d stundām un 1 minūtes</item>
-        <item quantity="zero">Mēģiniet vēlreiz pēc %d stundām un 1 minūtes</item>
-        <item quantity="one">Mēģiniet vēlreiz pēc %d stundas un 1 minūtes</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Mēģiniet vēlreiz pēc %d minūtēm</item>
-        <item quantity="one">Mēģiniet vēlreiz pēc %d minūtes</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Mēģiniet vēlreiz pēc %d sekundēm</item>
-        <item quantity="one">Mēģiniet vēlreiz pēc %d sekundes</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Var ieslēgt ne vairāk kā %d papildu pakalpojumus.</item>
-        <item quantity="zero">Var ieslēgt ne vairāk kā %d papildu pakalpojumus.</item>
-        <item quantity="one">Var ieslēgt ne vairāk kā %d papildu pakalpojumu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">Atļauti %d kontakti</item>
-        <item quantity="zero">Atļauti %d kontakti</item>
-        <item quantity="one">Atļauts %d kontakts</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">Pievienoti %d pirkstu nospiedumi</item>
-        <item quantity="zero">Pievienoti %d pirkstu nospiedumi</item>
-        <item quantity="one">Pievienots %d pirksta nospiedums</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s un vēl %3$d programmas</item>
-        <item quantity="zero">%1$s, %2$s un vēl %3$d programmas</item>
-        <item quantity="one">%1$s, %2$s un vēl %3$d programma</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Nepareiza parole. Atlikuši %d mēģinājumi.</item>
-        <item quantity="zero">Nepareiza parole. Atlikuši %d mēģinājumi.</item>
-        <item quantity="one">Nepareiza parole. Atlicis %d mēģinājums.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Nepareiza figūra. Atlikuši %d mēģinājumi.</item>
-        <item quantity="zero">Nepareiza figūra. Atlikuši %d mēģinājumi.</item>
-        <item quantity="one">Nepareiza figūra. Atlicis %d mēģinājums.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Nepareizs PIN kods. Atlikuši %d mēģinājumi.</item>
-        <item quantity="zero">Nepareizs PIN kods. Atlikuši %d mēģinājumi.</item>
-        <item quantity="one">Nepareizs PIN kods. Atlicis %d mēģinājums.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
-        <item quantity="zero">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
-        <item quantity="one">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadu vecam.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Jūsu parolē ir jābūt vismaz %d burtiem.</item>
-        <item quantity="zero">Jūsu parolē ir jābūt vismaz %d burtiem.</item>
-        <item quantity="one">Jūsu parolē ir jābūt vismaz %d burtam.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Parolē ir jābūt vismaz %d mazajiem burtiem.</item>
-        <item quantity="one">Parolē ir jābūt vismaz 1 mazajam burtam.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Parolē ir jābūt vismaz %d cipariem vai simboliem.</item>
-        <item quantity="one">Parolē ir jābūt vismaz 1 ciparam vai simbolam.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Parolē ir jābūt vismaz %d cipariem.</item>
-        <item quantity="one">Parolē ir jābūt vismaz 1 ciparam.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Parolē ir jābūt vismaz %d simboliem.</item>
-        <item quantity="one">Parolē ir jābūt vismaz 1 simbolam.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Parolē ir jābūt vismaz %d lielajiem burtiem.</item>
-        <item quantity="one">Parolē ir jābūt vismaz 1 lielajam burtam.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">Vēl %d ieteikumi</item>
-        <item quantity="zero">Vēl %d ieteikumi</item>
-        <item quantity="one">Vēl %d ieteikums</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aktīvas programmas</item>
-        <item quantity="zero">%d aktīvas programmas</item>
-        <item quantity="one">%d aktīva programma</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Vai izdzēst %d valodu pakotnes?</item>
-        <item quantity="zero">Vai izdzēst %d valodu pakotnes?</item>
-        <item quantity="one">Vai izdzēst %d valodas pakotni?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d balsis</item>
-        <item quantity="zero">%d balsis</item>
-        <item quantity="one">%d balss</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d papildu atļaujas</item>
-        <item quantity="zero">%d papildu atļaujas</item>
-        <item quantity="one">%d papildu atļauja</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Lai kļūtu par izstrādātāju, atlikuši %d pieskārieni.</item>
-        <item quantity="zero">Lai kļūtu par izstrādātāju, atlikuši %d pieskārieni.</item>
-        <item quantity="one">Lai kļūtu par izstrādātāju, atlicis %d pieskāriens.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">Izvēlēti %d vienumi</item>
-        <item quantity="zero">Izvēlēti %d</item>
-        <item quantity="one">Izvēlēts %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">Atrastas %d ļaunprogrammatūras</item>
-        <item quantity="zero">Atrastas %d ļaunprogrammatūras</item>
-        <item quantity="one">Atrasta %d ļaunprogrammatūra</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">Tālrunī tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai saglabātu tālruņa drošību.</item>
-        <item quantity="zero">Tālrunī tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai saglabātu tālruņa drošību.</item>
-        <item quantity="one">Tālrunī tika atrasta %d ļaunatūra. Atinstalējiet šo programmu, lai saglabātu tālruņa drošību.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">Planšetdatorā tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai aizsargātu savu planšetdatoru.</item>
-        <item quantity="zero">Planšetdatorā tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai aizsargātu savu planšetdatoru.</item>
-        <item quantity="one">Planšetdatorā tika atrasta %d ļaunatūra. Atinstalējiet šo programmu, lai aizsargātu savu planšetdatoru.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d ieteikumi</item>
-        <item quantity="zero">%d ieteikumi</item>
-        <item quantity="one">%d ieteikums</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d brīdinājumi</item>
-        <item quantity="zero">%d brīdinājumi</item>
-        <item quantity="one">%d brīdinājums</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Miega ilgums: %d stundas</item>
-        <item quantity="zero">Miega ilgums: %d stundas</item>
-        <item quantity="one">Miega ilgums: %d stunda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Miega ilgums: %d minūtes</item>
-        <item quantity="zero">Miega ilgums: %d minūtes</item>
-        <item quantity="one">Miega ilgums: %d minūte</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Dublējiet neierobežotu datu apjomu pakalpojumā %1$s līdz pat %2$d dienām vai atjaunojiet dublētos datus.</item>
-        <item quantity="zero">Dublējiet neierobežotu datu apjomu pakalpojumā %1$s līdz pat %2$d dienām vai atjaunojiet dublētos datus.</item>
-        <item quantity="one">Dublējiet neierobežotu datu apjomu pakalpojumā %1$s līdz pat %2$d dienai vai atjaunojiet dublētos datus.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Šis tests tiks atiestatīts pēc %d sekundēm.</item>
-        <item quantity="zero">Šis tests tiks atiestatīts pēc %d sekundēm.</item>
-        <item quantity="one">Šis tests tiks atiestatīts pēc %d sekundes.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">Pievienotas %d ierīces</item>
-        <item quantity="zero">Pievienotas %d ierīces</item>
-        <item quantity="one">Pievienota %d ierīce</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
-        <item quantity="zero">Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
-        <item quantity="one">Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d cita ierīce.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
-        <item quantity="zero">Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
-        <item quantity="one">Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus, lai piekļūtu internetam, varēs izmantot %d cita ierīce.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
-        <item quantity="zero">Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
-        <item quantity="one">Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus, lai piekļūtu internetam, varēs izmantot %d cita ierīce.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
-        <item quantity="zero">Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
-        <item quantity="one">Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d cita ierīce.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d dalībnieki</item>
-        <item quantity="zero">%d dalībnieki</item>
-        <item quantity="one">%d dalībnieks</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Vai izdzēst %d tīklus?</item>
-        <item quantity="zero">Vai izdzēst %d tīklus?</item>
-        <item quantity="one">Vai izdzēst %d tīklu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">Izvēlēti %d vienumi</item>
-        <item quantity="zero">Izvēlēti %d</item>
-        <item quantity="one">Izvēlēts %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="zero">Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="one">Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis %d mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="zero">Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="one">Tika veikts %d mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="zero">Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="one">Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis %d mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="zero">Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="one">Tika veikts %d mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d stundas</item>
-        <item quantity="zero">%d stundas</item>
-        <item quantity="one">%d stunda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d minūtes</item>
-        <item quantity="zero">%d minūtes</item>
-        <item quantity="one">%d minūte</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+Pirms %d dienām</item>
+
+        <item
+            quantity="zero">
+Pirms %d dienām</item>
+
+        <item
+            quantity="one">
+Pirms %d dienas</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+Pirms %d minūtēm</item>
+
+        <item
+            quantity="zero">
+Pirms %d minūtēm</item>
+
+        <item
+            quantity="one">
+Pirms %d minūtes</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+Pirms %d gadiem</item>
+
+        <item
+            quantity="zero">
+Pirms %d gadiem</item>
+
+        <item
+            quantity="one">
+Pirms %d gada</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d minūtes</item>
+
+        <item
+            quantity="zero">
+%d minūtes</item>
+
+        <item
+            quantity="one">
+%d minūte</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d sekundes</item>
+
+        <item
+            quantity="zero">
+%d sekundes</item>
+
+        <item
+            quantity="one">
+%d sekunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d programmu kešatmiņas (%2$s)</item>
+
+        <item
+            quantity="zero">
+%1$d programmu kešatmiņas (%2$s)</item>
+
+        <item
+            quantity="one">
+%1$d programmas kešatmiņa (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Vai arhivēt %d programmas?</item>
+
+        <item
+            quantity="zero">
+Vai arhivēt %d programmas?</item>
+
+        <item
+            quantity="one">
+Vai arhivēt %d programmu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Arhivēt %1$d programmas (+%2$s)</item>
+
+        <item
+            quantity="zero">
+Arhivēt %1$d programmas (+%2$s)</item>
+
+        <item
+            quantity="one">
+Arhivēt %1$d programmu (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Vai iztīrīt %d programmu kešatmiņu?</item>
+
+        <item
+            quantity="zero">
+Vai iztīrīt %d programmu kešatmiņu?</item>
+
+        <item
+            quantity="one">
+Vai iztīrīt %d programmas kešatmiņu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Notīrīt %1$d kešatm. (+%2$s)</item>
+
+        <item
+            quantity="zero">
+Notīrīt %1$d kešatm. (+%2$s)</item>
+
+        <item
+            quantity="one">
+Notīrīt %1$d kešatmiņu (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+Izvēlēti %d vienumi</item>
+
+        <item
+            quantity="zero">
+Izvēlēti %d</item>
+
+        <item
+            quantity="one">
+Izvēlēts %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Atbrīvojiet %1$s vietas, arhivējot %2$d neizmantotas programmas. Jūsu personas dati un iestatījumi tiks saglabāti.</item>
+
+        <item
+            quantity="zero">
+Atbrīvojiet %1$s vietas, arhivējot %2$d neizmantotas programmas. Jūsu personas dati un iestatījumi tiks saglabāti.</item>
+
+        <item
+            quantity="one">
+Atbrīvojiet %1$s vietas, arhivējot %2$d neizmantotu programmu. Jūsu personas dati un iestatījumi tiks saglabāti.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Vai atinstalēt %d programmas?</item>
+
+        <item
+            quantity="zero">
+Vai atinstalēt %d programmas?</item>
+
+        <item
+            quantity="one">
+Vai atinstalēt %d programmu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Atinstalēt %1$d progr. (+%2$s)</item>
+
+        <item
+            quantity="zero">
+Atinstalēt %1$d progr. (+%2$s)</item>
+
+        <item
+            quantity="one">
+Atinstalēt %1$d progr. (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d nelietotas programmas (%2$s)</item>
+
+        <item
+            quantity="zero">
+%1$d nelietotas programmas (%2$s)</item>
+
+        <item
+            quantity="one">
+%1$d nelietota programma (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Notiek interneta savienojuma koplietošana ar %d ierīcēm.</item>
+
+        <item
+            quantity="zero">
+Notiek interneta savienojuma koplietošana ar %d ierīcēm.</item>
+
+        <item
+            quantity="one">
+Notiek interneta savienojuma koplietošana ar %d ierīci.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d programmas</item>
+
+        <item
+            quantity="zero">
+%d programmas</item>
+
+        <item
+            quantity="one">
+%d programma</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d dienas</item>
+
+        <item
+            quantity="one">
+1 diena</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d stundas</item>
+
+        <item
+            quantity="one">
+1 stunda</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d minūtes</item>
+
+        <item
+            quantity="one">
+1 minūte</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d sekundes</item>
+
+        <item
+            quantity="one">
+1 sekunde</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d nedēļas</item>
+
+        <item
+            quantity="one">
+1 nedēļa</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d programmas</item>
+
+        <item
+            quantity="zero">
+%d programmas</item>
+
+        <item
+            quantity="one">
+%d programma</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d stundas</item>
+
+        <item
+            quantity="zero">
+%d stundas</item>
+
+        <item
+            quantity="one">
+%d stunda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d minūtes</item>
+
+        <item
+            quantity="zero">
+%d minūtes</item>
+
+        <item
+            quantity="one">
+%d minūte</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d sekundes</item>
+
+        <item
+            quantity="zero">
+%d sekundes</item>
+
+        <item
+            quantity="one">
+%d sekunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Ja izdzēsīsit šīs vietas, mainot sensitīvos iestatījumus, vienmēr būs nepieciešami biometrijas dati un drošības aizkave.</item>
+
+        <item
+            quantity="one">
+Ja izdzēsīsit šo vietu, mainot sensitīvos iestatījumus, vienmēr būs nepieciešami biometrijas dati un drošības aizkave.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Vai izdzēst %d vietas?</item>
+
+        <item
+            quantity="zero">
+Vai izdzēst %d vietas?</item>
+
+        <item
+            quantity="one">
+Vai izdzēst %d vietu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+Izvēlēti %d</item>
+
+        <item
+            quantity="one">
+Izvēlēts 1</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s un vēl %2$d citas</item>
+
+        <item
+            quantity="zero">
+%1$s un vēl %2$d citas</item>
+
+        <item
+            quantity="one">
+%1$s un vēl %2$d cita</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+
+        <item
+            quantity="zero">
+Var ievadīt ne vairāk kā %d rakstzīmju.</item>
+
+        <item
+            quantity="one">
+Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d jauni paziņojumi</item>
+
+        <item
+            quantity="zero">
+%d jaunu paziņojumu</item>
+
+        <item
+            quantity="one">
+%d jauns paziņojums</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Pēdējo %d stundu laikā atmiņa nav izmantota</item>
+
+        <item
+            quantity="zero">
+Pēdējo %d stundu laikā atmiņa nav izmantota</item>
+
+        <item
+            quantity="one">
+Pēdējās %d stundas laikā atmiņa nav izmantota</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d paziņojumi</item>
+
+        <item
+            quantity="zero">
+%d paziņojumi</item>
+
+        <item
+            quantity="one">
+%d paziņojums</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Atgādināt reizi %d minūtēs par izvēlēto programmu paziņojumiem</item>
+
+        <item
+            quantity="zero">
+Atgādināt reizi %d minūtēs par izvēlēto programmu paziņojumiem</item>
+
+        <item
+            quantity="one">
+Atgādināt reizi %d minūtē par izvēlēto programmu paziņojumiem</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Varat iestatīt ne vairāk kā %d programmas</item>
+
+        <item
+            quantity="zero">
+Varat iestatīt ne vairāk kā %d programmas</item>
+
+        <item
+            quantity="one">
+Varat iestatīt ne vairāk kā %d programmu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s un vēl %2$d programmas lieto piekļuves kodus un automātiski ievada paroles un citu informāciju.</item>
+
+        <item
+            quantity="zero">
+%1$s un vēl %2$d programmas lieto piekļuves kodus un automātiski ievada paroles un citu informāciju.</item>
+
+        <item
+            quantity="one">
+%1$s un vēl %2$d programma lieto piekļuves kodus un automātiski ievada paroles un citu informāciju.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%2$d programmas izmantoja %1$s atļauju</item>
+
+        <item
+            quantity="zero">
+%2$d programmas izmantoja %1$s atļauju</item>
+
+        <item
+            quantity="one">
+%2$d programma izmantoja %1$s atļauju</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+Tiek lietotas %d pieejamības funkcijas</item>
+
+        <item
+            quantity="zero">
+Tiek lietotas %d pieejamības funkcijas</item>
+
+        <item
+            quantity="one">
+Tiek lietota %d pieejamības funkcija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d programmas</item>
+
+        <item
+            quantity="zero">
+%d programmas</item>
+
+        <item
+            quantity="one">
+%d programma</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Vai noņemt %d valodas?</item>
+
+        <item
+            quantity="zero">
+Vai noņemt %d valodas?</item>
+
+        <item
+            quantity="one">
+Vai noņemt %d valodu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d programmām ir pilna piekļuve jūsu tālrunim</item>
+
+        <item
+            quantity="zero">
+%d programmām ir pilna piekļuve jūsu tālrunim</item>
+
+        <item
+            quantity="one">
+%d programmai ir pilna piekļuve jūsu tālrunim</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Jūsu tālrunis tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu tālruni ieslēgtu, pieskarieties pie Atcelt.</item>
+
+        <item
+            quantity="zero">
+Jūsu tālrunis tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu tālruni ieslēgtu, pieskarieties pie Atcelt.</item>
+
+        <item
+            quantity="one">
+Jūsu tālrunis tiks automātiski izslēgts pēc %d sekundes. Lai šoreiz atstātu tālruni ieslēgtu, pieskarieties pie Atcelt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Jūsu planšetdators tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu planšetdatoru ieslēgtu, pieskarieties pie Atcelt.</item>
+
+        <item
+            quantity="zero">
+Jūsu planšetdators tiks automātiski izslēgts pēc %d sekundēm. Lai šoreiz atstātu planšetdatoru ieslēgtu, pieskarieties pie Atcelt.</item>
+
+        <item
+            quantity="one">
+Jūsu planšetdators tiks automātiski izslēgts pēc %d sekundes. Lai šoreiz atstātu planšetdatoru ieslēgtu, pieskarieties pie Atcelt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Ik pēc %d stundām</item>
+
+        <item
+            quantity="zero">
+Ik pēc %d stundām</item>
+
+        <item
+            quantity="one">
+Ik pēc %d stundas</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Parolē ir jābūt vismaz %d rakstzīmēm, tostarp vismaz 1 burtam.</item>
+
+        <item
+            quantity="zero">
+Parolē ir jābūt vismaz %d rakstzīmēm, tostarp vismaz 1 burtam.</item>
+
+        <item
+            quantity="one">
+Parolē ir jābūt vismaz %d rakstzīmei, tostarp vismaz 1 burtam.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+PIN kodā ir jābūt vismaz %d cipariem.</item>
+
+        <item
+            quantity="zero">
+PIN kodā ir jābūt vismaz %d cipariem.</item>
+
+        <item
+            quantity="one">
+PIN kodā ir jābūt vismaz %d ciparam.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Mēģiniet vēlreiz pēc 1 stundas un %d minūtēm</item>
+
+        <item
+            quantity="zero">
+Mēģiniet vēlreiz pēc 1 stundas un %d minūtēm</item>
+
+        <item
+            quantity="one">
+Mēģiniet vēlreiz pēc 1 stundas un %d minūtes</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Mēģiniet vēlreiz pēc %d stundām</item>
+
+        <item
+            quantity="zero">
+Mēģiniet vēlreiz pēc %d stundām</item>
+
+        <item
+            quantity="one">
+Mēģiniet vēlreiz pēc %d stundas</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Mēģiniet vēlreiz pēc %d stundām un 1 minūtes</item>
+
+        <item
+            quantity="zero">
+Mēģiniet vēlreiz pēc %d stundām un 1 minūtes</item>
+
+        <item
+            quantity="one">
+Mēģiniet vēlreiz pēc %d stundas un 1 minūtes</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Mēģiniet vēlreiz pēc %d minūtēm</item>
+
+        <item
+            quantity="one">
+Mēģiniet vēlreiz pēc %d minūtes</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Mēģiniet vēlreiz pēc %d sekundēm</item>
+
+        <item
+            quantity="one">
+Mēģiniet vēlreiz pēc %d sekundes</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Var ieslēgt ne vairāk kā %d papildu pakalpojumus.</item>
+
+        <item
+            quantity="zero">
+Var ieslēgt ne vairāk kā %d papildu pakalpojumus.</item>
+
+        <item
+            quantity="one">
+Var ieslēgt ne vairāk kā %d papildu pakalpojumu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+Atļauti %d kontakti</item>
+
+        <item
+            quantity="zero">
+Atļauti %d kontakti</item>
+
+        <item
+            quantity="one">
+Atļauts %d kontakts</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+Pievienoti %d pirkstu nospiedumi</item>
+
+        <item
+            quantity="zero">
+Pievienoti %d pirkstu nospiedumi</item>
+
+        <item
+            quantity="one">
+Pievienots %d pirksta nospiedums</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s un vēl %3$d programmas</item>
+
+        <item
+            quantity="zero">
+%1$s, %2$s un vēl %3$d programmas</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s un vēl %3$d programma</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Nepareiza parole. Atlikuši %d mēģinājumi.</item>
+
+        <item
+            quantity="zero">
+Nepareiza parole. Atlikuši %d mēģinājumi.</item>
+
+        <item
+            quantity="one">
+Nepareiza parole. Atlicis %d mēģinājums.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Nepareiza figūra. Atlikuši %d mēģinājumi.</item>
+
+        <item
+            quantity="zero">
+Nepareiza figūra. Atlikuši %d mēģinājumi.</item>
+
+        <item
+            quantity="one">
+Nepareiza figūra. Atlicis %d mēģinājums.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Nepareizs PIN kods. Atlikuši %d mēģinājumi.</item>
+
+        <item
+            quantity="zero">
+Nepareizs PIN kods. Atlikuši %d mēģinājumi.</item>
+
+        <item
+            quantity="one">
+Nepareizs PIN kods. Atlicis %d mēģinājums.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+
+        <item
+            quantity="zero">
+Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+
+        <item
+            quantity="one">
+Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadu vecam.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Jūsu parolē ir jābūt vismaz %d burtiem.</item>
+
+        <item
+            quantity="zero">
+Jūsu parolē ir jābūt vismaz %d burtiem.</item>
+
+        <item
+            quantity="one">
+Jūsu parolē ir jābūt vismaz %d burtam.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Parolē ir jābūt vismaz %d mazajiem burtiem.</item>
+
+        <item
+            quantity="one">
+Parolē ir jābūt vismaz 1 mazajam burtam.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Parolē ir jābūt vismaz %d cipariem vai simboliem.</item>
+
+        <item
+            quantity="one">
+Parolē ir jābūt vismaz 1 ciparam vai simbolam.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Parolē ir jābūt vismaz %d cipariem.</item>
+
+        <item
+            quantity="one">
+Parolē ir jābūt vismaz 1 ciparam.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Parolē ir jābūt vismaz %d simboliem.</item>
+
+        <item
+            quantity="one">
+Parolē ir jābūt vismaz 1 simbolam.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Parolē ir jābūt vismaz %d lielajiem burtiem.</item>
+
+        <item
+            quantity="one">
+Parolē ir jābūt vismaz 1 lielajam burtam.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+Vēl %d ieteikumi</item>
+
+        <item
+            quantity="zero">
+Vēl %d ieteikumi</item>
+
+        <item
+            quantity="one">
+Vēl %d ieteikums</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aktīvas programmas</item>
+
+        <item
+            quantity="zero">
+%d aktīvas programmas</item>
+
+        <item
+            quantity="one">
+%d aktīva programma</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Vai izdzēst %d valodu pakotnes?</item>
+
+        <item
+            quantity="zero">
+Vai izdzēst %d valodu pakotnes?</item>
+
+        <item
+            quantity="one">
+Vai izdzēst %d valodas pakotni?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d balsis</item>
+
+        <item
+            quantity="zero">
+%d balsis</item>
+
+        <item
+            quantity="one">
+%d balss</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d papildu atļaujas</item>
+
+        <item
+            quantity="zero">
+%d papildu atļaujas</item>
+
+        <item
+            quantity="one">
+%d papildu atļauja</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Lai kļūtu par izstrādātāju, atlikuši %d pieskārieni.</item>
+
+        <item
+            quantity="zero">
+Lai kļūtu par izstrādātāju, atlikuši %d pieskārieni.</item>
+
+        <item
+            quantity="one">
+Lai kļūtu par izstrādātāju, atlicis %d pieskāriens.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+Izvēlēti %d vienumi</item>
+
+        <item
+            quantity="zero">
+Izvēlēti %d</item>
+
+        <item
+            quantity="one">
+Izvēlēts %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+Atrastas %d ļaunprogrammatūras</item>
+
+        <item
+            quantity="zero">
+Atrastas %d ļaunprogrammatūras</item>
+
+        <item
+            quantity="one">
+Atrasta %d ļaunprogrammatūra</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+Tālrunī tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai saglabātu tālruņa drošību.</item>
+
+        <item
+            quantity="zero">
+Tālrunī tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai saglabātu tālruņa drošību.</item>
+
+        <item
+            quantity="one">
+Tālrunī tika atrasta %d ļaunatūra. Atinstalējiet šo programmu, lai saglabātu tālruņa drošību.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+Planšetdatorā tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai aizsargātu savu planšetdatoru.</item>
+
+        <item
+            quantity="zero">
+Planšetdatorā tika atrastas %d ļaunatūras. Atinstalējiet šīs programmas, lai aizsargātu savu planšetdatoru.</item>
+
+        <item
+            quantity="one">
+Planšetdatorā tika atrasta %d ļaunatūra. Atinstalējiet šo programmu, lai aizsargātu savu planšetdatoru.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d ieteikumi</item>
+
+        <item
+            quantity="zero">
+%d ieteikumi</item>
+
+        <item
+            quantity="one">
+%d ieteikums</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d brīdinājumi</item>
+
+        <item
+            quantity="zero">
+%d brīdinājumi</item>
+
+        <item
+            quantity="one">
+%d brīdinājums</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Miega ilgums: %d stundas</item>
+
+        <item
+            quantity="zero">
+Miega ilgums: %d stundas</item>
+
+        <item
+            quantity="one">
+Miega ilgums: %d stunda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Miega ilgums: %d minūtes</item>
+
+        <item
+            quantity="zero">
+Miega ilgums: %d minūtes</item>
+
+        <item
+            quantity="one">
+Miega ilgums: %d minūte</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Dublējiet neierobežotu datu apjomu pakalpojumā %1$s līdz pat %2$d dienām vai atjaunojiet dublētos datus.</item>
+
+        <item
+            quantity="zero">
+Dublējiet neierobežotu datu apjomu pakalpojumā %1$s līdz pat %2$d dienām vai atjaunojiet dublētos datus.</item>
+
+        <item
+            quantity="one">
+Dublējiet neierobežotu datu apjomu pakalpojumā %1$s līdz pat %2$d dienai vai atjaunojiet dublētos datus.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Šis tests tiks atiestatīts pēc %d sekundēm.</item>
+
+        <item
+            quantity="zero">
+Šis tests tiks atiestatīts pēc %d sekundēm.</item>
+
+        <item
+            quantity="one">
+Šis tests tiks atiestatīts pēc %d sekundes.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+Pievienotas %d ierīces</item>
+
+        <item
+            quantity="zero">
+Pievienotas %d ierīces</item>
+
+        <item
+            quantity="one">
+Pievienota %d ierīce</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
+
+        <item
+            quantity="zero">
+Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
+
+        <item
+            quantity="one">
+Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d cita ierīce.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
+
+        <item
+            quantity="zero">
+Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
+
+        <item
+            quantity="one">
+Pārvērtiet tālruni par Wi-Fi piekļuves punktu. Jūsu tālruņa mobilos datus, lai piekļūtu internetam, varēs izmantot %d cita ierīce.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
+
+        <item
+            quantity="zero">
+Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus, lai piekļūtu internetam, varēs izmantot %d citas ierīces.</item>
+
+        <item
+            quantity="one">
+Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus, lai piekļūtu internetam, varēs izmantot %d cita ierīce.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
+
+        <item
+            quantity="zero">
+Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d citas ierīces.</item>
+
+        <item
+            quantity="one">
+Pārvērtiet planšetdatoru par Wi-Fi piekļuves punktu. Jūsu planšetdatora mobilos datus vai Wi-Fi savienojumu, lai piekļūtu internetam, varēs izmantot vēl %d cita ierīce.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d dalībnieki</item>
+
+        <item
+            quantity="zero">
+%d dalībnieki</item>
+
+        <item
+            quantity="one">
+%d dalībnieks</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Vai izdzēst %d tīklus?</item>
+
+        <item
+            quantity="zero">
+Vai izdzēst %d tīklus?</item>
+
+        <item
+            quantity="one">
+Vai izdzēst %d tīklu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+Izvēlēti %d vienumi</item>
+
+        <item
+            quantity="zero">
+Izvēlēti %d</item>
+
+        <item
+            quantity="one">
+Izvēlēts %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="zero">
+Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="one">
+Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis %d mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="zero">
+Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="one">
+Tika veikts %d mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā tālrunī tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="zero">
+Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlikuši %d mēģinājumi, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="one">
+Tika veikts 1 mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis %d mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="zero">
+Tika veikti %d mēģinājumi atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="one">
+Tika veikts %d mēģinājums atbloķēt jūsu darba profilu. Jums ir atlicis 1 mēģinājums, pirms šajā planšetdatorā tiks atjaunoti rūpnīcas noklusējuma iestatījumi un visi dati tiks izdzēsti.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d stundas</item>
+
+        <item
+            quantity="zero">
+%d stundas</item>
+
+        <item
+            quantity="one">
+%d stunda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d minūtes</item>
+
+        <item
+            quantity="zero">
+%d minūtes</item>
+
+        <item
+            quantity="one">
+%d minūte</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

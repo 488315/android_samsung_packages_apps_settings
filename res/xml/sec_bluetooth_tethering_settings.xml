@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/tether_settings_title_bluetooth"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_tethering_description" android:selectable="false" android:key="bluetooth_tethering_description" android:order="100" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/tether_settings_title_bluetooth">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_bluetooth_tethering_description"
+        android:selectable="false"
+        android:key="bluetooth_tethering_description"
+        android:order="100" />
+
 </PreferenceScreen>

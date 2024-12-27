@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sesl_dialog_body_text_padding_bottom"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/on_layout" layout="@layout/accessibility_preference_selector_with_widget" />
-    <include android:id="@id/off_layout" layout="@layout/accessibility_preference_selector_with_widget" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/sesl_dialog_body_text_padding_bottom">
+
+    <include
+        android:id="@id/on_layout"
+        layout="@layout/accessibility_preference_selector_with_widget" />
+
+    <include
+        android:id="@id/off_layout"
+        layout="@layout/accessibility_preference_selector_with_widget" />
+
 </LinearLayout>

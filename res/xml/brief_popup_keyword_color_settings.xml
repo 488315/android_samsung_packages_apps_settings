@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/brief_popup_keyword_color_settings_title" android:key="brief_popup_keyword_color_settings" settings:hierarchicalParentFragment="com.samsung.android.settings.notification.brief.BriefPopUpSettings"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.notification.brief.BriefPopUpKeywordColorLayoutPreference android:layout="@layout/brief_popup_keyword_color_layout" android:key="brief_popup_keyword_color_layout_settings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/brief_popup_keyword_color_settings_title"
+    android:key="brief_popup_keyword_color_settings"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.notification.brief.BriefPopUpSettings">
+
+    <com.samsung.android.settings.notification.brief.BriefPopUpKeywordColorLayoutPreference
+        android:layout="@layout/brief_popup_keyword_color_layout"
+        android:key="brief_popup_keyword_color_layout_settings" />
+
 </PreferenceScreen>

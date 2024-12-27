@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_dark_mode_settings" settings:hierarchicalParentFragment="com.android.settings.DisplaySettings" settings:topLevelPreferenceKey="top_level_display"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_night_theme_desc" android:selectable="false" android:key="sec_dark_mode_desc" />
-    <SecSwitchPreference android:title="@string/sec_blue_light_filter_enable_as_scheduled" android:key="sec_dark_mode_turn_on_as_scheduled" android:summary="@string/sec_night_theme_turn_on_as_scheduled_summary" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_blue_light_filter_auto_schedule_title" android:key="sec_dark_mode_auto_schedule" settings:allowDividerBelow="false" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_blue_light_filter_user_schedule_title" android:key="sec_dark_mode_user_schedule" />
-    <SecPreferenceScreen android:title="@string/sec_eye_comfort_set_schedule" android:key="sec_dark_mode_schedule" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_dark_mode_settings"
+    settings:hierarchicalParentFragment="com.android.settings.DisplaySettings"
+    settings:topLevelPreferenceKey="top_level_display">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_night_theme_desc"
+        android:selectable="false"
+        android:key="sec_dark_mode_desc" />
+
+    <SecSwitchPreference
+        android:title="@string/sec_blue_light_filter_enable_as_scheduled"
+        android:key="sec_dark_mode_turn_on_as_scheduled"
+        android:summary="@string/sec_night_theme_turn_on_as_scheduled_summary" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_blue_light_filter_auto_schedule_title"
+        android:key="sec_dark_mode_auto_schedule"
+        settings:allowDividerBelow="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_blue_light_filter_user_schedule_title"
+        android:key="sec_dark_mode_user_schedule" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_eye_comfort_set_schedule"
+        android:key="sec_dark_mode_schedule" />
+
 </PreferenceScreen>

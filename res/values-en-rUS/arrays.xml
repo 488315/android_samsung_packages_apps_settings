@@ -1,323 +1,921 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="apn_auth_entries">
-        <item>None</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP or CHAP</item>
+
+    <string-array
+        name="apn_auth_entries">
+
+        <item>
+None</item>
+
+        <item>
+PAP</item>
+
+        <item>
+CHAP</item>
+
+        <item>
+PAP or CHAP</item>
+
     </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
+
+    <string-array
+        name="battery_labels">
+
+        <item>
+0%</item>
+
+        <item>
+50%</item>
+
+        <item>
+100%</item>
+
     </string-array>
-    <string-array name="bluetooth_cast_timeout_entries">
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
-        <item>"Don't disconnect"</item>
+
+    <string-array
+        name="bluetooth_cast_timeout_entries">
+
+        <item>
+5 minutes</item>
+
+        <item>
+10 minutes</item>
+
+        <item>
+30 minutes</item>
+
+        <item>
+"Don't disconnect"</item>
+
     </string-array>
-    <string-array name="bluetooth_max_connected_audio_devices">
-        <item>System default: %d</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+
+    <string-array
+        name="bluetooth_max_connected_audio_devices">
+
+        <item>
+System default: %d</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
     </string-array>
-    <string-array name="bluetooth_pbap_property_picture_entries">
-        <item>Yes</item>
-        <item>No</item>
+
+    <string-array
+        name="bluetooth_pbap_property_picture_entries">
+
+        <item>
+Yes</item>
+
+        <item>
+No</item>
+
     </string-array>
-    <string-array name="bluetooth_sap_activation_entries">
-        <item>Default (no effect)</item>
-        <item>Turn on SAP by force</item>
-        <item>Turn off SAP by force</item>
+
+    <string-array
+        name="bluetooth_sap_activation_entries">
+
+        <item>
+Default (no effect)</item>
+
+        <item>
+Turn on SAP by force</item>
+
+        <item>
+Turn off SAP by force</item>
+
     </string-array>
-    <string-array name="captioning_edge_type_selector_titles">
-        <item>Default</item>
-        <item>None</item>
-        <item>Outline</item>
-        <item>Drop Shadow</item>
-        <item>Raised</item>
-        <item>Depressed</item>
+
+    <string-array
+        name="captioning_edge_type_selector_titles">
+
+        <item>
+Default</item>
+
+        <item>
+None</item>
+
+        <item>
+Outline</item>
+
+        <item>
+Drop Shadow</item>
+
+        <item>
+Raised</item>
+
+        <item>
+Depressed</item>
+
     </string-array>
-    <string-array name="captioning_font_size_selector_titles">
-        <item>Very small</item>
-        <item>Small</item>
-        <item>Normal</item>
-        <item>Large</item>
-        <item>Very large</item>
+
+    <string-array
+        name="captioning_font_size_selector_titles">
+
+        <item>
+Very small</item>
+
+        <item>
+Small</item>
+
+        <item>
+Normal</item>
+
+        <item>
+Large</item>
+
+        <item>
+Very large</item>
+
     </string-array>
-    <string-array name="captioning_preset_selector_titles">
-        <item>Default</item>
-        <item>White on black</item>
-        <item>Black on white</item>
-        <item>Yellow on black</item>
-        <item>Yellow on blue</item>
-        <item>Custom</item>
+
+    <string-array
+        name="captioning_preset_selector_titles">
+
+        <item>
+Default</item>
+
+        <item>
+White on black</item>
+
+        <item>
+Black on white</item>
+
+        <item>
+Yellow on black</item>
+
+        <item>
+Yellow on blue</item>
+
+        <item>
+Custom</item>
+
     </string-array>
-    <string-array name="captioning_typeface_selector_titles">
-        <item>Default</item>
-        <item>Sans serif</item>
-        <item>Sans serif condensed</item>
-        <item>Sans serif monospace</item>
-        <item>Serif</item>
-        <item>Serif monospace</item>
-        <item>Casual</item>
-        <item>Cursive</item>
-        <item>Small caps</item>
+
+    <string-array
+        name="captioning_typeface_selector_titles">
+
+        <item>
+Default</item>
+
+        <item>
+Sans serif</item>
+
+        <item>
+Sans serif condensed</item>
+
+        <item>
+Sans serif monospace</item>
+
+        <item>
+Serif</item>
+
+        <item>
+Serif monospace</item>
+
+        <item>
+Casual</item>
+
+        <item>
+Cursive</item>
+
+        <item>
+Small caps</item>
+
     </string-array>
-    <string-array name="data_usage_billing_cycle_summary">
-        <item>1st day of each month</item>
-        <item>2nd day of each month</item>
-        <item>3rd day of each month</item>
-        <item>4th day of each month</item>
-        <item>5th day of each month</item>
-        <item>6th day of each month</item>
-        <item>7th day of each month</item>
-        <item>8th day of each month</item>
-        <item>9th day of each month</item>
-        <item>10th day of each month</item>
-        <item>11th day of each month</item>
-        <item>12th day of each month</item>
-        <item>13th day of each month</item>
-        <item>14th day of each month</item>
-        <item>15th day of each month</item>
-        <item>16th day of each month</item>
-        <item>17th day of each month</item>
-        <item>18th day of each month</item>
-        <item>19th day of each month</item>
-        <item>20th day of each month</item>
-        <item>21st day of each month</item>
-        <item>22nd day of each month</item>
-        <item>23rd day of each month</item>
-        <item>24th day of each month</item>
-        <item>25th day of each month</item>
-        <item>26th day of each month</item>
-        <item>27th day of each month</item>
-        <item>28th day of each month</item>
-        <item>29th day of each month</item>
-        <item>30th day of each month</item>
-        <item>31st day of each month</item>
+
+    <string-array
+        name="data_usage_billing_cycle_summary">
+
+        <item>
+1st day of each month</item>
+
+        <item>
+2nd day of each month</item>
+
+        <item>
+3rd day of each month</item>
+
+        <item>
+4th day of each month</item>
+
+        <item>
+5th day of each month</item>
+
+        <item>
+6th day of each month</item>
+
+        <item>
+7th day of each month</item>
+
+        <item>
+8th day of each month</item>
+
+        <item>
+9th day of each month</item>
+
+        <item>
+10th day of each month</item>
+
+        <item>
+11th day of each month</item>
+
+        <item>
+12th day of each month</item>
+
+        <item>
+13th day of each month</item>
+
+        <item>
+14th day of each month</item>
+
+        <item>
+15th day of each month</item>
+
+        <item>
+16th day of each month</item>
+
+        <item>
+17th day of each month</item>
+
+        <item>
+18th day of each month</item>
+
+        <item>
+19th day of each month</item>
+
+        <item>
+20th day of each month</item>
+
+        <item>
+21st day of each month</item>
+
+        <item>
+22nd day of each month</item>
+
+        <item>
+23rd day of each month</item>
+
+        <item>
+24th day of each month</item>
+
+        <item>
+25th day of each month</item>
+
+        <item>
+26th day of each month</item>
+
+        <item>
+27th day of each month</item>
+
+        <item>
+28th day of each month</item>
+
+        <item>
+29th day of each month</item>
+
+        <item>
+30th day of each month</item>
+
+        <item>
+31st day of each month</item>
+
     </string-array>
-    <string-array name="dex_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>60 minutes</item>
+
+    <string-array
+        name="dex_timeout_entries">
+
+        <item>
+15 seconds</item>
+
+        <item>
+30 seconds</item>
+
+        <item>
+1 minute</item>
+
+        <item>
+2 minutes</item>
+
+        <item>
+5 minutes</item>
+
+        <item>
+10 minutes</item>
+
+        <item>
+20 minutes</item>
+
+        <item>
+30 minutes</item>
+
+        <item>
+60 minutes</item>
+
     </string-array>
-    <string-array name="gpuwatch_rendering_api_entries">
-        <item>Vulkan</item>
-        <item>OpenGL</item>
+
+    <string-array
+        name="gpuwatch_rendering_api_entries">
+
+        <item>
+Vulkan</item>
+
+        <item>
+OpenGL</item>
+
     </string-array>
-    <string-array name="gpuwatch_widget_positions">
-        <item>Top - Left</item>
-        <item>Top - Center horizontal</item>
-        <item>Top - Right</item>
-        <item>Center vertical - Left</item>
-        <item>Center vertical - Right</item>
-        <item>Bottom - Left</item>
-        <item>Bottom - Center horizontal</item>
-        <item>Bottom - Right</item>
+
+    <string-array
+        name="gpuwatch_widget_positions">
+
+        <item>
+Top - Left</item>
+
+        <item>
+Top - Center horizontal</item>
+
+        <item>
+Top - Right</item>
+
+        <item>
+Center vertical - Left</item>
+
+        <item>
+Center vertical - Right</item>
+
+        <item>
+Bottom - Left</item>
+
+        <item>
+Bottom - Center horizontal</item>
+
+        <item>
+Bottom - Right</item>
+
     </string-array>
-    <string-array name="key_backlight_entries">
-        <item>Always off</item>
-        <item>1 second</item>
-        <item>3 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>15 seconds</item>
+
+    <string-array
+        name="key_backlight_entries">
+
+        <item>
+Always off</item>
+
+        <item>
+1 second</item>
+
+        <item>
+3 seconds</item>
+
+        <item>
+5 seconds</item>
+
+        <item>
+10 seconds</item>
+
+        <item>
+15 seconds</item>
+
     </string-array>
-    <string-array name="lock_after_timeout_entries">
-        <item>Immediately</item>
-        <item>5 seconds</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+
+    <string-array
+        name="lock_after_timeout_entries">
+
+        <item>
+Immediately</item>
+
+        <item>
+5 seconds</item>
+
+        <item>
+15 seconds</item>
+
+        <item>
+30 seconds</item>
+
+        <item>
+1 minute</item>
+
+        <item>
+2 minutes</item>
+
+        <item>
+5 minutes</item>
+
+        <item>
+10 minutes</item>
+
+        <item>
+30 minutes</item>
+
     </string-array>
-    <string-array name="mouse_pointer_color_type">
-        <item>White</item>
-        <item>Black</item>
-        <item>Turquoise</item>
-        <item>Yellow</item>
-        <item>Light red</item>
-        <item>Light violet</item>
-        <item>Light blue</item>
+
+    <string-array
+        name="mouse_pointer_color_type">
+
+        <item>
+White</item>
+
+        <item>
+Black</item>
+
+        <item>
+Turquoise</item>
+
+        <item>
+Yellow</item>
+
+        <item>
+Light red</item>
+
+        <item>
+Light violet</item>
+
+        <item>
+Light blue</item>
+
     </string-array>
-    <string-array name="mvno_type_entries">
-        <item>None</item>
-        <item>SPN</item>
-        <item>IMSI</item>
-        <item>GID</item>
+
+    <string-array
+        name="mvno_type_entries">
+
+        <item>
+None</item>
+
+        <item>
+SPN</item>
+
+        <item>
+IMSI</item>
+
+        <item>
+GID</item>
+
     </string-array>
-    <string-array name="num_allowed_devices">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
+
+    <string-array
+        name="num_allowed_devices">
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
     </string-array>
-    <string-array name="ram_states">
-        <item>Normal</item>
-        <item>Moderate</item>
-        <item>Low</item>
-        <item>Critical</item>
-        <item>\?</item>
+
+    <string-array
+        name="ram_states">
+
+        <item>
+Normal</item>
+
+        <item>
+Moderate</item>
+
+        <item>
+Low</item>
+
+        <item>
+Critical</item>
+
+        <item>
+\?</item>
+
     </string-array>
-    <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+
+    <string-array
+        name="screen_timeout_entries">
+
+        <item>
+15 seconds</item>
+
+        <item>
+30 seconds</item>
+
+        <item>
+1 minute</item>
+
+        <item>
+2 minutes</item>
+
+        <item>
+5 minutes</item>
+
+        <item>
+10 minutes</item>
+
+        <item>
+30 minutes</item>
+
     </string-array>
-    <string-array name="sec_bt_stack_log_level_entries">
-        <item>Verbose</item>
-        <item>Debug</item>
-        <item>Info</item>
-        <item>Warn</item>
-        <item>Error</item>
+
+    <string-array
+        name="sec_bt_stack_log_level_entries">
+
+        <item>
+Verbose</item>
+
+        <item>
+Debug</item>
+
+        <item>
+Info</item>
+
+        <item>
+Warn</item>
+
+        <item>
+Error</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_phone">
-        <item>"Find your phone if it's lost."</item>
-        <item>Sync apps and settings across your devices.</item>
-        <item>Share files with friends, family, and other devices.</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_phone">
+
+        <item>
+"Find your phone if it's lost."</item>
+
+        <item>
+Sync apps and settings across your devices.</item>
+
+        <item>
+Share files with friends, family, and other devices.</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_tablet">
-        <item>"Find your tablet if it's lost."</item>
-        <item>Copy and paste between your phone and tablet.</item>
-        <item>Automatically switch your Buds between devices.</item>
-        <item>Answer calls and texts on your tablet.</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_tablet">
+
+        <item>
+"Find your tablet if it's lost."</item>
+
+        <item>
+Copy and paste between your phone and tablet.</item>
+
+        <item>
+Automatically switch your Buds between devices.</item>
+
+        <item>
+Answer calls and texts on your tablet.</item>
+
     </string-array>
-    <string-array name="security_settings_premium_sms_values">
-        <item>Ask always</item>
-        <item>Never allow</item>
-        <item>Always allow</item>
+
+    <string-array
+        name="security_settings_premium_sms_values">
+
+        <item>
+Ask always</item>
+
+        <item>
+Never allow</item>
+
+        <item>
+Always allow</item>
+
     </string-array>
-    <string-array name="vpn_proxy_settings">
-        <item>None</item>
-        <item>Manual</item>
+
+    <string-array
+        name="vpn_proxy_settings">
+
+        <item>
+None</item>
+
+        <item>
+Manual</item>
+
     </string-array>
-    <string-array name="vpn_states">
-        <item>Disconnected</item>
-        <item>Initializing…</item>
-        <item>Connecting…</item>
-        <item>Connected</item>
-        <item>Timeout</item>
-        <item>Unsuccessful</item>
+
+    <string-array
+        name="vpn_states">
+
+        <item>
+Disconnected</item>
+
+        <item>
+Initializing…</item>
+
+        <item>
+Connecting…</item>
+
+        <item>
+Connected</item>
+
+        <item>
+Timeout</item>
+
+        <item>
+Unsuccessful</item>
+
     </string-array>
-    <string-array name="wifi_ap_broadcast_channel_entries">
-        <item>Auto</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
+
+    <string-array
+        name="wifi_ap_broadcast_channel_entries">
+
+        <item>
+Auto</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
+        <item>
+11</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_phone_entries">
-        <item>Randomized MAC</item>
-        <item>Phone MAC</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_phone_entries">
+
+        <item>
+Randomized MAC</item>
+
+        <item>
+Phone MAC</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_tablet_entries">
-        <item>Randomized MAC</item>
-        <item>Tablet MAC</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_tablet_entries">
+
+        <item>
+Randomized MAC</item>
+
+        <item>
+Tablet MAC</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_security_type_entries">
-        <item>Open</item>
-        <item>Enhanced Open</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_owe_security_type_entries">
+
+        <item>
+Open</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
-        <item>Open</item>
-        <item>Enhanced Open</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_owe_wpa3_security_type_entries">
+
+        <item>
+Open</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_ap_security_type_entries">
-        <item>Open</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_security_type_entries">
+
+        <item>
+Open</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
-        <item>Never timeout</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>60 minutes</item>
+
+    <string-array
+        name="wifi_ap_turn_off_hotspot_timer_entries">
+
+        <item>
+Never timeout</item>
+
+        <item>
+5 minutes</item>
+
+        <item>
+10 minutes</item>
+
+        <item>
+20 minutes</item>
+
+        <item>
+30 minutes</item>
+
+        <item>
+60 minutes</item>
+
     </string-array>
-    <string-array name="wifi_ap_wifi_sharing">
-        <item>Turn on &lt;cst>Wi-Fi&lt;/cst> sharing</item>
-        <item>Turn off &lt;cst>Wi-Fi&lt;/cst> sharing</item>
+
+    <string-array
+        name="wifi_ap_wifi_sharing">
+
+        <item>
+Turn on &lt;cst&gt;Wi-Fi&lt;/cst&gt; sharing</item>
+
+        <item>
+Turn off &lt;cst&gt;Wi-Fi&lt;/cst&gt; sharing</item>
+
     </string-array>
-    <string-array name="wifi_ap_wpa3_security_type_entries">
-        <item>Open</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_wpa3_security_type_entries">
+
+        <item>
+Open</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_connect_entries">
-        <item>Automatic</item>
-        <item>Manual</item>
-        <item>Always ask</item>
+
+    <string-array
+        name="wifi_connect_entries">
+
+        <item>
+Automatic</item>
+
+        <item>
+Manual</item>
+
+        <item>
+Always ask</item>
+
     </string-array>
-    <string-array name="wifi_ip_settings">
-        <item>DHCP</item>
-        <item>Static</item>
+
+    <string-array
+        name="wifi_ip_settings">
+
+        <item>
+DHCP</item>
+
+        <item>
+Static</item>
+
     </string-array>
-    <string-array name="wifi_metered_entries">
-        <item>Detect automatically</item>
-        <item>Treat as metered</item>
-        <item>Treat as unmetered</item>
+
+    <string-array
+        name="wifi_metered_entries">
+
+        <item>
+Detect automatically</item>
+
+        <item>
+Treat as metered</item>
+
+        <item>
+Treat as unmetered</item>
+
     </string-array>
-    <string-array name="wifi_p2p_status">
-        <item>Connected</item>
-        <item>Invited.</item>
-        <item>Connection failed</item>
-        <item>Tap here to connect.</item>
-        <item>Out of range.</item>
-        <item>Connected with another device</item>
+
+    <string-array
+        name="wifi_p2p_status">
+
+        <item>
+Connected</item>
+
+        <item>
+Invited.</item>
+
+        <item>
+Connection failed</item>
+
+        <item>
+Tap here to connect.</item>
+
+        <item>
+Out of range.</item>
+
+        <item>
+Connected with another device</item>
+
     </string-array>
-    <string-array name="wifi_proxy_settings">
-        <item>None</item>
-        <item>Manual</item>
-        <item>Auto-config</item>
+
+    <string-array
+        name="wifi_proxy_settings">
+
+        <item>
+None</item>
+
+        <item>
+Manual</item>
+
+        <item>
+Auto-config</item>
+
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Scanning…</item>
-        <item>Connecting…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connected</item>
-        <item>Suspended</item>
-        <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Checking the quality of your Internet connection…</item>
+
+    <string-array
+        name="wifi_status">
+
+        <item />
+
+        <item>
+Scanning…</item>
+
+        <item>
+Connecting…</item>
+
+        <item>
+Authenticating…</item>
+
+        <item>
+Obtaining IP address…</item>
+
+        <item>
+Connected</item>
+
+        <item>
+Suspended</item>
+
+        <item>
+Disconnecting…</item>
+
+        <item>
+Disconnected</item>
+
+        <item>
+Unsuccessful</item>
+
+        <item>
+Blocked</item>
+
+        <item>
+Checking the quality of your Internet connection…</item>
+
     </string-array>
+
 </resources>

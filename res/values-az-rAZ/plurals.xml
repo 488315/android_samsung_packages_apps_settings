@@ -1,683 +1,2448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d dəqiqə</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dəqiqə</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d saniyə</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d saniyə</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d proqram keşi (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d proqram keşi (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">%d proqram arxivləşdirilsin?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqram arxivləşdirilsin?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">%1$d proqramı (+%2$s) arxivləşdir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d proqramı (+%2$s) arxivləşdir</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">%d proqram üçün keş təmizlənsin?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqram üçün keş təmizlənsin?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">%1$d keşi sil (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d keşi sil (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">%d seçildi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d seçildi</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">%2$d istifadə edilməyən proqramı arxivləşdirərək %1$s yer boşaldın. Şəxsi məlumatlarınız və parametrlər yaddaşda saxlanılıb.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$d istifadə edilməyən proqramı arxivləşdirərək %1$s yer boşaldın. Şəxsi məlumatlarınız və parametrlər yaddaşda saxlanılıb.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">%d proqram pozulsun?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqram pozulsun?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">%1$d proqramı sil (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d proqramı sil (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d istifadə edilməyən proqram (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d istifadə edilməyən proqram (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">%d cihaz ilə internet bağlantısı paylaşılır.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d cihaz ilə internet bağlantısı paylaşılır.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d proqram</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqram</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d gün</item>
-        <item quantity="one">1 gün</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d saat</item>
-        <item quantity="one">1 saat</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d dəqiqə</item>
-        <item quantity="one">1 dəqiqə</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d saniyə</item>
-        <item quantity="one">1 saniyə</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d həftə</item>
-        <item quantity="one">1 həftə</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d proqram</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqram</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d saat</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d saat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d dəqiqə</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dəqiqə</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d san</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d san</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Bu yerləri silsəniz, biometrik məlumatlar və təhlükəsizlik gecikməsi həssas parametrləri dəyişdirdiyiniz zaman həmişə tələb ediləcək.</item>
-        <item quantity="one">Bu yeri silsəniz, biometrik məlumatlar və təhlükəsizlik gecikməsi həssas parametrləri dəyişdirdiyiniz zaman həmişə tələb ediləcək.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">%d yer silinsin?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d yer silinsin?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d seçildi</item>
-        <item quantity="one">1 seçilib</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s və daha %2$d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s və daha %2$d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">%d simvoldan çox daxil etmək olmur.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d simvoldan çox daxil etmək olmur.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Son %d saat ərzində yaddaşdan istifadə edilməyib</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Son %d saat ərzində yaddaşdan istifadə edilməyib</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d bildiriş</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d bildiriş</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Seçilən proqramların bildirişləri barədə hər %d dəqiqədə xatırlat</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Seçilən proqramların bildirişləri barədə hər %d dəqiqədə xatırlat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Maks. %d proqram</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Maks. %d proqram</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s və daha %2$d proqram şifrələrdən istifadə edir və parolları və digər məlumatları avtomatik daxil edir.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s və daha %2$d proqram şifrələrdən istifadə edir və parolları və digər məlumatları avtomatik daxil edir.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%2$d proqram tərəfindən %1$s icazəsi istifadə olunub</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$d proqram tərəfindən %1$s icazəsi istifadə olunub</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d xüsusi imkan funksiyası istifadə edilir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d xüsusi imkan funksiyası istifadə edilir</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d proqram</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqram</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">%d dil silinsin?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dil silinsin?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d proqramın telefona tam çıxışı var</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d proqramın telefona tam çıxışı var</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Telefonunuz %d saniyəyə avtomatik sönəcək. Bu vaxt telefonu işlək saxlamaq üçün Ləğv et vurun.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefonunuz %d saniyəyə avtomatik sönəcək. Bu vaxt telefonu işlək saxlamaq üçün Ləğv et vurun.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Tabletiniz %d saniyəyə avtomatik sönəcək. Bu vaxt tableti işlək saxlamaq üçün Ləğv et vurun.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tabletiniz %d saniyəyə avtomatik sönəcək. Bu vaxt tableti işlək saxlamaq üçün Ləğv et vurun.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Hər %d saatdan bir</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Hər %d saatdan bir</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Parolunuz ən azı %d simvoldan ibarət olmalı və ən az 1 hərf daxil olmalıdır.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Parolunuz ən azı %d simvoldan ibarət olmalı və ən az 1 hərf daxil olmalıdır.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">PIN-kod ən azı %d rəqəm ehtiva etməlidir.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">PIN-kod ən azı %d rəqəm ehtiva etməlidir.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">1 saat %d dəqiqə sonra yenidən cəhd edin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">1 saat %d dəqiqə sonra yenidən cəhd edin</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">%d saat sonra yenidən cəhd edin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d saat sonra yenidən cəhd edin</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">%d saat 1 dəqiqə sonra yenidən cəhd edin</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d saat 1 dəqiqə sonra yenidən cəhd edin</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">%d dəqiqə sonra yenidən cəhd et</item>
-        <item quantity="one">%d dəqiqə sonra yenidən cəhd et</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">%d saniyə sonra yenidən cəhd et</item>
-        <item quantity="one">%d saniyə sonra yenidən cəhd et</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Ən çoxu %d əlavə xidmət yandırmaq olar.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ən çoxu %d əlavə xidmət yandırmaq olar.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d kontakta icazə verilib</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d kontakta icazə verilib</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%d barmaq izi əlavə edildi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d barmaq izi əlavə edildi</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s və daha %3$d proqram</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s və daha %3$d proqram</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Yanlış parol. %d cəhd qalıb.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Yanlış parol. %d cəhd qalıb.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Yanlış naxış. %d cəhd qalıb.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Yanlış naxış. %d cəhd qalıb.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Yanlış PIN. %d cəhd qalıb.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Yanlış PIN. %d cəhd qalıb.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Galaxy AI-nin qabaqcıl intellekt funksiyalarından istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Galaxy AI-nin qabaqcıl intellekt funksiyalarından istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Parolunuzda ən azı %d hərf olmalıdır.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Parolunuzda ən azı %d hərf olmalıdır.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Parola ən azı %d kiçik hərf daxil olmalıdır.</item>
-        <item quantity="one">Parola ən az 1 kiçik hərf daxil olmalıdır.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Parola ən azı %d rəqəm və ya simvol daxil olmalıdır.</item>
-        <item quantity="one">Parola ən azı 1 rəqəm və ya simvol daxil olmalıdır.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Parola ən azı %d rəqəm daxil olmalıdır.</item>
-        <item quantity="one">Parola ən az 1 rəqəm daxil olmalıdır.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Parola ən azı %d simvol daxil olmalıdır.</item>
-        <item quantity="one">Parola ən azı 1 simvol daxil olmalıdır.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Parola ən azı %d böyük hərf daxil olmalıdır.</item>
-        <item quantity="one">Parola ən az 1 böyük hərf daxil olmalıdır.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">Daha %d təklif</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Daha %d təklif</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aktiv proqram</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aktiv proqram</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">%d dil paketi silinsin?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dil paketi silinsin?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d səs</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d səs</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d əlavə icazə</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d əlavə icazə</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Tərtibatçı olmağınıza %d toxunuş qalıb.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tərtibatçı olmağınıza %d toxunuş qalıb.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">%d seçildi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d seçildi</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%d zərərli proqram aşkarlanıb</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d zərərli proqram aşkarlanıb</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">Telefonunuzda %d zərərli proqram tapıldı. Telefonunuzu təhlükəsiz saxlamaq üçün bu proqramların quraşdırmasını silin.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefonunuzda %d zərərli proqram tapıldı. Telefonunuzu təhlükəsiz saxlamaq üçün bu proqramın quraşdırmasını silin.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">Tabletinizdə %d zərərli proqram aşkarlanıb. Tabletinizin təhlükəsizliyini təmin etmək üçün bu proqramı silin.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tabletinizdə %d zərərli proqram aşkarlanıb. Tabletinizin təhlükəsizliyini təmin etmək üçün bu proqramı silin.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d təklif</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d təklif</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d xəbərdarlıq</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d xəbərdarlıq</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Yuxu vaxtı: %d saat</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Yuxu vaxtı: %d saat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Yuxu vaxtı: %d dəqiqə</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Yuxu vaxtı: %d dəqiqə</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Limitsiz miqdarda verilənləri %2$d günə qədər %1$s yaddaşına nüsxələyin və ya nüsxələdiyiniz verilənləri bərpa edin.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Limitsiz miqdarda verilənləri %2$d günə qədər %1$s yaddaşına nüsxələyin və ya nüsxələdiyiniz verilənləri bərpa edin.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Bu test %d saniyə sonra sıfırlanacaq.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Bu test %d saniyə sonra sıfırlanacaq.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d cihaz qoşulub</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d cihaz qoşulub</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonun mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonun mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonunuzun mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonunuzun mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletinizin mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletinizin mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletin mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletin mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d üzv</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d üzv</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">%d şəbəkə silinsin?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d şəbəkə silinsin?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">%d seçildi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d seçildi</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d saat</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d saat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d dəqiqə</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dəqiqə</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d dəqiqə</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dəqiqə</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d saniyə</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d saniyə</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d proqram keşi (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d proqram keşi (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+%d proqram arxivləşdirilsin?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqram arxivləşdirilsin?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+%1$d proqramı (+%2$s) arxivləşdir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d proqramı (+%2$s) arxivləşdir</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+%d proqram üçün keş təmizlənsin?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqram üçün keş təmizlənsin?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+%1$d keşi sil (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d keşi sil (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+%d seçildi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d seçildi</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+%2$d istifadə edilməyən proqramı arxivləşdirərək %1$s yer boşaldın. Şəxsi məlumatlarınız və parametrlər yaddaşda saxlanılıb.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$d istifadə edilməyən proqramı arxivləşdirərək %1$s yer boşaldın. Şəxsi məlumatlarınız və parametrlər yaddaşda saxlanılıb.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+%d proqram pozulsun?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqram pozulsun?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+%1$d proqramı sil (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d proqramı sil (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d istifadə edilməyən proqram (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d istifadə edilməyən proqram (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+%d cihaz ilə internet bağlantısı paylaşılır.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d cihaz ilə internet bağlantısı paylaşılır.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d proqram</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqram</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d gün</item>
+
+        <item
+            quantity="one">
+1 gün</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d saat</item>
+
+        <item
+            quantity="one">
+1 saat</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d dəqiqə</item>
+
+        <item
+            quantity="one">
+1 dəqiqə</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d saniyə</item>
+
+        <item
+            quantity="one">
+1 saniyə</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d həftə</item>
+
+        <item
+            quantity="one">
+1 həftə</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d proqram</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqram</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d saat</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d saat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d dəqiqə</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dəqiqə</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d san</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d san</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Bu yerləri silsəniz, biometrik məlumatlar və təhlükəsizlik gecikməsi həssas parametrləri dəyişdirdiyiniz zaman həmişə tələb ediləcək.</item>
+
+        <item
+            quantity="one">
+Bu yeri silsəniz, biometrik məlumatlar və təhlükəsizlik gecikməsi həssas parametrləri dəyişdirdiyiniz zaman həmişə tələb ediləcək.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+%d yer silinsin?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d yer silinsin?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d seçildi</item>
+
+        <item
+            quantity="one">
+1 seçilib</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s və daha %2$d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s və daha %2$d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+%d simvoldan çox daxil etmək olmur.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d simvoldan çox daxil etmək olmur.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Son %d saat ərzində yaddaşdan istifadə edilməyib</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Son %d saat ərzində yaddaşdan istifadə edilməyib</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d bildiriş</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d bildiriş</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Seçilən proqramların bildirişləri barədə hər %d dəqiqədə xatırlat</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Seçilən proqramların bildirişləri barədə hər %d dəqiqədə xatırlat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Maks. %d proqram</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Maks. %d proqram</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s və daha %2$d proqram şifrələrdən istifadə edir və parolları və digər məlumatları avtomatik daxil edir.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s və daha %2$d proqram şifrələrdən istifadə edir və parolları və digər məlumatları avtomatik daxil edir.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%2$d proqram tərəfindən %1$s icazəsi istifadə olunub</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$d proqram tərəfindən %1$s icazəsi istifadə olunub</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d xüsusi imkan funksiyası istifadə edilir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d xüsusi imkan funksiyası istifadə edilir</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d proqram</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqram</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+%d dil silinsin?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dil silinsin?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d proqramın telefona tam çıxışı var</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d proqramın telefona tam çıxışı var</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Telefonunuz %d saniyəyə avtomatik sönəcək. Bu vaxt telefonu işlək saxlamaq üçün Ləğv et vurun.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefonunuz %d saniyəyə avtomatik sönəcək. Bu vaxt telefonu işlək saxlamaq üçün Ləğv et vurun.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Tabletiniz %d saniyəyə avtomatik sönəcək. Bu vaxt tableti işlək saxlamaq üçün Ləğv et vurun.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tabletiniz %d saniyəyə avtomatik sönəcək. Bu vaxt tableti işlək saxlamaq üçün Ləğv et vurun.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Hər %d saatdan bir</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Hər %d saatdan bir</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Parolunuz ən azı %d simvoldan ibarət olmalı və ən az 1 hərf daxil olmalıdır.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Parolunuz ən azı %d simvoldan ibarət olmalı və ən az 1 hərf daxil olmalıdır.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+PIN-kod ən azı %d rəqəm ehtiva etməlidir.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+PIN-kod ən azı %d rəqəm ehtiva etməlidir.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+1 saat %d dəqiqə sonra yenidən cəhd edin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+1 saat %d dəqiqə sonra yenidən cəhd edin</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+%d saat sonra yenidən cəhd edin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d saat sonra yenidən cəhd edin</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+%d saat 1 dəqiqə sonra yenidən cəhd edin</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d saat 1 dəqiqə sonra yenidən cəhd edin</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+%d dəqiqə sonra yenidən cəhd et</item>
+
+        <item
+            quantity="one">
+%d dəqiqə sonra yenidən cəhd et</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+%d saniyə sonra yenidən cəhd et</item>
+
+        <item
+            quantity="one">
+%d saniyə sonra yenidən cəhd et</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Ən çoxu %d əlavə xidmət yandırmaq olar.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ən çoxu %d əlavə xidmət yandırmaq olar.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d kontakta icazə verilib</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d kontakta icazə verilib</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%d barmaq izi əlavə edildi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d barmaq izi əlavə edildi</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s və daha %3$d proqram</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s və daha %3$d proqram</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Yanlış parol. %d cəhd qalıb.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Yanlış parol. %d cəhd qalıb.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Yanlış naxış. %d cəhd qalıb.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Yanlış naxış. %d cəhd qalıb.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Yanlış PIN. %d cəhd qalıb.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Yanlış PIN. %d cəhd qalıb.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Galaxy AI-nin qabaqcıl intellekt funksiyalarından istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Galaxy AI-nin qabaqcıl intellekt funksiyalarından istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Parolunuzda ən azı %d hərf olmalıdır.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Parolunuzda ən azı %d hərf olmalıdır.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Parola ən azı %d kiçik hərf daxil olmalıdır.</item>
+
+        <item
+            quantity="one">
+Parola ən az 1 kiçik hərf daxil olmalıdır.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Parola ən azı %d rəqəm və ya simvol daxil olmalıdır.</item>
+
+        <item
+            quantity="one">
+Parola ən azı 1 rəqəm və ya simvol daxil olmalıdır.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Parola ən azı %d rəqəm daxil olmalıdır.</item>
+
+        <item
+            quantity="one">
+Parola ən az 1 rəqəm daxil olmalıdır.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Parola ən azı %d simvol daxil olmalıdır.</item>
+
+        <item
+            quantity="one">
+Parola ən azı 1 simvol daxil olmalıdır.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Parola ən azı %d böyük hərf daxil olmalıdır.</item>
+
+        <item
+            quantity="one">
+Parola ən az 1 böyük hərf daxil olmalıdır.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+Daha %d təklif</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Daha %d təklif</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aktiv proqram</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aktiv proqram</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+%d dil paketi silinsin?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dil paketi silinsin?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d səs</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d səs</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d əlavə icazə</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d əlavə icazə</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Tərtibatçı olmağınıza %d toxunuş qalıb.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tərtibatçı olmağınıza %d toxunuş qalıb.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+%d seçildi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d seçildi</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%d zərərli proqram aşkarlanıb</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d zərərli proqram aşkarlanıb</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+Telefonunuzda %d zərərli proqram tapıldı. Telefonunuzu təhlükəsiz saxlamaq üçün bu proqramların quraşdırmasını silin.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefonunuzda %d zərərli proqram tapıldı. Telefonunuzu təhlükəsiz saxlamaq üçün bu proqramın quraşdırmasını silin.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+Tabletinizdə %d zərərli proqram aşkarlanıb. Tabletinizin təhlükəsizliyini təmin etmək üçün bu proqramı silin.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tabletinizdə %d zərərli proqram aşkarlanıb. Tabletinizin təhlükəsizliyini təmin etmək üçün bu proqramı silin.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d təklif</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d təklif</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d xəbərdarlıq</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d xəbərdarlıq</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Yuxu vaxtı: %d saat</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Yuxu vaxtı: %d saat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Yuxu vaxtı: %d dəqiqə</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Yuxu vaxtı: %d dəqiqə</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Limitsiz miqdarda verilənləri %2$d günə qədər %1$s yaddaşına nüsxələyin və ya nüsxələdiyiniz verilənləri bərpa edin.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Limitsiz miqdarda verilənləri %2$d günə qədər %1$s yaddaşına nüsxələyin və ya nüsxələdiyiniz verilənləri bərpa edin.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Bu test %d saniyə sonra sıfırlanacaq.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Bu test %d saniyə sonra sıfırlanacaq.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d cihaz qoşulub</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d cihaz qoşulub</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonun mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonun mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonunuzun mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefonu Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz telefonunuzun mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletinizin mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletinizin mobil datasından internetə çıxış üçün istifadə edə biləcək.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletin mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tableti Wi-Fi çıxış nöqtəsinə çevirin. %d qədər başqa cihaz tabletin mobil datası və ya Wi-Fi bağlantısı ilə internetə çıxa biləcək.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d üzv</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d üzv</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+%d şəbəkə silinsin?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d şəbəkə silinsin?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+%d seçildi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d seçildi</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu telefonun ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+İş profilinizin kilidini açmaq üçün 1 dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə %d dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+İş profilinizin kilidini açmaq üçün %d dəfə cəhd edilib. Bu tabletin ilkin parametrlərə sıfırlanmasından və bütün məlumatların silinməsindən əvvəl əlavə 1 dəfə cəhd edə bilərsiniz.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d saat</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d saat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d dəqiqə</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dəqiqə</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

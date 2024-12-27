@@ -1,16 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/sec_security_dashboard_menu_item_padding_start" android:paddingEnd="@dimen/sec_security_dashboard_menu_item_padding_end"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <View android:id="@id/divider" android:background="@color/sec_security_dashboard_expandable_menu_divider_color" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintEnd_toEndOf="@id/icon_status_frame" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="@id/title_frame" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
-    <FrameLayout android:gravity="start|center" android:id="@id/icon_frame" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintEnd_toStartOf="@id/title_frame" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
-        <androidx.preference.internal.PreferenceImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingStart="@dimen/sec_security_dashboard_menu_item_padding_start"
+    android:paddingEnd="@dimen/sec_security_dashboard_menu_item_padding_end">
+
+    <View
+        android:id="@id/divider"
+        android:layout_width="0.0dip"
+        android:layout_height="1.0dip"
+        android:background="@color/sec_security_dashboard_expandable_menu_divider_color"
+        app:layout_constraintEnd_toEndOf="@id/icon_status_frame"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/title_frame"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <FrameLayout
+        android:id="@id/icon_frame"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        android:gravity="start|center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/title_frame"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.preference.internal.PreferenceImageView
+            android:id="@android:id/icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+
     </FrameLayout>
-    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/title_frame" android:paddingTop="@dimen/sec_security_dashboard_menu_item_padding_top" android:paddingBottom="@dimen/sec_security_dashboard_menu_item_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_security_dashboard_textview_padding_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/icon_status_frame" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toEndOf="@id/icon_frame" app:layout_constraintTop_toTopOf="parent">
-        <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/sec_security_dashboard_textview_textsize" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textSize="@dimen/sec_security_dashboard_textview_subtext_textsize" android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@id/title_frame"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/sec_security_dashboard_menu_item_padding_top"
+        android:paddingBottom="@dimen/sec_security_dashboard_menu_item_padding_bottom"
+        android:layout_marginStart="@dimen/sec_security_dashboard_textview_padding_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/icon_status_frame"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/icon_frame"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:textSize="@dimen/sec_security_dashboard_textview_textsize" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceListItemSecondary"
+            android:textSize="@dimen/sec_security_dashboard_textview_subtext_textsize"
+            android:visibility="gone" />
+
     </LinearLayout>
-    <FrameLayout android:gravity="end|center" android:id="@id/icon_status_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/title_frame" app:layout_constraintTop_toTopOf="parent">
-        <com.airbnb.lottie.LottieAnimationView android:id="@id/icon_status" android:layout_width="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size" android:layout_height="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size" app:lottie_autoPlay="true" app:lottie_loop="false" />
-        <ProgressBar android:id="@id/menu_item_scan_progress_icon" android:visibility="gone" android:layout_width="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size" android:layout_height="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size" style="?android:progressBarStyleSmall" />
+
+    <FrameLayout
+        android:id="@id/icon_status_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end|center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/title_frame"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/icon_status"
+            android:layout_width="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size"
+            android:layout_height="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false" />
+
+        <ProgressBar
+            android:id="@id/menu_item_scan_progress_icon"
+            android:layout_width="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size"
+            android:layout_height="@dimen/sec_security_dashboard_menu_item_scan_progress_bar_size"
+            android:visibility="gone"
+            style="?android:progressBarStyleSmall" />
+
     </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

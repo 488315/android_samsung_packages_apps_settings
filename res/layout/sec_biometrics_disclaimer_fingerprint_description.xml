@@ -1,26 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/biometrics_disclaimer_more_desc_fingerprint_total" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/biometrics_disclaimer_more_about_finger" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_guide_margin_top">
-        <TextView android:id="@id/sec_biometrics_disclaimer_more_about_text_finger" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_more_about_fingerprints" android:layout_weight="1.0" style="@style/SecBiometricsGuideMoreAboutTextStyle" />
-        <ImageView android:layout_gravity="center" android:id="@id/biometrics_disclaimer_more_about_image_finger" android:layout_width="@dimen/sec_biometrics_disclaimer_more_about_icon_width" android:layout_height="@dimen/sec_biometrics_disclaimer_more_about_icon_height" android:src="@drawable/sec_ic_biometric_spinner" android:tint="@color/sec_biometrics_guide_common_spinner_icon_color" android:layout_marginStart="@dimen/sec_biometrics_disclaimer_more_about_image_margin_start" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/biometrics_disclaimer_more_desc_fingerprint_total"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@id/biometrics_disclaimer_more_about_finger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_guide_margin_top">
+
+        <TextView
+            android:id="@id/sec_biometrics_disclaimer_more_about_text_finger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sec_biometrics_disclaimer_more_about_fingerprints"
+            android:layout_weight="1.0"
+            style="@style/SecBiometricsGuideMoreAboutTextStyle" />
+
+        <ImageView
+            android:id="@id/biometrics_disclaimer_more_about_image_finger"
+            android:layout_width="@dimen/sec_biometrics_disclaimer_more_about_icon_width"
+            android:layout_height="@dimen/sec_biometrics_disclaimer_more_about_icon_height"
+            android:layout_gravity="center"
+            android:src="@drawable/sec_ic_biometric_spinner"
+            android:tint="@color/sec_biometrics_guide_common_spinner_icon_color"
+            android:layout_marginStart="@dimen/sec_biometrics_disclaimer_more_about_image_margin_start" />
+
     </LinearLayout>
-    <RelativeLayout android:id="@id/biometrics_disclaimer_more_desc_layout_fingerprint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top" android:layout_below="@id/biometrics_disclaimer_more_about_finger" android:layout_marginStart="@dimen/sec_biometrics_disclaimer_more_about_text_margin_start">
-        <LinearLayout android:orientation="horizontal" android:id="@id/biometrics_disclaimer_finger_learn_more" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textColor="@color/sec_biometrics_guide_common_bullet_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_guide_bullet" android:importantForAccessibility="no" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
-            <TextView android:gravity="start" android:id="@id/biometrics_disclaimer_finger_learn_more_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_for_your_security" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+    <RelativeLayout
+        android:id="@id/biometrics_disclaimer_more_desc_layout_fingerprint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top"
+        android:layout_below="@id/biometrics_disclaimer_more_about_finger"
+        android:layout_marginStart="@dimen/sec_biometrics_disclaimer_more_about_text_margin_start">
+
+        <LinearLayout
+            android:id="@id/biometrics_disclaimer_finger_learn_more"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_biometrics_guide_common_bullet_color"
+                android:text="@string/sec_biometrics_disclaimer_guide_bullet"
+                android:importantForAccessibility="no"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+            <TextView
+                android:id="@id/biometrics_disclaimer_finger_learn_more_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/sec_biometrics_disclaimer_for_your_security"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/biometrics_disclaimer_more_finger_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top" android:layout_below="@id/biometrics_disclaimer_finger_learn_more">
-            <TextView android:textColor="@color/sec_biometrics_guide_common_bullet_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_guide_bullet" android:importantForAccessibility="no" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
-            <TextView android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_personal_finger_info" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+        <LinearLayout
+            android:id="@id/biometrics_disclaimer_more_finger_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top"
+            android:layout_below="@id/biometrics_disclaimer_finger_learn_more">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_biometrics_guide_common_bullet_color"
+                android:text="@string/sec_biometrics_disclaimer_guide_bullet"
+                android:importantForAccessibility="no"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/sec_biometrics_disclaimer_personal_finger_info"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/biometrics_disclaimer_more_desc_fingerprint_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top" android:layout_below="@id/biometrics_disclaimer_more_finger_info">
-            <TextView android:textColor="@color/sec_biometrics_guide_common_bullet_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_guide_bullet" android:importantForAccessibility="no" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
-            <TextView android:gravity="start" android:id="@id/biometrics_disclaimer_more_desc_fingerprint_1_textView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+        <LinearLayout
+            android:id="@id/biometrics_disclaimer_more_desc_fingerprint_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top"
+            android:layout_below="@id/biometrics_disclaimer_more_finger_info">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_biometrics_guide_common_bullet_color"
+                android:text="@string/sec_biometrics_disclaimer_guide_bullet"
+                android:importantForAccessibility="no"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+            <TextView
+                android:id="@id/biometrics_disclaimer_more_desc_fingerprint_1_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@id/biometrics_disclaimer_more_desc_fingerprint_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top" android:layout_below="@id/biometrics_disclaimer_more_desc_fingerprint_1">
-            <TextView android:textColor="@color/sec_biometrics_guide_common_bullet_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_biometrics_disclaimer_guide_bullet" android:importantForAccessibility="no" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
-            <TextView android:gravity="start" android:id="@id/biometrics_disclaimer_more_desc_fingerprint_2_textView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+        <LinearLayout
+            android:id="@id/biometrics_disclaimer_more_desc_fingerprint_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/sec_biometrics_disclaimer_more_about_text_margin_top"
+            android:layout_below="@id/biometrics_disclaimer_more_desc_fingerprint_1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_biometrics_guide_common_bullet_color"
+                android:text="@string/sec_biometrics_disclaimer_guide_bullet"
+                android:importantForAccessibility="no"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
+            <TextView
+                android:id="@id/biometrics_disclaimer_more_desc_fingerprint_2_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                style="@style/SecBiometricsGuideCommonInfoTextStyle" />
+
         </LinearLayout>
+
     </RelativeLayout>
+
 </RelativeLayout>

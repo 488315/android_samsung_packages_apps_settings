@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/device_info_info_text_martgin_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="start|center|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <ImageView android:id="@id/sim_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="4.0dip" />
-        <TextView android:id="@id/sim_slot_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_info_available_sim" android:textAlignment="viewStart" style="@style/device_info_category_title" />
-        <View android:gravity="center_vertical" android:background="@drawable/sec_subheader_divider" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/device_info_info_text_martgin_bottom">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center|top"
+        android:orientation="horizontal"
+        android:layout_weight="1.0">
+
+        <ImageView
+            android:id="@id/sim_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginEnd="4.0dip" />
+
+        <TextView
+            android:id="@id/sim_slot_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_available_sim"
+            android:textAlignment="viewStart"
+            style="@style/device_info_category_title" />
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/sec_subheader_divider"
+            android:layout_weight="1.0"
+            android:layout_marginStart="16.0dip" />
+
     </LinearLayout>
+
 </LinearLayout>

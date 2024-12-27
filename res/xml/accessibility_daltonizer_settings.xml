@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:persistent="false" android:title="@string/accessibility_display_daltonizer_preference_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/color_correction_description" android:key="description_preference" settings:searchable="false" settings:showFullSizeImage="true" />
-    <PreferenceCategory android:key="empty_category" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/daltonizer_mode_deuteranomaly_title" android:key="daltonizer_mode_deuteranomaly" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/daltonizer_mode_protanomaly_title" android:key="daltonizer_mode_protanomaly" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/daltonizer_mode_tritanomaly_title" android:key="daltonizer_mode_tritanomaly" />
-    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference android:persistent="false" android:title="@string/daltonizer_mode_grayscale_title" android:key="daltonizer_mode_grayscale" />
-    <PreferenceCategory android:key="sec_saturation_category" />
-    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference android:persistent="false" android:layout="@layout/preference_accessibility_seek_bar_layout" android:title="@string/intensity_seekbar_title" android:key="sec_daltonizer_saturation" settings:controller="com.android.settings.accessibility.DaltonizerSaturationSeekbarPreferenceController" settings:leftLabelName="@string/intensity_seekbar_weak_label" settings:rightLabelName="@string/intensity_seekbar_strong_label" settings:seamless="false" settings:seekBarMode="levelbar" settings:updatesContinuously="true" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:persistent="false"
+    android:title="@string/accessibility_display_daltonizer_preference_title">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/color_correction_description"
+        android:key="description_preference"
+        settings:searchable="false"
+        settings:showFullSizeImage="true" />
+
+    <PreferenceCategory
+        android:key="empty_category" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/daltonizer_mode_deuteranomaly_title"
+        android:key="daltonizer_mode_deuteranomaly" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/daltonizer_mode_protanomaly_title"
+        android:key="daltonizer_mode_protanomaly" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/daltonizer_mode_tritanomaly_title"
+        android:key="daltonizer_mode_tritanomaly" />
+
+    <com.samsung.android.settings.accessibility.base.widget.AccessibilitySelectorWithWidgetPreference
+        android:persistent="false"
+        android:title="@string/daltonizer_mode_grayscale_title"
+        android:key="daltonizer_mode_grayscale" />
+
+    <PreferenceCategory
+        android:key="sec_saturation_category" />
+
+    <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference
+        android:persistent="false"
+        android:layout="@layout/preference_accessibility_seek_bar_layout"
+        android:title="@string/intensity_seekbar_title"
+        android:key="sec_daltonizer_saturation"
+        settings:controller="com.android.settings.accessibility.DaltonizerSaturationSeekbarPreferenceController"
+        settings:leftLabelName="@string/intensity_seekbar_weak_label"
+        settings:rightLabelName="@string/intensity_seekbar_strong_label"
+        settings:seamless="false"
+        settings:seekBarMode="levelbar"
+        settings:updatesContinuously="true" />
+
 </PreferenceScreen>

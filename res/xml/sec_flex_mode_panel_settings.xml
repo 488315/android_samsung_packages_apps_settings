@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_flex_mode_panel_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecHelpAnimationLayoutPreference android:layout="@layout/sec_guide" android:key="flex_mode_panel_preview" app:searchable="false" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference app:height="@dimen/sec_widget_preference_unclickable_margin_top" app:roundStroke="top_left|top_right" />
-    <SecPreference android:title="@string/sec_flex_mode_panel_auto_show_panel_when_folded" android:key="flex_mode_apps_to_show_flex_mode_panel_automatically" android:fragment="com.samsung.android.settings.usefulfeature.labs.flexmodepanel.FlexModePanelDetailsSettings" app:controller="com.samsung.android.settings.usefulfeature.labs.flexmodepanel.FlexModePanelDetailsPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="gap_between_option" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_flex_mode_panel_title">
+
+    <com.samsung.android.settings.widget.SecHelpAnimationLayoutPreference
+        android:layout="@layout/sec_guide"
+        android:key="flex_mode_panel_preview"
+        app:searchable="false" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        app:height="@dimen/sec_widget_preference_unclickable_margin_top"
+        app:roundStroke="top_left|top_right" />
+
+    <SecPreference
+        android:title="@string/sec_flex_mode_panel_auto_show_panel_when_folded"
+        android:key="flex_mode_apps_to_show_flex_mode_panel_automatically"
+        android:fragment="com.samsung.android.settings.usefulfeature.labs.flexmodepanel.FlexModePanelDetailsSettings"
+        app:controller="com.samsung.android.settings.usefulfeature.labs.flexmodepanel.FlexModePanelDetailsPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="gap_between_option" />
+
     <SecPreferenceCategory>
-        <SecDropDownPreference android:entries="@array/flex_entries" android:title="@string/sec_wheel_scroll_title" android:key="flex_mode_scroll_wheel_pos" android:summary="%s" android:entryValues="@array/flex_entries" />
-        <SecPreference android:title="@string/sec_flex_mode_panel_touchpad_gesture_help" android:key="flex_mode_touchpad_gesture_help" android:fragment="com.samsung.android.settings.usefulfeature.labs.flexmodepanel.TouchPadGestureHelp" />
+
+        <SecDropDownPreference
+            android:entries="@array/flex_entries"
+            android:title="@string/sec_wheel_scroll_title"
+            android:key="flex_mode_scroll_wheel_pos"
+            android:summary="%s"
+            android:entryValues="@array/flex_entries" />
+
+        <SecPreference
+            android:title="@string/sec_flex_mode_panel_touchpad_gesture_help"
+            android:key="flex_mode_touchpad_gesture_help"
+            android:fragment="com.samsung.android.settings.usefulfeature.labs.flexmodepanel.TouchPadGestureHelp" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

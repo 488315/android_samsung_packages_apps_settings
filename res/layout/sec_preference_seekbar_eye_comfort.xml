@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_widget_list_item_padding_top" android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/list_item_container_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="@string/sec_eye_comfort_color_temperature" android:singleLine="true" android:layout_marginStart="@dimen/sec_display_settings_eyecomfort_seekbar_title_padding_start" style="@style/list_title_text_style" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="49.0dip" android:paddingHorizontal="4.0dip">
-        <androidx.appcompat.widget.SeslSeekBar android:layout_gravity="center_vertical" android:id="@id/eye_comfort_seekbar" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/sec_widget_list_item_padding_top"
+    android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom"
+    android:paddingStart="0.0dip"
+    android:paddingEnd="0.0dip"
+    style="@style/list_item_container_style">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:layout_marginBottom="3.0dip"
+        android:text="@string/sec_eye_comfort_color_temperature"
+        android:singleLine="true"
+        android:layout_marginStart="@dimen/sec_display_settings_eyecomfort_seekbar_title_padding_start"
+        style="@style/list_title_text_style" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="49.0dip"
+        android:orientation="horizontal"
+        android:paddingHorizontal="4.0dip">
+
+        <androidx.appcompat.widget.SeslSeekBar
+            android:id="@id/eye_comfort_seekbar"
+            android:layout_width="0.0dip"
+            android:layout_height="32.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0" />
+
     </LinearLayout>
+
 </LinearLayout>

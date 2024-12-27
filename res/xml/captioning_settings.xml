@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/accessibility_captioning_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.IllustrationPreference android:selectable="false" android:key="captioning_preview" settings:lottie_rawRes="@drawable/a11y_captioning_banner" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/accessibility_captioning_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:selectable="false"
+        android:key="captioning_preview"
+        settings:lottie_rawRes="@drawable/a11y_captioning_banner"
+        settings:searchable="false" />
+
     <PreferenceCategory />
-    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference android:title="@string/accessibility_captioning_primary_switch_title" android:key="captioning_preference_switch" settings:controller="com.android.settings.accessibility.CaptioningTogglePreferenceController" />
+
+    <com.samsung.android.settings.widget.SecRestrictedSwitchPreference
+        android:title="@string/accessibility_captioning_primary_switch_title"
+        android:key="captioning_preference_switch"
+        settings:controller="com.android.settings.accessibility.CaptioningTogglePreferenceController" />
+
     <PreferenceCategory />
-    <Preference android:title="@string/captioning_appearance_title" android:key="captioning_appearance" android:fragment="com.android.settings.accessibility.CaptioningAppearanceFragment" settings:controller="com.android.settings.accessibility.CaptioningAppearancePreferenceController" />
-    <Preference android:title="@string/captioning_more_options_title" android:key="captioning_more_options" android:fragment="com.android.settings.accessibility.CaptioningMoreOptionsFragment" />
-    <com.android.settings.accessibility.AccessibilityFooterPreference android:title="@string/accessibility_caption_preference_footer_summary" android:selectable="false" android:key="captioning_settings_footer" settings:controller="com.android.settings.accessibility.CaptioningFooterPreferenceController" settings:searchable="false" />
+
+    <Preference
+        android:title="@string/captioning_appearance_title"
+        android:key="captioning_appearance"
+        android:fragment="com.android.settings.accessibility.CaptioningAppearanceFragment"
+        settings:controller="com.android.settings.accessibility.CaptioningAppearancePreferenceController" />
+
+    <Preference
+        android:title="@string/captioning_more_options_title"
+        android:key="captioning_more_options"
+        android:fragment="com.android.settings.accessibility.CaptioningMoreOptionsFragment" />
+
+    <com.android.settings.accessibility.AccessibilityFooterPreference
+        android:title="@string/accessibility_caption_preference_footer_summary"
+        android:selectable="false"
+        android:key="captioning_settings_footer"
+        settings:controller="com.android.settings.accessibility.CaptioningFooterPreferenceController"
+        settings:searchable="false" />
+
 </PreferenceScreen>

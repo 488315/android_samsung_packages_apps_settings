@@ -1,14 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="?listChoiceBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall" android:paddingEnd="?listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/controller_item_start_padding" android:layout_marginEnd="@dimen/controller_item_end_padding" />
-    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/list_item_top_padding" android:paddingBottom="@dimen/list_item_top_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-        <LinearLayout android:id="@id/summary_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
-            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/appendix" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewEnd" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="?listChoiceBackgroundIndicator"
+    android:minHeight="?listPreferredItemHeightSmall"
+    android:paddingEnd="?listPreferredItemPaddingEnd">
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/controller_item_start_padding"
+        android:layout_marginEnd="@dimen/controller_item_end_padding" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/list_item_top_padding"
+        android:paddingBottom="@dimen/list_item_top_padding"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:id="@id/summary_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="?android:textColorSecondary"
+                android:layout_weight="1.0"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@id/appendix"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="?android:textColorSecondary"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_weight="1.0"
+                android:textAlignment="viewEnd" />
+
         </LinearLayout>
-        <ProgressBar android:id="@android:id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:max="100" style="?android:progressBarStyleHorizontal" />
+
+        <ProgressBar
+            android:id="@android:id/progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="4.0dip"
+            android:max="100"
+            style="?android:progressBarStyleHorizontal" />
+
     </LinearLayout>
-    <ImageView android:layout_gravity="center" android:id="@id/reset_button" android:background="?android:selectableItemBackground" android:layout_width="@dimen/list_item_widget_image_size" android:layout_height="@dimen/list_item_widget_image_size" android:src="@drawable/color_adjustment_list_ic_refresh" android:contentDescription="@string/common_reset" />
+
+    <ImageView
+        android:id="@id/reset_button"
+        android:layout_width="@dimen/list_item_widget_image_size"
+        android:layout_height="@dimen/list_item_widget_image_size"
+        android:layout_gravity="center"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/color_adjustment_list_ic_refresh"
+        android:contentDescription="@string/common_reset" />
+
 </LinearLayout>

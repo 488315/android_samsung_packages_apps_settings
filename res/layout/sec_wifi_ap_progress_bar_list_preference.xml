@@ -1,22 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/icon_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="9.0dip">
-        <com.android.internal.widget.PreferenceImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="30.0dip" app:maxHeight="40.0dip" app:maxWidth="40.0dip" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:minHeight="30.0dip"
+    android:paddingStart="24.0dip"
+    android:paddingEnd="24.0dip">
+
+    <FrameLayout
+        android:id="@id/icon_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="9.0dip">
+
+        <com.android.internal.widget.PreferenceImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_gravity="center_vertical"
+            app:maxHeight="40.0dip"
+            app:maxWidth="40.0dip" />
+
     </FrameLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="15.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/sec_regular" />
-            <ImageView android:gravity="center_vertical" android:id="@id/icon_secondary_alert_icon" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_wifi_ap_setting" android:layout_marginStart="7.0dip" />
+
+    <LinearLayout
+        android:id="@id/text_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.0sp"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                style="@style/sec_regular" />
+
+            <ImageView
+                android:id="@id/icon_secondary_alert_icon"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:gravity="center_vertical"
+                android:focusable="true"
+                android:visibility="gone"
+                android:clickable="true"
+                android:src="@drawable/ic_wifi_ap_setting"
+                android:layout_marginStart="7.0dip" />
+
         </LinearLayout>
-        <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminateTint="@color/red" style="?android:progressBarStyleHorizontal" />
-        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <ImageView android:gravity="center_vertical" android:id="@id/summary_icon" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@id/progress_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/red"
+            style="?android:progressBarStyleHorizontal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/summary_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:focusable="true"
+                android:visibility="gone"
+                android:clickable="true" />
+
         </LinearLayout>
+
     </LinearLayout>
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
-    <View android:layout_gravity="center_vertical" android:id="@id/divider" android:background="@color/sec_wifi_preference_divider_color" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="22.0dip" android:layout_marginStart="7.0dip" />
-    <ImageView android:gravity="center_vertical" android:id="@id/icon_secondary" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_wifi_ap_setting" android:layout_marginStart="7.0dip" />
-    <TextView android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_marginStart="7.0dip" style="@style/sec_semi_bold" />
-    <Button android:textColor="#ff010101" android:layout_gravity="center" android:id="@id/button" android:background="@drawable/sec_wifi_ap_round_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" />
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" />
+
+    <View
+        android:id="@id/divider"
+        android:layout_width="1.0dip"
+        android:layout_height="22.0dip"
+        android:layout_gravity="center_vertical"
+        android:background="@color/sec_wifi_preference_divider_color"
+        android:visibility="gone"
+        android:layout_marginStart="7.0dip" />
+
+    <ImageView
+        android:id="@id/icon_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:visibility="gone"
+        android:clickable="true"
+        android:src="@drawable/ic_wifi_ap_setting"
+        android:layout_marginStart="7.0dip" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14.0sp"
+        android:textColor="?android:textColorPrimary"
+        android:maxLines="4"
+        android:layout_marginStart="7.0dip"
+        style="@style/sec_semi_bold" />
+
+    <Button
+        android:id="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff010101"
+        android:layout_gravity="center"
+        android:background="@drawable/sec_wifi_ap_round_button_background"
+        android:visibility="gone"
+        android:layout_marginStart="7.0dip" />
+
 </LinearLayout>

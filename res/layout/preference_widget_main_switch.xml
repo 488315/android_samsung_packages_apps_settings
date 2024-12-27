@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.settings.widget.SettingsMainSwitchBar android:id="@id/main_switch_bar" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no">
+
+    <com.android.settings.widget.SettingsMainSwitchBar
+        android:id="@id/main_switch_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:visibility="invisible" />
+
 </FrameLayout>

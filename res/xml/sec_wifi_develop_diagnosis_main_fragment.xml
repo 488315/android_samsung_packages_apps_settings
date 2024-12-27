@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Wi-Fi and network diagnosis"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.wifi.develop.diagnosis.DiagnosisTabPreference android:key="diagnosis_tab_preference" android:order="1" settings:allowDividerBelow="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="Wi-Fi and network diagnosis">
+
+    <com.samsung.android.settings.wifi.develop.diagnosis.DiagnosisTabPreference
+        android:key="diagnosis_tab_preference"
+        android:order="1"
+        settings:allowDividerBelow="false" />
+
 </PreferenceScreen>

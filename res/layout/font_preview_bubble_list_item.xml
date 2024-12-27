@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/font_preview_message_bubble_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_font_preview_message_list_bottom_margin" android:paddingStart="@dimen/sec_font_preveiw_image_padding_side" android:paddingEnd="@dimen/sec_font_preveiw_image_padding_side"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/font_preview_recv_icon_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/font_preview_message_bubble_recv_icon" android:background="@drawable/font_preview_recv_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
-    <com.android.settings.display.MessageBubbleBackground android:gravity="center_vertical" android:orientation="vertical" android:id="@id/font_preview_message_bubble_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/font_preview_message_bubble_margin_bottom">
-        <TextView android:textSize="@dimen/font_preview_message_bubble_text_size" android:id="@id/font_preview_message_bubble_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="205.0dip" android:fontFamily="sec-roboto-light" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/font_preview_message_bubble_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/sec_font_preview_message_list_bottom_margin"
+    android:paddingStart="@dimen/sec_font_preveiw_image_padding_side"
+    android:paddingEnd="@dimen/sec_font_preveiw_image_padding_side">
+
+    <TextView
+        android:id="@id/font_preview_message_bubble_recv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_preview_recv_icon_text_size"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/font_preview_recv_icon_background"
+        android:fontFamily="sec-roboto-light" />
+
+    <com.android.settings.display.MessageBubbleBackground
+        android:id="@id/font_preview_message_bubble_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginBottom="@dimen/font_preview_message_bubble_margin_bottom">
+
+        <TextView
+            android:id="@id/font_preview_message_bubble_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_preview_message_bubble_text_size"
+            android:maxWidth="205.0dip"
+            android:fontFamily="sec-roboto-light" />
+
     </com.android.settings.display.MessageBubbleBackground>
+
 </LinearLayout>

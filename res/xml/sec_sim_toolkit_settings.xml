@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_sim_toolkit_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <SecPreferenceCategory android:persistent="false" android:title="@string/sec_sim1" android:key="slot1_sim_toolkit_category" android:order="100">
-        <SecPreference android:key="key_slot1_sim_toolkit">
-            <intent android:targetPackage="com.android.stk" android:action="android.intent.action.MAIN" android:targetClass="com.android.stk.StkLauncherActivity_Chn" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/sec_sim_toolkit_title">
+
+    <SecPreferenceCategory
+        android:persistent="false"
+        android:title="@string/sec_sim1"
+        android:key="slot1_sim_toolkit_category"
+        android:order="100">
+
+        <SecPreference
+            android:key="key_slot1_sim_toolkit">
+
+            <intent
+                android:targetPackage="com.android.stk"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.stk.StkLauncherActivity_Chn" />
+
         </SecPreference>
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:persistent="false" android:title="@string/sec_sim2" android:key="slot2_sim_toolkit_category" android:order="200">
-        <SecPreference android:key="key_slot2_sim_toolkit">
-            <intent android:targetPackage="com.android.stk2" android:action="android.intent.action.MAIN" android:targetClass="com.android.stk2.StkLauncherActivity_Chn" />
+
+    <SecPreferenceCategory
+        android:persistent="false"
+        android:title="@string/sec_sim2"
+        android:key="slot2_sim_toolkit_category"
+        android:order="200">
+
+        <SecPreference
+            android:key="key_slot2_sim_toolkit">
+
+            <intent
+                android:targetPackage="com.android.stk2"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.stk2.StkLauncherActivity_Chn" />
+
         </SecPreference>
+
     </SecPreferenceCategory>
-    <SecPreference android:key="key_single_sim_toolkit">
-        <intent android:targetPackage="com.android.stk" android:action="android.intent.action.MAIN" android:targetClass="com.android.stk.StkLauncherActivity_Chn" />
+
+    <SecPreference
+        android:key="key_single_sim_toolkit">
+
+        <intent
+            android:targetPackage="com.android.stk"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.stk.StkLauncherActivity_Chn" />
+
     </SecPreference>
+
 </PreferenceScreen>

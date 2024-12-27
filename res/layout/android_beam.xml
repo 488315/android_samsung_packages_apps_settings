@@ -1,27 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@id/android_beam" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <LinearLayout android:orientation="vertical" android:id="@id/android_beam_image_layout" android:paddingTop="@dimen/sec_nfc_image_top" android:paddingBottom="@dimen/sec_nfc_image_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_nfc_image_top" android:paddingEnd="@dimen/sec_nfc_image_top">
-                <ImageView android:layout_gravity="center_horizontal" android:id="@id/android_beam_image" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/android_beam"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/android_beam_image_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/sec_nfc_image_top"
+                android:paddingBottom="@dimen/sec_nfc_image_bottom"
+                android:paddingStart="@dimen/sec_nfc_image_top"
+                android:paddingEnd="@dimen/sec_nfc_image_top">
+
+                <ImageView
+                    android:id="@id/android_beam_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/sec_widget_help_image_backgound_color"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null" />
+
             </LinearLayout>
-            <LinearLayout android:orientation="vertical" android:id="@id/android_beam_description" android:background="@color/sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/sec_widget_body_text_padding_start_end" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end">
-                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_android_beam_description" />
+
+            <LinearLayout
+                android:id="@id/android_beam_description"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@color/sec_widget_round_and_bgcolor"
+                android:paddingBottom="@dimen/sec_widget_body_text_padding_start_end"
+                android:scaleType="fitCenter"
+                android:paddingStart="@dimen/sec_widget_body_text_padding_start_end"
+                android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end">
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/sec_android_beam_description" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
-    <LinearLayout android:orientation="horizontal" android:id="@id/android_beam_land" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="50.5">
-            <LinearLayout android:orientation="vertical" android:id="@id/android_beam_image_land_layout" android:paddingTop="@dimen/sec_nfc_image_top" android:paddingBottom="@dimen/sec_nfc_image_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_nfc_image_top" android:paddingEnd="@dimen/sec_nfc_image_top">
-                <ImageView android:id="@id/android_beam_image_land" android:background="@color/sec_widget_help_image_backgound_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@id/android_beam_land"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="50.5">
+
+            <LinearLayout
+                android:id="@id/android_beam_image_land_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/sec_nfc_image_top"
+                android:paddingBottom="@dimen/sec_nfc_image_bottom"
+                android:paddingStart="@dimen/sec_nfc_image_top"
+                android:paddingEnd="@dimen/sec_nfc_image_top">
+
+                <ImageView
+                    android:id="@id/android_beam_image_land"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/sec_widget_help_image_backgound_color"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null" />
+
             </LinearLayout>
-            <LinearLayout android:orientation="vertical" android:id="@id/blackView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+
+            <LinearLayout
+                android:id="@id/blackView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:foreground="@color/sec_widget_round_and_bgcolor" />
+
         </LinearLayout>
-        <androidx.core.widget.NestedScrollView android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="49.5">
-            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end">
-                <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" layout="@layout/sec_android_beam_description_land" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/sec_widget_round_and_bgcolor"
+            android:fillViewport="true"
+            android:layout_weight="49.5">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/sec_widget_body_text_padding_start_end"
+                android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+                android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end">
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+                    layout="@layout/sec_android_beam_description_land" />
+
             </LinearLayout>
+
         </androidx.core.widget.NestedScrollView>
+
     </LinearLayout>
+
 </LinearLayout>

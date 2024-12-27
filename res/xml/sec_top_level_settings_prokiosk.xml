@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:key="sec_top_level_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settings.widget.HomepagePreference android:title="@string/wifi_settings" android:key="top_level_wifi_prokiosk" android:order="100" android:fragment="com.android.settings.wifi.WifiSettings" settings:controller="com.samsung.android.settings.homepage.TopLevelProKioskWifiPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="150" />
-    <com.android.settings.widget.HomepagePreference android:title="@string/bluetooth_settings_title" android:key="top_level_bluetooth_prokiosk" android:order="200" android:fragment="com.samsung.android.settings.bluetooth.BluetoothSettings" settings:controller="com.samsung.android.settings.homepage.TopLevelProKioskBluetoothPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="250" />
-    <com.android.settings.widget.HomepagePreference android:title="@string/location_settings_title" android:key="top_level_location_prokiosk" android:order="350" android:fragment="com.android.settings.location.LocationSettings" settings:controller="com.samsung.android.settings.homepage.TopLevelProKioskLocationPreferenceController" settings:keywords="@string/keywords_location" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="500" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="700" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="sec_top_level_settings">
+
+    <com.android.settings.widget.HomepagePreference
+        android:title="@string/wifi_settings"
+        android:key="top_level_wifi_prokiosk"
+        android:order="100"
+        android:fragment="com.android.settings.wifi.WifiSettings"
+        settings:controller="com.samsung.android.settings.homepage.TopLevelProKioskWifiPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="150" />
+
+    <com.android.settings.widget.HomepagePreference
+        android:title="@string/bluetooth_settings_title"
+        android:key="top_level_bluetooth_prokiosk"
+        android:order="200"
+        android:fragment="com.samsung.android.settings.bluetooth.BluetoothSettings"
+        settings:controller="com.samsung.android.settings.homepage.TopLevelProKioskBluetoothPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="250" />
+
+    <com.android.settings.widget.HomepagePreference
+        android:title="@string/location_settings_title"
+        android:key="top_level_location_prokiosk"
+        android:order="350"
+        android:fragment="com.android.settings.location.LocationSettings"
+        settings:controller="com.samsung.android.settings.homepage.TopLevelProKioskLocationPreferenceController"
+        settings:keywords="@string/keywords_location" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="500" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="700" />
+
 </PreferenceScreen>

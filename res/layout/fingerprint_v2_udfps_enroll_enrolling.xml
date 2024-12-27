@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/udfps_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.setupdesign.GlifLayout android:id="@id/glif_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" style="?fingerprint_layout_theme">
-        <LinearLayout android:id="@id/sud_content_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
-            <com.airbnb.lottie.LottieAnimationView android:id="@id/illustration_lottie" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="centerInside" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_speed="0.85" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/udfps_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.google.android.setupdesign.GlifLayout
+        android:id="@id/glif_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="5.0"
+        style="?fingerprint_layout_theme">
+
+        <LinearLayout
+            android:id="@id/sud_content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/SudContentFrame">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@id/illustration_lottie"
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:scaleType="centerInside"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_speed="0.85" />
+
         </LinearLayout>
+
     </com.google.android.setupdesign.GlifLayout>
-    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/layout_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
-        <include layout="@layout/fingerprint_v2_udfps_enroll_view" />
-        <Button android:layout_gravity="bottom|center|left" android:id="@id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/security_settings_fingerprint_enroll_enrolling_skip" android:layout_marginStart="20.0dip" style="@style/SudGlifButton.Secondary" />
+
+    <FrameLayout
+        android:id="@id/layout_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_gravity="bottom|center"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_weight="4.0">
+
+        <include
+            layout="@layout/fingerprint_v2_udfps_enroll_view" />
+
+        <Button
+            android:id="@id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|left"
+            android:layout_marginBottom="20.0dip"
+            android:text="@string/security_settings_fingerprint_enroll_enrolling_skip"
+            android:layout_marginStart="20.0dip"
+            style="@style/SudGlifButton.Secondary" />
+
     </FrameLayout>
+
 </LinearLayout>

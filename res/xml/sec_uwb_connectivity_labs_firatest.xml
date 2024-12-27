@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/uwb_ranging_fira_test_title" android:key="uwb_fira_test_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/uwb_ranging_fira_test_title"
+    android:key="uwb_fira_test_screen">
+
     <PreferenceCategory>
-        <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="fira_config" />
-        <com.samsung.android.settings.uwb.labs.view.uwbtest.UwbFiraOneToOneRangingPreference android:title="Ranging" android:key="uwb_fira_one_to_one_ranging_preference" />
+
+        <PreferenceCategory
+            android:layout="@layout/preference_category_no_label"
+            android:key="fira_config" />
+
+        <com.samsung.android.settings.uwb.labs.view.uwbtest.UwbFiraOneToOneRangingPreference
+            android:title="Ranging"
+            android:key="uwb_fira_one_to_one_ranging_preference" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

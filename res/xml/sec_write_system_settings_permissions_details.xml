@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_write_system_settings" android:key="write_system_settings_permission_detail_settings"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.settings.widget.FilterTouchesSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="app_ops_settings_switch" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_write_settings_detail_description" android:selectable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/sec_write_system_settings"
+    android:key="write_system_settings_permission_detail_settings">
+
+    <com.android.settings.widget.FilterTouchesSwitchPreference
+        android:title="@string/sec_special_access_detail_switch"
+        android:key="app_ops_settings_switch" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_write_settings_detail_description"
+        android:selectable="false" />
+
 </PreferenceScreen>

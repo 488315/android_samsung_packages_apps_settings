@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/ssid_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wifi_development_nearbywifi_ssid" android:layout_weight="1.0" />
-    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="32.0dip" android:layout_height="wrap_content" android:text="@string/wifi_development_nearbywifi_count" />
-    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="@string/wifi_development_nearbywifi_rssi" />
-    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:gravity="center" android:layout_width="52.0dip" android:layout_height="wrap_content" android:text="@string/wifi_development_nearbywifi_band" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ssid_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="12.0dip"
+    android:layout_marginBottom="2.0dip"
+    android:layout_marginStart="16.0dip"
+    android:layout_marginEnd="8.0dip">
+
+    <TextView
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="start"
+        android:text="@string/wifi_development_nearbywifi_ssid"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:layout_width="32.0dip"
+        android:layout_height="wrap_content"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="@string/wifi_development_nearbywifi_count" />
+
+    <TextView
+        android:layout_width="52.0dip"
+        android:layout_height="wrap_content"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="@string/wifi_development_nearbywifi_rssi" />
+
+    <TextView
+        android:layout_width="52.0dip"
+        android:layout_height="wrap_content"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:text="@string/wifi_development_nearbywifi_band" />
+
 </LinearLayout>

@@ -1,23 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/wifi_qr_bottom_navigation_view_height" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
-        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/sec_qr_code_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/wifi_qr_layout_side_margin" android:layout_marginRight="@dimen/wifi_qr_layout_side_margin">
-            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
-                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/qr_save_area" android:layout_width="@dimen/wifi_ap_qr_code_saved_area_size" android:layout_height="wrap_content" android:minHeight="@dimen/wifi_ap_qr_code_saved_area_size">
-                    <TextView android:textSize="@dimen/wifi_ap_qr_code_title_text_size" android:textColor="@color/wifi_ap_qrcode_page_ssid_color" android:gravity="center" android:id="@id/ap_ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wifi_qr_layout_title_bottom_margin" android:singleLine="true" />
-                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:background="@drawable/sec_qr_code_area_bg" android:layout_width="@dimen/wifi_ap_qr_code_area_size" android:layout_height="@dimen/wifi_ap_qr_code_area_size" android:layout_marginBottom="@dimen/wifi_ap_qr_text_png_margin_bottom">
-                        <ImageView android:id="@id/qr_image" android:layout_width="@dimen/wifi_ap_qr_code_size" android:layout_height="@dimen/wifi_ap_qr_code_size" />
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/coordinator_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:layout_marginBottom="@dimen/wifi_qr_bottom_navigation_view_height"
+        android:fillViewport="true"
+        app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sec_qr_code_bg"
+            android:layout_marginLeft="@dimen/wifi_qr_layout_side_margin"
+            android:layout_marginRight="@dimen/wifi_qr_layout_side_margin">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:id="@id/qr_save_area"
+                    android:layout_width="@dimen/wifi_ap_qr_code_saved_area_size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:minHeight="@dimen/wifi_ap_qr_code_saved_area_size">
+
+                    <TextView
+                        android:id="@id/ap_ssid"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/wifi_ap_qr_code_title_text_size"
+                        android:textColor="@color/wifi_ap_qrcode_page_ssid_color"
+                        android:gravity="center"
+                        android:layout_marginBottom="@dimen/wifi_qr_layout_title_bottom_margin"
+                        android:singleLine="true" />
+
+                    <LinearLayout
+                        android:layout_width="@dimen/wifi_ap_qr_code_area_size"
+                        android:layout_height="@dimen/wifi_ap_qr_code_area_size"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@drawable/sec_qr_code_area_bg"
+                        android:layout_marginBottom="@dimen/wifi_ap_qr_text_png_margin_bottom">
+
+                        <ImageView
+                            android:id="@id/qr_image"
+                            android:layout_width="@dimen/wifi_ap_qr_code_size"
+                            android:layout_height="@dimen/wifi_ap_qr_code_size" />
+
                     </LinearLayout>
+
                 </LinearLayout>
-                <TextView android:id="@id/qr_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_ap_qr_code_sharing_summary" style="@style/WifiQrCodeSummaryStyle" />
-                <TextView android:id="@id/qr_security_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_qr_code_security_warning" style="@style/WifiQrCodeSummaryStyle" />
-                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
-                    <Button android:id="@id/quick_share_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wifi_nearby_share_button_bottom_margin" android:text="@string/quickshare_title" style="@style/WifiQrFragmentButton" />
-                    <Button android:id="@id/nearby_share_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nearby_share_button_text" style="@style/WifiQrFragmentButton" />
+
+                <TextView
+                    android:id="@id/qr_summary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_ap_qr_code_sharing_summary"
+                    style="@style/WifiQrCodeSummaryStyle" />
+
+                <TextView
+                    android:id="@id/qr_security_warning"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_qr_code_security_warning"
+                    style="@style/WifiQrCodeSummaryStyle" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="24.0dip">
+
+                    <Button
+                        android:id="@id/quick_share_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_marginBottom="@dimen/wifi_nearby_share_button_bottom_margin"
+                        android:text="@string/quickshare_title"
+                        style="@style/WifiQrFragmentButton" />
+
+                    <Button
+                        android:id="@id/nearby_share_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:text="@string/nearby_share_button_text"
+                        style="@style/WifiQrFragmentButton" />
+
                 </LinearLayout>
+
             </LinearLayout>
+
         </RelativeLayout>
+
     </androidx.core.widget.NestedScrollView>
-    <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottom_navigation" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="@dimen/wifi_qr_bottom_navigation_view_height" app:menu="@menu/wifi_qrcode_bottom_menu" style="@style/Widget.Sample.BottomNavigationView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@id/bottom_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wifi_qr_bottom_navigation_view_height"
+        android:layout_gravity="bottom"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        app:menu="@menu/wifi_qrcode_bottom_menu"
+        style="@style/Widget.Sample.BottomNavigationView" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sec_intelligence_service_terms_text_size" android:textColor="@color/sec_intelligence_service_suw_term_text_color" android:textColorHighlight="#00ffffff" android:id="@id/terms_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:bufferType="spannable" android:text="@string/sec_intelligence_service_terms" android:fontFamily="sec" android:autoSizeMaxTextSize="@dimen/sec_intelligence_service_terms_text_size" android:textFontWeight="400" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@id/terms_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sec_intelligence_service_terms_text_size"
+        android:textColor="@color/sec_intelligence_service_suw_term_text_color"
+        android:textColorHighlight="#00ffffff"
+        android:bufferType="spannable"
+        android:text="@string/sec_intelligence_service_terms"
+        android:fontFamily="sec"
+        android:autoSizeMaxTextSize="@dimen/sec_intelligence_service_terms_text_size"
+        android:textFontWeight="400" />
+
 </LinearLayout>

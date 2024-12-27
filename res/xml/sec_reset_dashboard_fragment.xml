@@ -1,20 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/reset" settings:hierarchicalParentFragment="com.samsung.android.settings.general.GeneralDeviceSettings" settings:topLevelPreferenceKey="top_level_general"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceCategory android:title="@string/backup_your_data" android:key="backup_data_category" android:order="10">
-        <SecPreferenceScreen android:title="@string/temporary_cloud_backup" android:key="data_transfer" settings:controller="com.samsung.android.settings.general.TemporaryBackupPreferenceController" />
-        <SecPreferenceScreen android:title="@string/external_stroage_backup" android:key="external_storage_transfer" android:summary="@string/external_storage_transfer_summary" settings:controller="com.samsung.android.settings.general.ExternalStorageBackupPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/reset"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.general.GeneralDeviceSettings"
+    settings:topLevelPreferenceKey="top_level_general">
+
+    <SecPreferenceCategory
+        android:title="@string/backup_your_data"
+        android:key="backup_data_category"
+        android:order="10">
+
+        <SecPreferenceScreen
+            android:title="@string/temporary_cloud_backup"
+            android:key="data_transfer"
+            settings:controller="com.samsung.android.settings.general.TemporaryBackupPreferenceController" />
+
+        <SecPreferenceScreen
+            android:title="@string/external_stroage_backup"
+            android:key="external_storage_transfer"
+            android:summary="@string/external_storage_transfer_summary"
+            settings:controller="com.samsung.android.settings.general.ExternalStorageBackupPreferenceController" />
+
     </SecPreferenceCategory>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="50" />
-    <SecPreferenceCategory android:title="@string/reset" android:key="reset_category" android:order="100">
-        <SecPreferenceScreen android:title="@string/sec_settings_reset_title" android:key="settings_reset" android:fragment="com.samsung.android.settings.general.ResetSettings" settings:controller="com.samsung.android.settings.general.ResetSettingsPreferenceController" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/sec_reset_mobile_network_settings" android:key="network_reset_pref" android:order="200" android:fragment="com.android.settings.ResetNetwork" settings:userRestriction="no_network_reset" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/sec_reset_wifi_bluetooth_settings" android:key="wifi_bluetooth_reset_pref" android:order="250" android:fragment="com.android.settings.ResetWifiBluetooth" settings:controller="com.samsung.android.settings.general.ResetWifiBluetoothPreferenceController" settings:userRestriction="no_network_reset" />
-        <SecPreferenceScreen android:title="@string/sec_reset_accessibility_title" android:key="settings_accreset" android:order="300" android:fragment="com.samsung.android.settings.general.ResetAccSettings" settings:controller="com.samsung.android.settings.general.ResetAccSettingsPreferenceController" />
-        <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="350" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="50" />
+
+    <SecPreferenceCategory
+        android:title="@string/reset"
+        android:key="reset_category"
+        android:order="100">
+
+        <SecPreferenceScreen
+            android:title="@string/sec_settings_reset_title"
+            android:key="settings_reset"
+            android:fragment="com.samsung.android.settings.general.ResetSettings"
+            settings:controller="com.samsung.android.settings.general.ResetSettingsPreferenceController" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/sec_reset_mobile_network_settings"
+            android:key="network_reset_pref"
+            android:order="200"
+            android:fragment="com.android.settings.ResetNetwork"
+            settings:userRestriction="no_network_reset" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/sec_reset_wifi_bluetooth_settings"
+            android:key="wifi_bluetooth_reset_pref"
+            android:order="250"
+            android:fragment="com.android.settings.ResetWifiBluetooth"
+            settings:controller="com.samsung.android.settings.general.ResetWifiBluetoothPreferenceController"
+            settings:userRestriction="no_network_reset" />
+
+        <SecPreferenceScreen
+            android:title="@string/sec_reset_accessibility_title"
+            android:key="settings_accreset"
+            android:order="300"
+            android:fragment="com.samsung.android.settings.general.ResetAccSettings"
+            settings:controller="com.samsung.android.settings.general.ResetAccSettingsPreferenceController" />
+
+        <com.samsung.android.settings.widget.SecInsetCategoryPreference
+            android:order="350" />
+
     </SecPreferenceCategory>
-    <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/sec_master_clear_title" android:key="factory_reset" android:summary="@string/sec_master_clear_list_summary" android:order="400" android:fragment="com.android.settings.MainClear" settings:keywords="@string/keywords_factory_data_reset" settings:useAdminDisabledSummary="true" settings:userRestriction="no_factory_reset" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="category_reset_settings" android:order="450" />
-    <SecPreferenceScreen android:title="@string/sec_auto_power_on_off_title" android:key="pref_auto_power_on_off" android:order="600" android:fragment="com.samsung.android.settings.autopoweronoff.AutoPowerOnOffSettings" settings:controller="com.samsung.android.settings.general.AutoPowerOnOffPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="category_reset_auto_restart" android:order="650" />
+
+    <com.samsung.android.settings.widget.SecRestrictedPreference
+        android:title="@string/sec_master_clear_title"
+        android:key="factory_reset"
+        android:summary="@string/sec_master_clear_list_summary"
+        android:order="400"
+        android:fragment="com.android.settings.MainClear"
+        settings:keywords="@string/keywords_factory_data_reset"
+        settings:useAdminDisabledSummary="true"
+        settings:userRestriction="no_factory_reset" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="category_reset_settings"
+        android:order="450" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_auto_power_on_off_title"
+        android:key="pref_auto_power_on_off"
+        android:order="600"
+        android:fragment="com.samsung.android.settings.autopoweronoff.AutoPowerOnOffSettings"
+        settings:controller="com.samsung.android.settings.general.AutoPowerOnOffPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="category_reset_auto_restart"
+        android:order="650" />
+
 </PreferenceScreen>

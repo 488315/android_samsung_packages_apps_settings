@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:gravity="center" android:id="@id/ApplyBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/common_apply" style="@style/RoundButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <Button
+        android:id="@id/ApplyBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/common_apply"
+        style="@style/RoundButtonStyle" />
+
 </LinearLayout>

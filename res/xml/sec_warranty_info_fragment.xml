@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/warranty_information_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceScreen android:title="@string/general_term_and_conditions_title" android:key="general_terms">
-        <intent android:action="com.samsung.settings.RegulatoryServiceInfo">
-            <extra android:name="Option" android:value="1" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/warranty_information_title">
+
+    <PreferenceScreen
+        android:title="@string/general_term_and_conditions_title"
+        android:key="general_terms">
+
+        <intent
+            android:action="com.samsung.settings.RegulatoryServiceInfo">
+
+            <extra
+                android:name="Option"
+                android:value="1" />
+
         </intent>
+
     </PreferenceScreen>
-    <PreferenceScreen android:title="@string/warranty_exception_title" android:key="warranty_exceptions">
-        <intent android:action="com.samsung.settings.RegulatoryServiceInfo">
-            <extra android:name="Option" android:value="2" />
+
+    <PreferenceScreen
+        android:title="@string/warranty_exception_title"
+        android:key="warranty_exceptions">
+
+        <intent
+            android:action="com.samsung.settings.RegulatoryServiceInfo">
+
+            <extra
+                android:name="Option"
+                android:value="2" />
+
         </intent>
+
     </PreferenceScreen>
-    <PreferenceScreen android:title="@string/product_warranty_title" android:key="product_warranty">
-        <intent android:action="com.samsung.settings.RegulatoryServiceInfo">
-            <extra android:name="Option" android:value="3" />
+
+    <PreferenceScreen
+        android:title="@string/product_warranty_title"
+        android:key="product_warranty">
+
+        <intent
+            android:action="com.samsung.settings.RegulatoryServiceInfo">
+
+            <extra
+                android:name="Option"
+                android:value="3" />
+
         </intent>
+
     </PreferenceScreen>
+
 </PreferenceScreen>

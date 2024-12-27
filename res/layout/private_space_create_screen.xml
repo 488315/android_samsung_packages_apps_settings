@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLoadingLayout android:icon="@drawable/ic_private_space_icon" android:orientation="vertical" android:id="@id/private_space_create_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/private_space_setting_up_text" app:sudDescriptionText="@string/private_space_few_moments_text" app:sudIllustrationType="default" app:sudUsePartnerHeavyTheme="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+<com.google.android.setupdesign.GlifLoadingLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/private_space_create_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:icon="@drawable/ic_private_space_icon"
+    android:orientation="vertical"
+    app:sucHeaderText="@string/private_space_setting_up_text"
+    app:sudDescriptionText="@string/private_space_few_moments_text"
+    app:sudIllustrationType="default"
+    app:sudUsePartnerHeavyTheme="true" />

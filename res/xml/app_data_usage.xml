@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/data_usage_app_summary_title" android:key="app_data_usage_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settings.datausage.SpinnerPreference android:key="cycle" settings:controller="com.android.settings.datausage.AppDataUsageCycleController" />
-    <com.android.settings.spa.preference.ComposePreference android:key="app_data_usage_summary" settings:controller="com.android.settings.datausage.AppDataUsageSummaryController" />
-    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="app_data_usage_settings_category" settings:isPreferenceVisible="@bool/config_show_sim_info">
-        <Preference android:title="@string/data_usage_app_settings" android:key="app_settings" settings:controller="com.android.settings.datausage.AppDataUsageAppSettingsController" />
-        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/data_usage_app_restrict_background" android:key="restrict_background" android:summary="@string/data_usage_app_restrict_background_summary" settings:restrictedSwitchSummary="@string/disabled_by_admin" settings:useAdditionalSummary="true" />
-        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/unrestricted_app_title" android:key="unrestricted_data_saver" android:summary="@string/unrestricted_app_summary" settings:restrictedSwitchSummary="@string/disabled_by_admin" settings:useAdditionalSummary="true" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/data_usage_app_summary_title"
+    android:key="app_data_usage_screen">
+
+    <com.android.settings.datausage.SpinnerPreference
+        android:key="cycle"
+        settings:controller="com.android.settings.datausage.AppDataUsageCycleController" />
+
+    <com.android.settings.spa.preference.ComposePreference
+        android:key="app_data_usage_summary"
+        settings:controller="com.android.settings.datausage.AppDataUsageSummaryController" />
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_no_label"
+        android:key="app_data_usage_settings_category"
+        settings:isPreferenceVisible="@bool/config_show_sim_info">
+
+        <Preference
+            android:title="@string/data_usage_app_settings"
+            android:key="app_settings"
+            settings:controller="com.android.settings.datausage.AppDataUsageAppSettingsController" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:title="@string/data_usage_app_restrict_background"
+            android:key="restrict_background"
+            android:summary="@string/data_usage_app_restrict_background_summary"
+            settings:restrictedSwitchSummary="@string/disabled_by_admin"
+            settings:useAdditionalSummary="true" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:title="@string/unrestricted_app_title"
+            android:key="unrestricted_data_saver"
+            android:summary="@string/unrestricted_app_summary"
+            settings:restrictedSwitchSummary="@string/disabled_by_admin"
+            settings:useAdditionalSummary="true" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/data_usage_other_apps" android:key="app_list" settings:controller="com.android.settings.datausage.AppDataUsageListController" />
+
+    <PreferenceCategory
+        android:title="@string/data_usage_other_apps"
+        android:key="app_list"
+        settings:controller="com.android.settings.datausage.AppDataUsageListController" />
+
 </PreferenceScreen>

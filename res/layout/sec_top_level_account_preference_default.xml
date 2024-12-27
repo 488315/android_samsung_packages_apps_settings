@@ -1,16 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/text_frame" android:paddingTop="@dimen/sec_top_level_account_preference_text_frame_padding_vertical_default" android:paddingBottom="@dimen/sec_top_level_account_preference_text_frame_padding_vertical_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="?android:listPreferredItemPaddingStart">
-        <RelativeLayout android:orientation="horizontal" android:id="@id/title_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <TextView android:textAppearance="?textAppearanceListItem" android:textSize="@dimen/sec_top_level_account_preference_title_text_size" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:textAlignment="viewStart" android:paddingEnd="@dimen/sesl_preference_dot_frame_size" android:textFontWeight="600" />
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/badge_frame" android:layout_width="@dimen/sesl_preference_dot_frame_size" android:layout_height="@dimen/sesl_preference_dot_frame_size" android:layout_alignEnd="@android:id/title">
-                <View android:background="@drawable/sesl_preference_dot_badge" android:layout_width="6.0dip" android:layout_height="6.0dip" android:contentDescription="@string/sesl_preferecne_badge_description" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="?android:listChoiceBackgroundIndicator"
+    android:minHeight="?android:listPreferredItemHeightSmall">
+
+    <RelativeLayout
+        android:id="@id/text_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/sec_top_level_account_preference_text_frame_padding_vertical_default"
+        android:paddingBottom="@dimen/sec_top_level_account_preference_text_frame_padding_vertical_default"
+        android:layout_weight="1.0"
+        android:paddingStart="?android:listPreferredItemPaddingStart">
+
+        <RelativeLayout
+            android:id="@id/title_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?textAppearanceListItem"
+                android:textSize="@dimen/sec_top_level_account_preference_title_text_size"
+                android:ellipsize="end"
+                android:maxLines="5"
+                android:textAlignment="viewStart"
+                android:paddingEnd="@dimen/sesl_preference_dot_frame_size"
+                android:textFontWeight="600" />
+
+            <LinearLayout
+                android:id="@id/badge_frame"
+                android:layout_width="@dimen/sesl_preference_dot_frame_size"
+                android:layout_height="@dimen/sesl_preference_dot_frame_size"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_alignEnd="@android:id/title">
+
+                <View
+                    android:layout_width="6.0dip"
+                    android:layout_height="6.0dip"
+                    android:background="@drawable/sesl_preference_dot_badge"
+                    android:contentDescription="@string/sesl_preferecne_badge_description" />
+
             </LinearLayout>
+
         </RelativeLayout>
-        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/title_frame" android:textAlignment="viewStart" android:paddingEnd="@dimen/sesl_preference_dot_frame_size" android:layout_alignStart="@id/title_frame" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:layout_below="@id/title_frame"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/sesl_preference_dot_frame_size"
+            android:layout_alignStart="@id/title_frame" />
+
     </RelativeLayout>
-    <FrameLayout android:gravity="start|center" android:id="@id/icon_frame" android:paddingTop="@dimen/sec_top_level_account_preference_icon_frame_padding_top_default" android:paddingBottom="@dimen/sec_top_level_account_preference_icon_frame_padding_bottom_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_top_level_account_preference_icon_frame_padding_start_default" android:paddingEnd="@dimen/sec_top_level_account_preference_icon_frame_padding_end_default">
-        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="@dimen/sec_top_level_account_preference_icon_width_default" android:layout_height="@dimen/sec_top_level_account_preference_icon_height_default" android:scaleType="fitXY" />
+
+    <FrameLayout
+        android:id="@id/icon_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:paddingTop="@dimen/sec_top_level_account_preference_icon_frame_padding_top_default"
+        android:paddingBottom="@dimen/sec_top_level_account_preference_icon_frame_padding_bottom_default"
+        android:paddingStart="@dimen/sec_top_level_account_preference_icon_frame_padding_start_default"
+        android:paddingEnd="@dimen/sec_top_level_account_preference_icon_frame_padding_end_default">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="@dimen/sec_top_level_account_preference_icon_width_default"
+            android:layout_height="@dimen/sec_top_level_account_preference_icon_height_default"
+            android:layout_gravity="center"
+            android:scaleType="fitXY" />
+
     </FrameLayout>
+
 </LinearLayout>

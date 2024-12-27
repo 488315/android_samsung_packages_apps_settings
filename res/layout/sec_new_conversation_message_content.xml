@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/conversation_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="32.0dip">
-        <TextView android:textSize="@dimen/conversation_icon_a_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/conversation_icon_recv" android:background="@drawable/ic_04_profile_image_a" android:visibility="gone" android:layout_width="@dimen/conversation_icon_recv_width" android:layout_height="@dimen/conversation_icon_recv_width" android:text="A" android:fontFamily="sans-serif" />
-        <com.android.settings.display.MessageBubbleBackground android:gravity="center_vertical" android:orientation="vertical" android:id="@id/message_text_and_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
-            <TextView android:textSize="@dimen/conversation_message_text_size" android:textColor="@color/sec_font_preview_sent_message_text_color" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="205.0dip" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@id/message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="32.0dip">
+
+        <TextView
+            android:id="@id/conversation_icon_recv"
+            android:layout_width="@dimen/conversation_icon_recv_width"
+            android:layout_height="@dimen/conversation_icon_recv_width"
+            android:textSize="@dimen/conversation_icon_a_text_size"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/ic_04_profile_image_a"
+            android:visibility="gone"
+            android:text="A"
+            android:fontFamily="sans-serif" />
+
+        <com.android.settings.display.MessageBubbleBackground
+            android:id="@id/message_text_and_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="0.0dip">
+
+            <TextView
+                android:id="@id/message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/conversation_message_text_size"
+                android:textColor="@color/sec_font_preview_sent_message_text_color"
+                android:maxWidth="205.0dip" />
+
         </com.android.settings.display.MessageBubbleBackground>
-        <TextView android:textSize="@dimen/conversation_message_contact_icon_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/conversation_icon_sent" android:background="@drawable/sec_conversation_message_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@id/conversation_icon_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/conversation_message_contact_icon_text_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/sec_conversation_message_icon"
+            android:visibility="gone"
+            android:fontFamily="sans-serif" />
+
     </LinearLayout>
+
 </LinearLayout>

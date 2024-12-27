@@ -1,699 +1,2500 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">%d ημ. πριν</item>
-        <item quantity="one">%d ημ. πριν</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">%d λεπ. πριν</item>
-        <item quantity="one">%d λεπ. πριν</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">%d χρ. πριν</item>
-        <item quantity="one">%d χρ. πριν</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d λεπτά</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d λεπτό</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d δευτερόλεπτα</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d δευτερόλεπτο</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d μνήμες cache εφαρμογών (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d μνήμη cache εφαρμογών (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Να αρχειοθετηθούν %d εφαρμογές;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Να αρχειοθετηθεί %d εφαρμογή;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Αρχειοθέτηση %1$d εφαρμογών (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Αρχειοθέτηση %1$d εφαρμογής (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Να γίνει εκκαθάριση της μνήμης cache για %d εφαρμογές;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Να γίνει εκκαθάριση της μνήμης cache για %d εφαρμογή;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Διαγ. %1$d μνημ. cache (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Διαγ. %1$d μνήμ. cache (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">Επιλέχθηκαν %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Επιλέχθηκε %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Ελευθερώστε %1$s χώρου με την αρχειοθέτηση %2$d εφαρμογών που δεν χρησιμοποιούνται. Τα προσωπικά δεδομένα και οι ρυθμίσεις σας θα αποθηκευτούν.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ελευθερώστε %1$s χώρου με την αρχειοθέτηση %2$d εφαρμογής που δεν χρησιμοποιείται. Τα προσωπικά δεδομένα και οι ρυθμίσεις σας θα αποθηκευτούν.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Θέλετε να καταργήσετε την εγκατάσταση %d εφαρμογών;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Θέλετε να καταργήσετε την εγκατάσταση %d εφαρμογής;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Απεγκ. %1$d εφαρμογών (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Απεγκ. %1$d εφαρμογής (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d εφαρμογές που δεν χρησιμοποιούνται (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d εφαρμογή που δεν χρησιμοποιείται (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Κοινή χρήση σύνδεσης internet με %d συσκευές.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Κοινή χρήση σύνδεσης internet με %d συσκευή.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d ημέρες</item>
-        <item quantity="one">1 ημέρα</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d ώρες</item>
-        <item quantity="one">1 ώρα</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d λεπτά</item>
-        <item quantity="one">1 λεπτό</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d δευτερόλεπτα</item>
-        <item quantity="one">1 δευτερόλεπτο</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d εβδομ.</item>
-        <item quantity="one">1 εβδομάδα</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d ώρες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ώρα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d λεπτά</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d λεπτό</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d δευτερόλεπτα</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d δευτερόλεπτο</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Εάν διαγράψετε αυτά τα μέρη, τα βιομετρικά δεδομένα και η καθυστέρηση ασφαλείας θα απαιτούνται πάντα όταν αλλάζετε ευαίσθητες ρυθμίσεις.</item>
-        <item quantity="one">Εάν διαγράψετε αυτό το μέρος, τα βιομετρικά δεδομένα και η καθυστέρηση ασφαλείας θα απαιτούνται πάντα όταν αλλάζετε ευαίσθητες ρυθμίσεις.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Να διαγραφούν %d μέρη;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Να διαγραφεί %d μέρος;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">Επιλέχθηκε %d</item>
-        <item quantity="one">Επιλέχθηκε 1</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s και %2$d ακόμη μέρη</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s και %2$d ακόμη μέρος</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρες.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d νέες ειδοποιήσεις</item>
-        <item quantity="one">%d νέα ειδοποίηση</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Δεν χρησιμοποιήθηκε μνήμη τις τελευταίες %d ώρες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δεν χρησιμοποιήθηκε μνήμη την τελευταία %d ώρα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d ειδοποιήσεις</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ειδοποίηση</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Υπενθύμιση κάθε %d λεπτά σχετικά με ειδοποιήσεις για επιλεγμένες εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Υπενθύμιση κάθε %d λεπτό σχετικά με ειδοποιήσεις για επιλεγμένες εφαρμογές</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Έως %d εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Έως %d εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">Η υπηρεσία %1$s και %2$d ακόμη εφαρμογές χρησιμοποιούν κλειδιά πρόσβασης και καταχωρούν αυτόματα κωδικούς πρόσβασης και άλλες πληροφορίες.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Η υπηρεσία %1$s και %2$d ακόμη εφαρμογή χρησιμοποιούν κλειδιά πρόσβασης και καταχωρούν αυτόματα κωδικούς πρόσβασης και άλλες πληροφορίες.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">Χρησιμοποιήθηκε η άδεια %1$s από %2$d εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Χρησιμοποιήθηκε η άδεια %1$s από %2$d εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d λειτουργίες προσβασιμότητας σε χρήση</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d λειτουργία προσβασιμότητας σε χρήση</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Να καταργηθούν %d γλώσσες;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Να καταργηθεί %d γλώσσα;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d εφαρμογές έχουν πλήρη πρόσβαση στο τηλέφωνό σας</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d εφαρμογή έχει πλήρη πρόσβαση στο τηλέφωνό σας</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Το τηλέφωνό σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτα. Για να κρατήσετε ενεργοποιημένο το τηλέφωνο αυτήν τη φορά, πατήστε «Άκυρο».</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Το τηλέφωνό σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτο. Για να κρατήσετε ενεργοποιημένο το τηλέφωνο αυτήν τη φορά, πατήστε «Άκυρο».</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Το tablet σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτα. Για να κρατήσετε ενεργοποιημένο το tablet αυτήν τη φορά, πατήστε «Άκυρο».</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Το tablet σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτο. Για να κρατήσετε ενεργοποιημένο το tablet αυτήν τη φορά, πατήστε «Άκυρο».</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Κάθε %d ώρες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Κάθε %d ώρα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d χαρακτήρες και να περιλαμβάνει τουλάχιστον 1 γράμμα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d χαρακτήρα και να περιλαμβάνει τουλάχιστον 1 γράμμα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">Το PIN σας θα πρέπει να περιλαμβάνει τουλάχιστον %d ψηφία.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Το PIN σας θα πρέπει να περιλαμβάνει τουλάχιστον %d ψηφίο.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Δοκιμάστε ξανά σε 1 ώρα και %d λεπτά</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δοκιμάστε ξανά σε 1 ώρα και %d λεπτό</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Δοκιμάστε ξανά σε %d ώρες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δοκιμάστε ξανά σε %d ώρα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Δοκιμάστε ξανά σε %d ώρες και 1 λεπτό</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δοκιμάστε ξανά σε %d ώρα και 1 λεπτό</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Δοκιμάστε ξανά σε %d λεπτά</item>
-        <item quantity="one">Δοκιμάστε ξανά σε %d λεπτό</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Δοκιμάστε ξανά σε %d δευτερόλεπτα</item>
-        <item quantity="one">Δοκιμάστε ξανά σε %d δευτερόλεπτο</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Δεν μπορείτε να ενεργοποιήσετε πάνω από %d πρόσθετες υπηρεσίες.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δεν μπορείτε να ενεργοποιήσετε πάνω από %d πρόσθετη υπηρεσία.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">Επιτράπηκαν %d επαφές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Επιτράπηκε %d επαφή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">Προστέθηκαν %d δαχτυλικά αποτυπώματα</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Προστέθηκε %d δαχτυλικό αποτύπωμα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s και %3$d ακόμη εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s και %3$d ακόμη εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Εσφαλμένος κωδικός πρόσβασης. Απομένουν %d προσπάθειες.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Εσφαλμένος κωδικός πρόσβασης. Απομένει %d προσπάθεια.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Εσφαλμένο μοτίβο. Απομένουν %d προσπάθειες.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Εσφαλμένο μοτίβο. Απομένει %d προσπάθεια.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Εσφαλμένο PIN. Απομένουν %d προσπάθειες.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Εσφαλμένο PIN. Απομένει %d προσπάθεια.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Θα πρέπει να είστε τουλάχιστον %d ετών για να χρησιμοποιήσετε τις δυνατότητες προηγμένης νοημοσύνης του Galaxy AI.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Θα πρέπει να είστε τουλάχιστον %d έτους για να χρησιμοποιήσετε τις δυνατότητες προηγμένης νοημοσύνης του Galaxy AI.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιλαμβάνει τουλάχιστον %d γράμματα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιλαμβάνει τουλάχιστον %d γράμμα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον %d πεζούς χαρακτήρες.</item>
-        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον έναν πεζό χαρακτήρα.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d αριθμούς ή σύμβολα.</item>
-        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 αριθμό ή σύμβολο.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον %d αριθμούς.</item>
-        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να περιλαμβάνει τουλάχιστον 1 αριθμό.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d σύμβολα.</item>
-        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 σύμβολο.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον %d κεφαλαίους χαρακτήρες.</item>
-        <item quantity="one">Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον έναν κεφαλαίο χαρακτήρα.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">%d ακόμη προτάσεις</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ακόμη πρόταση</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d ενεργές εφαρμογές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ενεργή εφαρμογή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Να διαγραφούν %d πακέτα γλωσσών;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Να διαγραφεί %d πακέτο γλώσσας;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d φωνές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d φωνή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d πρόσθετες άδειες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d πρόσθετη άδεια</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Απομένουν μόνο %d πατήματα, για να γίνετε προγραμματιστής.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Απομένει μόνο %d πάτημα, για να γίνετε προγραμματιστής.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">Επιλέχθηκαν %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Επιλέχθηκε %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">Εντοπίστηκαν %d εφαρμογές κακόβουλου λογισμικού</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Εντοπίστηκε %d εφαρμογή κακόβουλου λογισμικού</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">Εντοπίστηκαν %d κακόβουλες εφαρμογές στο τηλέφωνό σας. Καταργήστε την εγκατάστασή των εφαρμογών για να διατηρήσετε ασφαλές το τηλέφωνό σας.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Εντοπίστηκε %d κακόβουλη εφαρμογή στο τηλέφωνό σας. Καταργήστε την εγκατάστασή της εφαρμογής για να διατηρήσετε ασφαλές το τηλέφωνό σας.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">Εντοπίστηκαν %d κακόβουλες εφαρμογές στο tablet σας. Καταργήστε την εγκατάστασή των εφαρμογών για να διατηρήσετε ασφαλές το tablet σας.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Εντοπίστηκε %d κακόβουλη εφαρμογή στο tablet σας. Καταργήστε την εγκατάστασή της εφαρμογής για να διατηρήσετε ασφαλές το tablet σας.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d προτάσεις</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d πρόταση</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d προειδοποιήσεις</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Προειδοποίηση στα %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Χρόνος ύπνου: %d ώρες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Χρόνος ύπνου: %d ώρα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Χρόνος ύπνου: %d λεπτά</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Χρόνος ύπνου: %d λεπτό</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Δημιουργήστε αντίγραφο ασφαλείας για απεριόριστα δεδομένα στο %1$s για έως %2$d ημέρες ή επαναφέρετε τα δεδομένα για τα οποία είχατε δημιουργήσει αντίγραφο ασφαλείας.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Δημιουργήστε αντίγραφο ασφαλείας για απεριόριστα δεδομένα στο %1$s για έως %2$d ημέρα ή επαναφέρετε τα δεδομένα για τα οποία είχατε δημιουργήσει αντίγραφο ασφαλείας.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Θα γίνει επαναφορά αυτής της δοκιμής σε %d δευτερόλεπτα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Θα γίνει επαναφορά αυτής της δοκιμής σε %d δευτερόλεπτο.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d συνδεδεμένες συσκευές</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d συνδεδεμένη συσκευή</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Μετατρέψτε το τηλέφωνο σας σε σημείο πρόσβασης Wi-Fi. Έως και %d ακόμη συσκευές θα μπορούν να χρησιμοποιούν τα δεδομένα κινητής τηλεφωνίας ή το Wi-Fi του τηλεφώνου για να έχουν πρόσβαση στο internet.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Μετατρέψτε το τηλέφωνο σας σε σημείο πρόσβασης Wi-Fi. Έως και %d ακόμη συσκευή θα μπορεί να χρησιμοποιεί τα δεδομένα κινητής τηλεφωνίας ή το Wi-Fi του τηλεφώνου για να έχει πρόσβαση στο internet.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Μετατρέψτε το τηλέφωνό σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλες συσκευές θα μπορούν να χρησιμοποιούν τα δεδομένα κινητής τηλεφωνίας του τηλεφώνου σας για πρόσβαση στο internet.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Μετατρέψτε το τηλέφωνό σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλη συσκευή θα μπορεί να χρησιμοποιεί τα δεδομένα κινητής τηλεφωνίας του τηλεφώνου σας για πρόσβαση στο internet.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλες συσκευές θα μπορούν να χρησιμοποιούν τα δεδομένα κινητής τηλεφωνίας του tablet σας για πρόσβαση στο internet.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλη συσκευή θα μπορεί να χρησιμοποιεί τα δεδομένα κινητής τηλεφωνίας του tablet σας για πρόσβαση στο internet.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως και %d άλλες συσκευές θα μπορούν να έχουν πρόσβαση στο Internet χρησιμοποιώντας τα δεδομένα κινητής τηλεφωνίας ή τη σύνδεση Wi-Fi του tablet σας.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως και %d άλλη συσκευή θα μπορεί να έχει πρόσβαση στο Internet χρησιμοποιώντας τα δεδομένα κινητής τηλεφωνίας ή τη σύνδεση Wi-Fi του tablet σας.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d μέλη</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d μέλος</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Θέλετε να διαγράψετε τα δίκτυα %d;</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Θέλετε να διαγράψετε το δίκτυο %d;</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">Επιλέχθηκαν %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Επιλέχθηκε %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένουν %d προσπάθειες προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει %d προσπάθεια προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Έγιναν %d προσπάθειες για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Έγινε %d προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένουν %d προσπάθειες προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει %d προσπάθεια προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Έγιναν %d προσπάθειες για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Έγινε %d προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d ώρες</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ώρα</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d λεπτά</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d λεπτό</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+%d ημ. πριν</item>
+
+        <item
+            quantity="one">
+%d ημ. πριν</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+%d λεπ. πριν</item>
+
+        <item
+            quantity="one">
+%d λεπ. πριν</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+%d χρ. πριν</item>
+
+        <item
+            quantity="one">
+%d χρ. πριν</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d λεπτά</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d λεπτό</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d δευτερόλεπτα</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d δευτερόλεπτο</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d μνήμες cache εφαρμογών (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d μνήμη cache εφαρμογών (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Να αρχειοθετηθούν %d εφαρμογές;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Να αρχειοθετηθεί %d εφαρμογή;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Αρχειοθέτηση %1$d εφαρμογών (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Αρχειοθέτηση %1$d εφαρμογής (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Να γίνει εκκαθάριση της μνήμης cache για %d εφαρμογές;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Να γίνει εκκαθάριση της μνήμης cache για %d εφαρμογή;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Διαγ. %1$d μνημ. cache (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Διαγ. %1$d μνήμ. cache (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+Επιλέχθηκαν %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Επιλέχθηκε %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Ελευθερώστε %1$s χώρου με την αρχειοθέτηση %2$d εφαρμογών που δεν χρησιμοποιούνται. Τα προσωπικά δεδομένα και οι ρυθμίσεις σας θα αποθηκευτούν.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ελευθερώστε %1$s χώρου με την αρχειοθέτηση %2$d εφαρμογής που δεν χρησιμοποιείται. Τα προσωπικά δεδομένα και οι ρυθμίσεις σας θα αποθηκευτούν.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Θέλετε να καταργήσετε την εγκατάσταση %d εφαρμογών;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Θέλετε να καταργήσετε την εγκατάσταση %d εφαρμογής;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Απεγκ. %1$d εφαρμογών (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Απεγκ. %1$d εφαρμογής (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d εφαρμογές που δεν χρησιμοποιούνται (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d εφαρμογή που δεν χρησιμοποιείται (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Κοινή χρήση σύνδεσης internet με %d συσκευές.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Κοινή χρήση σύνδεσης internet με %d συσκευή.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d ημέρες</item>
+
+        <item
+            quantity="one">
+1 ημέρα</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d ώρες</item>
+
+        <item
+            quantity="one">
+1 ώρα</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d λεπτά</item>
+
+        <item
+            quantity="one">
+1 λεπτό</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d δευτερόλεπτα</item>
+
+        <item
+            quantity="one">
+1 δευτερόλεπτο</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d εβδομ.</item>
+
+        <item
+            quantity="one">
+1 εβδομάδα</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d ώρες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ώρα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d λεπτά</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d λεπτό</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d δευτερόλεπτα</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d δευτερόλεπτο</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Εάν διαγράψετε αυτά τα μέρη, τα βιομετρικά δεδομένα και η καθυστέρηση ασφαλείας θα απαιτούνται πάντα όταν αλλάζετε ευαίσθητες ρυθμίσεις.</item>
+
+        <item
+            quantity="one">
+Εάν διαγράψετε αυτό το μέρος, τα βιομετρικά δεδομένα και η καθυστέρηση ασφαλείας θα απαιτούνται πάντα όταν αλλάζετε ευαίσθητες ρυθμίσεις.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Να διαγραφούν %d μέρη;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Να διαγραφεί %d μέρος;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+Επιλέχθηκε %d</item>
+
+        <item
+            quantity="one">
+Επιλέχθηκε 1</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s και %2$d ακόμη μέρη</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s και %2$d ακόμη μέρος</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρες.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d νέες ειδοποιήσεις</item>
+
+        <item
+            quantity="one">
+%d νέα ειδοποίηση</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Δεν χρησιμοποιήθηκε μνήμη τις τελευταίες %d ώρες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δεν χρησιμοποιήθηκε μνήμη την τελευταία %d ώρα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d ειδοποιήσεις</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ειδοποίηση</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Υπενθύμιση κάθε %d λεπτά σχετικά με ειδοποιήσεις για επιλεγμένες εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Υπενθύμιση κάθε %d λεπτό σχετικά με ειδοποιήσεις για επιλεγμένες εφαρμογές</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Έως %d εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Έως %d εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+Η υπηρεσία %1$s και %2$d ακόμη εφαρμογές χρησιμοποιούν κλειδιά πρόσβασης και καταχωρούν αυτόματα κωδικούς πρόσβασης και άλλες πληροφορίες.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Η υπηρεσία %1$s και %2$d ακόμη εφαρμογή χρησιμοποιούν κλειδιά πρόσβασης και καταχωρούν αυτόματα κωδικούς πρόσβασης και άλλες πληροφορίες.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+Χρησιμοποιήθηκε η άδεια %1$s από %2$d εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Χρησιμοποιήθηκε η άδεια %1$s από %2$d εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d λειτουργίες προσβασιμότητας σε χρήση</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d λειτουργία προσβασιμότητας σε χρήση</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Να καταργηθούν %d γλώσσες;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Να καταργηθεί %d γλώσσα;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d εφαρμογές έχουν πλήρη πρόσβαση στο τηλέφωνό σας</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d εφαρμογή έχει πλήρη πρόσβαση στο τηλέφωνό σας</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Το τηλέφωνό σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτα. Για να κρατήσετε ενεργοποιημένο το τηλέφωνο αυτήν τη φορά, πατήστε «Άκυρο».</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Το τηλέφωνό σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτο. Για να κρατήσετε ενεργοποιημένο το τηλέφωνο αυτήν τη φορά, πατήστε «Άκυρο».</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Το tablet σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτα. Για να κρατήσετε ενεργοποιημένο το tablet αυτήν τη φορά, πατήστε «Άκυρο».</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Το tablet σας θα απενεργοποιηθεί αυτόματα σε %d δευτερόλεπτο. Για να κρατήσετε ενεργοποιημένο το tablet αυτήν τη φορά, πατήστε «Άκυρο».</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Κάθε %d ώρες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Κάθε %d ώρα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d χαρακτήρες και να περιλαμβάνει τουλάχιστον 1 γράμμα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d χαρακτήρα και να περιλαμβάνει τουλάχιστον 1 γράμμα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+Το PIN σας θα πρέπει να περιλαμβάνει τουλάχιστον %d ψηφία.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Το PIN σας θα πρέπει να περιλαμβάνει τουλάχιστον %d ψηφίο.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Δοκιμάστε ξανά σε 1 ώρα και %d λεπτά</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δοκιμάστε ξανά σε 1 ώρα και %d λεπτό</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Δοκιμάστε ξανά σε %d ώρες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δοκιμάστε ξανά σε %d ώρα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Δοκιμάστε ξανά σε %d ώρες και 1 λεπτό</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δοκιμάστε ξανά σε %d ώρα και 1 λεπτό</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Δοκιμάστε ξανά σε %d λεπτά</item>
+
+        <item
+            quantity="one">
+Δοκιμάστε ξανά σε %d λεπτό</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Δοκιμάστε ξανά σε %d δευτερόλεπτα</item>
+
+        <item
+            quantity="one">
+Δοκιμάστε ξανά σε %d δευτερόλεπτο</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Δεν μπορείτε να ενεργοποιήσετε πάνω από %d πρόσθετες υπηρεσίες.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δεν μπορείτε να ενεργοποιήσετε πάνω από %d πρόσθετη υπηρεσία.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+Επιτράπηκαν %d επαφές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Επιτράπηκε %d επαφή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+Προστέθηκαν %d δαχτυλικά αποτυπώματα</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Προστέθηκε %d δαχτυλικό αποτύπωμα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s και %3$d ακόμη εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s και %3$d ακόμη εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Εσφαλμένος κωδικός πρόσβασης. Απομένουν %d προσπάθειες.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Εσφαλμένος κωδικός πρόσβασης. Απομένει %d προσπάθεια.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Εσφαλμένο μοτίβο. Απομένουν %d προσπάθειες.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Εσφαλμένο μοτίβο. Απομένει %d προσπάθεια.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Εσφαλμένο PIN. Απομένουν %d προσπάθειες.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Εσφαλμένο PIN. Απομένει %d προσπάθεια.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Θα πρέπει να είστε τουλάχιστον %d ετών για να χρησιμοποιήσετε τις δυνατότητες προηγμένης νοημοσύνης του Galaxy AI.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Θα πρέπει να είστε τουλάχιστον %d έτους για να χρησιμοποιήσετε τις δυνατότητες προηγμένης νοημοσύνης του Galaxy AI.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης πρέπει να περιλαμβάνει τουλάχιστον %d γράμματα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης πρέπει να περιλαμβάνει τουλάχιστον %d γράμμα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον %d πεζούς χαρακτήρες.</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον έναν πεζό χαρακτήρα.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d αριθμούς ή σύμβολα.</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 αριθμό ή σύμβολο.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον %d αριθμούς.</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης θα πρέπει να περιλαμβάνει τουλάχιστον 1 αριθμό.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d σύμβολα.</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 σύμβολο.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον %d κεφαλαίους χαρακτήρες.</item>
+
+        <item
+            quantity="one">
+Ο κωδικός πρόσβασης θα πρέπει να περιέχει τουλάχιστον έναν κεφαλαίο χαρακτήρα.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+%d ακόμη προτάσεις</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ακόμη πρόταση</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d ενεργές εφαρμογές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ενεργή εφαρμογή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Να διαγραφούν %d πακέτα γλωσσών;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Να διαγραφεί %d πακέτο γλώσσας;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d φωνές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d φωνή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d πρόσθετες άδειες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d πρόσθετη άδεια</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Απομένουν μόνο %d πατήματα, για να γίνετε προγραμματιστής.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Απομένει μόνο %d πάτημα, για να γίνετε προγραμματιστής.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+Επιλέχθηκαν %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Επιλέχθηκε %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+Εντοπίστηκαν %d εφαρμογές κακόβουλου λογισμικού</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Εντοπίστηκε %d εφαρμογή κακόβουλου λογισμικού</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+Εντοπίστηκαν %d κακόβουλες εφαρμογές στο τηλέφωνό σας. Καταργήστε την εγκατάστασή των εφαρμογών για να διατηρήσετε ασφαλές το τηλέφωνό σας.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Εντοπίστηκε %d κακόβουλη εφαρμογή στο τηλέφωνό σας. Καταργήστε την εγκατάστασή της εφαρμογής για να διατηρήσετε ασφαλές το τηλέφωνό σας.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+Εντοπίστηκαν %d κακόβουλες εφαρμογές στο tablet σας. Καταργήστε την εγκατάστασή των εφαρμογών για να διατηρήσετε ασφαλές το tablet σας.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Εντοπίστηκε %d κακόβουλη εφαρμογή στο tablet σας. Καταργήστε την εγκατάστασή της εφαρμογής για να διατηρήσετε ασφαλές το tablet σας.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d προτάσεις</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d πρόταση</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d προειδοποιήσεις</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Προειδοποίηση στα %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Χρόνος ύπνου: %d ώρες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Χρόνος ύπνου: %d ώρα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Χρόνος ύπνου: %d λεπτά</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Χρόνος ύπνου: %d λεπτό</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Δημιουργήστε αντίγραφο ασφαλείας για απεριόριστα δεδομένα στο %1$s για έως %2$d ημέρες ή επαναφέρετε τα δεδομένα για τα οποία είχατε δημιουργήσει αντίγραφο ασφαλείας.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Δημιουργήστε αντίγραφο ασφαλείας για απεριόριστα δεδομένα στο %1$s για έως %2$d ημέρα ή επαναφέρετε τα δεδομένα για τα οποία είχατε δημιουργήσει αντίγραφο ασφαλείας.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Θα γίνει επαναφορά αυτής της δοκιμής σε %d δευτερόλεπτα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Θα γίνει επαναφορά αυτής της δοκιμής σε %d δευτερόλεπτο.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d συνδεδεμένες συσκευές</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d συνδεδεμένη συσκευή</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Μετατρέψτε το τηλέφωνο σας σε σημείο πρόσβασης Wi-Fi. Έως και %d ακόμη συσκευές θα μπορούν να χρησιμοποιούν τα δεδομένα κινητής τηλεφωνίας ή το Wi-Fi του τηλεφώνου για να έχουν πρόσβαση στο internet.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Μετατρέψτε το τηλέφωνο σας σε σημείο πρόσβασης Wi-Fi. Έως και %d ακόμη συσκευή θα μπορεί να χρησιμοποιεί τα δεδομένα κινητής τηλεφωνίας ή το Wi-Fi του τηλεφώνου για να έχει πρόσβαση στο internet.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Μετατρέψτε το τηλέφωνό σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλες συσκευές θα μπορούν να χρησιμοποιούν τα δεδομένα κινητής τηλεφωνίας του τηλεφώνου σας για πρόσβαση στο internet.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Μετατρέψτε το τηλέφωνό σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλη συσκευή θα μπορεί να χρησιμοποιεί τα δεδομένα κινητής τηλεφωνίας του τηλεφώνου σας για πρόσβαση στο internet.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλες συσκευές θα μπορούν να χρησιμοποιούν τα δεδομένα κινητής τηλεφωνίας του tablet σας για πρόσβαση στο internet.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως %d άλλη συσκευή θα μπορεί να χρησιμοποιεί τα δεδομένα κινητής τηλεφωνίας του tablet σας για πρόσβαση στο internet.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως και %d άλλες συσκευές θα μπορούν να έχουν πρόσβαση στο Internet χρησιμοποιώντας τα δεδομένα κινητής τηλεφωνίας ή τη σύνδεση Wi-Fi του tablet σας.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Μετατρέψτε το tablet σας σε σημείο πρόσβασης Wi-Fi. Έως και %d άλλη συσκευή θα μπορεί να έχει πρόσβαση στο Internet χρησιμοποιώντας τα δεδομένα κινητής τηλεφωνίας ή τη σύνδεση Wi-Fi του tablet σας.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d μέλη</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d μέλος</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Θέλετε να διαγράψετε τα δίκτυα %d;</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Θέλετε να διαγράψετε το δίκτυο %d;</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+Επιλέχθηκαν %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Επιλέχθηκε %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένουν %d προσπάθειες προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει %d προσπάθεια προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Έγιναν %d προσπάθειες για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Έγινε %d προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του τηλεφώνου στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένουν %d προσπάθειες προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Έγινε 1 προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει %d προσπάθεια προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Έγιναν %d προσπάθειες για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Έγινε %d προσπάθεια για το ξεκλείδωμα αυτού του προφίλ εργασίας. Απομένει 1 προσπάθεια προτού γίνει επαναφορά αυτού του tablet στις προεπιλεγμένες εργοστασιακές ρυθμίσεις και διαγραφούν όλα τα δεδομένα.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d ώρες</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ώρα</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d λεπτά</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d λεπτό</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

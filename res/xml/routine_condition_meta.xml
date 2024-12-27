@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <conditions>
-    <condition category="connections" description="@string/mobileap" icon="@drawable/routines_ic_mobile_hotspot" label="@string/mobileap" tag="hotspot_condition_tag">
-        <configuration targetUi="com.samsung.android.settings.wifi.mobileap.routine.WifiApConditionActivity">
+
+    <condition
+        category="connections"
+        description="@string/mobileap"
+        icon="@drawable/routines_ic_mobile_hotspot"
+        label="@string/mobileap"
+        tag="hotspot_condition_tag">
+
+        <configuration
+            targetUi="com.samsung.android.settings.wifi.mobileap.routine.WifiApConditionActivity">
+
             <parameters>
-                <parameter key="toggle_config_key" name="wifi_ap_condition_config" type="BOOLEAN" />
+
+                <parameter
+                    key="toggle_config_key"
+                    name="wifi_ap_condition_config"
+                    type="BOOLEAN" />
+
             </parameters>
+
         </configuration>
+
     </condition>
+
 </conditions>

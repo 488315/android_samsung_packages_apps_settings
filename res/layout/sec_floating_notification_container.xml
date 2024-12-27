@@ -1,13 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/sec_reset_settings_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/nested_scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="true" android:overScrollMode="always" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <FrameLayout android:id="@id/floating_options_preference_container" android:background="@color/content_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-            <LinearLayout android:id="@id/floating_icon_preview_parent" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="50.5">
-                <LinearLayout android:orientation="vertical" android:id="@id/floating_icon_preview_container" android:background="@color/content_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/sec_reset_settings_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/nested_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:measureAllChildren="true"
+        android:overScrollMode="always"
+        app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@id/floating_options_preference_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/content_background" />
+
+            <LinearLayout
+                android:id="@id/floating_icon_preview_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:background="@color/sec_widget_round_and_bgcolor"
+                android:layout_weight="50.5">
+
+                <LinearLayout
+                    android:id="@id/floating_icon_preview_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:background="@color/content_background"
+                    android:visibility="gone" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
-    <LinearLayout android:orientation="vertical" android:id="@id/blackView" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@id/blackView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_round_and_bgcolor" />
+
 </LinearLayout>

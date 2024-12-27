@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/function_desc_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/function_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_body_text_padding_top" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
-    <Button android:layout_gravity="center_horizontal" android:id="@id/button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/sec_widget_button_preference_min_width" android:minHeight="@dimen/body_contained_button_min_height" android:paddingStart="@dimen/sec_button_minimum_side_padding" android:paddingEnd="@dimen/sec_button_minimum_side_padding" android:layout_marginVertical="@dimen/sec_deny_all_button_vertical_margin" style="@style/ColorRoundButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/function_desc_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <TextView
+        android:id="@id/function_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sec_widget_body_text_padding_top"
+        android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+        android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+        style="@style/description_text" />
+
+    <Button
+        android:id="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:minWidth="@dimen/sec_widget_button_preference_min_width"
+        android:minHeight="@dimen/body_contained_button_min_height"
+        android:paddingStart="@dimen/sec_button_minimum_side_padding"
+        android:paddingEnd="@dimen/sec_button_minimum_side_padding"
+        android:layout_marginVertical="@dimen/sec_deny_all_button_vertical_margin"
+        style="@style/ColorRoundButtonStyle" />
+
 </LinearLayout>

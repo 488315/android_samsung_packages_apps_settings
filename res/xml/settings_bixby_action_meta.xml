@@ -1,144 +1,535 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actions>
-    <action category="lifestyle_mode" icon="@drawable/ic_routines_ic_do_not_disturb" label="@string/zen_mode_settings_title" tag="LifeStyle/DND">
-        <configuration targetUi="com.android.settings.notification.zen.lifestyle.LifeStyleDND">
+
+    <action
+        category="lifestyle_mode"
+        icon="@drawable/ic_routines_ic_do_not_disturb"
+        label="@string/zen_mode_settings_title"
+        tag="LifeStyle/DND">
+
+        <configuration
+            targetUi="com.android.settings.notification.zen.lifestyle.LifeStyleDND">
+
             <parameters>
-                <parameter key="dnd_switch" name="lifestylednd" type="BOOLEAN" /> // name optional </parameters>
-        </configuration>
-    </action>
-    <action category="lock_screen" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" description="@string/sec_unlock_with_biometrics" extraFlags="secure" icon="@drawable/ic_routines_ic_unlock_with_biometrics" label="@string/sec_unlock_with_biometrics" tag="sec_unlock_with_biometrics">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.lockscreen.bixbyroutine.LockScreenRoutineActionActivity">
-            <parameters>
-                <parameter key="unlock_with_fingerprint" name="fingerprint_state" type="BOOLEAN" />
-                <parameter key="unlock_with_face" name="face_state" type="BOOLEAN" />
+
+                <parameter
+                    key="dnd_switch"
+                    name="lifestylednd"
+                    type="BOOLEAN" />
+
+                // name optional
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_sounds" label="@string/sec_sound_mode_control_action_label" tag="as_volume">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.SoundModeActionActivity">
+
+    <action
+        category="lock_screen"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        description="@string/sec_unlock_with_biometrics"
+        extraFlags="secure"
+        icon="@drawable/ic_routines_ic_unlock_with_biometrics"
+        label="@string/sec_unlock_with_biometrics"
+        tag="sec_unlock_with_biometrics">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.lockscreen.bixbyroutine.LockScreenRoutineActionActivity">
+
             <parameters>
-                <parameter key="as_sound_mode" type="NUMBER" />
-                <parameter key="volume_level_STREAM_SYSTEM" type="NUMBER" />
-                <parameter key="volume_level_STREAM_RING" type="NUMBER" />
-                <parameter key="volume_level_STREAM_NOTIFICATION" type="NUMBER" />
+
+                <parameter
+                    key="unlock_with_fingerprint"
+                    name="fingerprint_state"
+                    type="BOOLEAN" />
+
+                <parameter
+                    key="unlock_with_face"
+                    name="face_state"
+                    type="BOOLEAN" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_sounds" label="@string/sec_vibrate_on_ring_title" tag="as_vibrate_while_ringing">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" config_activity="" icon="@drawable/ic_routines_ic_sounds" label="@string/sec_media_volume_action_label" tag="as_media_volume">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.MediaVolumeActionActivity">
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_sounds"
+        label="@string/sec_sound_mode_control_action_label"
+        tag="as_volume">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.SoundModeActionActivity">
+
             <parameters>
-                <parameter key="volume_level_STREAM_MUSIC_SPEAKER" type="NUMBER" />
-                <parameter key="volume_level_STREAM_MUSIC_USB_HEADSET" type="NUMBER" />
-                <parameter key="volume_level_STREAM_MUSIC_BLUETOOTH" type="NUMBER" />
+
+                <parameter
+                    key="as_sound_mode"
+                    type="NUMBER" />
+
+                <parameter
+                    key="volume_level_STREAM_SYSTEM"
+                    type="NUMBER" />
+
+                <parameter
+                    key="volume_level_STREAM_RING"
+                    type="NUMBER" />
+
+                <parameter
+                    key="volume_level_STREAM_NOTIFICATION"
+                    type="NUMBER" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_dialing_keyboard" label="@string/sec_dial_keypad_sound_action_label" tag="as_dialing_keypad_tones">
-        <configuration targetUi="\@template/TOGGLE" />
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_sounds"
+        label="@string/sec_vibrate_on_ring_title"
+        tag="as_vibrate_while_ringing">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
     </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_keyboard_sound" label="@string/sec_keyboard_sound_action_label" tag="as_keyboard_sound">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_keyboard_vibration" label="@string/sec_keyboard_vibration_action_label" tag="as_keyboard_vibration">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/routines_ic_ai_assistant_volume" label="@string/sec_bixby_voice_volume" tag="routines_set_bixby_volume">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.BixbyVolumeActionActivity" />
-    </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_sounds" label="@string/sec_sound_in_call_volume" tag="routines_set_call_volume">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.InCallVolumeActionActivity" />
-    </action>
-    <action category="sound_vibration" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" extraFlags="selectable_parameter" icon="@drawable/ic_routines_ic_sounds" label="@string/ringtone_title" tag="routines_set_ringtone">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.RingtoneActionActivity" />
-    </action>
-    <action category="display_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" description="@string/sec_font_style_title" icon="@drawable/ic_routines_ic_font_style" label="@string/sec_font_style_title" tag="routine_font_style_tag">
-        <configuration targetUi="com.samsung.android.settings.display.bixbyroutines.FontStyleRoutineActivity">
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        config_activity=""
+        icon="@drawable/ic_routines_ic_sounds"
+        label="@string/sec_media_volume_action_label"
+        tag="as_media_volume">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.MediaVolumeActionActivity">
+
             <parameters>
-                <parameter key="font_style_key" name="font_style_config" type="STRING" />
-                <parameter key="font_package_name_key" name="font_package_name_config" type="STRING" />
-                <parameter key="original_font_style_key" name="original_font_style_config" type="STRING" />
+
+                <parameter
+                    key="volume_level_STREAM_MUSIC_SPEAKER"
+                    type="NUMBER" />
+
+                <parameter
+                    key="volume_level_STREAM_MUSIC_USB_HEADSET"
+                    type="NUMBER" />
+
+                <parameter
+                    key="volume_level_STREAM_MUSIC_BLUETOOTH"
+                    type="NUMBER" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="display_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" description="@string/sec_eye_comfort_description" icon="@drawable/eye_comfort_shield_icon" label="@string/sec_eye_comfort_title" tag="sec_eye_comfort_shield_routine">
-        <configuration targetUi="com.samsung.android.settings.display.bixbyroutines.EyeComfortRoutineActivity">
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_dialing_keyboard"
+        label="@string/sec_dial_keypad_sound_action_label"
+        tag="as_dialing_keypad_tones">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_keyboard_sound"
+        label="@string/sec_keyboard_sound_action_label"
+        tag="as_keyboard_sound">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_keyboard_vibration"
+        label="@string/sec_keyboard_vibration_action_label"
+        tag="as_keyboard_vibration">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/routines_ic_ai_assistant_volume"
+        label="@string/sec_bixby_voice_volume"
+        tag="routines_set_bixby_volume">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.BixbyVolumeActionActivity" />
+
+    </action>
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_sounds"
+        label="@string/sec_sound_in_call_volume"
+        tag="routines_set_call_volume">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.InCallVolumeActionActivity" />
+
+    </action>
+
+    <action
+        category="sound_vibration"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        extraFlags="selectable_parameter"
+        icon="@drawable/ic_routines_ic_sounds"
+        label="@string/ringtone_title"
+        tag="routines_set_ringtone">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.asbase.routine.action.ui.RingtoneActionActivity" />
+
+    </action>
+
+    <action
+        category="display_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        description="@string/sec_font_style_title"
+        icon="@drawable/ic_routines_ic_font_style"
+        label="@string/sec_font_style_title"
+        tag="routine_font_style_tag">
+
+        <configuration
+            targetUi="com.samsung.android.settings.display.bixbyroutines.FontStyleRoutineActivity">
+
             <parameters>
-                <parameter key="blue_light_filter_switch" name="blue_light_filter_switch" type="NUMBER" />
-                <parameter key="blue_light_filter_adaptive_mode" name="blue_light_filter_adaptive_mode" type="NUMBER" />
-                <parameter key="blue_light_filter_scheduled" name="blue_light_filter_scheduled" type="NUMBER" />
-                <parameter key="blue_light_filter_type" name="blue_light_filter_type" type="NUMBER" />
-                <parameter key="blue_light_filter_opacity" name="blue_light_filter_opacity" type="NUMBER" />
+
+                <parameter
+                    key="font_style_key"
+                    name="font_style_config"
+                    type="STRING" />
+
+                <parameter
+                    key="font_package_name_key"
+                    name="font_package_name_config"
+                    type="STRING" />
+
+                <parameter
+                    key="original_font_style_key"
+                    name="original_font_style_config"
+                    type="STRING" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="display_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" extraFlags="secure" icon="@drawable/ic_routines_touch_sensitivity" label="@string/increase_touch_sensetivity_title" reversible="true" tag="sec_touch_sensitivity">
-        <configuration targetUi="\@template/TOGGLE">
+
+    <action
+        category="display_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        description="@string/sec_eye_comfort_description"
+        icon="@drawable/eye_comfort_shield_icon"
+        label="@string/sec_eye_comfort_title"
+        tag="sec_eye_comfort_shield_routine">
+
+        <configuration
+            targetUi="com.samsung.android.settings.display.bixbyroutines.EyeComfortRoutineActivity">
+
             <parameters>
-                <parameter key="touch_sensitivity_switch_status" name="touch_sensitivity_switch" type="BOOLEAN" />
+
+                <parameter
+                    key="blue_light_filter_switch"
+                    name="blue_light_filter_switch"
+                    type="NUMBER" />
+
+                <parameter
+                    key="blue_light_filter_adaptive_mode"
+                    name="blue_light_filter_adaptive_mode"
+                    type="NUMBER" />
+
+                <parameter
+                    key="blue_light_filter_scheduled"
+                    name="blue_light_filter_scheduled"
+                    type="NUMBER" />
+
+                <parameter
+                    key="blue_light_filter_type"
+                    name="blue_light_filter_type"
+                    type="NUMBER" />
+
+                <parameter
+                    key="blue_light_filter_opacity"
+                    name="blue_light_filter_opacity"
+                    type="NUMBER" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="display_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" extraFlags="secure" icon="@drawable/ic_routines_adaptive_color_tone" label="@string/sec_ead" reversible="true" tag="adaptive_color_tone">
-        <configuration targetUi="\@template/TOGGLE">
+
+    <action
+        category="display_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        extraFlags="secure"
+        icon="@drawable/ic_routines_touch_sensitivity"
+        label="@string/increase_touch_sensetivity_title"
+        reversible="true"
+        tag="sec_touch_sensitivity">
+
+        <configuration
+            targetUi="\@template/TOGGLE">
+
             <parameters>
-                <parameter key="adaptive_color_tone_switch_status" name="adaptive_color_tone_switch" type="BOOLEAN" />
+
+                <parameter
+                    key="touch_sensitivity_switch_status"
+                    name="touch_sensitivity_switch"
+                    type="BOOLEAN" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="display_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" extraFlags="secure" icon="@drawable/ic_routines_accidental_touch_protection" label="@string/sec_block_accidental_touches_title" reversible="true" tag="accidental_touch_protection">
-        <configuration targetUi="\@template/TOGGLE">
+
+    <action
+        category="display_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        extraFlags="secure"
+        icon="@drawable/ic_routines_adaptive_color_tone"
+        label="@string/sec_ead"
+        reversible="true"
+        tag="adaptive_color_tone">
+
+        <configuration
+            targetUi="\@template/TOGGLE">
+
             <parameters>
-                <parameter key="accidental_touch_protection_switch_status" name="accidental_touch_protection_switch" type="BOOLEAN" />
+
+                <parameter
+                    key="adaptive_color_tone_switch_status"
+                    name="adaptive_color_tone_switch"
+                    type="BOOLEAN" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_mute_all_sound" label="@string/mute_all_sounds_title" tag="accessibility_mute_all_sounds">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_live_caption" label="@string/live_caption_title" tag="accessibility_live_caption">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_mono_audio" label="@string/accessibility_toggle_primary_mono_title" tag="accessibility_mono_audio">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_camera_flash_noti" label="@string/flash_notification_camera_flash" tag="accessibility_camera_flash">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_screen_flash_noti" label="@string/flash_notification_screen" tag="accessibility_screen_flash">
-        <configuration targetUi="\@template/TOGGLE" />
-    </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_sound_balance" label="@string/sound_balance_title" tag="accessibility_sound_balance">
-        <configuration targetUi="com.android.settings/com.samsung.android.settings.accessibility.hearing.routine.SoundBalanceRoutineActionActivity">
+
+    <action
+        category="display_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        extraFlags="secure"
+        icon="@drawable/ic_routines_accidental_touch_protection"
+        label="@string/sec_block_accidental_touches_title"
+        reversible="true"
+        tag="accidental_touch_protection">
+
+        <configuration
+            targetUi="\@template/TOGGLE">
+
             <parameters>
-                <parameter key="connected_audio" name="routines.audio_balance" type="NUMBER" />
-                <parameter key="phone_speakers" name="routines.speakers_balance" type="NUMBER" />
+
+                <parameter
+                    key="accidental_touch_protection_switch_status"
+                    name="accidental_touch_protection_switch"
+                    type="BOOLEAN" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="accessibility" icon="@drawable/ic_routines_ic_extra_dim" label="@string/reduce_bright_colors_preference_title" tag="accessibility_extra_dim">
-        <configuration targetUi="com.samsung.android.settings.accessibility.vision.routine.ReduceBrightnessRoutineActionActivity">
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_mute_all_sound"
+        label="@string/mute_all_sounds_title"
+        tag="accessibility_mute_all_sounds">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_live_caption"
+        label="@string/live_caption_title"
+        tag="accessibility_live_caption">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_mono_audio"
+        label="@string/accessibility_toggle_primary_mono_title"
+        tag="accessibility_mono_audio">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_camera_flash_noti"
+        label="@string/flash_notification_camera_flash"
+        tag="accessibility_camera_flash">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_screen_flash_noti"
+        label="@string/flash_notification_screen"
+        tag="accessibility_screen_flash">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
+    </action>
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_sound_balance"
+        label="@string/sound_balance_title"
+        tag="accessibility_sound_balance">
+
+        <configuration
+            targetUi="com.android.settings/com.samsung.android.settings.accessibility.hearing.routine.SoundBalanceRoutineActionActivity">
+
             <parameters>
-                <parameter key="switch" name="routines.extra_dim_switch" type="BOOLEAN" />
-                <parameter key="intensity" name="routines.extra_dim_intensity" type="NUMBER" />
+
+                <parameter
+                    key="connected_audio"
+                    name="routines.audio_balance"
+                    type="NUMBER" />
+
+                <parameter
+                    key="phone_speakers"
+                    name="routines.speakers_balance"
+                    type="NUMBER" />
+
             </parameters>
+
         </configuration>
+
     </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_color_inversion" label="@string/accessibility_display_inversion_preference_title" tag="accessibility_color_inversion">
-        <configuration targetUi="\@template/TOGGLE" />
+
+    <action
+        category="accessibility"
+        icon="@drawable/ic_routines_ic_extra_dim"
+        label="@string/reduce_bright_colors_preference_title"
+        tag="accessibility_extra_dim">
+
+        <configuration
+            targetUi="com.samsung.android.settings.accessibility.vision.routine.ReduceBrightnessRoutineActionActivity">
+
+            <parameters>
+
+                <parameter
+                    key="switch"
+                    name="routines.extra_dim_switch"
+                    type="BOOLEAN" />
+
+                <parameter
+                    key="intensity"
+                    name="routines.extra_dim_intensity"
+                    type="NUMBER" />
+
+            </parameters>
+
+        </configuration>
+
     </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_color_correction" label="@string/accessibility_display_daltonizer_preference_title" tag="accessibility_color_correction">
-        <configuration targetUi="\@template/TOGGLE" />
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_color_inversion"
+        label="@string/accessibility_display_inversion_preference_title"
+        tag="accessibility_color_inversion">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
     </action>
-    <action category="accessibility" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_ic_color_lens" label="@string/colour_lens_title" tag="accessibility_color_filter">
-        <configuration targetUi="\@template/TOGGLE" />
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_color_correction"
+        label="@string/accessibility_display_daltonizer_preference_title"
+        tag="accessibility_color_correction">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
     </action>
-    <action category="connection_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_vpn_connect" label="@string/vpn_routine_label_connect" tag="connect_vpn">
-        <configuration targetUi="com.samsung.android.settings.vpn.bixby.RoutineConfigActivity" />
+
+    <action
+        category="accessibility"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_ic_color_lens"
+        label="@string/colour_lens_title"
+        tag="accessibility_color_filter">
+
+        <configuration
+            targetUi="\@template/TOGGLE" />
+
     </action>
-    <action category="connection_setting" component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler" icon="@drawable/ic_routines_vpn_disconnect" label="@string/vpn_routine_label_disconnect" tag="disconnect_vpn">
-        <configuration targetUi="com.samsung.android.settings.vpn.bixby.RoutineConfigActivity" />
+
+    <action
+        category="connection_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_vpn_connect"
+        label="@string/vpn_routine_label_connect"
+        tag="connect_vpn">
+
+        <configuration
+            targetUi="com.samsung.android.settings.vpn.bixby.RoutineConfigActivity" />
+
     </action>
+
+    <action
+        category="connection_setting"
+        component="com.android.settings/com.samsung.android.settings.bixbyroutinehandler.BixbyRoutineActionHandler"
+        icon="@drawable/ic_routines_vpn_disconnect"
+        label="@string/vpn_routine_label_disconnect"
+        tag="disconnect_vpn">
+
+        <configuration
+            targetUi="com.samsung.android.settings.vpn.bixby.RoutineConfigActivity" />
+
+    </action>
+
 </actions>

@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_spass_title_body" android:key="user_and_account_settings_screen" settings:keywords="@string/autofill_keywords"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_spass_main_page_desc" android:selectable="false" settings:positionMode="first_item" style="@style/description_text" />
-    <SecPreferenceCategory android:title="@string/sec_spass_preferred_service_header" android:key="default_service_category">
-        <com.samsung.android.settings.widget.SecGearPreference android:title="@string/sec_spass_preferred_service_header" android:key="default_credman_autofill_main" android:fragment="com.android.settings.applications.credentials.DefaultCombinedPicker" settings:keywords="@string/credman_autofill_keywords">
-            <extra android:name="for_work" android:value="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_spass_title_body"
+    android:key="user_and_account_settings_screen"
+    settings:keywords="@string/autofill_keywords">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_spass_main_page_desc"
+        android:selectable="false"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
+    <SecPreferenceCategory
+        android:title="@string/sec_spass_preferred_service_header"
+        android:key="default_service_category">
+
+        <com.samsung.android.settings.widget.SecGearPreference
+            android:title="@string/sec_spass_preferred_service_header"
+            android:key="default_credman_autofill_main"
+            android:fragment="com.android.settings.applications.credentials.DefaultCombinedPicker"
+            settings:keywords="@string/credman_autofill_keywords">
+
+            <extra
+                android:name="for_work"
+                android:value="false" />
+
         </com.samsung.android.settings.widget.SecGearPreference>
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:persistent="false" android:title="@string/credman_credentials" android:key="credman_category" settings:controller="com.android.settings.applications.credentials.CredentialManagerPreferenceController" settings:keywords="@string/credman_keywords" />
+
+    <SecPreferenceCategory
+        android:persistent="false"
+        android:title="@string/credman_credentials"
+        android:key="credman_category"
+        settings:controller="com.android.settings.applications.credentials.CredentialManagerPreferenceController"
+        settings:keywords="@string/credman_keywords" />
+
 </PreferenceScreen>

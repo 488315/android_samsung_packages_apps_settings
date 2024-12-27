@@ -1,31 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/main_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <ImageView android:id="@id/backgroundDim" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <ImageView android:id="@id/backgroundBlur" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/mainLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/knoxLogoLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <ImageView android:id="@id/knoxLogo" android:visibility="visible" android:layout_width="@dimen/keyguard_knoxLogo_dimen" android:layout_height="@dimen/keyguard_knoxLogo_dimen" android:alpha="1.0" />
-            <TextView android:textSize="@dimen/keyguard_knoxTitletext_text_height" android:id="@id/knoxTitleText" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.ConfirmDeviceCredentialsForKnoxTitleText" />
-            <TextView android:textSize="@dimen/keyguard_knoxTitleSubText_text_height" android:textColor="@color/folder_white" android:id="@id/knoxTitleSubText" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.7" />
-            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                    <ImageView android:id="@id/knoxLockedLogo" android:layout_width="@dimen/keyguard_knoxLockedLogo_dimen" android:layout_height="@dimen/keyguard_knoxLockedLogo_dimen" android:layout_marginBottom="@dimen/keyguard_knoxLockedLogo_dimen_marginBottom" android:src="@drawable/ws_ic_system_lock" android:layout_below="@id/knox_locked" android:layout_centerHorizontal="true" android:alpha="1.0" />
-                    <TextView android:textSize="@dimen/activity_main_knox_title_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/knox_locked" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_folder_locked" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
-                    <TextView android:textSize="@dimen/activity_main_knox_locked_notice_text_size" android:gravity="center" android:id="@id/knox_locked_notice" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keyguard_locked_reset_removed_account" android:alpha="0.8" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@id/background_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@id/backgroundDim"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@id/backgroundBlur"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@id/mainLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@id/knoxLogoLayout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <ImageView
+                android:id="@id/knoxLogo"
+                android:layout_width="@dimen/keyguard_knoxLogo_dimen"
+                android:layout_height="@dimen/keyguard_knoxLogo_dimen"
+                android:visibility="visible"
+                android:alpha="1.0" />
+
+            <TextView
+                android:id="@id/knoxTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/keyguard_knoxTitletext_text_height"
+                android:visibility="visible"
+                style="@style/TextAppearance.ConfirmDeviceCredentialsForKnoxTitleText" />
+
+            <TextView
+                android:id="@id/knoxTitleSubText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/keyguard_knoxTitleSubText_text_height"
+                android:textColor="@color/folder_white"
+                android:visibility="visible"
+                android:alpha="0.7" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@id/knoxLockedLogo"
+                        android:layout_width="@dimen/keyguard_knoxLockedLogo_dimen"
+                        android:layout_height="@dimen/keyguard_knoxLockedLogo_dimen"
+                        android:layout_marginBottom="@dimen/keyguard_knoxLockedLogo_dimen_marginBottom"
+                        android:src="@drawable/ws_ic_system_lock"
+                        android:layout_below="@id/knox_locked"
+                        android:layout_centerHorizontal="true"
+                        android:alpha="1.0" />
+
+                    <TextView
+                        android:id="@id/knox_locked"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/activity_main_knox_title_text_size"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:text="@string/secure_folder_locked"
+                        style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+
+                    <TextView
+                        android:id="@id/knox_locked_notice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/activity_main_knox_locked_notice_text_size"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:text="@string/keyguard_locked_reset_removed_account"
+                        android:alpha="0.8"
+                        style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForWorkProfile" />
+
                 </LinearLayout>
+
             </ScrollView>
+
         </LinearLayout>
-        <RelativeLayout android:gravity="center" android:id="@id/securefolder_initlock_btn_layout" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/initlock_btn_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_centerVertical="true">
-                <TextView android:textSize="@dimen/sf_locked_bottom_btn_txt_size" android:gravity="center" android:id="@id/sf_locked_bottom_btn" android:background="@drawable/ripple_effect_transparent_button_drawable" android:visibility="visible" android:layout_width="@dimen/sf_locked_bottom_btn_width" android:layout_height="@dimen/sf_locked_bottom_btn_height" android:minWidth="@dimen/sf_locked_bottom_btn_minWidth" android:text="@string/lockscreen_ok_button" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForSecureFolderLockedView" />
-                <TextView android:textSize="@dimen/sf_uninstall_bottom_btn_txt_size" android:gravity="center" android:id="@id/sf_uninstall_bottom_btn" android:background="@drawable/ripple_effect_transparent_button_drawable" android:visibility="gone" android:layout_width="@dimen/sf_locked_bottom_btn_width" android:layout_height="@dimen/sf_locked_bottom_btn_height" android:layout_marginTop="@dimen/layout_marginTop_size" android:minWidth="@dimen/sf_locked_bottom_btn_minWidth" android:text="@string/uninstall" style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForSecureFolderLockedView" />
-                <TextView android:textSize="@dimen/go_to_saccount_txt_size" android:textColor="@color/folder_white" android:gravity="center" android:layout_gravity="center" android:id="@id/go_to_saccount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_marginTop_size" android:text="@string/go_to_samsungAccount" android:fontFamily="sans-serif-medium" />
+
+        <RelativeLayout
+            android:id="@id/securefolder_initlock_btn_layout"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:id="@id/initlock_btn_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:weightSum="1.0"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@id/sf_locked_bottom_btn"
+                    android:layout_width="@dimen/sf_locked_bottom_btn_width"
+                    android:layout_height="@dimen/sf_locked_bottom_btn_height"
+                    android:textSize="@dimen/sf_locked_bottom_btn_txt_size"
+                    android:gravity="center"
+                    android:background="@drawable/ripple_effect_transparent_button_drawable"
+                    android:visibility="visible"
+                    android:minWidth="@dimen/sf_locked_bottom_btn_minWidth"
+                    android:text="@string/lockscreen_ok_button"
+                    style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForSecureFolderLockedView" />
+
+                <TextView
+                    android:id="@id/sf_uninstall_bottom_btn"
+                    android:layout_width="@dimen/sf_locked_bottom_btn_width"
+                    android:layout_height="@dimen/sf_locked_bottom_btn_height"
+                    android:textSize="@dimen/sf_uninstall_bottom_btn_txt_size"
+                    android:gravity="center"
+                    android:background="@drawable/ripple_effect_transparent_button_drawable"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/layout_marginTop_size"
+                    android:minWidth="@dimen/sf_locked_bottom_btn_minWidth"
+                    android:text="@string/uninstall"
+                    style="@style/TextAppearance.ConfirmDeviceCredentialsErrorTextForSecureFolderLockedView" />
+
+                <TextView
+                    android:id="@id/go_to_saccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/go_to_saccount_txt_size"
+                    android:textColor="@color/folder_white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/layout_marginTop_size"
+                    android:text="@string/go_to_samsungAccount"
+                    android:fontFamily="sans-serif-medium" />
+
             </LinearLayout>
+
         </RelativeLayout>
+
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/knox_logo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
-        <ImageView android:id="@id/knox_secure_logo" android:visibility="visible" android:layout_width="@dimen/knox_secure_logo_width" android:layout_height="@dimen/knox_secure_logo_height" android:layout_marginBottom="@dimen/keyguard_main_knoxlogo_margin_bottom" android:src="@drawable/knox_ic_samsung_knox_logo" android:tint="@color/folder_white" android:alpha="0.4" android:layout_marginEnd="@dimen/keyguard_main_knoxlogo_margin_right" />
+
+    <LinearLayout
+        android:id="@id/knox_logo_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@id/knox_secure_logo"
+            android:layout_width="@dimen/knox_secure_logo_width"
+            android:layout_height="@dimen/knox_secure_logo_height"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/keyguard_main_knoxlogo_margin_bottom"
+            android:src="@drawable/knox_ic_samsung_knox_logo"
+            android:tint="@color/folder_white"
+            android:alpha="0.4"
+            android:layout_marginEnd="@dimen/keyguard_main_knoxlogo_margin_right" />
+
     </LinearLayout>
+
 </RelativeLayout>

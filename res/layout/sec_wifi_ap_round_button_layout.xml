@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.widget.SecRoundButtonView android:layout_gravity="center" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/ColorRoundButtonStyle" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <com.samsung.android.settings.widget.SecRoundButtonView
+        android:id="@id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="8.0dip"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip"
+        style="@style/ColorRoundButtonStyle" />
+
 </FrameLayout>

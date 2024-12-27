@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.samsung.android.settings.widget.SecNoItemView android:gravity="center" android:id="@id/no_item_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
-        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.75">
-            <TextView android:textAppearance="@style/no_item_text_style" android:gravity="center" android:id="@id/no_item_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_no_services_installed" />
-            <TextView android:textAppearance="@style/no_item_sub_text_style" android:gravity="center" android:id="@id/no_item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+<com.samsung.android.settings.widget.SecNoItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/no_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:baselineAligned="false"
+        android:weightSum="1.0">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="0.75">
+
+            <TextView
+                android:id="@id/no_item_main_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/no_item_text_style"
+                android:gravity="center"
+                android:text="@string/accessibility_no_services_installed" />
+
+            <TextView
+                android:id="@id/no_item_sub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/no_item_sub_text_style"
+                android:gravity="center"
+                android:layout_marginTop="24.0dip" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </com.samsung.android.settings.widget.SecNoItemView>

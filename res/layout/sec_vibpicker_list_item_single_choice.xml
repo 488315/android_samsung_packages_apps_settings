@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <CheckedTextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/radiobutton_checkedtextview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:foreground="?android:selectableItemBackground" android:minHeight="@dimen/vib_picker_list_item_min_height" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_widget_list_margin_inner" android:paddingEnd="@dimen/sec_widget_list_margin_inner" app:layout_constraintEnd_toStartOf="@id/removebutton" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" />
-    <ImageButton android:id="@id/removebutton" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vibpicker_icon_delete_mtrl" android:contentDescription="delete" android:layout_marginStart="@dimen/sec_widget_delete_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_list_margin_inner" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/radiobutton_checkedtextview" app:layout_constraintTop_toTopOf="parent" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/subtitle_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_list_margin_inner" android:paddingEnd="@dimen/sec_widget_list_margin_inner">
-        <TextView android:textAppearance="?android:listSeparatorTextViewStyle" android:gravity="center_vertical" android:id="@id/subtitle_textview" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36.0dip" android:accessibilityHeading="true" />
-        <View android:background="@drawable/sec_subheader_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CheckedTextView
+        android:id="@id/radiobutton_checkedtextview"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceListItem"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:checkMark="?android:listChoiceIndicatorSingle"
+        android:foreground="?android:selectableItemBackground"
+        android:minHeight="@dimen/vib_picker_list_item_min_height"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/sec_widget_list_margin_inner"
+        android:paddingEnd="@dimen/sec_widget_list_margin_inner"
+        app:layout_constraintEnd_toStartOf="@id/removebutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_weight="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@id/removebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/vibpicker_icon_delete_mtrl"
+        android:contentDescription="delete"
+        android:layout_marginStart="@dimen/sec_widget_delete_padding_start_end"
+        android:layout_marginEnd="@dimen/sec_widget_list_margin_inner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/radiobutton_checkedtextview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@id/subtitle_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/sec_widget_list_margin_inner"
+        android:paddingEnd="@dimen/sec_widget_list_margin_inner">
+
+        <TextView
+            android:id="@id/subtitle_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:listSeparatorTextViewStyle"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:minHeight="36.0dip"
+            android:accessibilityHeading="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sec_subheader_divider"
+            android:layout_marginStart="16.0dip" />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

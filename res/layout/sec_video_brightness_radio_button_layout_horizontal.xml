@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecHorizontalRadioViewContainer android:orientation="horizontal" android:id="@id/sec_radio_layout" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <include android:id="@id/item1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/sec_video_brightness_radio_preference_item" />
-        <include android:id="@id/item2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/sec_video_brightness_radio_preference_item" />
-        <include android:id="@id/item3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/sec_video_brightness_radio_preference_item" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:focusable="false"
+    android:clickable="false">
+
+    <com.samsung.android.settings.widget.SecHorizontalRadioViewContainer
+        android:id="@id/sec_radio_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:clickable="false">
+
+        <include
+            android:id="@id/item1"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:layout_weight="1.0"
+            layout="@layout/sec_video_brightness_radio_preference_item" />
+
+        <include
+            android:id="@id/item2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:layout_weight="1.0"
+            layout="@layout/sec_video_brightness_radio_preference_item" />
+
+        <include
+            android:id="@id/item3"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:layout_weight="1.0"
+            layout="@layout/sec_video_brightness_radio_preference_item" />
+
     </com.samsung.android.settings.widget.SecHorizontalRadioViewContainer>
+
 </LinearLayout>

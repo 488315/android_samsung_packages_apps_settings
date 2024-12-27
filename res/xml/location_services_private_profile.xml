@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/location_services_screen_title" android:key="location_services_private_profile" settings:controller="com.android.settings.location.LocationInjectedServicesForPrivateProfilePreferenceController"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/location_services_screen_title"
+    android:key="location_services_private_profile"
+    settings:controller="com.android.settings.location.LocationInjectedServicesForPrivateProfilePreferenceController" />

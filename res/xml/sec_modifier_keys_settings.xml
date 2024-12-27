@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/customize_keys_settings" android:key="modifier_keys_all" settings:controller="com.samsung.android.settings.inputmethod.ModifierKeysPreferenceController"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecDropDownPreference android:title="@string/modifier_keys_caps_lock" android:key="modifier_keys_caps_lock" android:summary="@string/modifier_keys_caps_lock" />
-    <SecDropDownPreference android:title="@string/modifier_keys_ctrl" android:key="modifier_keys_ctrl" android:summary="@string/modifier_keys_ctrl" />
-    <SecDropDownPreference android:title="@string/modifier_keys_meta" android:key="modifier_keys_meta" android:summary="@string/modifier_keys_meta" />
-    <SecDropDownPreference android:title="@string/modifier_keys_alt" android:key="modifier_keys_alt" android:summary="@string/modifier_keys_alt" />
-    <SecDropDownPreference android:title="@string/modifier_keys_esc" android:key="modifier_keys_esc" android:summary="@string/modifier_keys_esc" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_settings" android:key="app_shortcuts_settings" android:fragment="com.samsung.android.settings.inputmethod.AppShortcutsSettings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/customize_keys_settings"
+    android:key="modifier_keys_all"
+    settings:controller="com.samsung.android.settings.inputmethod.ModifierKeysPreferenceController">
+
+    <SecDropDownPreference
+        android:title="@string/modifier_keys_caps_lock"
+        android:key="modifier_keys_caps_lock"
+        android:summary="@string/modifier_keys_caps_lock" />
+
+    <SecDropDownPreference
+        android:title="@string/modifier_keys_ctrl"
+        android:key="modifier_keys_ctrl"
+        android:summary="@string/modifier_keys_ctrl" />
+
+    <SecDropDownPreference
+        android:title="@string/modifier_keys_meta"
+        android:key="modifier_keys_meta"
+        android:summary="@string/modifier_keys_meta" />
+
+    <SecDropDownPreference
+        android:title="@string/modifier_keys_alt"
+        android:key="modifier_keys_alt"
+        android:summary="@string/modifier_keys_alt" />
+
+    <SecDropDownPreference
+        android:title="@string/modifier_keys_esc"
+        android:key="modifier_keys_esc"
+        android:summary="@string/modifier_keys_esc" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_settings"
+        android:key="app_shortcuts_settings"
+        android:fragment="com.samsung.android.settings.inputmethod.AppShortcutsSettings" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_reset_button" android:selectable="false" android:key="reset_button_preference" settings:controller="com.samsung.android.settings.inputmethod.ModifierKeysRestorePreferenceController" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_reset_button"
+        android:selectable="false"
+        android:key="reset_button_preference"
+        settings:controller="com.samsung.android.settings.inputmethod.ModifierKeysRestorePreferenceController" />
+
 </PreferenceScreen>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/mute_all_sounds_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:key="guide_description" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/mute_all_sounds_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.hearing.HearingEnhancementsFragment"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:key="guide_description"
+        settings:searchable="false" />
+
 </PreferenceScreen>

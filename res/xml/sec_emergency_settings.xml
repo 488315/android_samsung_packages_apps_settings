@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/emergency_settings_preference_title" android:key="safety_and_emergency_screen" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:topLevelPreferenceKey="top_level_emergency"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreference android:title="@string/sec_emergency_medical_info" android:key="medical_info" android:order="20" settings:controller="com.samsung.android.settings.emergency.medicalinfo.MedicalInfoPreferenceController" />
-    <SecPreference android:title="@string/sec_emergency_contacts" android:key="emergency_contacts" android:order="50" settings:controller="com.samsung.android.settings.emergency.emergencycontacts.EmergencyContactsPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="80" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="500" />
-    <com.android.settingslib.RestrictedPreference android:title="@string/wireless_emergency_alerts" android:key="app_and_notif_cell_broadcast_settings" android:order="900" settings:useAdminDisabledSummary="true">
-        <intent android:targetPackage="@string/config_cell_broadcast_receiver_package" android:action="android.intent.action.MAIN" android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/emergency_settings_preference_title"
+    android:key="safety_and_emergency_screen"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:topLevelPreferenceKey="top_level_emergency">
+
+    <SecPreference
+        android:title="@string/sec_emergency_medical_info"
+        android:key="medical_info"
+        android:order="20"
+        settings:controller="com.samsung.android.settings.emergency.medicalinfo.MedicalInfoPreferenceController" />
+
+    <SecPreference
+        android:title="@string/sec_emergency_contacts"
+        android:key="emergency_contacts"
+        android:order="50"
+        settings:controller="com.samsung.android.settings.emergency.emergencycontacts.EmergencyContactsPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="80" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="500" />
+
+    <com.android.settingslib.RestrictedPreference
+        android:title="@string/wireless_emergency_alerts"
+        android:key="app_and_notif_cell_broadcast_settings"
+        android:order="900"
+        settings:useAdminDisabledSummary="true">
+
+        <intent
+            android:targetPackage="@string/config_cell_broadcast_receiver_package"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
+
     </com.android.settingslib.RestrictedPreference>
+
 </PreferenceScreen>

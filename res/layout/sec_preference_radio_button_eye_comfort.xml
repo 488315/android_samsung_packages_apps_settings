@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="@dimen/sec_widget_list_item_padding_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="@dimen/sec_widget_list_with_checkbox_container_size" android:layout_height="fill_parent" android:paddingStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:paddingEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_list_item_padding_top" android:layout_marginBottom="@dimen/sec_widget_list_item_padding_top" android:layout_weight="1.0">
-        <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/list_title_text_style" />
-        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/list_summary_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="?android:selectableItemBackground"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingEnd="@dimen/sec_widget_list_item_padding_end">
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="@dimen/sec_widget_list_with_checkbox_container_size"
+        android:layout_height="fill_parent"
+        android:gravity="start|center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+        android:paddingEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sec_widget_list_item_padding_top"
+        android:layout_marginBottom="@dimen/sec_widget_list_item_padding_top"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            style="@style/list_title_text_style" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            style="@style/list_summary_text_style" />
+
     </RelativeLayout>
+
 </LinearLayout>

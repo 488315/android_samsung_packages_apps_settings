@@ -1,18 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/entity_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_app_entity_header_min_height" style="@style/SecEntityHeader">
-        <ImageView android:layout_gravity="center" android:id="@id/entity_header_icon" android:layout_width="@dimen/sec_app_info_icon_size" android:layout_height="@dimen/sec_app_info_icon_size" android:layout_marginTop="@dimen/sec_app_entity_header_top_bottom_margin" android:antialias="true" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-        <LinearLayout android:orientation="vertical" android:id="@id/entity_header_links" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
-            <ImageButton android:id="@android:id/button1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@null" android:tint="?android:colorAccent" android:minWidth="@dimen/min_tap_target_size" android:minHeight="@dimen/min_tap_target_size" android:layout_weight="1.0" style="?android:actionOverflowButtonStyle" />
-            <ImageButton android:id="@android:id/button2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/sec_st_list_icon_setting" android:tint="@color/sec_widget_list_item_config_normal_color" android:minWidth="@dimen/min_tap_target_size" android:minHeight="@dimen/min_tap_target_size" android:layout_weight="1.0" style="?android:actionModeCloseButtonStyle" />
-            <ImageButton android:id="@id/app_preference_button" android:visibility="gone" android:layout_width="@dimen/sec_app_entity_header_setting_icon_size" android:layout_height="@dimen/sec_app_entity_header_setting_icon_size" android:src="@drawable/sec_st_list_icon_setting" android:tint="@color/sec_widget_list_item_config_normal_color" android:layout_weight="1.0" android:tooltipText="@string/sec_app_more_settings_btn_tooltip" style="@style/SecEntityMoreSettingButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <RelativeLayout
+        android:id="@id/entity_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/sec_app_entity_header_min_height"
+        style="@style/SecEntityHeader">
+
+        <ImageView
+            android:id="@id/entity_header_icon"
+            android:layout_width="@dimen/sec_app_info_icon_size"
+            android:layout_height="@dimen/sec_app_info_icon_size"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/sec_app_entity_header_top_bottom_margin"
+            android:antialias="true"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@id/entity_header_links"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <ImageButton
+                android:id="@android:id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:visibility="gone"
+                android:src="@null"
+                android:tint="?android:colorAccent"
+                android:minWidth="@dimen/min_tap_target_size"
+                android:minHeight="@dimen/min_tap_target_size"
+                android:layout_weight="1.0"
+                style="?android:actionOverflowButtonStyle" />
+
+            <ImageButton
+                android:id="@android:id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="0.0dip"
+                android:visibility="gone"
+                android:src="@drawable/sec_st_list_icon_setting"
+                android:tint="@color/sec_widget_list_item_config_normal_color"
+                android:minWidth="@dimen/min_tap_target_size"
+                android:minHeight="@dimen/min_tap_target_size"
+                android:layout_weight="1.0"
+                style="?android:actionModeCloseButtonStyle" />
+
+            <ImageButton
+                android:id="@id/app_preference_button"
+                android:layout_width="@dimen/sec_app_entity_header_setting_icon_size"
+                android:layout_height="@dimen/sec_app_entity_header_setting_icon_size"
+                android:visibility="gone"
+                android:src="@drawable/sec_st_list_icon_setting"
+                android:tint="@color/sec_widget_list_item_config_normal_color"
+                android:layout_weight="1.0"
+                android:tooltipText="@string/sec_app_more_settings_btn_tooltip"
+                style="@style/SecEntityMoreSettingButtonStyle" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_app_info_title_margin" android:layout_marginBottom="@dimen/sec_app_entity_header_top_bottom_margin" android:layout_below="@id/entity_header_icon" android:layout_centerHorizontal="true">
-            <TextView android:id="@id/entity_header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:maxLines="5" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="700" style="@style/TextAppearance.EntityHeaderTitle" />
-            <TextView android:id="@id/install_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" style="@style/TextAppearance.EntityHeaderSummary" />
-            <TextView android:id="@id/entity_header_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="400" style="@style/TextAppearance.EntityHeaderSummary" />
-            <TextView android:id="@id/entity_header_second_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="400" style="@style/TextAppearance.EntityHeaderSummary" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/sec_app_info_title_margin"
+            android:layout_marginBottom="@dimen/sec_app_entity_header_top_bottom_margin"
+            android:layout_below="@id/entity_header_icon"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@id/entity_header_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8.0dip"
+                android:maxLines="5"
+                android:fontFamily="sec"
+                android:textAlignment="center"
+                android:textFontWeight="700"
+                style="@style/TextAppearance.EntityHeaderTitle" />
+
+            <TextView
+                android:id="@id/install_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textAlignment="center"
+                style="@style/TextAppearance.EntityHeaderSummary" />
+
+            <TextView
+                android:id="@id/entity_header_summary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sec"
+                android:textAlignment="center"
+                android:textFontWeight="400"
+                style="@style/TextAppearance.EntityHeaderSummary" />
+
+            <TextView
+                android:id="@id/entity_header_second_summary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:fontFamily="sec"
+                android:textAlignment="center"
+                android:textFontWeight="400"
+                style="@style/TextAppearance.EntityHeaderSummary" />
+
         </LinearLayout>
+
     </RelativeLayout>
+
 </LinearLayout>

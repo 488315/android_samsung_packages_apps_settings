@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/str_smart_pop_up_view_name"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/str_smart_pop_up_view_description" android:selectable="false" android:key="description" settings:positionMode="first_item" style="@style/description_text" />
-    <SecPreferenceCategory android:key="smart_popup_view_apps" settings:roundStroke="top_left|top_right">
-        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/app_picker_view" android:key="smart_popup_view_list" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/str_smart_pop_up_view_name">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/str_smart_pop_up_view_description"
+        android:selectable="false"
+        android:key="description"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
+    <SecPreferenceCategory
+        android:key="smart_popup_view_apps"
+        settings:roundStroke="top_left|top_right">
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:layout="@layout/app_picker_view"
+            android:key="smart_popup_view_list" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

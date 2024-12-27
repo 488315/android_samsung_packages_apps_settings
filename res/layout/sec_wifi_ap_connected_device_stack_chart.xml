@@ -1,22 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:id="@id/data_tab_layout_container" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="60.0dip">
-        <com.google.android.material.tabs.TabLayout android:id="@id/data_monitor_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ap_weekly" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
-            <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_ap_monthly" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sesl_round_and_bgcolor_light"
+    android:fillViewport="true"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <LinearLayout
+        android:id="@id/data_tab_layout_container"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:background="@color/sesl_round_and_bgcolor_light">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@id/data_monitor_tab_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="?android:textColorPrimary"
+                android:text="@string/wifi_ap_weekly"
+                android:singleLine="true"
+                android:fontFamily="sec-roboto-regular" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="?android:textColorPrimary"
+                android:text="@string/wifi_ap_monthly"
+                android:singleLine="true"
+                android:fontFamily="sec-roboto-regular" />
+
         </com.google.android.material.tabs.TabLayout>
+
     </LinearLayout>
-    <com.samsung.android.settings.wifi.mobileap.clients.report.chart.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/data_nested_scroll_view" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/data_tab_layout_container">
-        <com.samsung.android.settings.wifi.mobileap.clients.report.chart.ChartDateRangeSelector android:id="@id/data_date_picker_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <com.samsung.android.settings.wifi.mobileap.clients.report.chart.RoundedCornerLinearLayout
+        android:id="@id/data_nested_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sesl_round_and_bgcolor_light"
+        android:layout_below="@id/data_tab_layout_container">
+
+        <com.samsung.android.settings.wifi.mobileap.clients.report.chart.ChartDateRangeSelector
+            android:id="@id/data_date_picker_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
     </com.samsung.android.settings.wifi.mobileap.clients.report.chart.RoundedCornerLinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/data_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/data_nested_scroll_view">
-        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="32.0sp" android:textColor="?android:textColorPrimary" android:id="@id/tab_selected_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 MB" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
-        <TextView android:textSize="13.0sp" android:textColor="?android:textColorSecondary" android:id="@id/tab_selected_average" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Avg 0 MB / day" android:fontFamily="sec-roboto-condensed" />
+
+    <LinearLayout
+        android:id="@id/data_summary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/data_nested_scroll_view">
+
+        <TextView
+            android:id="@id/tab_selected_usage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="32.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:text="0 MB"
+            android:singleLine="true"
+            android:fontFamily="sec-roboto-regular" />
+
+        <TextView
+            android:id="@id/tab_selected_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:text="Avg 0 MB / day"
+            android:fontFamily="sec-roboto-condensed" />
+
     </LinearLayout>
-    <RelativeLayout android:id="@id/tab_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_below="@id/data_summary">
-        <TextView android:textSize="11.0sp" android:textColor="?android:textColorSecondary" android:gravity="end" android:id="@id/textYAxisUnitLabel" android:layout_width="fill_parent" android:layout_height="13.0dip" android:text="(MB)" android:fontFamily="sec-roboto-condensed" android:layout_marginEnd="2.0dip" />
+
+    <RelativeLayout
+        android:id="@id/tab_summary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_below="@id/data_summary">
+
+        <TextView
+            android:id="@id/textYAxisUnitLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="13.0dip"
+            android:textSize="11.0sp"
+            android:textColor="?android:textColorSecondary"
+            android:gravity="end"
+            android:text="(MB)"
+            android:fontFamily="sec-roboto-condensed"
+            android:layout_marginEnd="2.0dip" />
+
     </RelativeLayout>
-    <com.github.mikephil.charting.charts.BarChart android:id="@id/weekly_stackcharthistory" android:layout_width="fill_parent" android:layout_height="275.0dip" android:layout_below="@id/tab_summary" />
-    <com.github.mikephil.charting.charts.BarChart android:id="@id/monthly_stackcharthistory" android:layout_width="fill_parent" android:layout_height="275.0dip" android:layout_below="@id/tab_summary" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@id/weekly_stackcharthistory"
+        android:layout_width="fill_parent"
+        android:layout_height="275.0dip"
+        android:layout_below="@id/tab_summary" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@id/monthly_stackcharthistory"
+        android:layout_width="fill_parent"
+        android:layout_height="275.0dip"
+        android:layout_below="@id/tab_summary" />
+
 </RelativeLayout>

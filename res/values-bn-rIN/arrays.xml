@@ -1,323 +1,921 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="apn_auth_entries">
-        <item>কিছু না</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP অথবা CHAP</item>
+
+    <string-array
+        name="apn_auth_entries">
+
+        <item>
+কিছু না</item>
+
+        <item>
+PAP</item>
+
+        <item>
+CHAP</item>
+
+        <item>
+PAP অথবা CHAP</item>
+
     </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
+
+    <string-array
+        name="battery_labels">
+
+        <item>
+0%</item>
+
+        <item>
+50%</item>
+
+        <item>
+100%</item>
+
     </string-array>
-    <string-array name="bluetooth_cast_timeout_entries">
-        <item>5 মিনিট</item>
-        <item>10 মিনিট</item>
-        <item>30 মিনিট</item>
-        <item>কানেকশন বিচ্ছিন্ন করবেন না</item>
+
+    <string-array
+        name="bluetooth_cast_timeout_entries">
+
+        <item>
+5 মিনিট</item>
+
+        <item>
+10 মিনিট</item>
+
+        <item>
+30 মিনিট</item>
+
+        <item>
+কানেকশন বিচ্ছিন্ন করবেন না</item>
+
     </string-array>
-    <string-array name="bluetooth_max_connected_audio_devices">
-        <item>সিস্টেম ডিফল্ট: %d</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+
+    <string-array
+        name="bluetooth_max_connected_audio_devices">
+
+        <item>
+সিস্টেম ডিফল্ট: %d</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
     </string-array>
-    <string-array name="bluetooth_pbap_property_picture_entries">
-        <item>হ্যাঁ</item>
-        <item>না</item>
+
+    <string-array
+        name="bluetooth_pbap_property_picture_entries">
+
+        <item>
+হ্যাঁ</item>
+
+        <item>
+না</item>
+
     </string-array>
-    <string-array name="bluetooth_sap_activation_entries">
-        <item>ডিফল্ট (কোনও প্রভাব নেই)</item>
-        <item>জোর করে SAP চালু করুন</item>
-        <item>জোর করে SAP বন্ধ করুন</item>
+
+    <string-array
+        name="bluetooth_sap_activation_entries">
+
+        <item>
+ডিফল্ট (কোনও প্রভাব নেই)</item>
+
+        <item>
+জোর করে SAP চালু করুন</item>
+
+        <item>
+জোর করে SAP বন্ধ করুন</item>
+
     </string-array>
-    <string-array name="captioning_edge_type_selector_titles">
-        <item>ডিফল্ট</item>
-        <item>কিছু না</item>
-        <item>বহিঃসীমা</item>
-        <item>ছায়া ছাড়ুন</item>
-        <item>বাড়ানো হয়েছে</item>
-        <item>অস্পষ্ট</item>
+
+    <string-array
+        name="captioning_edge_type_selector_titles">
+
+        <item>
+ডিফল্ট</item>
+
+        <item>
+কিছু না</item>
+
+        <item>
+বহিঃসীমা</item>
+
+        <item>
+ছায়া ছাড়ুন</item>
+
+        <item>
+বাড়ানো হয়েছে</item>
+
+        <item>
+অস্পষ্ট</item>
+
     </string-array>
-    <string-array name="captioning_font_size_selector_titles">
-        <item>অত্যন্ত ছোট</item>
-        <item>ছোট</item>
-        <item>সাধারণ</item>
-        <item>বড়</item>
-        <item>অত্যন্ত বড়</item>
+
+    <string-array
+        name="captioning_font_size_selector_titles">
+
+        <item>
+অত্যন্ত ছোট</item>
+
+        <item>
+ছোট</item>
+
+        <item>
+সাধারণ</item>
+
+        <item>
+বড়</item>
+
+        <item>
+অত্যন্ত বড়</item>
+
     </string-array>
-    <string-array name="captioning_preset_selector_titles">
-        <item>ডিফল্ট</item>
-        <item>কালোতে সাদা</item>
-        <item>সাদাতে কালো</item>
-        <item>কালোতে হলুদ</item>
-        <item>নীলে হলুদ</item>
-        <item>রীতি</item>
+
+    <string-array
+        name="captioning_preset_selector_titles">
+
+        <item>
+ডিফল্ট</item>
+
+        <item>
+কালোতে সাদা</item>
+
+        <item>
+সাদাতে কালো</item>
+
+        <item>
+কালোতে হলুদ</item>
+
+        <item>
+নীলে হলুদ</item>
+
+        <item>
+রীতি</item>
+
     </string-array>
-    <string-array name="captioning_typeface_selector_titles">
-        <item>ডিফল্ট</item>
-        <item>সান্স সেরিফ</item>
-        <item>সান্স সেরিফ কন্ডেন্সড</item>
-        <item>স্যান্স সেরিফ মোনোস্পেস</item>
-        <item>সেরিফ</item>
-        <item>সেরিফ মোনোস্পেস</item>
-        <item>ক্যাজুয়াল</item>
-        <item>টানা-লেখা</item>
-        <item>ছোট হাতের অক্ষর</item>
+
+    <string-array
+        name="captioning_typeface_selector_titles">
+
+        <item>
+ডিফল্ট</item>
+
+        <item>
+সান্স সেরিফ</item>
+
+        <item>
+সান্স সেরিফ কন্ডেন্সড</item>
+
+        <item>
+স্যান্স সেরিফ মোনোস্পেস</item>
+
+        <item>
+সেরিফ</item>
+
+        <item>
+সেরিফ মোনোস্পেস</item>
+
+        <item>
+ক্যাজুয়াল</item>
+
+        <item>
+টানা-লেখা</item>
+
+        <item>
+ছোট হাতের অক্ষর</item>
+
     </string-array>
-    <string-array name="data_usage_billing_cycle_summary">
-        <item>প্রতি মাসের 1ম দিন</item>
-        <item>প্রতি মাসের 2য় দিন</item>
-        <item>প্রতি মাসের 3য় দিন</item>
-        <item>প্রতি মাসের 4র্থ দিন</item>
-        <item>প্রতি মাসের 5ম দিন</item>
-        <item>প্রতি মাসের 6ষ্ঠ দিন</item>
-        <item>প্রতি মাসের 7ম দিন</item>
-        <item>প্রতি মাসের 8ম দিন</item>
-        <item>প্রতি মাসের 9ম দিন</item>
-        <item>প্রতি মাসের 10ম দিন</item>
-        <item>প্রতি মাসের 11তম দিন</item>
-        <item>প্রতি মাসের 12তম দিন</item>
-        <item>প্রতি মাসের 13তম দিন</item>
-        <item>প্রতি মাসের 14তম দিন</item>
-        <item>প্রতি মাসের 15তম দিন</item>
-        <item>প্রতি মাসের 16তম দিন</item>
-        <item>প্রতি মাসের 17তম দিন</item>
-        <item>প্রতি মাসের 18তম দিন</item>
-        <item>প্রতি মাসের 19তম দিন</item>
-        <item>প্রতি মাসের 20তম দিন</item>
-        <item>প্রতি মাসের 21তম দিন</item>
-        <item>প্রতি মাসের 22তম দিন</item>
-        <item>প্রতি মাসের 23তম দিন</item>
-        <item>প্রতি মাসের 24তম দিন</item>
-        <item>প্রতি মাসের 25তম দিন</item>
-        <item>প্রতি মাসের 26তম দিন</item>
-        <item>প্রতি মাসের 27তম দিন</item>
-        <item>প্রতি মাসের 28তম দিন</item>
-        <item>প্রতি মাসের 29তম দিন</item>
-        <item>প্রতি মাসের 30তম দিন</item>
-        <item>প্রতি মাসের 31তম দিন</item>
+
+    <string-array
+        name="data_usage_billing_cycle_summary">
+
+        <item>
+প্রতি মাসের 1ম দিন</item>
+
+        <item>
+প্রতি মাসের 2য় দিন</item>
+
+        <item>
+প্রতি মাসের 3য় দিন</item>
+
+        <item>
+প্রতি মাসের 4র্থ দিন</item>
+
+        <item>
+প্রতি মাসের 5ম দিন</item>
+
+        <item>
+প্রতি মাসের 6ষ্ঠ দিন</item>
+
+        <item>
+প্রতি মাসের 7ম দিন</item>
+
+        <item>
+প্রতি মাসের 8ম দিন</item>
+
+        <item>
+প্রতি মাসের 9ম দিন</item>
+
+        <item>
+প্রতি মাসের 10ম দিন</item>
+
+        <item>
+প্রতি মাসের 11তম দিন</item>
+
+        <item>
+প্রতি মাসের 12তম দিন</item>
+
+        <item>
+প্রতি মাসের 13তম দিন</item>
+
+        <item>
+প্রতি মাসের 14তম দিন</item>
+
+        <item>
+প্রতি মাসের 15তম দিন</item>
+
+        <item>
+প্রতি মাসের 16তম দিন</item>
+
+        <item>
+প্রতি মাসের 17তম দিন</item>
+
+        <item>
+প্রতি মাসের 18তম দিন</item>
+
+        <item>
+প্রতি মাসের 19তম দিন</item>
+
+        <item>
+প্রতি মাসের 20তম দিন</item>
+
+        <item>
+প্রতি মাসের 21তম দিন</item>
+
+        <item>
+প্রতি মাসের 22তম দিন</item>
+
+        <item>
+প্রতি মাসের 23তম দিন</item>
+
+        <item>
+প্রতি মাসের 24তম দিন</item>
+
+        <item>
+প্রতি মাসের 25তম দিন</item>
+
+        <item>
+প্রতি মাসের 26তম দিন</item>
+
+        <item>
+প্রতি মাসের 27তম দিন</item>
+
+        <item>
+প্রতি মাসের 28তম দিন</item>
+
+        <item>
+প্রতি মাসের 29তম দিন</item>
+
+        <item>
+প্রতি মাসের 30তম দিন</item>
+
+        <item>
+প্রতি মাসের 31তম দিন</item>
+
     </string-array>
-    <string-array name="dex_timeout_entries">
-        <item>15 সেকেন্ড</item>
-        <item>30 সেকেন্ড</item>
-        <item>1 মিনিট</item>
-        <item>2 মিনিট</item>
-        <item>5 মিনিট</item>
-        <item>10 মিনিট</item>
-        <item>20 মিনিট</item>
-        <item>30 মিনিট</item>
-        <item>60 মিনিট</item>
+
+    <string-array
+        name="dex_timeout_entries">
+
+        <item>
+15 সেকেন্ড</item>
+
+        <item>
+30 সেকেন্ড</item>
+
+        <item>
+1 মিনিট</item>
+
+        <item>
+2 মিনিট</item>
+
+        <item>
+5 মিনিট</item>
+
+        <item>
+10 মিনিট</item>
+
+        <item>
+20 মিনিট</item>
+
+        <item>
+30 মিনিট</item>
+
+        <item>
+60 মিনিট</item>
+
     </string-array>
-    <string-array name="gpuwatch_rendering_api_entries">
-        <item>Vulkan</item>
-        <item>OpenGL</item>
+
+    <string-array
+        name="gpuwatch_rendering_api_entries">
+
+        <item>
+Vulkan</item>
+
+        <item>
+OpenGL</item>
+
     </string-array>
-    <string-array name="gpuwatch_widget_positions">
-        <item>উপরে - বামদিকে</item>
-        <item>উপরে - কেন্দ্রে আনুভূমিক</item>
-        <item>উপরে - ডানদিকে</item>
-        <item>কেন্দ্রে উল্লম্বভাবে - বামদিকে</item>
-        <item>কেন্দ্রে উল্লম্বভাবে - ডানদিকে</item>
-        <item>নীচে - বামদিকে</item>
-        <item>নীচে - কেন্দ্রে আনুভূমিক</item>
-        <item>নীচে - ডানদিকে</item>
+
+    <string-array
+        name="gpuwatch_widget_positions">
+
+        <item>
+উপরে - বামদিকে</item>
+
+        <item>
+উপরে - কেন্দ্রে আনুভূমিক</item>
+
+        <item>
+উপরে - ডানদিকে</item>
+
+        <item>
+কেন্দ্রে উল্লম্বভাবে - বামদিকে</item>
+
+        <item>
+কেন্দ্রে উল্লম্বভাবে - ডানদিকে</item>
+
+        <item>
+নীচে - বামদিকে</item>
+
+        <item>
+নীচে - কেন্দ্রে আনুভূমিক</item>
+
+        <item>
+নীচে - ডানদিকে</item>
+
     </string-array>
-    <string-array name="key_backlight_entries">
-        <item>সর্বদা বন্ধ</item>
-        <item>1 সেকেন্ড</item>
-        <item>3 সেকেন্ড</item>
-        <item>5 সেকেন্ড</item>
-        <item>10 সেকেন্ড</item>
-        <item>15 সেকেন্ড</item>
+
+    <string-array
+        name="key_backlight_entries">
+
+        <item>
+সর্বদা বন্ধ</item>
+
+        <item>
+1 সেকেন্ড</item>
+
+        <item>
+3 সেকেন্ড</item>
+
+        <item>
+5 সেকেন্ড</item>
+
+        <item>
+10 সেকেন্ড</item>
+
+        <item>
+15 সেকেন্ড</item>
+
     </string-array>
-    <string-array name="lock_after_timeout_entries">
-        <item>এখনই</item>
-        <item>5 সেকেন্ড</item>
-        <item>15 সেকেন্ড</item>
-        <item>30 সেকেন্ড</item>
-        <item>1 মিনিট</item>
-        <item>2 মিনিট</item>
-        <item>5 মিনিট</item>
-        <item>10 মিনিট</item>
-        <item>30 মিনিট</item>
+
+    <string-array
+        name="lock_after_timeout_entries">
+
+        <item>
+এখনই</item>
+
+        <item>
+5 সেকেন্ড</item>
+
+        <item>
+15 সেকেন্ড</item>
+
+        <item>
+30 সেকেন্ড</item>
+
+        <item>
+1 মিনিট</item>
+
+        <item>
+2 মিনিট</item>
+
+        <item>
+5 মিনিট</item>
+
+        <item>
+10 মিনিট</item>
+
+        <item>
+30 মিনিট</item>
+
     </string-array>
-    <string-array name="mouse_pointer_color_type">
-        <item>সাদা</item>
-        <item>কালো</item>
-        <item>টারকোয়েজ</item>
-        <item>হলুদ</item>
-        <item>হালকা লাল</item>
-        <item>হালকা বেগুনী</item>
-        <item>হালকা নীল</item>
+
+    <string-array
+        name="mouse_pointer_color_type">
+
+        <item>
+সাদা</item>
+
+        <item>
+কালো</item>
+
+        <item>
+টারকোয়েজ</item>
+
+        <item>
+হলুদ</item>
+
+        <item>
+হালকা লাল</item>
+
+        <item>
+হালকা বেগুনী</item>
+
+        <item>
+হালকা নীল</item>
+
     </string-array>
-    <string-array name="mvno_type_entries">
-        <item>কিছু না</item>
-        <item>SPN</item>
-        <item>IMSI</item>
-        <item>GID</item>
+
+    <string-array
+        name="mvno_type_entries">
+
+        <item>
+কিছু না</item>
+
+        <item>
+SPN</item>
+
+        <item>
+IMSI</item>
+
+        <item>
+GID</item>
+
     </string-array>
-    <string-array name="num_allowed_devices">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
+
+    <string-array
+        name="num_allowed_devices">
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
     </string-array>
-    <string-array name="ram_states">
-        <item>সাধারণ</item>
-        <item>মাঝারি</item>
-        <item>কম</item>
-        <item>জটিল</item>
-        <item>\?</item>
+
+    <string-array
+        name="ram_states">
+
+        <item>
+সাধারণ</item>
+
+        <item>
+মাঝারি</item>
+
+        <item>
+কম</item>
+
+        <item>
+জটিল</item>
+
+        <item>
+\?</item>
+
     </string-array>
-    <string-array name="screen_timeout_entries">
-        <item>15 সেকেন্ড</item>
-        <item>30 সেকেন্ড</item>
-        <item>1 মিনিট</item>
-        <item>2 মিনিট</item>
-        <item>5 মিনিট</item>
-        <item>10 মিনিট</item>
-        <item>30 মিনিট</item>
+
+    <string-array
+        name="screen_timeout_entries">
+
+        <item>
+15 সেকেন্ড</item>
+
+        <item>
+30 সেকেন্ড</item>
+
+        <item>
+1 মিনিট</item>
+
+        <item>
+2 মিনিট</item>
+
+        <item>
+5 মিনিট</item>
+
+        <item>
+10 মিনিট</item>
+
+        <item>
+30 মিনিট</item>
+
     </string-array>
-    <string-array name="sec_bt_stack_log_level_entries">
-        <item>শব্দবহুল</item>
-        <item>ডিবাগ</item>
-        <item>তথ্য</item>
-        <item>সতর্ক</item>
-        <item>ত্রুটি</item>
+
+    <string-array
+        name="sec_bt_stack_log_level_entries">
+
+        <item>
+শব্দবহুল</item>
+
+        <item>
+ডিবাগ</item>
+
+        <item>
+তথ্য</item>
+
+        <item>
+সতর্ক</item>
+
+        <item>
+ত্রুটি</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_phone">
-        <item>আপনার ফোন হারিয়ে গেলে এটি খুঁজুন।</item>
-        <item>আপনার ডিভাইসগুলি জুড়ে অ্যাপ ও সেটিংস সিঙ্ক করুন।</item>
-        <item>বন্ধু, পরিবার ও অন্যান্য ডিভাইসের সাথে ফাইলগুলি শেয়ার করুন।</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_phone">
+
+        <item>
+আপনার ফোন হারিয়ে গেলে এটি খুঁজুন।</item>
+
+        <item>
+আপনার ডিভাইসগুলি জুড়ে অ্যাপ ও সেটিংস সিঙ্ক করুন।</item>
+
+        <item>
+বন্ধু, পরিবার ও অন্যান্য ডিভাইসের সাথে ফাইলগুলি শেয়ার করুন।</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_tablet">
-        <item>আপনার ট্যাবলেট হারিয়ে গেলে এটি খুঁজুন।</item>
-        <item>আপনার ফোন এবং ট্যাবলেটের মধ্যে কপি ও পেস্ট করুন।</item>
-        <item>ডিভাইসগুলির মধ্যে স্বয়ংক্রিয়ভাবে আপনার Buds স্যুইচ করুন।</item>
-        <item>আপনার ট্যাবলেটে কল ও টেক্সটের উত্তর দিন।</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_tablet">
+
+        <item>
+আপনার ট্যাবলেট হারিয়ে গেলে এটি খুঁজুন।</item>
+
+        <item>
+আপনার ফোন এবং ট্যাবলেটের মধ্যে কপি ও পেস্ট করুন।</item>
+
+        <item>
+ডিভাইসগুলির মধ্যে স্বয়ংক্রিয়ভাবে আপনার Buds স্যুইচ করুন।</item>
+
+        <item>
+আপনার ট্যাবলেটে কল ও টেক্সটের উত্তর দিন।</item>
+
     </string-array>
-    <string-array name="security_settings_premium_sms_values">
-        <item>সর্বদা জিজ্ঞাসা করুন</item>
-        <item>কখনও অনুমতি দেবেন না</item>
-        <item>সর্বদা অনুমতি</item>
+
+    <string-array
+        name="security_settings_premium_sms_values">
+
+        <item>
+সর্বদা জিজ্ঞাসা করুন</item>
+
+        <item>
+কখনও অনুমতি দেবেন না</item>
+
+        <item>
+সর্বদা অনুমতি</item>
+
     </string-array>
-    <string-array name="vpn_proxy_settings">
-        <item>কিছু না</item>
-        <item>ম্যানুয়াল</item>
+
+    <string-array
+        name="vpn_proxy_settings">
+
+        <item>
+কিছু না</item>
+
+        <item>
+ম্যানুয়াল</item>
+
     </string-array>
-    <string-array name="vpn_states">
-        <item>সংযোগ বিচ্ছিন্ন</item>
-        <item>আরম্ভ হচ্ছে….</item>
-        <item>সংযোগ হচ্ছে…</item>
-        <item>সংযুক্ত</item>
-        <item>সময়সীমা সমাপ্ত</item>
-        <item>অসফল</item>
+
+    <string-array
+        name="vpn_states">
+
+        <item>
+সংযোগ বিচ্ছিন্ন</item>
+
+        <item>
+আরম্ভ হচ্ছে….</item>
+
+        <item>
+সংযোগ হচ্ছে…</item>
+
+        <item>
+সংযুক্ত</item>
+
+        <item>
+সময়সীমা সমাপ্ত</item>
+
+        <item>
+অসফল</item>
+
     </string-array>
-    <string-array name="wifi_ap_broadcast_channel_entries">
-        <item>স্বতঃ</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
+
+    <string-array
+        name="wifi_ap_broadcast_channel_entries">
+
+        <item>
+স্বতঃ</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
+        <item>
+11</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_phone_entries">
-        <item>র‌্যান্ডম করা MAC</item>
-        <item>ফোন MAC</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_phone_entries">
+
+        <item>
+র‌্যান্ডম করা MAC</item>
+
+        <item>
+ফোন MAC</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_tablet_entries">
-        <item>র‌্যান্ডম করা MAC</item>
-        <item>ট্যাবলেট MAC</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_tablet_entries">
+
+        <item>
+র‌্যান্ডম করা MAC</item>
+
+        <item>
+ট্যাবলেট MAC</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_security_type_entries">
-        <item>খোলা</item>
-        <item>Enhanced Open</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_owe_security_type_entries">
+
+        <item>
+খোলা</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
-        <item>খোলা</item>
-        <item>Enhanced Open</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_owe_wpa3_security_type_entries">
+
+        <item>
+খোলা</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_ap_security_type_entries">
-        <item>খোলা</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_security_type_entries">
+
+        <item>
+খোলা</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
-        <item>সময় সমাপ্তি কখনও নয়</item>
-        <item>5 মিনিট</item>
-        <item>10 মিনিট</item>
-        <item>20 মিনিট</item>
-        <item>30 মিনিট</item>
-        <item>60 মিনিট</item>
+
+    <string-array
+        name="wifi_ap_turn_off_hotspot_timer_entries">
+
+        <item>
+সময় সমাপ্তি কখনও নয়</item>
+
+        <item>
+5 মিনিট</item>
+
+        <item>
+10 মিনিট</item>
+
+        <item>
+20 মিনিট</item>
+
+        <item>
+30 মিনিট</item>
+
+        <item>
+60 মিনিট</item>
+
     </string-array>
-    <string-array name="wifi_ap_wifi_sharing">
-        <item>Wi-Fi শেয়ারিং চালু করুন</item>
-        <item>Wi-Fi শেয়ারিং বন্ধ করুন</item>
+
+    <string-array
+        name="wifi_ap_wifi_sharing">
+
+        <item>
+Wi-Fi শেয়ারিং চালু করুন</item>
+
+        <item>
+Wi-Fi শেয়ারিং বন্ধ করুন</item>
+
     </string-array>
-    <string-array name="wifi_ap_wpa3_security_type_entries">
-        <item>খোলা</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_wpa3_security_type_entries">
+
+        <item>
+খোলা</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_connect_entries">
-        <item>স্বয়ংক্রিয়</item>
-        <item>ম্যানুয়াল</item>
-        <item>সর্বদা জিজ্ঞাসা করুন</item>
+
+    <string-array
+        name="wifi_connect_entries">
+
+        <item>
+স্বয়ংক্রিয়</item>
+
+        <item>
+ম্যানুয়াল</item>
+
+        <item>
+সর্বদা জিজ্ঞাসা করুন</item>
+
     </string-array>
-    <string-array name="wifi_ip_settings">
-        <item>DHCP</item>
-        <item>নিশ্চল</item>
+
+    <string-array
+        name="wifi_ip_settings">
+
+        <item>
+DHCP</item>
+
+        <item>
+নিশ্চল</item>
+
     </string-array>
-    <string-array name="wifi_metered_entries">
-        <item>স্বয়ংক্রিয়ভাবে শনাক্ত করুন</item>
-        <item>মিটার হয়েছে হিসাবে বিবেচনা করুন</item>
-        <item>মিটার করা হয়নি হিসাবে বিবেচনা করুন</item>
+
+    <string-array
+        name="wifi_metered_entries">
+
+        <item>
+স্বয়ংক্রিয়ভাবে শনাক্ত করুন</item>
+
+        <item>
+মিটার হয়েছে হিসাবে বিবেচনা করুন</item>
+
+        <item>
+মিটার করা হয়নি হিসাবে বিবেচনা করুন</item>
+
     </string-array>
-    <string-array name="wifi_p2p_status">
-        <item>সংযুক্ত</item>
-        <item>আমন্ত্রিত।</item>
-        <item>কানেকশন ব্যর্থ</item>
-        <item>কানেক্ট করতে এখানে ট্যাপ করুন।</item>
-        <item>সীমার বাইরে।</item>
-        <item>অন্য একটি ডিভাইসের সাথে সংযুক্ত</item>
+
+    <string-array
+        name="wifi_p2p_status">
+
+        <item>
+সংযুক্ত</item>
+
+        <item>
+আমন্ত্রিত।</item>
+
+        <item>
+কানেকশন ব্যর্থ</item>
+
+        <item>
+কানেক্ট করতে এখানে ট্যাপ করুন।</item>
+
+        <item>
+সীমার বাইরে।</item>
+
+        <item>
+অন্য একটি ডিভাইসের সাথে সংযুক্ত</item>
+
     </string-array>
-    <string-array name="wifi_proxy_settings">
-        <item>কিছু না</item>
-        <item>ম্যানুয়াল</item>
-        <item>স্বতঃ-কনফিগার</item>
+
+    <string-array
+        name="wifi_proxy_settings">
+
+        <item>
+কিছু না</item>
+
+        <item>
+ম্যানুয়াল</item>
+
+        <item>
+স্বতঃ-কনফিগার</item>
+
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>স্ক্যান হচ্ছে…</item>
-        <item>সংযোগ হচ্ছে…</item>
-        <item>প্রমাণীকরণ চলছে…</item>
-        <item>IP ঠিকানা প্রাপ্ত করা হচ্ছে…</item>
-        <item>সংযুক্ত</item>
-        <item>স্থগিত হয়েছে</item>
-        <item>সংযোগ বিচ্ছিন্ন হচ্ছে….</item>
-        <item>সংযোগ বিচ্ছিন্ন</item>
-        <item>অসফল</item>
-        <item>ব্লক করা হয়েছে</item>
-        <item>আপনার ইন্টারনেট কানেকশনের গুণমান পরীক্ষা করা হচ্ছে…</item>
+
+    <string-array
+        name="wifi_status">
+
+        <item />
+
+        <item>
+স্ক্যান হচ্ছে…</item>
+
+        <item>
+সংযোগ হচ্ছে…</item>
+
+        <item>
+প্রমাণীকরণ চলছে…</item>
+
+        <item>
+IP ঠিকানা প্রাপ্ত করা হচ্ছে…</item>
+
+        <item>
+সংযুক্ত</item>
+
+        <item>
+স্থগিত হয়েছে</item>
+
+        <item>
+সংযোগ বিচ্ছিন্ন হচ্ছে….</item>
+
+        <item>
+সংযোগ বিচ্ছিন্ন</item>
+
+        <item>
+অসফল</item>
+
+        <item>
+ব্লক করা হয়েছে</item>
+
+        <item>
+আপনার ইন্টারনেট কানেকশনের গুণমান পরীক্ষা করা হচ্ছে…</item>
+
     </string-array>
+
 </resources>

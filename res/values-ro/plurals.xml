@@ -1,703 +1,2516 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">acum %d de zile</item>
-        <item quantity="one">acum %d zi</item>
-        <item quantity="few">acum %d zile</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">acum %d de min.</item>
-        <item quantity="one">acum %d min.</item>
-        <item quantity="few">acum %d min.</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">acum %d de ani</item>
-        <item quantity="one">acum %d an</item>
-        <item quantity="few">acum %d ani</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d minute</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minut</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d secunde</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d secundă</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d secunde</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d memorii cache de aplicații (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d memorie cache de aplicație (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$d memorii cache de aplicații (%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Arhivați %d aplicații?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Arhivați %d aplicație?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Arhivați %d aplicații?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Arhivare %1$d aplicații (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Arhivare %1$d aplicație (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Arhivare %1$d aplicații (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Goliți memoria cache pentru %d aplicații?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Goliți memoria cache pentru %d aplicație?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Goliți memoria cache pentru %d aplicații?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Goliți %1$d cache-uri (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Goliți %1$d cache (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Goliți %1$d cache-uri (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">S-au selectat %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">S-a selectat %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">S-au selectat %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Eliberați %1$s de spațiu arhivând %2$d aplicații neutilizate. Datele personale și setările vor fi salvate.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Eliberați %1$s de spațiu arhivând %2$d aplicație neutilizată. Datele personale și setările vor fi salvate.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Eliberați %1$s de spațiu arhivând %2$d aplicații neutilizate. Datele personale și setările vor fi salvate.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Dezinstalați %d aplicații?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dezinstalați %d aplicație?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Dezinstalați %d aplicații?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Dezinst. %1$d apl. (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dezinst. %1$d apl. (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Dezinst. %1$d apl. (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d aplicații neutilizate (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d aplicație neutilizată (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$d aplicații neutilizate (%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Se partajează conexiunea la internet cu %d dispozitive.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Se partajează conexiunea la internet cu %d dispozitiv.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Se partajează conexiunea la internet cu %d dispozitive.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d aplicații</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d zile</item>
-        <item quantity="one">1 zi</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d ore</item>
-        <item quantity="one">1 oră</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d minute</item>
-        <item quantity="one">1 minut</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d secunde</item>
-        <item quantity="one">1 secundă</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d săptămâni</item>
-        <item quantity="one">1 săptămână</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d aplicații</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d ore</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d oră</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d ore</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d minute</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minut</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d secunde</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d secundă</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d secunde</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Dacă ștergeți aceste locuri, datele biometrice și întârzierea de securitate vor fi întotdeauna solicitate atunci când modificați setările sensibile.</item>
-        <item quantity="one">Dacă ștergeți acest loc, datele biometrice și întârzierea de securitate vor fi întotdeauna solicitate atunci când modificați setările sensibile.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Ștergeți %d locuri?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ștergeți %d loc?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Ștergeți %d locuri?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d selectate</item>
-        <item quantity="one">1 selectat</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s și încă %2$d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s și încă %2$d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s și încă %2$d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d de notificări noi</item>
-        <item quantity="one">%d notificare nouă</item>
-        <item quantity="few">%d notificări noi</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Nu s-a utilizat memoria în ultimele %d ore</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nu s-a utilizat memoria în ultima %d oră</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nu s-a utilizat memoria în ultimele %d ore</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d notificări</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d notificare</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d notificări</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Vi se reamintește la fiecare %d minute despre notificările privind aplicațiile selectate</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vi se reamintește la fiecare %d minut despre notificările privind aplicațiile selectate</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vi se reamintește la fiecare %d minute despre notificările privind aplicațiile selectate</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Până la %d aplicații</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Până la %d aplicație</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Până la %d aplicații</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s și încă %2$d aplicații utilizează chei principale și introduc automat parole și alte informații.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s și încă %2$d aplicație utilizează chei principale și introduc automat parole și alte informații.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s și încă %2$d aplicații utilizează chei principale și introduc automat parole și alte informații.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%1$s permisiune a fost utilizată de %2$d aplicații</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s permisiune a fost utilizată de %2$d aplicație</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s permisiune a fost utilizată de %2$d aplicații</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">Sunt folosite %d funcții de accesibilitate</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Este folosită %d funcție de accesibilitate</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Sunt folosite %d funcții de accesibilitate</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d aplicații</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Eliminați %d limbi?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Eliminați %d limbă?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Eliminați %d limbi?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d aplicații au acces complet la telefon</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație are acces complet la telefon</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații au acces complet la telefon</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Telefonul dvs. va fi oprit automat peste %d secunde. Pentru a menține telefonul pornit de această dată, atingeți Anulare.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefonul dvs. va fi oprit automat peste %d secundă. Pentru a menține telefonul pornit de această dată, atingeți Anulare.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Telefonul dvs. va fi oprit automat peste %d secunde. Pentru a menține telefonul pornit de această dată, atingeți Anulare.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Tableta dvs. va fi oprită automat peste %d secunde. Pentru a menține tableta pornită de această dată, atingeți Anulare.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tableta dvs. va fi oprită automat peste %d secundă. Pentru a menține tableta pornită de această dată, atingeți Anulare.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Tableta dvs. va fi oprită automat peste %d secunde. Pentru a menține tableta pornită de această dată, atingeți Anulare.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">La fiecare %d ore</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">În fiecare oră (%d)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">La fiecare %d ore</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Parola trebuie să conțină minimum %d caractere, dintre care cel puțin 1 literă.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Parola trebuie să conțină minimum %d caracter, dintre care cel puțin 1 literă.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Parola trebuie să conțină minimum %d caractere, dintre care cel puțin 1 literă.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">Codul PIN trebuie să conțină cel puțin %d cifre.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Codul PIN trebuie să conțină cel puțin %d cifră.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Codul PIN trebuie să conțină cel puțin %d cifre.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Încercați din nou peste 1 oră și %d minute</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Încercați din nou peste 1 oră și %d minut</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Încercați din nou peste 1 oră și %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Încercați din nou peste %d ore</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Încercați din nou peste %d oră</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Încercați din nou peste %d ore</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Încercați din nou peste %d ore și 1 minut</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Încercați din nou peste %d oră și 1 minut</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Încercați din nou peste %d ore și 1 minut</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Încercați din nou peste %d minute</item>
-        <item quantity="one">Încercați din nou peste %d minut</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Încercați din nou peste %d secunde</item>
-        <item quantity="one">Încercați din nou peste %d secundă</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Nu puteți porni mai mult de %d servicii suplimentare.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nu puteți porni mai mult de %d serviciu suplimentar.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nu puteți porni mai mult de %d servicii suplimentare.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d contacte permise</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d contact permis</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d contacte permise</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%d amprente adăugate</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d amprentă adăugată</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d amprente adăugate</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s și încă %3$d aplicații</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s și încă %3$d aplicație</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s, %2$s și încă %3$d aplicații</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Parolă greșită. %d încercări rămase.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Parolă greșită. %d încercare rămasă.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Parolă greșită. %d încercări rămase.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Model greșit. %d încercări rămase.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Model greșit. %d încercare rămasă.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Model greșit. %d încercări rămase.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">PIN greșit. %d încercări rămase.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Cod PIN greșit. %d încercare rămasă.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">PIN greșit. %d încercări rămase.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d litere.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin %d literă.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Parola trebuie să conțină cel puțin %d litere.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d litere mici.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin o literă mică.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d numere sau simboluri.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin 1 număr sau simbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d numere.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin un număr.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d simboluri.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin 1 simbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Parola trebuie să conțină cel puțin %d majuscule.</item>
-        <item quantity="one">Parola trebuie să conțină cel puțin o literă mare.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">Încă %d sugestii</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Încă %d sugestie</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Încă %d sugestii</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aplicații active</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație activă</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații active</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Ștergeți %d pachete lingvistice?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ștergeți %d pachet lingvistic?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Ștergeți %d pachete lingvistice?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d voci</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d voce</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d voci</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d permisiuni suplimentare</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d permisiune suplimentară</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d permisiuni suplimentare</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Sunteți la %d atingeri distanță de a fi dezvoltator.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Sunteți la %d atingere distanță de a fi un dezvoltator.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Sunteți la %d atingeri distanță de a fi dezvoltator.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">S-au selectat %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">S-a selectat %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">S-au selectat %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%d aplicații malware detectate</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație malware detectată</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații malware detectate</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">%d aplicații malware au fost identificate pe telefonul dvs. Dezinstalați aceste aplicații pentru a menține telefonul în siguranță.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație malware a fost identificată pe telefonul dvs. Dezinstalați această aplicație pentru a menține telefonul în siguranță.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații malware au fost identificate pe telefonul dvs. Dezinstalați aceste aplicații pentru a menține telefonul în siguranță.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">%d aplicații malware au fost identificate pe tableta dvs. Dezinstalați această aplicație pentru a menține tableta în siguranță.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplicație malware a fost identificată pe tableta dvs. Dezinstalați această aplicație pentru a menține tableta în siguranță.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplicații malware au fost identificate pe tableta dvs. Dezinstalați această aplicație pentru a menține tableta în siguranță.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d sugestii</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sugestie</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d sugestii</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d avertismente</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d avertisment</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d avertismente</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Durată somn: %d ore</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Durată somn: %d oră</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Durată somn: %d ore</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Durată somn: %d minute</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Durată somn: %d minut</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Durată somn: %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Faceți backup unui număr nelimitat de date în %1$s pentru până la %2$d zile sau restabiliți datele pentru care ați făcut backup.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Faceți backup unui număr nelimitat de date în %1$s pentru până la %2$d zi sau restabiliți datele pentru care ați făcut backup.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Faceți backup unui număr nelimitat de date în %1$s pentru până la %2$d zile sau restabiliți datele pentru care ați făcut backup.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Acest test se va reseta peste %d secunde.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Acest test se va reseta peste %d secundă.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Acest test se va reseta peste %d secunde.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d dispozitive conectate</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dispozitiv conectat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d dispozitive conectate</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Transformați-vă telefonul într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi de pe telefon pentru a accesa internetul.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Transformați-vă telefonul într-un punct de acces Wi-Fi. Până la %d dispozitiv va putea să utilizeze datele mobile sau conexiunea Wi-Fi de pe telefon pentru a accesa internetul.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Transformați-vă telefonul într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi de pe telefon pentru a accesa internetul.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Transformați-vă telefonul într-un punct de acces Wi-Fi. Datele mobile ale telefonului vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Transformați-vă telefonul într-un punct de acces Wi-Fi. Datele mobile ale telefonului vor putea fi utilizate de încă până la %d dispozitiv pentru a accesa internetul.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Transformați-vă telefonul într-un punct de acces Wi-Fi. Datele mobile ale telefonului vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Transformați-vă tableta într-un punct de acces Wi-Fi. Datele mobile ale tabletei vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Transformați-vă tableta într-un punct de acces Wi-Fi. Datele mobile ale tabletei vor putea fi utilizate de până la încă %d dispozitiv pentru a accesa internetul.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Transformați-vă tableta într-un punct de acces Wi-Fi. Datele mobile ale tabletei vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Transformați tableta într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi a tabletei pentru a accesa internetul.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Transformați tableta într-un punct de acces Wi-Fi. Până la %d dispozitiv va putea să utilizeze datele mobile sau conexiunea Wi-Fi a tabletei pentru a accesa internetul.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Transformați tableta într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi a tabletei pentru a accesa internetul.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d membri</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d membru</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d membri</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Ștergeți %d rețele?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ștergeți %d rețea?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Ștergeți %d rețele?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">S-au selectat %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">S-a selectat %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">S-au selectat %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">A existat %d încercare de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">A existat %d încercare de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d ore</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d oră</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d ore</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d minute</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minut</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+acum %d de zile</item>
+
+        <item
+            quantity="one">
+acum %d zi</item>
+
+        <item
+            quantity="few">
+acum %d zile</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+acum %d de min.</item>
+
+        <item
+            quantity="one">
+acum %d min.</item>
+
+        <item
+            quantity="few">
+acum %d min.</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+acum %d de ani</item>
+
+        <item
+            quantity="one">
+acum %d an</item>
+
+        <item
+            quantity="few">
+acum %d ani</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d minute</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minut</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d secunde</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d secundă</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d secunde</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d memorii cache de aplicații (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d memorie cache de aplicație (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$d memorii cache de aplicații (%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Arhivați %d aplicații?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Arhivați %d aplicație?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Arhivați %d aplicații?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Arhivare %1$d aplicații (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Arhivare %1$d aplicație (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Arhivare %1$d aplicații (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Goliți memoria cache pentru %d aplicații?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Goliți memoria cache pentru %d aplicație?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Goliți memoria cache pentru %d aplicații?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Goliți %1$d cache-uri (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Goliți %1$d cache (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Goliți %1$d cache-uri (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+S-au selectat %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+S-a selectat %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+S-au selectat %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Eliberați %1$s de spațiu arhivând %2$d aplicații neutilizate. Datele personale și setările vor fi salvate.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Eliberați %1$s de spațiu arhivând %2$d aplicație neutilizată. Datele personale și setările vor fi salvate.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Eliberați %1$s de spațiu arhivând %2$d aplicații neutilizate. Datele personale și setările vor fi salvate.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Dezinstalați %d aplicații?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dezinstalați %d aplicație?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Dezinstalați %d aplicații?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Dezinst. %1$d apl. (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dezinst. %1$d apl. (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Dezinst. %1$d apl. (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d aplicații neutilizate (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d aplicație neutilizată (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$d aplicații neutilizate (%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Se partajează conexiunea la internet cu %d dispozitive.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Se partajează conexiunea la internet cu %d dispozitiv.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Se partajează conexiunea la internet cu %d dispozitive.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d aplicații</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d zile</item>
+
+        <item
+            quantity="one">
+1 zi</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d ore</item>
+
+        <item
+            quantity="one">
+1 oră</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d minute</item>
+
+        <item
+            quantity="one">
+1 minut</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d secunde</item>
+
+        <item
+            quantity="one">
+1 secundă</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d săptămâni</item>
+
+        <item
+            quantity="one">
+1 săptămână</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d aplicații</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d ore</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d oră</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d ore</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d minute</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minut</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d secunde</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d secundă</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d secunde</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Dacă ștergeți aceste locuri, datele biometrice și întârzierea de securitate vor fi întotdeauna solicitate atunci când modificați setările sensibile.</item>
+
+        <item
+            quantity="one">
+Dacă ștergeți acest loc, datele biometrice și întârzierea de securitate vor fi întotdeauna solicitate atunci când modificați setările sensibile.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Ștergeți %d locuri?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ștergeți %d loc?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Ștergeți %d locuri?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d selectate</item>
+
+        <item
+            quantity="one">
+1 selectat</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s și încă %2$d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s și încă %2$d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s și încă %2$d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Nu se pot introduce mai mult de %d caractere.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nu se poate introduce mai mult de %d caracter.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nu se pot introduce mai mult de %d caractere.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d de notificări noi</item>
+
+        <item
+            quantity="one">
+%d notificare nouă</item>
+
+        <item
+            quantity="few">
+%d notificări noi</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Nu s-a utilizat memoria în ultimele %d ore</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nu s-a utilizat memoria în ultima %d oră</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nu s-a utilizat memoria în ultimele %d ore</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d notificări</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d notificare</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d notificări</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Vi se reamintește la fiecare %d minute despre notificările privind aplicațiile selectate</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vi se reamintește la fiecare %d minut despre notificările privind aplicațiile selectate</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vi se reamintește la fiecare %d minute despre notificările privind aplicațiile selectate</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Până la %d aplicații</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Până la %d aplicație</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Până la %d aplicații</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s și încă %2$d aplicații utilizează chei principale și introduc automat parole și alte informații.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s și încă %2$d aplicație utilizează chei principale și introduc automat parole și alte informații.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s și încă %2$d aplicații utilizează chei principale și introduc automat parole și alte informații.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%1$s permisiune a fost utilizată de %2$d aplicații</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s permisiune a fost utilizată de %2$d aplicație</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s permisiune a fost utilizată de %2$d aplicații</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+Sunt folosite %d funcții de accesibilitate</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Este folosită %d funcție de accesibilitate</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Sunt folosite %d funcții de accesibilitate</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d aplicații</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Eliminați %d limbi?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Eliminați %d limbă?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Eliminați %d limbi?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d aplicații au acces complet la telefon</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație are acces complet la telefon</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații au acces complet la telefon</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Telefonul dvs. va fi oprit automat peste %d secunde. Pentru a menține telefonul pornit de această dată, atingeți Anulare.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefonul dvs. va fi oprit automat peste %d secundă. Pentru a menține telefonul pornit de această dată, atingeți Anulare.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Telefonul dvs. va fi oprit automat peste %d secunde. Pentru a menține telefonul pornit de această dată, atingeți Anulare.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Tableta dvs. va fi oprită automat peste %d secunde. Pentru a menține tableta pornită de această dată, atingeți Anulare.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tableta dvs. va fi oprită automat peste %d secundă. Pentru a menține tableta pornită de această dată, atingeți Anulare.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Tableta dvs. va fi oprită automat peste %d secunde. Pentru a menține tableta pornită de această dată, atingeți Anulare.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+La fiecare %d ore</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+În fiecare oră (%d)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+La fiecare %d ore</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină minimum %d caractere, dintre care cel puțin 1 literă.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină minimum %d caracter, dintre care cel puțin 1 literă.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Parola trebuie să conțină minimum %d caractere, dintre care cel puțin 1 literă.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+Codul PIN trebuie să conțină cel puțin %d cifre.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Codul PIN trebuie să conțină cel puțin %d cifră.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Codul PIN trebuie să conțină cel puțin %d cifre.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Încercați din nou peste 1 oră și %d minute</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Încercați din nou peste 1 oră și %d minut</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Încercați din nou peste 1 oră și %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Încercați din nou peste %d ore</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Încercați din nou peste %d oră</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Încercați din nou peste %d ore</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Încercați din nou peste %d ore și 1 minut</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Încercați din nou peste %d oră și 1 minut</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Încercați din nou peste %d ore și 1 minut</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Încercați din nou peste %d minute</item>
+
+        <item
+            quantity="one">
+Încercați din nou peste %d minut</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Încercați din nou peste %d secunde</item>
+
+        <item
+            quantity="one">
+Încercați din nou peste %d secundă</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Nu puteți porni mai mult de %d servicii suplimentare.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nu puteți porni mai mult de %d serviciu suplimentar.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nu puteți porni mai mult de %d servicii suplimentare.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d contacte permise</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d contact permis</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d contacte permise</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%d amprente adăugate</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d amprentă adăugată</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d amprente adăugate</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s și încă %3$d aplicații</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s și încă %3$d aplicație</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s, %2$s și încă %3$d aplicații</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Parolă greșită. %d încercări rămase.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Parolă greșită. %d încercare rămasă.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Parolă greșită. %d încercări rămase.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Model greșit. %d încercări rămase.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Model greșit. %d încercare rămasă.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Model greșit. %d încercări rămase.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+PIN greșit. %d încercări rămase.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Cod PIN greșit. %d încercare rămasă.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+PIN greșit. %d încercări rămase.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Trebuie să aveți cel puțin %d an pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină cel puțin %d litere.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină cel puțin %d literă.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Parola trebuie să conțină cel puțin %d litere.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină cel puțin %d litere mici.</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină cel puțin o literă mică.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină cel puțin %d numere sau simboluri.</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină cel puțin 1 număr sau simbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină cel puțin %d numere.</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină cel puțin un număr.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină cel puțin %d simboluri.</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină cel puțin 1 simbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Parola trebuie să conțină cel puțin %d majuscule.</item>
+
+        <item
+            quantity="one">
+Parola trebuie să conțină cel puțin o literă mare.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+Încă %d sugestii</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Încă %d sugestie</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Încă %d sugestii</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aplicații active</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație activă</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații active</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Ștergeți %d pachete lingvistice?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ștergeți %d pachet lingvistic?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Ștergeți %d pachete lingvistice?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d voci</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d voce</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d voci</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d permisiuni suplimentare</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d permisiune suplimentară</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d permisiuni suplimentare</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Sunteți la %d atingeri distanță de a fi dezvoltator.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Sunteți la %d atingere distanță de a fi un dezvoltator.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Sunteți la %d atingeri distanță de a fi dezvoltator.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+S-au selectat %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+S-a selectat %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+S-au selectat %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%d aplicații malware detectate</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație malware detectată</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații malware detectate</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+%d aplicații malware au fost identificate pe telefonul dvs. Dezinstalați aceste aplicații pentru a menține telefonul în siguranță.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație malware a fost identificată pe telefonul dvs. Dezinstalați această aplicație pentru a menține telefonul în siguranță.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații malware au fost identificate pe telefonul dvs. Dezinstalați aceste aplicații pentru a menține telefonul în siguranță.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+%d aplicații malware au fost identificate pe tableta dvs. Dezinstalați această aplicație pentru a menține tableta în siguranță.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplicație malware a fost identificată pe tableta dvs. Dezinstalați această aplicație pentru a menține tableta în siguranță.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplicații malware au fost identificate pe tableta dvs. Dezinstalați această aplicație pentru a menține tableta în siguranță.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d sugestii</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sugestie</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d sugestii</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d avertismente</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d avertisment</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d avertismente</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Durată somn: %d ore</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Durată somn: %d oră</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Durată somn: %d ore</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Durată somn: %d minute</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Durată somn: %d minut</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Durată somn: %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Faceți backup unui număr nelimitat de date în %1$s pentru până la %2$d zile sau restabiliți datele pentru care ați făcut backup.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Faceți backup unui număr nelimitat de date în %1$s pentru până la %2$d zi sau restabiliți datele pentru care ați făcut backup.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Faceți backup unui număr nelimitat de date în %1$s pentru până la %2$d zile sau restabiliți datele pentru care ați făcut backup.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Acest test se va reseta peste %d secunde.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Acest test se va reseta peste %d secundă.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Acest test se va reseta peste %d secunde.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d dispozitive conectate</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dispozitiv conectat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d dispozitive conectate</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Transformați-vă telefonul într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi de pe telefon pentru a accesa internetul.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Transformați-vă telefonul într-un punct de acces Wi-Fi. Până la %d dispozitiv va putea să utilizeze datele mobile sau conexiunea Wi-Fi de pe telefon pentru a accesa internetul.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Transformați-vă telefonul într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi de pe telefon pentru a accesa internetul.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Transformați-vă telefonul într-un punct de acces Wi-Fi. Datele mobile ale telefonului vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Transformați-vă telefonul într-un punct de acces Wi-Fi. Datele mobile ale telefonului vor putea fi utilizate de încă până la %d dispozitiv pentru a accesa internetul.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Transformați-vă telefonul într-un punct de acces Wi-Fi. Datele mobile ale telefonului vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Transformați-vă tableta într-un punct de acces Wi-Fi. Datele mobile ale tabletei vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Transformați-vă tableta într-un punct de acces Wi-Fi. Datele mobile ale tabletei vor putea fi utilizate de până la încă %d dispozitiv pentru a accesa internetul.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Transformați-vă tableta într-un punct de acces Wi-Fi. Datele mobile ale tabletei vor putea fi utilizate de până la încă %d dispozitive pentru a accesa internetul.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Transformați tableta într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi a tabletei pentru a accesa internetul.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Transformați tableta într-un punct de acces Wi-Fi. Până la %d dispozitiv va putea să utilizeze datele mobile sau conexiunea Wi-Fi a tabletei pentru a accesa internetul.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Transformați tableta într-un punct de acces Wi-Fi. Până la %d dispozitive vor putea să utilizeze datele mobile sau conexiunea Wi-Fi a tabletei pentru a accesa internetul.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d membri</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d membru</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d membri</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Ștergeți %d rețele?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ștergeți %d rețea?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Ștergeți %d rețele?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+S-au selectat %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+S-a selectat %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+S-au selectat %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+A existat %d încercare de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca acest telefon să fie resetat la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+A existat 1 încercare de a debloca profilul dumneavoastră de lucru. Mai aveți %d încercări înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+A existat %d încercare de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Au existat %d încercări de a debloca profilul dumneavoastră de lucru. Mai aveți 1 încercare înainte ca această tabletă să fie resetată la valorile din fabrică și ca toate datele să fie șterse.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d ore</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d oră</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d ore</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d minute</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minut</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

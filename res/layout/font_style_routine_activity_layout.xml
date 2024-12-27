@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:orientation="vertical" android:paddingTop="@dimen/sec_font_style_routines_dialog_padding_top" android:paddingBottom="@dimen/sec_font_style_routines_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sec_font_style_routines_dialog_padding_horizontal" android:defaultFocusHighlightEnabled="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/config_ui_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="@dimen/sec_font_style_routines_description_text_size" android:textColor="@color/sec_widget_body_text_color" android:id="@id/config_font_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_font_style_routines_description_margin_bottom" android:text="@string/sec_bixby_routine_detail_description" android:layout_marginHorizontal="@dimen/sec_font_style_routines_description_margin_horizontal" android:lineHeight="@dimen/sec_font_style_routines_description_line_height" />
-        <FrameLayout android:id="@id/config_font_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <RadioGroup android:id="@id/config_font_radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <FrameLayout android:id="@id/config_font_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/sec_font_style_routines_dialog_padding_top"
+    android:paddingBottom="@dimen/sec_font_style_routines_dialog_padding_bottom"
+    android:paddingHorizontal="@dimen/sec_font_style_routines_dialog_padding_horizontal"
+    android:defaultFocusHighlightEnabled="false">
+
+    <LinearLayout
+        android:id="@id/config_ui_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/config_font_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sec_font_style_routines_description_text_size"
+            android:textColor="@color/sec_widget_body_text_color"
+            android:layout_marginBottom="@dimen/sec_font_style_routines_description_margin_bottom"
+            android:text="@string/sec_bixby_routine_detail_description"
+            android:layout_marginHorizontal="@dimen/sec_font_style_routines_description_margin_horizontal"
+            android:lineHeight="@dimen/sec_font_style_routines_description_line_height" />
+
+        <FrameLayout
+            android:id="@id/config_font_header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@id/config_font_radio_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@id/config_font_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
+
 </ScrollView>

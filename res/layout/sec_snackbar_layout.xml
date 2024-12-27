@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom|center" android:id="@id/snack_bar" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="8.0dip" />
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/coordinator_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/snack_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:elevation="8.0dip" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

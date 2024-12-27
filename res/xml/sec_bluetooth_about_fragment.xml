@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_bluetooth_about_earbuds" android:key="key_bluetooth_advanced_menu"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/sec_bluetooth_model_number" android:key="key_pref_model" />
-    <Preference android:title="@string/sec_bluetooth_serial_number" android:key="key_pref_serial" />
-    <Preference android:title="@string/sec_bluetooth_software_version" android:key="key_pref_sw_information" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_bluetooth_about_earbuds"
+    android:key="key_bluetooth_advanced_menu">
+
+    <Preference
+        android:title="@string/sec_bluetooth_model_number"
+        android:key="key_pref_model" />
+
+    <Preference
+        android:title="@string/sec_bluetooth_serial_number"
+        android:key="key_pref_serial" />
+
+    <Preference
+        android:title="@string/sec_bluetooth_software_version"
+        android:key="key_pref_sw_information" />
+
 </PreferenceScreen>

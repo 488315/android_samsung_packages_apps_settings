@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:key="fingerprint_edit"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_fingerprint_rename_text_with_error" android:key="fingerprint_edittext" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz"
+    android:key="fingerprint_edit">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_fingerprint_rename_text_with_error"
+        android:key="fingerprint_edittext" />
+
 </PreferenceScreen>

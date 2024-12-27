@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/notification_popup_style" settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.notification.brief.widget.BriefPopupSecUnclickablePreference android:title="@string/brief_popup_style_warning_description" android:key="brief_popup_style_settings_description" settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpStyleDescriptionController" />
-    <com.samsung.android.settings.widget.SecHorizontalRadioPreference android:title="@string/notification_popup_style" android:key="notification_popup_style" settings:controller="com.samsung.android.settings.notification.brief.NotificationPopUpStylePreferenceController" settings:viewType="image" />
-    <SecPreferenceScreen android:title="@string/sec_apps_to_view_as_brief_popup" android:key="apps_to_view_as_brief_popup" android:fragment="com.samsung.android.settings.notification.brief.BriefPopupListSettings" settings:controller="com.samsung.android.settings.notification.brief.BriefPopupListController" />
-    <SecPreference android:title="@string/brief_popup_style_settings_title" android:key="brief_popup_style_settings" settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpStyleController" />
-    <SecPreference android:title="@string/brief_popup_keyword_color_settings_title" android:key="brief_popup_keyword_color_settings" android:fragment="com.samsung.android.settings.notification.brief.BriefPopUpKeywordColorSettings" settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpKeywordColorController" />
-    <com.samsung.android.settings.widget.SecDisabledAppearanceSwitchPreference android:title="@string/brief_popup_show_even_screen_off_title" android:key="brief_popup_show_even_screen_off" settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpConditionController" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/notification_popup_style_detailed_description" android:key="detailed_popup_style_description" settings:controller="com.samsung.android.settings.notification.brief.DetailedPopUpStyleDescriptionController" style="@style/description_text" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/notification_popup_style"
+    settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.samsung.android.settings.notification.brief.widget.BriefPopupSecUnclickablePreference
+        android:title="@string/brief_popup_style_warning_description"
+        android:key="brief_popup_style_settings_description"
+        settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpStyleDescriptionController" />
+
+    <com.samsung.android.settings.widget.SecHorizontalRadioPreference
+        android:title="@string/notification_popup_style"
+        android:key="notification_popup_style"
+        settings:controller="com.samsung.android.settings.notification.brief.NotificationPopUpStylePreferenceController"
+        settings:viewType="image" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_apps_to_view_as_brief_popup"
+        android:key="apps_to_view_as_brief_popup"
+        android:fragment="com.samsung.android.settings.notification.brief.BriefPopupListSettings"
+        settings:controller="com.samsung.android.settings.notification.brief.BriefPopupListController" />
+
+    <SecPreference
+        android:title="@string/brief_popup_style_settings_title"
+        android:key="brief_popup_style_settings"
+        settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpStyleController" />
+
+    <SecPreference
+        android:title="@string/brief_popup_keyword_color_settings_title"
+        android:key="brief_popup_keyword_color_settings"
+        android:fragment="com.samsung.android.settings.notification.brief.BriefPopUpKeywordColorSettings"
+        settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpKeywordColorController" />
+
+    <com.samsung.android.settings.widget.SecDisabledAppearanceSwitchPreference
+        android:title="@string/brief_popup_show_even_screen_off_title"
+        android:key="brief_popup_show_even_screen_off"
+        settings:controller="com.samsung.android.settings.notification.brief.BriefPopUpConditionController" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/notification_popup_style_detailed_description"
+        android:key="detailed_popup_style_description"
+        settings:controller="com.samsung.android.settings.notification.brief.DetailedPopUpStyleDescriptionController"
+        style="@style/description_text" />
+
 </PreferenceScreen>

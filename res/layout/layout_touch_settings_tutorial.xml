@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/touch_settings_basic_horizontal_padding" android:paddingEnd="@dimen/touch_settings_basic_horizontal_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_horizontal" android:id="@id/tutorial_image" android:background="@color/content_background_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/touch_settings_tutorial_image_height" android:adjustViewBounds="true" />
-    <ScrollView android:id="@id/experience_description_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <TextView android:textSize="@dimen/touch_settings_tutorial_desc_font_size" android:id="@id/tutorial_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Accessibility.Widget.TextView.Description" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="?roundedCornerColor"
+    android:paddingStart="@dimen/touch_settings_basic_horizontal_padding"
+    android:paddingEnd="@dimen/touch_settings_basic_horizontal_padding">
+
+    <ImageView
+        android:id="@id/tutorial_image"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/touch_settings_tutorial_image_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/content_background_color"
+        android:focusable="true"
+        android:adjustViewBounds="true" />
+
+    <ScrollView
+        android:id="@id/experience_description_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@id/tutorial_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/touch_settings_tutorial_desc_font_size"
+            style="@style/Accessibility.Widget.TextView.Description" />
+
     </ScrollView>
-    <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:layout_gravity="center" android:id="@id/set_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/touch_settings_bottom_btn_bottom_padding" android:minHeight="@dimen/touch_settings_bottom_btn_height" android:layout_marginStart="@dimen/touch_settings_tutorial_bottom_btn_horizontal_padding" android:layout_marginEnd="@dimen/touch_settings_tutorial_bottom_btn_horizontal_padding" />
+
+    <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton
+        android:id="@id/set_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:layout_marginBottom="@dimen/touch_settings_bottom_btn_bottom_padding"
+        android:minHeight="@dimen/touch_settings_bottom_btn_height"
+        android:layout_marginStart="@dimen/touch_settings_tutorial_bottom_btn_horizontal_padding"
+        android:layout_marginEnd="@dimen/touch_settings_tutorial_bottom_btn_horizontal_padding" />
+
 </LinearLayout>

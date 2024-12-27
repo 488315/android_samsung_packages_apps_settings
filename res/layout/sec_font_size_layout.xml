@@ -1,38 +1,295 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/sec_font_size_layout" android:background="@color/sec_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/dummy_navigation_bar_left" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" />
-    <LinearLayout android:orientation="vertical" android:id="@id/landscape_layout" android:background="@color/sec_display_font_size_screen_bg_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
-        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/text_preview_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/sec_font_preview_padding_horizontal" android:paddingEnd="@dimen/sec_font_preview_padding_horizontal">
-            <TextView android:textSize="@dimen/sec_font_preview_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/text_preview_sample_text_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_font_preview_description" android:singleLine="true" />
-            <TextView android:textSize="@dimen/sec_font_preview_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/text_preview_symbol_text_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_font_preview_description_2" android:singleLine="true" />
-            <TextView android:textSize="@dimen/font_preview_sample_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_preview_font_name_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
-            <TextView android:textSize="@dimen/font_preview_sample_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_preview_sample_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="5" />
-            <TextView android:textSize="@dimen/font_preview_sample_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_preview_number_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
-            <TextView android:textSize="@dimen/font_preview_sample_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_preview_symbol_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/font_preview_symbols" android:singleLine="true" />
-            <TextView android:textSize="@dimen/font_preview_sample_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_preview_uppercase_alphabet_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/font_preview_uppercase_alphabet" android:singleLine="true" />
-            <TextView android:textSize="@dimen/font_preview_sample_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_preview_lowercase_alphabet_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/font_preview_lowercase_alphabet" android:singleLine="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/sec_font_size_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/sec_round_and_bgcolor">
+
+    <View
+        android:id="@id/dummy_navigation_bar_left"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@id/landscape_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_display_font_size_screen_bg_color"
+        android:layout_weight="5.0">
+
+        <LinearLayout
+            android:id="@id/text_preview_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/sec_font_preview_padding_horizontal"
+            android:paddingEnd="@dimen/sec_font_preview_padding_horizontal">
+
+            <TextView
+                android:id="@id/text_preview_sample_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_font_preview_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:background="@null"
+                android:text="@string/sec_font_preview_description"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/text_preview_symbol_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_font_preview_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:background="@null"
+                android:text="@string/sec_font_preview_description_2"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/font_preview_font_name_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_preview_sample_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:visibility="gone"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/font_preview_sample_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_preview_sample_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:visibility="gone"
+                android:maxLines="5" />
+
+            <TextView
+                android:id="@id/font_preview_number_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_preview_sample_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:visibility="gone"
+                android:maxLines="2" />
+
+            <TextView
+                android:id="@id/font_preview_symbol_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_preview_sample_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:visibility="gone"
+                android:text="@string/font_preview_symbols"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/font_preview_uppercase_alphabet_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_preview_sample_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:visibility="gone"
+                android:text="@string/font_preview_uppercase_alphabet"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/font_preview_lowercase_alphabet_text_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_preview_sample_text_size"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:visibility="gone"
+                android:text="@string/font_preview_lowercase_alphabet"
+                android:singleLine="true" />
+
         </LinearLayout>
-        <View android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="@dimen/sec_font_size_setting_bottom_padding_height" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/sec_font_size_setting_bottom_padding_height"
+            android:background="@color/sec_widget_round_and_bgcolor" />
+
     </LinearLayout>
-    <View android:id="@id/landscape_layout_separator" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="@dimen/sec_font_size_style_landscape_separator_width" android:layout_height="fill_parent" />
-    <LinearLayout android:orientation="vertical" android:id="@id/portrait_layout" android:background="@color/sec_display_font_size_screen_bg_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                <FrameLayout android:layout_gravity="center" android:id="@id/font_size_preference_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-                <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/font_size_seek_bar_container" android:background="@drawable/sec_display_setting_seek_bar_controller_background" android:clipChildren="false" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/sec_display_setting_seek_bar_container_height" android:layout_marginHorizontal="@dimen/sec_display_setting_seek_bar_layout_margin_horizontal" android:paddingHorizontal="@dimen/sec_display_setting_seek_bar_container_padding_horizontal">
-                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" android:textSize="@dimen/sec_display_setting_seek_bar_title_text_size" android:textColor="@color/sec_display_setting_seek_bar_title_text_color" android:ellipsize="end" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="@dimen/sec_display_setting_seek_bar_title_height" android:text="@string/sec_font_size_title" android:singleLine="true" android:paddingStart="@dimen/sec_display_setting_seek_bar_title_padding_start" style="@style/sec_regular" />
-                    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                        <ImageButton android:id="@id/font_size_seek_bar_smaller_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/sec_widget_list_icon_create_width" android:layout_height="@dimen/sec_widget_list_icon_create_height" android:src="@drawable/ic_font_size_16dp" android:scaleType="center" android:tint="?android:textColorPrimary" android:layout_alignParentTop="true" android:contentDescription="@string/font_size_make_smaller_desc" android:layout_alignParentStart="true" android:tintMode="src_in" android:tooltipText="@string/font_size_make_smaller_desc" />
-                        <ImageButton android:id="@id/font_size_seek_bar_larger_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/sec_widget_list_icon_create_width" android:layout_height="@dimen/sec_widget_list_icon_create_height" android:src="@drawable/ic_font_size_24dp" android:scaleType="center" android:tint="?android:textColorPrimary" android:layout_alignParentTop="true" android:contentDescription="@string/font_size_make_larger_desc" android:layout_alignParentEnd="true" android:tintMode="src_in" android:tooltipText="@string/font_size_make_larger_desc" />
-                        <androidx.appcompat.widget.SeslSeekBar android:id="@id/font_size_seek_bar" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_icon_create_height" android:layout_alignParentTop="true" android:contentDescription="@string/sec_font_size_title" android:layout_toStartOf="@id/font_size_seek_bar_larger_button" android:layout_toEndOf="@id/font_size_seek_bar_smaller_button" />
-                        <ImageButton android:id="@id/font_size_seek_bar_smaller_button_bottom" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/sec_widget_list_icon_create_width" android:layout_height="@dimen/sec_widget_list_icon_create_height" android:src="@drawable/ic_font_size_16dp" android:scaleType="center" android:tint="?android:textColorPrimary" android:layout_below="@id/font_size_seek_bar" android:contentDescription="@string/font_size_make_smaller_desc" android:layout_alignStart="@id/font_size_seek_bar" android:tintMode="src_in" android:tooltipText="@string/font_size_make_smaller_desc" />
-                        <ImageButton android:id="@id/font_size_seek_bar_larger_button_bottom" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/sec_widget_list_icon_create_width" android:layout_height="@dimen/sec_widget_list_icon_create_height" android:src="@drawable/ic_font_size_24dp" android:scaleType="center" android:tint="?android:textColorPrimary" android:layout_below="@id/font_size_seek_bar" android:contentDescription="@string/font_size_make_larger_desc" android:layout_alignEnd="@id/font_size_seek_bar" android:tintMode="src_in" android:tooltipText="@string/font_size_make_larger_desc" />
+
+    <View
+        android:id="@id/landscape_layout_separator"
+        android:layout_width="@dimen/sec_font_size_style_landscape_separator_width"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor" />
+
+    <LinearLayout
+        android:id="@id/portrait_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_display_font_size_screen_bg_color"
+        android:layout_weight="5.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center">
+
+                <FrameLayout
+                    android:id="@id/font_size_preference_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center" />
+
+                <LinearLayout
+                    android:id="@id/font_size_seek_bar_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/sec_display_setting_seek_bar_container_height"
+                    android:layout_gravity="bottom|center"
+                    android:orientation="vertical"
+                    android:background="@drawable/sec_display_setting_seek_bar_controller_background"
+                    android:clipChildren="false"
+                    android:descendantFocusability="beforeDescendants"
+                    android:layout_marginHorizontal="@dimen/sec_display_setting_seek_bar_layout_margin_horizontal"
+                    android:paddingHorizontal="@dimen/sec_display_setting_seek_bar_container_padding_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/sec_display_setting_seek_bar_title_height"
+                        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+                        android:textSize="@dimen/sec_display_setting_seek_bar_title_text_size"
+                        android:textColor="@color/sec_display_setting_seek_bar_title_text_color"
+                        android:ellipsize="end"
+                        android:gravity="start|center"
+                        android:text="@string/sec_font_size_title"
+                        android:singleLine="true"
+                        android:paddingStart="@dimen/sec_display_setting_seek_bar_title_padding_start"
+                        style="@style/sec_regular" />
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:clipChildren="false">
+
+                        <ImageButton
+                            android:id="@id/font_size_seek_bar_smaller_button"
+                            android:layout_width="@dimen/sec_widget_list_icon_create_width"
+                            android:layout_height="@dimen/sec_widget_list_icon_create_height"
+                            android:background="?android:selectableItemBackgroundBorderless"
+                            android:src="@drawable/ic_font_size_16dp"
+                            android:scaleType="center"
+                            android:tint="?android:textColorPrimary"
+                            android:layout_alignParentTop="true"
+                            android:contentDescription="@string/font_size_make_smaller_desc"
+                            android:layout_alignParentStart="true"
+                            android:tintMode="src_in"
+                            android:tooltipText="@string/font_size_make_smaller_desc" />
+
+                        <ImageButton
+                            android:id="@id/font_size_seek_bar_larger_button"
+                            android:layout_width="@dimen/sec_widget_list_icon_create_width"
+                            android:layout_height="@dimen/sec_widget_list_icon_create_height"
+                            android:background="?android:selectableItemBackgroundBorderless"
+                            android:src="@drawable/ic_font_size_24dp"
+                            android:scaleType="center"
+                            android:tint="?android:textColorPrimary"
+                            android:layout_alignParentTop="true"
+                            android:contentDescription="@string/font_size_make_larger_desc"
+                            android:layout_alignParentEnd="true"
+                            android:tintMode="src_in"
+                            android:tooltipText="@string/font_size_make_larger_desc" />
+
+                        <androidx.appcompat.widget.SeslSeekBar
+                            android:id="@id/font_size_seek_bar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/sec_widget_list_icon_create_height"
+                            android:layout_alignParentTop="true"
+                            android:contentDescription="@string/sec_font_size_title"
+                            android:layout_toStartOf="@id/font_size_seek_bar_larger_button"
+                            android:layout_toEndOf="@id/font_size_seek_bar_smaller_button" />
+
+                        <ImageButton
+                            android:id="@id/font_size_seek_bar_smaller_button_bottom"
+                            android:layout_width="@dimen/sec_widget_list_icon_create_width"
+                            android:layout_height="@dimen/sec_widget_list_icon_create_height"
+                            android:background="?android:selectableItemBackgroundBorderless"
+                            android:visibility="gone"
+                            android:src="@drawable/ic_font_size_16dp"
+                            android:scaleType="center"
+                            android:tint="?android:textColorPrimary"
+                            android:layout_below="@id/font_size_seek_bar"
+                            android:contentDescription="@string/font_size_make_smaller_desc"
+                            android:layout_alignStart="@id/font_size_seek_bar"
+                            android:tintMode="src_in"
+                            android:tooltipText="@string/font_size_make_smaller_desc" />
+
+                        <ImageButton
+                            android:id="@id/font_size_seek_bar_larger_button_bottom"
+                            android:layout_width="@dimen/sec_widget_list_icon_create_width"
+                            android:layout_height="@dimen/sec_widget_list_icon_create_height"
+                            android:background="?android:selectableItemBackgroundBorderless"
+                            android:visibility="gone"
+                            android:src="@drawable/ic_font_size_24dp"
+                            android:scaleType="center"
+                            android:tint="?android:textColorPrimary"
+                            android:layout_below="@id/font_size_seek_bar"
+                            android:contentDescription="@string/font_size_make_larger_desc"
+                            android:layout_alignEnd="@id/font_size_seek_bar"
+                            android:tintMode="src_in"
+                            android:tooltipText="@string/font_size_make_larger_desc" />
+
                     </RelativeLayout>
+
                 </LinearLayout>
+
             </FrameLayout>
+
         </LinearLayout>
-        <View android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="@dimen/sec_font_size_setting_bottom_padding_height" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/sec_font_size_setting_bottom_padding_height"
+            android:background="@color/sec_widget_round_and_bgcolor" />
+
     </LinearLayout>
-    <View android:id="@id/dummy_navigation_bar_right" android:background="@color/sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+
+    <View
+        android:id="@id/dummy_navigation_bar_right"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:visibility="gone" />
+
 </LinearLayout>

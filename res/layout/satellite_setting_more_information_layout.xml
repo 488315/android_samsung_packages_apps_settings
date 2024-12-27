@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="@drawable/satellite_more_information_background_outline" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" />
-    <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@drawable/satellite_more_information_background_outline"
+    android:focusable="false"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceListItemSecondary"
+        android:textColor="?android:textColorSecondary"
+        android:focusable="false"
+        android:maxLines="10"
+        android:hyphenationFrequency="normalFast"
+        android:lineBreakWordStyle="phrase" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceListItemSecondary"
+        android:textColor="?android:textColorSecondary"
+        android:focusable="false"
+        android:maxLines="10"
+        android:hyphenationFrequency="normalFast"
+        android:lineBreakWordStyle="phrase" />
+
 </LinearLayout>

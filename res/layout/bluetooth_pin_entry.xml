@@ -1,15 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_bluetooth_dialog_padding" android:layout_marginEnd="@dimen/sec_bluetooth_dialog_padding">
-            <TextView android:textSize="@dimen/sec_widget_description_text_size" android:gravity="center_vertical" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_dialog_padding" android:layout_marginBottom="@dimen/sec_bluetooth_dialog_padding" style="@style/dialog_body_text_style" />
-            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/bluetooth_pairing_dialog_edittext_title_text_size" android:textColor="@color/bt_pairing_dialog_edittext_title_color" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_set_unlock_pin_title" />
-            <EditText android:id="@id/pincode_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" />
-            <Space android:id="@id/pincode_edit_text_bottom_margin" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/sec_widget_alert_dialog_top_edittext_margin_top" />
-            <TextView android:id="@id/bluetooth_pincode_error_text" style="@style/bluetooth_rename_dialog_error_text_style" />
-            <TextView android:textSize="@dimen/sec_widget_description_text_size" android:gravity="center_vertical" android:id="@id/block_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_bluetooth_dialog_padding" style="@style/dialog_body_text_style" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/sec_bluetooth_dialog_padding"
+            android:layout_marginEnd="@dimen/sec_bluetooth_dialog_padding">
+
+            <TextView
+                android:id="@id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_widget_description_text_size"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/sec_bluetooth_dialog_padding"
+                android:layout_marginBottom="@dimen/sec_bluetooth_dialog_padding"
+                style="@style/dialog_body_text_style" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/bluetooth_pairing_dialog_edittext_title_text_size"
+                android:textColor="@color/bt_pairing_dialog_edittext_title_color"
+                android:gravity="center_vertical"
+                android:text="@string/unlock_set_unlock_pin_title" />
+
+            <EditText
+                android:id="@id/pincode_edit_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:inputType="textPassword" />
+
+            <Space
+                android:id="@id/pincode_edit_text_bottom_margin"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginBottom="@dimen/sec_widget_alert_dialog_top_edittext_margin_top" />
+
+            <TextView
+                android:id="@id/bluetooth_pincode_error_text"
+                style="@style/bluetooth_rename_dialog_error_text_style" />
+
+            <TextView
+                android:id="@id/block_message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_widget_description_text_size"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="@dimen/sec_bluetooth_dialog_padding"
+                style="@style/dialog_body_text_style" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </ScrollView>

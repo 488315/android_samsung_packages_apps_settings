@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/sud_layout_template_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/sud_layout_sticky_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <com.google.android.setupdesign.view.BottomScrollView android:id="@id/sud_header_scroll_view" android:layout_width="fill_parent" android:layout_height="?sudLoadingHeaderHeight" android:fillViewport="true" android:scrollIndicators="?sudScrollIndicators">
-                <include layout="@layout/sud_glif_header" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/sud_layout_template_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ViewStub
+        android:id="@id/sud_layout_sticky_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.google.android.setupdesign.view.BottomScrollView
+                android:id="@id/sud_header_scroll_view"
+                android:layout_width="fill_parent"
+                android:layout_height="?sudLoadingHeaderHeight"
+                android:fillViewport="true"
+                android:scrollIndicators="?sudScrollIndicators">
+
+                <include
+                    layout="@layout/sud_glif_header" />
+
             </com.google.android.setupdesign.view.BottomScrollView>
-            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                <ViewStub android:id="@id/sud_loading_layout_lottie_stub" android:layout="@layout/sud_loading_lottie_layout" android:inflatedId="@id/sud_layout_lottie_illustration" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-                <ViewStub android:id="@id/sud_loading_layout_illustration_stub" android:layout="@layout/sud_loading_illustration_layout" android:inflatedId="@id/sud_layout_progress_illustration" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-                <FrameLayout android:id="@id/sud_layout_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <ViewStub
+                    android:id="@id/sud_loading_layout_lottie_stub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout="@layout/sud_loading_lottie_layout"
+                    android:inflatedId="@id/sud_layout_lottie_illustration" />
+
+                <ViewStub
+                    android:id="@id/sud_loading_layout_illustration_stub"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout="@layout/sud_loading_illustration_layout"
+                    android:inflatedId="@id/sud_layout_progress_illustration" />
+
+                <FrameLayout
+                    android:id="@id/sud_layout_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
-    <ViewStub android:id="@id/suc_layout_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <ViewStub
+        android:id="@id/suc_layout_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

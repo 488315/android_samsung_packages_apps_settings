@@ -1,21 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <TextView android:textSize="30.0dip" android:textColor="@color/sec_widget_body_text_color" android:gravity="center" android:id="@id/disclaimer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:minHeight="160.0dip" android:text="@string/protection_timer_disclaimer_title" android:layout_alignParentTop="true" android:fontFamily="sec" android:layout_marginHorizontal="20.0dip" android:textFontWeight="600" />
-        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/disclaimer_title" android:layout_alignParentBottom="true" android:layout_marginHorizontal="32.0dip">
-            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/protection_timer_disclaimer_description" style="@style/description_text" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@id/disclaimer_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30.0dip"
+            android:textColor="@color/sec_widget_body_text_color"
+            android:gravity="center"
+            android:layout_marginTop="60.0dip"
+            android:minHeight="160.0dip"
+            android:text="@string/protection_timer_disclaimer_title"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sec"
+            android:layout_marginHorizontal="20.0dip"
+            android:textFontWeight="600" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:layout_below="@id/disclaimer_title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="32.0dip">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@id/description"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30.0dip"
+                    android:text="@string/protection_timer_disclaimer_description"
+                    style="@style/description_text" />
+
             </ScrollView>
+
         </LinearLayout>
+
     </RelativeLayout>
-    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <TextView android:textSize="17.0sp" android:textColor="@color/sec_widget_body_text_color" android:gravity="center" android:id="@id/timer_delay_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:maxWidth="176.0dip" android:text="@string/protection_timer_delay_description" android:layout_above="@id/timer_time_view" android:layout_centerHorizontal="true" android:alpha="0.9" android:fontFamily="sec" android:textFontWeight="400" />
-            <com.samsung.android.settings.theftprotection.timer.ProtectionTimerTimeView android:id="@id/timer_time_view" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-            <LinearLayout android:orientation="horizontal" android:id="@id/bottom_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:minHeight="@dimen/sec_setting_base_layout_bottom_bar_min_height" android:layout_alignParentBottom="true">
-                <include layout="@layout/sec_button_preference_layout" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@id/timer_delay_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17.0sp"
+                android:textColor="@color/sec_widget_body_text_color"
+                android:gravity="center"
+                android:layout_marginBottom="16.0dip"
+                android:maxWidth="176.0dip"
+                android:text="@string/protection_timer_delay_description"
+                android:layout_above="@id/timer_time_view"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.9"
+                android:fontFamily="sec"
+                android:textFontWeight="400" />
+
+            <com.samsung.android.settings.theftprotection.timer.ProtectionTimerTimeView
+                android:id="@id/timer_time_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:id="@id/bottom_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip"
+                android:minHeight="@dimen/sec_setting_base_layout_bottom_bar_min_height"
+                android:layout_alignParentBottom="true">
+
+                <include
+                    layout="@layout/sec_button_preference_layout" />
+
             </LinearLayout>
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

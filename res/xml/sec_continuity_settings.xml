@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/continuity_title" settings:hierarchicalParentFragment="com.samsung.android.settings.multidevices.MultiDevicesFragment"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="1.0px" settings:roundStroke="none" />
-    <com.samsung.android.settings.multidevices.continuity.SecContinuityHelpAnimationLayoutPreference android:layout="@layout/sec_continuity_guide" android:key="continuity_preview" />
-    <com.samsung.android.settings.multidevices.continuity.SecContinuityHelpAnimationLayoutPreference android:layout="@layout/sec_continuity_guide_tablet" android:key="continuity_preview_tablet" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="16.0dip" />
-    <Preference android:key="samsung_account_preference" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/continuity_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.multidevices.MultiDevicesFragment">
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="1.0px"
+        settings:roundStroke="none" />
+
+    <com.samsung.android.settings.multidevices.continuity.SecContinuityHelpAnimationLayoutPreference
+        android:layout="@layout/sec_continuity_guide"
+        android:key="continuity_preview" />
+
+    <com.samsung.android.settings.multidevices.continuity.SecContinuityHelpAnimationLayoutPreference
+        android:layout="@layout/sec_continuity_guide_tablet"
+        android:key="continuity_preview_tablet" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="16.0dip" />
+
+    <Preference
+        android:key="samsung_account_preference" />
+
 </PreferenceScreen>

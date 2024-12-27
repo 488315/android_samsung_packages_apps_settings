@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/noti_intelligence_main_setting_title" android:key="notification_intelligence_settings" settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_noti_intelligence_illustration" android:selectable="false" android:key="auto_group_preview" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_category_1" />
-    <SecPreferenceScreen android:title="@string/noti_intelligence_priority_notification" android:key="priority_converstation" android:fragment="com.samsung.android.settings.notification.SecSummarizeContentFragment">
-        <extra android:name="path" android:value="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/noti_intelligence_main_setting_title"
+    android:key="notification_intelligence_settings"
+    settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_noti_intelligence_illustration"
+        android:selectable="false"
+        android:key="auto_group_preview" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="inset_category_1" />
+
+    <SecPreferenceScreen
+        android:title="@string/noti_intelligence_priority_notification"
+        android:key="priority_converstation"
+        android:fragment="com.samsung.android.settings.notification.SecSummarizeContentFragment">
+
+        <extra
+            android:name="path"
+            android:value="false" />
+
     </SecPreferenceScreen>
-    <SecPreferenceScreen android:title="@string/noti_intelligence_summarize_notifications" android:key="summarize_content" android:fragment="com.samsung.android.settings.notification.SecSummarizeContentFragment">
-        <extra android:name="path" android:value="true" />
+
+    <SecPreferenceScreen
+        android:title="@string/noti_intelligence_summarize_notifications"
+        android:key="summarize_content"
+        android:fragment="com.samsung.android.settings.notification.SecSummarizeContentFragment">
+
+        <extra
+            android:name="path"
+            android:value="true" />
+
     </SecPreferenceScreen>
-    <SecPreferenceScreen android:title="@string/noti_intelligence_group_notifications" android:key="auto_grouping" android:fragment="com.samsung.android.settings.notification.SecAutoGroupingFragment" />
+
+    <SecPreferenceScreen
+        android:title="@string/noti_intelligence_group_notifications"
+        android:key="auto_grouping"
+        android:fragment="com.samsung.android.settings.notification.SecAutoGroupingFragment" />
+
 </PreferenceScreen>

@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <group android:id="@id/bottom_menu_group">
-        <item android:id="@id/menu_cancel" android:title="@string/common_cancel" app:showAsAction="ifRoom" />
-        <item android:id="@id/menu_done" android:title="@string/common_done" app:showAsAction="ifRoom" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@id/bottom_menu_group">
+
+        <item
+            android:id="@id/menu_cancel"
+            android:title="@string/common_cancel"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@id/menu_done"
+            android:title="@string/common_done"
+            app:showAsAction="ifRoom" />
+
     </group>
+
 </menu>

@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:layout_alignParentBottom="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <Button android:textSize="@dimen/sec_biometrics_common_raised_button_text_size" android:textColor="@color/sec_biometrics_guide_common_continue_button_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/continue_button" android:background="@drawable/sec_biometrics_guide_common_continue_button_background" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/sec_biometrics_guide_common_continue_button_width" android:minHeight="@dimen/sec_biometrics_guide_common_continue_button_height" android:text="@string/sec_biometrics_common_continue_button_text" android:maxLines="1" android:includeFontPadding="false" android:onClick="onClickContinue" android:fontFamily="sec" android:paddingStart="@dimen/sec_biometrics_guide_common_continue_button_padding" android:paddingEnd="@dimen/sec_biometrics_guide_common_continue_button_padding" android:paddingVertical="@dimen/sec_biometrics_guide_common_continue_button_vertical_padding" android:textFontWeight="600" />
-    <View android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="3.0"
+    android:layout_alignParentBottom="true">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sec_biometrics_common_raised_button_text_size"
+        android:textColor="@color/sec_biometrics_guide_common_continue_button_text_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:background="@drawable/sec_biometrics_guide_common_continue_button_background"
+        android:focusable="true"
+        android:minWidth="@dimen/sec_biometrics_guide_common_continue_button_width"
+        android:minHeight="@dimen/sec_biometrics_guide_common_continue_button_height"
+        android:text="@string/sec_biometrics_common_continue_button_text"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:onClick="onClickContinue"
+        android:fontFamily="sec"
+        android:paddingStart="@dimen/sec_biometrics_guide_common_continue_button_padding"
+        android:paddingEnd="@dimen/sec_biometrics_guide_common_continue_button_padding"
+        android:paddingVertical="@dimen/sec_biometrics_guide_common_continue_button_vertical_padding"
+        android:textFontWeight="600" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
 </LinearLayout>

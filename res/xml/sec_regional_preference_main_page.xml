@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/regional_preferences_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/regional_preferences_sub_title" android:selectable="false" settings:positionMode="first_item" style="@style/description_text" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/regional_preferences_title">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/regional_preferences_sub_title"
+        android:selectable="false"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
     <SecPreferenceCategory>
-        <SecDropDownPreference android:title="@string/sec_temperature_preferences_title" android:key="key_temperature_unit" android:summary="@string/default_string_of_regional_preference" />
-        <SecDropDownPreference android:title="@string/first_day_of_week_preferences_title" android:key="key_first_day_of_week" android:summary="@string/default_string_of_regional_preference" />
-        <SecDropDownPreference android:title="@string/numbers_preferences_title" android:key="key_numbering_system" android:summary="@string/default_string_of_regional_preference" settings:controller="com.android.settings.regionalpreferences.NumberingSystemController" />
+
+        <SecDropDownPreference
+            android:title="@string/sec_temperature_preferences_title"
+            android:key="key_temperature_unit"
+            android:summary="@string/default_string_of_regional_preference" />
+
+        <SecDropDownPreference
+            android:title="@string/first_day_of_week_preferences_title"
+            android:key="key_first_day_of_week"
+            android:summary="@string/default_string_of_regional_preference" />
+
+        <SecDropDownPreference
+            android:title="@string/numbers_preferences_title"
+            android:key="key_numbering_system"
+            android:summary="@string/default_string_of_regional_preference"
+            settings:controller="com.android.settings.regionalpreferences.NumberingSystemController" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

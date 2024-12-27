@@ -1,15 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="Walk around home and check weak signal area. Press 'Done' button to finish investigation." android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
-        <LinearLayout android:orientation="vertical" android:background="@drawable/sec_wifi_development_roundrect" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
-            <com.samsung.android.settings.wifi.develop.homewifi.RssiChart android:id="@id/rssi_chart" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
-            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
-                <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginEnd="6.0dip" />
-                <TextView android:textSize="12.0sp" android:textColor="@color/material_grey_600" android:gravity="center" android:id="@id/weak_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Searching for weak signal area..." />
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:gravity="center"
+            android:layout_marginBottom="24.0dip"
+            android:text="Walk around home and check weak signal area. Press 'Done' button to finish investigation."
+            android:paddingStart="24.0dip"
+            android:paddingEnd="24.0dip" />
+
+        <LinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@drawable/sec_wifi_development_roundrect">
+
+            <com.samsung.android.settings.wifi.develop.homewifi.RssiChart
+                android:id="@id/rssi_chart"
+                android:layout_width="fill_parent"
+                android:layout_height="250.0dip"
+                android:background="?android:colorBackground"
+                android:layout_marginTop="12.0dip"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12.0dip">
+
+                <ProgressBar
+                    android:id="@id/progressbar"
+                    android:layout_width="16.0dip"
+                    android:layout_height="16.0dip"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="6.0dip" />
+
+                <TextView
+                    android:id="@id/weak_area_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.0sp"
+                    android:textColor="@color/material_grey_600"
+                    android:gravity="center"
+                    android:text="Searching for weak signal area..." />
+
             </LinearLayout>
-            <androidx.recyclerview.widget.RecyclerView android:id="@id/wifi_scan_recycler" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/wifi_scan_recycler"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="0.0dip"
+                android:paddingBottom="0.0dip"
+                android:scrollbars="vertical"
+                android:nestedScrollingEnabled="false"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

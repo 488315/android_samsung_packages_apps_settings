@@ -1,15 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_lock_routine_padding_start" android:paddingBottom="@dimen/sec_lock_routine_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_lock_routine_padding_start" android:paddingEnd="@dimen/sec_lock_routine_padding_start"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <Toolbar android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_lock_setting_dialog_header_height" android:contentInsetStart="0.0dip" android:contentInsetEnd="0.0dip" android:contentInsetStartWithNavigation="0.0dip">
-            <TextView android:textSize="@dimen/sec_lock_setting_dialog_header_text_size" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:fontFamily="sec-roboto-light" android:textAlignment="viewStart" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/sec_lock_routine_padding_start"
+    android:paddingBottom="@dimen/sec_lock_routine_padding_bottom"
+    android:paddingStart="@dimen/sec_lock_routine_padding_start"
+    android:paddingEnd="@dimen/sec_lock_routine_padding_start">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:id="@id/action_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/sec_lock_setting_dialog_header_height"
+            android:contentInsetStart="0.0dip"
+            android:contentInsetEnd="0.0dip"
+            android:contentInsetStartWithNavigation="0.0dip">
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_lock_setting_dialog_header_text_size"
+                android:textStyle="bold"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:fontFamily="sec-roboto-light"
+                android:textAlignment="viewStart" />
+
         </Toolbar>
+
     </LinearLayout>
-    <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="turn off biometrics during time you set" style="@style/dialog_body_text_style" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/sec_lock_setting_dialog_button_height" android:layout_marginTop="@dimen/sec_lock_setting_dialog_button_margin_top" android:weightSum="2.0">
-        <com.samsung.android.settings.widget.SecBottomBarButton android:textSize="@dimen/sec_lock_setting_dialog_button_text_size" android:textColor="?android:textColorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" style="@style/SecurityPreferenceButton" />
-        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/sec_lockscreen_dialog_button_divider_color" android:layout_width="@dimen/sec_lock_setting_dialog_button_layout_divider_width" android:layout_height="@dimen/sec_lock_setting_dialog_button_layout_divider_height" />
-        <com.samsung.android.settings.widget.SecBottomBarButton android:textSize="@dimen/sec_lock_setting_dialog_button_text_size" android:textColor="@color/sec_lockscreen_dialog_remove_btn_color" android:gravity="center" android:layout_gravity="center" android:id="@id/delete_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/delete" android:layout_weight="1.0" style="@style/SecurityPreferenceButton" />
+
+    <TextView
+        android:id="@id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="turn off biometrics during time you set"
+        style="@style/dialog_body_text_style" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sec_lock_setting_dialog_button_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/sec_lock_setting_dialog_button_margin_top"
+        android:weightSum="2.0">
+
+        <com.samsung.android.settings.widget.SecBottomBarButton
+            android:id="@id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="@dimen/sec_lock_setting_dialog_button_text_size"
+            android:textColor="?android:textColorPrimary"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/cancel"
+            android:layout_weight="1.0"
+            style="@style/SecurityPreferenceButton" />
+
+        <LinearLayout
+            android:layout_width="@dimen/sec_lock_setting_dialog_button_layout_divider_width"
+            android:layout_height="@dimen/sec_lock_setting_dialog_button_layout_divider_height"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/sec_lockscreen_dialog_button_divider_color" />
+
+        <com.samsung.android.settings.widget.SecBottomBarButton
+            android:id="@id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="@dimen/sec_lock_setting_dialog_button_text_size"
+            android:textColor="@color/sec_lockscreen_dialog_remove_btn_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/delete"
+            android:layout_weight="1.0"
+            style="@style/SecurityPreferenceButton" />
+
     </LinearLayout>
+
 </LinearLayout>

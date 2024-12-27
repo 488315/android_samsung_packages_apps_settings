@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/wifi_switch_to_mobile_data" android:key="sns_settings_vzw"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="empty_general" />
-    <SecPreferenceScreen android:persistent="false" android:title="@string/wifi_smart_network_switch_excluded_networks" android:key="sns_excluded_device_vzw" android:summary="@string/wifi_smart_network_switch_excluded_networks_body_tablet" />
-    <SecSwitchPreferenceScreen android:title="@string/wifi_smart_network_switch_switch_for_individual_apps" android:key="wifi_switch_for_individual_apps" android:summary="@string/wifi_smart_network_switch_switch_for_individual_apps_detail" android:fragment="com.samsung.android.settings.wifi.intelligent.SwitchForIndividualAppsSettings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/wifi_switch_to_mobile_data"
+    android:key="sns_settings_vzw">
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="empty_general" />
+
+    <SecPreferenceScreen
+        android:persistent="false"
+        android:title="@string/wifi_smart_network_switch_excluded_networks"
+        android:key="sns_excluded_device_vzw"
+        android:summary="@string/wifi_smart_network_switch_excluded_networks_body_tablet" />
+
+    <SecSwitchPreferenceScreen
+        android:title="@string/wifi_smart_network_switch_switch_for_individual_apps"
+        android:key="wifi_switch_for_individual_apps"
+        android:summary="@string/wifi_smart_network_switch_switch_for_individual_apps_detail"
+        android:fragment="com.samsung.android.settings.wifi.intelligent.SwitchForIndividualAppsSettings" />
+
 </PreferenceScreen>

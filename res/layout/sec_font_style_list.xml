@@ -1,17 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/font_style_scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/font_style_list_view_container" android:background="@color/sec_display_font_size_screen_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_display_setting_font_style_layout_margin_bottom" android:layout_marginHorizontal="@dimen/sec_display_setting_font_style_layout_margin_horizontal">
-            <androidx.recyclerview.widget.RecyclerView android:id="@id/font_style_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_list_checkbox_width_for_divider_padding_inset">
-                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_divider_height" android:layout_marginStart="@dimen/sec_widget_list_checkbox_width_for_divider_inset" />
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/font_style_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:overScrollMode="always"
+    app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_round_and_bgcolor">
+
+        <LinearLayout
+            android:id="@id/font_style_list_view_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/sec_display_font_size_screen_bg_color"
+            android:layout_marginBottom="@dimen/sec_display_setting_font_style_layout_margin_bottom"
+            android:layout_marginHorizontal="@dimen/sec_display_setting_font_style_layout_margin_horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/font_style_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/sec_widget_list_checkbox_width_for_divider_padding_inset">
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/sec_widget_list_divider_height"
+                    android:background="?android:listDivider"
+                    android:layout_marginStart="@dimen/sec_widget_list_checkbox_width_for_divider_inset" />
+
             </LinearLayout>
-            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/sec_font_style_powered_by_license_height">
-                <TextView android:textSize="@dimen/sec_font_style_powered_by_license_text_size" android:textColor="@color/sec_font_style_powered_by_license_text_color" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_font_style_powered_by_license_text" android:layout_marginEnd="@dimen/sec_font_style_powered_by_license_text_margin_end" />
-                <ImageView android:layout_gravity="end|center" android:layout_width="@dimen/sec_font_style_powered_by_license_icon_size" android:layout_height="@dimen/sec_font_style_powered_by_license_icon_size" android:src="@drawable/sec_font_style_powered_by_license_icon" android:layout_marginEnd="@dimen/sec_font_style_powered_by_license_icon_margin_end" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_font_style_powered_by_license_height">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_font_style_powered_by_license_text_size"
+                    android:textColor="@color/sec_font_style_powered_by_license_text_color"
+                    android:layout_gravity="end|center"
+                    android:text="@string/sec_font_style_powered_by_license_text"
+                    android:layout_marginEnd="@dimen/sec_font_style_powered_by_license_text_margin_end" />
+
+                <ImageView
+                    android:layout_width="@dimen/sec_font_style_powered_by_license_icon_size"
+                    android:layout_height="@dimen/sec_font_style_powered_by_license_icon_size"
+                    android:layout_gravity="end|center"
+                    android:src="@drawable/sec_font_style_powered_by_license_icon"
+                    android:layout_marginEnd="@dimen/sec_font_style_powered_by_license_icon_margin_end" />
+
             </FrameLayout>
+
         </LinearLayout>
-        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/sec_widget_round_and_bgcolor" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:foreground="@color/sec_widget_round_and_bgcolor" />
+
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

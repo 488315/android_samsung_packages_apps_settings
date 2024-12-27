@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/default_assist_title" android:key="manage_assist_screen" settings:keywords="@string/keywords_assist_input"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:clickable="false" android:title="@string/assist_footer" android:key="assist_description" settings:controller="com.samsung.android.settings.applications.assist.AssistDescriptionPreferenceController" settings:positionMode="first_item" style="@style/description_text" />
-    <com.samsung.android.settings.widget.SecGearPreference android:title="@string/default_assist_title" android:key="default_assist" android:summary="@string/summary_placeholder" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/default_assist_title"
+    android:key="manage_assist_screen"
+    settings:keywords="@string/keywords_assist_input">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:clickable="false"
+        android:title="@string/assist_footer"
+        android:key="assist_description"
+        settings:controller="com.samsung.android.settings.applications.assist.AssistDescriptionPreferenceController"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
+    <com.samsung.android.settings.widget.SecGearPreference
+        android:title="@string/default_assist_title"
+        android:key="default_assist"
+        android:summary="@string/summary_placeholder" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <SwitchPreference android:title="@string/assist_access_context_title" android:key="context" android:summary="@string/assist_access_context_summary" />
-    <SwitchPreference android:title="@string/assist_access_screenshot_title" android:key="screenshot" android:summary="@string/assist_access_screenshot_summary" />
-    <SwitchPreference android:title="@string/assist_flash_title" android:key="flash" android:summary="@string/assist_flash_summary" />
+
+    <SwitchPreference
+        android:title="@string/assist_access_context_title"
+        android:key="context"
+        android:summary="@string/assist_access_context_summary" />
+
+    <SwitchPreference
+        android:title="@string/assist_access_screenshot_title"
+        android:key="screenshot"
+        android:summary="@string/assist_access_screenshot_summary" />
+
+    <SwitchPreference
+        android:title="@string/assist_flash_title"
+        android:key="flash"
+        android:summary="@string/assist_flash_summary" />
+
 </PreferenceScreen>

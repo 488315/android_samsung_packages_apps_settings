@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/notification_importance_toggle_marginTop" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/TextAppearance.Small" android:id="@android:id/summary" android:padding="@dimen/notification_importance_button_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <RadioGroup android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/redact_sensitive">
-        <RadioButton android:textColor="?android:textColorSecondary" android:id="@id/bubble_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="56.0dip" android:text="@string/bubble_app_setting_all" android:fontFamily="@android:string/dynamic_mode_notification_summary_v2" android:layout_marginVertical="0.0dip" style="@style/SudRadioButton" />
-        <RadioButton android:textColor="?android:textColorSecondary" android:id="@id/bubble_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="56.0dip" android:text="@string/bubble_app_setting_selected" android:fontFamily="@android:string/dynamic_mode_notification_summary_v2" android:layout_marginVertical="0.0dip" style="@style/SudRadioButton" />
-        <RadioButton android:textColor="?android:textColorSecondary" android:id="@id/bubble_none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="56.0dip" android:text="@string/bubble_app_setting_none" android:fontFamily="@android:string/dynamic_mode_notification_summary_v2" android:layout_marginVertical="0.0dip" style="@style/SudRadioButton" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/notification_importance_toggle_marginTop">
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Small"
+        android:padding="@dimen/notification_importance_button_padding"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/redact_sensitive">
+
+        <RadioButton
+            android:id="@id/bubble_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorSecondary"
+            android:minHeight="56.0dip"
+            android:text="@string/bubble_app_setting_all"
+            android:fontFamily="@android:string/dynamic_mode_notification_summary_v2"
+            android:layout_marginVertical="0.0dip"
+            style="@style/SudRadioButton" />
+
+        <RadioButton
+            android:id="@id/bubble_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorSecondary"
+            android:minHeight="56.0dip"
+            android:text="@string/bubble_app_setting_selected"
+            android:fontFamily="@android:string/dynamic_mode_notification_summary_v2"
+            android:layout_marginVertical="0.0dip"
+            style="@style/SudRadioButton" />
+
+        <RadioButton
+            android:id="@id/bubble_none"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorSecondary"
+            android:minHeight="56.0dip"
+            android:text="@string/bubble_app_setting_none"
+            android:fontFamily="@android:string/dynamic_mode_notification_summary_v2"
+            android:layout_marginVertical="0.0dip"
+            style="@style/SudRadioButton" />
+
     </RadioGroup>
+
 </LinearLayout>

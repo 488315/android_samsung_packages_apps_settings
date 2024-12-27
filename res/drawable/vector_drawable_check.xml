@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item>
-        <shape android:shape="rectangle">
-            <size android:height="@dimen/icon_checkbox_background_size" android:width="@dimen/icon_checkbox_background_size" />
+
+        <shape
+            android:shape="rectangle">
+
+            <size
+                android:height="@dimen/icon_checkbox_background_size"
+                android:width="@dimen/icon_checkbox_background_size" />
+
         </shape>
+
     </item>
-    <item android:gravity="center" android:tint="@color/sesl_white" android:height="@dimen/icon_checkbox_vector_size" android:width="@dimen/icon_checkbox_vector_size" android:drawable="@drawable/tw_list_icon_check_to_caller_id_mtrl" />
+
+    <item
+        android:gravity="center"
+        android:tint="@color/sesl_white"
+        android:height="@dimen/icon_checkbox_vector_size"
+        android:width="@dimen/icon_checkbox_vector_size"
+        android:drawable="@drawable/tw_list_icon_check_to_caller_id_mtrl" />
+
 </layer-list>

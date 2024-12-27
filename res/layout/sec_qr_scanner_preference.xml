@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/qr_scanner_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent">
-        <ImageView android:gravity="end" android:id="@id/qr_scanner_button" android:background="@drawable/sec_button_ripple_radius" android:layout_width="@dimen/sec_wifi_suw_qr_scanner_button_size" android:layout_height="@dimen/sec_wifi_suw_qr_scanner_button_size" android:src="@drawable/sec_wifi_qr_code_scanner_24dp" android:contentDescription="@string/sec_wifi_qr_scan_button_tts" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/qr_scanner_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@id/qr_scanner_button"
+            android:layout_width="@dimen/sec_wifi_suw_qr_scanner_button_size"
+            android:layout_height="@dimen/sec_wifi_suw_qr_scanner_button_size"
+            android:gravity="end"
+            android:background="@drawable/sec_button_ripple_radius"
+            android:src="@drawable/sec_wifi_qr_code_scanner_24dp"
+            android:contentDescription="@string/sec_wifi_qr_scan_button_tts" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/refresh_list" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="14.0dip" app:layout_constraintEnd_toStartOf="@id/qr_scanner_layout">
-        <ImageView android:id="@id/refresh_list_button" android:background="@drawable/sec_button_ripple_radius" android:layout_width="@dimen/sec_wifi_suw_qr_scanner_button_size" android:layout_height="@dimen/sec_wifi_suw_qr_scanner_button_size" android:src="@drawable/sec_wifi_refresh_list_vzw" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/refresh_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginEnd="14.0dip"
+        app:layout_constraintEnd_toStartOf="@id/qr_scanner_layout">
+
+        <ImageView
+            android:id="@id/refresh_list_button"
+            android:layout_width="@dimen/sec_wifi_suw_qr_scanner_button_size"
+            android:layout_height="@dimen/sec_wifi_suw_qr_scanner_button_size"
+            android:background="@drawable/sec_button_ripple_radius"
+            android:src="@drawable/sec_wifi_refresh_list_vzw" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

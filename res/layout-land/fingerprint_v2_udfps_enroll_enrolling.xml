@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLayout android:id="@id/glif_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?fingerprint_layout_theme"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
-        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-            <FrameLayout android:layout_gravity="bottom|center" android:id="@id/layout_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                <com.airbnb.lottie.LottieAnimationView android:id="@id/illustration_lottie" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerInside" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_speed="0.85" />
-                <include layout="@layout/fingerprint_v2_udfps_enroll_view" />
+<com.google.android.setupdesign.GlifLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/glif_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    style="?fingerprint_layout_theme">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        style="@style/SudContentFrame">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:gravity="bottom|center"
+            android:orientation="vertical"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_weight="1.0">
+
+            <FrameLayout
+                android:id="@id/layout_container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom|center"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@id/illustration_lottie"
+                    android:layout_width="0.0dip"
+                    android:layout_height="0.0dip"
+                    android:visibility="gone"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:scaleType="centerInside"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_speed="0.85" />
+
+                <include
+                    layout="@layout/fingerprint_v2_udfps_enroll_view" />
+
             </FrameLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </com.google.android.setupdesign.GlifLayout>

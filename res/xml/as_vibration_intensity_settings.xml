@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_vibration_intensity" settings:keywords="@string/sec_vibration_intensity"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_vibration_call" android:key="ring_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityIncomingCallController" />
-    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_vibration_notification" android:key="notification_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityNotificationController" />
-    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_vibration_system" android:key="system_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityTouchVibrationController" />
-    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/sec_vibration_media" android:key="media_vibration" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityMediaController" />
-    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference android:title="@string/force_touch_title" android:key="force_touch" settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityHardPressVibrationFeedbackController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="category_ring_when_vibrating" />
-    <SecSwitchPreference android:persistent="false" android:title="@string/sec_vibration_sound_for_incoming_calls" android:key="vibration_sound_enabled" settings:controller="com.samsung.android.settings.asbase.vibration.VirtualVibrationSoundPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_vibration_intensity"
+    settings:keywords="@string/sec_vibration_intensity">
+
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference
+        android:title="@string/sec_vibration_call"
+        android:key="ring_vibration"
+        settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityIncomingCallController" />
+
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference
+        android:title="@string/sec_vibration_notification"
+        android:key="notification_vibration"
+        settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityNotificationController" />
+
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference
+        android:title="@string/sec_vibration_system"
+        android:key="system_vibration"
+        settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityTouchVibrationController" />
+
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference
+        android:title="@string/sec_vibration_media"
+        android:key="media_vibration"
+        settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityMediaController" />
+
+    <com.samsung.android.settings.asbase.vibration.SecVibrationSeekBarPreference
+        android:title="@string/force_touch_title"
+        android:key="force_touch"
+        settings:controller="com.samsung.android.settings.asbase.vibration.SecVibrationIntensityHardPressVibrationFeedbackController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="category_ring_when_vibrating" />
+
+    <SecSwitchPreference
+        android:persistent="false"
+        android:title="@string/sec_vibration_sound_for_incoming_calls"
+        android:key="vibration_sound_enabled"
+        settings:controller="com.samsung.android.settings.asbase.vibration.VirtualVibrationSoundPreferenceController" />
+
 </PreferenceScreen>

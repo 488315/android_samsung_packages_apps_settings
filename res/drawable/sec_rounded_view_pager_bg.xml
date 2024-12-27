@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <stroke android:width="2.0dip" android:color="@android:color/transparent" />
-    <corners android:radius="@dimen/sec_suggestion_card_rounded_corner_size" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <stroke
+        android:width="2.0dip"
+        android:color="@android:color/transparent" />
+
+    <corners
+        android:radius="@dimen/sec_suggestion_card_rounded_corner_size" />
+
 </shape>

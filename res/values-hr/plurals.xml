@@ -1,703 +1,2516 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">Prije %d dana</item>
-        <item quantity="one">Prije %d dan</item>
-        <item quantity="few">Prije %d dana</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">Prije %d min</item>
-        <item quantity="one">Prije %d min</item>
-        <item quantity="few">Prije %d min</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">Prije %d godina</item>
-        <item quantity="one">Prije %d godinu</item>
-        <item quantity="few">Prije %d godine</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d minuta</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d sekundi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekunda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d predmemorija aplikacija (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d predmemorija aplikacije (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$d predmemorije aplikacija (%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Arhivirati %d aplikacija?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Arhivirati %d aplikaciju?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Arhivirati %d aplikacije?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Arhiviraj %1$d aplikacija (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Arhiviraj %1$d aplikaciju (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Arhiviraj %1$d aplikacije (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Izbrisati predmemoriju za %d aplikacija?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrisati predmemoriju za %d aplikaciju?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Izbrisati predmemoriju za %d aplikacije?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Izbriši %1$d predmemorija (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbriši %1$d predmemoriju (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Izbriši %1$d predmemorije (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">Odabrano: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odabrano: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odabrano: %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Oslobodite do %1$s prostora arhiviranjem %2$d nekorištenih aplikacija. Vaši osobni podaci i postavke bit će spremljeni.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Oslobodite do %1$s prostora arhiviranjem %2$d nekorištene aplikacije. Vaši osobni podaci i postavke bit će spremljeni.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Oslobodite do %1$s prostora arhiviranjem %2$d nekorištene aplikacije. Vaši osobni podaci i postavke bit će spremljeni.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Deinstalirati %d aplikacija?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Deinstalirati %d aplikaciju?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Deinstalirati %d aplikacije?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Deinstaliraj %1$d aplikacija (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Deinstaliraj %1$d aplikaciju (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Deinstaliraj %1$d aplikacije (+%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d nekorištenih aplikacija (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d nekorištena aplikacija (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$d nekorištene aplikacije (%2$s)</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Dijeljenje internetske veze s %d uređaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dijeljenje internetske veze s %d uređajem.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Dijeljenje internetske veze s %d uređaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d dan/a</item>
-        <item quantity="one">1 dan</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d sati</item>
-        <item quantity="one">1 sat</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d min</item>
-        <item quantity="one">1 min</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d sekundi</item>
-        <item quantity="one">1 sek</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d tjed.</item>
-        <item quantity="one">1 tj</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d sati</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d sata</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d minuta</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d sekundi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sekunda</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Ako izbrišete ova mjesta, biometrija i sigurnosna odgoda uvijek će biti potrebne za mijenjanje osjetljivih postavki.</item>
-        <item quantity="one">Ako izbrišete ovo mjesto, biometrija i sigurnosna odgoda uvijek će biti potrebne za mijenjanje osjetljivih postavki.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Izbrisati %d mjesta?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrisati %d mjesto?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Izbrisati %d mjesta?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">Broj odabranih stavki: %d</item>
-        <item quantity="one">1 odabrana</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s i još %2$d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s i još %2$d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s i još %2$d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Nije moguće unijeti više od %d znakova.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Nije moguće unijeti više od %d znaka.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Nije moguće unijeti više od %d znaka.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d novih obavijesti</item>
-        <item quantity="one">%d nova obavijest</item>
-        <item quantity="few">%d nove obavijesti</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Tijekom posljednjih %d sati nije upotrijebljena memorija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tijekom posljednjeg %d sata nije upotrijebljena memorija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Tijekom posljednja %d sata nije upotrijebljena memorija</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d obavijesti</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d obavijest</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d obavijesti</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Podsjetnik svakih %d minuta za obavijesti odabranih aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Podsjetnik svaku %d minutu za obavijesti odabranih aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Podsjetnik svake %d minute za obavijesti odabranih aplikacija</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Do %d aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Do %d aplikacije</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Do %d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s i %2$d drugih aplikacija upotrebljavaju pristupne ključeve i automatski unos lozinke i drugih podataka.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s i %2$d druga aplikacija upotrebljavaju pristupne ključeve i automatski unos lozinke i drugih podataka.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s i %2$d druge aplikacije upotrebljavaju pristupne ključeve i automatski unos lozinke i drugih podataka.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%2$d aplikacija upotrijebilo je dopuštenje %1$s</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$d aplikacija upotrijebila je dopuštenje %1$s</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%2$d aplikacije upotrijebile su dopuštenje %1$s</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d funkcija pristupačnosti u upotrebi</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d funkcija pristupačnosti u upotrebi</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d funkcije pristupačnosti u upotrebi</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Ukloniti %d jezika?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ukloniti %d jezik?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Ukloniti %d jezika?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d aplikacija ima pun pristup vašem telefonu</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aplikacija ima pun pristup vašem telefonu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aplikacije imaju pun pristup vašem telefonu</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Telefon će se automatski isključiti za %d sekundi. Da bi telefon ovaj put ostao uključen, dodirnite Odustani.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Telefon će se automatski isključiti za %d sekundu. Da bi telefon ovaj put ostao uključen, dodirnite Odustani.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Telefon će se automatski isključiti za %d sekunde. Da bi telefon ovaj put ostao uključen, dodirnite Odustani.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Tablet će se automatski isključiti za %d sekundi. Da bi tablet ovaj put ostao uključen, dodirnite Odustani.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Tablet će se automatski isključiti za %d sekundu. Da bi tablet ovaj put ostao uključen, dodirnite Odustani.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Tablet će se automatski isključiti za %d sekunde. Da bi tablet ovaj put ostao uključen, dodirnite Odustani.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Svakih %d sati</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Svaki %d sat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Svaka %d sata</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Lozinka mora sadržavati najmanje %d znakova, uključujući barem 1 slovo.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Lozinka mora sadržavati najmanje %d znak, uključujući barem 1 slovo.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Lozinka mora sadržavati najmanje %d znaka, uključujući barem 1 slovo.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">PIN mora sadržavati barem %d znamenki.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">PIN mora sadržavati barem %d znamenku.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">PIN mora sadržavati barem %d znamenke.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Pokušajte ponovno za 1 sat i %d minuta</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pokušajte ponovno za 1 sat i %d minutu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pokušajte ponovno za 1 sat i %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Pokušajte ponovno za %d sati</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pokušajte ponovno za %d sat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pokušajte ponovno za %d sata</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Pokušajte ponovno za %d sati i 1 minutu</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pokušajte ponovno za %d sat i 1 minutu</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pokušajte ponovno za %d sata i 1 minutu</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Pokušajte ponovno za %d min</item>
-        <item quantity="one">Pokušajte ponovno za %d min</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Pokušajte ponovno za %d s</item>
-        <item quantity="one">Pokušajte ponovno za %d s</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Ne možete uključiti više od %d dodatnih usluga.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ne možete uključiti više od %d dodatne usluge.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Ne možete uključiti više od %d dodatne usluge.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">Dopušteno %d kontakata</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dopušten %d kontakt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Dopuštena %d kontakta</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">Dodano %d otisaka prstiju</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dodan %d otisak prsta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Dodana %d otiska prsta</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s i još %3$d aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s i još %3$d aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%1$s, %2$s i još %3$d aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Neispravna lozinka. Preostalo je %d pokušaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Neispravna lozinka. Preostao je %d pokušaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Neispravna lozinka. Preostala su %d pokušaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Neispravan uzorak. Preostalo je %d pokušaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Neispravan uzorak. Preostao je %d pokušaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Neispravan uzorak. Preostala su %d pokušaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Neispravan PIN. Preostalo je %d pokušaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Neispravan PIN. Preostao je %d pokušaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Neispravan PIN. Preostala su %d pokušaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Morate imati najmanje %d godina da biste upotrebljavali značajke napredne inteligencije Galaxy AI.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Morate imati najmanje %d godinu da biste upotrebljavali značajke napredne inteligencije Galaxy AI.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Morate imati najmanje %d godine da biste upotrebljavali značajke napredne inteligencije Galaxy AI.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Vaša lozinka mora sadržavati najmanje %d slova.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vaša lozinka mora sadržavati najmanje %d slovo.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vaša lozinka mora sadržavati najmanje %d slova.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Lozinka mora sadržavati min. %d malih slova.</item>
-        <item quantity="one">Lozinka mora sadržavati min. 1 malo slovo.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Lozinka mora sadržavati min. %d brojeva ili simbola.</item>
-        <item quantity="one">Lozinka mora sadržavati min. 1 broj ili simbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Lozinka mora sadržavati min. %d brojeva.</item>
-        <item quantity="one">Lozinka mora sadržavati min. 1 broj.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Lozinka mora sadržavati min. %d simbola.</item>
-        <item quantity="one">Lozinka mora sadržavati min. 1 simbol.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Lozinka mora sadržavati min. %d velikih slova.</item>
-        <item quantity="one">Lozinka mora sadržavati min. 1 veliko slovo.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">Još %d prijedloga</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Još %d prijedlog</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Još %d prijedloga</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aktivnih aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aktivna aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d aktivne aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Izbrisati %d jezičnih paketa?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrisati %d jezični paket?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Izbrisati %d jezična paketa?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d glasova</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d glas</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d glasa</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d dodatnih dopuštenja</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d dodatno dopuštenje</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d dodatna dopuštenja</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Još %d dodira i programer ste.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Još %d dodir i programer ste.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Još %d dodira i programer ste.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">Odabrano: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odabrano: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odabrano: %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">Otkriveno %d zlonamjernih aplikacija</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Otkrivena %d zlonamjerna aplikacija</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Otkrivene %d zlonamjerne aplikacije</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">Na telefonu je pronađeno %d zlonamjernih aplikacija. Deinstalirajte te aplikacije da biste zaštitili telefon.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Na telefonu je pronađena %d zlonamjerna aplikacija. Deinstalirajte tu aplikaciju da biste zaštitili telefon.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Na telefonu su pronađene %d zlonamjerne aplikacije. Deinstalirajte te aplikacije da biste zaštitili telefon.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">Na tabletu je pronađeno %d zlonamjernih aplikacija. Deinstalirajte te aplikacije da biste zaštitili tablet.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Na tabletu je pronađena %d zlonamjerna aplikacija. Deinstalirajte tu aplikaciju da biste zaštitili tablet.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Na tabletu su pronađene %d zlonamjerne aplikacije. Deinstalirajte te aplikacije da biste zaštitili tablet.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d prijedloga</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d prijedlog</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d prijedloga</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d upozorenja</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d upozorenje</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d upozorenja</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Vrijeme spavanja: %d sati</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vrijeme spavanja: %d sat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vrijeme spavanja: %d sata</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Vrijeme spavanja: %d minuta</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Vrijeme spavanja: %d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Vrijeme spavanja: %d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Sigurnosno kopirajte neograničene podatke na %1$s do %2$d dana ili vratite podatke koje ste sigurnosno kopirali.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Sigurnosno kopirajte neograničene podatke na %1$s do %2$d dan ili vratite podatke koje ste sigurnosno kopirali.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Sigurnosno kopirajte neograničene podatke na %1$s do %2$d dana ili vratite podatke koje ste sigurnosno kopirali.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Ovaj test ponovno će se postaviti za %d sekundi.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ovaj test ponovno će se postaviti za %d sekundu.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Ovaj test ponovno će se postaviti za %d sekunde.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">Povezano %d uređaja</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Povezan %d uređaj</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Povezana %d uređaja</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vašeg telefona za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke vašeg telefona za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke vašeg tableta za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vezu vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vezu vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vezu vašeg tableta za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d članova</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d član</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d člana</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Izbrisati %d mreža?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Izbrisati %d mrežu?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Izbrisati %d mreže?</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">Odabrano: %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Odabrano: %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Odabrano: %d</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Zabilježeno je %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Zabilježen je %d pokušaj otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Zabilježena su %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Zabilježeno je %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Zabilježen je %d pokušaj otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">Zabilježena su %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d sati</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d sat</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d sata</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d minuta</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d minuta</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">%d minute</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+Prije %d dana</item>
+
+        <item
+            quantity="one">
+Prije %d dan</item>
+
+        <item
+            quantity="few">
+Prije %d dana</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+Prije %d min</item>
+
+        <item
+            quantity="one">
+Prije %d min</item>
+
+        <item
+            quantity="few">
+Prije %d min</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+Prije %d godina</item>
+
+        <item
+            quantity="one">
+Prije %d godinu</item>
+
+        <item
+            quantity="few">
+Prije %d godine</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d minuta</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d sekundi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekunda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d sekunde</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d predmemorija aplikacija (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d predmemorija aplikacije (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$d predmemorije aplikacija (%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Arhivirati %d aplikacija?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Arhivirati %d aplikaciju?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Arhivirati %d aplikacije?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Arhiviraj %1$d aplikacija (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Arhiviraj %1$d aplikaciju (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Arhiviraj %1$d aplikacije (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Izbrisati predmemoriju za %d aplikacija?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrisati predmemoriju za %d aplikaciju?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Izbrisati predmemoriju za %d aplikacije?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Izbriši %1$d predmemorija (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbriši %1$d predmemoriju (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Izbriši %1$d predmemorije (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+Odabrano: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odabrano: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odabrano: %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Oslobodite do %1$s prostora arhiviranjem %2$d nekorištenih aplikacija. Vaši osobni podaci i postavke bit će spremljeni.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Oslobodite do %1$s prostora arhiviranjem %2$d nekorištene aplikacije. Vaši osobni podaci i postavke bit će spremljeni.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Oslobodite do %1$s prostora arhiviranjem %2$d nekorištene aplikacije. Vaši osobni podaci i postavke bit će spremljeni.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Deinstalirati %d aplikacija?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Deinstalirati %d aplikaciju?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Deinstalirati %d aplikacije?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Deinstaliraj %1$d aplikacija (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Deinstaliraj %1$d aplikaciju (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Deinstaliraj %1$d aplikacije (+%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d nekorištenih aplikacija (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d nekorištena aplikacija (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$d nekorištene aplikacije (%2$s)</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Dijeljenje internetske veze s %d uređaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dijeljenje internetske veze s %d uređajem.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Dijeljenje internetske veze s %d uređaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d dan/a</item>
+
+        <item
+            quantity="one">
+1 dan</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d sati</item>
+
+        <item
+            quantity="one">
+1 sat</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d min</item>
+
+        <item
+            quantity="one">
+1 min</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d sekundi</item>
+
+        <item
+            quantity="one">
+1 sek</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d tjed.</item>
+
+        <item
+            quantity="one">
+1 tj</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d sati</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d sata</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d minuta</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d sekundi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sekunda</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d sekunde</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Ako izbrišete ova mjesta, biometrija i sigurnosna odgoda uvijek će biti potrebne za mijenjanje osjetljivih postavki.</item>
+
+        <item
+            quantity="one">
+Ako izbrišete ovo mjesto, biometrija i sigurnosna odgoda uvijek će biti potrebne za mijenjanje osjetljivih postavki.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Izbrisati %d mjesta?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrisati %d mjesto?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Izbrisati %d mjesta?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+Broj odabranih stavki: %d</item>
+
+        <item
+            quantity="one">
+1 odabrana</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s i još %2$d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s i još %2$d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s i još %2$d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Nije moguće unijeti više od %d znakova.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Nije moguće unijeti više od %d znaka.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Nije moguće unijeti više od %d znaka.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d novih obavijesti</item>
+
+        <item
+            quantity="one">
+%d nova obavijest</item>
+
+        <item
+            quantity="few">
+%d nove obavijesti</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Tijekom posljednjih %d sati nije upotrijebljena memorija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tijekom posljednjeg %d sata nije upotrijebljena memorija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Tijekom posljednja %d sata nije upotrijebljena memorija</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d obavijesti</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d obavijest</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d obavijesti</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Podsjetnik svakih %d minuta za obavijesti odabranih aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Podsjetnik svaku %d minutu za obavijesti odabranih aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Podsjetnik svake %d minute za obavijesti odabranih aplikacija</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Do %d aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Do %d aplikacije</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Do %d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s i %2$d drugih aplikacija upotrebljavaju pristupne ključeve i automatski unos lozinke i drugih podataka.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s i %2$d druga aplikacija upotrebljavaju pristupne ključeve i automatski unos lozinke i drugih podataka.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s i %2$d druge aplikacije upotrebljavaju pristupne ključeve i automatski unos lozinke i drugih podataka.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%2$d aplikacija upotrijebilo je dopuštenje %1$s</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$d aplikacija upotrijebila je dopuštenje %1$s</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%2$d aplikacije upotrijebile su dopuštenje %1$s</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d funkcija pristupačnosti u upotrebi</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d funkcija pristupačnosti u upotrebi</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d funkcije pristupačnosti u upotrebi</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Ukloniti %d jezika?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ukloniti %d jezik?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Ukloniti %d jezika?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d aplikacija ima pun pristup vašem telefonu</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aplikacija ima pun pristup vašem telefonu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aplikacije imaju pun pristup vašem telefonu</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Telefon će se automatski isključiti za %d sekundi. Da bi telefon ovaj put ostao uključen, dodirnite Odustani.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Telefon će se automatski isključiti za %d sekundu. Da bi telefon ovaj put ostao uključen, dodirnite Odustani.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Telefon će se automatski isključiti za %d sekunde. Da bi telefon ovaj put ostao uključen, dodirnite Odustani.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Tablet će se automatski isključiti za %d sekundi. Da bi tablet ovaj put ostao uključen, dodirnite Odustani.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Tablet će se automatski isključiti za %d sekundu. Da bi tablet ovaj put ostao uključen, dodirnite Odustani.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Tablet će se automatski isključiti za %d sekunde. Da bi tablet ovaj put ostao uključen, dodirnite Odustani.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Svakih %d sati</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Svaki %d sat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Svaka %d sata</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Lozinka mora sadržavati najmanje %d znakova, uključujući barem 1 slovo.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Lozinka mora sadržavati najmanje %d znak, uključujući barem 1 slovo.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Lozinka mora sadržavati najmanje %d znaka, uključujući barem 1 slovo.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+PIN mora sadržavati barem %d znamenki.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+PIN mora sadržavati barem %d znamenku.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+PIN mora sadržavati barem %d znamenke.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Pokušajte ponovno za 1 sat i %d minuta</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pokušajte ponovno za 1 sat i %d minutu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pokušajte ponovno za 1 sat i %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Pokušajte ponovno za %d sati</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pokušajte ponovno za %d sat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pokušajte ponovno za %d sata</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Pokušajte ponovno za %d sati i 1 minutu</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pokušajte ponovno za %d sat i 1 minutu</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pokušajte ponovno za %d sata i 1 minutu</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Pokušajte ponovno za %d min</item>
+
+        <item
+            quantity="one">
+Pokušajte ponovno za %d min</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Pokušajte ponovno za %d s</item>
+
+        <item
+            quantity="one">
+Pokušajte ponovno za %d s</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Ne možete uključiti više od %d dodatnih usluga.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ne možete uključiti više od %d dodatne usluge.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Ne možete uključiti više od %d dodatne usluge.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+Dopušteno %d kontakata</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dopušten %d kontakt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Dopuštena %d kontakta</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+Dodano %d otisaka prstiju</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dodan %d otisak prsta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Dodana %d otiska prsta</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s i još %3$d aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s i još %3$d aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%1$s, %2$s i još %3$d aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Neispravna lozinka. Preostalo je %d pokušaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Neispravna lozinka. Preostao je %d pokušaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Neispravna lozinka. Preostala su %d pokušaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Neispravan uzorak. Preostalo je %d pokušaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Neispravan uzorak. Preostao je %d pokušaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Neispravan uzorak. Preostala su %d pokušaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Neispravan PIN. Preostalo je %d pokušaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Neispravan PIN. Preostao je %d pokušaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Neispravan PIN. Preostala su %d pokušaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Morate imati najmanje %d godina da biste upotrebljavali značajke napredne inteligencije Galaxy AI.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Morate imati najmanje %d godinu da biste upotrebljavali značajke napredne inteligencije Galaxy AI.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Morate imati najmanje %d godine da biste upotrebljavali značajke napredne inteligencije Galaxy AI.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Vaša lozinka mora sadržavati najmanje %d slova.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vaša lozinka mora sadržavati najmanje %d slovo.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vaša lozinka mora sadržavati najmanje %d slova.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Lozinka mora sadržavati min. %d malih slova.</item>
+
+        <item
+            quantity="one">
+Lozinka mora sadržavati min. 1 malo slovo.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Lozinka mora sadržavati min. %d brojeva ili simbola.</item>
+
+        <item
+            quantity="one">
+Lozinka mora sadržavati min. 1 broj ili simbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Lozinka mora sadržavati min. %d brojeva.</item>
+
+        <item
+            quantity="one">
+Lozinka mora sadržavati min. 1 broj.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Lozinka mora sadržavati min. %d simbola.</item>
+
+        <item
+            quantity="one">
+Lozinka mora sadržavati min. 1 simbol.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Lozinka mora sadržavati min. %d velikih slova.</item>
+
+        <item
+            quantity="one">
+Lozinka mora sadržavati min. 1 veliko slovo.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+Još %d prijedloga</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Još %d prijedlog</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Još %d prijedloga</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aktivnih aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aktivna aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d aktivne aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Izbrisati %d jezičnih paketa?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrisati %d jezični paket?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Izbrisati %d jezična paketa?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d glasova</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d glas</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d glasa</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d dodatnih dopuštenja</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d dodatno dopuštenje</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d dodatna dopuštenja</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Još %d dodira i programer ste.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Još %d dodir i programer ste.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Još %d dodira i programer ste.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+Odabrano: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odabrano: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odabrano: %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+Otkriveno %d zlonamjernih aplikacija</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Otkrivena %d zlonamjerna aplikacija</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Otkrivene %d zlonamjerne aplikacije</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+Na telefonu je pronađeno %d zlonamjernih aplikacija. Deinstalirajte te aplikacije da biste zaštitili telefon.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Na telefonu je pronađena %d zlonamjerna aplikacija. Deinstalirajte tu aplikaciju da biste zaštitili telefon.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Na telefonu su pronađene %d zlonamjerne aplikacije. Deinstalirajte te aplikacije da biste zaštitili telefon.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+Na tabletu je pronađeno %d zlonamjernih aplikacija. Deinstalirajte te aplikacije da biste zaštitili tablet.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Na tabletu je pronađena %d zlonamjerna aplikacija. Deinstalirajte tu aplikaciju da biste zaštitili tablet.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Na tabletu su pronađene %d zlonamjerne aplikacije. Deinstalirajte te aplikacije da biste zaštitili tablet.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d prijedloga</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d prijedlog</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d prijedloga</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d upozorenja</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d upozorenje</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d upozorenja</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Vrijeme spavanja: %d sati</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vrijeme spavanja: %d sat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vrijeme spavanja: %d sata</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Vrijeme spavanja: %d minuta</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Vrijeme spavanja: %d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Vrijeme spavanja: %d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Sigurnosno kopirajte neograničene podatke na %1$s do %2$d dana ili vratite podatke koje ste sigurnosno kopirali.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Sigurnosno kopirajte neograničene podatke na %1$s do %2$d dan ili vratite podatke koje ste sigurnosno kopirali.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Sigurnosno kopirajte neograničene podatke na %1$s do %2$d dana ili vratite podatke koje ste sigurnosno kopirali.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Ovaj test ponovno će se postaviti za %d sekundi.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ovaj test ponovno će se postaviti za %d sekundu.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Ovaj test ponovno će se postaviti za %d sekunde.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+Povezano %d uređaja</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Povezan %d uređaj</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Povezana %d uređaja</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vašeg telefona za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke vašeg telefona za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pretvorite telefon u Wi-Fi pristupnu točku. Mobilne podatke vašeg telefona za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke vašeg tableta za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vezu vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugih uređaja.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vezu vašeg tableta za pristup internetu moći će upotrebljavati najviše %d drugi uređaj.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Pretvorite tablet u Wi-Fi pristupnu točku. Mobilne podatke ili Wi-Fi vezu vašeg tableta za pristup internetu moći će upotrebljavati najviše %d druga uređaja.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d članova</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d član</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d člana</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Izbrisati %d mreža?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Izbrisati %d mrežu?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Izbrisati %d mreže?</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+Odabrano: %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Odabrano: %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Odabrano: %d</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Zabilježeno je %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Zabilježen je %d pokušaj otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Zabilježena su %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj telefon vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Zabilježen je 1 pokušaj otključavanja vašeg radnog profila. Imate još %d pokušaja, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Zabilježeno je %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Zabilježen je %d pokušaj otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+Zabilježena su %d pokušaja otključavanja vašeg radnog profila. Imate još 1 pokušaj, nakon čega će se ovaj tablet vratiti na tvorničke postavke, a svi se podaci izbrisati.</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d sati</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d sat</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d sata</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d minuta</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d minuta</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+%d minute</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

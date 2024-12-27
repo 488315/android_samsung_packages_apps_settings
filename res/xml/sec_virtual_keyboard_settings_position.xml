@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/show_keyboard_button_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference android:title="@string/navigationbar_choose_keyboard_button_position" android:selectable="false" android:key="SETTINGS_KEYBOARD_BUTTON_LOCATION" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/navigationbar_show_on_left_side" android:key="SETTINGS_KEYBOARD_BUTTON_LEFT" settings:searchable="false" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/navigationbar_show_on_right_side" android:key="SETTINGS_KEYBOARD_BUTTON_RIGHT" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/show_keyboard_button_title">
+
+    <com.samsung.android.settings.accessibility.base.widget.DescriptionPreference
+        android:title="@string/navigationbar_choose_keyboard_button_position"
+        android:selectable="false"
+        android:key="SETTINGS_KEYBOARD_BUTTON_LOCATION" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/navigationbar_show_on_left_side"
+        android:key="SETTINGS_KEYBOARD_BUTTON_LEFT"
+        settings:searchable="false" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/navigationbar_show_on_right_side"
+        android:key="SETTINGS_KEYBOARD_BUTTON_RIGHT"
+        settings:searchable="false" />
+
 </PreferenceScreen>

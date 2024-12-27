@@ -1,41 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.samsung.android.settings.asbase.widget.SecSoundMode android:orientation="vertical" android:id="@id/sound_mode" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="13.0sp" android:textColor="@color/sec_sound_routines_volume_color" android:gravity="end|center" android:paddingTop="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="35.0dip" android:text="@string/sec_sound_mode" android:fontFamily="sec" android:layout_marginHorizontal="24.0dip" android:textFontWeight="600" />
-    <LinearLayout android:orientation="vertical" android:id="@id/sound_mode_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_routine_sound_mode_view_padding_start_end" android:paddingEnd="@dimen/sec_routine_sound_mode_view_padding_start_end">
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/low_button" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_routine_sound_mode_view_padding_top_bottom" android:paddingBottom="@dimen/sec_routine_sound_mode_view_padding_top_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <FrameLayout android:layout_gravity="center" android:focusable="false" android:layout_width="@dimen/sec_routine_sound_mode_icon_size" android:layout_height="@dimen/sec_routine_sound_mode_icon_size" android:layoutDirection="ltr">
-                        <ImageView android:id="@id/volume_normal_icon" android:layout_width="14.0dip" android:layout_height="fill_parent" android:src="@drawable/tw_ic_audio_sound_ringtone" />
-                        <ImageView android:id="@id/volume_sound_icon_wave_s" android:layout_width="4.0dip" android:layout_height="fill_parent" android:src="@drawable/tw_ic_audio_sound_wave_s" android:alpha="0.5" />
-                        <ImageView android:id="@id/volume_sound_icon_wave_l" android:layout_width="7.0dip" android:layout_height="fill_parent" android:src="@drawable/tw_ic_audio_sound_wave_l" android:alpha="0.5" />
+<com.samsung.android.settings.asbase.widget.SecSoundMode
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/sound_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:listSelector="#00000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13.0sp"
+        android:textColor="@color/sec_sound_routines_volume_color"
+        android:gravity="end|center"
+        android:paddingTop="13.0dip"
+        android:minHeight="35.0dip"
+        android:text="@string/sec_sound_mode"
+        android:fontFamily="sec"
+        android:layout_marginHorizontal="24.0dip"
+        android:textFontWeight="600" />
+
+    <LinearLayout
+        android:id="@id/sound_mode_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/sec_routine_sound_mode_view_padding_start_end"
+            android:paddingEnd="@dimen/sec_routine_sound_mode_view_padding_start_end">
+
+            <LinearLayout
+                android:id="@id/low_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="@dimen/sec_routine_sound_mode_view_padding_top_bottom"
+                android:paddingBottom="@dimen/sec_routine_sound_mode_view_padding_top_bottom"
+                android:focusable="true"
+                android:layout_weight="1.0">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/sec_routine_sound_mode_icon_size"
+                        android:layout_height="@dimen/sec_routine_sound_mode_icon_size"
+                        android:layout_gravity="center"
+                        android:focusable="false"
+                        android:layoutDirection="ltr">
+
+                        <ImageView
+                            android:id="@id/volume_normal_icon"
+                            android:layout_width="14.0dip"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/tw_ic_audio_sound_ringtone" />
+
+                        <ImageView
+                            android:id="@id/volume_sound_icon_wave_s"
+                            android:layout_width="4.0dip"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/tw_ic_audio_sound_wave_s"
+                            android:alpha="0.5" />
+
+                        <ImageView
+                            android:id="@id/volume_sound_icon_wave_l"
+                            android:layout_width="7.0dip"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/tw_ic_audio_sound_wave_l"
+                            android:alpha="0.5" />
+
                     </FrameLayout>
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_widget_multi_btn_preference_text_size" android:gravity="center" android:id="@id/low_button_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:fontFamily="sec" android:textFontWeight="400" />
-                <RadioButton android:gravity="center" android:id="@id/low_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/low_button_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_widget_multi_btn_preference_text_size"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:layout_marginTop="8.0dip"
+                    android:fontFamily="sec"
+                    android:textFontWeight="400" />
+
+                <RadioButton
+                    android:id="@id/low_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
-            <View android:id="@id/divider1" android:background="@color/sec_widget_multi_button_divider_color" android:layout_width="@dimen/sound_mode_preference_vertical_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/sec_routine_sound_mode_divider_margin_top" android:layout_marginBottom="@dimen/sec_routine_sound_mode_divider_margin_bottom" />
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mid_button" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_routine_sound_mode_view_padding_top_bottom" android:paddingBottom="@dimen/sec_routine_sound_mode_view_padding_top_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <ImageView android:layout_gravity="center" android:id="@id/vibrate_image_view" android:layout_width="@dimen/sec_routine_sound_mode_icon_size" android:layout_height="@dimen/sec_routine_sound_mode_icon_size" android:src="@drawable/tw_ic_audio_vibrate_mtrl" android:layoutDirection="ltr" />
+
+            <View
+                android:id="@id/divider1"
+                android:layout_width="@dimen/sound_mode_preference_vertical_divider_width"
+                android:layout_height="fill_parent"
+                android:background="@color/sec_widget_multi_button_divider_color"
+                android:layout_marginTop="@dimen/sec_routine_sound_mode_divider_margin_top"
+                android:layout_marginBottom="@dimen/sec_routine_sound_mode_divider_margin_bottom" />
+
+            <LinearLayout
+                android:id="@id/mid_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="@dimen/sec_routine_sound_mode_view_padding_top_bottom"
+                android:paddingBottom="@dimen/sec_routine_sound_mode_view_padding_top_bottom"
+                android:focusable="true"
+                android:layout_weight="1.0">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:id="@id/vibrate_image_view"
+                        android:layout_width="@dimen/sec_routine_sound_mode_icon_size"
+                        android:layout_height="@dimen/sec_routine_sound_mode_icon_size"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tw_ic_audio_vibrate_mtrl"
+                        android:layoutDirection="ltr" />
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_widget_multi_btn_preference_text_size" android:gravity="center" android:id="@id/mid_button_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:fontFamily="sec" android:textFontWeight="400" />
-                <RadioButton android:gravity="center" android:id="@id/mid_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/mid_button_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_widget_multi_btn_preference_text_size"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:layout_marginTop="8.0dip"
+                    android:fontFamily="sec"
+                    android:textFontWeight="400" />
+
+                <RadioButton
+                    android:id="@id/mid_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
-            <View android:id="@id/divider2" android:background="@color/sec_widget_multi_button_divider_color" android:layout_width="@dimen/sound_mode_preference_vertical_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/sec_routine_sound_mode_divider_margin_top" android:layout_marginBottom="@dimen/sec_routine_sound_mode_divider_margin_bottom" />
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/high_button" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_routine_sound_mode_view_padding_top_bottom" android:paddingBottom="@dimen/sec_routine_sound_mode_view_padding_top_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/sec_routine_sound_mode_icon_size" android:layout_height="@dimen/sec_routine_sound_mode_icon_size" android:layoutDirection="ltr">
-                        <ImageView android:id="@id/mute_image_view" android:layout_width="@dimen/sec_routine_sound_mode_icon_size" android:layout_height="@dimen/sec_routine_sound_mode_icon_size" android:src="@drawable/tw_ic_audio_mute_mtrl" android:scaleType="centerInside" />
-                        <FrameLayout android:layout_gravity="center" android:id="@id/volume_splash_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rotation="45.0">
-                            <ImageView android:layout_gravity="center" android:id="@id/volume_icon_mute_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_ic_audio_mute_splash" />
+
+            <View
+                android:id="@id/divider2"
+                android:layout_width="@dimen/sound_mode_preference_vertical_divider_width"
+                android:layout_height="fill_parent"
+                android:background="@color/sec_widget_multi_button_divider_color"
+                android:layout_marginTop="@dimen/sec_routine_sound_mode_divider_margin_top"
+                android:layout_marginBottom="@dimen/sec_routine_sound_mode_divider_margin_bottom" />
+
+            <LinearLayout
+                android:id="@id/high_button"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:selectableItemBackground"
+                android:paddingTop="@dimen/sec_routine_sound_mode_view_padding_top_bottom"
+                android:paddingBottom="@dimen/sec_routine_sound_mode_view_padding_top_bottom"
+                android:focusable="true"
+                android:layout_weight="1.0">
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/sec_routine_sound_mode_icon_size"
+                        android:layout_height="@dimen/sec_routine_sound_mode_icon_size"
+                        android:layout_gravity="center"
+                        android:layoutDirection="ltr">
+
+                        <ImageView
+                            android:id="@id/mute_image_view"
+                            android:layout_width="@dimen/sec_routine_sound_mode_icon_size"
+                            android:layout_height="@dimen/sec_routine_sound_mode_icon_size"
+                            android:src="@drawable/tw_ic_audio_mute_mtrl"
+                            android:scaleType="centerInside" />
+
+                        <FrameLayout
+                            android:id="@id/volume_splash_container"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:rotation="45.0">
+
+                            <ImageView
+                                android:id="@id/volume_icon_mute_splash"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:src="@drawable/tw_ic_audio_mute_splash" />
+
                         </FrameLayout>
+
                     </FrameLayout>
+
                 </FrameLayout>
-                <TextView android:textSize="@dimen/sec_widget_multi_btn_preference_text_size" android:gravity="center" android:id="@id/high_button_text" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:fontFamily="sec" android:textFontWeight="400" />
-                <RadioButton android:gravity="center" android:id="@id/high_button_dot" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+
+                <TextView
+                    android:id="@id/high_button_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_widget_multi_btn_preference_text_size"
+                    android:gravity="center"
+                    android:focusable="false"
+                    android:layout_marginTop="8.0dip"
+                    android:fontFamily="sec"
+                    android:textFontWeight="400" />
+
+                <RadioButton
+                    android:id="@id/high_button_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginTop="7.0dip" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </com.samsung.android.settings.asbase.widget.SecSoundMode>

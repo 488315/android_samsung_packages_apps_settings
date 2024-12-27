@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/sec_widget_description_text_side_padding" android:paddingEnd="@dimen/sec_widget_description_text_side_padding">
-        <TextView android:id="@id/title" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@android:color/transparent" style="@style/body_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:minHeight="?android:listPreferredItemHeightSmall"
+        android:paddingStart="@dimen/sec_widget_description_text_side_padding"
+        android:paddingEnd="@dimen/sec_widget_description_text_side_padding">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:backgroundTint="@android:color/transparent"
+            style="@style/body_text_style" />
+
     </LinearLayout>
+
 </LinearLayout>

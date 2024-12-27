@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/sec_ic_wifi_ap_pause" android:id="@id/pause_button" android:title="@string/wifi_ap_pause_sharing" app:showAsAction="always" />
-    <item android:icon="@drawable/sec_ic_wifi_ap_resume" android:id="@id/resume_button" android:title="@string/wifi_ap_resume_sharing" app:showAsAction="always" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/pause_button"
+        android:icon="@drawable/sec_ic_wifi_ap_pause"
+        android:title="@string/wifi_ap_pause_sharing"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@id/resume_button"
+        android:icon="@drawable/sec_ic_wifi_ap_resume"
+        android:title="@string/wifi_ap_resume_sharing"
+        app:showAsAction="always" />
+
 </menu>

@@ -1,16 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/private_space_title" android:key="private_space_title" settings:searchable="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.TopIntroPreference android:title="@string/private_space_description" android:key="private_space_description" settings:searchable="false" />
-    <PreferenceCategory android:title="@string/private_space_category_lock">
-        <Preference android:title="@string/private_space_lock_title" android:key="private_space_use_one_lock" android:fragment="com.android.settings.privatespace.onelock.UseOneLockSettingsFragment" settings:controller="com.android.settings.privatespace.onelock.UseOneLockController" settings:searchable="false" />
-        <Preference android:title="@string/private_space_auto_lock_title" android:key="private_space_auto_lock" android:fragment="com.android.settings.privatespace.autolock.AutoLockSettingsFragment" settings:controller="com.android.settings.privatespace.autolock.AutoLockPreferenceController" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/private_space_title"
+    android:key="private_space_title"
+    settings:searchable="false">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/private_space_description"
+        android:key="private_space_description"
+        settings:searchable="false" />
+
+    <PreferenceCategory
+        android:title="@string/private_space_category_lock">
+
+        <Preference
+            android:title="@string/private_space_lock_title"
+            android:key="private_space_use_one_lock"
+            android:fragment="com.android.settings.privatespace.onelock.UseOneLockSettingsFragment"
+            settings:controller="com.android.settings.privatespace.onelock.UseOneLockController"
+            settings:searchable="false" />
+
+        <Preference
+            android:title="@string/private_space_auto_lock_title"
+            android:key="private_space_auto_lock"
+            android:fragment="com.android.settings.privatespace.autolock.AutoLockSettingsFragment"
+            settings:controller="com.android.settings.privatespace.autolock.AutoLockPreferenceController"
+            settings:searchable="false" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/private_space_category_hide">
-        <Preference android:title="@string/private_space_hide_page_title" android:key="private_space_hidden" android:fragment="com.android.settings.privatespace.HidePrivateSpaceSettings" settings:controller="com.android.settings.privatespace.HidePrivateSpaceSummaryController" settings:searchable="false" />
+
+    <PreferenceCategory
+        android:title="@string/private_space_category_hide">
+
+        <Preference
+            android:title="@string/private_space_hide_page_title"
+            android:key="private_space_hidden"
+            android:fragment="com.android.settings.privatespace.HidePrivateSpaceSettings"
+            settings:controller="com.android.settings.privatespace.HidePrivateSpaceSummaryController"
+            settings:searchable="false" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/private_space_category_system">
-        <Preference android:title="@string/private_space_delete_title" android:key="private_space_delete" settings:controller="com.android.settings.privatespace.delete.DeletePrivateSpaceController" settings:searchable="false" />
+
+    <PreferenceCategory
+        android:title="@string/private_space_category_system">
+
+        <Preference
+            android:title="@string/private_space_delete_title"
+            android:key="private_space_delete"
+            settings:controller="com.android.settings.privatespace.delete.DeletePrivateSpaceController"
+            settings:searchable="false" />
+
     </PreferenceCategory>
-    <com.android.settingslib.widget.FooterPreference android:title="@string/private_space_settings_footer_text" android:selectable="false" android:key="private_space_footer" settings:controller="com.android.settings.privatespace.PrivateSpaceFooterPreferenceController" settings:searchable="false" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:title="@string/private_space_settings_footer_text"
+        android:selectable="false"
+        android:key="private_space_footer"
+        settings:controller="com.android.settings.privatespace.PrivateSpaceFooterPreferenceController"
+        settings:searchable="false" />
+
 </PreferenceScreen>

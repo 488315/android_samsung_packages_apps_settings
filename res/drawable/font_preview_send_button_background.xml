@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="oval"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/font_preview_send_button_background_size" android:width="@dimen/font_preview_send_button_background_size" />
-    <solid android:color="@color/font_preview_send_button_background_color" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <size
+        android:height="@dimen/font_preview_send_button_background_size"
+        android:width="@dimen/font_preview_send_button_background_size" />
+
+    <solid
+        android:color="@color/font_preview_send_button_background_color" />
+
 </shape>

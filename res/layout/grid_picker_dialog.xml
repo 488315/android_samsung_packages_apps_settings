@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:scrollbarStyle="outsideInset" android:gravity="center_horizontal" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="16.0dip" android:verticalSpacing="12.0dip" android:stretchMode="columnWidth" android:columnWidth="96.0dip" android:numColumns="auto_fit" android:scrollIndicators="bottom|top" />
-    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="300.0dip" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="16.0dip"
+    android:paddingStart="24.0dip">
+
+    <GridView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="outsideInset"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="16.0dip"
+        android:verticalSpacing="12.0dip"
+        android:stretchMode="columnWidth"
+        android:columnWidth="96.0dip"
+        android:numColumns="auto_fit"
+        android:scrollIndicators="bottom|top" />
+
+    <View
+        android:layout_width="0.0dip"
+        android:layout_height="300.0dip"
+        android:visibility="invisible" />
+
 </FrameLayout>

@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center" android:id="@id/sec_dynamic_app_bar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/sec_dynamic_app_bar_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sesl_appbar_extended_title_padding">
-        <androidx.typoanimation.TypoAnimationView android:textAppearance="@style/TextAppearance.SecDynamicAppBarTitle" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/sec_dynamic_app_bar_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:textAlignment="center" android:hyphenationFrequency="normal" app:progress="0.0" />
-        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/sec_dynamic_app_bar_button_container" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <Button android:id="@id/sec_dynamic_app_bar_later" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_dynamic_action_bar_later_button" style="@style/Widget.SecDynamicAppBar.Button" />
-            <Space android:layout_width="8.0dip" android:layout_height="fill_parent" />
-            <Button android:id="@id/sec_dynamic_app_bar_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_dynamic_action_bar_open_button" style="@style/Widget.SecDynamicAppBar.Button" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/sec_dynamic_app_bar_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@id/sec_dynamic_app_bar_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/sesl_appbar_extended_title_padding">
+
+        <androidx.typoanimation.TypoAnimationView
+            android:id="@id/sec_dynamic_app_bar_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.SecDynamicAppBarTitle"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:hyphenationFrequency="normal"
+            app:progress="0.0" />
+
+        <LinearLayout
+            android:id="@id/sec_dynamic_app_bar_button_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="4.0dip">
+
+            <Button
+                android:id="@id/sec_dynamic_app_bar_later"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sec_dynamic_action_bar_later_button"
+                style="@style/Widget.SecDynamicAppBar.Button" />
+
+            <Space
+                android:layout_width="8.0dip"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:id="@id/sec_dynamic_app_bar_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sec_dynamic_action_bar_open_button"
+                style="@style/Widget.SecDynamicAppBar.Button" />
+
         </LinearLayout>
+
     </LinearLayout>
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/sec_collapsing_appbar_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@id/sec_collapsing_appbar_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
 </FrameLayout>

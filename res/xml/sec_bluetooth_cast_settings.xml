@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_bluetooth_cast_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_bluetooth_cast_help" android:selectable="false" android:key="bluetooth_cast_help_image" android:order="100" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:selectable="false" android:key="bluetooth_cast_description" android:order="300" />
-    <SecDropDownPreference android:entries="@array/bluetooth_cast_mode_entries" android:title="@string/sec_bluetooth_cast_option_range_title" android:key="mode_sharing_setting" android:order="400" android:entryValues="@array/bluetooth_cast_mode_entry_values" />
-    <SecDropDownPreference android:entries="@array/bluetooth_cast_perm_entries" android:title="@string/sec_bluetooth_cast_option_permission_title" android:key="perm_sharing_setting" android:order="500" android:entryValues="@array/bluetooth_cast_perm_entry_values" />
-    <SecDropDownPreference android:entries="@array/bluetooth_cast_timeout_entries" android:title="@string/sec_bluetooth_cast_option_timeout_title" android:key="timeout_sharing_setting" android:order="600" android:entryValues="@array/bluetooth_cast_timeout_entry_values" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_bluetooth_cast_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_bluetooth_cast_help"
+        android:selectable="false"
+        android:key="bluetooth_cast_help_image"
+        android:order="100" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:selectable="false"
+        android:key="bluetooth_cast_description"
+        android:order="300" />
+
+    <SecDropDownPreference
+        android:entries="@array/bluetooth_cast_mode_entries"
+        android:title="@string/sec_bluetooth_cast_option_range_title"
+        android:key="mode_sharing_setting"
+        android:order="400"
+        android:entryValues="@array/bluetooth_cast_mode_entry_values" />
+
+    <SecDropDownPreference
+        android:entries="@array/bluetooth_cast_perm_entries"
+        android:title="@string/sec_bluetooth_cast_option_permission_title"
+        android:key="perm_sharing_setting"
+        android:order="500"
+        android:entryValues="@array/bluetooth_cast_perm_entry_values" />
+
+    <SecDropDownPreference
+        android:entries="@array/bluetooth_cast_timeout_entries"
+        android:title="@string/sec_bluetooth_cast_option_timeout_title"
+        android:key="timeout_sharing_setting"
+        android:order="600"
+        android:entryValues="@array/bluetooth_cast_timeout_entry_values" />
+
 </PreferenceScreen>

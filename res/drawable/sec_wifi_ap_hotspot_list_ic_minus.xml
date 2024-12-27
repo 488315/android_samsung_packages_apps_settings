@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/sec_tw_item_background_borderless_material">
-        <shape android:shape="oval" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/sec_tw_item_background_borderless_material">
+
+        <shape
+            android:shape="oval" />
+
     </item>
-    <item android:gravity="center">
-        <bitmap android:gravity="center" android:src="@drawable/sec_tw_list_icon_minus" android:tint="@color/sec_wifi_ap_hotspot_list_ic_minus_color" />
+
+    <item
+        android:gravity="center">
+
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/sec_tw_list_icon_minus"
+            android:tint="@color/sec_wifi_ap_hotspot_list_ic_minus_color" />
+
     </item>
+
 </layer-list>

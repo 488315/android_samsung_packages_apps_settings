@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <group android:id="@id/as_menu">
-        <item android:id="@id/clear_app_cache" android:visible="false" android:title="@string/as_menu_clear_cache" />
-        <item android:id="@id/cancel" android:visible="false" android:title="@string/as_dialog_cancel" app:showAsAction="always" />
-        <item android:id="@id/uninstall" android:visible="false" android:title="@string/as_menu_uninstall" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@id/as_menu">
+
+        <item
+            android:id="@id/clear_app_cache"
+            android:visible="false"
+            android:title="@string/as_menu_clear_cache" />
+
+        <item
+            android:id="@id/cancel"
+            android:visible="false"
+            android:title="@string/as_dialog_cancel"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@id/uninstall"
+            android:visible="false"
+            android:title="@string/as_menu_uninstall" />
+
     </group>
+
 </menu>

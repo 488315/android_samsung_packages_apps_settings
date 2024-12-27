@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/noti_main" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_notification_app_type_top" android:paddingBottom="@dimen/sec_widget_multi_radio_btn_preference_padding_bottom" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end" android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/noti_card_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/noti_type_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/sec_widget_horizontal_radio_preference_icon_min_width" android:minHeight="@dimen/sec_widget_horizontal_radio_preference_icon_min_height" />
-        <TextView android:textSize="@dimen/sec_tips_description_text_size" android:textColor="@color/sec_widget_seekbar_preference_label_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/noti_type" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" android:fontFamily="sec" android:textFontWeight="400" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/noti_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/sec_notification_app_type_top"
+    android:paddingBottom="@dimen/sec_widget_multi_radio_btn_preference_padding_bottom"
+    android:focusable="true"
+    android:clickable="true"
+    android:paddingStart="@dimen/sec_widget_multi_btn_preference_padding_start_end"
+    android:paddingEnd="@dimen/sec_widget_multi_btn_preference_padding_start_end">
+
+    <LinearLayout
+        android:id="@id/noti_card_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/noti_type_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:minWidth="@dimen/sec_widget_horizontal_radio_preference_icon_min_width"
+            android:minHeight="@dimen/sec_widget_horizontal_radio_preference_icon_min_height" />
+
+        <TextView
+            android:id="@id/noti_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sec_tips_description_text_size"
+            android:textColor="@color/sec_widget_seekbar_preference_label_text_color"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:focusable="false"
+            android:maxLines="2"
+            android:lines="2"
+            android:fontFamily="sec"
+            android:textFontWeight="400" />
+
     </LinearLayout>
-    <CheckBox android:gravity="center" android:id="@id/radio_button" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_multi_btn_radio_preference_padding_bottom" />
+
+    <CheckBox
+        android:id="@id/radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_marginTop="@dimen/sec_widget_multi_btn_radio_preference_padding_bottom" />
+
 </LinearLayout>

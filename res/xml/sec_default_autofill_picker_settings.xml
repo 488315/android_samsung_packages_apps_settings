@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/passwords_and_autofill" android:key="default_autofill_picker" settings:keywords="@string/autofill_keywords"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceCategory android:persistent="false" android:title="@string/autofill_passwords" android:key="passwords_category" settings:controller="com.android.settings.applications.autofill.PasswordsPreferenceController" settings:keywords="@string/autofill_keywords" />
-    <SecPreferenceCategory android:title="@string/autofill_app" android:key="autofill_category">
-        <com.samsung.android.settings.widget.SecGearPreference android:title="@string/autofill_app" android:key="default_autofill_main" android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker" settings:keywords="@string/autofill_keywords">
-            <extra android:name="for_work" android:value="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/passwords_and_autofill"
+    android:key="default_autofill_picker"
+    settings:keywords="@string/autofill_keywords">
+
+    <SecPreferenceCategory
+        android:persistent="false"
+        android:title="@string/autofill_passwords"
+        android:key="passwords_category"
+        settings:controller="com.android.settings.applications.autofill.PasswordsPreferenceController"
+        settings:keywords="@string/autofill_keywords" />
+
+    <SecPreferenceCategory
+        android:title="@string/autofill_app"
+        android:key="autofill_category">
+
+        <com.samsung.android.settings.widget.SecGearPreference
+            android:title="@string/autofill_app"
+            android:key="default_autofill_main"
+            android:fragment="com.android.settings.applications.defaultapps.DefaultAutofillPicker"
+            settings:keywords="@string/autofill_keywords">
+
+            <extra
+                android:name="for_work"
+                android:value="false" />
+
         </com.samsung.android.settings.widget.SecGearPreference>
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

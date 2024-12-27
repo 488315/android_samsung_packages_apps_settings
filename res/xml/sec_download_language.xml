@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_offline_lang_pack_title" android:selectable="false" android:key="key_description" settings:positionMode="first_item" style="@style/description_text" />
-    <PreferenceCategory android:title="@string/sec_offline_downloaded_lang_pack_title" android:key="key_downloaded_language_category" />
-    <PreferenceCategory android:title="@string/sec_offline_available_lang_pack_title" android:key="key_available_language_category" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_offline_lang_pack_title"
+        android:selectable="false"
+        android:key="key_description"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
+    <PreferenceCategory
+        android:title="@string/sec_offline_downloaded_lang_pack_title"
+        android:key="key_downloaded_language_category" />
+
+    <PreferenceCategory
+        android:title="@string/sec_offline_available_lang_pack_title"
+        android:key="key_available_language_category" />
+
 </PreferenceScreen>

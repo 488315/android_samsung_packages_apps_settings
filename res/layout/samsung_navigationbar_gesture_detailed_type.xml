@@ -1,25 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/swipe_from_bottom_container" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="?android:listPreferredItemPaddingEnd">
-                <RadioButton android:gravity="center_vertical" android:id="@id/swipe_from_bottom" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-                <TextView android:paddingTop="@dimen/sec_list_item_top_padding" android:paddingBottom="@dimen/sec_list_item_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigationbar_swipe_from_bottom" style="@style/list_title_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/swipe_from_bottom_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:listChoiceBackgroundIndicator"
+            android:focusable="true"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="?android:listPreferredItemHeightSmall"
+                android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+                <RadioButton
+                    android:id="@id/swipe_from_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+                    android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/sec_list_item_top_padding"
+                    android:paddingBottom="@dimen/sec_list_item_bottom_padding"
+                    android:text="@string/navigationbar_swipe_from_bottom"
+                    style="@style/list_title_text_style" />
+
             </LinearLayout>
-            <include layout="@layout/samsung_navigationbar_gesture_bottom" />
-            <TextView android:id="@id/navigationbar_swipe_from_bottom_textview" android:layout_width="@dimen/navigationbar_gesture_detail_preview_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/navigationbar_gesture_detail_bottom_margin" android:text="@string/navigationbar_swipe_from_bottom_description" android:layout_marginStart="@dimen/navigationbar_gesture_detail_left_margin" android:layout_marginEnd="@dimen/navigationbar_gesture_detail_right_margin" style="@style/list_summary_text_style" />
+
+            <include
+                layout="@layout/samsung_navigationbar_gesture_bottom" />
+
+            <TextView
+                android:id="@id/navigationbar_swipe_from_bottom_textview"
+                android:layout_width="@dimen/navigationbar_gesture_detail_preview_width"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/navigationbar_gesture_detail_bottom_margin"
+                android:text="@string/navigationbar_swipe_from_bottom_description"
+                android:layout_marginStart="@dimen/navigationbar_gesture_detail_left_margin"
+                android:layout_marginEnd="@dimen/navigationbar_gesture_detail_right_margin"
+                style="@style/list_summary_text_style" />
+
         </LinearLayout>
-        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_divider_height" android:paddingStart="@dimen/sec_widget_list_checkbox_width_for_divider_padding_inset">
-            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_widget_list_checkbox_width_for_divider_inset" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/sec_widget_list_divider_height"
+            android:paddingStart="@dimen/sec_widget_list_checkbox_width_for_divider_padding_inset">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="?android:listDivider"
+                android:layout_marginStart="@dimen/sec_widget_list_checkbox_width_for_divider_inset" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:id="@id/swipe_from_side_and_bottom_container" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="?android:listPreferredItemPaddingEnd">
-                <RadioButton android:gravity="center_vertical" android:id="@id/swipe_from_side_and_bottom" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-                <TextView android:paddingTop="@dimen/sec_list_item_top_padding" android:paddingBottom="@dimen/sec_list_item_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigationbar_swipe_from_side_and_bottom" style="@style/list_title_text_style" />
+
+        <LinearLayout
+            android:id="@id/swipe_from_side_and_bottom_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:listChoiceBackgroundIndicator"
+            android:focusable="true"
+            android:clickable="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="?android:listPreferredItemHeightSmall"
+                android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+                <RadioButton
+                    android:id="@id/swipe_from_side_and_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+                    android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/sec_list_item_top_padding"
+                    android:paddingBottom="@dimen/sec_list_item_bottom_padding"
+                    android:text="@string/navigationbar_swipe_from_side_and_bottom"
+                    style="@style/list_title_text_style" />
+
             </LinearLayout>
-            <include layout="@layout/samsung_navigationbar_gesture_side_and_bottom" />
-            <TextView android:id="@id/navigationbar_swipe_from_side_and_bottom_textview" android:layout_width="@dimen/navigationbar_gesture_detail_preview_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/navigationbar_gesture_detail_bottom_margin" android:text="@string/navigationbar_swipe_from_side_and_bottom_description" android:layout_marginStart="@dimen/navigationbar_gesture_detail_left_margin" android:layout_marginEnd="@dimen/navigationbar_gesture_detail_right_margin" style="@style/list_summary_text_style" />
+
+            <include
+                layout="@layout/samsung_navigationbar_gesture_side_and_bottom" />
+
+            <TextView
+                android:id="@id/navigationbar_swipe_from_side_and_bottom_textview"
+                android:layout_width="@dimen/navigationbar_gesture_detail_preview_width"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/navigationbar_gesture_detail_bottom_margin"
+                android:text="@string/navigationbar_swipe_from_side_and_bottom_description"
+                android:layout_marginStart="@dimen/navigationbar_gesture_detail_left_margin"
+                android:layout_marginEnd="@dimen/navigationbar_gesture_detail_right_margin"
+                style="@style/list_summary_text_style" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

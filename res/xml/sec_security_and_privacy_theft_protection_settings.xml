@@ -1,16 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/security_dashboard_theft_protection" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityDashboardDeviceFindersFragment" settings:topLevelPreferenceKey="top_level_security_and_privacy"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/theft_protection_main_activity_description" android:selectable="false" android:order="-1300" settings:positionMode="first_item" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/security_dashboard_theft_protection"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityDashboardDeviceFindersFragment"
+    settings:topLevelPreferenceKey="top_level_security_and_privacy">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/theft_protection_main_activity_description"
+        android:selectable="false"
+        android:order="-1300"
+        settings:positionMode="first_item"
+        settings:searchable="false" />
+
     <SecPreferenceCategory>
-        <SecPreferenceScreen android:title="@string/theft_protection_mandatory_biometric_title" android:key="mandatory_biometric_lock_onboarding" android:summary="@string/theft_protection_mandatory_biometric_summary" android:order="-1250" android:fragment="com.samsung.android.settings.theftprotection.MandatoryBiometricOnboardingFragment" settings:controller="com.samsung.android.settings.theftprotection.MandatoryBiometricOnboardingController" />
-        <SecSwitchPreferenceScreen android:title="@string/theft_protection_mandatory_biometric_title" android:key="mandatory_biometric_lock" android:summary="@string/theft_protection_mandatory_biometric_summary" android:order="-1200" android:fragment="com.samsung.android.settings.theftprotection.MandatoryBiometricFragment" settings:controller="com.samsung.android.settings.theftprotection.MandatoryBiometricController" />
+
+        <SecPreferenceScreen
+            android:title="@string/theft_protection_mandatory_biometric_title"
+            android:key="mandatory_biometric_lock_onboarding"
+            android:summary="@string/theft_protection_mandatory_biometric_summary"
+            android:order="-1250"
+            android:fragment="com.samsung.android.settings.theftprotection.MandatoryBiometricOnboardingFragment"
+            settings:controller="com.samsung.android.settings.theftprotection.MandatoryBiometricOnboardingController" />
+
+        <SecSwitchPreferenceScreen
+            android:title="@string/theft_protection_mandatory_biometric_title"
+            android:key="mandatory_biometric_lock"
+            android:summary="@string/theft_protection_mandatory_biometric_summary"
+            android:order="-1200"
+            android:fragment="com.samsung.android.settings.theftprotection.MandatoryBiometricFragment"
+            settings:controller="com.samsung.android.settings.theftprotection.MandatoryBiometricController" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:title="@string/theft_protection_screen_lock_category">
-        <SecPreference android:title="@string/theft_protection_theft_detection_lock_menu_title" android:key="key_theft_detection_lock" android:summary="@string/theft_protection_theft_detection_lock_menu_description" android:order="-1100" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardTheftProtectionDisclaimerFragment" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardTheftDetectionLockPreferenceController" />
-        <SecSwitchPreference android:title="@string/theft_protection_theft_detection_lock_menu_title" android:key="key_theft_detection_lock_switch" android:summary="@string/theft_protection_theft_detection_lock_menu_description" android:order="-1000" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardTheftDetectionSwitchController" settings:isDividerVisible="false" />
-        <SecPreference android:title="@string/theft_protection_offline_lock_menu_title" android:key="key_offline_lock" android:order="-900" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardOfflineLockDisclaimerFragment" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardOfflineLockPreferenceController" settings:summary="@string/theft_protection_offline_lock_menu_description" />
-        <SecSwitchPreference android:title="@string/theft_protection_offline_lock_menu_title" android:key="key_offline_lock_switch" android:summary="@string/theft_protection_offline_lock_menu_description" android:order="-800" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardOfflineLockSwitchController" settings:isDividerVisible="false" />
-        <SecPreference android:title="@string/theft_protection_remote_lock_menu_title" android:key="key_remote_lock" android:order="-700" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardRemoteLockPreferenceController" settings:summary="@string/theft_protection_remote_lock_menu_description" />
+
+    <SecPreferenceCategory
+        android:title="@string/theft_protection_screen_lock_category">
+
+        <SecPreference
+            android:title="@string/theft_protection_theft_detection_lock_menu_title"
+            android:key="key_theft_detection_lock"
+            android:summary="@string/theft_protection_theft_detection_lock_menu_description"
+            android:order="-1100"
+            android:fragment="com.samsung.android.settings.privacy.SecurityDashboardTheftProtectionDisclaimerFragment"
+            settings:controller="com.samsung.android.settings.privacy.SecurityDashboardTheftDetectionLockPreferenceController" />
+
+        <SecSwitchPreference
+            android:title="@string/theft_protection_theft_detection_lock_menu_title"
+            android:key="key_theft_detection_lock_switch"
+            android:summary="@string/theft_protection_theft_detection_lock_menu_description"
+            android:order="-1000"
+            settings:controller="com.samsung.android.settings.privacy.SecurityDashboardTheftDetectionSwitchController"
+            settings:isDividerVisible="false" />
+
+        <SecPreference
+            android:title="@string/theft_protection_offline_lock_menu_title"
+            android:key="key_offline_lock"
+            android:order="-900"
+            android:fragment="com.samsung.android.settings.privacy.SecurityDashboardOfflineLockDisclaimerFragment"
+            settings:controller="com.samsung.android.settings.privacy.SecurityDashboardOfflineLockPreferenceController"
+            settings:summary="@string/theft_protection_offline_lock_menu_description" />
+
+        <SecSwitchPreference
+            android:title="@string/theft_protection_offline_lock_menu_title"
+            android:key="key_offline_lock_switch"
+            android:summary="@string/theft_protection_offline_lock_menu_description"
+            android:order="-800"
+            settings:controller="com.samsung.android.settings.privacy.SecurityDashboardOfflineLockSwitchController"
+            settings:isDividerVisible="false" />
+
+        <SecPreference
+            android:title="@string/theft_protection_remote_lock_menu_title"
+            android:key="key_remote_lock"
+            android:order="-700"
+            settings:controller="com.samsung.android.settings.privacy.SecurityDashboardRemoteLockPreferenceController"
+            settings:summary="@string/theft_protection_remote_lock_menu_description" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

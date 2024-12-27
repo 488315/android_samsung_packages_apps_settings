@@ -1,16 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.Toolbar android:theme="@style/AsToolbarStyle" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
-    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/contents_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:orientation="vertical" android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <com.samsung.android.settings.analyzestorage.ui.widget.MyFilesRecyclerView android:id="@id/apps_list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_sub_app_list_activity_bottom_margin_vertical" android:layout_marginBottom="@dimen/as_sub_app_list_activity_bottom_margin_vertical" android:layout_marginStart="@dimen/as_sub_app_list_activity_bottom_margin_side" android:layout_marginEnd="@dimen/as_sub_app_list_activity_bottom_margin_side">
-                <Button android:textColor="@color/sesl_text1_dark" android:id="@id/bottom_button1" android:background="@drawable/as_sub_app_list_bottom_btn" android:visibility="visible" style="@style/AsBottomButtonStyle" />
-                <Button android:textColor="@color/as_theme_main_text_color" android:id="@id/bottom_button2" android:background="@drawable/as_contained_button_bg_theme" android:visibility="gone" android:layout_marginTop="@dimen/as_basic_contained_button_vertical_margin_top" style="@style/AsBottomButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:actionBarSize"
+        android:theme="@style/AsToolbarStyle" />
+
+    <FrameLayout
+        android:id="@id/contents_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@id/list_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.samsung.android.settings.analyzestorage.ui.widget.MyFilesRecyclerView
+                android:id="@id/apps_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+
+            <LinearLayout
+                android:id="@id/bottom_button_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/as_sub_app_list_activity_bottom_margin_vertical"
+                android:layout_marginBottom="@dimen/as_sub_app_list_activity_bottom_margin_vertical"
+                android:layout_marginStart="@dimen/as_sub_app_list_activity_bottom_margin_side"
+                android:layout_marginEnd="@dimen/as_sub_app_list_activity_bottom_margin_side">
+
+                <Button
+                    android:id="@id/bottom_button1"
+                    android:textColor="@color/sesl_text1_dark"
+                    android:background="@drawable/as_sub_app_list_bottom_btn"
+                    android:visibility="visible"
+                    style="@style/AsBottomButtonStyle" />
+
+                <Button
+                    android:id="@id/bottom_button2"
+                    android:textColor="@color/as_theme_main_text_color"
+                    android:background="@drawable/as_contained_button_bg_theme"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/as_basic_contained_button_vertical_margin_top"
+                    style="@style/AsBottomButtonStyle" />
+
             </LinearLayout>
+
         </LinearLayout>
-        <ViewStub android:id="@id/loading_view_stub" android:layout="@layout/as_loading_view_layout" android:inflatedId="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <com.samsung.android.settings.analyzestorage.ui.widget.EmptyView android:id="@id/no_item_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" />
+
+        <ViewStub
+            android:id="@id/loading_view_stub"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout="@layout/as_loading_view_layout"
+            android:inflatedId="@id/loading_view" />
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.EmptyView
+            android:id="@id/no_item_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:fillViewport="true" />
+
     </FrameLayout>
+
 </LinearLayout>

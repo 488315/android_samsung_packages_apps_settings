@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/bio_face_recognition_title" settings:hierarchicalParentFragment="com.samsung.android.settings.biometrics.BiometricsSettingsFragment"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceScreen android:title="@string/sec_face_add_face" android:key="key_facelock_register" android:order="@integer/sec_face_register_category_order_add" />
-    <SecPreferenceScreen android:title="@string/sec_face_remove_face" android:key="key_facelock_remove" android:order="@integer/sec_face_register_category_order_remove_face" />
-    <SecPreferenceScreen android:title="@string/sec_face_add_alternative_face" android:key="key_facelock_register_alternative" android:order="@integer/sec_face_register_category_order_add_alternative" />
-    <SecPreferenceScreen android:title="@string/sec_face_remove_alternative_face" android:key="key_facelock_remove_alternative" android:order="@integer/sec_face_register_category_order_remove_alternative_face" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_option" android:order="@integer/sec_face_unlock_option_category_order_inset" />
-    <com.samsung.android.settings.biometrics.BiometricsRestrictedSwitchPreference android:title="@string/sec_face_unlock_title" android:key="key_facelock_unlock" android:summary="@string/sec_face_unlock_summary_common" android:order="@integer/sec_face_unlock_option_category_order_unlock" />
-    <SwitchPreference android:title="@string/sec_biometrics_common_option_stay_on_lock_screen_switch" android:key="key_facelock_stay_on_lock_screen" android:summary="@string/sec_face_stay_on_lock_screen_summary" android:order="@integer/sec_face_unlock_option_category_order_stay_on_lock_screen" settings:keywords="@string/keywords_bio_face_stay_on_lock_screen" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="auth_option_inset" android:order="@integer/sec_face_auth_option_category_order_inset" />
-    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_face_recognize_with_mask" android:key="key_face_recognize_mask" android:summary="@string/sec_face_recognize_with_mask_summary" android:order="@integer/sec_face_auth_option_category_order_recognize_with_mask" />
-    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_face_open_eyes" android:key="key_facelock_open_eyes" android:summary="@string/sec_face_open_eyes_summary" android:order="@integer/sec_face_auth_option_category_order_open_eyes" />
-    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference android:title="@string/sec_face_brighten_screen" android:key="key_facelock_brighten_screen" android:summary="@string/sec_face_brighten_screen_summary" android:order="@integer/sec_face_auth_option_category_order_brighten_screen" settings:keywords="@string/keywords_bio_face_brighten_screen" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_face_biometrics_security_unlock" android:order="@integer/sec_face_biometrics_security_category_order_inset" />
-    <SecPreferenceScreen android:title="@string/sec_face_settings_option_about_face_recognition" android:key="key_face_about_face_recognition" android:order="@integer/sec_face_biometrics_security_category_order_about_face_recognition" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/bio_face_recognition_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.biometrics.BiometricsSettingsFragment">
+
+    <SecPreferenceScreen
+        android:title="@string/sec_face_add_face"
+        android:key="key_facelock_register"
+        android:order="@integer/sec_face_register_category_order_add" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_face_remove_face"
+        android:key="key_facelock_remove"
+        android:order="@integer/sec_face_register_category_order_remove_face" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_face_add_alternative_face"
+        android:key="key_facelock_register_alternative"
+        android:order="@integer/sec_face_register_category_order_add_alternative" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_face_remove_alternative_face"
+        android:key="key_facelock_remove_alternative"
+        android:order="@integer/sec_face_register_category_order_remove_alternative_face" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="inset_option"
+        android:order="@integer/sec_face_unlock_option_category_order_inset" />
+
+    <com.samsung.android.settings.biometrics.BiometricsRestrictedSwitchPreference
+        android:title="@string/sec_face_unlock_title"
+        android:key="key_facelock_unlock"
+        android:summary="@string/sec_face_unlock_summary_common"
+        android:order="@integer/sec_face_unlock_option_category_order_unlock" />
+
+    <SwitchPreference
+        android:title="@string/sec_biometrics_common_option_stay_on_lock_screen_switch"
+        android:key="key_facelock_stay_on_lock_screen"
+        android:summary="@string/sec_face_stay_on_lock_screen_summary"
+        android:order="@integer/sec_face_unlock_option_category_order_stay_on_lock_screen"
+        settings:keywords="@string/keywords_bio_face_stay_on_lock_screen" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="auth_option_inset"
+        android:order="@integer/sec_face_auth_option_category_order_inset" />
+
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference
+        android:title="@string/sec_face_recognize_with_mask"
+        android:key="key_face_recognize_mask"
+        android:summary="@string/sec_face_recognize_with_mask_summary"
+        android:order="@integer/sec_face_auth_option_category_order_recognize_with_mask" />
+
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference
+        android:title="@string/sec_face_open_eyes"
+        android:key="key_facelock_open_eyes"
+        android:summary="@string/sec_face_open_eyes_summary"
+        android:order="@integer/sec_face_auth_option_category_order_open_eyes" />
+
+    <com.samsung.android.settings.biometrics.fingerprint.FingerprintSwitchPreference
+        android:title="@string/sec_face_brighten_screen"
+        android:key="key_facelock_brighten_screen"
+        android:summary="@string/sec_face_brighten_screen_summary"
+        android:order="@integer/sec_face_auth_option_category_order_brighten_screen"
+        settings:keywords="@string/keywords_bio_face_brighten_screen" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="inset_face_biometrics_security_unlock"
+        android:order="@integer/sec_face_biometrics_security_category_order_inset" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_face_settings_option_about_face_recognition"
+        android:key="key_face_about_face_recognition"
+        android:order="@integer/sec_face_biometrics_security_category_order_about_face_recognition" />
+
 </PreferenceScreen>

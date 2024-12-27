@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="@dimen/basic_add_delete_button_margin_start"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <TextView android:ellipsize="marquee" android:id="@id/text_name" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="ltr" style="@style/list_title_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="@dimen/basic_add_delete_button_margin_start">
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/sesl_preference_item_padding_vertical"
+        android:paddingBottom="@dimen/sesl_preference_item_padding_vertical"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:textDirection="ltr"
+            style="@style/list_title_text_style" />
+
     </LinearLayout>
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/basic_lists_item_delete_layout" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:id="@id/btn_delete" android:tint="@color/sec_widget_account_delete_normal_color" android:contentDescription="@string/bluetooth_pairing_block_msg" style="@style/BasicDeleteButton" />
+
+    <LinearLayout
+        android:id="@id/basic_lists_item_delete_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:duplicateParentState="false">
+
+        <ImageView
+            android:id="@id/btn_delete"
+            android:tint="@color/sec_widget_account_delete_normal_color"
+            android:contentDescription="@string/bluetooth_pairing_block_msg"
+            style="@style/BasicDeleteButton" />
+
     </LinearLayout>
+
 </LinearLayout>

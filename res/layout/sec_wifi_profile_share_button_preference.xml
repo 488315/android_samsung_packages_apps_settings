@@ -1,13 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@color/sec_widget_round_and_bgcolor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/profile_share_animation_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/shared_password_container" android:background="@drawable/sec_wifi_default_round_button_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/sec_widget_round_button_min_width">
-            <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center_vertical" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/sec_wifi_button_progress_size" android:layout_height="@dimen/sec_wifi_button_progress_size" />
-            <TextView android:textSize="@dimen/sec_widget_round_button_text_size" android:textColor="@color/sec_widget_gray_round_button_text_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_profile_share_request_button" android:fontFamily="sec" android:textFontWeight="600" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:focusable="false"
+    android:clickable="false"
+    android:minHeight="?android:listPreferredItemHeight">
+
+    <LinearLayout
+        android:id="@id/profile_share_animation_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/shared_password_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/sec_wifi_default_round_button_background"
+            android:focusable="true"
+            android:clickable="true"
+            android:minWidth="@dimen/sec_widget_round_button_min_width">
+
+            <androidx.appcompat.widget.SeslProgressBar
+                android:id="@id/progress_bar"
+                android:layout_width="@dimen/sec_wifi_button_progress_size"
+                android:layout_height="@dimen/sec_wifi_button_progress_size"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_widget_round_button_text_size"
+                android:textColor="@color/sec_widget_gray_round_button_text_color"
+                android:text="@string/wifi_profile_share_request_button"
+                android:fontFamily="sec"
+                android:textFontWeight="600" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/wifi_preference_description_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_wifi_activity_edit_text_padding_start" android:paddingEnd="@dimen/sec_wifi_activity_edit_text_padding_start">
-            <TextView android:textSize="@dimen/sec_no_item_sub_text_size" android:textColor="@color/sec_wifi_description_preference_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_profile_share_subscriber_description" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_wifi_activity_label_padding_start" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/sec_widget_round_and_bgcolor"
+            android:paddingTop="@dimen/wifi_preference_description_padding_top"
+            android:paddingStart="@dimen/sec_wifi_activity_edit_text_padding_start"
+            android:paddingEnd="@dimen/sec_wifi_activity_edit_text_padding_start">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_no_item_sub_text_size"
+                android:textColor="@color/sec_wifi_description_preference_text_color"
+                android:layout_gravity="center"
+                android:text="@string/wifi_profile_share_subscriber_description"
+                android:textAlignment="viewStart"
+                android:paddingStart="@dimen/sec_wifi_activity_label_padding_start" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

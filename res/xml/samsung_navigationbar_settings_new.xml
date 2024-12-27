@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/navigationbar_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.navigationbar.NavigationBarGesturePreference android:layout="@layout/samsung_navigationbar_gesture_preference_new" android:title="@string/keywords_navigation_type" android:selectable="false" android:key="gesture_preview" android:order="40" settings:allowDividerBelow="true" settings:keywords="@string/keywords_navigation_type" />
-    <SecPreferenceScreen android:title="@string/navigationbar_gesture_more_options" android:key="gesture_detailed" android:order="50" android:fragment="com.samsung.android.settings.navigationbar.NavigationBarGestureDetailedSettings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="60" />
-    <SecSwitchPreference android:title="@string/navigationbar_assistant_app_title" android:key="swipe_to_open_assistant_app" android:summary="@string/navigationbar_swipe_to_open_assistant_app_summary" android:order="70" settings:allowDividerBelow="true" />
-    <SecSwitchPreference android:title="@string/navigationbar_circle_to_search_title" android:key="touch_and_hold_to_search" android:summary="@string/navigationbar_circle_to_search_summary" android:order="80" />
-    <SecSwitchPreference android:visible="false" android:title="@string/navigationbar_touch_to_search_title" android:key="touch_and_hold_to_search_chn" android:summary="@string/navigationbar_circle_to_search_summary" android:order="90" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/navigationbar_title">
+
+    <com.samsung.android.settings.navigationbar.NavigationBarGesturePreference
+        android:layout="@layout/samsung_navigationbar_gesture_preference_new"
+        android:title="@string/keywords_navigation_type"
+        android:selectable="false"
+        android:key="gesture_preview"
+        android:order="40"
+        settings:allowDividerBelow="true"
+        settings:keywords="@string/keywords_navigation_type" />
+
+    <SecPreferenceScreen
+        android:title="@string/navigationbar_gesture_more_options"
+        android:key="gesture_detailed"
+        android:order="50"
+        android:fragment="com.samsung.android.settings.navigationbar.NavigationBarGestureDetailedSettings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="60" />
+
+    <SecSwitchPreference
+        android:title="@string/navigationbar_assistant_app_title"
+        android:key="swipe_to_open_assistant_app"
+        android:summary="@string/navigationbar_swipe_to_open_assistant_app_summary"
+        android:order="70"
+        settings:allowDividerBelow="true" />
+
+    <SecSwitchPreference
+        android:title="@string/navigationbar_circle_to_search_title"
+        android:key="touch_and_hold_to_search"
+        android:summary="@string/navigationbar_circle_to_search_summary"
+        android:order="80" />
+
+    <SecSwitchPreference
+        android:visible="false"
+        android:title="@string/navigationbar_touch_to_search_title"
+        android:key="touch_and_hold_to_search_chn"
+        android:summary="@string/navigationbar_circle_to_search_summary"
+        android:order="90" />
+
 </PreferenceScreen>

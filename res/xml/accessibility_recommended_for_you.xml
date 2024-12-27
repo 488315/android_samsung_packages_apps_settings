@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/using_functions_category_title" android:key="using_functions_category" settings:controller="com.samsung.android.settings.accessibility.recommend.UsingFunctionsCategoryPreferenceController" />
-    <PreferenceCategory android:title="@string/try_it_category_title" android:key="try_it_category" settings:controller="com.samsung.android.settings.accessibility.recommend.TryCategoryPreferenceController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="recommendation_card_category" settings:controller="com.samsung.android.settings.accessibility.recommend.RecommendCardsCategoryPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <PreferenceCategory
+        android:title="@string/using_functions_category_title"
+        android:key="using_functions_category"
+        settings:controller="com.samsung.android.settings.accessibility.recommend.UsingFunctionsCategoryPreferenceController" />
+
+    <PreferenceCategory
+        android:title="@string/try_it_category_title"
+        android:key="try_it_category"
+        settings:controller="com.samsung.android.settings.accessibility.recommend.TryCategoryPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="recommendation_card_category"
+        settings:controller="com.samsung.android.settings.accessibility.recommend.RecommendCardsCategoryPreferenceController" />
+
 </PreferenceScreen>

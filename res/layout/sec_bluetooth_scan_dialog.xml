@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/bluetooth_scan_dialog_fragment_layout" android:paddingTop="@dimen/bluetooth_scandialog_content_margin" android:paddingBottom="@dimen/bluetooth_scandialog_content_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fragment android:id="@id/bluetooth_scan_dialog" android:layout_width="fill_parent" android:layout_height="@dimen/bluetooth_scandialog_fragment_height" class="com.samsung.android.settings.bluetooth.BluetoothSettings" />
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/bluetooth_scan_dialog_fragment_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/bluetooth_scandialog_content_margin"
+    android:paddingBottom="@dimen/bluetooth_scandialog_content_margin">
+
+    <fragment
+        android:id="@id/bluetooth_scan_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bluetooth_scandialog_fragment_height"
+        class="com.samsung.android.settings.bluetooth.BluetoothSettings" />
+
 </FrameLayout>

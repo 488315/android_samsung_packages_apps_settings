@@ -1,19 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/notifications_on_lockscreen" settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings" settings:keywords="@string/keywords_lock_screen_notif" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_lockscreen_noti_description_locktype_none" android:key="description_pref" settings:positionMode="first_item" />
-    <PreferenceCategory android:title="@string/lock_screen_notification_style_title" android:key="locksreen_notification_style_editor_category">
-        <com.samsung.android.settings.notification.SecNotificationHorizontalRadioPreference android:title="@string/notifications_on_lockscreen" android:key="lock_screen_notifications_style" settings:controller="com.samsung.android.settings.lockscreen.controller.LockScreenNotificationStyleController" settings:viewType="image" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/notifications_on_lockscreen"
+    settings:hierarchicalParentFragment="com.android.settings.notification.ConfigureNotificationSettings"
+    settings:keywords="@string/keywords_lock_screen_notif"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_lockscreen_noti_description_locktype_none"
+        android:key="description_pref"
+        settings:positionMode="first_item" />
+
+    <PreferenceCategory
+        android:title="@string/lock_screen_notification_style_title"
+        android:key="locksreen_notification_style_editor_category">
+
+        <com.samsung.android.settings.notification.SecNotificationHorizontalRadioPreference
+            android:title="@string/notifications_on_lockscreen"
+            android:key="lock_screen_notifications_style"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.LockScreenNotificationStyleController"
+            settings:viewType="image" />
+
     </PreferenceCategory>
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/notification_style_summary" android:key="lockscreen_notification_style_description" settings:controller="com.samsung.android.settings.lockscreen.controller.LockScreenNotificationStyleDotDescriptionController" style="@style/description_text" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/notification_style_summary"
+        android:key="lockscreen_notification_style_description"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.LockScreenNotificationStyleDotDescriptionController"
+        style="@style/description_text" />
+
     <PreferenceCategory>
-        <com.samsung.android.settings.lockscreen.ShowNotificationContentPreference android:layout="@layout/sec_lockscreen_show_notification_content" android:key="show_content" />
-        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_icon_preference_divider" android:selectable="false" android:key="divider" />
-        <com.samsung.android.settings.notification.RadioPreference android:title="@string/sec_lockscreen_notifications_hide_content" android:key="hide_content" />
+
+        <com.samsung.android.settings.lockscreen.ShowNotificationContentPreference
+            android:layout="@layout/sec_lockscreen_show_notification_content"
+            android:key="show_content" />
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:layout="@layout/sec_icon_preference_divider"
+            android:selectable="false"
+            android:key="divider" />
+
+        <com.samsung.android.settings.notification.RadioPreference
+            android:title="@string/sec_lockscreen_notifications_hide_content"
+            android:key="hide_content" />
+
     </PreferenceCategory>
-    <SecSwitchPreference android:title="@string/sec_lockscreen_notifications_show_content_when_unlocked" android:key="show_content_when_unlocked" settings:controller="com.samsung.android.settings.lockscreen.controller.ShowContentWhenUnlockedController" />
+
+    <SecSwitchPreference
+        android:title="@string/sec_lockscreen_notifications_show_content_when_unlocked"
+        android:key="show_content_when_unlocked"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.ShowContentWhenUnlockedController" />
+
     <PreferenceCategory>
-        <SecSwitchPreference android:title="@string/sec_lock_screen_show_alterting_notifications_only" android:key="lockscreen_alert_notification" android:summary="@string/sec_lock_screen_show_alterting_notifications_summary" settings:controller="com.samsung.android.settings.lockscreen.controller.ShowAlertNotificationsController" />
-        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/sec_sensitive_work_profile_title" android:key="sensitive_work_profile" settings:singleLineTitle="false" />
+
+        <SecSwitchPreference
+            android:title="@string/sec_lock_screen_show_alterting_notifications_only"
+            android:key="lockscreen_alert_notification"
+            android:summary="@string/sec_lock_screen_show_alterting_notifications_summary"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.ShowAlertNotificationsController" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:title="@string/sec_sensitive_work_profile_title"
+            android:key="sensitive_work_profile"
+            settings:singleLineTitle="false" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

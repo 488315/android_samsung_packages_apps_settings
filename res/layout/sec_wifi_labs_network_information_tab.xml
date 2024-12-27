@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/tab_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_network_information_show_all" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
-        <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/tab_unused" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_network_information_show_unused" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
-        <com.google.android.material.tabs.TabItem android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:id="@id/tab_weak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_wifi_network_information_show_weak" android:singleLine="true" android:fontFamily="sec-roboto-regular" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sesl_round_and_bgcolor_light"
+    android:paddingHorizontal="24.0dip">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@id/tab_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?android:textColorPrimary"
+            android:text="@string/sec_wifi_network_information_show_all"
+            android:singleLine="true"
+            android:fontFamily="sec-roboto-regular" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@id/tab_unused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?android:textColorPrimary"
+            android:text="@string/sec_wifi_network_information_show_unused"
+            android:singleLine="true"
+            android:fontFamily="sec-roboto-regular" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@id/tab_weak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?android:textColorPrimary"
+            android:text="@string/sec_wifi_network_information_show_weak"
+            android:singleLine="true"
+            android:fontFamily="sec-roboto-regular" />
+
     </com.google.android.material.tabs.TabLayout>
+
 </LinearLayout>

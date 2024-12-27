@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sim_lock_status_kddi" settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.statusinfo.StatusInfoSettings" settings:topLevelPreferenceKey="top_level_about_phone"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/wifi_status" android:key="sim_state_status" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
-    <Preference android:title="@string/sec_sim_lock_status_code" android:key="sim_state_code" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sim_lock_status_kddi"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.deviceinfo.statusinfo.StatusInfoSettings"
+    settings:topLevelPreferenceKey="top_level_about_phone">
+
+    <Preference
+        android:title="@string/wifi_status"
+        android:key="sim_state_status"
+        android:summary="@string/device_info_default"
+        style="?android:preferenceInformationStyle" />
+
+    <Preference
+        android:title="@string/sec_sim_lock_status_code"
+        android:key="sim_state_code"
+        android:summary="@string/device_info_default"
+        style="?android:preferenceInformationStyle" />
+
 </PreferenceScreen>

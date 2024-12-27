@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/screen_resolution_preview_container" android:selectable="false" android:key="screen_resolution_preview" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference settings:height="@dimen/sec_widget_preference_unclickable_margin_top" />
-    <com.samsung.android.settings.widget.SecHorizontalRadioPreference android:key="screen_resolution_seekbar" settings:allowDividerAbove="false" settings:allowDividerBelow="false" settings:viewType="noImage" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/screen_resolution_help_description" android:selectable="false" android:key="screen_resolution_help_description" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/screen_resolution_preview_container"
+        android:selectable="false"
+        android:key="screen_resolution_preview" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        settings:height="@dimen/sec_widget_preference_unclickable_margin_top" />
+
+    <com.samsung.android.settings.widget.SecHorizontalRadioPreference
+        android:key="screen_resolution_seekbar"
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        settings:viewType="noImage" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/screen_resolution_help_description"
+        android:selectable="false"
+        android:key="screen_resolution_help_description" />
+
 </PreferenceScreen>

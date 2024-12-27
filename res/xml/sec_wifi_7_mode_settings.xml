@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_wifi_7_mode_title" android:key="wifi_7_mode_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settings.widget.SettingsMainSwitchPreference android:key="main_switch_preference" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_wifi_7_mode_title"
+    android:key="wifi_7_mode_screen">
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="main_switch_preference" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <Preference android:persistent="false" android:layout="@layout/sec_wifi_warning_description" android:title="@string/wifi_development_options_warning" android:selectable="false" android:key="header" />
+
+    <Preference
+        android:persistent="false"
+        android:layout="@layout/sec_wifi_warning_description"
+        android:title="@string/wifi_development_options_warning"
+        android:selectable="false"
+        android:key="header" />
+
     <PreferenceCategory>
-        <SecDropDownPreference android:entries="@array/sec_wifi_mlo_entries" android:title="@string/sec_wifi_mlo_mode_title" android:key="wifi_mlo_mode" android:entryValues="@array/sec_wifi_mlo_values" settings:controller="com.samsung.android.settings.wifi.develop.WifiLabsMloModePreferenceController" />
+
+        <SecDropDownPreference
+            android:entries="@array/sec_wifi_mlo_entries"
+            android:title="@string/sec_wifi_mlo_mode_title"
+            android:key="wifi_mlo_mode"
+            android:entryValues="@array/sec_wifi_mlo_values"
+            settings:controller="com.samsung.android.settings.wifi.develop.WifiLabsMloModePreferenceController" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

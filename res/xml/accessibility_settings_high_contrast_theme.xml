@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="high_contrast_category" />
-    <com.samsung.android.settings.accessibility.base.widget.SingleChoicePreference android:key="single_choice_pref" settings:itemLayout="@layout/high_contrast_theme_choice_item" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="high_contrast_category" />
+
+    <com.samsung.android.settings.accessibility.base.widget.SingleChoicePreference
+        android:key="single_choice_pref"
+        settings:itemLayout="@layout/high_contrast_theme_choice_item" />
+
 </PreferenceScreen>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="oval"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <stroke android:width="@dimen/sec_volume_limit_seek_bar_thumb_drawable_stroke_size" android:color="@color/sec_volume_limit_thumb_drawable_solid_shock_color" />
-    <solid android:color="@color/sec_volume_limit_ear_shock_thumb_color" />
-    <size android:height="@dimen/sec_volume_limit_seek_bar_thumb_drawable_height" android:width="@dimen/sec_volume_limit_seek_bar_thumb_drawable_width" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <stroke
+        android:width="@dimen/sec_volume_limit_seek_bar_thumb_drawable_stroke_size"
+        android:color="@color/sec_volume_limit_thumb_drawable_solid_shock_color" />
+
+    <solid
+        android:color="@color/sec_volume_limit_ear_shock_thumb_color" />
+
+    <size
+        android:height="@dimen/sec_volume_limit_seek_bar_thumb_drawable_height"
+        android:width="@dimen/sec_volume_limit_seek_bar_thumb_drawable_width" />
+
 </shape>

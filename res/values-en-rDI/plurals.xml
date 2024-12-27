@@ -1,683 +1,2448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">PLURAL_OTHER_ACCS_OPT_PD_MINUTES %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_OPT_PD_MINUTES %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_OPT_PD_MINUTES %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_OPT_PD_MINUTES %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_OPT_PD_MINUTES %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_OPT_PD_MINUTES %d</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">PLURAL_OTHER_ACCS_OPT_PD_SECONDS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_OPT_PD_SECONDS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_OPT_PD_SECONDS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_OPT_PD_SECONDS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_OPT_PD_SECONDS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_OPT_PD_SECONDS %d</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">PLURAL_OTHER_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
-        <item quantity="zero">PLURAL_ZERO_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
-        <item quantity="one">PLURAL_ONE_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
-        <item quantity="two">PLURAL_TWO_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
-        <item quantity="few">PLURAL_FEW_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
-        <item quantity="many">PLURAL_MANY_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">PLURAL_OTHER_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
-        <item quantity="one">PLURAL_ONE_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
-        <item quantity="two">PLURAL_TWO_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
-        <item quantity="few">PLURAL_FEW_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
-        <item quantity="many">PLURAL_MANY_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">PLURAL_OTHER_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
-        <item quantity="one">PLURAL_ONE_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
-        <item quantity="two">PLURAL_TWO_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
-        <item quantity="few">PLURAL_FEW_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
-        <item quantity="many">PLURAL_MANY_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">PLURAL_OTHER_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
-        <item quantity="one">PLURAL_ONE_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
-        <item quantity="two">PLURAL_TWO_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
-        <item quantity="few">PLURAL_FEW_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
-        <item quantity="many">PLURAL_MANY_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">PLURAL_OTHER_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="one">PLURAL_ONE_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="two">PLURAL_TWO_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="few">PLURAL_FEW_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="many">PLURAL_MANY_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
-        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
-        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
-        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
-        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
-        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">PLURAL_OTHER_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
-        <item quantity="one">PLURAL_ONE_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
-        <item quantity="two">PLURAL_TWO_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
-        <item quantity="few">PLURAL_FEW_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
-        <item quantity="many">PLURAL_MANY_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">PLURAL_OTHER_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
-        <item quantity="one">PLURAL_ONE_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
-        <item quantity="two">PLURAL_TWO_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
-        <item quantity="few">PLURAL_FEW_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
-        <item quantity="many">PLURAL_MANY_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">PLURAL_OTHER_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="zero">PLURAL_ZERO_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="one">PLURAL_ONE_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="two">PLURAL_TWO_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="few">PLURAL_FEW_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
-        <item quantity="many">PLURAL_MANY_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">PLURAL_OTHER_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
-        <item quantity="zero">PLURAL_ZERO_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
-        <item quantity="one">PLURAL_ONE_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
-        <item quantity="two">PLURAL_TWO_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
-        <item quantity="few">PLURAL_FEW_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
-        <item quantity="many">PLURAL_MANY_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">PLURAL_OTHER_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_SBODY_PD_APPS %d</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">DREAM_HEALTH_BODY_PD_DAYS_ABB %d</item>
-        <item quantity="one">IDS_ST_BODY_1_DAY</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">IDS_ST_OPT_PD_HOURS %d</item>
-        <item quantity="one">IDS_ST_BODY_1_HOUR</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">IDS_ST_BODY_PD_MINUTES %d</item>
-        <item quantity="one">IDS_ST_BODY_1MINUTE</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">IDS_ST_BODY_PD_SECONDS %d</item>
-        <item quantity="one">IDS_ST_BODY_1_SECOND</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">DREAM_HEALTH_BODY_PD_WEEKS_ABB %d</item>
-        <item quantity="one">IDS_ST_BODY_1_WEEK</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">PLURAL_OTHER_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_SBODY_PD_APPS %d</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_HOURS_ABB %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_HOURS_ABB %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_HOURS_ABB %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_HOURS_ABB %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_HOURS_ABB %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_HOURS_ABB %d</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_MINUTES_ABB %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_MINUTES_ABB %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_MINUTES_ABB %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_MINUTES_ABB %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_MINUTES_ABB %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_MINUTES_ABB %d</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">PLURAL_OTHER_BAT_SBODY_PD_SECS %d</item>
-        <item quantity="zero">PLURAL_ZERO_BAT_SBODY_PD_SECS %d</item>
-        <item quantity="one">PLURAL_ONE_BAT_SBODY_PD_SECS %d</item>
-        <item quantity="two">PLURAL_TWO_BAT_SBODY_PD_SECS %d</item>
-        <item quantity="few">PLURAL_FEW_BAT_SBODY_PD_SECS %d</item>
-        <item quantity="many">PLURAL_MANY_BAT_SBODY_PD_SECS %d</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">DREAM_ST_BODY_IF_YOU_DELETE_THESE_PLACES_BIOMETRICS_AND_THE_SECURITY_DELAY_WILL_ALWAYS_BE_REQUIRED_WHEN_YOU_CHANGE_SENSITIVE_SETTINGS</item>
-        <item quantity="one">DREAM_ST_BODY_IF_YOU_DELETE_THIS_PLACE_BIOMETRICS_AND_THE_SECURITY_DELAY_WILL_ALWAYS_BE_REQUIRED_WHEN_YOU_CHANGE_SENSITIVE_SETTINGS</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">PLURAL_OTHER_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
-        <item quantity="one">PLURAL_ONE_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
-        <item quantity="two">PLURAL_TWO_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
-        <item quantity="few">PLURAL_FEW_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
-        <item quantity="many">PLURAL_MANY_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">DREAM_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="one">DREAM_ST_HEADER_1_SELECTED</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">PLURAL_OTHER_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">PLURAL_OTHER_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">PLURAL_OTHER_QP_STATUS_PD_NOTIFICATIONS %d</item>
-        <item quantity="zero">PLURAL_ZERO_QP_STATUS_PD_NOTIFICATIONS %d</item>
-        <item quantity="one">PLURAL_ONE_QP_STATUS_PD_NOTIFICATIONS %d</item>
-        <item quantity="two">PLURAL_TWO_QP_STATUS_PD_NOTIFICATIONS %d</item>
-        <item quantity="few">PLURAL_FEW_QP_STATUS_PD_NOTIFICATIONS %d</item>
-        <item quantity="many">PLURAL_MANY_QP_STATUS_PD_NOTIFICATIONS %d</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">PLURAL_OTHER_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">PLURAL_OTHER_HS_OPT_UP_TO_PD_APPS %d</item>
-        <item quantity="zero">PLURAL_ZERO_HS_OPT_UP_TO_PD_APPS %d</item>
-        <item quantity="one">PLURAL_ONE_HS_OPT_UP_TO_PD_APPS %d</item>
-        <item quantity="two">PLURAL_TWO_HS_OPT_UP_TO_PD_APPS %d</item>
-        <item quantity="few">PLURAL_FEW_HS_OPT_UP_TO_PD_APPS %d</item>
-        <item quantity="many">PLURAL_MANY_HS_OPT_UP_TO_PD_APPS %d</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">PLURAL_OTHER_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
-        <item quantity="one">PLURAL_ONE_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
-        <item quantity="two">PLURAL_TWO_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
-        <item quantity="few">PLURAL_FEW_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
-        <item quantity="many">PLURAL_MANY_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">PLURAL_OTHER_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">PLURAL_OTHER_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_SBODY_PD_APPS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_SBODY_PD_APPS %d</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">PLURAL_OTHER_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
-        <item quantity="one">PLURAL_ONE_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
-        <item quantity="two">PLURAL_TWO_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
-        <item quantity="few">PLURAL_FEW_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
-        <item quantity="many">PLURAL_MANY_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">PLURAL_OTHER_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
-        <item quantity="one">PLURAL_ONE_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
-        <item quantity="two">PLURAL_TWO_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
-        <item quantity="few">PLURAL_FEW_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
-        <item quantity="many">PLURAL_MANY_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">PLURAL_OTHER_BIO_OPT_EVERY_PD_HOURS %d</item>
-        <item quantity="zero">PLURAL_ZERO_BIO_OPT_EVERY_PD_HOURS %d</item>
-        <item quantity="one">PLURAL_ONE_BIO_OPT_EVERY_PD_HOURS %d</item>
-        <item quantity="two">PLURAL_TWO_BIO_OPT_EVERY_PD_HOURS %d</item>
-        <item quantity="few">PLURAL_FEW_BIO_OPT_EVERY_PD_HOURS %d</item>
-        <item quantity="many">PLURAL_MANY_BIO_OPT_EVERY_PD_HOURS %d</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">PLURAL_OTHER_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
-        <item quantity="zero">PLURAL_ZERO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
-        <item quantity="one">PLURAL_ONE_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
-        <item quantity="two">PLURAL_TWO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
-        <item quantity="few">PLURAL_FEW_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
-        <item quantity="many">PLURAL_MANY_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">PLURAL_OTHER_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
-        <item quantity="zero">PLURAL_ZERO_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
-        <item quantity="one">PLURAL_ONE_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
-        <item quantity="two">PLURAL_TWO_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
-        <item quantity="few">PLURAL_FEW_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
-        <item quantity="many">PLURAL_MANY_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">PLURAL_OTHER_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
-        <item quantity="zero">PLURAL_ZERO_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
-        <item quantity="one">PLURAL_ONE_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
-        <item quantity="two">PLURAL_TWO_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
-        <item quantity="few">PLURAL_FEW_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
-        <item quantity="many">PLURAL_MANY_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">PLURAL_OTHER_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
-        <item quantity="zero">PLURAL_ZERO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
-        <item quantity="one">PLURAL_ONE_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
-        <item quantity="two">PLURAL_TWO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
-        <item quantity="few">PLURAL_FEW_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
-        <item quantity="many">PLURAL_MANY_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">PLURAL_OTHER_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
-        <item quantity="zero">PLURAL_ZERO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
-        <item quantity="one">PLURAL_ONE_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
-        <item quantity="two">PLURAL_TWO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
-        <item quantity="few">PLURAL_FEW_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
-        <item quantity="many">PLURAL_MANY_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_MINUTES %d</item>
-        <item quantity="one">DREAM_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_MINUTE %d</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_SECONDS %d</item>
-        <item quantity="one">DREAM_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_SECOND %d</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">PLURAL_OTHER_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
-        <item quantity="zero">PLURAL_ZERO_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
-        <item quantity="one">PLURAL_ONE_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
-        <item quantity="two">PLURAL_TWO_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
-        <item quantity="few">PLURAL_FEW_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
-        <item quantity="many">PLURAL_MANY_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">PLURAL_OTHER_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
-        <item quantity="zero">PLURAL_ZERO_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
-        <item quantity="one">PLURAL_ONE_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
-        <item quantity="two">PLURAL_TWO_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
-        <item quantity="few">PLURAL_FEW_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
-        <item quantity="many">PLURAL_MANY_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">PLURAL_OTHER_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="zero">PLURAL_ZERO_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="one">PLURAL_ONE_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="two">PLURAL_TWO_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="few">PLURAL_FEW_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="many">PLURAL_MANY_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">PLURAL_OTHER_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="zero">PLURAL_ZERO_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="one">PLURAL_ONE_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="two">PLURAL_TWO_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="few">PLURAL_FEW_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="many">PLURAL_MANY_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">PLURAL_OTHER_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="zero">PLURAL_ZERO_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="one">PLURAL_ONE_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="two">PLURAL_TWO_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="few">PLURAL_FEW_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
-        <item quantity="many">PLURAL_MANY_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">PLURAL_OTHER_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
-        <item quantity="zero">PLURAL_ZERO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
-        <item quantity="one">PLURAL_ONE_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
-        <item quantity="two">PLURAL_TWO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
-        <item quantity="few">PLURAL_FEW_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
-        <item quantity="many">PLURAL_MANY_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">PLURAL_OTHER_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
-        <item quantity="zero">PLURAL_ZERO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
-        <item quantity="one">PLURAL_ONE_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
-        <item quantity="two">PLURAL_TWO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
-        <item quantity="few">PLURAL_FEW_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
-        <item quantity="many">PLURAL_MANY_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LOWERCASE_LETTERS %d</item>
-        <item quantity="one">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_LOWERCASE_LETTER</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_NUMBERS_OR_SYMBOLS %d</item>
-        <item quantity="one">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_NUMBER_OR_SYMBOL</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_NUMBERS %d</item>
-        <item quantity="one">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_NUMBER</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_SYMBOLS %d</item>
-        <item quantity="one">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_SYMBOL</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_UPPERCASE_LETTERS %d</item>
-        <item quantity="one">IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_UPPERCASE_LETTER</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_ACTIVE_APPS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_ACTIVE_APPS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_ACTIVE_APPS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_ACTIVE_APPS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_ACTIVE_APPS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_ACTIVE_APPS %d</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">PLURAL_OTHER_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
-        <item quantity="one">PLURAL_ONE_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
-        <item quantity="two">PLURAL_TWO_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
-        <item quantity="few">PLURAL_FEW_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
-        <item quantity="many">PLURAL_MANY_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_VOICES %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_VOICES %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_VOICES %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_VOICES %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_VOICES %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_VOICES %d</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">PLURAL_OTHER_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="one">PLURAL_ONE_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="two">PLURAL_TWO_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="few">PLURAL_FEW_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="many">PLURAL_MANY_ST_HEADER_PD_SELECTED %d</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">PLURAL_OTHER_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
-        <item quantity="one">PLURAL_ONE_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
-        <item quantity="two">PLURAL_TWO_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
-        <item quantity="few">PLURAL_FEW_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
-        <item quantity="many">PLURAL_MANY_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_SUGGESTIONS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_SUGGESTIONS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_SUGGESTIONS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_SUGGESTIONS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_SUGGESTIONS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_SUGGESTIONS %d</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_WARNINGS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_WARNINGS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_WARNINGS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_WARNINGS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_WARNINGS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_WARNINGS %d</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
-        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
-        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
-        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
-        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
-        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
-        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
-        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
-        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
-        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
-        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">PLURAL_OTHER_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
-        <item quantity="zero">PLURAL_ZERO_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
-        <item quantity="one">PLURAL_ONE_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
-        <item quantity="two">PLURAL_TWO_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
-        <item quantity="few">PLURAL_FEW_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
-        <item quantity="many">PLURAL_MANY_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">PLURAL_OTHER_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
-        <item quantity="one">PLURAL_ONE_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
-        <item quantity="two">PLURAL_TWO_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
-        <item quantity="few">PLURAL_FEW_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
-        <item quantity="many">PLURAL_MANY_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_DEVICES_CONNECTED %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_DEVICES_CONNECTED %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_DEVICES_CONNECTED %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_DEVICES_CONNECTED %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_DEVICES_CONNECTED %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_DEVICES_CONNECTED %d</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_MEMBERS %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_MEMBERS %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_MEMBERS %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_MEMBERS %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_MEMBERS %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_MEMBERS %d</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">PLURAL_OTHER_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
-        <item quantity="one">PLURAL_ONE_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
-        <item quantity="two">PLURAL_TWO_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
-        <item quantity="few">PLURAL_FEW_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
-        <item quantity="many">PLURAL_MANY_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">PLURAL_OTHER_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="one">PLURAL_ONE_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="two">PLURAL_TWO_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="few">PLURAL_FEW_ST_HEADER_PD_SELECTED %d</item>
-        <item quantity="many">PLURAL_MANY_ST_HEADER_PD_SELECTED %d</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">PLURAL_OTHER_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="zero">PLURAL_ZERO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="one">PLURAL_ONE_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="two">PLURAL_TWO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="few">PLURAL_FEW_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="many">PLURAL_MANY_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">PLURAL_OTHER_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="zero">PLURAL_ZERO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="one">PLURAL_ONE_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="two">PLURAL_TWO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="few">PLURAL_FEW_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="many">PLURAL_MANY_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">PLURAL_OTHER_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="zero">PLURAL_ZERO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="one">PLURAL_ONE_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="two">PLURAL_TWO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="few">PLURAL_FEW_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="many">PLURAL_MANY_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">PLURAL_OTHER_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="zero">PLURAL_ZERO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="one">PLURAL_ONE_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="two">PLURAL_TWO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="few">PLURAL_FEW_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-        <item quantity="many">PLURAL_MANY_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_HOURS_ABB2 %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_HOURS_ABB2 %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_HOURS_ABB2 %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_HOURS_ABB2 %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_HOURS_ABB2 %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_HOURS_ABB2 %d</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">PLURAL_OTHER_ST_OPT_PD_MINUTES_ABB2 %d</item>
-        <item quantity="zero">PLURAL_ZERO_ST_OPT_PD_MINUTES_ABB2 %d</item>
-        <item quantity="one">PLURAL_ONE_ST_OPT_PD_MINUTES_ABB2 %d</item>
-        <item quantity="two">PLURAL_TWO_ST_OPT_PD_MINUTES_ABB2 %d</item>
-        <item quantity="few">PLURAL_FEW_ST_OPT_PD_MINUTES_ABB2 %d</item>
-        <item quantity="many">PLURAL_MANY_ST_OPT_PD_MINUTES_ABB2 %d</item>
-    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_OPT_PD_MINUTES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_OPT_PD_MINUTES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_OPT_PD_MINUTES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_OPT_PD_MINUTES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_OPT_PD_MINUTES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_OPT_PD_MINUTES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_OPT_PD_SECONDS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_OPT_PD_SECONDS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_OPT_PD_SECONDS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_OPT_PD_SECONDS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_OPT_PD_SECONDS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_OPT_PD_SECONDS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_HEADER_P1SD_APP_CACHES_HP2SS %1$d %2$s</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BODY_ARCHIVE_PD_APPS_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BUTTON_ARCHIVE_P1SD_APPS_HPLUSP2SS_50 %1$d %2$s</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BODY_CLEAR_CACHE_FOR_PD_APPS_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BUTTON_CLEAR_P1SD_CACHES_HPLUSP2SS_30 %1$d %2$s</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BODY_FREE_UP_P1SS_OF_SPACE_BY_ARCHIVING_P2SD_UNUSED_APPS_YOUR_PERSONAL_DATA_AND_SETTINGS_WILL_BE_SAVED %1$s %2$d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BODY_UNINSTALL_PD_APPS_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_BUTTON_UNINSTALL_P1SD_APPS_HPLUSP2SS_30 %1$d %2$s</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_MF_HEADER_P1SD_UNUSED_APPS_HP2SS %1$d %2$s</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_SHARING_INTERNET_CONNECTION_WITH_PD_DEVICES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_SBODY_PD_APPS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+DREAM_HEALTH_BODY_PD_DAYS_ABB %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_1_DAY</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+IDS_ST_OPT_PD_HOURS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_1_HOUR</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PD_MINUTES %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_1MINUTE</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PD_SECONDS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_1_SECOND</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+DREAM_HEALTH_BODY_PD_WEEKS_ABB %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_1_WEEK</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_SBODY_PD_APPS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_HOURS_ABB %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_HOURS_ABB %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_HOURS_ABB %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_HOURS_ABB %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_HOURS_ABB %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_HOURS_ABB %d</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_MINUTES_ABB %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_MINUTES_ABB %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_MINUTES_ABB %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_MINUTES_ABB %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_MINUTES_ABB %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_MINUTES_ABB %d</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_BAT_SBODY_PD_SECS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_BAT_SBODY_PD_SECS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_BAT_SBODY_PD_SECS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_BAT_SBODY_PD_SECS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_BAT_SBODY_PD_SECS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_BAT_SBODY_PD_SECS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+DREAM_ST_BODY_IF_YOU_DELETE_THESE_PLACES_BIOMETRICS_AND_THE_SECURITY_DELAY_WILL_ALWAYS_BE_REQUIRED_WHEN_YOU_CHANGE_SENSITIVE_SETTINGS</item>
+
+        <item
+            quantity="one">
+DREAM_ST_BODY_IF_YOU_DELETE_THIS_PLACE_BIOMETRICS_AND_THE_SECURITY_DELAY_WILL_ALWAYS_BE_REQUIRED_WHEN_YOU_CHANGE_SENSITIVE_SETTINGS</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_HEADER_DELETE_PD_PLACES_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+DREAM_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="one">
+DREAM_ST_HEADER_1_SELECTED</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_P1SS_AND_P2SD_OTHERS_M_PLACE %1$s %2$d</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_STATUS_NO_MEMORY_USED_IN_LAST_PD_HOURS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_QP_STATUS_PD_NOTIFICATIONS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_QP_STATUS_PD_NOTIFICATIONS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_QP_STATUS_PD_NOTIFICATIONS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_QP_STATUS_PD_NOTIFICATIONS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_QP_STATUS_PD_NOTIFICATIONS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_QP_STATUS_PD_NOTIFICATIONS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_SBODY_REMIND_EVERY_PD_MINUTES_ABOUT_NOTIFICATIONS_FOR_SELECTED_APPS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_HS_OPT_UP_TO_PD_APPS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_HS_OPT_UP_TO_PD_APPS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_HS_OPT_UP_TO_PD_APPS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_HS_OPT_UP_TO_PD_APPS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_HS_OPT_UP_TO_PD_APPS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_HS_OPT_UP_TO_PD_APPS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_P1SS_AND_P2SD_OTHER_APPS_USE_PASSKEYS_AND_AUTOMATICALLY_ENTER_PASSWORDS_AND_OTHER_INFORMATION %1$s %2$d</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_TBOPT_P1SS_PERMISSION_WAS_USED_BY_P2SD_APPS %1$s %2$d</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_STATUS_PD_ACCESSIBILITY_FUNCTIONS_IN_USE %d</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_SBODY_PD_APPS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_SBODY_PD_APPS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_PHEADER_REMOVE_PD_LANGUAGES_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_SBODY_PD_APPS_HAVE_FULL_ACCESS_TO_YOUR_PHONE %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_YOUR_PHONE_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_PHONE_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_YOUR_TABLET_WILL_BE_AUTOMATICALLY_POWERED_OFF_IN_PD_SECONDS_TO_KEEP_YOUR_TABLET_POWERED_ON_THIS_TIME_TAP_CANCEL %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_BIO_OPT_EVERY_PD_HOURS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_BIO_OPT_EVERY_PD_HOURS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_BIO_OPT_EVERY_PD_HOURS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_BIO_OPT_EVERY_PD_HOURS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_BIO_OPT_EVERY_PD_HOURS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_BIO_OPT_EVERY_PD_HOURS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_CHARACTERS_INCLUDING_AT_LEAST_1_LETTER %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_LCKSCN_BODY_YOUR_PIN_MUST_CONTAIN_AT_LEAST_PD_DIGITS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_LCKSCN_NPBODY_TRY_AGAIN_IN_1_HOUR_PD_MINUTES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_HOURS_1_MINUTE %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_MINUTES %d</item>
+
+        <item
+            quantity="one">
+DREAM_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_MINUTE %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+IDS_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_SECONDS %d</item>
+
+        <item
+            quantity="one">
+DREAM_LCKSCN_NPBODY_TRY_AGAIN_IN_PD_SECOND %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_CANT_TURN_ON_MORE_THAN_PD_ADDITIONAL_SERVICES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_QP_STATUS_PD_CONTACTS_ALLOWED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_BIO_STATUS_PD_FINGERPRINTS_ADDED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_P1SS_P2SS_AND_P3SD_MORE_APPS %1$s %2$s %3$d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_SFOLDER_BODY_INCORRECT_PASSWORD_PD_ATTEMPTS_LEFT %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_SFOLDER_BODY_INCORRECT_PATTERN_PD_ATTEMPTS_LEFT %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_SFOLDER_BODY_INCORRECT_PIN_PD_ATTEMPTS_LEFT %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_LCKSCN_BODY_YOUR_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LETTERS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_LOWERCASE_LETTERS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_LOWERCASE_LETTER</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_NUMBERS_OR_SYMBOLS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_NUMBER_OR_SYMBOL</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_NUMBERS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_NUMBER</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_SYMBOLS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_SYMBOL</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_PD_UPPERCASE_LETTERS %d</item>
+
+        <item
+            quantity="one">
+IDS_ST_BODY_PASSWORD_MUST_CONTAIN_AT_LEAST_1_UPPERCASE_LETTER</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_MORE_SUGGESTIONS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_ACTIVE_APPS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_ACTIVE_APPS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_ACTIVE_APPS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_ACTIVE_APPS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_ACTIVE_APPS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_ACTIVE_APPS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_HEADER_DELETE_PD_LANGUAGE_PACKS_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_VOICES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_VOICES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_VOICES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_VOICES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_VOICES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_VOICES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_ADDITIONAL_PERMISSIONS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_YOURE_PD_TAPS_AWAY_FROM_BEING_A_DEVELOPER %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_HEADER_PD_SELECTED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_STATUS_PD_MALWARE_APPS_DETECTED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_PHONE_UNINSTALL_THESE_APPS_TO_KEEP_YOUR_PHONE_SAFE %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_PD_MALWARE_APPS_WERE_FOUND_ON_YOUR_TABLET_UNINSTALL_THIS_APP_TO_KEEP_YOUR_TABLET_SAFE %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_SUGGESTIONS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_SUGGESTIONS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_SUGGESTIONS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_SUGGESTIONS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_SUGGESTIONS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_SUGGESTIONS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_WARNINGS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_WARNINGS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_WARNINGS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_WARNINGS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_WARNINGS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_WARNINGS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_CLOUD_BODY_BACK_UP_UNLIMITED_DATA_TO_P1SS_FOR_UP_TO_P2SD_DAYS_OR_RESTORE_DATA_YOUVE_BACKED_UP %1$s %2$d</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ACCS_BODY_THIS_TEST_WILL_RESET_IN_PD_SECONDS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_DEVICES_CONNECTED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_DEVICES_CONNECTED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_DEVICES_CONNECTED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_DEVICES_CONNECTED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_DEVICES_CONNECTED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_DEVICES_CONNECTED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_TURN_YOUR_PHONE_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_PHONES_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_TO_ACCESS_THE_INTERNET %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_TURN_YOUR_TABLET_INTO_A_WI_FI_ACCESS_POINT_UP_TO_PD_OTHER_DEVICES_WILL_BE_ABLE_TO_USE_YOUR_TABLETS_MOBILE_DATA_OR_WI_FI_CONNECTION_TO_ACCESS_THE_INTERNET %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_MEMBERS %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_MEMBERS %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_MEMBERS %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_MEMBERS %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_MEMBERS %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_MEMBERS %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_BODY_DELETE_PD_NETWORKS_Q %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_HEADER_PD_SELECTED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_HEADER_PD_SELECTED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_PHONE_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_KNOX_BODY_THERE_HAS_BEEN_1_ATTEMPT_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_PD_ATTEMPTS_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_KNOX_BODY_THERE_HAVE_BEEN_PD_ATTEMPTS_TO_UNLOCK_YOUR_WORK_PROFILE_YOU_HAVE_1_ATTEMPT_LEFT_BEFORE_THIS_TABLET_IS_RESET_TO_FACTORY_SETTINGS_AND_ALL_DATA_WILL_BE_ERASED %d</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_HOURS_ABB2 %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_HOURS_ABB2 %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_HOURS_ABB2 %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_HOURS_ABB2 %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_HOURS_ABB2 %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_HOURS_ABB2 %d</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+PLURAL_OTHER_ST_OPT_PD_MINUTES_ABB2 %d</item>
+
+        <item
+            quantity="zero">
+PLURAL_ZERO_ST_OPT_PD_MINUTES_ABB2 %d</item>
+
+        <item
+            quantity="one">
+PLURAL_ONE_ST_OPT_PD_MINUTES_ABB2 %d</item>
+
+        <item
+            quantity="two">
+PLURAL_TWO_ST_OPT_PD_MINUTES_ABB2 %d</item>
+
+        <item
+            quantity="few">
+PLURAL_FEW_ST_OPT_PD_MINUTES_ABB2 %d</item>
+
+        <item
+            quantity="many">
+PLURAL_MANY_ST_OPT_PD_MINUTES_ABB2 %d</item>
+
+    </plurals>
+
 </resources>

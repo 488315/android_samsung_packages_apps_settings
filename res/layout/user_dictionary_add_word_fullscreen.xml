@@ -1,14 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/user_dict_settings_add_dialog_top" android:paddingLeft="@dimen/settingslib_listPreferredItemPaddingStart" android:paddingRight="@dimen/settingslib_listPreferredItemPaddingStart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/settingslib_listPreferredItemPaddingStart" android:paddingEnd="@dimen/settingslib_listPreferredItemPaddingStart"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridLayout android:id="@id/user_dictionary_add_word_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
-        <TextView android:textColor="?android:textColorPrimary" android:layout_gravity="start|center" android:id="@id/user_dictionary_add_word_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_dict_settings_add_word_option_name" style="?android:textAppearanceSmall" />
-        <EditText android:layout_gravity="fill_horizontal|center" android:id="@id/user_dictionary_add_word_text" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="@dimen/min_tap_target_size" android:hint="@string/user_dict_settings_add_word_hint" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoFullscreen" android:layout_marginStart="8.0dip">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/user_dict_settings_add_dialog_top"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/settingslib_listPreferredItemPaddingStart"
+    android:paddingRight="@dimen/settingslib_listPreferredItemPaddingStart"
+    android:paddingStart="@dimen/settingslib_listPreferredItemPaddingStart"
+    android:paddingEnd="@dimen/settingslib_listPreferredItemPaddingStart">
+
+    <GridLayout
+        android:id="@id/user_dictionary_add_word_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@id/user_dictionary_add_word_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:layout_gravity="start|center"
+            android:text="@string/user_dict_settings_add_word_option_name"
+            style="?android:textAppearanceSmall" />
+
+        <EditText
+            android:id="@id/user_dictionary_add_word_text"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal|center"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:minHeight="@dimen/min_tap_target_size"
+            android:hint="@string/user_dict_settings_add_word_hint"
+            android:maxLength="@integer/maximum_user_dictionary_word_length"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="flagNoFullscreen"
+            android:layout_marginStart="8.0dip">
+
             <requestFocus />
+
         </EditText>
+
     </GridLayout>
-    <GridLayout android:id="@id/user_dictionary_add_shortcut_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
-        <TextView android:textColor="?android:textColorPrimary" android:layout_gravity="start|center" android:id="@id/user_dictionary_add_shortcut_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_dict_settings_add_shortcut_option_name" style="?android:textAppearanceSmall" />
-        <EditText android:layout_gravity="fill_horizontal|center" android:id="@id/user_dictionary_add_shortcut" android:layout_width="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="@dimen/min_tap_target_size" android:hint="@string/user_dict_settings_add_shortcut_hint" android:maxLength="@integer/maximum_user_dictionary_word_length" android:inputType="textNoSuggestions" android:imeOptions="flagNoFullscreen" android:layout_marginStart="8.0dip" />
+
+    <GridLayout
+        android:id="@id/user_dictionary_add_shortcut_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@id/user_dictionary_add_shortcut_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:layout_gravity="start|center"
+            android:text="@string/user_dict_settings_add_shortcut_option_name"
+            style="?android:textAppearanceSmall" />
+
+        <EditText
+            android:id="@id/user_dictionary_add_shortcut"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal|center"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:minHeight="@dimen/min_tap_target_size"
+            android:hint="@string/user_dict_settings_add_shortcut_hint"
+            android:maxLength="@integer/maximum_user_dictionary_word_length"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="flagNoFullscreen"
+            android:layout_marginStart="8.0dip" />
+
     </GridLayout>
+
 </LinearLayout>

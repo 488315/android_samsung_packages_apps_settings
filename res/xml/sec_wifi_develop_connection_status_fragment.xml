@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.preference.Preference android:key="ssid" />
-    <androidx.preference.Preference android:title="RSSI" android:key="rssi" />
-    <com.samsung.android.settings.wifi.develop.utils.ChartViewPreference android:key="rssi_graph" />
-    <androidx.preference.Preference android:title="Channel utilization" android:key="channel_utilization" />
-    <com.samsung.android.settings.wifi.develop.utils.ChartViewPreference android:key="cu_graph" />
-    <androidx.preference.Preference android:title="Link speed" android:key="link_speed" />
-    <androidx.preference.Preference android:title="Tx/Rx data" android:key="tx_rx_data" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.Preference
+        android:key="ssid" />
+
+    <androidx.preference.Preference
+        android:title="RSSI"
+        android:key="rssi" />
+
+    <com.samsung.android.settings.wifi.develop.utils.ChartViewPreference
+        android:key="rssi_graph" />
+
+    <androidx.preference.Preference
+        android:title="Channel utilization"
+        android:key="channel_utilization" />
+
+    <com.samsung.android.settings.wifi.develop.utils.ChartViewPreference
+        android:key="cu_graph" />
+
+    <androidx.preference.Preference
+        android:title="Link speed"
+        android:key="link_speed" />
+
+    <androidx.preference.Preference
+        android:title="Tx/Rx data"
+        android:key="tx_rx_data" />
+
 </PreferenceScreen>

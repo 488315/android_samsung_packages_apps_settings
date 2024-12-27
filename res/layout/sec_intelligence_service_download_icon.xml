@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ImageButton android:id="@id/status_icon" android:background="@drawable/sec_intelligence_service_download_icon_bg" android:layout_width="@dimen/sec_intelligence_service_settings_status_button_width" android:layout_height="@dimen/sec_intelligence_service_settings_status_button_height" android:src="@drawable/langpack_download" android:contentDescription="@string/monotype_dialog_button"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/status_icon"
+    android:layout_width="@dimen/sec_intelligence_service_settings_status_button_width"
+    android:layout_height="@dimen/sec_intelligence_service_settings_status_button_height"
+    android:background="@drawable/sec_intelligence_service_download_icon_bg"
+    android:src="@drawable/langpack_download"
+    android:contentDescription="@string/monotype_dialog_button" />

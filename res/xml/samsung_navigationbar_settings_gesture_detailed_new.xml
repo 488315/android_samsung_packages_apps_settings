@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/navigationbar_gesture_more_options"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceCategory android:title="@string/navigationbar_button_order" android:key="button_order_category">
-        <com.samsung.android.settings.navigationbar.NavigationBarButtonOrderPreference android:layout="@layout/samsung_navigationbar_button_order_preference" android:title="@string/navigationbar_button_order" android:selectable="false" android:key="button_order" settings:allowDividerBelow="true" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/navigationbar_gesture_more_options">
+
+    <SecPreferenceCategory
+        android:title="@string/navigationbar_button_order"
+        android:key="button_order_category">
+
+        <com.samsung.android.settings.navigationbar.NavigationBarButtonOrderPreference
+            android:layout="@layout/samsung_navigationbar_button_order_preference"
+            android:title="@string/navigationbar_button_order"
+            android:selectable="false"
+            android:key="button_order"
+            settings:allowDividerBelow="true" />
+
     </SecPreferenceCategory>
-    <SecDropDownPreference android:entries="@array/navigationbar_position_entries" android:title="@string/navigationbar_position_title" android:key="button_position" android:summary="%s" android:entryValues="@array/navigationbar_position_values" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="button_divider" />
-    <SecSwitchPreference android:title="@string/navigationbar_block_gestures_with_spen_title" android:key="block_gestures_with_spen" android:summary="@string/navigationbar_block_gestures_with_spen_summary" settings:allowDividerBelow="true" />
-    <com.samsung.android.settings.navigationbar.NavigationBarBackGesturePreference android:layout="@layout/samsung_navigationbar_back_gesture_options" android:title="@string/navigationbar_back_gesture_sensitivity_title" android:key="back_gesture" settings:allowDividerAbove="true" />
-    <com.samsung.android.settings.navigationbar.NavigationBarGestureDetailedPreference android:layout="@layout/samsung_navigationbar_gesture_detailed_type" android:title="@string/navigationbar_full_screen_gestures" android:key="detailed_type" settings:allowDividerBelow="true" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="detailed_type_divider" />
-    <SecSwitchPreference android:title="@string/navigationbar_gesture_hint_title" android:key="gesture_hint" android:summary="@string/navigationbar_gesture_hint_summary" settings:allowDividerBelow="true" />
-    <SecSwitchPreference android:title="@string/navigationbar_switch_apps_when_hint_hidden" android:key="switch_apps_when_hint_hidden" settings:allowDividerBelow="true" />
+
+    <SecDropDownPreference
+        android:entries="@array/navigationbar_position_entries"
+        android:title="@string/navigationbar_position_title"
+        android:key="button_position"
+        android:summary="%s"
+        android:entryValues="@array/navigationbar_position_values" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="button_divider" />
+
+    <SecSwitchPreference
+        android:title="@string/navigationbar_block_gestures_with_spen_title"
+        android:key="block_gestures_with_spen"
+        android:summary="@string/navigationbar_block_gestures_with_spen_summary"
+        settings:allowDividerBelow="true" />
+
+    <com.samsung.android.settings.navigationbar.NavigationBarBackGesturePreference
+        android:layout="@layout/samsung_navigationbar_back_gesture_options"
+        android:title="@string/navigationbar_back_gesture_sensitivity_title"
+        android:key="back_gesture"
+        settings:allowDividerAbove="true" />
+
+    <com.samsung.android.settings.navigationbar.NavigationBarGestureDetailedPreference
+        android:layout="@layout/samsung_navigationbar_gesture_detailed_type"
+        android:title="@string/navigationbar_full_screen_gestures"
+        android:key="detailed_type"
+        settings:allowDividerBelow="true" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="detailed_type_divider" />
+
+    <SecSwitchPreference
+        android:title="@string/navigationbar_gesture_hint_title"
+        android:key="gesture_hint"
+        android:summary="@string/navigationbar_gesture_hint_summary"
+        settings:allowDividerBelow="true" />
+
+    <SecSwitchPreference
+        android:title="@string/navigationbar_switch_apps_when_hint_hidden"
+        android:key="switch_apps_when_hint_hidden"
+        settings:allowDividerBelow="true" />
+
 </PreferenceScreen>

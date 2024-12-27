@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetTop="4.0dip" android:insetBottom="4.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/sesl_ripple_color_dark" app:seslRecoilMask="@drawable/sesl_bottom_navigation_ripple_mask_text_light"
-      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="4.0dip"
+    android:insetBottom="4.0dip">
+
+    <androidx.appcompat.graphics.drawable.SeslRecoilDrawable
+        
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:seslRecoilColor="@color/sesl_ripple_color_dark"
+        app:seslRecoilMask="@drawable/sesl_bottom_navigation_ripple_mask_text_light" />
+
 </inset>

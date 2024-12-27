@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.wifi.mobileap.views.chart.StackProgressbar android:id="@id/home_data_usage_graph" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:colorBackground"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <com.samsung.android.settings.wifi.mobileap.views.chart.StackProgressbar
+        android:id="@id/home_data_usage_graph"
+        android:layout_width="fill_parent"
+        android:layout_height="120.0dip" />
+
 </RelativeLayout>

@@ -1,683 +1,2448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d րոպե</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d րոպե</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d վայրկյան</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d վայրկյան</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d ծրագրերի հիշապահեստներ (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d ծրագրի հիշապահեստ (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">Արխիվացնե՞լ %d ծրագիր:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Արխիվացնե՞լ %d ծրագիր:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">Արխիվացնել %1$d ծրագիր (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Արխիվացնել %1$d ծրագիր (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Հիշապահեստը մաքրե՞լ %d ծրագրի համար:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հիշապահեստը մաքրե՞լ %d ծրագրի համար:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">Մաքրել %1$d հիշապահեստ (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Մաքրել %1$d հիշապահեստ (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">%d ընտրված</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ընտրված</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Ազատեք %1$s տեղ՝ արխիվացնելով %2$d չօգտագործվող ծրագիր: Ձեր անձնական տվյալները և դրվածքները չեն պահպանվի:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ազատեք %1$s տեղ՝ արխիվացնելով %2$d չօգտագործվող ծրագիր: Ձեր անձնական տվյալները և դրվածքները չեն պահպանվի:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">Ապատեղադրե՞լ %d ծրագիր:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ապատեղադրե՞լ %d ծրագիր:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">Ապտեղադրել %1$d ծրագիր (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ապտեղադրել %1$d ծրագիր (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d չօգտագործվող ծրագիր (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d չօգտագործվող ծրագիր (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Ինտերնետային կապի համօգտագործում %d սարքի հետ:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ինտերնետային կապի համօգտագործում %d սարքի հետ:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d ծրագիր</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ծրագիր</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d օր</item>
-        <item quantity="one">1 օր</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d ժամ</item>
-        <item quantity="one">1 ժամ</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d րոպե</item>
-        <item quantity="one">1 րոպե</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d վայրկյան</item>
-        <item quantity="one">1 վայրկյան</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d շաբաթ</item>
-        <item quantity="one">1 շաբաթ</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d ծրագիր</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ծրագիր</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d ժամ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ժամ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d րոպե</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d րոպե</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d վ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d վ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Եթե վերացնեք այս վայրերը, կենսաչափական տվյալներն ու անվտանգության նկատառումներով հապաղումը միշտ կպահանջվեն զգայուն դրվածքները փոխելու դեպքում:</item>
-        <item quantity="one">Եթե վերացնեք այս վայրը, կենսաչափական տվյալներն ու անվտանգության նկատառումներով հապաղումը միշտ կպահանջվեն զգայուն դրվածքները փոխելու դեպքում:</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">Վերացնե՞լ %d վայր:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Վերացնե՞լ %d վայր:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d ընտրված</item>
-        <item quantity="one">1 ընտրված</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s ու ևս %2$d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s ու ևս %2$d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">Հիշողություն չի օգտագործվել վերջին %d ժամում</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հիշողություն չի օգտագործվել վերջին %d ժամում</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d ծանուցում</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ծանուցում</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Ամեն %d րոպեն մեկ հիշեցնել ընտրված ծրագրերի մասին ծանուցումները</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ամեն %d րոպեն մեկ հիշեցնել ընտրված ծրագրերի մասին ծանուցումները</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Մինչև %d ծրագիր</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Մինչև %d ծրագիր</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s-ն ու ևս %2$d ծրագիր օգտագործում են մուտքի բանալիներ և ինքնաբերաբար մուտքագրում գաղտնաբառեր ու այլ տեղեկություններ:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s-ն ու ևս %2$d ծրագիր օգտագործում են մուտքի բանալիներ և ինքնաբերաբար մուտքագրում գաղտնաբառեր ու այլ տեղեկություններ:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%1$s թույլտվություն է օգտագործվել %2$d ծրագրի կողմից</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s թույլտվություն է օգտագործվել %2$d ծրագրի կողմից</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">Մատչելիության %d գործառույթ է գործածվում</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Մատչելիության %d գործառույթ է գործածվում</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d ծրագիր</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ծրագիր</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">Հեռացնե՞լ %d լեզու:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հեռացնե՞լ %d լեզու:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d ծրագիր լիակատար մուտք ունի դեպի Ձեր հեռախոսը</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ծրագիր լիակատար մուտք ունի դեպի Ձեր հեռախոսը</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Ձեր հեռախոսի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ հեռախոսի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր հեռախոսի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ հեռախոսի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Ձեր պլանշետի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ պլանշետի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր պլանշետի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ պլանշետի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Ամեն %d ժամը մեկ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ամեն %d ժամը մեկ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d նիշ, ներառյալ առնվազն 1 տառ:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d նիշ, ներառյալ առնվազն 1 տառ:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">Ձեր PIN-ը պետք է պարունակի առնվազն %d թվանշան:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր PIN-ը պետք է պարունակի առնվազն %d թվանշան:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">Նորից փորձեք 1 ժամ %d րոպեից</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Նորից փորձեք 1 ժամ %d րոպեից</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">Նորից փորձեք %d ժամից</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Նորից փորձեք %d ժամից</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">Նորից փորձեք %d ժամ 1 րոպեից</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Նորից փորձեք %d ժամ 1 րոպեից</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Նորից փորձեք %d րոպեից</item>
-        <item quantity="one">Նորից փորձեք %d րոպեից</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Նորից փորձեք %d վայրկյանից</item>
-        <item quantity="one">Նորից փորձեք %d վայրկյանից</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Հնարավոր չէ միացնել %d լրացուցիչ ծառայությունից ավելի:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հնարավոր չէ միացնել %d լրացուցիչ ծառայությունից ավելի:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d կոնտակտ է թույլատրված</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d կոնտակտ է թույլատրված</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%d մատնահետք ավելացվեց</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d մատնահետք ավելացվեց</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s ու ևս %3$d ծրագիր</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s ու ևս %3$d ծրագիր</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Գաղտնաբառը սխալ է: %d փորձ է մնացել:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Գաղտնաբառը սխալ է: %d փորձ է մնացել:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Նախշը սխալ է: %d փորձ է մնացել:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Նախշը սխալ է: %d փորձ է մնացել:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">PIN-ը սխալ է: %d փորձ է մնացել:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">PIN-ը սխալ է: %d փորձ է մնացել:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Galaxy AI-ի զարգացած բանականության գործառական հնարավորություններն օգտագործելու համար պետք է լինեք առնվազն %d տարեկան:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Galaxy AI-ի զարգացած բանականության գործառական հնարավորություններն օգտագործելու համար պետք է լինեք առնվազն %d տարեկան:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d տառ:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d տառ:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d փոքրատառ:</item>
-        <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն 1 փոքրատառ:</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d թիվ կամ սիմվոլ:</item>
-        <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն 1 թիվ կամ սիմվոլ:</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d թիվ:</item>
-        <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն 1 թիվ:</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d սիմվոլ:</item>
-        <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն 1 սիմվոլ:</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d մեծատառ:</item>
-        <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն 1 մեծատառ:</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">Եվս %d առաջարկ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Եվս %d առաջարկ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d ակտիվ ծրագիր</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ակտիվ ծրագիր</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">Վերացնե՞լ %d լեզվական փաթեթ:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Վերացնե՞լ %d լեզվական փաթեթ:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d ձայն</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ձայն</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d լրացուցիչ թույլտվություն</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d լրացուցիչ թույլտվություն</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Ձեզ %d թիզ է բաժանում մշակող լինելուց:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեզ %d թիզ է բաժանում մշակող լինելուց:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">%d ընտրված</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ընտրված</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%d վնասարար ծրագիր հայտնաբերվեց</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d վնասարար ծրագիր է հայտնաբերվել</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">Ձեր հեռախոսում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագրերը՝ Ձեր հեռախոսն անվտանգ պահելու համար:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր հեռախոսում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագիրը՝ Ձեր հեռախոսն անվտանգ պահելու համար:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">Ձեր պլանշետում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագիրը՝ Ձեր պլանշետն անվտանգ պահելու համար:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Ձեր պլանշետում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագիրը՝ Ձեր պլանշետն անվտանգ պահելու համար:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d առաջարկ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d առաջարկ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d նախազգուշացում</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d նախազգուշացում</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Քնի տևողությունը՝ %d ժամ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Քնի տևողությունը՝ %d ժամ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Քնի տևողությունը՝ %d րոպե</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Քնի տևողությունը՝ %d րոպե</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Անսահմանափակ տվյալներ կրկնօրինակեք %1$s-ում մինչև %2$d օր ժամկետով կամ վերականգնեք կրկնօրինակված տվյալները:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Անսահմանափակ տվյալներ կրկնօրինակեք %1$s-ում մինչև %2$d օր ժամկետով կամ վերականգնեք կրկնօրինակված տվյալները:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Այս փորձարկումը կհետադարձվի %d վայրկյանից:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Այս փորձարկումը կհետադարձվի %d վայրկյանից:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d սարք է կապակցված</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d սարք է կապակցված</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան հեռախոսի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա հեռախոսի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան Ձեր հեռախոսի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա հեռախոսի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան պլանշետի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա պլանշետի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան պլանշետի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա պլանշետի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d անդամ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d անդամ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">Վերացնե՞լ %d ցանց:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Վերացնե՞լ %d ցանց:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">%d ընտրված</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ընտրված</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d ժամ</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ժամ</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d րոպե</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d րոպե</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d րոպե</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d րոպե</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d վայրկյան</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d վայրկյան</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d ծրագրերի հիշապահեստներ (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d ծրագրի հիշապահեստ (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+Արխիվացնե՞լ %d ծրագիր:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Արխիվացնե՞լ %d ծրագիր:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+Արխիվացնել %1$d ծրագիր (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Արխիվացնել %1$d ծրագիր (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Հիշապահեստը մաքրե՞լ %d ծրագրի համար:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հիշապահեստը մաքրե՞լ %d ծրագրի համար:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+Մաքրել %1$d հիշապահեստ (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Մաքրել %1$d հիշապահեստ (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+%d ընտրված</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ընտրված</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Ազատեք %1$s տեղ՝ արխիվացնելով %2$d չօգտագործվող ծրագիր: Ձեր անձնական տվյալները և դրվածքները չեն պահպանվի:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ազատեք %1$s տեղ՝ արխիվացնելով %2$d չօգտագործվող ծրագիր: Ձեր անձնական տվյալները և դրվածքները չեն պահպանվի:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+Ապատեղադրե՞լ %d ծրագիր:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ապատեղադրե՞լ %d ծրագիր:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+Ապտեղադրել %1$d ծրագիր (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ապտեղադրել %1$d ծրագիր (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d չօգտագործվող ծրագիր (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d չօգտագործվող ծրագիր (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Ինտերնետային կապի համօգտագործում %d սարքի հետ:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ինտերնետային կապի համօգտագործում %d սարքի հետ:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d ծրագիր</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ծրագիր</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d օր</item>
+
+        <item
+            quantity="one">
+1 օր</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d ժամ</item>
+
+        <item
+            quantity="one">
+1 ժամ</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d րոպե</item>
+
+        <item
+            quantity="one">
+1 րոպե</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d վայրկյան</item>
+
+        <item
+            quantity="one">
+1 վայրկյան</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d շաբաթ</item>
+
+        <item
+            quantity="one">
+1 շաբաթ</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d ծրագիր</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ծրագիր</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d ժամ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ժամ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d րոպե</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d րոպե</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d վ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d վ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Եթե վերացնեք այս վայրերը, կենսաչափական տվյալներն ու անվտանգության նկատառումներով հապաղումը միշտ կպահանջվեն զգայուն դրվածքները փոխելու դեպքում:</item>
+
+        <item
+            quantity="one">
+Եթե վերացնեք այս վայրը, կենսաչափական տվյալներն ու անվտանգության նկատառումներով հապաղումը միշտ կպահանջվեն զգայուն դրվածքները փոխելու դեպքում:</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+Վերացնե՞լ %d վայր:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Վերացնե՞լ %d վայր:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d ընտրված</item>
+
+        <item
+            quantity="one">
+1 ընտրված</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s ու ևս %2$d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s ու ևս %2$d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հնարավոր չէ մուտքագրել %d նիշից ավելի:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+Հիշողություն չի օգտագործվել վերջին %d ժամում</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հիշողություն չի օգտագործվել վերջին %d ժամում</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d ծանուցում</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ծանուցում</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Ամեն %d րոպեն մեկ հիշեցնել ընտրված ծրագրերի մասին ծանուցումները</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ամեն %d րոպեն մեկ հիշեցնել ընտրված ծրագրերի մասին ծանուցումները</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Մինչև %d ծրագիր</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Մինչև %d ծրագիր</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s-ն ու ևս %2$d ծրագիր օգտագործում են մուտքի բանալիներ և ինքնաբերաբար մուտքագրում գաղտնաբառեր ու այլ տեղեկություններ:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s-ն ու ևս %2$d ծրագիր օգտագործում են մուտքի բանալիներ և ինքնաբերաբար մուտքագրում գաղտնաբառեր ու այլ տեղեկություններ:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%1$s թույլտվություն է օգտագործվել %2$d ծրագրի կողմից</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s թույլտվություն է օգտագործվել %2$d ծրագրի կողմից</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+Մատչելիության %d գործառույթ է գործածվում</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Մատչելիության %d գործառույթ է գործածվում</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d ծրագիր</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ծրագիր</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+Հեռացնե՞լ %d լեզու:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հեռացնե՞լ %d լեզու:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d ծրագիր լիակատար մուտք ունի դեպի Ձեր հեռախոսը</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ծրագիր լիակատար մուտք ունի դեպի Ձեր հեռախոսը</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Ձեր հեռախոսի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ հեռախոսի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր հեռախոսի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ հեռախոսի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Ձեր պլանշետի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ պլանշետի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր պլանշետի սնուցումն ինքնաբերաբար կանջատվի %d վայրկյանից: Այս անգամ պլանշետի սնուցումը միացված պահելու համար թակեք «Չեղարկել»:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Ամեն %d ժամը մեկ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ամեն %d ժամը մեկ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d նիշ, ներառյալ առնվազն 1 տառ:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d նիշ, ներառյալ առնվազն 1 տառ:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+Ձեր PIN-ը պետք է պարունակի առնվազն %d թվանշան:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր PIN-ը պետք է պարունակի առնվազն %d թվանշան:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+Նորից փորձեք 1 ժամ %d րոպեից</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Նորից փորձեք 1 ժամ %d րոպեից</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+Նորից փորձեք %d ժամից</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Նորից փորձեք %d ժամից</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+Նորից փորձեք %d ժամ 1 րոպեից</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Նորից փորձեք %d ժամ 1 րոպեից</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Նորից փորձեք %d րոպեից</item>
+
+        <item
+            quantity="one">
+Նորից փորձեք %d րոպեից</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Նորից փորձեք %d վայրկյանից</item>
+
+        <item
+            quantity="one">
+Նորից փորձեք %d վայրկյանից</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Հնարավոր չէ միացնել %d լրացուցիչ ծառայությունից ավելի:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հնարավոր չէ միացնել %d լրացուցիչ ծառայությունից ավելի:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d կոնտակտ է թույլատրված</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d կոնտակտ է թույլատրված</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%d մատնահետք ավելացվեց</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d մատնահետք ավելացվեց</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s ու ևս %3$d ծրագիր</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s ու ևս %3$d ծրագիր</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Գաղտնաբառը սխալ է: %d փորձ է մնացել:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Գաղտնաբառը սխալ է: %d փորձ է մնացել:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Նախշը սխալ է: %d փորձ է մնացել:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Նախշը սխալ է: %d փորձ է մնացել:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+PIN-ը սխալ է: %d փորձ է մնացել:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+PIN-ը սխալ է: %d փորձ է մնացել:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Galaxy AI-ի զարգացած բանականության գործառական հնարավորություններն օգտագործելու համար պետք է լինեք առնվազն %d տարեկան:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Galaxy AI-ի զարգացած բանականության գործառական հնարավորություններն օգտագործելու համար պետք է լինեք առնվազն %d տարեկան:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d տառ:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր գաղտնաբառը պետք է պարունակի առնվազն %d տառ:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Գաղտնաբառը պետք է պարունակի առնվազն %d փոքրատառ:</item>
+
+        <item
+            quantity="one">
+Գաղտնաբառը պետք է պարունակի առնվազն 1 փոքրատառ:</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Գաղտնաբառը պետք է պարունակի առնվազն %d թիվ կամ սիմվոլ:</item>
+
+        <item
+            quantity="one">
+Գաղտնաբառը պետք է պարունակի առնվազն 1 թիվ կամ սիմվոլ:</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Գաղտնաբառը պետք է պարունակի առնվազն %d թիվ:</item>
+
+        <item
+            quantity="one">
+Գաղտնաբառը պետք է պարունակի առնվազն 1 թիվ:</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Գաղտնաբառը պետք է պարունակի առնվազն %d սիմվոլ:</item>
+
+        <item
+            quantity="one">
+Գաղտնաբառը պետք է պարունակի առնվազն 1 սիմվոլ:</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Գաղտնաբառը պետք է պարունակի առնվազն %d մեծատառ:</item>
+
+        <item
+            quantity="one">
+Գաղտնաբառը պետք է պարունակի առնվազն 1 մեծատառ:</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+Եվս %d առաջարկ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Եվս %d առաջարկ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d ակտիվ ծրագիր</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ակտիվ ծրագիր</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+Վերացնե՞լ %d լեզվական փաթեթ:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Վերացնե՞լ %d լեզվական փաթեթ:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d ձայն</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ձայն</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d լրացուցիչ թույլտվություն</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d լրացուցիչ թույլտվություն</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Ձեզ %d թիզ է բաժանում մշակող լինելուց:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեզ %d թիզ է բաժանում մշակող լինելուց:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+%d ընտրված</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ընտրված</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%d վնասարար ծրագիր հայտնաբերվեց</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d վնասարար ծրագիր է հայտնաբերվել</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+Ձեր հեռախոսում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագրերը՝ Ձեր հեռախոսն անվտանգ պահելու համար:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր հեռախոսում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագիրը՝ Ձեր հեռախոսն անվտանգ պահելու համար:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+Ձեր պլանշետում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագիրը՝ Ձեր պլանշետն անվտանգ պահելու համար:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Ձեր պլանշետում %d վնասարար ծրագիր է գտնվել: Ապատեղադրեք այդ ծրագիրը՝ Ձեր պլանշետն անվտանգ պահելու համար:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d առաջարկ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d առաջարկ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d նախազգուշացում</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d նախազգուշացում</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Քնի տևողությունը՝ %d ժամ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Քնի տևողությունը՝ %d ժամ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Քնի տևողությունը՝ %d րոպե</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Քնի տևողությունը՝ %d րոպե</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Անսահմանափակ տվյալներ կրկնօրինակեք %1$s-ում մինչև %2$d օր ժամկետով կամ վերականգնեք կրկնօրինակված տվյալները:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Անսահմանափակ տվյալներ կրկնօրինակեք %1$s-ում մինչև %2$d օր ժամկետով կամ վերականգնեք կրկնօրինակված տվյալները:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Այս փորձարկումը կհետադարձվի %d վայրկյանից:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Այս փորձարկումը կհետադարձվի %d վայրկյանից:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d սարք է կապակցված</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d սարք է կապակցված</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան հեռախոսի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա հեռախոսի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան Ձեր հեռախոսի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Հեռախոսը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա հեռախոսի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան պլանշետի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա պլանշետի շարժական տվյալներն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարքեր կկարողանան պլանշետի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Պլանշետը դարձրեք Wi-Fi մուտքի կետ: Առավելագույնը %d այլ սարք կկարողանա պլանշետի շարժական տվյալները կամ Wi-Fi կապն օգտագործել ինտերնետ մուտք գործելու նպատակով:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d անդամ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d անդամ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+Վերացնե՞լ %d ցանց:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Վերացնե՞լ %d ցանց:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+%d ընտրված</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ընտրված</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս հեռախոսը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու 1 փորձ: Ձեզ %d փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Կատարվել է Ձեր աշխատանքի պրոֆիլն արգելաբացելու %d փորձ: Ձեզ 1 փորձ է մնացել, նախքան այս պլանշետը կհետադարձվի գործարանային դրվածքներին, և բոլոր տվյալները կջնջվեն:</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d ժամ</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ժամ</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d րոպե</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d րոպե</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

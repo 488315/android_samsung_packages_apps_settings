@@ -1,699 +1,2500 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">vor %d Tagen</item>
-        <item quantity="one">vor %d Tag</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">vor %d Min.</item>
-        <item quantity="one">vor %d Min.</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">vor %d Jahren</item>
-        <item quantity="one">vor %d Jahr</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">%d Minuten</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Minute</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">%d Sekunden</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Sekunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">%1$d App-Caches (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d App-Cache (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">%d Apps archivieren?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d App archivieren?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">%1$d Apps archivieren (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d App archivieren (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">Cache für %d Apps löschen?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Cache für %d App löschen?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">%1$d Caches löschen (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d Cache löschen (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">%d ausgewählt</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ausgewählt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">Gib %1$s Speicher frei, indem du %2$d nicht genutzte Apps archivierst. Deine persönlichen Daten und Einstellungen werden gespeichert.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Gib %1$s Speicher frei, indem du %2$d nicht genutzte App archivierst. Deine persönlichen Daten und Einstellungen werden gespeichert.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">%d Apps deinstallieren?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d App deinstallieren?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">%1$d Apps deinstallieren (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d App deinstallieren (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">%1$d ungenutzte Apps (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d ungenutzte App (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">Internetverbindung für %d Geräte freigegeben.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Internetverbindung für %d Gerät freigegeben.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">%d Apps</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d App</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">%d Tage</item>
-        <item quantity="one">1 Tag</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d Stunden</item>
-        <item quantity="one">1 Stunde</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">%d Minuten</item>
-        <item quantity="one">1 Minute</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">%d Sekunden</item>
-        <item quantity="one">1 Sekunde</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">%d Wochen</item>
-        <item quantity="one">1 Woche</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">%d Apps</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d App</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">%d Stunden</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Stunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">%d Minuten</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Minute</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">%d s</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d s</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">Wenn du diese Orte löschst, sind biometrische Daten und die Sicherheitsverzögerung immer erforderlich, wenn du vertrauliche Einstellungen änderst.</item>
-        <item quantity="one">Wenn du diesen Ort löschst, sind biometrische Daten und die Sicherheitsverzögerung immer erforderlich, wenn du vertrauliche Einstellungen änderst.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">%d Orte löschen?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Ort löschen?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d ausgewählt</item>
-        <item quantity="one">1 ausgewählt</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s und %2$d weitere</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s und %2$d weiterer</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">Es können höchstens %d Zeichen eingegeben werden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es kann höchstens %d Zeichen eingegeben werden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d neue Benachrichtigungen</item>
-        <item quantity="one">%d neue Benachrichtigung</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">In den letzten %d Stunden wurde kein Arbeitsspeicher verwendet</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">In der letzten %d Stunde wurde kein Arbeitsspeicher verwendet</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">%d Benachrichtigungen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Benachrichtigung</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">Alle %d Minuten an Benachrichtigungen zu ausgewählten Apps erinnern</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Jede %d Minute an Benachrichtigungen zu ausgewählten Apps erinnern</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">Bis zu %d Apps</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Bis zu %d App</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s und %2$d andere Apps verwenden Passkeys und geben automatisch Passwörter sowie andere Informationen ein.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s und %2$d andere App verwenden Passkeys und geben automatisch Passwörter sowie andere Informationen ein.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">%1$s Berechtigung wurde von %2$d Apps verwendet</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s Berechtigung wurde von %2$d App verwendet</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">%d Eingabehilfefunktionen werden verwendet</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Eingabehilfefunktion wird verwendet</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">%d Apps</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d App</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">%d Sprachen entfernen?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Sprache entfernen?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">%d Apps haben vollständigen Zugriff auf dein Telefon</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d App hat vollständigen Zugriff auf dein Telefon</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">Dein Telefon wird in %d Sekunden automatisch ausgeschaltet. Damit das Telefon diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dein Telefon wird in %d Sekunde automatisch ausgeschaltet. Damit das Telefon diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">Dein Tablet wird in %d Sekunden automatisch ausgeschaltet. Damit das Tablet diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dein Tablet wird in %d Sekunde automatisch ausgeschaltet. Damit das Tablet diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">Alle %d Stunden</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Jede %d Stunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">Dein Passwort muss mindestens %d Zeichen enthalten, darunter mindestens 1 Buchstabe.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dein Passwort muss mindestens %d Zeichen enthalten, darunter mindestens 1 Buchstabe.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">Deine PIN muss mindestens %d Ziffern enthalten.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Deine PIN muss mindestens %d Ziffer enthalten.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">In 1 Stunde und %d Minuten erneut versuchen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">In 1 Stunde und %d Minute erneut versuchen</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">In %d Stunden erneut versuchen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">In %d Stunde erneut versuchen</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">In %d Stunden und 1 Minute erneut versuchen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">In %d Stunde und 1 Minute erneut versuchen</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">Versuche es in %d Minuten erneut.</item>
-        <item quantity="one">Versuche es in %d Minute erneut.</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">Versuche es in %d Sekunden erneut.</item>
-        <item quantity="one">Versuche es in %d Sekunde erneut.</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">Es können nicht mehr als %d zusätzliche Dienste aktiviert werden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es kann nicht mehr als %d zusätzlicher Dienst aktiviert werden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">%d Kontakte zugelassen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Kontakt zugelassen</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">%d Fingerabdrücke hinzugefügt</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Fingerabdruck hinzugefügt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s und %3$d weitere Apps</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s und %3$d weitere App</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">Falsches Passwort. Noch %d Versuche.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Falsches Passwort. Noch %d Versuch.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">Falsches Muster. Noch %d Versuche.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Falsches Muster. Noch %d Versuch.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">Falsche PIN. Noch %d Versuche.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Falsche PIN. Noch %d Versuch.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Du musst mindestens %d Jahre alt sein, um die Funktionen für erweiterte Intelligenz von Galaxy AI zu verwenden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Du musst mindestens %d Jahr alt sein, um die Funktionen für erweiterte Intelligenz von Galaxy AI zu verwenden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">Dein Passwort muss mindestens %d Buchstaben enthalten.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dein Passwort muss mindestens %d Buchstaben enthalten.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">Passwort muss mind. %d Kleinbuchstaben enthalten.</item>
-        <item quantity="one">Passwort muss mind. einen Kleinbuchstaben enthalten.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">Passwort muss mindestens %d Ziffern oder Symbole enthalten.</item>
-        <item quantity="one">Passwort muss mindestens 1 Ziffer oder Symbol enthalten.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">Passwort muss mindestens %d Ziffern enthalten.</item>
-        <item quantity="one">Passwort muss mindestens eine Ziffer enthalten.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">Passwort muss mindestens %d Symbole enthalten.</item>
-        <item quantity="one">Passwort muss mindestens 1 Symbol enthalten.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">Passwort muss mind. %d Großbuchstaben enthalten.</item>
-        <item quantity="one">Passwort muss mind. einen Großbuchstaben enthalten.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">%d weitere Empfehlungen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d weitere Empfehlung</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">%d aktive Apps</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d aktive App</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">%d Sprachpakete löschen?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Sprachpaket löschen?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">%d Stimmen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Stimme</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">%d zusätzliche Berechtigungen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d zusätzliche Berechtigung</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">Noch %d-mal tippen, um den Entwicklermodus zu aktivieren.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Noch %d-mal tippen, um den Entwicklermodus zu aktivieren.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">%d ausgewählt</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ausgewählt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">%d Malware-Apps erkannt</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Malware-App erkannt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">Es wurden %d Malware-Apps auf deinem Telefon gefunden. Deinstalliere diese Apps, um die Sicherheit deines Telefons aufrechtzuerhalten.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es wurde %d Malware-App auf deinem Telefon gefunden. Deinstalliere diese App, um die Sicherheit deines Telefons aufrechtzuerhalten.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">Es wurden %d Malware-Apps auf deinem Tablet gefunden. Deinstalliere diese Apps, um die Sicherheit deines Tablets aufrechtzuerhalten.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es wurde %d Malware-App auf deinem Tablet gefunden. Deinstalliere diese App, um die Sicherheit deines Tablets aufrechtzuerhalten.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">%d Vorschläge</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Vorschlag</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">%d Warnungen</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Warnung</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">Schlafzeit: %d Stunden</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Schlafzeit: %d Stunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">Schlafzeit: %d Minuten</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Schlafzeit: %d Minute</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">Sichere bis zu %2$d Tage lang unbegrenzt Daten in %1$s oder stelle gesicherte Daten wieder her.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Sichere bis zu %2$d Tag lang unbegrenzt Daten in %1$s oder stelle gesicherte Daten wieder her.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">Dieser Test wird in %d Sekunden zurückgesetzt.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Dieser Test wird in %d Sekunde zurückgesetzt.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">%d Geräte verbunden</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Gerät verbunden</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weitere Geräte können über Mobildaten oder die WLAN-Verbindung des Telefons auf das Internet zugreifen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weiteres Gerät kann über Mobildaten oder die WLAN-Verbindung des Telefons auf das Internet zugreifen.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weitere Geräte können über die Mobildaten deines Telefons auf das Internet zugreifen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weiteres Gerät kann über die Mobildaten deines Telefons auf das Internet zugreifen.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">Aktiviere dein Tablet als WLAN-Access Point. Bis zu %d weitere Geräte können über die Mobildaten deines Tablets auf das Internet zugreifen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Aktiviere dein Tablet als WLAN-Access Point. Bis zu %d weiteres Gerät kann über die Mobildaten deines Tablets auf das Internet zugreifen.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">Verwende dein Tablet als WLAN-Access Point. Bis zu %d andere Geräte können die mobilen Daten oder die WLAN-Verbindung deines Tablets nutzen, um auf das Internet zuzugreifen.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Verwende dein Tablet als WLAN-Access Point. Bis zu %d anderes Gerät kann die mobilen Daten oder die WLAN-Verbindung deines Tablets nutzen, um auf das Internet zuzugreifen.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">%d Mitglieder</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Mitglied</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">%d Netzwerke löschen?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Netzwerk löschen?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">%d ausgewählt</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ausgewählt</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuche, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuch, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuche, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuch, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d Stunden</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Stunde</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">%d Minuten</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d Minute</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+vor %d Tagen</item>
+
+        <item
+            quantity="one">
+vor %d Tag</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+vor %d Min.</item>
+
+        <item
+            quantity="one">
+vor %d Min.</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+vor %d Jahren</item>
+
+        <item
+            quantity="one">
+vor %d Jahr</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+%d Minuten</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Minute</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+%d Sekunden</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Sekunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+%1$d App-Caches (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d App-Cache (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+%d Apps archivieren?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d App archivieren?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+%1$d Apps archivieren (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d App archivieren (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+Cache für %d Apps löschen?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Cache für %d App löschen?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+%1$d Caches löschen (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d Cache löschen (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+%d ausgewählt</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ausgewählt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+Gib %1$s Speicher frei, indem du %2$d nicht genutzte Apps archivierst. Deine persönlichen Daten und Einstellungen werden gespeichert.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Gib %1$s Speicher frei, indem du %2$d nicht genutzte App archivierst. Deine persönlichen Daten und Einstellungen werden gespeichert.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+%d Apps deinstallieren?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d App deinstallieren?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+%1$d Apps deinstallieren (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d App deinstallieren (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+%1$d ungenutzte Apps (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d ungenutzte App (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+Internetverbindung für %d Geräte freigegeben.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Internetverbindung für %d Gerät freigegeben.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+%d Apps</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d App</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+%d Tage</item>
+
+        <item
+            quantity="one">
+1 Tag</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d Stunden</item>
+
+        <item
+            quantity="one">
+1 Stunde</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+%d Minuten</item>
+
+        <item
+            quantity="one">
+1 Minute</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+%d Sekunden</item>
+
+        <item
+            quantity="one">
+1 Sekunde</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+%d Wochen</item>
+
+        <item
+            quantity="one">
+1 Woche</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+%d Apps</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d App</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+%d Stunden</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Stunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+%d Minuten</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Minute</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+%d s</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d s</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+Wenn du diese Orte löschst, sind biometrische Daten und die Sicherheitsverzögerung immer erforderlich, wenn du vertrauliche Einstellungen änderst.</item>
+
+        <item
+            quantity="one">
+Wenn du diesen Ort löschst, sind biometrische Daten und die Sicherheitsverzögerung immer erforderlich, wenn du vertrauliche Einstellungen änderst.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+%d Orte löschen?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Ort löschen?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d ausgewählt</item>
+
+        <item
+            quantity="one">
+1 ausgewählt</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s und %2$d weitere</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s und %2$d weiterer</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+Es können höchstens %d Zeichen eingegeben werden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es kann höchstens %d Zeichen eingegeben werden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+%d neue Benachrichtigungen</item>
+
+        <item
+            quantity="one">
+%d neue Benachrichtigung</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+In den letzten %d Stunden wurde kein Arbeitsspeicher verwendet</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+In der letzten %d Stunde wurde kein Arbeitsspeicher verwendet</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+%d Benachrichtigungen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Benachrichtigung</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+Alle %d Minuten an Benachrichtigungen zu ausgewählten Apps erinnern</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Jede %d Minute an Benachrichtigungen zu ausgewählten Apps erinnern</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+Bis zu %d Apps</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Bis zu %d App</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s und %2$d andere Apps verwenden Passkeys und geben automatisch Passwörter sowie andere Informationen ein.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s und %2$d andere App verwenden Passkeys und geben automatisch Passwörter sowie andere Informationen ein.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+%1$s Berechtigung wurde von %2$d Apps verwendet</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s Berechtigung wurde von %2$d App verwendet</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+%d Eingabehilfefunktionen werden verwendet</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Eingabehilfefunktion wird verwendet</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+%d Apps</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d App</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+%d Sprachen entfernen?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Sprache entfernen?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+%d Apps haben vollständigen Zugriff auf dein Telefon</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d App hat vollständigen Zugriff auf dein Telefon</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+Dein Telefon wird in %d Sekunden automatisch ausgeschaltet. Damit das Telefon diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dein Telefon wird in %d Sekunde automatisch ausgeschaltet. Damit das Telefon diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+Dein Tablet wird in %d Sekunden automatisch ausgeschaltet. Damit das Tablet diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dein Tablet wird in %d Sekunde automatisch ausgeschaltet. Damit das Tablet diesmal eingeschaltet bleibt, auf „Abbrechen“ tippen.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+Alle %d Stunden</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Jede %d Stunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+Dein Passwort muss mindestens %d Zeichen enthalten, darunter mindestens 1 Buchstabe.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dein Passwort muss mindestens %d Zeichen enthalten, darunter mindestens 1 Buchstabe.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+Deine PIN muss mindestens %d Ziffern enthalten.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Deine PIN muss mindestens %d Ziffer enthalten.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+In 1 Stunde und %d Minuten erneut versuchen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+In 1 Stunde und %d Minute erneut versuchen</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+In %d Stunden erneut versuchen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+In %d Stunde erneut versuchen</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+In %d Stunden und 1 Minute erneut versuchen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+In %d Stunde und 1 Minute erneut versuchen</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+Versuche es in %d Minuten erneut.</item>
+
+        <item
+            quantity="one">
+Versuche es in %d Minute erneut.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+Versuche es in %d Sekunden erneut.</item>
+
+        <item
+            quantity="one">
+Versuche es in %d Sekunde erneut.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+Es können nicht mehr als %d zusätzliche Dienste aktiviert werden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es kann nicht mehr als %d zusätzlicher Dienst aktiviert werden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+%d Kontakte zugelassen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Kontakt zugelassen</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+%d Fingerabdrücke hinzugefügt</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Fingerabdruck hinzugefügt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s und %3$d weitere Apps</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s und %3$d weitere App</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+Falsches Passwort. Noch %d Versuche.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Falsches Passwort. Noch %d Versuch.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+Falsches Muster. Noch %d Versuche.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Falsches Muster. Noch %d Versuch.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+Falsche PIN. Noch %d Versuche.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Falsche PIN. Noch %d Versuch.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Du musst mindestens %d Jahre alt sein, um die Funktionen für erweiterte Intelligenz von Galaxy AI zu verwenden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Du musst mindestens %d Jahr alt sein, um die Funktionen für erweiterte Intelligenz von Galaxy AI zu verwenden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+Dein Passwort muss mindestens %d Buchstaben enthalten.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dein Passwort muss mindestens %d Buchstaben enthalten.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+Passwort muss mind. %d Kleinbuchstaben enthalten.</item>
+
+        <item
+            quantity="one">
+Passwort muss mind. einen Kleinbuchstaben enthalten.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+Passwort muss mindestens %d Ziffern oder Symbole enthalten.</item>
+
+        <item
+            quantity="one">
+Passwort muss mindestens 1 Ziffer oder Symbol enthalten.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+Passwort muss mindestens %d Ziffern enthalten.</item>
+
+        <item
+            quantity="one">
+Passwort muss mindestens eine Ziffer enthalten.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+Passwort muss mindestens %d Symbole enthalten.</item>
+
+        <item
+            quantity="one">
+Passwort muss mindestens 1 Symbol enthalten.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+Passwort muss mind. %d Großbuchstaben enthalten.</item>
+
+        <item
+            quantity="one">
+Passwort muss mind. einen Großbuchstaben enthalten.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+%d weitere Empfehlungen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d weitere Empfehlung</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+%d aktive Apps</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d aktive App</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+%d Sprachpakete löschen?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Sprachpaket löschen?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+%d Stimmen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Stimme</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+%d zusätzliche Berechtigungen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d zusätzliche Berechtigung</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+Noch %d-mal tippen, um den Entwicklermodus zu aktivieren.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Noch %d-mal tippen, um den Entwicklermodus zu aktivieren.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+%d ausgewählt</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ausgewählt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+%d Malware-Apps erkannt</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Malware-App erkannt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+Es wurden %d Malware-Apps auf deinem Telefon gefunden. Deinstalliere diese Apps, um die Sicherheit deines Telefons aufrechtzuerhalten.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es wurde %d Malware-App auf deinem Telefon gefunden. Deinstalliere diese App, um die Sicherheit deines Telefons aufrechtzuerhalten.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+Es wurden %d Malware-Apps auf deinem Tablet gefunden. Deinstalliere diese Apps, um die Sicherheit deines Tablets aufrechtzuerhalten.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es wurde %d Malware-App auf deinem Tablet gefunden. Deinstalliere diese App, um die Sicherheit deines Tablets aufrechtzuerhalten.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+%d Vorschläge</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Vorschlag</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+%d Warnungen</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Warnung</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+Schlafzeit: %d Stunden</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Schlafzeit: %d Stunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+Schlafzeit: %d Minuten</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Schlafzeit: %d Minute</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+Sichere bis zu %2$d Tage lang unbegrenzt Daten in %1$s oder stelle gesicherte Daten wieder her.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Sichere bis zu %2$d Tag lang unbegrenzt Daten in %1$s oder stelle gesicherte Daten wieder her.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+Dieser Test wird in %d Sekunden zurückgesetzt.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Dieser Test wird in %d Sekunde zurückgesetzt.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+%d Geräte verbunden</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Gerät verbunden</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weitere Geräte können über Mobildaten oder die WLAN-Verbindung des Telefons auf das Internet zugreifen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weiteres Gerät kann über Mobildaten oder die WLAN-Verbindung des Telefons auf das Internet zugreifen.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weitere Geräte können über die Mobildaten deines Telefons auf das Internet zugreifen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Aktiviere dein Telefon als WLAN-Access Point. Bis zu %d weiteres Gerät kann über die Mobildaten deines Telefons auf das Internet zugreifen.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+Aktiviere dein Tablet als WLAN-Access Point. Bis zu %d weitere Geräte können über die Mobildaten deines Tablets auf das Internet zugreifen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Aktiviere dein Tablet als WLAN-Access Point. Bis zu %d weiteres Gerät kann über die Mobildaten deines Tablets auf das Internet zugreifen.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+Verwende dein Tablet als WLAN-Access Point. Bis zu %d andere Geräte können die mobilen Daten oder die WLAN-Verbindung deines Tablets nutzen, um auf das Internet zuzugreifen.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Verwende dein Tablet als WLAN-Access Point. Bis zu %d anderes Gerät kann die mobilen Daten oder die WLAN-Verbindung deines Tablets nutzen, um auf das Internet zuzugreifen.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+%d Mitglieder</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Mitglied</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+%d Netzwerke löschen?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Netzwerk löschen?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+%d ausgewählt</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ausgewählt</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuche, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuch, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Telefon auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuche, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es wurde 1-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch %d Versuch, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Es wurde %d-mal versucht, dein Arbeitsprofil zu entsperren. Du hast noch 1 Versuch, bevor dieses Tablet auf Werkseinstellungen zurückgesetzt wird und alle Daten gelöscht werden.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+%d Stunden</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Stunde</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+%d Minuten</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d Minute</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

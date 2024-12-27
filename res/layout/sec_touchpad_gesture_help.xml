@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/recyclerparent" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@color/sec_touchpad_recycler_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/recyclerparent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sesl_round_and_bgcolor_light">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/recyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/sec_touchpad_recycler_view"
+        android:scrollbars="vertical" />
+
 </LinearLayout>

@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/linear" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/LinearLayout_bt" android:background="@drawable/sec_bluetooth_listview_background" android:paddingTop="@dimen/sesl_preference_item_padding_vertical" android:paddingBottom="@dimen/sesl_preference_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="?android:textColorPrimary" android:ellipsize="none" android:gravity="center" android:layout_gravity="center" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_no_devices_found" android:singleLine="false" />
-        <TextView android:ellipsize="none" android:gravity="start" android:layout_gravity="center" android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:lineSpacingExtra="4.0sp" style="@style/BluetoothNoItemHelpText" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/linear"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/LinearLayout_bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/sec_bluetooth_listview_background"
+        android:paddingTop="@dimen/sesl_preference_item_padding_vertical"
+        android:paddingBottom="@dimen/sesl_preference_item_padding_vertical">
+
+        <TextView
+            android:id="@id/main_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceListItem"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="none"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/sec_bluetooth_no_devices_found"
+            android:singleLine="false" />
+
+        <TextView
+            android:id="@id/secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:gravity="start"
+            android:layout_gravity="center"
+            android:singleLine="false"
+            android:lineSpacingExtra="4.0sp"
+            style="@style/BluetoothNoItemHelpText" />
+
     </LinearLayout>
+
 </LinearLayout>

@@ -1,26 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/hearing_enhancements_title" settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings" settings:topLevelPreferenceKey="top_level_accessibility"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:title="@string/real_time_text_title" android:key="real_time_text" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.RealTimeTextPreferenceController" settings:keywords="@string/keywords_real_time_text" />
-    <Preference android:title="@string/live_transcribe_title" android:key="live_transcribe" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.LiveTranscribePreferenceController" settings:keywords="@string/keyword_sec_live_transcribe" />
-    <Preference android:title="@string/speech_to_text_title" android:key="speech_to_text_preference" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SpeechToTextPreferenceController" />
-    <Preference android:title="@string/live_caption_title" android:key="live_caption" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecLiveCaptionPreferenceController" settings:keywords="@string/keyword_live_caption" />
-    <Preference android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen" android:fragment="com.android.settings.accessibility.CaptioningPropertiesFragment" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecCaptioningPreferenceController" />
-    <PreferenceCategory android:key="hearing_category_1">
-        <Preference android:title="@string/hearing_aid_support_title" android:key="hearing_aid_support" android:fragment="com.samsung.android.settings.accessibility.hearing.HearingAidPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.HearingAidsPreferenceController" />
-        <SecSwitchPreference android:title="@string/accessibility_hac_mode_title" android:key="call_hearing_aid_in_hearing" android:summary="@string/hearing_aid_compatibility_summary" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecSecondDepthHearingAidCompatibilityPreferenceController" />
-        <Preference android:title="@string/sound_notifications_title" android:key="sound_notifications" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SoundNotificationPreferenceController" settings:keywords="@string/keywords_sound_notification" />
-        <Preference android:title="@string/amplify_ambient_sound_title" android:key="amplify_ambient_sound" android:fragment="com.samsung.android.settings.accessibility.hearing.AmplifyAmbientSoundPreferenceFragment" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.AmplifyAmbientSoundPreferenceController" settings:keywords="@string/keywords_sound" />
-        <SecSwitchPreferenceScreen android:title="@string/adapt_sound_title" android:key="adapt_sound" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.AdaptSoundController" settings:keywords="@string/keyword_adapt_sound">
-            <intent android:action="com.sec.hearingadjust.launch" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/hearing_enhancements_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.accessibility.home.SecAccessibilitySettings"
+    settings:topLevelPreferenceKey="top_level_accessibility">
+
+    <Preference
+        android:title="@string/real_time_text_title"
+        android:key="real_time_text"
+        settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.RealTimeTextPreferenceController"
+        settings:keywords="@string/keywords_real_time_text" />
+
+    <Preference
+        android:title="@string/live_transcribe_title"
+        android:key="live_transcribe"
+        settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.LiveTranscribePreferenceController"
+        settings:keywords="@string/keyword_sec_live_transcribe" />
+
+    <Preference
+        android:title="@string/speech_to_text_title"
+        android:key="speech_to_text_preference"
+        settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SpeechToTextPreferenceController" />
+
+    <Preference
+        android:title="@string/live_caption_title"
+        android:key="live_caption"
+        settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecLiveCaptionPreferenceController"
+        settings:keywords="@string/keyword_live_caption" />
+
+    <Preference
+        android:title="@string/accessibility_captioning_title"
+        android:key="captioning_preference_screen"
+        android:fragment="com.android.settings.accessibility.CaptioningPropertiesFragment"
+        settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecCaptioningPreferenceController" />
+
+    <PreferenceCategory
+        android:key="hearing_category_1">
+
+        <Preference
+            android:title="@string/hearing_aid_support_title"
+            android:key="hearing_aid_support"
+            android:fragment="com.samsung.android.settings.accessibility.hearing.HearingAidPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.HearingAidsPreferenceController" />
+
+        <SecSwitchPreference
+            android:title="@string/accessibility_hac_mode_title"
+            android:key="call_hearing_aid_in_hearing"
+            android:summary="@string/hearing_aid_compatibility_summary"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecSecondDepthHearingAidCompatibilityPreferenceController" />
+
+        <Preference
+            android:title="@string/sound_notifications_title"
+            android:key="sound_notifications"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SoundNotificationPreferenceController"
+            settings:keywords="@string/keywords_sound_notification" />
+
+        <Preference
+            android:title="@string/amplify_ambient_sound_title"
+            android:key="amplify_ambient_sound"
+            android:fragment="com.samsung.android.settings.accessibility.hearing.AmplifyAmbientSoundPreferenceFragment"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.AmplifyAmbientSoundPreferenceController"
+            settings:keywords="@string/keywords_sound" />
+
+        <SecSwitchPreferenceScreen
+            android:title="@string/adapt_sound_title"
+            android:key="adapt_sound"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.AdaptSoundController"
+            settings:keywords="@string/keyword_adapt_sound">
+
+            <intent
+                android:action="com.sec.hearingadjust.launch" />
+
         </SecSwitchPreferenceScreen>
-        <SecSwitchPreferenceScreen android:title="@string/mute_all_sounds_title" android:key="all_sound_off_key" android:fragment="com.samsung.android.settings.accessibility.hearing.MuteAllSoundFragment" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.MuteAllSoundsPreferenceController" settings:keywords="@string/keywords_mute_all" />
+
+        <SecSwitchPreferenceScreen
+            android:title="@string/mute_all_sounds_title"
+            android:key="all_sound_off_key"
+            android:fragment="com.samsung.android.settings.accessibility.hearing.MuteAllSoundFragment"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.MuteAllSoundsPreferenceController"
+            settings:keywords="@string/keywords_mute_all" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:key="hearing_category_2">
-        <SecSwitchPreference android:title="@string/accessibility_toggle_primary_mono_title" android:key="mono_audio_key" android:summary="@string/mono_audio_summary" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecPrimaryMonoPreferenceController" settings:keywords="@string/keywords_mono_audio" />
-        <SecSwitchPreferenceScreen android:title="@string/accessibility_toggle_primary_mono_title" android:key="mono_audio_support_dual_spk_key" android:summary="@string/mono_audio_summary" android:fragment="com.samsung.android.settings.accessibility.hearing.MonoAudioFragment" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecPrimaryMonoHasDepthPreferenceController" settings:keywords="@string/keywords_mono_audio" />
-        <com.samsung.android.settings.accessibility.base.widget.SoundBalanceDescriptionPreference android:title="@string/sound_balance_title" android:key="sound_balance_description" android:summary="@string/sound_balance_summary" settings:allowDividerBelow="false" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SoundBalanceDescriptionPreferenceController" settings:keywords="@string/keywords_sound" />
-        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference android:icon="@drawable/ic_sound_balance_headset" android:layout="@layout/preference_accessibility_sound_balance" android:title="@string/sound_balance_connected_audio" android:key="connected_audio_balance" settings:centerBasedBar="true" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.ConnectedSoundBalancePreferenceController" settings:seamless="false" settings:seekBarMode="levelbar" settings:updatesContinuously="true" />
-        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference android:icon="@drawable/ic_sound_balance_phone" android:layout="@layout/preference_accessibility_sound_balance" android:title="@string/sound_balance_speakers" android:key="speaker_audio_balance" settings:centerBasedBar="true" settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SpeakerSoundBalancePreferenceController" settings:seamless="false" settings:seekBarMode="levelbar" settings:updatesContinuously="true" />
+
+    <PreferenceCategory
+        android:key="hearing_category_2">
+
+        <SecSwitchPreference
+            android:title="@string/accessibility_toggle_primary_mono_title"
+            android:key="mono_audio_key"
+            android:summary="@string/mono_audio_summary"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecPrimaryMonoPreferenceController"
+            settings:keywords="@string/keywords_mono_audio" />
+
+        <SecSwitchPreferenceScreen
+            android:title="@string/accessibility_toggle_primary_mono_title"
+            android:key="mono_audio_support_dual_spk_key"
+            android:summary="@string/mono_audio_summary"
+            android:fragment="com.samsung.android.settings.accessibility.hearing.MonoAudioFragment"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SecPrimaryMonoHasDepthPreferenceController"
+            settings:keywords="@string/keywords_mono_audio" />
+
+        <com.samsung.android.settings.accessibility.base.widget.SoundBalanceDescriptionPreference
+            android:title="@string/sound_balance_title"
+            android:key="sound_balance_description"
+            android:summary="@string/sound_balance_summary"
+            settings:allowDividerBelow="false"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SoundBalanceDescriptionPreferenceController"
+            settings:keywords="@string/keywords_sound" />
+
+        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference
+            android:icon="@drawable/ic_sound_balance_headset"
+            android:layout="@layout/preference_accessibility_sound_balance"
+            android:title="@string/sound_balance_connected_audio"
+            android:key="connected_audio_balance"
+            settings:centerBasedBar="true"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.ConnectedSoundBalancePreferenceController"
+            settings:seamless="false"
+            settings:seekBarMode="levelbar"
+            settings:updatesContinuously="true" />
+
+        <com.samsung.android.settings.accessibility.base.widget.A11ySeekBarPreference
+            android:icon="@drawable/ic_sound_balance_phone"
+            android:layout="@layout/preference_accessibility_sound_balance"
+            android:title="@string/sound_balance_speakers"
+            android:key="speaker_audio_balance"
+            settings:centerBasedBar="true"
+            settings:controller="com.samsung.android.settings.accessibility.hearing.controllers.SpeakerSoundBalancePreferenceController"
+            settings:seamless="false"
+            settings:seekBarMode="levelbar"
+            settings:updatesContinuously="true" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

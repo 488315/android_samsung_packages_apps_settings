@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/nfc_osaifukeitai_title" settings:hierarchicalParentFragment="com.samsung.android.settings.connection.ConnectionsSettings"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_nfc_explain" android:selectable="false" android:key="nfc_explain" settings:controller="com.samsung.android.settings.nfc.NfcDescriptionController" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="empty_general" />
-    <SecSwitchPreference android:title="@string/osaifukeitai_secure_nfc_title" android:key="secure_nfc_settings_dcm" android:summary="@string/osaifukeitai_secure_nfc_summary" settings:controller="com.samsung.android.settings.nfc.osaifu.SecureNfcControllerJPN" />
-    <SecSwitchPreference android:title="@string/osaifukeitai_secure_nfc_title_kdi" android:key="secure_nfc_settings_kdi" android:summary="@string/osaifukeitai_secure_nfc_summary" settings:controller="com.samsung.android.settings.nfc.osaifu.SecureNfcControllerJPN" />
-    <SecPreference android:title="@string/default_wallet_app" android:key="nfc_payment_settings" />
-    <SecPreference android:title="@string/default_wallet_app" android:key="nfc_payment_settings_dcm" />
-    <androidx.preference.PreferenceCategory android:title="" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/nfc_osaifukeitai_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.connection.ConnectionsSettings">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_nfc_explain"
+        android:selectable="false"
+        android:key="nfc_explain"
+        settings:controller="com.samsung.android.settings.nfc.NfcDescriptionController" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="empty_general" />
+
+    <SecSwitchPreference
+        android:title="@string/osaifukeitai_secure_nfc_title"
+        android:key="secure_nfc_settings_dcm"
+        android:summary="@string/osaifukeitai_secure_nfc_summary"
+        settings:controller="com.samsung.android.settings.nfc.osaifu.SecureNfcControllerJPN" />
+
+    <SecSwitchPreference
+        android:title="@string/osaifukeitai_secure_nfc_title_kdi"
+        android:key="secure_nfc_settings_kdi"
+        android:summary="@string/osaifukeitai_secure_nfc_summary"
+        settings:controller="com.samsung.android.settings.nfc.osaifu.SecureNfcControllerJPN" />
+
+    <SecPreference
+        android:title="@string/default_wallet_app"
+        android:key="nfc_payment_settings" />
+
+    <SecPreference
+        android:title="@string/default_wallet_app"
+        android:key="nfc_payment_settings_dcm" />
+
+    <androidx.preference.PreferenceCategory
+        android:title="" />
+
 </PreferenceScreen>

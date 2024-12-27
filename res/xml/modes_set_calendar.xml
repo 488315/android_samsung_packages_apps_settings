@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/zen_mode_set_calendar_title" android:key="zen_mode_set_calendar" settings:searchable="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/zen_mode_set_calendar_category_title" android:key="zen_mode_event_category">
-        <DropDownPreference android:title="@string/zen_mode_event_rule_calendar" android:key="calendar" android:summary="%s" />
-        <DropDownPreference android:title="@string/zen_mode_event_rule_reply" android:key="reply" android:summary="%s" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/zen_mode_set_calendar_title"
+    android:key="zen_mode_set_calendar"
+    settings:searchable="false">
+
+    <PreferenceCategory
+        android:title="@string/zen_mode_set_calendar_category_title"
+        android:key="zen_mode_event_category">
+
+        <DropDownPreference
+            android:title="@string/zen_mode_event_rule_calendar"
+            android:key="calendar"
+            android:summary="%s" />
+
+        <DropDownPreference
+            android:title="@string/zen_mode_event_rule_reply"
+            android:key="reply"
+            android:summary="%s" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

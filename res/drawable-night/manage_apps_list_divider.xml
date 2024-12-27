@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset android:insetLeft="66.0dip" android:insetRight="20.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <shape android:shape="rectangle">
-        <solid android:color="@color/manage_apps_list_divider_color_dark" />
-        <size android:height="@dimen/sesl_list_divider_height" />
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="66.0dip"
+    android:insetRight="20.0dip">
+
+    <shape
+        android:shape="rectangle">
+
+        <solid
+            android:color="@color/manage_apps_list_divider_color_dark" />
+
+        <size
+            android:height="@dimen/sesl_list_divider_height" />
+
     </shape>
+
 </inset>

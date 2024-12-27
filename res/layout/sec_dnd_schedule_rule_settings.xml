@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <RelativeLayout android:gravity="bottom" android:id="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0"
-      xmlns:android="http://schemas.android.com/apk/res/android">
-        <View android:id="@id/bottom_divider" android:layout_width="fill_parent" style="@style/sec_widget_bottom_bar_divider" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:weightSum="0.0" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/sec_widget_bottom_bar_container">
-            <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/cancel_button" android:layout_width="fill_parent" android:text="@string/sec_dnd_schedule_action_cancel" android:height="48.0dip" style="@style/sec_widget_bottom_bar_button" />
-            <com.samsung.android.settings.widget.SecBottomBarButton android:id="@id/save_button" android:layout_width="fill_parent" android:text="@string/sec_dnd_schedule_action_save" android:height="48.0dip" style="@style/sec_widget_bottom_bar_button" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" />
+
+    <RelativeLayout
+        
+        android:id="@id/button_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_weight="0.0">
+
+        <View
+            android:id="@id/bottom_divider"
+            android:layout_width="fill_parent"
+            style="@style/sec_widget_bottom_bar_divider" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="0.0"
+            android:paddingStart="24.0dip"
+            android:paddingEnd="24.0dip"
+            style="@style/sec_widget_bottom_bar_container">
+
+            <com.samsung.android.settings.widget.SecBottomBarButton
+                android:id="@id/cancel_button"
+                android:layout_width="fill_parent"
+                android:text="@string/sec_dnd_schedule_action_cancel"
+                android:height="48.0dip"
+                style="@style/sec_widget_bottom_bar_button" />
+
+            <com.samsung.android.settings.widget.SecBottomBarButton
+                android:id="@id/save_button"
+                android:layout_width="fill_parent"
+                android:text="@string/sec_dnd_schedule_action_save"
+                android:height="48.0dip"
+                style="@style/sec_widget_bottom_bar_button" />
+
         </LinearLayout>
+
     </RelativeLayout>
+
 </LinearLayout>

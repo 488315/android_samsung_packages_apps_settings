@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:id="@id/nfc_payment_pref" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:listChoiceBackgroundIndicator" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:clipToOutline="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/linearlayout" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <RadioButton android:layout_gravity="center_vertical" android:id="@android:id/button1" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:accessibilityTraversalBefore="@id/serviceDescription" />
-        <ImageView android:layout_gravity="fill_horizontal|center" android:id="@id/banner" android:background="@drawable/sec_nfc_icon_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" android:layout_marginStart="13.0dip" />
-        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:textSize="@dimen/sec_payment_option_text" android:textColor="?android:textColorPrimary" android:id="@id/serviceDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layout_marginStart="20.0dip" />
-            <TextView android:textSize="@dimen/sec_work_profile_text" android:textColor="?android:textColorSecondary" android:id="@id/workProfileText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:textDirection="locale" android:layout_marginStart="20.0dip" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/nfc_payment_pref"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="8.0dip"
+    android:paddingBottom="8.0dip"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:listChoiceBackgroundIndicator"
+    android:paddingStart="16.0dip"
+    android:paddingEnd="16.0dip"
+    android:clipToOutline="true">
+
+    <LinearLayout
+        android:id="@id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:clickable="false">
+
+        <RadioButton
+            android:id="@android:id/button1"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:focusable="false"
+            android:clickable="false"
+            android:accessibilityTraversalBefore="@id/serviceDescription" />
+
+        <ImageView
+            android:id="@id/banner"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="fill_horizontal|center"
+            android:background="@drawable/sec_nfc_icon_bg"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="13.0dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/serviceDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_payment_option_text"
+                android:textColor="?android:textColorPrimary"
+                android:textDirection="locale"
+                android:layout_marginStart="20.0dip" />
+
+            <TextView
+                android:id="@id/workProfileText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_work_profile_text"
+                android:textColor="?android:textColorSecondary"
+                android:visibility="gone"
+                android:layout_marginTop="5.0dip"
+                android:textDirection="locale"
+                android:layout_marginStart="20.0dip" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </RelativeLayout>

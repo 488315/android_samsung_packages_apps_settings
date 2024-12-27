@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.wifi.mobileap.views.progressbar.StackProgressbar android:id="@id/stacked_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/wifi_ap_progress_bar_height" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:gravity="center">
+
+    <com.samsung.android.settings.wifi.mobileap.views.progressbar.StackProgressbar
+        android:id="@id/stacked_progress_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wifi_ap_progress_bar_height"
+        android:layout_marginStart="?android:listPreferredItemPaddingStart"
+        android:layout_marginEnd="?android:listPreferredItemPaddingEnd" />
+
 </RelativeLayout>

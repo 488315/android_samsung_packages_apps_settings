@@ -1,24 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/security_dashboard_security_and_privacy_title" android:key="security_and_privacy_settings_screen" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceCategory android:order="-1400" />
-    <com.samsung.android.settings.widget.SecurityDashboardStatusPreference android:key="security_dashboard_status" android:order="-1500" />
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_lock" android:title="@string/security_dashboard_lock_screen_title" android:key="key_screen_lock" android:order="-1200" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardScreenLockPreferenceController" settings:isDividerVisible="false" settings:scanIconDrawableName="ic_security_status_lock" />
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_accounts" android:title="@string/security_dashboard_accounts_security_title" android:key="key_accounts_security" android:order="-900" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardAccountsSecurityFragment" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardAccountsSecurityPreferenceController" settings:scanIconDrawableName="ic_security_status_accounts" />
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_lost_device_protection" android:title="@string/security_dashboard_lost_device_protection_title" android:key="key_device_finders" android:order="-800" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardLegacyDeviceFindersPreferenceController" settings:scanIconDrawableName="ic_lost_device_protection">
-        <intent android:targetPackage="com.samsung.android.fmm" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.fmm.settings.FmmSettingsActivity" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/security_dashboard_security_and_privacy_title"
+    android:key="security_and_privacy_settings_screen"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:topLevelPreferenceKey="top_level_security_and_privacy">
+
+    <SecPreferenceCategory
+        android:order="-1400" />
+
+    <com.samsung.android.settings.widget.SecurityDashboardStatusPreference
+        android:key="security_dashboard_status"
+        android:order="-1500" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_security_lock"
+        android:title="@string/security_dashboard_lock_screen_title"
+        android:key="key_screen_lock"
+        android:order="-1200"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardScreenLockPreferenceController"
+        settings:isDividerVisible="false"
+        settings:scanIconDrawableName="ic_security_status_lock" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_security_accounts"
+        android:title="@string/security_dashboard_accounts_security_title"
+        android:key="key_accounts_security"
+        android:order="-900"
+        android:fragment="com.samsung.android.settings.privacy.SecurityDashboardAccountsSecurityFragment"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardAccountsSecurityPreferenceController"
+        settings:scanIconDrawableName="ic_security_status_accounts" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_lost_device_protection"
+        android:title="@string/security_dashboard_lost_device_protection_title"
+        android:key="key_device_finders"
+        android:order="-800"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardLegacyDeviceFindersPreferenceController"
+        settings:scanIconDrawableName="ic_lost_device_protection">
+
+        <intent
+            android:targetPackage="com.samsung.android.fmm"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.samsung.android.fmm.settings.FmmSettingsActivity" />
+
     </com.samsung.android.settings.widget.SecExpandableMenuPreference>
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_lost_device_protection" android:title="@string/security_dashboard_lost_device_protection_title" android:key="key_device_finders_new" android:order="-700" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardDeviceFindersFragment" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardDeviceFindersPreferenceController" settings:scanIconDrawableName="ic_lost_device_protection" />
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_app_security" android:title="@string/app_security_title" android:key="key_app_security" android:order="-600" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardAppSecurityFragment" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardAppSecurityPreferenceController" settings:scanIconDrawableName="ic_security_status_app_security" />
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_updates" android:title="@string/updates_title" android:key="key_updates" android:order="-300" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardUpdatesFragment" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardUpdatesPreferenceController" settings:scanIconDrawableName="ic_security_status_status_updates" />
-    <SecPreferenceCategory android:title="@string/additional_security_settings_category" android:key="sec_security_category" android:order="600" />
-    <SecPreferenceScreen android:title="@string/sec_unlock_set_unlock_launch_picker_title" android:key="screen_lock_and_biometrics" android:order="700" settings:controller="com.samsung.android.settings.lockscreen.controller.ScreenLockTypePreferenceController" settings:keywords="@string/keywords_lockscreen" />
-    <SecPreferenceScreen android:persistent="false" android:title="@string/power_off_lock_title" android:key="power_off_lock" android:summary="@string/power_off_lock_description" android:order="750" android:fragment="com.samsung.android.settings.security.PowerOffLockOptionFragment" settings:controller="com.samsung.android.settings.security.PowerOffLockPreferenceController" settings:keywords="@string/keywords_power_off_lock" />
-    <SecPreference android:persistent="false" android:title="@string/other_security_settings" android:key="other_security_settings" android:summary="@string/other_security_settings_summary" android:order="900" android:fragment="com.android.settings.security.SecurityAdvancedSettings" settings:controller="com.android.settings.security.SecurityAdvancedSettingsController" settings:keywords="@string/keywords_other_security_settings" />
-    <SecPreferenceCategory android:title="@string/privacy_dashboard_title" android:key="privacy_chart_category" android:order="1000">
-        <com.samsung.android.settings.privacy.PrivacyDashboardOverViewChartPreference android:layout="@layout/sec_privacy_dashboard_chart_container" android:key="privacy_chart_overview" settings:controller="com.samsung.android.settings.privacy.PrivacyDashboardChartPreferenceController" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_lost_device_protection"
+        android:title="@string/security_dashboard_lost_device_protection_title"
+        android:key="key_device_finders_new"
+        android:order="-700"
+        android:fragment="com.samsung.android.settings.privacy.SecurityDashboardDeviceFindersFragment"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardDeviceFindersPreferenceController"
+        settings:scanIconDrawableName="ic_lost_device_protection" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_security_app_security"
+        android:title="@string/app_security_title"
+        android:key="key_app_security"
+        android:order="-600"
+        android:fragment="com.samsung.android.settings.privacy.SecurityDashboardAppSecurityFragment"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardAppSecurityPreferenceController"
+        settings:scanIconDrawableName="ic_security_status_app_security" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_security_updates"
+        android:title="@string/updates_title"
+        android:key="key_updates"
+        android:order="-300"
+        android:fragment="com.samsung.android.settings.privacy.SecurityDashboardUpdatesFragment"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardUpdatesPreferenceController"
+        settings:scanIconDrawableName="ic_security_status_status_updates" />
+
+    <SecPreferenceCategory
+        android:title="@string/additional_security_settings_category"
+        android:key="sec_security_category"
+        android:order="600" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_unlock_set_unlock_launch_picker_title"
+        android:key="screen_lock_and_biometrics"
+        android:order="700"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.ScreenLockTypePreferenceController"
+        settings:keywords="@string/keywords_lockscreen" />
+
+    <SecPreferenceScreen
+        android:persistent="false"
+        android:title="@string/power_off_lock_title"
+        android:key="power_off_lock"
+        android:summary="@string/power_off_lock_description"
+        android:order="750"
+        android:fragment="com.samsung.android.settings.security.PowerOffLockOptionFragment"
+        settings:controller="com.samsung.android.settings.security.PowerOffLockPreferenceController"
+        settings:keywords="@string/keywords_power_off_lock" />
+
+    <SecPreference
+        android:persistent="false"
+        android:title="@string/other_security_settings"
+        android:key="other_security_settings"
+        android:summary="@string/other_security_settings_summary"
+        android:order="900"
+        android:fragment="com.android.settings.security.SecurityAdvancedSettings"
+        settings:controller="com.android.settings.security.SecurityAdvancedSettingsController"
+        settings:keywords="@string/keywords_other_security_settings" />
+
+    <SecPreferenceCategory
+        android:title="@string/privacy_dashboard_title"
+        android:key="privacy_chart_category"
+        android:order="1000">
+
+        <com.samsung.android.settings.privacy.PrivacyDashboardOverViewChartPreference
+            android:layout="@layout/sec_privacy_dashboard_chart_container"
+            android:key="privacy_chart_overview"
+            settings:controller="com.samsung.android.settings.privacy.PrivacyDashboardChartPreferenceController" />
+
     </SecPreferenceCategory>
-    <SecPreference android:title="@string/privacy_protection_internet" android:key="privacy_internet" android:order="1110" settings:controller="com.samsung.android.settings.privacy.PrivacyInternetController" />
-    <SecPreference android:title="@string/privacy_controls" android:key="privacy_settings" android:summary="@string/privacy_controls_summary" android:order="1200" android:fragment="com.android.settings.privacy.PrivacyDashboardFragment" settings:controller="com.samsung.android.settings.privacy.AdditionalPrivacyControlsPreferenceController" />
-    <SecPreference android:title="@string/other_privacy_settings_title" android:key="key_other_privacy_settings" android:order="1300" android:fragment="com.samsung.android.settings.privacy.OtherPrivacySettingsFragment" />
+
+    <SecPreference
+        android:title="@string/privacy_protection_internet"
+        android:key="privacy_internet"
+        android:order="1110"
+        settings:controller="com.samsung.android.settings.privacy.PrivacyInternetController" />
+
+    <SecPreference
+        android:title="@string/privacy_controls"
+        android:key="privacy_settings"
+        android:summary="@string/privacy_controls_summary"
+        android:order="1200"
+        android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"
+        settings:controller="com.samsung.android.settings.privacy.AdditionalPrivacyControlsPreferenceController" />
+
+    <SecPreference
+        android:title="@string/other_privacy_settings_title"
+        android:key="key_other_privacy_settings"
+        android:order="1300"
+        android:fragment="com.samsung.android.settings.privacy.OtherPrivacySettingsFragment" />
+
 </PreferenceScreen>

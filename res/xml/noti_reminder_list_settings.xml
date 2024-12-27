@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/repeat_notification_app_picker" settings:hierarchicalParentFragment="com.samsung.android.settings.notification.reminder.NotificationReminderPreferenceFragment" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="notification_reminder_list_key" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/repeat_notification_app_picker"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.notification.reminder.NotificationReminderPreferenceFragment"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <PreferenceCategory
+        android:key="notification_reminder_list_key" />
+
 </PreferenceScreen>

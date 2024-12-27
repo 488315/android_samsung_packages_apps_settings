@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/header_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_width="fill_parent" android:layout_height="@dimen/vswl_header_area_height" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/header_buttons"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/vswl_header_area_height" />
+
 </LinearLayout>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/alarms_and_reminders_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.settings.widget.FilterTouchesRestrictedSwitchPreference android:title="@string/sec_special_access_detail_switch" android:key="alarms_and_reminders_switch" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/alarms_and_reminders_footer_title" android:selectable="false" android:key="alarms_and_reminders_description" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/alarms_and_reminders_title">
+
+    <com.android.settings.widget.FilterTouchesRestrictedSwitchPreference
+        android:title="@string/sec_special_access_detail_switch"
+        android:key="alarms_and_reminders_switch" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/alarms_and_reminders_footer_title"
+        android:selectable="false"
+        android:key="alarms_and_reminders_description" />
+
 </PreferenceScreen>

@@ -1,25 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/sec_share_round_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:id="@id/main_container" android:background="@color/sec_share_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@color/sec_share_round_background_color" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:background="@color/sec_share_round_background_color" app:layout_collapseMode="pin" app:title="@string/sec_share_preference_title_select_apps" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <FrameLayout android:id="@id/content_frame" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_weight="1.0">
-                <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
-                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                        <TextView android:textSize="@dimen/sec_share_list_group_title_text_size" android:textColor="@color/sec_share_list_group_title_text_color" android:gravity="start|center" android:id="@id/shared_favorite_list_label" android:background="@color/sec_share_round_background_color" android:paddingTop="@dimen/sec_share_list_group_title_padding_top" android:paddingBottom="@dimen/sec_share_list_group_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_share_favorites_apps" android:contentDescription="@string/sec_share_favorites_apps" android:fontFamily="sec-medium" android:paddingHorizontal="@dimen/sec_share_list_group_title_padding_horizontal" android:accessibilityHeading="true" />
-                        <com.samsung.android.settings.share.view.AllRoundViewGroup android:id="@id/favorite_container" android:layout_width="fill_parent" android:layout_height="@dimen/sec_share_select_app_item_container_default_height" android:minHeight="@dimen/sec_share_select_app_item_container_min_height">
-                            <androidx.recyclerview.widget.RecyclerView android:id="@id/favorite_recycler_view" android:paddingTop="@dimen/sec_share_select_app_item_container_default_padding_top" android:paddingBottom="@dimen/sec_share_select_app_item_container_default_padding_bottom" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" />
-                            <TextView android:textSize="@dimen/sec_share_list_group_title_text_size" android:textColor="@color/sec_share_list_group_title_text_color" android:layout_gravity="end|center" android:id="@id/use_no_item_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_share_select_no_app" android:fontFamily="sec-medium" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/sec_share_round_background_color">
+
+    <LinearLayout
+        android:id="@id/main_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_share_bg_color">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="bottom"
+            android:background="@color/sec_share_round_background_color"
+            app:background="@color/sec_share_round_background_color"
+            app:layout_collapseMode="pin"
+            app:title="@string/sec_share_preference_title_select_apps" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@id/content_frame"
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@id/shared_favorite_list_label"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/sec_share_list_group_title_text_size"
+                            android:textColor="@color/sec_share_list_group_title_text_color"
+                            android:gravity="start|center"
+                            android:background="@color/sec_share_round_background_color"
+                            android:paddingTop="@dimen/sec_share_list_group_title_padding_top"
+                            android:paddingBottom="@dimen/sec_share_list_group_title_padding_bottom"
+                            android:text="@string/sec_share_favorites_apps"
+                            android:contentDescription="@string/sec_share_favorites_apps"
+                            android:fontFamily="sec-medium"
+                            android:paddingHorizontal="@dimen/sec_share_list_group_title_padding_horizontal"
+                            android:accessibilityHeading="true" />
+
+                        <com.samsung.android.settings.share.view.AllRoundViewGroup
+                            android:id="@id/favorite_container"
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/sec_share_select_app_item_container_default_height"
+                            android:minHeight="@dimen/sec_share_select_app_item_container_min_height">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@id/favorite_recycler_view"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:paddingTop="@dimen/sec_share_select_app_item_container_default_padding_top"
+                                android:paddingBottom="@dimen/sec_share_select_app_item_container_default_padding_bottom"
+                                android:scrollbars="vertical"
+                                android:clipToPadding="false"
+                                android:splitMotionEvents="false" />
+
+                            <TextView
+                                android:id="@id/use_no_item_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/sec_share_list_group_title_text_size"
+                                android:textColor="@color/sec_share_list_group_title_text_color"
+                                android:layout_gravity="end|center"
+                                android:visibility="gone"
+                                android:text="@string/sec_share_select_no_app"
+                                android:fontFamily="sec-medium"
+                                android:paddingStart="16.0dip"
+                                android:paddingEnd="16.0dip" />
+
                         </com.samsung.android.settings.share.view.AllRoundViewGroup>
-                        <com.samsung.android.settings.share.view.AnimateFrameLayout android:id="@id/description_container" android:background="@color/sec_share_round_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                            <TextView android:textSize="@dimen/sec_share_list_group_title_text_size" android:textColor="@color/sec_share_list_group_title_text_color" android:gravity="start|center" android:id="@id/shared_other_list_label" android:paddingTop="@dimen/sec_share_list_group_title_padding_top" android:paddingBottom="@dimen/sec_share_list_group_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_share_other_apps" android:contentDescription="@string/sec_share_other_apps" android:fontFamily="sec-medium" android:paddingHorizontal="@dimen/sec_share_list_group_title_padding_horizontal" android:accessibilityHeading="true" />
+
+                        <com.samsung.android.settings.share.view.AnimateFrameLayout
+                            android:id="@id/description_container"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/sec_share_round_background_color">
+
+                            <TextView
+                                android:id="@id/shared_other_list_label"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/sec_share_list_group_title_text_size"
+                                android:textColor="@color/sec_share_list_group_title_text_color"
+                                android:gravity="start|center"
+                                android:paddingTop="@dimen/sec_share_list_group_title_padding_top"
+                                android:paddingBottom="@dimen/sec_share_list_group_title_padding_bottom"
+                                android:text="@string/sec_share_other_apps"
+                                android:contentDescription="@string/sec_share_other_apps"
+                                android:fontFamily="sec-medium"
+                                android:paddingHorizontal="@dimen/sec_share_list_group_title_padding_horizontal"
+                                android:accessibilityHeading="true" />
+
                         </com.samsung.android.settings.share.view.AnimateFrameLayout>
-                        <androidx.picker.widget.SeslAppPickerListView android:id="@id/apppicker_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+                        <androidx.picker.widget.SeslAppPickerListView
+                            android:id="@id/apppicker_list"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+
                     </LinearLayout>
+
                 </ScrollView>
+
             </FrameLayout>
-            <LinearLayout android:orientation="horizontal" android:id="@id/content_end_pane" android:background="@color/sec_share_round_background_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+
+            <LinearLayout
+                android:id="@id/content_end_pane"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:background="@color/sec_share_round_background_color"
+                android:layout_weight="0.0" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </RelativeLayout>

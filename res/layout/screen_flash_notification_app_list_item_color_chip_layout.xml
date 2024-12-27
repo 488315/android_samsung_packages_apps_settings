@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/color_chip_layout" android:layout_width="32.0dip" android:layout_height="32.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:layout_gravity="center" android:id="@id/color_chip" android:background="@drawable/screen_flash_color_chip_background" android:padding="@dimen/screen_flash_color_chip_padding_size" android:layout_width="@dimen/controller_item_size" android:layout_height="@dimen/controller_item_size" android:scaleType="fitCenter" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/color_chip_layout"
+    android:layout_width="32.0dip"
+    android:layout_height="32.0dip"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <ImageButton
+        android:id="@id/color_chip"
+        android:layout_width="@dimen/controller_item_size"
+        android:layout_height="@dimen/controller_item_size"
+        android:layout_gravity="center"
+        android:background="@drawable/screen_flash_color_chip_background"
+        android:padding="@dimen/screen_flash_color_chip_padding_size"
+        android:scaleType="fitCenter" />
+
 </LinearLayout>

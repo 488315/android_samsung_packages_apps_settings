@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/wifi_ap_manage_mobile_hotspot"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.lockscreen.SecInsetCategory android:key="mobile_data_shared_preference_category" android:order="1">
-        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_settings_mobile_data_shared_preference_layout" android:key="mobile_data_shared_today_preference" android:order="1" settings:controller="com.samsung.android.settings.wifi.mobileap.clients.WifiApMobileDataSharedTodayPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/wifi_ap_manage_mobile_hotspot">
+
+    <com.samsung.android.settings.lockscreen.SecInsetCategory
+        android:key="mobile_data_shared_preference_category"
+        android:order="1">
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:layout="@layout/sec_wifi_ap_settings_mobile_data_shared_preference_layout"
+            android:key="mobile_data_shared_today_preference"
+            android:order="1"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.clients.WifiApMobileDataSharedTodayPreferenceController" />
+
     </com.samsung.android.settings.lockscreen.SecInsetCategory>
-    <PreferenceCategory android:title="@string/wifi_ap_connected_devices" android:key="connected_devices_preference_category" android:order="2" />
-    <PreferenceCategory android:title="@string/wifi_ap_previous_connected_devices" android:key="Previously_connected_devices_preference_category" android:order="3" />
+
+    <PreferenceCategory
+        android:title="@string/wifi_ap_connected_devices"
+        android:key="connected_devices_preference_category"
+        android:order="2" />
+
+    <PreferenceCategory
+        android:title="@string/wifi_ap_previous_connected_devices"
+        android:key="Previously_connected_devices_preference_category"
+        android:order="3" />
+
 </PreferenceScreen>

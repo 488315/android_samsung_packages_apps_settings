@@ -1,31 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sec_bt_ha_header" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/sec_bluetooth_ha_header_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_gravity="center" android:id="@id/header_icon_bg" android:padding="@dimen/sec_bt_ha_header_icon_bg_padding" android:layout_width="@dimen/sec_bt_ha_header_icon_bg_size" android:layout_height="@dimen/sec_bt_ha_header_icon_bg_size">
-        <ImageView android:id="@id/sec_bt_ha_header_icon" android:layout_width="@dimen/sec_bt_ha_header_icon_size" android:layout_height="@dimen/sec_bt_ha_header_icon_size" android:src="@drawable/hearing_aids_icon" android:antialias="true" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/sec_bt_ha_header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:paddingTop="@dimen/sec_bluetooth_ha_header_padding_top">
+
+    <RelativeLayout
+        android:id="@id/header_icon_bg"
+        android:layout_width="@dimen/sec_bt_ha_header_icon_bg_size"
+        android:layout_height="@dimen/sec_bt_ha_header_icon_bg_size"
+        android:layout_gravity="center"
+        android:padding="@dimen/sec_bt_ha_header_icon_bg_padding">
+
+        <ImageView
+            android:id="@id/sec_bt_ha_header_icon"
+            android:layout_width="@dimen/sec_bt_ha_header_icon_size"
+            android:layout_height="@dimen/sec_bt_ha_header_icon_size"
+            android:src="@drawable/hearing_aids_icon"
+            android:antialias="true"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true" />
+
     </RelativeLayout>
-    <TextView android:gravity="center" android:id="@id/sec_bt_ha_header_title" android:layout_width="@dimen/sec_bluetooth_ha_header_title_width" android:layout_height="@dimen/sec_bluetooth_ha_header_title_height" android:layout_marginTop="20.0dip" style="@style/HaHeaderTitle" />
-    <TextView android:gravity="center" android:id="@id/sec_bt_ha_connection_state" android:layout_width="@dimen/sec_bluetooth_ha_header_title_width" android:layout_height="@dimen/sec_bluetooth_ha_connection_state_height" android:layout_marginTop="5.0dip" style="@style/HaHeaderConnectionState" />
-    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ha_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
-        <LinearLayout android:orientation="vertical" android:id="@id/ha_battery_left" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <ProgressBar android:id="@id/sec_ha_progress_left" android:layout_centerInParent="false" android:layout_centerHorizontal="true" app:glance_isTopLevelLayout="true" style="@style/SecBluetoothArcProgressBar" />
-                <ImageView android:id="@id/sec_ha_icon_left" android:layout_width="@dimen/sec_bt_ha_icon_progress_size" android:layout_height="@dimen/sec_bt_ha_icon_progress_size" android:layout_marginTop="15.0dip" android:src="@drawable/hearing_aids_l" android:scaleType="fitXY" android:tint="@color/bt_device_icon_tint_color" android:layout_centerHorizontal="true" />
-                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/sec_bt_ha_battery_summary_width" android:layout_height="@dimen/sec_bt_ha_battery_summary_height" android:layout_marginTop="40.0dip">
-                    <TextView android:id="@id/battery_title_left" android:text="@string/sec_bluetooth_battery_left" style="@style/HaBatteryTitle" />
-                    <TextView android:id="@id/bt_battery_summary_left" android:layout_marginStart="4.0dip" style="@style/HaBatterySummary" />
+
+    <TextView
+        android:id="@id/sec_bt_ha_header_title"
+        android:layout_width="@dimen/sec_bluetooth_ha_header_title_width"
+        android:layout_height="@dimen/sec_bluetooth_ha_header_title_height"
+        android:gravity="center"
+        android:layout_marginTop="20.0dip"
+        style="@style/HaHeaderTitle" />
+
+    <TextView
+        android:id="@id/sec_bt_ha_connection_state"
+        android:layout_width="@dimen/sec_bluetooth_ha_header_title_width"
+        android:layout_height="@dimen/sec_bluetooth_ha_connection_state_height"
+        android:gravity="center"
+        android:layout_marginTop="5.0dip"
+        style="@style/HaHeaderConnectionState" />
+
+    <LinearLayout
+        android:id="@id/ha_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="22.0dip">
+
+        <LinearLayout
+            android:id="@id/ha_battery_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@id/sec_ha_progress_left"
+                    android:layout_centerInParent="false"
+                    android:layout_centerHorizontal="true"
+                    app:glance_isTopLevelLayout="true"
+                    style="@style/SecBluetoothArcProgressBar" />
+
+                <ImageView
+                    android:id="@id/sec_ha_icon_left"
+                    android:layout_width="@dimen/sec_bt_ha_icon_progress_size"
+                    android:layout_height="@dimen/sec_bt_ha_icon_progress_size"
+                    android:layout_marginTop="15.0dip"
+                    android:src="@drawable/hearing_aids_l"
+                    android:scaleType="fitXY"
+                    android:tint="@color/bt_device_icon_tint_color"
+                    android:layout_centerHorizontal="true" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/sec_bt_ha_battery_summary_width"
+                    android:layout_height="@dimen/sec_bt_ha_battery_summary_height"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40.0dip">
+
+                    <TextView
+                        android:id="@id/battery_title_left"
+                        android:text="@string/sec_bluetooth_battery_left"
+                        style="@style/HaBatteryTitle" />
+
+                    <TextView
+                        android:id="@id/bt_battery_summary_left"
+                        android:layout_marginStart="4.0dip"
+                        style="@style/HaBatterySummary" />
+
                 </LinearLayout>
+
             </RelativeLayout>
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:id="@id/ha_battery_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="25.0dip">
-            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <ProgressBar android:id="@id/sec_ha_progress_right" android:layout_centerInParent="false" android:layout_centerHorizontal="true" app:glance_isTopLevelLayout="true" style="@style/SecBluetoothArcProgressBar" />
-                <ImageView android:id="@id/sec_ha_icon_right" android:layout_width="@dimen/sec_bt_ha_icon_progress_size" android:layout_height="@dimen/sec_bt_ha_icon_progress_size" android:layout_marginTop="15.0dip" android:src="@drawable/hearing_aids_r" android:scaleType="fitXY" android:tint="@color/bt_device_icon_tint_color" android:layout_centerHorizontal="true" />
-                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/sec_bt_ha_battery_summary_width" android:layout_height="@dimen/sec_bt_ha_battery_summary_height" android:layout_marginTop="40.0dip">
-                    <TextView android:id="@id/battery_title_right" android:text="@string/sec_bluetooth_battery_right" style="@style/HaBatteryTitle" />
-                    <TextView android:id="@id/bt_battery_summary_right" android:layout_marginStart="4.0dip" style="@style/HaBatterySummary" />
+
+        <LinearLayout
+            android:id="@id/ha_battery_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="25.0dip">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@id/sec_ha_progress_right"
+                    android:layout_centerInParent="false"
+                    android:layout_centerHorizontal="true"
+                    app:glance_isTopLevelLayout="true"
+                    style="@style/SecBluetoothArcProgressBar" />
+
+                <ImageView
+                    android:id="@id/sec_ha_icon_right"
+                    android:layout_width="@dimen/sec_bt_ha_icon_progress_size"
+                    android:layout_height="@dimen/sec_bt_ha_icon_progress_size"
+                    android:layout_marginTop="15.0dip"
+                    android:src="@drawable/hearing_aids_r"
+                    android:scaleType="fitXY"
+                    android:tint="@color/bt_device_icon_tint_color"
+                    android:layout_centerHorizontal="true" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/sec_bt_ha_battery_summary_width"
+                    android:layout_height="@dimen/sec_bt_ha_battery_summary_height"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40.0dip">
+
+                    <TextView
+                        android:id="@id/battery_title_right"
+                        android:text="@string/sec_bluetooth_battery_right"
+                        style="@style/HaBatteryTitle" />
+
+                    <TextView
+                        android:id="@id/bt_battery_summary_right"
+                        android:layout_marginStart="4.0dip"
+                        style="@style/HaBatterySummary" />
+
                 </LinearLayout>
+
             </RelativeLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

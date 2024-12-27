@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:id="@id/select_all_layout" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize">
-        <RelativeLayout android:gravity="start" android:layout_width="wrap_content" android:layout_height="fill_parent">
-            <CheckBox android:id="@id/select_all_checkbox" android:focusable="true" android:clickable="true" android:layout_width="@dimen/sec_widget_list_with_checkbox_size" android:layout_height="@dimen/sec_widget_list_with_checkbox_size" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" />
-            <TextView android:textSize="12.0dip" android:textColor="@color/sec_actionbar_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/select_all_textview" android:clickable="true" android:layout_width="@dimen/sec_widget_list_with_checkbox_size" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/mandatory_biometric_trusted_places_all" android:singleLine="true" android:layout_alignParentBottom="true" android:marqueeRepeatLimit="marquee_forever" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <LinearLayout
+        android:id="@id/select_all_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:actionBarSize"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="start">
+
+            <CheckBox
+                android:id="@id/select_all_checkbox"
+                android:layout_width="@dimen/sec_widget_list_with_checkbox_size"
+                android:layout_height="@dimen/sec_widget_list_with_checkbox_size"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_marginTop="10.0dip"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@id/select_all_textview"
+                android:layout_width="@dimen/sec_widget_list_with_checkbox_size"
+                android:layout_height="wrap_content"
+                android:textSize="12.0dip"
+                android:textColor="@color/sec_actionbar_text_color"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_marginBottom="2.0dip"
+                android:text="@string/mandatory_biometric_trusted_places_all"
+                android:singleLine="true"
+                android:layout_alignParentBottom="true"
+                android:marqueeRepeatLimit="marquee_forever" />
+
         </RelativeLayout>
+
     </LinearLayout>
-    <TextView android:textColor="@color/sec_actionbar_text_color" android:id="@id/selected_items_count" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/select_all_layout" style="@style/fingerprint_selection_text_style" />
+
+    <TextView
+        android:id="@id/selected_items_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sec_actionbar_text_color"
+        android:focusable="false"
+        android:clickable="false"
+        android:duplicateParentState="true"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20.0dip"
+        android:layout_toEndOf="@id/select_all_layout"
+        style="@style/fingerprint_selection_text_style" />
+
 </RelativeLayout>

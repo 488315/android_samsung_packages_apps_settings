@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="@dimen/sec_widget_body_text_padding_start_end" android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/recovery_code_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/sec_mainclear_recovery_code_description" style="@style/body_text_style" />
-        <TextView android:textAppearance="@style/TextAppearance.SudDescription.Secondary" android:textColor="@color/weblink_color" android:id="@id/recovery_code_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/sec_change_recovery_code" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/sec_widget_body_text_padding_bottom"
+    android:focusable="true"
+    android:visibility="gone"
+    android:clickable="true"
+    android:layout_marginTop="12.0dip"
+    android:paddingStart="@dimen/sec_widget_body_text_padding_start_end"
+    android:paddingEnd="@dimen/sec_widget_body_text_padding_start_end">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/recovery_code_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:text="@string/sec_mainclear_recovery_code_description"
+            style="@style/body_text_style" />
+
+        <TextView
+            android:id="@id/recovery_code_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.SudDescription.Secondary"
+            android:textColor="@color/weblink_color"
+            android:layout_marginTop="12.0dip"
+            android:text="@string/sec_change_recovery_code" />
+
     </LinearLayout>
+
 </LinearLayout>

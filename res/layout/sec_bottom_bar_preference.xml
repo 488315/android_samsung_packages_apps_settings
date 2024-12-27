@@ -1,14 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@color/sec_widget_bottom_bar_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sec_tab_widget_height" android:paddingStart="@dimen/sec_widget_bottom_bar_button_side_padding" android:paddingEnd="@dimen/sec_widget_bottom_bar_button_side_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:id="@id/button1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/SecAppButtonsStyle" />
-    <RelativeLayout android:id="@id/button2_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <Button android:id="@id/button2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/SecAppButtonsStyle" />
-        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <ProgressBar android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:progressBarStyleSmall" />
-            <TextView android:textSize="@dimen/sec_app_button_text_size" android:textColor="@color/sec_app_button_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/restore" android:fontFamily="sec" android:textFontWeight="400" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/bottom_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/sec_widget_bottom_bar_bg_color"
+    android:minHeight="@dimen/sec_tab_widget_height"
+    android:paddingStart="@dimen/sec_widget_bottom_bar_button_side_padding"
+    android:paddingEnd="@dimen/sec_widget_bottom_bar_button_side_padding">
+
+    <Button
+        android:id="@id/button1"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1.0"
+        style="@style/SecAppButtonsStyle" />
+
+    <RelativeLayout
+        android:id="@id/button2_layout"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+
+        <Button
+            android:id="@id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="1.0"
+            style="@style/SecAppButtonsStyle" />
+
+        <LinearLayout
+            android:id="@id/progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="?android:progressBarStyleSmall" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sec_app_button_text_size"
+                android:textColor="@color/sec_app_button_text_color"
+                android:gravity="center"
+                android:text="@string/restore"
+                android:fontFamily="sec"
+                android:textFontWeight="400" />
+
         </LinearLayout>
+
     </RelativeLayout>
-    <Button android:id="@id/button3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/SecAppButtonsStyle" />
-    <Button android:id="@id/button4" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/SecAppButtonsStyle" />
+
+    <Button
+        android:id="@id/button3"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1.0"
+        style="@style/SecAppButtonsStyle" />
+
+    <Button
+        android:id="@id/button4"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1.0"
+        style="@style/SecAppButtonsStyle" />
+
 </LinearLayout>

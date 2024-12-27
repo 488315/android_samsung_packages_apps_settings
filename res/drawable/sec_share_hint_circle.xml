@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="oval"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/sec_share_select_app_item_icon_size" android:width="@dimen/sec_share_select_app_item_icon_size" />
-    <stroke android:width="@dimen/sec_share_select_app_drag_hint_circle_width" android:color="@color/sec_share_drag_hint_circle_color" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <size
+        android:height="@dimen/sec_share_select_app_item_icon_size"
+        android:width="@dimen/sec_share_select_app_item_icon_size" />
+
+    <stroke
+        android:width="@dimen/sec_share_select_app_drag_hint_circle_width"
+        android:color="@color/sec_share_drag_hint_circle_color" />
+
 </shape>

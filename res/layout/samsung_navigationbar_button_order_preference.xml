@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:gravity="center_vertical" android:id="@id/normal_mode_container" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/navigationbar_button_img_min_height" android:paddingEnd="?android:listPreferredItemPaddingEnd">
-            <RadioButton android:gravity="center_vertical" android:id="@id/normal_mode" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-            <ImageView android:gravity="start|center" android:id="@id/normal_mode_img" android:layout_width="@dimen/navigationbar_button_order_img_width" android:layout_height="@dimen/navigationbar_button_order_img_height" android:src="@drawable/setting_navibar_set_l_01" android:contentDescription="@string/navigationbar_order_default" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/normal_mode_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="?android:listChoiceBackgroundIndicator"
+            android:focusable="true"
+            android:clickable="true"
+            android:minHeight="@dimen/navigationbar_button_img_min_height"
+            android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+            <RadioButton
+                android:id="@id/normal_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+                android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+            <ImageView
+                android:id="@id/normal_mode_img"
+                android:layout_width="@dimen/navigationbar_button_order_img_width"
+                android:layout_height="@dimen/navigationbar_button_order_img_height"
+                android:gravity="start|center"
+                android:src="@drawable/setting_navibar_set_l_01"
+                android:contentDescription="@string/navigationbar_order_default" />
+
         </LinearLayout>
-        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_divider_height" android:paddingStart="@dimen/sec_widget_list_checkbox_width_for_divider_padding_inset">
-            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_widget_list_checkbox_width_for_divider_inset" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/sec_widget_list_divider_height"
+            android:paddingStart="@dimen/sec_widget_list_checkbox_width_for_divider_padding_inset">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="?android:listDivider"
+                android:layout_marginStart="@dimen/sec_widget_list_checkbox_width_for_divider_inset" />
+
         </LinearLayout>
-        <LinearLayout android:gravity="center_vertical" android:id="@id/reverse_mode_container" android:background="?android:listChoiceBackgroundIndicator" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/navigationbar_button_img_min_height" android:paddingEnd="?android:listPreferredItemPaddingEnd">
-            <RadioButton android:gravity="center_vertical" android:id="@id/reverse_mode" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-            <ImageView android:gravity="start|center" android:id="@id/reverse_mode_img" android:layout_width="@dimen/navigationbar_button_order_img_width" android:layout_height="@dimen/navigationbar_button_order_img_height" android:src="@drawable/setting_navibar_set_l_02" android:contentDescription="@string/navigationbar_order_mirrored" />
+
+        <LinearLayout
+            android:id="@id/reverse_mode_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="?android:listChoiceBackgroundIndicator"
+            android:focusable="true"
+            android:clickable="true"
+            android:minHeight="@dimen/navigationbar_button_img_min_height"
+            android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+            <RadioButton
+                android:id="@id/reverse_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+                android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+            <ImageView
+                android:id="@id/reverse_mode_img"
+                android:layout_width="@dimen/navigationbar_button_order_img_width"
+                android:layout_height="@dimen/navigationbar_button_order_img_height"
+                android:gravity="start|center"
+                android:src="@drawable/setting_navibar_set_l_02"
+                android:contentDescription="@string/navigationbar_order_mirrored" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

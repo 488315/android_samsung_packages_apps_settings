@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="2.0dip"
+        android:top="2.0dip"
+        android:right="2.0dip"
+        android:bottom="2.0dip">
+
         <selector>
-            <item android:state_checked="true">
-                <shape android:tint="?android:colorAccent" android:shape="oval">
-                    <size android:height="34.0dip" android:width="34.0dip" />
-                    <solid android:color="@android:color/white" />
+
+            <item
+                android:state_checked="true">
+
+                <shape
+                    android:tint="?android:colorAccent"
+                    android:shape="oval">
+
+                    <size
+                        android:height="34.0dip"
+                        android:width="34.0dip" />
+
+                    <solid
+                        android:color="@android:color/white" />
+
                 </shape>
+
             </item>
-            <item android:state_checked="false">
-                <shape android:shape="oval">
-                    <size android:height="34.0dip" android:width="34.0dip" />
-                    <stroke android:width="2.0dip" android:color="?android:colorAccent" />
-                    <solid android:color="@android:color/transparent" />
+
+            <item
+                android:state_checked="false">
+
+                <shape
+                    android:shape="oval">
+
+                    <size
+                        android:height="34.0dip"
+                        android:width="34.0dip" />
+
+                    <stroke
+                        android:width="2.0dip"
+                        android:color="?android:colorAccent" />
+
+                    <solid
+                        android:color="@android:color/transparent" />
+
                 </shape>
+
             </item>
+
         </selector>
+
     </item>
+
 </layer-list>

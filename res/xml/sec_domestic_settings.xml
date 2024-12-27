@@ -1,16 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/olleh_setting" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:topLevelPreferenceKey="top_level_olleh_setting"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceScreen android:title="@string/kt_v_coloring" android:key="v_coloring" android:summary="@string/kt_v_coloring_summary" android:order="500">
-        <intent android:action="android.intent.action.VIEW" android:data="https://vcoloring.com/outlink/intro.html" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/olleh_setting"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:topLevelPreferenceKey="top_level_olleh_setting">
+
+    <PreferenceScreen
+        android:title="@string/kt_v_coloring"
+        android:key="v_coloring"
+        android:summary="@string/kt_v_coloring_summary"
+        android:order="500">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://vcoloring.com/outlink/intro.html" />
+
     </PreferenceScreen>
-    <PreferenceScreen android:title="@string/twophone_service" android:key="two_phone" android:order="2000">
-        <intent android:action="com.kt.menu.action.KT_TWOPHONE_SETTINGS" />
+
+    <PreferenceScreen
+        android:title="@string/twophone_service"
+        android:key="two_phone"
+        android:order="2000">
+
+        <intent
+            android:action="com.kt.menu.action.KT_TWOPHONE_SETTINGS" />
+
     </PreferenceScreen>
-    <PreferenceScreen android:title="@string/olleh_wifi_setting" android:key="kt_wifi_settings" android:order="3000">
-        <intent android:action="com.kt.menu.action.KT_HOMEAP_SETTINGS" />
+
+    <PreferenceScreen
+        android:title="@string/olleh_wifi_setting"
+        android:key="kt_wifi_settings"
+        android:order="3000">
+
+        <intent
+            android:action="com.kt.menu.action.KT_HOMEAP_SETTINGS" />
+
     </PreferenceScreen>
-    <PreferenceScreen android:title="@string/sec_kt_play_game" android:key="kt_play_game" android:order="4000">
-        <intent android:action="com.samsung.android.game.gametools.action.KT_PLAY_GAME_FROM_SETTINGS" />
+
+    <PreferenceScreen
+        android:title="@string/sec_kt_play_game"
+        android:key="kt_play_game"
+        android:order="4000">
+
+        <intent
+            android:action="com.samsung.android.game.gametools.action.KT_PLAY_GAME_FROM_SETTINGS" />
+
     </PreferenceScreen>
+
 </PreferenceScreen>

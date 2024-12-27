@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/magnification_mode_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:key="empty_category" />
-    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/magnification_type_all_title" android:key="magnification_type_all" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypeRadioPreferenceController" settings:singleLineTitle="false" />
-    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/magnification_type_window_title" android:key="magnification_type_window" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypeRadioPreferenceController" />
-    <com.android.settingslib.widget.SelectorWithWidgetPreference android:title="@string/magnification_type_full_title" android:key="magnification_type_full" settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypeRadioPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/magnification_mode_title">
+
+    <PreferenceCategory
+        android:key="empty_category" />
+
+    <com.android.settingslib.widget.SelectorWithWidgetPreference
+        android:title="@string/magnification_type_all_title"
+        android:key="magnification_type_all"
+        settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypeRadioPreferenceController"
+        settings:singleLineTitle="false" />
+
+    <com.android.settingslib.widget.SelectorWithWidgetPreference
+        android:title="@string/magnification_type_window_title"
+        android:key="magnification_type_window"
+        settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypeRadioPreferenceController" />
+
+    <com.android.settingslib.widget.SelectorWithWidgetPreference
+        android:title="@string/magnification_type_full_title"
+        android:key="magnification_type_full"
+        settings:controller="com.samsung.android.settings.accessibility.vision.controllers.MagnificationTypeRadioPreferenceController" />
+
 </PreferenceScreen>

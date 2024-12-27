@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_bluetooth_source_code_dialog_top_padding" android:paddingBottom="@dimen/sec_bluetooth_source_code_dialog_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_left_padding" android:paddingEnd="@dimen/sec_bluetooth_source_code_dialog_right_padding">
-        <TextView android:textSize="@dimen/sec_bluetooth_source_code_dialog_message_text_size" android:textColor="@color/sec_bluetooth_auracast_info_about_broadcast_body_text_color" android:id="@id/dialog_message_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_auracast_dialog_password_content" android:lineSpacingExtra="@dimen/sec_bluetooth_source_code_dialog_message_line_spacing" android:fontFamily="sec" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_name_left_padding" />
-        <TextView android:textSize="@dimen/sec_bluetooth_source_code_dialog_name_text_size" android:textColor="@color/sec_bluetooth_source_code_dialog_name_text_color" android:id="@id/password_name_text" android:paddingTop="@dimen/sec_bluetooth_source_code_dialog_name_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_source_password" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_name_left_padding" />
-        <EditText android:textSize="@dimen/sec_bluetooth_source_code_dialog_name_edit_text_size" android:id="@id/broadcast_edit_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:privateImeOptions="inputType=PredictionOff|textVisiblePassword;disableEmoticonInput=true;disableGifKeyboard=true;disableSticker=true;disableLiveMessage=true;disableAutoReplacement=true" android:imeOptions="flagForceAscii|flagNoFullscreen" android:textAlignment="viewStart" />
-        <TextView android:id="@id/broadcast_error_text" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_name_left_padding" style="@style/wifi_item_password_error_text" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/sec_bluetooth_source_code_dialog_top_padding"
+        android:paddingBottom="@dimen/sec_bluetooth_source_code_dialog_bottom_padding"
+        android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_left_padding"
+        android:paddingEnd="@dimen/sec_bluetooth_source_code_dialog_right_padding">
+
+        <TextView
+            android:id="@id/dialog_message_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sec_bluetooth_source_code_dialog_message_text_size"
+            android:textColor="@color/sec_bluetooth_auracast_info_about_broadcast_body_text_color"
+            android:visibility="gone"
+            android:text="@string/sec_auracast_dialog_password_content"
+            android:lineSpacingExtra="@dimen/sec_bluetooth_source_code_dialog_message_line_spacing"
+            android:fontFamily="sec"
+            android:textAlignment="viewStart"
+            android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_name_left_padding" />
+
+        <TextView
+            android:id="@id/password_name_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sec_bluetooth_source_code_dialog_name_text_size"
+            android:textColor="@color/sec_bluetooth_source_code_dialog_name_text_color"
+            android:paddingTop="@dimen/sec_bluetooth_source_code_dialog_name_top_padding"
+            android:text="@string/sec_bluetooth_source_password"
+            android:textAlignment="viewStart"
+            android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_name_left_padding" />
+
+        <EditText
+            android:id="@id/broadcast_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="@dimen/sec_bluetooth_source_code_dialog_name_edit_text_size"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:privateImeOptions="inputType=PredictionOff|textVisiblePassword;disableEmoticonInput=true;disableGifKeyboard=true;disableSticker=true;disableLiveMessage=true;disableAutoReplacement=true"
+            android:imeOptions="flagForceAscii|flagNoFullscreen"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@id/broadcast_error_text"
+            android:textAlignment="viewStart"
+            android:paddingStart="@dimen/sec_bluetooth_source_code_dialog_name_left_padding"
+            style="@style/wifi_item_password_error_text" />
+
     </LinearLayout>
+
 </ScrollView>

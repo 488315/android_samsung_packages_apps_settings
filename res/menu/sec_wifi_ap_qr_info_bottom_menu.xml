@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_wifi_ap_qr_code" android:id="@id/qr_code_button" android:title="@string/sec_wifi_qrcode" android:iconTint="@color/wifi_ap_secondary_text_color" android:iconTintMode="src_in" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_wifi_ap_info" android:id="@id/info_button" android:title="@string/help_title" android:iconTint="@color/wifi_ap_secondary_text_color" android:iconTintMode="src_in" app:showAsAction="always" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/qr_code_button"
+        android:icon="@drawable/ic_wifi_ap_qr_code"
+        android:title="@string/sec_wifi_qrcode"
+        android:iconTint="@color/wifi_ap_secondary_text_color"
+        android:iconTintMode="src_in"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@id/info_button"
+        android:icon="@drawable/ic_wifi_ap_info"
+        android:title="@string/help_title"
+        android:iconTint="@color/wifi_ap_secondary_text_color"
+        android:iconTintMode="src_in"
+        app:showAsAction="always" />
+
 </menu>

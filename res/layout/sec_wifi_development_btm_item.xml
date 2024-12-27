@@ -1,13 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_wifi_list_text_margin" android:layout_marginBottom="@dimen/sec_wifi_list_text_margin" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_wifi_manage_ap_list_item_start_padding" android:paddingEnd="@dimen/sec_wifi_list_item_end_padding">
-        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/wifi_preference_title_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/btm_disabled_ap" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/sec_wifi_manage_ap_title_min_height" android:singleLine="true" />
-            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/wifi_preference_summary_color" android:id="@id/btm_disabled_reason" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/btm_disabled_ap" android:layout_alignStart="@id/btm_disabled_ap" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/sec_wifi_list_text_margin"
+    android:layout_marginBottom="@dimen/sec_wifi_list_text_margin"
+    android:layout_weight="1.0">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/sec_wifi_manage_ap_list_item_start_padding"
+        android:paddingEnd="@dimen/sec_wifi_list_item_end_padding">
+
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@id/btm_disabled_ap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textColor="@color/wifi_preference_title_color"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:fadingEdge="horizontal"
+                android:minHeight="@dimen/sec_wifi_manage_ap_title_min_height"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/btm_disabled_reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceListItemSecondary"
+                android:textColor="@color/wifi_preference_summary_color"
+                android:maxLines="1"
+                android:layout_below="@id/btm_disabled_ap"
+                android:layout_alignStart="@id/btm_disabled_ap" />
+
         </RelativeLayout>
-        <RelativeLayout android:layout_gravity="end|center" android:id="@id/btm_switch_touch_area" android:layout_width="@dimen/wifi_preference_icon_touch_area_size" android:layout_height="@dimen/wifi_preference_icon_touch_area_size" android:layout_marginStart="@dimen/wifi_preference_divider_padding">
-            <Switch android:id="@id/btm_disable_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@id/btm_switch_touch_area"
+            android:layout_width="@dimen/wifi_preference_icon_touch_area_size"
+            android:layout_height="@dimen/wifi_preference_icon_touch_area_size"
+            android:layout_gravity="end|center"
+            android:layout_marginStart="@dimen/wifi_preference_divider_padding">
+
+            <Switch
+                android:id="@id/btm_disable_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_centerInParent="true" />
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

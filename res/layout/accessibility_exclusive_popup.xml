@@ -1,11 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:paddingTop="@dimen/alert_dialog_content_top_padding" android:paddingBottom="@dimen/sesl_dialog_body_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?dialogPreferredPadding" android:paddingEnd="?dialogPreferredPadding"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/dialog_desc_string" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" settings:layout_constraintBottom_toTopOf="@id/dialog_desc_accessibility_sub_title" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintHorizontal_bias="0.0" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toTopOf="parent" settings:layout_constraintVertical_chainStyle="packed" style="@style/Accessibility.Widget.Dialog.Body" />
-        <TextView android:textAppearance="@style/Accessibility.TextAppearance.TextView.Description.SubTitle" android:id="@id/dialog_desc_accessibility_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_settings" settings:layout_constraintBottom_toTopOf="@id/dialog_desc_accessibility_list" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintHorizontal_bias="0.0" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toBottomOf="@id/dialog_desc_string" />
-        <TextView android:id="@id/dialog_desc_accessibility_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/alert_dialog_sub_body_text_start_padding" settings:layout_constraintBottom_toTopOf="@id/dialog_desc_others_sub_title" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintHorizontal_bias="0.0" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toBottomOf="@id/dialog_desc_accessibility_sub_title" settings:layout_goneMarginBottom="0.0dip" style="@style/Accessibility.Widget.Dialog.Body.SubList" />
-        <TextView android:textAppearance="@style/Accessibility.TextAppearance.TextView.Description.SubTitle" android:id="@id/dialog_desc_others_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/others_exclusive_category_title" settings:layout_constraintBottom_toTopOf="@id/dialog_desc_others_list" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintHorizontal_bias="0.0" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toBottomOf="@id/dialog_desc_accessibility_list" />
-        <TextView android:id="@id/dialog_desc_others_list" android:layout_width="wrap_content" android:layout_height="wrap_content" settings:layout_constraintBottom_toBottomOf="parent" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintHorizontal_bias="0.0" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toBottomOf="@id/dialog_desc_others_sub_title" style="@style/Accessibility.Widget.Dialog.Body.SubList" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/alert_dialog_content_top_padding"
+    android:paddingBottom="@dimen/sesl_dialog_body_text_padding_bottom"
+    android:paddingStart="?dialogPreferredPadding"
+    android:paddingEnd="?dialogPreferredPadding">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@id/dialog_desc_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16.0dip"
+            settings:layout_constraintBottom_toTopOf="@id/dialog_desc_accessibility_sub_title"
+            settings:layout_constraintEnd_toEndOf="parent"
+            settings:layout_constraintHorizontal_bias="0.0"
+            settings:layout_constraintStart_toStartOf="parent"
+            settings:layout_constraintTop_toTopOf="parent"
+            settings:layout_constraintVertical_chainStyle="packed"
+            style="@style/Accessibility.Widget.Dialog.Body" />
+
+        <TextView
+            android:id="@id/dialog_desc_accessibility_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Accessibility.TextAppearance.TextView.Description.SubTitle"
+            android:text="@string/accessibility_settings"
+            settings:layout_constraintBottom_toTopOf="@id/dialog_desc_accessibility_list"
+            settings:layout_constraintEnd_toEndOf="parent"
+            settings:layout_constraintHorizontal_bias="0.0"
+            settings:layout_constraintStart_toStartOf="parent"
+            settings:layout_constraintTop_toBottomOf="@id/dialog_desc_string" />
+
+        <TextView
+            android:id="@id/dialog_desc_accessibility_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/alert_dialog_sub_body_text_start_padding"
+            settings:layout_constraintBottom_toTopOf="@id/dialog_desc_others_sub_title"
+            settings:layout_constraintEnd_toEndOf="parent"
+            settings:layout_constraintHorizontal_bias="0.0"
+            settings:layout_constraintStart_toStartOf="parent"
+            settings:layout_constraintTop_toBottomOf="@id/dialog_desc_accessibility_sub_title"
+            settings:layout_goneMarginBottom="0.0dip"
+            style="@style/Accessibility.Widget.Dialog.Body.SubList" />
+
+        <TextView
+            android:id="@id/dialog_desc_others_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Accessibility.TextAppearance.TextView.Description.SubTitle"
+            android:text="@string/others_exclusive_category_title"
+            settings:layout_constraintBottom_toTopOf="@id/dialog_desc_others_list"
+            settings:layout_constraintEnd_toEndOf="parent"
+            settings:layout_constraintHorizontal_bias="0.0"
+            settings:layout_constraintStart_toStartOf="parent"
+            settings:layout_constraintTop_toBottomOf="@id/dialog_desc_accessibility_list" />
+
+        <TextView
+            android:id="@id/dialog_desc_others_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            settings:layout_constraintBottom_toBottomOf="parent"
+            settings:layout_constraintEnd_toEndOf="parent"
+            settings:layout_constraintHorizontal_bias="0.0"
+            settings:layout_constraintStart_toStartOf="parent"
+            settings:layout_constraintTop_toBottomOf="@id/dialog_desc_others_sub_title"
+            style="@style/Accessibility.Widget.Dialog.Body.SubList" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>

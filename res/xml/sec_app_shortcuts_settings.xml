@@ -1,19 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/app_shortcuts_settings" android:key="app_shortcuts_all" settings:controller="com.android.settings.inputmethod.AppShortcutsPreferenceController"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_a" android:key="app_shortcuts_cmd_a" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_b" android:key="app_shortcuts_cmd_b" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_c" android:key="app_shortcuts_cmd_c" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_d" android:key="app_shortcuts_cmd_d" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_e" android:key="app_shortcuts_cmd_e" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_f" android:key="app_shortcuts_cmd_f" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_h" android:key="app_shortcuts_cmd_h" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_i" android:key="app_shortcuts_cmd_i" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_j" android:key="app_shortcuts_cmd_j" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_k" android:key="app_shortcuts_cmd_k" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_m" android:key="app_shortcuts_cmd_m" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_p" android:key="app_shortcuts_cmd_p" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_r" android:key="app_shortcuts_cmd_r" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_s" android:key="app_shortcuts_cmd_s" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
-    <SecPreferenceScreen android:title="@string/app_shortcuts_cmd_z" android:key="app_shortcuts_cmd_z" android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/app_shortcuts_settings"
+    android:key="app_shortcuts_all"
+    settings:controller="com.android.settings.inputmethod.AppShortcutsPreferenceController">
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_a"
+        android:key="app_shortcuts_cmd_a"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_b"
+        android:key="app_shortcuts_cmd_b"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_c"
+        android:key="app_shortcuts_cmd_c"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_d"
+        android:key="app_shortcuts_cmd_d"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_e"
+        android:key="app_shortcuts_cmd_e"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_f"
+        android:key="app_shortcuts_cmd_f"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_h"
+        android:key="app_shortcuts_cmd_h"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_i"
+        android:key="app_shortcuts_cmd_i"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_j"
+        android:key="app_shortcuts_cmd_j"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_k"
+        android:key="app_shortcuts_cmd_k"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_m"
+        android:key="app_shortcuts_cmd_m"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_p"
+        android:key="app_shortcuts_cmd_p"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_r"
+        android:key="app_shortcuts_cmd_r"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_s"
+        android:key="app_shortcuts_cmd_s"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
+    <SecPreferenceScreen
+        android:title="@string/app_shortcuts_cmd_z"
+        android:key="app_shortcuts_cmd_z"
+        android:summary="@string/app_shortcuts_need_to_select_app_summary" />
+
 </PreferenceScreen>

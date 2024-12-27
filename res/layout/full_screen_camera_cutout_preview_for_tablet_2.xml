@@ -1,23 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/image_layout" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:id="@id/full_screen_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="38.0dip" android:layout_marginRight="24.0dip">
-            <TextView android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/full_screen_show_camera_cutout" android:layout_weight="1.0" style="@style/full_screen_preview_text_style" />
-            <View android:layout_width="8.0dip" android:layout_height="fill_parent" />
-            <TextView android:gravity="center_horizontal" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/full_screen_apps_hide_camera_title" android:layout_weight="1.0" style="@style/full_screen_preview_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/image_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="afterDescendants">
+
+    <LinearLayout
+        android:id="@id/full_screen_image_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginTop="38.0dip"
+            android:layout_marginRight="24.0dip">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="@string/full_screen_show_camera_cutout"
+                android:layout_weight="1.0"
+                style="@style/full_screen_preview_text_style" />
+
+            <View
+                android:layout_width="8.0dip"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="@string/full_screen_apps_hide_camera_title"
+                android:layout_weight="1.0"
+                style="@style/full_screen_preview_text_style" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="52.0dip">
-            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <ImageView android:layout_width="142.0dip" android:layout_height="wrap_content" android:src="@drawable/setting_aspect_ratio_img_tablet_01" android:scaleType="fitXY" android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginTop="28.0dip"
+            android:layout_marginRight="24.0dip"
+            android:layout_marginBottom="52.0dip">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1.0">
+
+                <ImageView
+                    android:layout_width="142.0dip"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_aspect_ratio_img_tablet_01"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
             </LinearLayout>
-            <View android:layout_width="8.0dip" android:layout_height="fill_parent" />
-            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-                <ImageView android:layout_width="142.0dip" android:layout_height="wrap_content" android:src="@drawable/setting_aspect_ratio_img_tablet_02" android:scaleType="fitXY" android:adjustViewBounds="true" />
+
+            <View
+                android:layout_width="8.0dip"
+                android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1.0">
+
+                <ImageView
+                    android:layout_width="142.0dip"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/setting_aspect_ratio_img_tablet_02"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
-    <LinearLayout android:id="@id/full_screen_desc_layout" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/full_screen_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top" android:layout_marginBottom="@dimen/sec_widget_preference_unclickable_margin_bottom" android:text="@string/full_screen_apps_summary_for_camera_cutout" android:layout_marginHorizontal="@dimen/sec_widget_body_text_padding_start_end" style="@style/description_text" />
+
+    <LinearLayout
+        android:id="@id/full_screen_desc_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sec_widget_round_and_bgcolor">
+
+        <TextView
+            android:id="@id/full_screen_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sec_widget_preference_unclickable_margin_top"
+            android:layout_marginBottom="@dimen/sec_widget_preference_unclickable_margin_bottom"
+            android:text="@string/full_screen_apps_summary_for_camera_cutout"
+            android:layout_marginHorizontal="@dimen/sec_widget_body_text_padding_start_end"
+            style="@style/description_text" />
+
     </LinearLayout>
+
 </LinearLayout>

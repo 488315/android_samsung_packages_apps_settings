@@ -1,14 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_gravity="center_vertical" android:id="@id/onboarding_icon" android:layout_width="@dimen/sec_inline_slider_icon_width" android:layout_height="@dimen/sec_inline_slider_icon_height" />
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end">
-        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/sec_theft_protection_warning_title_padding_end">
-                <TextView android:id="@id/onboarding_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/sec_tip_title" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="16.0dip">
+
+    <View
+        android:id="@id/onboarding_icon"
+        android:layout_width="@dimen/sec_inline_slider_icon_width"
+        android:layout_height="@dimen/sec_inline_slider_icon_height"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/sec_theft_protection_warning_title_padding_end">
+
+                <TextView
+                    android:id="@id/onboarding_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    style="@style/sec_tip_title" />
+
             </LinearLayout>
-            <View android:id="@id/onboarding_status_icon" android:background="@drawable/list_status_orange" android:layout_width="@dimen/sec_theft_protection_warning_icon_size" android:layout_height="@dimen/sec_theft_protection_warning_icon_size" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+
+            <View
+                android:id="@id/onboarding_status_icon"
+                android:layout_width="@dimen/sec_theft_protection_warning_icon_size"
+                android:layout_height="@dimen/sec_theft_protection_warning_icon_size"
+                android:background="@drawable/list_status_orange"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+
         </RelativeLayout>
-        <TextView android:id="@id/onboarding_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/description_text" />
+
+        <TextView
+            android:id="@id/onboarding_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3.0dip"
+            style="@style/description_text" />
+
     </LinearLayout>
+
 </LinearLayout>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/zen_mode_set_schedule_title" android:key="zen_mode_set_schedule" settings:searchable="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/modes_set_schedule_layout" android:selectable="false" android:key="schedule" />
-    <SwitchPreferenceCompat android:title="@string/zen_mode_schedule_alarm_title" android:key="exit_at_alarm" android:summary="@string/zen_mode_schedule_alarm_summary" android:order="99" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/zen_mode_set_schedule_title"
+    android:key="zen_mode_set_schedule"
+    settings:searchable="false">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/modes_set_schedule_layout"
+        android:selectable="false"
+        android:key="schedule" />
+
+    <SwitchPreferenceCompat
+        android:title="@string/zen_mode_schedule_alarm_title"
+        android:key="exit_at_alarm"
+        android:summary="@string/zen_mode_schedule_alarm_summary"
+        android:order="99" />
+
 </PreferenceScreen>

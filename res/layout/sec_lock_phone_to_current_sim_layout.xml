@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="48.0dip" android:layout_marginBottom="48.0dip" android:overScrollMode="ifContentScrolls"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_edit_pin_dialog_top_bottom_padding" android:paddingBottom="@dimen/sec_edit_pin_dialog_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_edit_pin_dialog_side_padding" android:paddingEnd="@dimen/sec_edit_pin_dialog_side_padding">
-        <TextView android:id="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/edit_dialog_label_text_style" />
-        <EditText android:gravity="center" android:id="@android:id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:maxLength="8" android:inputType="numberPassword" android:imeOptions="flagNoExtractUi" android:textAlignment="center" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" android:importantForAutofill="no">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="48.0dip"
+    android:layout_marginBottom="48.0dip"
+    android:overScrollMode="ifContentScrolls">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/sec_edit_pin_dialog_top_bottom_padding"
+        android:paddingBottom="@dimen/sec_edit_pin_dialog_top_bottom_padding"
+        android:paddingStart="@dimen/sec_edit_pin_dialog_side_padding"
+        android:paddingEnd="@dimen/sec_edit_pin_dialog_side_padding">
+
+        <TextView
+            android:id="@android:id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginRight="24.0dip"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="24.0dip"
+            style="@style/edit_dialog_label_text_style" />
+
+        <EditText
+            android:id="@android:id/edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="48.0dip"
+            android:maxLength="8"
+            android:inputType="numberPassword"
+            android:imeOptions="flagNoExtractUi"
+            android:textAlignment="center"
+            android:layout_marginStart="14.0dip"
+            android:layout_marginEnd="14.0dip"
+            android:importantForAutofill="no">
+
             <requestFocus />
+
         </EditText>
-        <TextView android:textSize="@dimen/device_name_edit_dialog_hint_text_size" android:textColor="@color/device_info_dialog_error" android:id="@id/error_textview_sim" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lock_phone_to_current_sim_change_password_dialog_not_matched_message" android:layout_marginStart="@dimen/sec_widget_alert_dialog_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_alert_dialog_padding_start_end" />
+
+        <TextView
+            android:id="@id/error_textview_sim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/device_name_edit_dialog_hint_text_size"
+            android:textColor="@color/device_info_dialog_error"
+            android:text="@string/lock_phone_to_current_sim_change_password_dialog_not_matched_message"
+            android:layout_marginStart="@dimen/sec_widget_alert_dialog_padding_start_end"
+            android:layout_marginEnd="@dimen/sec_widget_alert_dialog_padding_start_end" />
+
     </LinearLayout>
+
 </ScrollView>

@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/satellite_setting" android:key="satellite_setting" settings:keywords="@string/keywords_satellite_setting"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/category_name_about_satellite_messaging">
-        <com.android.settingslib.widget.TopIntroPreference android:key="key_about_satellite_messaging" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/satellite_setting"
+    android:key="satellite_setting"
+    settings:keywords="@string/keywords_satellite_setting">
+
+    <PreferenceCategory
+        android:title="@string/category_name_about_satellite_messaging">
+
+        <com.android.settingslib.widget.TopIntroPreference
+            android:key="key_about_satellite_messaging" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/category_title_your_satellite_plan" android:key="key_category_your_satellite_plan">
-        <Preference android:icon="?android:textColorPrimary" android:key="key_your_satellite_plan" />
+
+    <PreferenceCategory
+        android:title="@string/category_title_your_satellite_plan"
+        android:key="key_category_your_satellite_plan">
+
+        <Preference
+            android:icon="?android:textColorPrimary"
+            android:key="key_your_satellite_plan" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:focusable="false" android:clickable="false" android:title="@string/category_name_how_it_works" android:key="key_category_how_it_works">
-        <Preference android:icon="@drawable/ic_signal_cellular_nodata_24px" android:title="@string/title_satellite_connection_guide" android:key="key_satellite_connection_guide" android:summary="@string/summary_satellite_connection_guide" />
-        <Preference android:icon="@drawable/ic_android_satellite_24px" android:title="@string/title_supported_service" android:key="key_supported_service" android:summary="@string/summary_supported_service" />
+
+    <PreferenceCategory
+        android:focusable="false"
+        android:clickable="false"
+        android:title="@string/category_name_how_it_works"
+        android:key="key_category_how_it_works">
+
+        <Preference
+            android:icon="@drawable/ic_signal_cellular_nodata_24px"
+            android:title="@string/title_satellite_connection_guide"
+            android:key="key_satellite_connection_guide"
+            android:summary="@string/summary_satellite_connection_guide" />
+
+        <Preference
+            android:icon="@drawable/ic_android_satellite_24px"
+            android:title="@string/title_supported_service"
+            android:key="key_supported_service"
+            android:summary="@string/summary_supported_service" />
+
     </PreferenceCategory>
-    <com.android.settingslib.widget.FooterPreference android:layout="@layout/satellite_setting_more_information_layout" android:selectable="false" android:key="satellite_setting_extra_info_footer_pref" settings:searchable="false" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:layout="@layout/satellite_setting_more_information_layout"
+        android:selectable="false"
+        android:key="satellite_setting_extra_info_footer_pref"
+        settings:searchable="false" />
+
 </PreferenceScreen>

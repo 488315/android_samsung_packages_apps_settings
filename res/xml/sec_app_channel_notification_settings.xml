@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/app_settings_channel_link" android:key="app_channel_settings" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:roundStroke="none" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:key="pref_app_header" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="1.0px" settings:roundStroke="top_left|top_right" />
-    <PreferenceCategory android:visibility="gone" android:title="@string/conversations_category_title" android:key="conversations" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="bubble_pref_inset" />
-    <Preference android:title="@string/notification_bubbles_title" android:key="bubble_pref_link" settings:controller="com.android.settings.notification.app.BubbleSummaryPreferenceController" />
-    <PreferenceCategory android:layout="@layout/empty_view" android:key="channels" settings:allowDividerAbove="false" settings:allowDividerBelow="false" />
-    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/allow_interruption" android:key="allow_sound" android:summary="@string/allow_interruption_summary" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="deleted" android:order="8000" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/app_settings_channel_link"
+    android:key="app_channel_settings"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke"
+        settings:roundStroke="none" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_app_info_submenu_header"
+        android:key="pref_app_header" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke"
+        settings:height="1.0px"
+        settings:roundStroke="top_left|top_right" />
+
+    <PreferenceCategory
+        android:visibility="gone"
+        android:title="@string/conversations_category_title"
+        android:key="conversations"
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="bubble_pref_inset" />
+
+    <Preference
+        android:title="@string/notification_bubbles_title"
+        android:key="bubble_pref_link"
+        settings:controller="com.android.settings.notification.app.BubbleSummaryPreferenceController" />
+
+    <PreferenceCategory
+        android:layout="@layout/empty_view"
+        android:key="channels"
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false" />
+
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:title="@string/allow_interruption"
+        android:key="allow_sound"
+        android:summary="@string/allow_interruption_summary" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:key="deleted"
+        android:order="8000" />
+
 </PreferenceScreen>

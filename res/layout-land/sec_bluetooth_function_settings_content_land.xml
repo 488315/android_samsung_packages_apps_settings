@@ -1,19 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.android.settings.widget.SwitchBar android:theme="?switchBarTheme" android:id="@id/switch_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_bluetooth_switchbar_margin_top" android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.android.settings.widget.SwitchBar
+            android:id="@id/switch_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:theme="?switchBarTheme"
+            android:layout_marginTop="@dimen/sec_bluetooth_switchbar_margin_top"
+            android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom" />
+
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <FrameLayout android:orientation="vertical" android:id="@id/frame_layout" android:background="?android:colorBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="6.0">
-            <LinearLayout android:gravity="top" android:orientation="horizontal" android:paddingTop="@dimen/sec_bluetooth_dual_play_settings_content_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom" android:paddingStart="@dimen/sec_widget_switchbar_margin_start" android:paddingEnd="@dimen/sec_widget_switchbar_margin_start">
-                <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@id/frame_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:colorBackground"
+            android:layout_weight="6.0">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/sec_bluetooth_dual_play_settings_content_padding_top"
+                android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom"
+                android:paddingStart="@dimen/sec_widget_switchbar_margin_start"
+                android:paddingEnd="@dimen/sec_widget_switchbar_margin_start">
+
+                <ImageView
+                    android:id="@id/image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true" />
+
             </LinearLayout>
+
         </FrameLayout>
-        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="4.0">
-            <LinearLayout android:gravity="top" android:orientation="vertical" android:paddingTop="@dimen/sec_bluetooth_dual_play_settings_content_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom">
-                <TextView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_bluetooth_dialog_padding" android:paddingEnd="@dimen/sec_bluetooth_dialog_padding" style="@style/body_text_style" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_weight="4.0">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/sec_bluetooth_dual_play_settings_content_padding_top"
+                android:layout_marginBottom="@dimen/sec_bluetooth_switchbar_margin_bottom">
+
+                <TextView
+                    android:id="@id/content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:paddingStart="@dimen/sec_bluetooth_dialog_padding"
+                    android:paddingEnd="@dimen/sec_bluetooth_dialog_padding"
+                    style="@style/body_text_style" />
+
             </LinearLayout>
+
         </ScrollView>
+
     </LinearLayout>
+
 </LinearLayout>

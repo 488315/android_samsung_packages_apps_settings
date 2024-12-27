@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<EditText android:textAppearance="?android:textAppearanceListItem" android:id="@id/custom_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionDone|flagNoFullscreen"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<EditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/custom_input"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:textAppearanceListItem"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:layout_centerVertical="true"
+    android:inputType="text"
+    android:imeOptions="actionDone|flagNoFullscreen" />

@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_rotate_all_apps_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:key="pref_app_header" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="20.0px" settings:roundStroke="top_left|top_right" />
-    <com.android.settings.widget.SettingsMainSwitchPreference android:key="main_switch_preference" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_set_aspect_ratio_for_each_app_app_default" android:key="app_default" settings:allowDividerBelow="false" settings:searchable="false" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_set_aspect_ratio_for_each_app_full_screen" android:key="full_screen" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_rotate_all_apps_title">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_app_info_submenu_header"
+        android:key="pref_app_header" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke"
+        settings:height="20.0px"
+        settings:roundStroke="top_left|top_right" />
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="main_switch_preference" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_set_aspect_ratio_for_each_app_app_default"
+        android:key="app_default"
+        settings:allowDividerBelow="false"
+        settings:searchable="false" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_set_aspect_ratio_for_each_app_full_screen"
+        android:key="full_screen"
+        settings:searchable="false" />
+
 </PreferenceScreen>

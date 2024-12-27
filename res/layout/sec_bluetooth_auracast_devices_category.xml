@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@android:id/title" android:background="@color/sec_bluetooth_auracast_background_color" android:paddingTop="@dimen/sec_bluetooth_source_devices_category_top_padding" android:paddingBottom="@dimen/sec_bluetooth_source_devices_category_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:paddingStart="@dimen/sec_bluetooth_source_device_list_title_start_margin" android:paddingEnd="@dimen/sec_bluetooth_source_device_list_title_start_margin" android:textFontWeight="600" style="?android:listSeparatorTextViewStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sec_bluetooth_auracast_background_color"
+    android:paddingTop="@dimen/sec_bluetooth_source_devices_category_top_padding"
+    android:paddingBottom="@dimen/sec_bluetooth_source_devices_category_bottom_padding"
+    android:fontFamily="sec"
+    android:paddingStart="@dimen/sec_bluetooth_source_device_list_title_start_margin"
+    android:paddingEnd="@dimen/sec_bluetooth_source_device_list_title_start_margin"
+    android:textFontWeight="600"
+    style="?android:listSeparatorTextViewStyle" />

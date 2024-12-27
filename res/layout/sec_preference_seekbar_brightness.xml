@@ -1,13 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_seekbar_preference_item_top_padding" android:paddingBottom="@dimen/sec_seekbar_preference_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/brightness_title" android:paddingStart="@dimen/sec_widget_list_with_icon_margin_start" style="@style/list_item_container_style"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_brightness_seekbar_label_bottom_padding" android:singleLine="true" style="@style/list_title_text_style" />
-    <TextView android:ellipsize="marquee" android:id="@id/sub_title" android:visibility="gone" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_brightness_sub_title_top_margin" android:layout_marginBottom="@dimen/sec_brightness_sub_title_bottom_margin" android:text="@string/brightness_main_screen_title" android:singleLine="true" android:fontFamily="sec-roboto-medium" style="@style/list_summary_text_style" />
-    <View android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/sec_brightness_seekbar_height">
-        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@id/brightness_icon" android:layout_width="@dimen/sec_brightness_icon_size" android:layout_height="@dimen/sec_brightness_icon_size" android:contentDescription="@null" />
-        <androidx.appcompat.widget.SeslSeekBar android:layout_gravity="center_vertical" android:id="@id/brightness_seekbar" android:layout_width="0.0dip" android:layout_height="@dimen/sec_brightness_icon_size" android:layout_weight="1.0" android:paddingStart="@dimen/sec_display_settings_seekbar_with_icon_padding_start" android:paddingEnd="@dimen/sec_display_settings_seekbar_with_icon_padding_end" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/sec_seekbar_preference_item_top_padding"
+    android:paddingBottom="@dimen/sec_seekbar_preference_item_bottom_padding"
+    android:contentDescription="@string/brightness_title"
+    android:paddingStart="@dimen/sec_widget_list_with_icon_margin_start"
+    style="@style/list_item_container_style">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:layout_marginBottom="@dimen/sec_brightness_seekbar_label_bottom_padding"
+        android:singleLine="true"
+        style="@style/list_title_text_style" />
+
+    <TextView
+        android:id="@id/sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:visibility="gone"
+        android:fadingEdge="horizontal"
+        android:layout_marginTop="@dimen/sec_brightness_sub_title_top_margin"
+        android:layout_marginBottom="@dimen/sec_brightness_sub_title_bottom_margin"
+        android:text="@string/brightness_main_screen_title"
+        android:singleLine="true"
+        android:fontFamily="sec-roboto-medium"
+        style="@style/list_summary_text_style" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sec_brightness_seekbar_height"
+        android:orientation="horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/brightness_icon"
+            android:layout_width="@dimen/sec_brightness_icon_size"
+            android:layout_height="@dimen/sec_brightness_icon_size"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@null" />
+
+        <androidx.appcompat.widget.SeslSeekBar
+            android:id="@id/brightness_seekbar"
+            android:layout_width="0.0dip"
+            android:layout_height="@dimen/sec_brightness_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/sec_display_settings_seekbar_with_icon_padding_start"
+            android:paddingEnd="@dimen/sec_display_settings_seekbar_with_icon_padding_end" />
+
     </LinearLayout>
-    <TextView android:textSize="@dimen/sec_high_bright_mode_text_size" android:layout_gravity="center" android:id="@id/hbm_mode_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:text="@string/sec_hbm_mode_on" style="@style/list_summary_text_style" />
-    <TextView android:id="@id/brightnesslevel_and_overheatwarning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_brightness_overheat_description" style="@style/list_summary_text_style" />
+
+    <TextView
+        android:id="@id/hbm_mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sec_high_bright_mode_text_size"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="-12.0dip"
+        android:text="@string/sec_hbm_mode_on"
+        style="@style/list_summary_text_style" />
+
+    <TextView
+        android:id="@id/brightnesslevel_and_overheatwarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/sec_brightness_overheat_description"
+        style="@style/list_summary_text_style" />
+
 </LinearLayout>

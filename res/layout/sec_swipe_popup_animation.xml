@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:background="@color/sec_widget_help_image_backgound_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes">
-        <FrameLayout android:id="@id/help_animation_popup_container" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.samsung.android.settings.widget.PlayPauseLottieAnimationView android:id="@id/help_animation_popup" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/sec_widget_img_margin" android:scaleType="fitXY" android:adjustViewBounds="true" android:importantForAccessibility="noHideDescendants" app:lottie_autoPlay="true" app:lottie_loop="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/sesl_round_and_bgcolor_light">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_help_image_backgound_color"
+        android:focusable="true"
+        android:importantForAccessibility="yes">
+
+        <FrameLayout
+            android:id="@id/help_animation_popup_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false">
+
+            <com.samsung.android.settings.widget.PlayPauseLottieAnimationView
+                android:id="@id/help_animation_popup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_margin="@dimen/sec_widget_img_margin"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="noHideDescendants"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true" />
+
         </FrameLayout>
+
     </LinearLayout>
+
 </LinearLayout>

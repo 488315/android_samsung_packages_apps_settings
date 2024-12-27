@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/remoteauth_introduction_fragment_padding_horizontal" app:layout_optimizationLevel="barrier"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.viewpager2.widget.ViewPager2 android:id="@id/image_carousel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <ImageView android:id="@id/carousel_back_arrow" android:background="@drawable/ic_arrow_back" android:layout_width="@dimen/remoteauth_touchable_area_minimum_span" android:layout_height="@dimen/remoteauth_touchable_area_minimum_span" android:scaleType="center" android:contentDescription="@string/wizard_back" android:tintMode="src_in" app:layout_constraintBottom_toBottomOf="@id/carousel_progress_indicator" app:layout_constraintEnd_toStartOf="@id/carousel_progress_indicator" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/carousel_progress_indicator" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/carousel_progress_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/remoteauth_carousel_progress_margin" android:importantForAccessibility="no" app:layout_constraintEnd_toStartOf="@id/carousel_forward_arrow" app:layout_constraintStart_toEndOf="@id/carousel_back_arrow" app:layout_constraintTop_toBottomOf="@id/image_carousel" />
-    <ImageView android:id="@id/carousel_forward_arrow" android:background="@drawable/ic_arrow_forward" android:layout_width="@dimen/remoteauth_touchable_area_minimum_span" android:layout_height="@dimen/remoteauth_touchable_area_minimum_span" android:scaleType="center" android:contentDescription="@string/wizard_next" android:tintMode="src_in" app:layout_constraintBottom_toBottomOf="@id/carousel_progress_indicator" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/carousel_progress_indicator" app:layout_constraintTop_toTopOf="@id/carousel_progress_indicator" />
-    <androidx.constraintlayout.widget.Barrier android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:barrierMargin="@dimen/remoteauth_carousel_progress_margin" app:constraint_referenced_ids="carousel_back_arrow,carousel_forward_arrow" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/remoteauth_introduction_fragment_padding_horizontal"
+    app:layout_optimizationLevel="barrier">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@id/image_carousel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@id/carousel_back_arrow"
+        android:layout_width="@dimen/remoteauth_touchable_area_minimum_span"
+        android:layout_height="@dimen/remoteauth_touchable_area_minimum_span"
+        android:background="@drawable/ic_arrow_back"
+        android:scaleType="center"
+        android:contentDescription="@string/wizard_back"
+        android:tintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="@id/carousel_progress_indicator"
+        app:layout_constraintEnd_toStartOf="@id/carousel_progress_indicator"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/carousel_progress_indicator" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/carousel_progress_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/remoteauth_carousel_progress_margin"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toStartOf="@id/carousel_forward_arrow"
+        app:layout_constraintStart_toEndOf="@id/carousel_back_arrow"
+        app:layout_constraintTop_toBottomOf="@id/image_carousel" />
+
+    <ImageView
+        android:id="@id/carousel_forward_arrow"
+        android:layout_width="@dimen/remoteauth_touchable_area_minimum_span"
+        android:layout_height="@dimen/remoteauth_touchable_area_minimum_span"
+        android:background="@drawable/ic_arrow_forward"
+        android:scaleType="center"
+        android:contentDescription="@string/wizard_next"
+        android:tintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="@id/carousel_progress_indicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/carousel_progress_indicator"
+        app:layout_constraintTop_toTopOf="@id/carousel_progress_indicator" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:barrierMargin="@dimen/remoteauth_carousel_progress_margin"
+        app:constraint_referenced_ids="carousel_back_arrow,carousel_forward_arrow" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

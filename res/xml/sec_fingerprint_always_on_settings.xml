@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_fingerprint_always_on_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_fingerprint_always_on_summary" android:selectable="false" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_fingerprint_button_off" android:key="button_off" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_fingerprint_button_cover_screen" android:key="button_cover_screen" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_fingerprint_button_main_screen" android:key="button_main_screen" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_button_preference_divider" android:selectable="false" android:key="divider" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/sec_fingerprint_button_cover_main_screens" android:key="button_cover_main_screens" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/sec_fingerprint_always_on_title">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_fingerprint_always_on_summary"
+        android:selectable="false" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_fingerprint_button_off"
+        android:key="button_off" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_fingerprint_button_cover_screen"
+        android:key="button_cover_screen" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_fingerprint_button_main_screen"
+        android:key="button_main_screen" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_button_preference_divider"
+        android:selectable="false"
+        android:key="divider" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/sec_fingerprint_button_cover_main_screens"
+        android:key="button_cover_main_screens" />
+
 </PreferenceScreen>

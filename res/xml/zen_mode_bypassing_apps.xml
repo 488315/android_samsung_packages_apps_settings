@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/app_notifications_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceCategory android:title="@string/zen_mode_bypassing_app_channels_header" android:key="zen_mode_bypassing_apps_list" settings:isPreferenceVisible="true" />
-    <SecDropDownPreference android:entries="@array/sec_zen_mode_bypassing_apps_dropdown_menu" android:title="@string/app_notifications_title" android:key="key_sec_zen_mode_bypassing_apps_dropdown_menu" />
-    <com.samsung.android.settings.widget.SecRecyclerViewPreference android:key="zen_contact" settings:controller="com.android.settings.notification.zen.ZenModeAllBypassingAddAppsController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/app_notifications_title">
+
+    <SecPreferenceCategory
+        android:title="@string/zen_mode_bypassing_app_channels_header"
+        android:key="zen_mode_bypassing_apps_list"
+        settings:isPreferenceVisible="true" />
+
+    <SecDropDownPreference
+        android:entries="@array/sec_zen_mode_bypassing_apps_dropdown_menu"
+        android:title="@string/app_notifications_title"
+        android:key="key_sec_zen_mode_bypassing_apps_dropdown_menu" />
+
+    <com.samsung.android.settings.widget.SecRecyclerViewPreference
+        android:key="zen_contact"
+        settings:controller="com.android.settings.notification.zen.ZenModeAllBypassingAddAppsController" />
+
 </PreferenceScreen>

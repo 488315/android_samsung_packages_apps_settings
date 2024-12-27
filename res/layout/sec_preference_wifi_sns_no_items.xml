@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center" android:layout_gravity="center" android:id="@android:id/title" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/no_item_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:clickable="false"
+        style="@style/no_item_text_style" />
+
 </LinearLayout>

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/knoxLogoLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/keyguard_knoxLogoLayout_top_margin_multiwindow" android:layout_centerHorizontal="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/knoxLogo" android:layout_width="@dimen/keyguard_knoxLogo_dimen_multiwindow" android:layout_height="@dimen/keyguard_knoxLogo_dimen_multiwindow" android:src="@drawable/knox_basic" android:layout_centerHorizontal="true" android:alpha="1.0" />
-    <TextView android:textSize="@dimen/keyguard_knoxTitletext_text_height_multiwindow" android:textColor="@color/keyguard_ppp_heading_text_color" android:id="@id/knoxTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Workspace" android:layout_below="@id/knoxLogo" />
-    <TextView android:textSize="@dimen/keyguard_knoxTitleSubText_text_height_multiwindow" android:id="@id/knoxTitleSubText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/knoxTitleText" android:alpha="0.7" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/knoxLogoLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/keyguard_knoxLogoLayout_top_margin_multiwindow"
+    android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:id="@id/knoxLogo"
+        android:layout_width="@dimen/keyguard_knoxLogo_dimen_multiwindow"
+        android:layout_height="@dimen/keyguard_knoxLogo_dimen_multiwindow"
+        android:src="@drawable/knox_basic"
+        android:layout_centerHorizontal="true"
+        android:alpha="1.0" />
+
+    <TextView
+        android:id="@id/knoxTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/keyguard_knoxTitletext_text_height_multiwindow"
+        android:textColor="@color/keyguard_ppp_heading_text_color"
+        android:text="Workspace"
+        android:layout_below="@id/knoxLogo" />
+
+    <TextView
+        android:id="@id/knoxTitleSubText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/keyguard_knoxTitleSubText_text_height_multiwindow"
+        android:layout_below="@id/knoxTitleText"
+        android:alpha="0.7" />
+
 </LinearLayout>

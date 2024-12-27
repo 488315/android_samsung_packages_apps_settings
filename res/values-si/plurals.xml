@@ -1,699 +1,2500 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abc_slice_duration_days">
-        <item quantity="other">දින %dකට පෙර</item>
-        <item quantity="one">දින %dකට පෙර</item>
-    </plurals>
-    <plurals name="abc_slice_duration_min">
-        <item quantity="other">මිනි %dකට පෙර</item>
-        <item quantity="one">මිනි %dකට පෙර</item>
-    </plurals>
-    <plurals name="abc_slice_duration_years">
-        <item quantity="other">වසර %dකට පෙර</item>
-        <item quantity="one">වසර %dකට පෙර</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_minutes">
-        <item quantity="other">විනාඩි %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">විනාඩි %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="accessibility_timeout_summary_seconds">
-        <item quantity="other">තත්පර %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">තත්පර %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_app_cache_title">
-        <item quantity="other">යෙදුම් කෑෂ %1$dක් (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d යෙදුම් කෑෂයක් (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_apps">
-        <item quantity="other">යෙදුම් %dක් ලේඛනාරක්ෂණය කරන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d යෙදුමක් ලේඛනාරක්ෂණය කරන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_archive_button_text">
-        <item quantity="other">යෙදුම් %1$dක් ලේඛනාරක්ෂණය කරන්න (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d යෙදුමක් ලේඛනාරක්ෂණය කරන්න (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_apps_cache">
-        <item quantity="other">යෙදුම් %dක් සඳහා කෑෂය හිස් කරන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d යෙදුමක් සඳහා කෑෂය හිස් කරන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_clear_button_text">
-        <item quantity="other">කෑෂ %1$dක් හිස් කරන්න (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d කෑෂයක් හිස් කරන්න (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_n_selected">
-        <item quantity="other">%dක් තේරිණි</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dක් තේරිණි</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_recommend_card_description_archive_apps">
-        <item quantity="other">භාවිතා නොකළ යෙදුම් %2$dක් ලේඛනාරක්ෂණය කිරීමෙන් %1$sක ඉඩ නිදහස් කර ගන්න. ඔබේ පුද්ගලික දත්ත සහ සැකසුම් සුරකිනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">භාවිතා නොකළ %2$d යෙදුමක් ලේඛනාරක්ෂණය කිරීමෙන් %1$sක ඉඩ නිදහස් කර ගන්න. ඔබේ පුද්ගලික දත්ත සහ සැකසුම් සුරකිනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_apps">
-        <item quantity="other">යෙදුම් %dක් අස්ථාපනය කරන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">යෙදුම් %dක් අස්ථාපනය කරන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_uninstall_button_text">
-        <item quantity="other">යෙදුම් %1$dක් අස්ථාපනය කරන්න (+%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d යෙදුමක් අස්ථාපනය කරන්න (+%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="as_unused_apps_title">
-        <item quantity="other">භාවිතා නොකළ යෙදුම් %1$dක් (%2$s)</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$d භාවිතා නොකළ යෙදුමක් (%2$s)</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="bluetooth_tethering_connected_devices_subtext">
-        <item quantity="other">උපාංග %dක් සමඟ අන්තර්ජාල සබැඳුම බෙදා ගනිමින්.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d උපාංගයක් සමඟ අන්තර්ජාල සබැඳුම බෙදා ගනිමින්.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="camera_flash_notification_n_apps">
-        <item quantity="other">යෙදුම් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">යෙදුම් %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="dex_timeout_day">
-        <item quantity="other">දවස් %d</item>
-        <item quantity="one">දවස 1</item>
-    </plurals>
-    <plurals name="dex_timeout_hour">
-        <item quantity="other">%d පැය</item>
-        <item quantity="one">පැය 1</item>
-    </plurals>
-    <plurals name="dex_timeout_minute">
-        <item quantity="other">විනාඩි %d</item>
-        <item quantity="one">විනාඩි 1</item>
-    </plurals>
-    <plurals name="dex_timeout_second">
-        <item quantity="other">තත්පර %d</item>
-        <item quantity="one">තත්පර 1</item>
-    </plurals>
-    <plurals name="dex_timeout_week">
-        <item quantity="other">සති %d</item>
-        <item quantity="one">සති 1</item>
-    </plurals>
-    <plurals name="installed_apps_summary_no_enabled_app">
-        <item quantity="other">යෙදුම් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">යෙදුම් %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_hours">
-        <item quantity="other">පැය %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">පැය %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_minutes">
-        <item quantity="other">විනාඩි %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">විනාඩි %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="lock_timeout_seconds">
-        <item quantity="other">තත් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">තත් %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_all">
-        <item quantity="other">ඔබ මෙම ස්ථාන මකා දැමුවහොත්, ඔබ සංවේදී සැකසුම් වෙනස් කරන විට ජෛවමිතික සහ ආරක්ෂක ප්‍රමාදය සැම විට අවශ්‍ය වේ.</item>
-        <item quantity="one">ඔබ මෙම ස්ථානය මකා දැමුවහොත්, ඔබ සංවේදී සැකසුම් වෙනස් කරන විට ජෛවමිතික සහ ආරක්ෂක ප්‍රමාදය සැම විට අවශ්‍ය වේ.</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_dialog_title">
-        <item quantity="other">ස්ථාන %dක් මකන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ස්ථානයක් මකන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_delete_title_count">
-        <item quantity="other">%d තේරිණි</item>
-        <item quantity="one">1ක් තේරිණි</item>
-    </plurals>
-    <plurals name="mandatory_biometric_trusted_places_summary">
-        <item quantity="other">%1$s සහ තව %2$dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s සහ තව %2$dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="max_char_reached_msg_plural">
-        <item quantity="other">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">නව දැනුම්දීම් %dක්</item>
-        <item quantity="one">නව දැනුම්දීම් %dක්</item>
-    </plurals>
-    <plurals name="no_memory_use_summary">
-        <item quantity="other">පසුගිය පැය %d තුළ මතකය භාවිතා කර නැත</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">පසුගිය පැය %d තුළ මතකය භාවිතා කර නැත</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_history_count">
-        <item quantity="other">දැනුම්දීම් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">දැනුම්දීම් %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="notification_reminder_custom_summary">
-        <item quantity="other">තේරූ යෙදුම් සඳහා දැනුම්දීම් පිළිබඳ සෑම විනාඩි %dකම මතක් කරන්න</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">තේරූ යෙදුම් සඳහා දැනුම්දීම් පිළිබඳ සෑම විනාඩි %dකම මතක් කරන්න</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="number_of_recent_apps">
-        <item quantity="other">යෙදුම් %dක් දක්වා</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d යෙදුමක් දක්වා</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="passkeys_and_autofill_subtext">
-        <item quantity="other">%1$s සහ තව යෙදුම් %2$dක් මුරයතුරු භාවිතා කරන අතර ස්වයංක්‍රීයව මුරපද සහ වෙනත් තොරතුරු ඇතුළු කරයි.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s සහ තව %2$d යෙදුමක් මුරයතුරු භාවිතා කරන අතර ස්වයංක්‍රීයව මුරපද සහ වෙනත් තොරතුරු ඇතුළු කරයි.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="ps_apps">
-        <item quantity="other">යෙදුම් %2$dක් විසින් %1$s අවසරය භාවිතා කරන ලදි</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$d යෙදුමක් විසින් %1$s අවසරය භාවිතා කරන ලදි</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="recommended_for_you_enabled_summary">
-        <item quantity="other">ප්‍රවේශ්‍යතා ක්‍රියාදාම %dක් භාවිතයේ ඇත</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ප්‍රවේශ්‍යතා ක්‍රියාදාමයක් භාවිතයේ ඇත</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="reminder_select_apps">
-        <item quantity="other">යෙදුම් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">යෙදුම් %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="remove_language_title_multiple_plurals">
-        <item quantity="other">භාෂා %dක් ඉවත් කරන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">භාෂා %dක් ඉවත් කරන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_accessibility_usage_summary">
-        <item quantity="other">යෙදුම් %dකට ඔබේ දුරකථනයට පූර්ණ ප්‍රවේශය ඇත</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">යෙදුම් %dකට ඔබේ දුරකථනයට පූර්ණ ප්‍රවේශය ඇත</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals">
-        <item quantity="other">ඔබේ දුරකථනය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ දුරකථනය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ දුරකථනය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ දුරකථනය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_auto_power_off_dialog_text_plurals_tablet">
-        <item quantity="other">ඔබේ ටැබ්ලටය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ ටැබ්ලටය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ ටැබ්ලටය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ ටැබ්ලටය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_biometrics_common_about_security_notice_body_strong">
-        <item quantity="other">සෑම පැය %dකම</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">සෑම පැය %dකම</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_password_password_too_short">
-        <item quantity="other">ඔබේ මුරපදයේ අඩු තරමින් අකුරු 1ක් ඇතුළුව, අඩු තරමින් අනුලකුණු %dක් අඩංගු විය යුතුයි.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ මුරපදයේ අඩු තරමින් අකුරු 1ක් ඇතුළුව, අඩු තරමින් අනුලකුණු %dක් අඩංගු විය යුතුයි.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_choose_lock_pin_pin_too_short">
-        <item quantity="other">ඔබේ PIN අංකයෙහි අඩු තරමින් සංඛ්‍යා %dක් අඩංගු විය යුතු යි.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ PIN අංකයෙහි අඩු තරමින් සංඛ්‍යා %dක් අඩංගු විය යුතු යි.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
-        <item quantity="other">පැය 1යි විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">පැය 1යි විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
-        <item quantity="other">පැය %dකින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">පැය %dකින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
-        <item quantity="other">පැය %dයි විනාඩි 1කින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">පැය %dයි විනාඩි 1කින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
-        <item quantity="other">විනාඩි %d කින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="one">විනාඩි %d කින් නැවත උත්සාහ කරන්න</item>
-    </plurals>
-    <plurals name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
-        <item quantity="other">තත්පර %d කින් නැවත උත්සාහ කරන්න</item>
-        <item quantity="one">තත්පර %d කින් නැවත උත්සාහ කරන්න</item>
-    </plurals>
-    <plurals name="sec_credman_services_limit_text">
-        <item quantity="other">අතිරේක සේවා %dකට වඩා ක්‍රියාත්මක කළ නොහැක.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d අතිරේක සේවාවකට වඩා ක්‍රියාත්මක කළ නොහැක.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_dnd_select_contact">
-        <item quantity="other">සබඳතා %dකට ඉඩ දී ඇත</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d සබඳතාවකට ඉඩ දී ඇත</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_fingerprint_added_summary">
-        <item quantity="other">ඇඟිලි සලකුණු %dක් එක් කෙරිණි</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඇඟිලි සලකුණු %dක් එක් කෙරිණි</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
-        <item quantity="other">%1$s, %2$s, සහ තව යෙදුම් %3$dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%1$s, %2$s, සහ තව %3$d යෙදුමක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_password_attempts_left">
-        <item quantity="other">වැරදි මුරපදයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">වැරදි මුරපදයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pattern_attempts_left">
-        <item quantity="other">වැරදි රටාවක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">වැරදි රටාවක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_incorrect_pin_attempts_left">
-        <item quantity="other">වැරදි PIN අංකයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">වැරදි PIN අංකයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_intelligence_service_child_popup_message">
-        <item quantity="other">Galaxy AI හි උසස් බුද්ධි විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">Galaxy AI හි උසස් බුද්ධි විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_letters">
-        <item quantity="other">ඔබේ මුරපදයේ අඩු තරමින් අකුරු %dක් අඩංගු විය යුතු වේ.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ මුරපදයේ අඩු තරමින් %d අකුරක් අඩංගු විය යුතු වේ.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_lowercase">
-        <item quantity="other">මුරපදයේ අඩු වශයෙන් සිම්පල් අකුරු %d ක් අඩංගු විය යුතුය.</item>
-        <item quantity="one">මුරපදයට අවම වශයෙන් සිම්පල් අකුරු 1 වත් තිබිය යුතුය.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_nonletter">
-        <item quantity="other">රහස් අංකයේ අවම වශයෙන් අංක හෝ සලකුණු %d ක් ඇතුලත් විය යුතුය.</item>
-        <item quantity="one">රහස් අංකයේ අවම වශයෙන් අංක හෝ සලකුණු 1 ක් ඇතුලත් විය යුතුය.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_numeric">
-        <item quantity="other">මුරපදයේ අඩු වශයෙන් ඉලක්කම් %d ක් අඩංගු විය යුතුය.</item>
-        <item quantity="one">මුරපදයට අවම වශයෙන් ඉලක්කම් 1 වත් තිබිය යුතුය.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_symbols">
-        <item quantity="other">රහස් අංකයේ අවම වශයෙන් සලකුණු %d ක් ඇතුලත් විය යුතුය.</item>
-        <item quantity="one">රහස් අංකයේ අවම වශයෙන් සලකුණු 1 ක් ඇතුලත් විය යුතුය.</item>
-    </plurals>
-    <plurals name="sec_lockpassword_password_requires_uppercase">
-        <item quantity="other">මුරපදයේ අඩු වශයෙන් කැපිටල් අකුරු %d ක් අඩංගු විය යුතුය.</item>
-        <item quantity="one">මුරපදයට අවම වශයෙන් කැපිටල් අකුරු 1 වත් තිබිය යුතුය.</item>
-    </plurals>
-    <plurals name="sec_mde_suggestions_summary">
-        <item quantity="other">තව යෝජනා %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">තව %d යෝජනාවක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_number_of_device_admins">
-        <item quantity="other">සක්‍රිය යෙදුම් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d සක්‍රිය යෙදුමක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_remove_dialog_title">
-        <item quantity="other">භාෂා ඇසුරුම් %dක් මකන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d භාෂා ඇසුරුමක් මකන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_offline_lang_pack_tts_title">
-        <item quantity="other">කටහඬවල් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d කටහඬක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_runtime_permissions_additional_count">
-        <item quantity="other">අතිරේක අවසර %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d අතිරේක අවසරයක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_show_dev_countdown">
-        <item quantity="other">ඔබ සංවර්ධකයෙකු වීමට තට්ටු %dක් ඈතින් සිටී.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබ සංවර්ධකයෙකු වීමට %d තට්ටුවක් ඈතින් සිටී.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sec_zen_mode_selected_rules">
-        <item quantity="other">%dක් තේරිණි</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dක් තේරිණි</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_apps_detected">
-        <item quantity="other">අනිෂ්ට යෙදුම් %dක් අනාවරණය විය</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">අනිෂ්ට යෙදුම් %dක් අනාවරණය විය</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext">
-        <item quantity="other">ඔබේ දුරකථනයෙහි අනිෂ්ට මෘදුකාංග යෙදුම් %dක් හමු විය. ඔබේ දුරකථනය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම් අස්ථාපනය කරන්න.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ දුරකථනයෙහි %d අනිෂ්ට මෘදුකාංග යෙදුමක් හමු විය. ඔබේ දුරකථනය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම අස්ථාපනය කරන්න.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_malware_detected_card_subtext_tablet">
-        <item quantity="other">ඔබේ ටැබ්ලටයෙහි අනිෂ්ට මෘදුකාංග යෙදුම් %dක් හමු විය. ඔබේ ටැබ්ලටය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම අස්ථාපනය කරන්න.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ ටැබ්ලටයෙහි %d අනිෂ්ට මෘදුකාංග යෙදුමක් හමු විය. ඔබේ ටැබ්ලටය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම අස්ථාපනය කරන්න.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_suggestion">
-        <item quantity="other">යෝජනා %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d යෝජනාවක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="security_dashboard_warning">
-        <item quantity="other">අනතුරු ඇඟවීම් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d අනතුරු ඇඟවීමක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_hour_plurals">
-        <item quantity="other">නිදන වේලාව: පැය %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">නිදන වේලාව: පැය %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="sesl_sleep_duration_in_min_plurals">
-        <item quantity="other">නිදන වේලාව: විනාඩි %d</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">නිදන වේලාව: විනාඩි %d</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="temporary_cloud_backup_summary_plurals">
-        <item quantity="other">දින %2$dක් දක්වා අසීමිත දත්ත %1$s වෙත උපස්ථ කරන්න හෝ ඔබ උපස්ථ කර ඇති දත්ත ප්‍රතිසාධනය කරන්න.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%2$d දිනක් දක්වා අසීමිත දත්ත %1$s වෙත උපස්ථ කරන්න හෝ ඔබ උපස්ථ කර ඇති දත්ත ප්‍රතිසාධනය කරන්න.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="touch_settings_test_will_reset">
-        <item quantity="other">මෙම පරීක්ෂණය තත්පර %dකින් යළි සකසනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">මෙම පරීක්ෂණය තත්පර %dකින් යළි සකසනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_device_connected">
-        <item quantity="other">උපාංග %dක් සබැඳිණි</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d උපාංගයක් සබැඳිණි</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
-        <item quantity="other">ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
-        <item quantity="other">ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
-        <item quantity="other">ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
-        <item quantity="other">ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_ap_n_members">
-        <item quantity="other">සාමාජිකයින් %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d සාමාජිකයෙකු</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_delete_item_network">
-        <item quantity="other">ජාල %dක් මකන්න ද?</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%d ජාලයක් මකන්න ද?</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wifi_select_item_network">
-        <item quantity="other">%dක් තේරිණි</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">%dක් තේරිණි</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_2">
-        <item quantity="other">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට උත්සාහයන් %dක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට %d උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_phone_incorrect_dialog_4">
-        <item quantity="other">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට උත්සාහයන් %dක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට %d උත්සාහයක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_2">
-        <item quantity="other">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට උත්සාහයන් %dක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට %d උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="wpc_tablet_incorrect_dialog_4">
-        <item quantity="other">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට උත්සාහයන් %dක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට %d උත්සාහයක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">පැය %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">පැය %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
-    <plurals name="zen_mode_duration_summary_time_minutes">
-        <item quantity="other">විනාඩි %dක්</item>
-        <item quantity="zero">N/A</item>
-        <item quantity="one">විනාඩි %dක්</item>
-        <item quantity="two">N/A</item>
-        <item quantity="few">N/A</item>
-        <item quantity="many">N/A</item>
-    </plurals>
+
+    <plurals
+        name="abc_slice_duration_days">
+
+        <item
+            quantity="other">
+දින %dකට පෙර</item>
+
+        <item
+            quantity="one">
+දින %dකට පෙර</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_min">
+
+        <item
+            quantity="other">
+මිනි %dකට පෙර</item>
+
+        <item
+            quantity="one">
+මිනි %dකට පෙර</item>
+
+    </plurals>
+
+    <plurals
+        name="abc_slice_duration_years">
+
+        <item
+            quantity="other">
+වසර %dකට පෙර</item>
+
+        <item
+            quantity="one">
+වසර %dකට පෙර</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_minutes">
+
+        <item
+            quantity="other">
+විනාඩි %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+විනාඩි %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="accessibility_timeout_summary_seconds">
+
+        <item
+            quantity="other">
+තත්පර %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+තත්පර %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_app_cache_title">
+
+        <item
+            quantity="other">
+යෙදුම් කෑෂ %1$dක් (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d යෙදුම් කෑෂයක් (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_apps">
+
+        <item
+            quantity="other">
+යෙදුම් %dක් ලේඛනාරක්ෂණය කරන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d යෙදුමක් ලේඛනාරක්ෂණය කරන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_archive_button_text">
+
+        <item
+            quantity="other">
+යෙදුම් %1$dක් ලේඛනාරක්ෂණය කරන්න (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d යෙදුමක් ලේඛනාරක්ෂණය කරන්න (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_apps_cache">
+
+        <item
+            quantity="other">
+යෙදුම් %dක් සඳහා කෑෂය හිස් කරන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d යෙදුමක් සඳහා කෑෂය හිස් කරන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_clear_button_text">
+
+        <item
+            quantity="other">
+කෑෂ %1$dක් හිස් කරන්න (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d කෑෂයක් හිස් කරන්න (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_n_selected">
+
+        <item
+            quantity="other">
+%dක් තේරිණි</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dක් තේරිණි</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_recommend_card_description_archive_apps">
+
+        <item
+            quantity="other">
+භාවිතා නොකළ යෙදුම් %2$dක් ලේඛනාරක්ෂණය කිරීමෙන් %1$sක ඉඩ නිදහස් කර ගන්න. ඔබේ පුද්ගලික දත්ත සහ සැකසුම් සුරකිනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+භාවිතා නොකළ %2$d යෙදුමක් ලේඛනාරක්ෂණය කිරීමෙන් %1$sක ඉඩ නිදහස් කර ගන්න. ඔබේ පුද්ගලික දත්ත සහ සැකසුම් සුරකිනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_apps">
+
+        <item
+            quantity="other">
+යෙදුම් %dක් අස්ථාපනය කරන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+යෙදුම් %dක් අස්ථාපනය කරන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_uninstall_button_text">
+
+        <item
+            quantity="other">
+යෙදුම් %1$dක් අස්ථාපනය කරන්න (+%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d යෙදුමක් අස්ථාපනය කරන්න (+%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="as_unused_apps_title">
+
+        <item
+            quantity="other">
+භාවිතා නොකළ යෙදුම් %1$dක් (%2$s)</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$d භාවිතා නොකළ යෙදුමක් (%2$s)</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="bluetooth_tethering_connected_devices_subtext">
+
+        <item
+            quantity="other">
+උපාංග %dක් සමඟ අන්තර්ජාල සබැඳුම බෙදා ගනිමින්.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d උපාංගයක් සමඟ අන්තර්ජාල සබැඳුම බෙදා ගනිමින්.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="camera_flash_notification_n_apps">
+
+        <item
+            quantity="other">
+යෙදුම් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+යෙදුම් %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_day">
+
+        <item
+            quantity="other">
+දවස් %d</item>
+
+        <item
+            quantity="one">
+දවස 1</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_hour">
+
+        <item
+            quantity="other">
+%d පැය</item>
+
+        <item
+            quantity="one">
+පැය 1</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_minute">
+
+        <item
+            quantity="other">
+විනාඩි %d</item>
+
+        <item
+            quantity="one">
+විනාඩි 1</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_second">
+
+        <item
+            quantity="other">
+තත්පර %d</item>
+
+        <item
+            quantity="one">
+තත්පර 1</item>
+
+    </plurals>
+
+    <plurals
+        name="dex_timeout_week">
+
+        <item
+            quantity="other">
+සති %d</item>
+
+        <item
+            quantity="one">
+සති 1</item>
+
+    </plurals>
+
+    <plurals
+        name="installed_apps_summary_no_enabled_app">
+
+        <item
+            quantity="other">
+යෙදුම් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+යෙදුම් %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_hours">
+
+        <item
+            quantity="other">
+පැය %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+පැය %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_minutes">
+
+        <item
+            quantity="other">
+විනාඩි %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+විනාඩි %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="lock_timeout_seconds">
+
+        <item
+            quantity="other">
+තත් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+තත් %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_all">
+
+        <item
+            quantity="other">
+ඔබ මෙම ස්ථාන මකා දැමුවහොත්, ඔබ සංවේදී සැකසුම් වෙනස් කරන විට ජෛවමිතික සහ ආරක්ෂක ප්‍රමාදය සැම විට අවශ්‍ය වේ.</item>
+
+        <item
+            quantity="one">
+ඔබ මෙම ස්ථානය මකා දැමුවහොත්, ඔබ සංවේදී සැකසුම් වෙනස් කරන විට ජෛවමිතික සහ ආරක්ෂක ප්‍රමාදය සැම විට අවශ්‍ය වේ.</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_dialog_title">
+
+        <item
+            quantity="other">
+ස්ථාන %dක් මකන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ස්ථානයක් මකන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_delete_title_count">
+
+        <item
+            quantity="other">
+%d තේරිණි</item>
+
+        <item
+            quantity="one">
+1ක් තේරිණි</item>
+
+    </plurals>
+
+    <plurals
+        name="mandatory_biometric_trusted_places_summary">
+
+        <item
+            quantity="other">
+%1$s සහ තව %2$dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s සහ තව %2$dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="max_char_reached_msg_plural">
+
+        <item
+            quantity="other">
+අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="mtrl_badge_content_description">
+
+        <item
+            quantity="other">
+නව දැනුම්දීම් %dක්</item>
+
+        <item
+            quantity="one">
+නව දැනුම්දීම් %dක්</item>
+
+    </plurals>
+
+    <plurals
+        name="no_memory_use_summary">
+
+        <item
+            quantity="other">
+පසුගිය පැය %d තුළ මතකය භාවිතා කර නැත</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+පසුගිය පැය %d තුළ මතකය භාවිතා කර නැත</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_history_count">
+
+        <item
+            quantity="other">
+දැනුම්දීම් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+දැනුම්දීම් %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="notification_reminder_custom_summary">
+
+        <item
+            quantity="other">
+තේරූ යෙදුම් සඳහා දැනුම්දීම් පිළිබඳ සෑම විනාඩි %dකම මතක් කරන්න</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+තේරූ යෙදුම් සඳහා දැනුම්දීම් පිළිබඳ සෑම විනාඩි %dකම මතක් කරන්න</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="number_of_recent_apps">
+
+        <item
+            quantity="other">
+යෙදුම් %dක් දක්වා</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d යෙදුමක් දක්වා</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="passkeys_and_autofill_subtext">
+
+        <item
+            quantity="other">
+%1$s සහ තව යෙදුම් %2$dක් මුරයතුරු භාවිතා කරන අතර ස්වයංක්‍රීයව මුරපද සහ වෙනත් තොරතුරු ඇතුළු කරයි.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s සහ තව %2$d යෙදුමක් මුරයතුරු භාවිතා කරන අතර ස්වයංක්‍රීයව මුරපද සහ වෙනත් තොරතුරු ඇතුළු කරයි.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="ps_apps">
+
+        <item
+            quantity="other">
+යෙදුම් %2$dක් විසින් %1$s අවසරය භාවිතා කරන ලදි</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$d යෙදුමක් විසින් %1$s අවසරය භාවිතා කරන ලදි</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="recommended_for_you_enabled_summary">
+
+        <item
+            quantity="other">
+ප්‍රවේශ්‍යතා ක්‍රියාදාම %dක් භාවිතයේ ඇත</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ප්‍රවේශ්‍යතා ක්‍රියාදාමයක් භාවිතයේ ඇත</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="reminder_select_apps">
+
+        <item
+            quantity="other">
+යෙදුම් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+යෙදුම් %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="remove_language_title_multiple_plurals">
+
+        <item
+            quantity="other">
+භාෂා %dක් ඉවත් කරන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+භාෂා %dක් ඉවත් කරන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_accessibility_usage_summary">
+
+        <item
+            quantity="other">
+යෙදුම් %dකට ඔබේ දුරකථනයට පූර්ණ ප්‍රවේශය ඇත</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+යෙදුම් %dකට ඔබේ දුරකථනයට පූර්ණ ප්‍රවේශය ඇත</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals">
+
+        <item
+            quantity="other">
+ඔබේ දුරකථනය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ දුරකථනය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ දුරකථනය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ දුරකථනය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_auto_power_off_dialog_text_plurals_tablet">
+
+        <item
+            quantity="other">
+ඔබේ ටැබ්ලටය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ ටැබ්ලටය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ ටැබ්ලටය තත්පර %dකින් ස්වයංක්‍රීයව බල රහිත වනු ඇත. ඔබේ ටැබ්ලටය මෙම වතාවේ බල ගන්වා තබා ගැනීමට, “අවලංගු කරන්න” තට්ටු කරන්න.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_biometrics_common_about_security_notice_body_strong">
+
+        <item
+            quantity="other">
+සෑම පැය %dකම</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+සෑම පැය %dකම</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_password_password_too_short">
+
+        <item
+            quantity="other">
+ඔබේ මුරපදයේ අඩු තරමින් අකුරු 1ක් ඇතුළුව, අඩු තරමින් අනුලකුණු %dක් අඩංගු විය යුතුයි.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ මුරපදයේ අඩු තරමින් අකුරු 1ක් ඇතුළුව, අඩු තරමින් අනුලකුණු %dක් අඩංගු විය යුතුයි.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_choose_lock_pin_pin_too_short">
+
+        <item
+            quantity="other">
+ඔබේ PIN අංකයෙහි අඩු තරමින් සංඛ්‍යා %dක් අඩංගු විය යුතු යි.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ PIN අංකයෙහි අඩු තරමින් සංඛ්‍යා %dක් අඩංගු විය යුතු යි.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_1_hour_and_min">
+
+        <item
+            quantity="other">
+පැය 1යි විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+පැය 1යි විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour">
+
+        <item
+            quantity="other">
+පැය %dකින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+පැය %dකින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_hour_and_1_min">
+
+        <item
+            quantity="other">
+පැය %dයි විනාඩි 1කින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+පැය %dයි විනාඩි 1කින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_min">
+
+        <item
+            quantity="other">
+විනාඩි %d කින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="one">
+විනාඩි %d කින් නැවත උත්සාහ කරන්න</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_confirm_lock_too_many_failed_attempts_countdown_sec">
+
+        <item
+            quantity="other">
+තත්පර %d කින් නැවත උත්සාහ කරන්න</item>
+
+        <item
+            quantity="one">
+තත්පර %d කින් නැවත උත්සාහ කරන්න</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_credman_services_limit_text">
+
+        <item
+            quantity="other">
+අතිරේක සේවා %dකට වඩා ක්‍රියාත්මක කළ නොහැක.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d අතිරේක සේවාවකට වඩා ක්‍රියාත්මක කළ නොහැක.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_dnd_select_contact">
+
+        <item
+            quantity="other">
+සබඳතා %dකට ඉඩ දී ඇත</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d සබඳතාවකට ඉඩ දී ඇත</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_fingerprint_added_summary">
+
+        <item
+            quantity="other">
+ඇඟිලි සලකුණු %dක් එක් කෙරිණි</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඇඟිලි සලකුණු %dක් එක් කෙරිණි</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_flex_mode_panel_auto_show_panel_when_folded_summary_more">
+
+        <item
+            quantity="other">
+%1$s, %2$s, සහ තව යෙදුම් %3$dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%1$s, %2$s, සහ තව %3$d යෙදුමක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_password_attempts_left">
+
+        <item
+            quantity="other">
+වැරදි මුරපදයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+වැරදි මුරපදයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pattern_attempts_left">
+
+        <item
+            quantity="other">
+වැරදි රටාවක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+වැරදි රටාවක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_incorrect_pin_attempts_left">
+
+        <item
+            quantity="other">
+වැරදි PIN අංකයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+වැරදි PIN අංකයක්. ප්‍රයත්න %dක් ඉතිරියි.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_intelligence_service_child_popup_message">
+
+        <item
+            quantity="other">
+Galaxy AI හි උසස් බුද්ධි විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+Galaxy AI හි උසස් බුද්ධි විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_letters">
+
+        <item
+            quantity="other">
+ඔබේ මුරපදයේ අඩු තරමින් අකුරු %dක් අඩංගු විය යුතු වේ.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ මුරපදයේ අඩු තරමින් %d අකුරක් අඩංගු විය යුතු වේ.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_lowercase">
+
+        <item
+            quantity="other">
+මුරපදයේ අඩු වශයෙන් සිම්පල් අකුරු %d ක් අඩංගු විය යුතුය.</item>
+
+        <item
+            quantity="one">
+මුරපදයට අවම වශයෙන් සිම්පල් අකුරු 1 වත් තිබිය යුතුය.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_nonletter">
+
+        <item
+            quantity="other">
+රහස් අංකයේ අවම වශයෙන් අංක හෝ සලකුණු %d ක් ඇතුලත් විය යුතුය.</item>
+
+        <item
+            quantity="one">
+රහස් අංකයේ අවම වශයෙන් අංක හෝ සලකුණු 1 ක් ඇතුලත් විය යුතුය.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_numeric">
+
+        <item
+            quantity="other">
+මුරපදයේ අඩු වශයෙන් ඉලක්කම් %d ක් අඩංගු විය යුතුය.</item>
+
+        <item
+            quantity="one">
+මුරපදයට අවම වශයෙන් ඉලක්කම් 1 වත් තිබිය යුතුය.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_symbols">
+
+        <item
+            quantity="other">
+රහස් අංකයේ අවම වශයෙන් සලකුණු %d ක් ඇතුලත් විය යුතුය.</item>
+
+        <item
+            quantity="one">
+රහස් අංකයේ අවම වශයෙන් සලකුණු 1 ක් ඇතුලත් විය යුතුය.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_lockpassword_password_requires_uppercase">
+
+        <item
+            quantity="other">
+මුරපදයේ අඩු වශයෙන් කැපිටල් අකුරු %d ක් අඩංගු විය යුතුය.</item>
+
+        <item
+            quantity="one">
+මුරපදයට අවම වශයෙන් කැපිටල් අකුරු 1 වත් තිබිය යුතුය.</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_mde_suggestions_summary">
+
+        <item
+            quantity="other">
+තව යෝජනා %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+තව %d යෝජනාවක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_number_of_device_admins">
+
+        <item
+            quantity="other">
+සක්‍රිය යෙදුම් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d සක්‍රිය යෙදුමක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_remove_dialog_title">
+
+        <item
+            quantity="other">
+භාෂා ඇසුරුම් %dක් මකන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d භාෂා ඇසුරුමක් මකන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_offline_lang_pack_tts_title">
+
+        <item
+            quantity="other">
+කටහඬවල් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d කටහඬක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_runtime_permissions_additional_count">
+
+        <item
+            quantity="other">
+අතිරේක අවසර %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d අතිරේක අවසරයක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_show_dev_countdown">
+
+        <item
+            quantity="other">
+ඔබ සංවර්ධකයෙකු වීමට තට්ටු %dක් ඈතින් සිටී.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබ සංවර්ධකයෙකු වීමට %d තට්ටුවක් ඈතින් සිටී.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sec_zen_mode_selected_rules">
+
+        <item
+            quantity="other">
+%dක් තේරිණි</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dක් තේරිණි</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_apps_detected">
+
+        <item
+            quantity="other">
+අනිෂ්ට යෙදුම් %dක් අනාවරණය විය</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+අනිෂ්ට යෙදුම් %dක් අනාවරණය විය</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext">
+
+        <item
+            quantity="other">
+ඔබේ දුරකථනයෙහි අනිෂ්ට මෘදුකාංග යෙදුම් %dක් හමු විය. ඔබේ දුරකථනය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම් අස්ථාපනය කරන්න.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ දුරකථනයෙහි %d අනිෂ්ට මෘදුකාංග යෙදුමක් හමු විය. ඔබේ දුරකථනය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම අස්ථාපනය කරන්න.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_malware_detected_card_subtext_tablet">
+
+        <item
+            quantity="other">
+ඔබේ ටැබ්ලටයෙහි අනිෂ්ට මෘදුකාංග යෙදුම් %dක් හමු විය. ඔබේ ටැබ්ලටය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම අස්ථාපනය කරන්න.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ ටැබ්ලටයෙහි %d අනිෂ්ට මෘදුකාංග යෙදුමක් හමු විය. ඔබේ ටැබ්ලටය සුරක්ෂිතව තබා ගැනීමට මෙම යෙදුම අස්ථාපනය කරන්න.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_suggestion">
+
+        <item
+            quantity="other">
+යෝජනා %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d යෝජනාවක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="security_dashboard_warning">
+
+        <item
+            quantity="other">
+අනතුරු ඇඟවීම් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d අනතුරු ඇඟවීමක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_hour_plurals">
+
+        <item
+            quantity="other">
+නිදන වේලාව: පැය %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+නිදන වේලාව: පැය %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="sesl_sleep_duration_in_min_plurals">
+
+        <item
+            quantity="other">
+නිදන වේලාව: විනාඩි %d</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+නිදන වේලාව: විනාඩි %d</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="temporary_cloud_backup_summary_plurals">
+
+        <item
+            quantity="other">
+දින %2$dක් දක්වා අසීමිත දත්ත %1$s වෙත උපස්ථ කරන්න හෝ ඔබ උපස්ථ කර ඇති දත්ත ප්‍රතිසාධනය කරන්න.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%2$d දිනක් දක්වා අසීමිත දත්ත %1$s වෙත උපස්ථ කරන්න හෝ ඔබ උපස්ථ කර ඇති දත්ත ප්‍රතිසාධනය කරන්න.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="touch_settings_test_will_reset">
+
+        <item
+            quantity="other">
+මෙම පරීක්ෂණය තත්පර %dකින් යළි සකසනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+මෙම පරීක්ෂණය තත්පර %dකින් යළි සකසනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_device_connected">
+
+        <item
+            quantity="other">
+උපාංග %dක් සබැඳිණි</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d උපාංගයක් සබැඳිණි</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_beyond">
+
+        <item
+            quantity="other">
+ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing">
+
+        <item
+            quantity="other">
+ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ දුරකථනය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ දුරකථනයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_no_wifisharing_tablet">
+
+        <item
+            quantity="other">
+ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_instruction_changeable_maxclient_plurals_tablet">
+
+        <item
+            quantity="other">
+ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ ටැබ්ලටය Wi-Fi ප්‍රවේශ ස්ථානයකට හරවන්න. වෙනත් උපාංග %dක් දක්වා ගණනකට අන්තර්ජාලයට ප්‍රවේශයට ඔබේ ටැබ්ලටයේ ජංගම දත්ත හෝ Wi-Fi සබැඳුම භාවිතයට හැකි වනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_ap_n_members">
+
+        <item
+            quantity="other">
+සාමාජිකයින් %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d සාමාජිකයෙකු</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_delete_item_network">
+
+        <item
+            quantity="other">
+ජාල %dක් මකන්න ද?</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%d ජාලයක් මකන්න ද?</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wifi_select_item_network">
+
+        <item
+            quantity="other">
+%dක් තේරිණි</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+%dක් තේරිණි</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට උත්සාහයන් %dක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට %d උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_phone_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට උත්සාහයන් %dක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට %d උත්සාහයක් ගෙන ඇත. මෙම දුරකථනය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_2">
+
+        <item
+            quantity="other">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට උත්සාහයන් %dක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට 1 උත්සාහයක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට %d උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="wpc_tablet_incorrect_dialog_4">
+
+        <item
+            quantity="other">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට උත්සාහයන් %dක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+ඔබේ කාර්යාල පැතිකඩ අගුළු හැරීමට %d උත්සාහයක් ගෙන ඇත. මෙම ටැබ්ලටය කර්මාන්තශාලා සැකසුම් වෙත යළි සැකසීමට පෙර ඔබට 1 උත්සාහයක් ඉතිරිව ඇති අතර සියලු දත්ත මැකෙනු ඇත.</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_hours">
+
+        <item
+            quantity="other">
+පැය %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+පැය %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
+    <plurals
+        name="zen_mode_duration_summary_time_minutes">
+
+        <item
+            quantity="other">
+විනාඩි %dක්</item>
+
+        <item
+            quantity="zero">
+N/A</item>
+
+        <item
+            quantity="one">
+විනාඩි %dක්</item>
+
+        <item
+            quantity="two">
+N/A</item>
+
+        <item
+            quantity="few">
+N/A</item>
+
+        <item
+            quantity="many">
+N/A</item>
+
+    </plurals>
+
 </resources>

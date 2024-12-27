@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include layout="@layout/wifi_network_config" />
-        <include layout="@android:layout/alert_dialog_progress_material" />
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/wifi_network_config" />
+
+        <include
+            layout="@android:layout/alert_dialog_progress_material" />
+
     </LinearLayout>
+
 </androidx.core.widget.NestedScrollView>

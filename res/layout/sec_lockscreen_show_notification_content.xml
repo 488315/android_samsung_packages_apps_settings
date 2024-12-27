@@ -1,17 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:id="@id/show_content_container" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
-        <RadioButton android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/show_content_button" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
-        <RelativeLayout android:id="@id/show_content_text_layout" android:paddingTop="@dimen/sec_widget_list_item_padding_top" android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="@dimen/sec_widget_list_padding_inner">
-            <TextView android:ellipsize="marquee" android:id="@id/show_content_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_lockscreen_notifications_show_content" android:singleLine="true" style="@style/list_title_text_style" />
-            <TextView android:textColor="@color/sec_preference_summary_primary_color" android:ellipsize="end" android:id="@id/show_content_summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/show_content_title" android:layout_alignStart="@id/show_content_title" style="@style/list_summary_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/show_content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:listChoiceBackgroundIndicator"
+        android:minHeight="?android:listPreferredItemHeightSmall">
+
+        <RadioButton
+            android:id="@id/show_content_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:background="@null"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_marginStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+            android:layout_marginEnd="@dimen/sec_widget_list_with_checkbox_margin_end" />
+
+        <RelativeLayout
+            android:id="@id/show_content_text_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/sec_widget_list_item_padding_top"
+            android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom"
+            android:layout_weight="1.0"
+            android:paddingEnd="@dimen/sec_widget_list_padding_inner">
+
+            <TextView
+                android:id="@id/show_content_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:text="@string/sec_lockscreen_notifications_show_content"
+                android:singleLine="true"
+                style="@style/list_title_text_style" />
+
+            <TextView
+                android:id="@id/show_content_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/sec_preference_summary_primary_color"
+                android:ellipsize="end"
+                android:visibility="gone"
+                android:maxLines="4"
+                android:layout_below="@id/show_content_title"
+                android:layout_alignStart="@id/show_content_title"
+                style="@style/list_summary_text_style" />
+
         </RelativeLayout>
-        <LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
-            <View android:background="?switchDividerColor" android:layout_width="@dimen/sesl_switch_divider_height" android:layout_height="22.0dip" />
-            <LinearLayout android:gravity="center_vertical" android:id="@id/show_content_settings_button_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
-                <ImageView android:id="@id/show_content_settings_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/sec_lockscreen_notification_show_content_btn_size" android:layout_height="@dimen/sec_lockscreen_notification_show_content_btn_size" android:src="@drawable/sec_lockscreen_notification_show_content_btn" android:tint="@color/sec_lockscreen_notification_show_content_btn_color" android:contentDescription="@string/sec_lockscreen_notifications_apps_that_can_show_content" android:layout_marginStart="@dimen/sec_widget_preference_gear_icon_start_padding" android:layout_marginEnd="@dimen/sec_widget_preference_gear_icon_end_padding" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="end|center">
+
+            <View
+                android:layout_width="@dimen/sesl_switch_divider_height"
+                android:layout_height="22.0dip"
+                android:background="?switchDividerColor" />
+
+            <LinearLayout
+                android:id="@id/show_content_settings_button_container"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@id/show_content_settings_button"
+                    android:layout_width="@dimen/sec_lockscreen_notification_show_content_btn_size"
+                    android:layout_height="@dimen/sec_lockscreen_notification_show_content_btn_size"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:src="@drawable/sec_lockscreen_notification_show_content_btn"
+                    android:tint="@color/sec_lockscreen_notification_show_content_btn_color"
+                    android:contentDescription="@string/sec_lockscreen_notifications_apps_that_can_show_content"
+                    android:layout_marginStart="@dimen/sec_widget_preference_gear_icon_start_padding"
+                    android:layout_marginEnd="@dimen/sec_widget_preference_gear_icon_end_padding" />
+
             </LinearLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

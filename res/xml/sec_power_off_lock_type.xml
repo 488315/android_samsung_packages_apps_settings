@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/power_off_lock_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/power_off_lock_description" android:key="power_off_lock_desc" style="@style/description_text" />
-    <SecPreference android:title="@string/when_turning_off_your_phone" android:selectable="false" android:key="desc_pref" settings:allowDividerBelow="false" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/always_require_unlock" android:key="always_require_unlock" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/only_require_unlock_on_lockscreen" android:key="only_require_lockscreen" />
-    <com.samsung.android.settings.widget.SecRadioButtonPreference android:title="@string/dont_require_unlock" android:key="dont_require_unlock" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/power_off_lock_title">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/power_off_lock_description"
+        android:key="power_off_lock_desc"
+        style="@style/description_text" />
+
+    <SecPreference
+        android:title="@string/when_turning_off_your_phone"
+        android:selectable="false"
+        android:key="desc_pref"
+        settings:allowDividerBelow="false" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/always_require_unlock"
+        android:key="always_require_unlock" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/only_require_unlock_on_lockscreen"
+        android:key="only_require_lockscreen" />
+
+    <com.samsung.android.settings.widget.SecRadioButtonPreference
+        android:title="@string/dont_require_unlock"
+        android:key="dont_require_unlock" />
+
 </PreferenceScreen>

@@ -1,23 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/help_instruction_recent_app_container" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:id="@id/help_instruction_recent_app_summary" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_preference_unclickable_margin_top" android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end" android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end" style="@style/body_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/help_instruction_recent_app_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/sec_widget_round_and_bgcolor">
+
+        <TextView
+            android:id="@id/help_instruction_recent_app_summary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_marginBottom="@dimen/sec_widget_preference_unclickable_margin_top"
+            android:layout_marginStart="@dimen/sec_widget_body_text_padding_start_end"
+            android:layout_marginEnd="@dimen/sec_widget_body_text_padding_start_end"
+            style="@style/body_text_style" />
+
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/radio_group_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:gravity="center_vertical" android:id="@id/rb_two_apps" android:background="#00ffffff" android:paddingLeft="@dimen/taskbar_recent_apps_button_margin_start" android:paddingRight="@dimen/taskbar_recent_apps_button_margin_start" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/taskbar_recent_apps_item_height" android:foreground="?android:selectableItemBackground">
-            <androidx.appcompat.widget.AppCompatRadioButton android:gravity="center_vertical" android:id="@id/rb_two_apps_radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <TextView android:id="@id/rb_two_apps_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/taskbar_recent_apps_button_margin_start" android:paddingEnd="0.0dip" style="@style/TaskbarTextStyle" />
+
+    <LinearLayout
+        android:id="@id/radio_group_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/rb_two_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/taskbar_recent_apps_item_height"
+            android:gravity="center_vertical"
+            android:background="#00ffffff"
+            android:paddingLeft="@dimen/taskbar_recent_apps_button_margin_start"
+            android:paddingRight="@dimen/taskbar_recent_apps_button_margin_start"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@id/rb_two_apps_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@id/rb_two_apps_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/taskbar_recent_apps_button_margin_start"
+                android:paddingEnd="0.0dip"
+                style="@style/TaskbarTextStyle" />
+
         </LinearLayout>
-        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/taskbar_recent_apps_selector_divider_margin_start" style="@style/body_text_style" />
-        <LinearLayout android:gravity="center_vertical" android:id="@id/rb_three_apps" android:background="#00ffffff" android:paddingLeft="@dimen/taskbar_recent_apps_button_margin_start" android:paddingRight="@dimen/taskbar_recent_apps_button_margin_start" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/taskbar_recent_apps_item_height" android:foreground="?android:selectableItemBackground">
-            <androidx.appcompat.widget.AppCompatRadioButton android:gravity="center_vertical" android:id="@id/rb_three_apps_radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <TextView android:id="@id/rb_three_apps_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/taskbar_recent_apps_button_margin_start" android:paddingEnd="0.0dip" style="@style/TaskbarTextStyle" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="?android:listDivider"
+            android:layout_marginStart="@dimen/taskbar_recent_apps_selector_divider_margin_start"
+            style="@style/body_text_style" />
+
+        <LinearLayout
+            android:id="@id/rb_three_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/taskbar_recent_apps_item_height"
+            android:gravity="center_vertical"
+            android:background="#00ffffff"
+            android:paddingLeft="@dimen/taskbar_recent_apps_button_margin_start"
+            android:paddingRight="@dimen/taskbar_recent_apps_button_margin_start"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@id/rb_three_apps_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@id/rb_three_apps_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/taskbar_recent_apps_button_margin_start"
+                android:paddingEnd="0.0dip"
+                style="@style/TaskbarTextStyle" />
+
         </LinearLayout>
-        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/taskbar_recent_apps_selector_divider_margin_start" style="@style/body_text_style" />
-        <LinearLayout android:gravity="center_vertical" android:id="@id/rb_four_apps" android:background="#00ffffff" android:paddingLeft="@dimen/taskbar_recent_apps_button_margin_start" android:paddingRight="@dimen/taskbar_recent_apps_button_margin_start" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/taskbar_recent_apps_item_height" android:foreground="?android:selectableItemBackground">
-            <androidx.appcompat.widget.AppCompatRadioButton android:gravity="center_vertical" android:id="@id/rb_four_apps_radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-            <TextView android:id="@id/rb_four_apps_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/taskbar_recent_apps_button_margin_start" android:paddingEnd="0.0dip" style="@style/TaskbarTextStyle" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="?android:listDivider"
+            android:layout_marginStart="@dimen/taskbar_recent_apps_selector_divider_margin_start"
+            style="@style/body_text_style" />
+
+        <LinearLayout
+            android:id="@id/rb_four_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/taskbar_recent_apps_item_height"
+            android:gravity="center_vertical"
+            android:background="#00ffffff"
+            android:paddingLeft="@dimen/taskbar_recent_apps_button_margin_start"
+            android:paddingRight="@dimen/taskbar_recent_apps_button_margin_start"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="?android:selectableItemBackground">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@id/rb_four_apps_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@null"
+                android:focusable="false"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@id/rb_four_apps_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/taskbar_recent_apps_button_margin_start"
+                android:paddingEnd="0.0dip"
+                style="@style/TaskbarTextStyle" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/voice_input_settings_title"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <SecPreferenceCategory android:title="@string/title_offline_language_pack" android:key="offline_language_pack">
-        <SecPreference android:layout="@layout/voice_input_pref_des" android:selectable="false" />
-        <com.android.settings.applications.SpacePreference android:layout_height="@dimen/voice_input_pref_padding_top_bottom" android:key="padding_bottom_space_layout" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/voice_input_settings_title">
+
+    <SecPreferenceCategory
+        android:title="@string/title_offline_language_pack"
+        android:key="offline_language_pack">
+
+        <SecPreference
+            android:layout="@layout/voice_input_pref_des"
+            android:selectable="false" />
+
+        <com.android.settings.applications.SpacePreference
+            android:layout_height="@dimen/voice_input_pref_padding_top_bottom"
+            android:key="padding_bottom_space_layout" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

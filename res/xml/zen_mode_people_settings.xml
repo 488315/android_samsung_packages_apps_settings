@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/zen_category_people"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/zen_mode_bypassing_app_channels_header">
-        <SecDropDownPreference android:entries="@array/sec_zen_mode_people_settings_dropdown_menu" android:title="@string/zen_category_people" android:key="key_sec_zen_mode_people_settings_dropdown_menu" />
-        <com.samsung.android.settings.widget.SecRecyclerViewPreference android:key="zen_contact" settings:controller="com.android.settings.notification.zen.ZenModeContactExceptionController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/zen_category_people">
+
+    <PreferenceCategory
+        android:title="@string/zen_mode_bypassing_app_channels_header">
+
+        <SecDropDownPreference
+            android:entries="@array/sec_zen_mode_people_settings_dropdown_menu"
+            android:title="@string/zen_category_people"
+            android:key="key_sec_zen_mode_people_settings_dropdown_menu" />
+
+        <com.samsung.android.settings.widget.SecRecyclerViewPreference
+            android:key="zen_contact"
+            settings:controller="com.android.settings.notification.zen.ZenModeContactExceptionController" />
+
     </PreferenceCategory>
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_dnd_call_exception_header" android:selectable="false" android:key="zen_call_header_text" style="@style/description_text" />
-    <PreferenceCategory android:title="@string/zen_mode_call_title" android:key="zen_mode_also_allow">
-        <SecDropDownPreference android:entries="@array/zen_mode_contacts_calls_entries" android:title="@string/sec_zen_mode_calls" android:key="zen_mode_calls" android:entryValues="@array/zen_mode_contacts_values" />
-        <SwitchPreference android:title="@string/sec_zen_mode_repeat_callers" android:key="zen_mode_repeat_callers" />
-        <SecDropDownPreference android:entries="@array/zen_mode_contacts_messages_entries" android:title="@string/sec_zen_mode_messages" android:key="zen_mode_messages" android:entryValues="@array/zen_mode_contacts_values" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_dnd_call_exception_header"
+        android:selectable="false"
+        android:key="zen_call_header_text"
+        style="@style/description_text" />
+
+    <PreferenceCategory
+        android:title="@string/zen_mode_call_title"
+        android:key="zen_mode_also_allow">
+
+        <SecDropDownPreference
+            android:entries="@array/zen_mode_contacts_calls_entries"
+            android:title="@string/sec_zen_mode_calls"
+            android:key="zen_mode_calls"
+            android:entryValues="@array/zen_mode_contacts_values" />
+
+        <SwitchPreference
+            android:title="@string/sec_zen_mode_repeat_callers"
+            android:key="zen_mode_repeat_callers" />
+
+        <SecDropDownPreference
+            android:entries="@array/zen_mode_contacts_messages_entries"
+            android:title="@string/sec_zen_mode_messages"
+            android:key="zen_mode_messages"
+            android:entryValues="@array/zen_mode_contacts_values" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

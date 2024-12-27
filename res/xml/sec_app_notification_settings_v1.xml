@@ -1,22 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/app_notifications_title" android:key="app_notifications" settings:topLevelPreferenceKey="top_level_notifications"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_app_info_submenu_header" android:key="pref_app_header" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="no_stroke" settings:height="20.0px" settings:roundStroke="top_left|top_right" />
-    <com.android.settings.widget.SettingsMainSwitchPreference android:key="block" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="block_desc" />
-    <com.samsung.android.settings.widget.SecButtonPreference android:gravity="center" android:key="deep_sleeping" />
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:key="desc" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="default_channel_inset" />
-    <PreferenceCategory android:key="noti">
-        <SwitchPreference android:title="@string/zen_mode_block_effect_summary_sound" android:key="app_alert_importance" />
-        <com.samsung.android.settings.widget.SecRecyclerViewPreference android:key="notification_types" settings:controller="com.samsung.android.settings.notification.app.AppNotificationTypeController" />
-        <com.samsung.android.settings.widget.SecTextSummaryPreference android:selectable="false" android:key="popup_notification_text" settings:allowDividerBelow="true" />
-        <SwitchPreference android:title="@string/sec_app_notification_show_content_on_lock_screen" android:key="hide_content" />
-        <SecSwitchPreference android:title="@string/sec_app_live_notification" android:key="app_show_live_notification" android:summary="@string/sec_app_live_notification_summary" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/app_notifications_title"
+    android:key="app_notifications"
+    settings:topLevelPreferenceKey="top_level_notifications">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_app_info_submenu_header"
+        android:key="pref_app_header" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="no_stroke"
+        settings:height="20.0px"
+        settings:roundStroke="top_left|top_right" />
+
+    <com.android.settings.widget.SettingsMainSwitchPreference
+        android:key="block" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:key="block_desc" />
+
+    <com.samsung.android.settings.widget.SecButtonPreference
+        android:gravity="center"
+        android:key="deep_sleeping" />
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:key="desc" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="default_channel_inset" />
+
+    <PreferenceCategory
+        android:key="noti">
+
+        <SwitchPreference
+            android:title="@string/zen_mode_block_effect_summary_sound"
+            android:key="app_alert_importance" />
+
+        <com.samsung.android.settings.widget.SecRecyclerViewPreference
+            android:key="notification_types"
+            settings:controller="com.samsung.android.settings.notification.app.AppNotificationTypeController" />
+
+        <com.samsung.android.settings.widget.SecTextSummaryPreference
+            android:selectable="false"
+            android:key="popup_notification_text"
+            settings:allowDividerBelow="true" />
+
+        <SwitchPreference
+            android:title="@string/sec_app_notification_show_content_on_lock_screen"
+            android:key="hide_content" />
+
+        <SecSwitchPreference
+            android:title="@string/sec_app_live_notification"
+            android:key="app_show_live_notification"
+            android:summary="@string/sec_app_live_notification_summary" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:key="conversation_categories">
-        <Preference android:title="@string/app_settings_channel_link" android:key="app_channel_link" />
-        <Preference android:title="@string/app_settings_link" android:key="app_link" android:order="1003" />
+
+    <PreferenceCategory
+        android:key="conversation_categories">
+
+        <Preference
+            android:title="@string/app_settings_channel_link"
+            android:key="app_channel_link" />
+
+        <Preference
+            android:title="@string/app_settings_link"
+            android:key="app_link"
+            android:order="1003" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

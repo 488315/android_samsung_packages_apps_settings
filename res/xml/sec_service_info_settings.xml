@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/service_information_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceScreen android:title="@string/warranty_information_title" android:key="warranty_info" android:fragment="com.samsung.android.settings.deviceinfo.regulatoryinfo.WarrantyInfoFragment" settings:controller="com.samsung.android.settings.deviceinfo.WarrantyInfoPreferenceController" />
-    <PreferenceScreen android:title="@string/contact_us_title" android:key="service_info_contact_us">
-        <intent android:action="com.samsung.settings.RegulatoryServiceInfo">
-            <extra android:name="Option" android:value="4" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/service_information_title">
+
+    <PreferenceScreen
+        android:title="@string/warranty_information_title"
+        android:key="warranty_info"
+        android:fragment="com.samsung.android.settings.deviceinfo.regulatoryinfo.WarrantyInfoFragment"
+        settings:controller="com.samsung.android.settings.deviceinfo.WarrantyInfoPreferenceController" />
+
+    <PreferenceScreen
+        android:title="@string/contact_us_title"
+        android:key="service_info_contact_us">
+
+        <intent
+            android:action="com.samsung.settings.RegulatoryServiceInfo">
+
+            <extra
+                android:name="Option"
+                android:value="4" />
+
         </intent>
+
     </PreferenceScreen>
+
 </PreferenceScreen>

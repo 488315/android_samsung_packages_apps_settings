@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text1" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_widget_list_item_padding_top" android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:text="@string/sec_font_style_download_font_title" android:singleLine="true" android:drawablePadding="@dimen/sec_widget_list_with_checkbox_margin_end" android:drawableStart="@drawable/sec_tw_list_icon_create_mtrl" android:paddingStart="@dimen/sec_widget_list_with_checkbox_margin_start" android:paddingEnd="@dimen/sec_widget_list_item_padding_end" style="@style/list_title_text_style"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="@dimen/sec_widget_list_item_padding_top"
+    android:paddingBottom="@dimen/sec_widget_list_item_padding_bottom"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:text="@string/sec_font_style_download_font_title"
+    android:singleLine="true"
+    android:drawablePadding="@dimen/sec_widget_list_with_checkbox_margin_end"
+    android:drawableStart="@drawable/sec_tw_list_icon_create_mtrl"
+    android:paddingStart="@dimen/sec_widget_list_with_checkbox_margin_start"
+    android:paddingEnd="@dimen/sec_widget_list_item_padding_end"
+    style="@style/list_title_text_style" />

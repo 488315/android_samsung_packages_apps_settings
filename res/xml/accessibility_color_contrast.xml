@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:persistent="false" android:title="@string/accessibility_color_contrast_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.TopIntroPreference android:title="@string/accessibility_color_contrast_intro" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/accessibility_color_contrast_selector" android:selectable="false" android:key="color_contrast_selector" settings:controller="com.android.settings.display.ContrastSelectorPreferenceController" />
-    <SwitchPreferenceCompat android:persistent="false" android:title="@string/accessibility_toggle_high_text_contrast_preference_title" android:key="toggle_high_text_contrast_preference" android:summary="@string/accessibility_toggle_high_text_contrast_preference_summary" settings:controller="com.android.settings.accessibility.HighTextContrastPreferenceController" />
-    <com.android.settings.accessibility.AccessibilityFooterPreference android:title="@string/color_contrast_note" android:selectable="false" android:key="color_contrast_footer" settings:controller="com.android.settings.display.ColorContrastFooterPreferenceController" settings:searchable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:persistent="false"
+    android:title="@string/accessibility_color_contrast_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/accessibility_color_contrast_intro" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/accessibility_color_contrast_selector"
+        android:selectable="false"
+        android:key="color_contrast_selector"
+        settings:controller="com.android.settings.display.ContrastSelectorPreferenceController" />
+
+    <SwitchPreferenceCompat
+        android:persistent="false"
+        android:title="@string/accessibility_toggle_high_text_contrast_preference_title"
+        android:key="toggle_high_text_contrast_preference"
+        android:summary="@string/accessibility_toggle_high_text_contrast_preference_summary"
+        settings:controller="com.android.settings.accessibility.HighTextContrastPreferenceController" />
+
+    <com.android.settings.accessibility.AccessibilityFooterPreference
+        android:title="@string/color_contrast_note"
+        android:selectable="false"
+        android:key="color_contrast_footer"
+        settings:controller="com.android.settings.display.ColorContrastFooterPreferenceController"
+        settings:searchable="false" />
+
 </PreferenceScreen>

@@ -1,37 +1,270 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.motion.widget.MotionLayout android:id="@id/constraintLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutDescription="@xml/as_viewpager_scene"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:id="@id/as_usage_summary_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/as_usage_rate_container" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_storage_name_text_size" android:textColor="@color/as_basic_text_01_FA" android:id="@id/viewpager_storage_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/AsRegularSec400" />
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_account_text_size" android:textColor="@color/as_account_text_color" android:id="@id/account_address" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsRegularSec400" />
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/constraintLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layoutDescription="@xml/as_viewpager_scene">
+
+    <LinearLayout
+        android:id="@id/as_usage_summary_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/as_usage_rate_container"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/viewpager_storage_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_storage_name_text_size"
+            android:textColor="@color/as_basic_text_01_FA"
+            android:singleLine="true"
+            android:textDirection="locale"
+            style="@style/AsRegularSec400" />
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/account_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_account_text_size"
+            android:textColor="@color/as_account_text_color"
+            android:visibility="gone"
+            style="@style/AsRegularSec400" />
+
     </LinearLayout>
-    <LinearLayout android:gravity="center_horizontal" android:id="@id/as_usage_rate_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:layout_constraintBottom_toTopOf="@id/as_usage_progress_container" app:layout_constraintEnd_toStartOf="@id/space_size_container" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/as_usage_summary_container">
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_home_usage_progressbar_text2" android:textColor="@color/as_basic_text_01_FA" android:id="@id/as_usage_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:paddingEnd="@dimen/as_home_rate_padding_end" style="@style/AsBoldSec700" />
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_home_usage_progressbar_text1" android:textColor="@color/as_basic_text_01_FA" android:ellipsize="end" android:gravity="start" android:id="@id/as_usage_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/as_chart_label_used" android:singleLine="true" android:layout_weight="1.0" android:textDirection="locale" style="@style/AsRegularSec400" />
+
+    <LinearLayout
+        android:id="@id/as_usage_rate_container"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1.0"
+        app:layout_constraintBottom_toTopOf="@id/as_usage_progress_container"
+        app:layout_constraintEnd_toStartOf="@id/space_size_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/as_usage_summary_container">
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/as_usage_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_home_usage_progressbar_text2"
+            android:textColor="@color/as_basic_text_01_FA"
+            android:text=" "
+            android:paddingEnd="@dimen/as_home_rate_padding_end"
+            style="@style/AsBoldSec700" />
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/as_usage_label"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_home_usage_progressbar_text1"
+            android:textColor="@color/as_basic_text_01_FA"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:text="@string/as_chart_label_used"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            android:textDirection="locale"
+            style="@style/AsRegularSec400" />
+
     </LinearLayout>
-    <LinearLayout android:id="@id/more_option_icon_container" android:paddingTop="@dimen/as_viewpager_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/as_viewpager_padding_horizontal" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/as_usage_summary_container">
-        <ImageView android:layout_gravity="center_vertical" android:id="@id/more_option_icon" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/as_more_option_icon" android:tint="@color/as_storage_more_option_icon_color" />
+
+    <LinearLayout
+        android:id="@id/more_option_icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/as_viewpager_padding_top"
+        android:paddingEnd="@dimen/as_viewpager_padding_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/as_usage_summary_container">
+
+        <ImageView
+            android:id="@id/more_option_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?selectableItemBackgroundBorderless"
+            android:visibility="gone"
+            android:src="@drawable/as_more_option_icon"
+            android:tint="@color/as_storage_more_option_icon_color" />
+
     </LinearLayout>
-    <LinearLayout android:id="@id/space_size_container" android:paddingBottom="@dimen/as_home_size_container_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/as_show_more_padding_end" app:layout_constraintBottom_toBottomOf="@id/as_usage_rate_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/as_usage_rate_container">
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_storage_usage_value_text_size" android:textColor="@color/as_basic_text_01_FA" android:id="@id/used_space_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsBoldSec700" />
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_storage_usage_value_text_size" android:textColor="@color/as_basic_text_01_FA" android:id="@id/total_space_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsRegularSec400" />
+
+    <LinearLayout
+        android:id="@id/space_size_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/as_home_size_container_padding_bottom"
+        android:paddingEnd="@dimen/as_show_more_padding_end"
+        app:layout_constraintBottom_toBottomOf="@id/as_usage_rate_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/as_usage_rate_container">
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/used_space_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_storage_usage_value_text_size"
+            android:textColor="@color/as_basic_text_01_FA"
+            style="@style/AsBoldSec700" />
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/total_space_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_storage_usage_value_text_size"
+            android:textColor="@color/as_basic_text_01_FA"
+            style="@style/AsRegularSec400" />
+
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/as_usage_progress_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/as_usage_detail_item" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/as_usage_rate_container">
-        <com.samsung.android.settings.analyzestorage.ui.view.analyzestorage.UsageProgressBar android:orientation="horizontal" android:id="@id/as_usage_progressbar" android:background="@drawable/as_home_usage_progress_background" android:layout_width="fill_parent" android:layout_height="@dimen/as_home_progress_height" android:weightSum="1.0">
-            <LinearLayout android:orientation="horizontal" android:id="@id/inner_progress" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="@drawable/as_round_corner" android:weightSum="1.0" android:alpha="0.8" android:foregroundTint="@color/as_progressbar_background_color" />
+
+    <LinearLayout
+        android:id="@id/as_usage_progress_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/as_usage_detail_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/as_usage_rate_container">
+
+        <com.samsung.android.settings.analyzestorage.ui.view.analyzestorage.UsageProgressBar
+            android:id="@id/as_usage_progressbar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/as_home_progress_height"
+            android:orientation="horizontal"
+            android:background="@drawable/as_home_usage_progress_background"
+            android:weightSum="1.0">
+
+            <LinearLayout
+                android:id="@id/inner_progress"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:foreground="@drawable/as_round_corner"
+                android:weightSum="1.0"
+                android:alpha="0.8"
+                android:foregroundTint="@color/as_progressbar_background_color" />
+
         </com.samsung.android.settings.analyzestorage.ui.view.analyzestorage.UsageProgressBar>
+
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/mount_view" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/as_viewpager_padding_horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
-        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/mount_button" android:background="@drawable/as_contained_button_bg" android:paddingTop="@dimen/as_basic_contained_button_padding_vertical" android:paddingBottom="@dimen/as_basic_contained_button_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/as_basic_contained_button_min_width" android:minHeight="@dimen/as_basic_contained_button_min_height" android:paddingStart="@dimen/as_basic_contained_button_padding_horizontal" android:paddingEnd="@dimen/as_basic_contained_button_padding_horizontal">
-            <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_basic_contained_button_text_size" android:textColor="@color/as_contained_button_text_color" android:id="@id/mount_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/as_menu_mount" style="@style/AsSemiBoldSec600" />
+
+    <LinearLayout
+        android:id="@id/mount_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:clickable="false"
+        android:paddingHorizontal="@dimen/as_viewpager_padding_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@id/mount_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/as_contained_button_bg"
+            android:paddingTop="@dimen/as_basic_contained_button_padding_vertical"
+            android:paddingBottom="@dimen/as_basic_contained_button_padding_vertical"
+            android:minWidth="@dimen/as_basic_contained_button_min_width"
+            android:minHeight="@dimen/as_basic_contained_button_min_height"
+            android:paddingStart="@dimen/as_basic_contained_button_padding_horizontal"
+            android:paddingEnd="@dimen/as_basic_contained_button_padding_horizontal">
+
+            <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+                android:id="@id/mount_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/as_basic_contained_button_text_size"
+                android:textColor="@color/as_contained_button_text_color"
+                android:text="@string/as_menu_mount"
+                style="@style/AsSemiBoldSec600" />
+
         </LinearLayout>
-        <TextView android:textSize="@dimen/as_no_item_text_size" android:textColor="@color/as_no_item_text" android:id="@id/mount_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_no_item_text_margin_top" android:importantForAccessibility="no" android:textAlignment="center" />
+
+        <TextView
+            android:id="@id/mount_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_no_item_text_size"
+            android:textColor="@color/as_no_item_text"
+            android:layout_marginTop="@dimen/as_no_item_text_margin_top"
+            android:importantForAccessibility="no"
+            android:textAlignment="center" />
+
     </LinearLayout>
-    <FrameLayout android:layout_gravity="fill_horizontal" android:id="@id/as_usage_detail_item_container" android:paddingBottom="@dimen/as_home_usage_detail_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/show_more_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/as_usage_progress_container">
-        <com.samsung.android.settings.analyzestorage.ui.view.analyzestorage.UsageDetailItem android:layout_gravity="fill_horizontal" android:id="@id/as_usage_detail_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchMode="columnWidth" android:columnCount="1" />
+
+    <FrameLayout
+        android:id="@id/as_usage_detail_item_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="@dimen/as_home_usage_detail_padding_bottom"
+        app:layout_constraintBottom_toTopOf="@id/show_more_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/as_usage_progress_container">
+
+        <com.samsung.android.settings.analyzestorage.ui.view.analyzestorage.UsageDetailItem
+            android:id="@id/as_usage_detail_item"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="fill_horizontal"
+            android:stretchMode="columnWidth"
+            android:columnCount="1" />
+
     </FrameLayout>
-    <LinearLayout android:gravity="center" android:id="@id/show_more_container" android:background="@drawable/as_show_more_ripple_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/as_recommend_show_more_button_height" android:layout_marginEnd="@dimen/as_show_more_margin_end" android:paddingHorizontal="@dimen/as_show_more_padding_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/as_usage_detail_item">
-        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_show_more_text_size" android:textColor="@color/as_basic_text_01_FA" android:id="@id/show_more" android:paddingTop="@dimen/button_shape_padding_top" android:paddingBottom="@dimen/button_shape_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_shape_margin_top" android:text="@string/as_show_more" android:stateListAnimator="?seslSmallTouchAnimator" android:paddingHorizontal="@dimen/button_shape_padding_horizontal" style="@style/AsBoldSec700" />
+
+    <LinearLayout
+        android:id="@id/show_more_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/as_show_more_ripple_background"
+        android:minHeight="@dimen/as_recommend_show_more_button_height"
+        android:layout_marginEnd="@dimen/as_show_more_margin_end"
+        android:paddingHorizontal="@dimen/as_show_more_padding_end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/as_usage_detail_item">
+
+        <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+            android:id="@id/show_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/as_show_more_text_size"
+            android:textColor="@color/as_basic_text_01_FA"
+            android:paddingTop="@dimen/button_shape_padding_top"
+            android:paddingBottom="@dimen/button_shape_padding_bottom"
+            android:layout_marginTop="@dimen/button_shape_margin_top"
+            android:text="@string/as_show_more"
+            android:stateListAnimator="?seslSmallTouchAnimator"
+            android:paddingHorizontal="@dimen/button_shape_padding_horizontal"
+            style="@style/AsBoldSec700" />
+
     </LinearLayout>
-    <View android:id="@id/divider" android:layout_marginHorizontal="@dimen/as_viewpager_padding_horizontal" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/show_more_container" style="@style/AsListDivider" />
+
+    <View
+        android:id="@id/divider"
+        android:layout_marginHorizontal="@dimen/as_viewpager_padding_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/show_more_container"
+        style="@style/AsListDivider" />
+
 </androidx.constraintlayout.motion.widget.MotionLayout>

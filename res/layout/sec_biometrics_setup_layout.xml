@@ -1,17 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/face_unlock" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
-                <TextView android:textSize="@dimen/sec_biometrics_common_suw_list_text_size" android:ellipsize="marquee" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bio_face_recognition_title" android:paddingHorizontal="@dimen/sec_biometrics_common_suw_list_horizontal_padding" android:paddingVertical="@dimen/sec_biometrics_common_suw_list_vertical_padding" android:textFontWeight="600" style="@style/SecBiometricsListTitleStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/face_unlock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="?android:selectableItemBackground"
+                android:minHeight="?android:listPreferredItemHeightSmall">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_biometrics_common_suw_list_text_size"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:text="@string/bio_face_recognition_title"
+                    android:paddingHorizontal="@dimen/sec_biometrics_common_suw_list_horizontal_padding"
+                    android:paddingVertical="@dimen/sec_biometrics_common_suw_list_vertical_padding"
+                    android:textFontWeight="600"
+                    style="@style/SecBiometricsListTitleStyle" />
+
             </RelativeLayout>
-            <View android:background="@color/sec_widget_list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_divider_height" android:layout_marginHorizontal="@dimen/sec_biometrics_common_suw_list_divider_margin" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sec_widget_list_divider_height"
+                android:background="@color/sec_widget_list_divider_color"
+                android:layout_marginHorizontal="@dimen/sec_biometrics_common_suw_list_divider_margin" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:id="@id/fingerprint_unlock" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
-                <TextView android:textSize="@dimen/sec_biometrics_common_suw_list_text_size" android:ellipsize="marquee" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_fingerprint" android:paddingHorizontal="@dimen/sec_biometrics_common_suw_list_horizontal_padding" android:paddingVertical="@dimen/sec_biometrics_common_suw_list_vertical_padding" android:textFontWeight="600" style="@style/SecBiometricsListTitleStyle" />
+
+        <LinearLayout
+            android:id="@id/fingerprint_unlock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="?android:selectableItemBackground"
+                android:minHeight="?android:listPreferredItemHeightSmall">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_biometrics_common_suw_list_text_size"
+                    android:ellipsize="marquee"
+                    android:fadingEdge="horizontal"
+                    android:text="@string/sec_fingerprint"
+                    android:paddingHorizontal="@dimen/sec_biometrics_common_suw_list_horizontal_padding"
+                    android:paddingVertical="@dimen/sec_biometrics_common_suw_list_vertical_padding"
+                    android:textFontWeight="600"
+                    style="@style/SecBiometricsListTitleStyle" />
+
             </RelativeLayout>
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

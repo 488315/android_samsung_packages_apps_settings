@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_roamingclock_settings_title" android:key="parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_dualclock_settings_summary" android:key="dualclock_description" settings:allowDividerBelow="false" style="@style/description_text" />
-    <SecPreferenceCategory android:key="time_zone_region_preference_category">
-        <com.samsung.android.settings.lockscreen.SecHomeTimeZonePreference android:title="@string/sec_set_home_city" android:key="homecity_timezone" android:summary="GMT-8:00" />
-        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_select_region" android:key="region" android:summary="@string/summary_placeholder" />
-        <com.samsung.android.settings.widget.SecUnclickablePreference android:key="timezone_footer" settings:controller="com.android.settings.datetime.timezone.TimeZoneInfoPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_roamingclock_settings_title"
+    android:key="parent">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_dualclock_settings_summary"
+        android:key="dualclock_description"
+        settings:allowDividerBelow="false"
+        style="@style/description_text" />
+
+    <SecPreferenceCategory
+        android:key="time_zone_region_preference_category">
+
+        <com.samsung.android.settings.lockscreen.SecHomeTimeZonePreference
+            android:title="@string/sec_set_home_city"
+            android:key="homecity_timezone"
+            android:summary="GMT-8:00" />
+
+        <com.android.settingslib.RestrictedPreference
+            android:title="@string/date_time_select_region"
+            android:key="region"
+            android:summary="@string/summary_placeholder" />
+
+        <com.samsung.android.settings.widget.SecUnclickablePreference
+            android:key="timezone_footer"
+            settings:controller="com.android.settings.datetime.timezone.TimeZoneInfoPreferenceController" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:key="time_zone_fixed_offset_preference_category">
-        <com.android.settingslib.RestrictedPreference android:title="@string/date_time_select_fixed_offset_time_zones" android:key="fixed_offset" android:summary="@string/summary_placeholder" />
+
+    <SecPreferenceCategory
+        android:key="time_zone_fixed_offset_preference_category">
+
+        <com.android.settingslib.RestrictedPreference
+            android:title="@string/date_time_select_fixed_offset_time_zones"
+            android:key="fixed_offset"
+            android:summary="@string/summary_placeholder" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

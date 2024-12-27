@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:key="language_pack_edit"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_offline_lang_pack_edit_description" android:selectable="false" android:key="description" settings:positionMode="first_item" style="@style/description_text" />
-    <SecPreferenceCategory android:layout="@layout/preference_category_no_label" android:key="edit_langpack_list" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="language_pack_edit">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_offline_lang_pack_edit_description"
+        android:selectable="false"
+        android:key="description"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
+    <SecPreferenceCategory
+        android:layout="@layout/preference_category_no_label"
+        android:key="edit_langpack_list" />
+
 </PreferenceScreen>

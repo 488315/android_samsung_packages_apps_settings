@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation-list android:interpolator="@interpolator/sec_sine_in_out_80" android:oneshot="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:duration="50" android:drawable="@drawable/sec_screen_mode_progress_red" />
-    <item android:duration="50" android:drawable="@drawable/sec_screen_mode_progress_red1" />
-    <item android:duration="50" android:drawable="@drawable/sec_screen_mode_progress_red2" />
-    <item android:duration="50" android:drawable="@drawable/sec_screen_mode_progress_red3" />
-    <item android:duration="50" android:drawable="@drawable/sec_screen_mode_progress_red_expand" />
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@interpolator/sec_sine_in_out_80"
+    android:oneshot="true">
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/sec_screen_mode_progress_red" />
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/sec_screen_mode_progress_red1" />
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/sec_screen_mode_progress_red2" />
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/sec_screen_mode_progress_red3" />
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/sec_screen_mode_progress_red_expand" />
+
 </animation-list>

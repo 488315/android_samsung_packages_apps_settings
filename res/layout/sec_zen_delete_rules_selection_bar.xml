@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:id="@id/button_sellect_all" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd">
-        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/select_all_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <CheckBox android:id="@id/toggle_selection_check" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_zen_mode_custom_actionbar_checkbox_margin_top" android:layout_alignParentLeft="true" />
-            <TextView android:textSize="12.0dip" android:textColor="@color/sec_actionbar_text_color" android:gravity="center" android:id="@id/text_selected_all" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_zen_mode_custom_actionbar_text_margin_top" android:text="@string/sec_zen_mode_from_anyone" android:singleLine="true" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/button_sellect_all"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:actionBarSize"
+        android:paddingStart="?android:listPreferredItemPaddingStart"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+        <LinearLayout
+            android:id="@id/select_all_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@id/toggle_selection_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_marginTop="@dimen/sec_zen_mode_custom_actionbar_checkbox_margin_top"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@id/text_selected_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12.0dip"
+                android:textColor="@color/sec_actionbar_text_color"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_marginTop="@dimen/sec_zen_mode_custom_actionbar_text_margin_top"
+                android:text="@string/sec_zen_mode_from_anyone"
+                android:singleLine="true" />
+
         </LinearLayout>
-        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/sec_actionbar_text_color" android:layout_gravity="center|left" android:id="@id/number_selected_text" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/select_all_wrapper" android:fontFamily="sec-roboto-condensed" android:layout_marginStart="@dimen/sec_zen_mode_custom_actionbar_title_margin_start" />
+
+        <TextView
+            android:id="@id/number_selected_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/sec_actionbar_text_color"
+            android:layout_gravity="center|left"
+            android:focusable="false"
+            android:clickable="false"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:layout_toLeftOf="@id/select_all_wrapper"
+            android:fontFamily="sec-roboto-condensed"
+            android:layout_marginStart="@dimen/sec_zen_mode_custom_actionbar_title_margin_start" />
+
     </LinearLayout>
+
 </RelativeLayout>

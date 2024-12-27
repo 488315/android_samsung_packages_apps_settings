@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/biometrics" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceScreen android:title="@string/bio_face_recognition_title" android:key="silent_lock" settings:controller="com.samsung.android.settings.biometrics.face.FaceSettingsPreferenceController" settings:keywords="@string/keywords_bio_face_recognition_settings" />
-    <SecPreferenceScreen android:title="@string/bio_fingerprint_sanner_title" android:key="finger_scanner" settings:controller="com.samsung.android.settings.biometrics.fingerprint.FingerprintSettingsPreferenceController" settings:keywords="@string/keywords_bio_fingerprint_sanner_settings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_option" />
-    <SecSwitchPreference android:title="@string/screen_transition_effect_title" android:key="screen_transition_effect" settings:controller="com.samsung.android.settings.biometrics.ScreenTransitionEffectPreferenceController" />
-    <SecPreferenceScreen android:title="@string/sec_biometrics_common_about_security_notice_title" android:key="key_about_unlock_biometrics" settings:controller="com.samsung.android.settings.biometrics.BiometricsAboutUnlockPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/biometrics"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings"
+    settings:topLevelPreferenceKey="top_level_security_and_privacy">
+
+    <SecPreferenceScreen
+        android:title="@string/bio_face_recognition_title"
+        android:key="silent_lock"
+        settings:controller="com.samsung.android.settings.biometrics.face.FaceSettingsPreferenceController"
+        settings:keywords="@string/keywords_bio_face_recognition_settings" />
+
+    <SecPreferenceScreen
+        android:title="@string/bio_fingerprint_sanner_title"
+        android:key="finger_scanner"
+        settings:controller="com.samsung.android.settings.biometrics.fingerprint.FingerprintSettingsPreferenceController"
+        settings:keywords="@string/keywords_bio_fingerprint_sanner_settings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="inset_option" />
+
+    <SecSwitchPreference
+        android:title="@string/screen_transition_effect_title"
+        android:key="screen_transition_effect"
+        settings:controller="com.samsung.android.settings.biometrics.ScreenTransitionEffectPreferenceController" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_biometrics_common_about_security_notice_title"
+        android:key="key_about_unlock_biometrics"
+        settings:controller="com.samsung.android.settings.biometrics.BiometricsAboutUnlockPreferenceController" />
+
 </PreferenceScreen>

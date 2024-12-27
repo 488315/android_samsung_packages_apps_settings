@@ -1,323 +1,921 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="apn_auth_entries">
-        <item>គ្មាន</item>
-        <item>PAP</item>
-        <item>CHAP</item>
-        <item>PAP ឬ CHAP</item>
+
+    <string-array
+        name="apn_auth_entries">
+
+        <item>
+គ្មាន</item>
+
+        <item>
+PAP</item>
+
+        <item>
+CHAP</item>
+
+        <item>
+PAP ឬ CHAP</item>
+
     </string-array>
-    <string-array name="battery_labels">
-        <item>0%</item>
-        <item>50%</item>
-        <item>100%</item>
+
+    <string-array
+        name="battery_labels">
+
+        <item>
+0%</item>
+
+        <item>
+50%</item>
+
+        <item>
+100%</item>
+
     </string-array>
-    <string-array name="bluetooth_cast_timeout_entries">
-        <item>5 នាទី</item>
-        <item>10 នាទី</item>
-        <item>30 នាទី</item>
-        <item>កុំ​ផ្ដាច់</item>
+
+    <string-array
+        name="bluetooth_cast_timeout_entries">
+
+        <item>
+5 នាទី</item>
+
+        <item>
+10 នាទី</item>
+
+        <item>
+30 នាទី</item>
+
+        <item>
+កុំ​ផ្ដាច់</item>
+
     </string-array>
-    <string-array name="bluetooth_max_connected_audio_devices">
-        <item>លំនាំដើម​ប្រព័ន្ធ៖ %d</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+
+    <string-array
+        name="bluetooth_max_connected_audio_devices">
+
+        <item>
+លំនាំដើម​ប្រព័ន្ធ៖ %d</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
     </string-array>
-    <string-array name="bluetooth_pbap_property_picture_entries">
-        <item>ព្រម</item>
-        <item>ទេ</item>
+
+    <string-array
+        name="bluetooth_pbap_property_picture_entries">
+
+        <item>
+ព្រម</item>
+
+        <item>
+ទេ</item>
+
     </string-array>
-    <string-array name="bluetooth_sap_activation_entries">
-        <item>លំនាំដើម (គ្មាន​បែបផែន)</item>
-        <item>បើក SAP ដោយ​បង្ខំ</item>
-        <item>បិទ SAP ដោយ​បង្ខំ</item>
+
+    <string-array
+        name="bluetooth_sap_activation_entries">
+
+        <item>
+លំនាំដើម (គ្មាន​បែបផែន)</item>
+
+        <item>
+បើក SAP ដោយ​បង្ខំ</item>
+
+        <item>
+បិទ SAP ដោយ​បង្ខំ</item>
+
     </string-array>
-    <string-array name="captioning_edge_type_selector_titles">
-        <item>លំនាំដើម</item>
-        <item>គ្មាន</item>
-        <item>គ្រោង</item>
-        <item>ស្រមោល​ធ្លាក់</item>
-        <item>បាន​បង្កើន</item>
-        <item>បាន​បន្ទាប</item>
+
+    <string-array
+        name="captioning_edge_type_selector_titles">
+
+        <item>
+លំនាំដើម</item>
+
+        <item>
+គ្មាន</item>
+
+        <item>
+គ្រោង</item>
+
+        <item>
+ស្រមោល​ធ្លាក់</item>
+
+        <item>
+បាន​បង្កើន</item>
+
+        <item>
+បាន​បន្ទាប</item>
+
     </string-array>
-    <string-array name="captioning_font_size_selector_titles">
-        <item>តូច​ណាស់</item>
-        <item>តូច</item>
-        <item>ធម្មតា</item>
-        <item>ធំ</item>
-        <item>ធំ​ណាស់</item>
+
+    <string-array
+        name="captioning_font_size_selector_titles">
+
+        <item>
+តូច​ណាស់</item>
+
+        <item>
+តូច</item>
+
+        <item>
+ធម្មតា</item>
+
+        <item>
+ធំ</item>
+
+        <item>
+ធំ​ណាស់</item>
+
     </string-array>
-    <string-array name="captioning_preset_selector_titles">
-        <item>លំនាំ​ដើម</item>
-        <item>ស​លើ​ខ្មៅ</item>
-        <item>ខ្មៅ​លើ​ស</item>
-        <item>លឿង​លើ​ខ្មៅ</item>
-        <item>លឿង​លើ​ខៀវ</item>
-        <item>តាមបំណង</item>
+
+    <string-array
+        name="captioning_preset_selector_titles">
+
+        <item>
+លំនាំ​ដើម</item>
+
+        <item>
+ស​លើ​ខ្មៅ</item>
+
+        <item>
+ខ្មៅ​លើ​ស</item>
+
+        <item>
+លឿង​លើ​ខ្មៅ</item>
+
+        <item>
+លឿង​លើ​ខៀវ</item>
+
+        <item>
+តាមបំណង</item>
+
     </string-array>
-    <string-array name="captioning_typeface_selector_titles">
-        <item>លំនាំដើម</item>
-        <item>Sans serif</item>
-        <item>Sans Serif រួញ</item>
-        <item>Sans serif monospace</item>
-        <item>Serif</item>
-        <item>Serif monospace</item>
-        <item>ធម្មតា</item>
-        <item>សរសេរ​ជាប់គ្នា</item>
-        <item>អក្សរពុម្ព​តូច</item>
+
+    <string-array
+        name="captioning_typeface_selector_titles">
+
+        <item>
+លំនាំដើម</item>
+
+        <item>
+Sans serif</item>
+
+        <item>
+Sans Serif រួញ</item>
+
+        <item>
+Sans serif monospace</item>
+
+        <item>
+Serif</item>
+
+        <item>
+Serif monospace</item>
+
+        <item>
+ធម្មតា</item>
+
+        <item>
+សរសេរ​ជាប់គ្នា</item>
+
+        <item>
+អក្សរពុម្ព​តូច</item>
+
     </string-array>
-    <string-array name="data_usage_billing_cycle_summary">
-        <item>ថ្ងៃ​ទី 1 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 2 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 3 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 4 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 5 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 6 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 7 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 8 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 9 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 10 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 11 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 12 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 13 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 14 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 15 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 16 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 17 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 18 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 19 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 20 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 21 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 22 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 23 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 24 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 25 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 26 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 27 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 28 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 29 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 30 នៃ​ខែ​នីមួយៗ</item>
-        <item>ថ្ងៃ​ទី 31 នៃ​ខែ​នីមួយៗ</item>
+
+    <string-array
+        name="data_usage_billing_cycle_summary">
+
+        <item>
+ថ្ងៃ​ទី 1 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 2 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 3 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 4 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 5 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 6 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 7 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 8 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 9 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 10 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 11 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 12 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 13 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 14 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 15 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 16 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 17 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 18 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 19 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 20 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 21 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 22 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 23 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 24 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 25 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 26 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 27 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 28 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 29 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 30 នៃ​ខែ​នីមួយៗ</item>
+
+        <item>
+ថ្ងៃ​ទី 31 នៃ​ខែ​នីមួយៗ</item>
+
     </string-array>
-    <string-array name="dex_timeout_entries">
-        <item>15 វិនាទី</item>
-        <item>30 វិនាទី</item>
-        <item>1 នាទី</item>
-        <item>2 នាទី</item>
-        <item>5 នាទី</item>
-        <item>10 នាទី</item>
-        <item>20 នាទី</item>
-        <item>30 នាទី</item>
-        <item>60 នាទី</item>
+
+    <string-array
+        name="dex_timeout_entries">
+
+        <item>
+15 វិនាទី</item>
+
+        <item>
+30 វិនាទី</item>
+
+        <item>
+1 នាទី</item>
+
+        <item>
+2 នាទី</item>
+
+        <item>
+5 នាទី</item>
+
+        <item>
+10 នាទី</item>
+
+        <item>
+20 នាទី</item>
+
+        <item>
+30 នាទី</item>
+
+        <item>
+60 នាទី</item>
+
     </string-array>
-    <string-array name="gpuwatch_rendering_api_entries">
-        <item>Vulkan</item>
-        <item>OpenGL</item>
+
+    <string-array
+        name="gpuwatch_rendering_api_entries">
+
+        <item>
+Vulkan</item>
+
+        <item>
+OpenGL</item>
+
     </string-array>
-    <string-array name="gpuwatch_widget_positions">
-        <item>លើ - ឆ្វេង</item>
-        <item>លើ - ផ្ដេក​កណ្ដាល</item>
-        <item>លើ - ស្ដាំ</item>
-        <item>បញ្ឈរ​កណ្ដាល - ឆ្វេង</item>
-        <item>បញ្ឈរ​កណ្ដាល - ស្ដាំ</item>
-        <item>ក្រោម - ឆ្វេង</item>
-        <item>ក្រោម - ផ្ដេក​កណ្ដាល</item>
-        <item>ក្រោម - ស្ដាំ</item>
+
+    <string-array
+        name="gpuwatch_widget_positions">
+
+        <item>
+លើ - ឆ្វេង</item>
+
+        <item>
+លើ - ផ្ដេក​កណ្ដាល</item>
+
+        <item>
+លើ - ស្ដាំ</item>
+
+        <item>
+បញ្ឈរ​កណ្ដាល - ឆ្វេង</item>
+
+        <item>
+បញ្ឈរ​កណ្ដាល - ស្ដាំ</item>
+
+        <item>
+ក្រោម - ឆ្វេង</item>
+
+        <item>
+ក្រោម - ផ្ដេក​កណ្ដាល</item>
+
+        <item>
+ក្រោម - ស្ដាំ</item>
+
     </string-array>
-    <string-array name="key_backlight_entries">
-        <item>បិទ​ជានិច្ច</item>
-        <item>1 វិនាទី</item>
-        <item>3 វិនាទី</item>
-        <item>5 វិនាទី</item>
-        <item>10 វិនាទី</item>
-        <item>15 វិនាទី</item>
+
+    <string-array
+        name="key_backlight_entries">
+
+        <item>
+បិទ​ជានិច្ច</item>
+
+        <item>
+1 វិនាទី</item>
+
+        <item>
+3 វិនាទី</item>
+
+        <item>
+5 វិនាទី</item>
+
+        <item>
+10 វិនាទី</item>
+
+        <item>
+15 វិនាទី</item>
+
     </string-array>
-    <string-array name="lock_after_timeout_entries">
-        <item>ភ្លាមៗ</item>
-        <item>5 វិនាទី</item>
-        <item>15 វិនាទី</item>
-        <item>30 វិនាទី</item>
-        <item>1 នាទី</item>
-        <item>2 នាទី</item>
-        <item>5 នាទី</item>
-        <item>10 នាទី</item>
-        <item>30 នាទី</item>
+
+    <string-array
+        name="lock_after_timeout_entries">
+
+        <item>
+ភ្លាមៗ</item>
+
+        <item>
+5 វិនាទី</item>
+
+        <item>
+15 វិនាទី</item>
+
+        <item>
+30 វិនាទី</item>
+
+        <item>
+1 នាទី</item>
+
+        <item>
+2 នាទី</item>
+
+        <item>
+5 នាទី</item>
+
+        <item>
+10 នាទី</item>
+
+        <item>
+30 នាទី</item>
+
     </string-array>
-    <string-array name="mouse_pointer_color_type">
-        <item>ស</item>
-        <item>ខ្មៅ</item>
-        <item>បៃតង​ខៀវ</item>
-        <item>លឿង</item>
-        <item>ក្រហម​ស្រាល</item>
-        <item>ស្វាយ​ស្រាល</item>
-        <item>ខៀវ​ស្រាល</item>
+
+    <string-array
+        name="mouse_pointer_color_type">
+
+        <item>
+ស</item>
+
+        <item>
+ខ្មៅ</item>
+
+        <item>
+បៃតង​ខៀវ</item>
+
+        <item>
+លឿង</item>
+
+        <item>
+ក្រហម​ស្រាល</item>
+
+        <item>
+ស្វាយ​ស្រាល</item>
+
+        <item>
+ខៀវ​ស្រាល</item>
+
     </string-array>
-    <string-array name="mvno_type_entries">
-        <item>គ្មាន</item>
-        <item>SPN</item>
-        <item>IMSI</item>
-        <item>GID</item>
+
+    <string-array
+        name="mvno_type_entries">
+
+        <item>
+គ្មាន</item>
+
+        <item>
+SPN</item>
+
+        <item>
+IMSI</item>
+
+        <item>
+GID</item>
+
     </string-array>
-    <string-array name="num_allowed_devices">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
+
+    <string-array
+        name="num_allowed_devices">
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
     </string-array>
-    <string-array name="ram_states">
-        <item>ធម្មតា</item>
-        <item>មធ្យម</item>
-        <item>ទាប</item>
-        <item>ខ្លាំង</item>
-        <item>\?</item>
+
+    <string-array
+        name="ram_states">
+
+        <item>
+ធម្មតា</item>
+
+        <item>
+មធ្យម</item>
+
+        <item>
+ទាប</item>
+
+        <item>
+ខ្លាំង</item>
+
+        <item>
+\?</item>
+
     </string-array>
-    <string-array name="screen_timeout_entries">
-        <item>15 វិនាទី</item>
-        <item>30 វិនាទី</item>
-        <item>1 នាទី</item>
-        <item>2 នាទី</item>
-        <item>5 នាទី</item>
-        <item>10 នាទី</item>
-        <item>30 នាទី</item>
+
+    <string-array
+        name="screen_timeout_entries">
+
+        <item>
+15 វិនាទី</item>
+
+        <item>
+30 វិនាទី</item>
+
+        <item>
+1 នាទី</item>
+
+        <item>
+2 នាទី</item>
+
+        <item>
+5 នាទី</item>
+
+        <item>
+10 នាទី</item>
+
+        <item>
+30 នាទី</item>
+
     </string-array>
-    <string-array name="sec_bt_stack_log_level_entries">
-        <item>ពាក្យហូរហែ</item>
-        <item>បំបាត់​កំហុស</item>
-        <item>ព័ត៌មាន</item>
-        <item>ព្រមាន</item>
-        <item>កំហុស</item>
+
+    <string-array
+        name="sec_bt_stack_log_level_entries">
+
+        <item>
+ពាក្យហូរហែ</item>
+
+        <item>
+បំបាត់​កំហុស</item>
+
+        <item>
+ព័ត៌មាន</item>
+
+        <item>
+ព្រមាន</item>
+
+        <item>
+កំហុស</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_phone">
-        <item>រក​ទូរសព្ទ​អ្នក បើ​បាន​បាត់​វា។</item>
-        <item>ធ្វើសមកាល​កម្មវិធី​និង​ការកំណត់​លើ​ឧបករណ៍​ទាំងអស់​របស់​អ្នក។</item>
-        <item>ចែករំលែក​ឯកសារ​ជាមួយ​មិត្តភក្ដិ គ្រួសារ និង​ឧបករណ៍​ផ្សេងទៀត។</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_phone">
+
+        <item>
+រក​ទូរសព្ទ​អ្នក បើ​បាន​បាត់​វា។</item>
+
+        <item>
+ធ្វើសមកាល​កម្មវិធី​និង​ការកំណត់​លើ​ឧបករណ៍​ទាំងអស់​របស់​អ្នក។</item>
+
+        <item>
+ចែករំលែក​ឯកសារ​ជាមួយ​មិត្តភក្ដិ គ្រួសារ និង​ឧបករណ៍​ផ្សេងទៀត។</item>
+
     </string-array>
-    <string-array name="sec_samsung_account_benefit_message_tablet">
-        <item>រក​ថេប្លិត​អ្នក បើ​បាន​បាត់​វា។</item>
-        <item>ចម្លង​និង​បិទភ្ជាប់​រវាង​ទូរសព្ទ​និង​ថេប្លិត​អ្នក។</item>
-        <item>ប្ដូរ​កាស​អ្នក​ដោយ​ស្វ័យប្រវត្តិ​រវាង​ឧបករណ៍។</item>
-        <item>ឆ្លើយ​ការហៅ​និង​សារ​លើ​ថេប្លិត​អ្នក។</item>
+
+    <string-array
+        name="sec_samsung_account_benefit_message_tablet">
+
+        <item>
+រក​ថេប្លិត​អ្នក បើ​បាន​បាត់​វា។</item>
+
+        <item>
+ចម្លង​និង​បិទភ្ជាប់​រវាង​ទូរសព្ទ​និង​ថេប្លិត​អ្នក។</item>
+
+        <item>
+ប្ដូរ​កាស​អ្នក​ដោយ​ស្វ័យប្រវត្តិ​រវាង​ឧបករណ៍។</item>
+
+        <item>
+ឆ្លើយ​ការហៅ​និង​សារ​លើ​ថេប្លិត​អ្នក។</item>
+
     </string-array>
-    <string-array name="security_settings_premium_sms_values">
-        <item>សួរ​ជានិច្ច</item>
-        <item>កុំ​អនុញ្ញាត​ឲ្យ​សោះ</item>
-        <item>អនុញ្ញាត​ជានិច្ច</item>
+
+    <string-array
+        name="security_settings_premium_sms_values">
+
+        <item>
+សួរ​ជានិច្ច</item>
+
+        <item>
+កុំ​អនុញ្ញាត​ឲ្យ​សោះ</item>
+
+        <item>
+អនុញ្ញាត​ជានិច្ច</item>
+
     </string-array>
-    <string-array name="vpn_proxy_settings">
-        <item>គ្មាន</item>
-        <item>ដោយ​ដៃ</item>
+
+    <string-array
+        name="vpn_proxy_settings">
+
+        <item>
+គ្មាន</item>
+
+        <item>
+ដោយ​ដៃ</item>
+
     </string-array>
-    <string-array name="vpn_states">
-        <item>បាន​ផ្តាច់</item>
-        <item>កំពុង​ចាប់​ផ្ដើម…</item>
-        <item>កំពុង​ភ្ជាប់…</item>
-        <item>បាន​ភ្ជាប់</item>
-        <item>ពេល​អស់</item>
-        <item>មិន​ជោគជ័យ</item>
+
+    <string-array
+        name="vpn_states">
+
+        <item>
+បាន​ផ្តាច់</item>
+
+        <item>
+កំពុង​ចាប់​ផ្ដើម…</item>
+
+        <item>
+កំពុង​ភ្ជាប់…</item>
+
+        <item>
+បាន​ភ្ជាប់</item>
+
+        <item>
+ពេល​អស់</item>
+
+        <item>
+មិន​ជោគជ័យ</item>
+
     </string-array>
-    <string-array name="wifi_ap_broadcast_channel_entries">
-        <item>ស្វ័យប្រវត្តិ</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
+
+    <string-array
+        name="wifi_ap_broadcast_channel_entries">
+
+        <item>
+ស្វ័យប្រវត្តិ</item>
+
+        <item>
+1</item>
+
+        <item>
+2</item>
+
+        <item>
+3</item>
+
+        <item>
+4</item>
+
+        <item>
+5</item>
+
+        <item>
+6</item>
+
+        <item>
+7</item>
+
+        <item>
+8</item>
+
+        <item>
+9</item>
+
+        <item>
+10</item>
+
+        <item>
+11</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_phone_entries">
-        <item>MAC ចៃដន្យ</item>
-        <item>MAC ទូរសព្ទ</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_phone_entries">
+
+        <item>
+MAC ចៃដន្យ</item>
+
+        <item>
+MAC ទូរសព្ទ</item>
+
     </string-array>
-    <string-array name="wifi_ap_mac_address_type_tablet_entries">
-        <item>MAC ចៃដន្យ</item>
-        <item>MAC ថេប្លិត</item>
+
+    <string-array
+        name="wifi_ap_mac_address_type_tablet_entries">
+
+        <item>
+MAC ចៃដន្យ</item>
+
+        <item>
+MAC ថេប្លិត</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_security_type_entries">
-        <item>បើក</item>
-        <item>Enhanced Open</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_owe_security_type_entries">
+
+        <item>
+បើក</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_owe_wpa3_security_type_entries">
-        <item>បើក</item>
-        <item>Enhanced Open</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_owe_wpa3_security_type_entries">
+
+        <item>
+បើក</item>
+
+        <item>
+Enhanced Open</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_ap_security_type_entries">
-        <item>បើក</item>
-        <item>WPA2 PSK</item>
+
+    <string-array
+        name="wifi_ap_security_type_entries">
+
+        <item>
+បើក</item>
+
+        <item>
+WPA2 PSK</item>
+
     </string-array>
-    <string-array name="wifi_ap_turn_off_hotspot_timer_entries">
-        <item>មើល​ឃើញ​រហូត</item>
-        <item>5 នាទី</item>
-        <item>10 នាទី</item>
-        <item>20 នាទី</item>
-        <item>30 នាទី</item>
-        <item>60 នាទី</item>
+
+    <string-array
+        name="wifi_ap_turn_off_hotspot_timer_entries">
+
+        <item>
+មើល​ឃើញ​រហូត</item>
+
+        <item>
+5 នាទី</item>
+
+        <item>
+10 នាទី</item>
+
+        <item>
+20 នាទី</item>
+
+        <item>
+30 នាទី</item>
+
+        <item>
+60 នាទី</item>
+
     </string-array>
-    <string-array name="wifi_ap_wifi_sharing">
-        <item>បើក​ការចែករំលែក Wi-Fi</item>
-        <item>បិទ​ការចែករំលែក Wi-Fi</item>
+
+    <string-array
+        name="wifi_ap_wifi_sharing">
+
+        <item>
+បើក​ការចែករំលែក Wi-Fi</item>
+
+        <item>
+បិទ​ការចែករំលែក Wi-Fi</item>
+
     </string-array>
-    <string-array name="wifi_ap_wpa3_security_type_entries">
-        <item>បើក</item>
-        <item>WPA2-Personal</item>
-        <item>WPA2/WPA3-Personal</item>
-        <item>WPA3-Personal</item>
+
+    <string-array
+        name="wifi_ap_wpa3_security_type_entries">
+
+        <item>
+បើក</item>
+
+        <item>
+WPA2-Personal</item>
+
+        <item>
+WPA2/WPA3-Personal</item>
+
+        <item>
+WPA3-Personal</item>
+
     </string-array>
-    <string-array name="wifi_connect_entries">
-        <item>ស្វ័យ​ប្រវត្តិ</item>
-        <item>ដោយ​ដៃ</item>
-        <item>សួរ​ជានិច្ច</item>
+
+    <string-array
+        name="wifi_connect_entries">
+
+        <item>
+ស្វ័យ​ប្រវត្តិ</item>
+
+        <item>
+ដោយ​ដៃ</item>
+
+        <item>
+សួរ​ជានិច្ច</item>
+
     </string-array>
-    <string-array name="wifi_ip_settings">
-        <item>DHCP</item>
-        <item>ឋិតិវន្ត</item>
+
+    <string-array
+        name="wifi_ip_settings">
+
+        <item>
+DHCP</item>
+
+        <item>
+ឋិតិវន្ត</item>
+
     </string-array>
-    <string-array name="wifi_metered_entries">
-        <item>ស្គាល់​ដោយ​ស្វ័យប្រវត្តិ</item>
-        <item>ប្រព្រឹត្ត​ដូច​បាន​វាស់</item>
-        <item>ប្រព្រឹត្ត​ដូច​មិន​បាន​វាស់</item>
+
+    <string-array
+        name="wifi_metered_entries">
+
+        <item>
+ស្គាល់​ដោយ​ស្វ័យប្រវត្តិ</item>
+
+        <item>
+ប្រព្រឹត្ត​ដូច​បាន​វាស់</item>
+
+        <item>
+ប្រព្រឹត្ត​ដូច​មិន​បាន​វាស់</item>
+
     </string-array>
-    <string-array name="wifi_p2p_status">
-        <item>បាន​ភ្ជាប់</item>
-        <item>បាន​អញ្ជើញ។</item>
-        <item>ការភ្ជាប់​បាន​បរាជ័យ</item>
-        <item>ប៉ះ​ទីនេះ​ដើម្បី​ភ្ជាប់។</item>
-        <item>ក្រៅ​វិសាលភាព។</item>
-        <item>បាន​ភ្ជាប់​ជាមួយ​ឧបករណ៍​ផ្សេង</item>
+
+    <string-array
+        name="wifi_p2p_status">
+
+        <item>
+បាន​ភ្ជាប់</item>
+
+        <item>
+បាន​អញ្ជើញ។</item>
+
+        <item>
+ការភ្ជាប់​បាន​បរាជ័យ</item>
+
+        <item>
+ប៉ះ​ទីនេះ​ដើម្បី​ភ្ជាប់។</item>
+
+        <item>
+ក្រៅ​វិសាលភាព។</item>
+
+        <item>
+បាន​ភ្ជាប់​ជាមួយ​ឧបករណ៍​ផ្សេង</item>
+
     </string-array>
-    <string-array name="wifi_proxy_settings">
-        <item>គ្មាន</item>
-        <item>ដោយ​ដៃ</item>
-        <item>ស្វ័យ​កំណត់​រចនាសម្ពន្ធ</item>
+
+    <string-array
+        name="wifi_proxy_settings">
+
+        <item>
+គ្មាន</item>
+
+        <item>
+ដោយ​ដៃ</item>
+
+        <item>
+ស្វ័យ​កំណត់​រចនាសម្ពន្ធ</item>
+
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>កំពុង​ស្កេន…</item>
-        <item>កំពុង​ភ្ជាប់…</item>
-        <item>កំពុង​ផ្ទៀង​ផ្ទាត់​ភាពពិត…</item>
-        <item>កំពុងទទួលអាសយដ្ឋាន IP…</item>
-        <item>បាន​ភ្ជាប់</item>
-        <item>បាន​ព្យួរ</item>
-        <item>កំពុង​ផ្តាច់…</item>
-        <item>បាន​ផ្តាច់</item>
-        <item>មិន​ជោគជ័យ</item>
-        <item>បាន​ខ្ទប់</item>
-        <item>កំពុង​ពិនិត្យ​គុណភាព​នៃ​ការភ្ជាប់​អ៊ីនធើណិត​របស់​អ្នក…</item>
+
+    <string-array
+        name="wifi_status">
+
+        <item />
+
+        <item>
+កំពុង​ស្កេន…</item>
+
+        <item>
+កំពុង​ភ្ជាប់…</item>
+
+        <item>
+កំពុង​ផ្ទៀង​ផ្ទាត់​ភាពពិត…</item>
+
+        <item>
+កំពុងទទួលអាសយដ្ឋាន IP…</item>
+
+        <item>
+បាន​ភ្ជាប់</item>
+
+        <item>
+បាន​ព្យួរ</item>
+
+        <item>
+កំពុង​ផ្តាច់…</item>
+
+        <item>
+បាន​ផ្តាច់</item>
+
+        <item>
+មិន​ជោគជ័យ</item>
+
+        <item>
+បាន​ខ្ទប់</item>
+
+        <item>
+កំពុង​ពិនិត្យ​គុណភាព​នៃ​ការភ្ជាប់​អ៊ីនធើណិត​របស់​អ្នក…</item>
+
     </string-array>
+
 </resources>

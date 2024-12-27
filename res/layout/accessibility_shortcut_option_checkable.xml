@@ -1,8 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:id="@id/a11y_shortcut_option_container" android:paddingBottom="?android:listPreferredItemPaddingEnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <CheckBox android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="@android:id/title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@android:id/checkbox" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hyphenationFrequency="normalFast" android:lineBreakWordStyle="phrase" app:layout_constrainedHeight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@android:id/title" app:layout_constraintTop_toBottomOf="@android:id/title" />
-    <com.airbnb.lottie.LottieAnimationView android:id="@id/image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settingslib_illustration_padding" android:layout_marginBottom="@dimen/settingslib_illustration_padding" android:scaleType="fitStart" android:adjustViewBounds="true" android:maxHeight="@dimen/accessibility_imageview_size" app:layout_constrainedHeight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="@android:id/title" app:layout_constraintTop_toBottomOf="@android:id/summary" app:layout_constraintWidth_max="@dimen/settingslib_illustration_width" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/a11y_shortcut_option_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="?android:listPreferredItemPaddingEnd"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <CheckBox
+        android:id="@android:id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@null"
+        android:focusable="false"
+        android:clickable="false"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@android:id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginStart="?android:listPreferredItemPaddingStart"
+        android:hyphenationFrequency="normalFast"
+        android:lineBreakWordStyle="phrase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@android:id/checkbox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="?android:textColorSecondary"
+        android:hyphenationFrequency="normalFast"
+        android:lineBreakWordStyle="phrase"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@android:id/title"
+        app:layout_constraintTop_toBottomOf="@android:id/title" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@id/image"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/settingslib_illustration_padding"
+        android:layout_marginBottom="@dimen/settingslib_illustration_padding"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:maxHeight="@dimen/accessibility_imageview_size"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@android:id/title"
+        app:layout_constraintTop_toBottomOf="@android:id/summary"
+        app:layout_constraintWidth_max="@dimen/settingslib_illustration_width" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

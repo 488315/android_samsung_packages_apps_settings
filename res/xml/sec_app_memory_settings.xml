@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/memory_settings_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <androidx.preference.SecPreferenceCategory settings:roundStroke="top_left|top_right">
-        <Preference android:layout="@layout/sec_horizontal_preference" android:title="@string/average_memory_use" android:key="status_header" />
-        <com.samsung.android.settings.widget.SecDividerPreference android:selectable="false" />
-        <Preference android:layout="@layout/sec_horizontal_preference" android:title="@string/running_frequency" android:key="frequency" />
-        <com.samsung.android.settings.widget.SecDividerPreference android:selectable="false" />
-        <Preference android:layout="@layout/sec_horizontal_preference" android:title="@string/memory_maximum_usage" android:key="max_usage" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/memory_settings_title">
+
+    <androidx.preference.SecPreferenceCategory
+        settings:roundStroke="top_left|top_right">
+
+        <Preference
+            android:layout="@layout/sec_horizontal_preference"
+            android:title="@string/average_memory_use"
+            android:key="status_header" />
+
+        <com.samsung.android.settings.widget.SecDividerPreference
+            android:selectable="false" />
+
+        <Preference
+            android:layout="@layout/sec_horizontal_preference"
+            android:title="@string/running_frequency"
+            android:key="frequency" />
+
+        <com.samsung.android.settings.widget.SecDividerPreference
+            android:selectable="false" />
+
+        <Preference
+            android:layout="@layout/sec_horizontal_preference"
+            android:title="@string/memory_maximum_usage"
+            android:key="max_usage" />
+
     </androidx.preference.SecPreferenceCategory>
-    <androidx.preference.SecPreferenceCategory android:title="@string/memory_details" android:key="processes" />
+
+    <androidx.preference.SecPreferenceCategory
+        android:title="@string/memory_details"
+        android:key="processes" />
+
 </PreferenceScreen>

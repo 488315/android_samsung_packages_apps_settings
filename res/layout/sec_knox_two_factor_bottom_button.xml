@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SecurityPreferenceButtonContainer">
-        <com.samsung.android.settings.widget.SecBottomBarButton android:textSize="@dimen/sec_lock_bottom_bar_button_text_size" android:id="@id/later_button" android:text="@string/knox_guide_enroll_twostep_button_prev" style="@style/SecurityPreferenceButton" />
-        <com.samsung.android.settings.widget.SecBottomBarButton android:textSize="@dimen/sec_lock_bottom_bar_button_text_size" android:id="@id/setup_button" android:text="@string/knox_guide_enroll_twostep_button_next" style="@style/SecurityPreferenceButton" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/SecurityPreferenceButtonContainer">
+
+        <com.samsung.android.settings.widget.SecBottomBarButton
+            android:id="@id/later_button"
+            android:textSize="@dimen/sec_lock_bottom_bar_button_text_size"
+            android:text="@string/knox_guide_enroll_twostep_button_prev"
+            style="@style/SecurityPreferenceButton" />
+
+        <com.samsung.android.settings.widget.SecBottomBarButton
+            android:id="@id/setup_button"
+            android:textSize="@dimen/sec_lock_bottom_bar_button_text_size"
+            android:text="@string/knox_guide_enroll_twostep_button_next"
+            style="@style/SecurityPreferenceButton" />
+
     </LinearLayout>
+
 </LinearLayout>

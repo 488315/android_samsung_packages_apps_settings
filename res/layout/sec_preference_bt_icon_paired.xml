@@ -1,19 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/sec_widget_list_app_icon_size" android:layout_height="@dimen/sec_widget_list_app_icon_size">
-            <ImageView android:id="@android:id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@null" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:paddingStart="?android:listPreferredItemPaddingStart">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/sec_widget_list_app_icon_size"
+            android:layout_height="@dimen/sec_widget_list_app_icon_size"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null" />
+
         </RelativeLayout>
-        <RelativeLayout android:gravity="center_vertical" android:paddingTop="@dimen/bluetooth_preference_padding_top" android:paddingBottom="@dimen/bluetooth_preference_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/bluetooth_preference_min_height_paired" android:layout_weight="1.0" android:layout_marginStart="@dimen/bluetooth_preference_device_text_start_padding">
-            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@android:id/title" android:textAlignment="viewStart" android:layout_alignStart="@android:id/title" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/bluetooth_preference_padding_top"
+            android:paddingBottom="@dimen/bluetooth_preference_padding_bottom"
+            android:minHeight="@dimen/bluetooth_preference_min_height_paired"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/bluetooth_preference_device_text_start_padding">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:textColor="?android:textColorPrimary"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="?android:textColorSecondary"
+                android:maxLines="10"
+                android:layout_below="@android:id/title"
+                android:textAlignment="viewStart"
+                android:layout_alignStart="@android:id/title" />
+
         </RelativeLayout>
-        <ImageView android:id="@id/tips_btn" android:background="@drawable/sec_bluetooth_preference_list_config_bg" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="10.0dip" android:src="@drawable/sec_bluetooth_qmark_pairing" android:scaleType="center" android:contentDescription="@string/sec_bluetooth_tips_title" />
-        <View android:background="@color/sec_widget_preference_screen_divider_color" android:layout_width="@dimen/sesl_switch_divider_height" android:layout_height="@dimen/sec_widget_preference_vertical_divider_height" android:layout_centerVertical="true" />
-        <RelativeLayout android:gravity="end|center" android:id="@id/layout_details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="58.0dip">
-            <ImageView android:layout_gravity="center" android:id="@id/deviceDetails" android:background="@drawable/sec_bluetooth_preference_list_config_bg" android:layout_width="@dimen/bluetooth_preference_list_config_icon_size" android:layout_height="@dimen/bluetooth_preference_list_config_icon_size" android:contentDescription="@string/bluetooth_device_details" android:layout_marginStart="@dimen/sesl_switch_divider_height" style="@style/BluetoothListSettingsIcon" />
-            <View android:id="@id/view_badge" android:background="@drawable/sec_bluetooth_bg_badge" android:visibility="gone" android:layout_width="@dimen/sec_bluetooth_badge_circle_width_height" android:layout_height="@dimen/sec_bluetooth_badge_circle_width_height" android:layout_marginTop="@dimen/sec_bluetooth_badge_margin_top" android:layout_marginStart="@dimen/sec_bluetooth_badge_margin_left" />
+
+        <ImageView
+            android:id="@id/tips_btn"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:background="@drawable/sec_bluetooth_preference_list_config_bg"
+            android:visibility="gone"
+            android:layout_margin="10.0dip"
+            android:src="@drawable/sec_bluetooth_qmark_pairing"
+            android:scaleType="center"
+            android:contentDescription="@string/sec_bluetooth_tips_title" />
+
+        <View
+            android:layout_width="@dimen/sesl_switch_divider_height"
+            android:layout_height="@dimen/sec_widget_preference_vertical_divider_height"
+            android:background="@color/sec_widget_preference_screen_divider_color"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:id="@id/layout_details"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="end|center"
+            android:visibility="gone"
+            android:minWidth="58.0dip">
+
+            <ImageView
+                android:id="@id/deviceDetails"
+                android:layout_width="@dimen/bluetooth_preference_list_config_icon_size"
+                android:layout_height="@dimen/bluetooth_preference_list_config_icon_size"
+                android:layout_gravity="center"
+                android:background="@drawable/sec_bluetooth_preference_list_config_bg"
+                android:contentDescription="@string/bluetooth_device_details"
+                android:layout_marginStart="@dimen/sesl_switch_divider_height"
+                style="@style/BluetoothListSettingsIcon" />
+
+            <View
+                android:id="@id/view_badge"
+                android:layout_width="@dimen/sec_bluetooth_badge_circle_width_height"
+                android:layout_height="@dimen/sec_bluetooth_badge_circle_width_height"
+                android:background="@drawable/sec_bluetooth_bg_badge"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/sec_bluetooth_badge_margin_top"
+                android:layout_marginStart="@dimen/sec_bluetooth_badge_margin_left" />
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

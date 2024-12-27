@@ -1,20 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:icon="@drawable/sec_ic_settings_cloud_and_account" android:title="@string/cloud_and_accounts_title" android:key="account_settings_screen" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:topLevelPreferenceKey="top_level_accounts_backup"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceScreen android:title="@string/sec_account_management" android:key="account_preference" android:order="10000" android:fragment="com.android.settings.accounts.AccountDashboardFragment" settings:controller="com.samsung.android.settings.account.controller.SecAccountPreferenceController" settings:keywords="@string/keywords_account_settings" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="user_category" android:order="20000" />
-    <com.samsung.android.settings.widget.SecDisabledAppearancePreference android:title="@string/user_settings_title" android:key="user_preference" android:order="30000" android:fragment="com.android.settings.users.UserSettings" settings:controller="com.samsung.android.settings.account.controller.UserPreferenceController" />
-    <SecPreferenceCategory android:layout_width="fill_parent" android:title="@string/cloud_title" android:key="category_samsungservices" android:order="40000" settings:controller="com.samsung.android.settings.backup.controller.SamsungServiceCategoryPreferenceController">
-        <SecSwitchPreference android:title="@string/backup_and_restore_samsung_account_title" android:key="pref_samsung_cloud" settings:controller="com.samsung.android.settings.backup.controller.SamsungCloudPreferenceController" />
-        <SecPreference android:title="@string/backup_samsung_account_title" android:key="pref_backUp" settings:controller="com.samsung.android.settings.backup.controller.SamsungBackupPreferenceController" />
-        <SecPreference android:title="@string/restore_samsung_account_title" android:key="pref_restore" settings:controller="com.samsung.android.settings.backup.controller.SamsungRestorePreferenceController" />
-        <SecPreference android:persistent="false" android:enabled="false" android:title="@string/backup_inactive_title" android:selectable="false" android:key="samsung_backup_inactive" android:summary="@string/backup_inactive_summary" settings:controller="com.samsung.android.settings.backup.controller.SamsungBackupInActivePreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/sec_ic_settings_cloud_and_account"
+    android:title="@string/cloud_and_accounts_title"
+    android:key="account_settings_screen"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:topLevelPreferenceKey="top_level_accounts_backup">
+
+    <SecPreferenceScreen
+        android:title="@string/sec_account_management"
+        android:key="account_preference"
+        android:order="10000"
+        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
+        settings:controller="com.samsung.android.settings.account.controller.SecAccountPreferenceController"
+        settings:keywords="@string/keywords_account_settings" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="user_category"
+        android:order="20000" />
+
+    <com.samsung.android.settings.widget.SecDisabledAppearancePreference
+        android:title="@string/user_settings_title"
+        android:key="user_preference"
+        android:order="30000"
+        android:fragment="com.android.settings.users.UserSettings"
+        settings:controller="com.samsung.android.settings.account.controller.UserPreferenceController" />
+
+    <SecPreferenceCategory
+        android:layout_width="fill_parent"
+        android:title="@string/cloud_title"
+        android:key="category_samsungservices"
+        android:order="40000"
+        settings:controller="com.samsung.android.settings.backup.controller.SamsungServiceCategoryPreferenceController">
+
+        <SecSwitchPreference
+            android:title="@string/backup_and_restore_samsung_account_title"
+            android:key="pref_samsung_cloud"
+            settings:controller="com.samsung.android.settings.backup.controller.SamsungCloudPreferenceController" />
+
+        <SecPreference
+            android:title="@string/backup_samsung_account_title"
+            android:key="pref_backUp"
+            settings:controller="com.samsung.android.settings.backup.controller.SamsungBackupPreferenceController" />
+
+        <SecPreference
+            android:title="@string/restore_samsung_account_title"
+            android:key="pref_restore"
+            settings:controller="com.samsung.android.settings.backup.controller.SamsungRestorePreferenceController" />
+
+        <SecPreference
+            android:persistent="false"
+            android:enabled="false"
+            android:title="@string/backup_inactive_title"
+            android:selectable="false"
+            android:key="samsung_backup_inactive"
+            android:summary="@string/backup_inactive_summary"
+            settings:controller="com.samsung.android.settings.backup.controller.SamsungBackupInActivePreferenceController" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:title="@string/sec_backup_category" android:key="backup_category" android:order="50000" settings:controller="com.samsung.android.settings.backup.controller.BackupCategoryPreferenceController">
-        <Preference android:title="@string/backup_samsung_account_title" android:key="google_backup_settings" settings:controller="com.samsung.android.settings.backup.controller.GoogleBackupPreferenceController" />
+
+    <SecPreferenceCategory
+        android:title="@string/sec_backup_category"
+        android:key="backup_category"
+        android:order="50000"
+        settings:controller="com.samsung.android.settings.backup.controller.BackupCategoryPreferenceController">
+
+        <Preference
+            android:title="@string/backup_samsung_account_title"
+            android:key="google_backup_settings"
+            settings:controller="com.samsung.android.settings.backup.controller.GoogleBackupPreferenceController" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:title="@string/smart_switch_name_mobile" android:key="external_storage" android:order="80000" settings:controller="com.samsung.android.settings.backup.controller.ExternalStorageCategoryPreferenceController" settings:keywords="@string/keywords_smart_switch_setting">
-        <SecPreferenceScreen android:title="@string/sec_bring_data_from_old_device" android:key="smartswitch_preference" android:summary="@string/running_smart_switch_summary" settings:controller="com.samsung.android.settings.account.controller.SmartSwitchPreferenceController" settings:keywords="@string/keywords_smart_switch_setting" />
-        <SecPreference android:title="@string/external_storage_transfer_title" android:key="external_storage_transfer" android:summary="@string/external_storage_transfer_summary" settings:controller="com.samsung.android.settings.backup.controller.SamsungExternalStoragePreferenceController" settings:keywords="@string/keywords_external_storage_setting" />
+
+    <SecPreferenceCategory
+        android:title="@string/smart_switch_name_mobile"
+        android:key="external_storage"
+        android:order="80000"
+        settings:controller="com.samsung.android.settings.backup.controller.ExternalStorageCategoryPreferenceController"
+        settings:keywords="@string/keywords_smart_switch_setting">
+
+        <SecPreferenceScreen
+            android:title="@string/sec_bring_data_from_old_device"
+            android:key="smartswitch_preference"
+            android:summary="@string/running_smart_switch_summary"
+            settings:controller="com.samsung.android.settings.account.controller.SmartSwitchPreferenceController"
+            settings:keywords="@string/keywords_smart_switch_setting" />
+
+        <SecPreference
+            android:title="@string/external_storage_transfer_title"
+            android:key="external_storage_transfer"
+            android:summary="@string/external_storage_transfer_summary"
+            settings:controller="com.samsung.android.settings.backup.controller.SamsungExternalStoragePreferenceController"
+            settings:keywords="@string/keywords_external_storage_setting" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

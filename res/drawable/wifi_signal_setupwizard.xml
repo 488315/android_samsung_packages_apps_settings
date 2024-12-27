@@ -1,94 +1,336 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <item settings:state_encrypted="true" settings:state_wifi_5="false" settings:state_wifi_6="false" settings:state_wifi_6e="false" settings:state_wifi_7="false">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <item
+        settings:state_encrypted="true"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="false" settings:state_wifi_5="false" settings:state_wifi_6="false" settings:state_wifi_6e="false" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="false"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="true" settings:state_wifi_5="true" settings:state_wifi_6="false" settings:state_wifi_6e="false" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="true"
+        settings:state_wifi_5="true"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi5_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="false" settings:state_wifi_5="true" settings:state_wifi_6="false" settings:state_wifi_6e="false" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="false"
+        settings:state_wifi_5="true"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi5_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="true" settings:state_wifi_5="false" settings:state_wifi_6="true" settings:state_wifi_6e="false" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="true"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="true"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="false" settings:state_wifi_5="false" settings:state_wifi_6="true" settings:state_wifi_6e="false" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="false"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="true"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="true" settings:state_wifi_5="false" settings:state_wifi_6="false" settings:state_wifi_6e="true" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="true"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="true"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi6e_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="false" settings:state_wifi_5="false" settings:state_wifi_6="false" settings:state_wifi_6e="true" settings:state_wifi_7="false">
+
+    <item
+        settings:state_encrypted="false"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="true"
+        settings:state_wifi_7="false">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi6e_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="true" settings:state_wifi_5="false" settings:state_wifi_6="false" settings:state_wifi_6e="false" settings:state_wifi_7="true">
+
+    <item
+        settings:state_encrypted="true"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="true">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_lock_wifi7_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
-    <item settings:state_encrypted="false" settings:state_wifi_5="false" settings:state_wifi_6="false" settings:state_wifi_6e="false" settings:state_wifi_7="true">
+
+    <item
+        settings:state_encrypted="false"
+        settings:state_wifi_5="false"
+        settings:state_wifi_6="false"
+        settings:state_wifi_6e="false"
+        settings:state_wifi_7="true">
+
         <level-list>
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_0" android:maxLevel="0" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_1" android:maxLevel="1" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_2" android:maxLevel="2" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_3" android:maxLevel="3" />
-            <item android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_4" android:maxLevel="4" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_0"
+                android:maxLevel="0" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_1"
+                android:maxLevel="1" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_2"
+                android:maxLevel="2" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_3"
+                android:maxLevel="3" />
+
+            <item
+                android:drawable="@drawable/sec_ic_wifi_suw_signal_wifi7_4"
+                android:maxLevel="4" />
+
         </level-list>
+
     </item>
+
 </selector>

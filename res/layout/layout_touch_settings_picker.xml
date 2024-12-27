@@ -1,16 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?roundedCornerColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" android:paddingStart="@dimen/touch_settings_basic_horizontal_padding" android:paddingEnd="@dimen/touch_settings_basic_horizontal_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:id="@id/picker_dialog_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Accessibility.Widget.TextView.Description" />
-            <com.samsung.android.settings.accessibility.base.widget.PickerCompat android:id="@id/picker" android:background="@color/content_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="?roundedCornerColor"
+    android:fillViewport="true"
+    android:overScrollMode="always"
+    android:paddingStart="@dimen/touch_settings_basic_horizontal_padding"
+    android:paddingEnd="@dimen/touch_settings_basic_horizontal_padding">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@id/picker_dialog_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Accessibility.Widget.TextView.Description" />
+
+            <com.samsung.android.settings.accessibility.base.widget.PickerCompat
+                android:id="@id/picker"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/content_background_color" />
+
         </LinearLayout>
+
     </ScrollView>
-    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/content_area" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
-        <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton android:id="@id/test_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/touch_settings_bottom_btn_top_padding" android:layout_marginBottom="@dimen/touch_settings_bottom_btn_bottom_padding" android:minHeight="@dimen/touch_settings_bottom_btn_height" android:layout_centerHorizontal="true" />
-        <com.google.android.material.textfield.TextInputLayout android:id="@id/test_edit_text_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_settings_layout_test_button_top_margin" android:hint="@string/type_here_to_test" android:layout_below="@id/test_btn" android:layout_marginStart="@dimen/list_settings_layout_test_text_start_margin" android:layout_marginEnd="@dimen/list_settings_layout_test_button_top_margin">
-            <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/list_settings_layout_test_text_input_text_size" android:layout_gravity="bottom" android:paddingTop="@dimen/list_settings_layout_test_text_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@id/content_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:importantForAccessibility="no">
+
+        <com.samsung.android.settings.accessibility.base.widget.BodyContainedButton
+            android:id="@id/test_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/touch_settings_bottom_btn_top_padding"
+            android:layout_marginBottom="@dimen/touch_settings_bottom_btn_bottom_padding"
+            android:minHeight="@dimen/touch_settings_bottom_btn_height"
+            android:layout_centerHorizontal="true" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/test_edit_text_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/list_settings_layout_test_button_top_margin"
+            android:hint="@string/type_here_to_test"
+            android:layout_below="@id/test_btn"
+            android:layout_marginStart="@dimen/list_settings_layout_test_text_start_margin"
+            android:layout_marginEnd="@dimen/list_settings_layout_test_button_top_margin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/list_settings_layout_test_text_input_text_size"
+                android:layout_gravity="bottom"
+                android:paddingTop="@dimen/list_settings_layout_test_text_bottom_padding" />
+
         </com.google.android.material.textfield.TextInputLayout>
+
     </RelativeLayout>
+
 </LinearLayout>

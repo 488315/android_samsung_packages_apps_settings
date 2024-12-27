@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.samsung.android.settings.widget.SecRoundButtonView android:layout_gravity="center_horizontal" android:id="@id/button" android:layout_width="@dimen/sec_account_remove_button_width" android:layout_height="@dimen/sec_account_remove_button_height" android:layout_marginBottom="@dimen/reset_button_bottom_margin" android:text="@string/remove_account_label" style="@style/RoundButtonStyle" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor">
+
+    <com.samsung.android.settings.widget.SecRoundButtonView
+        android:id="@id/button"
+        android:layout_width="@dimen/sec_account_remove_button_width"
+        android:layout_height="@dimen/sec_account_remove_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/reset_button_bottom_margin"
+        android:text="@string/remove_account_label"
+        style="@style/RoundButtonStyle" />
+
 </LinearLayout>

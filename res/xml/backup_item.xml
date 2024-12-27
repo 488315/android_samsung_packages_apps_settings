@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <backup_items>
-    <backup_item category="SETTINGS" client_impl_class="com.samsung.android.settings.wifi.mobileap.WifiApCloudBackupRestore" contents_id="C0phMaUuZZ" interface="ISCloudQBNRClient" name="CONNECTIONS" quick_backup="true" />
-    <backup_item category="SETTINGS" client_impl_class="com.samsung.android.settings.wifi.WifiSamsungCloudBackupRestore" contents_id="C0phMaUuZZ" interface="ISCloudQBNRClient" name="WiFi" quick_backup="true" />
-    <backup_item client_impl_class="com.samsung.android.settings.eternal.service.EternalService" contents_id="MU8HBS93C2" interface="ISCloudQBNRClient" name="Settings" quick_backup="true" />
-    <backup_item category="ACCESSIBILITYSETTINGS" client_impl_class="com.samsung.android.settings.eternal.scloud.AccessibilityBackupRestoreClient" contents_id="X6qErjsfs2" interface="ISCloudQBNRClient" name="ACCESSIBILITYSETTINGS" quick_backup="true" />
+
+    <backup_item
+        category="SETTINGS"
+        client_impl_class="com.samsung.android.settings.wifi.mobileap.WifiApCloudBackupRestore"
+        contents_id="C0phMaUuZZ"
+        interface="ISCloudQBNRClient"
+        name="CONNECTIONS"
+        quick_backup="true" />
+
+    <backup_item
+        category="SETTINGS"
+        client_impl_class="com.samsung.android.settings.wifi.WifiSamsungCloudBackupRestore"
+        contents_id="C0phMaUuZZ"
+        interface="ISCloudQBNRClient"
+        name="WiFi"
+        quick_backup="true" />
+
+    <backup_item
+        client_impl_class="com.samsung.android.settings.eternal.service.EternalService"
+        contents_id="MU8HBS93C2"
+        interface="ISCloudQBNRClient"
+        name="Settings"
+        quick_backup="true" />
+
+    <backup_item
+        category="ACCESSIBILITYSETTINGS"
+        client_impl_class="com.samsung.android.settings.eternal.scloud.AccessibilityBackupRestoreClient"
+        contents_id="X6qErjsfs2"
+        interface="ISCloudQBNRClient"
+        name="ACCESSIBILITYSETTINGS"
+        quick_backup="true" />
+
 </backup_items>

@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingBottom="@dimen/sec_wifi_activity_edit_text_margin_top" android:layout_width="fill_parent" android:layout_height="76.0dip" android:paddingStart="@dimen/sec_wifi_activity_edit_text_padding_start" android:paddingEnd="@dimen/sec_wifi_activity_edit_text_padding_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/sec_wifi_activity_label_error_text_size" android:textColor="@color/sec_wifi_ap_activity_label_text_color" android:id="@id/title" android:paddingTop="@dimen/sec_wifi_activity_edit_text_label_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="viewStart" android:paddingStart="@dimen/sec_wifi_activity_label_padding_start" android:labelFor="@id/edittext" />
-    <EditText android:textSize="@dimen/sec_wifi_activity_edit_text_size" android:textColor="?android:textColorPrimary" android:id="@id/edittext" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:privateImeOptions="inputType=PredictionOff;disableEmoticonInput=true;disableGifKeyboard=true;disableSticker=true;defaultInputmode=english;disableLiveMessage=true" android:imeOptions="flagNoFullscreen" android:textAlignment="viewStart" android:layout_marginStart="@dimen/sec_wifi_activity_edit_text_default_padding_start" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="76.0dip"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/sec_wifi_activity_edit_text_margin_top"
+    android:paddingStart="@dimen/sec_wifi_activity_edit_text_padding_start"
+    android:paddingEnd="@dimen/sec_wifi_activity_edit_text_padding_end">
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="@dimen/sec_wifi_activity_label_error_text_size"
+        android:textColor="@color/sec_wifi_ap_activity_label_text_color"
+        android:paddingTop="@dimen/sec_wifi_activity_edit_text_label_padding_top"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/sec_wifi_activity_label_padding_start"
+        android:labelFor="@id/edittext" />
+
+    <EditText
+        android:id="@id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="@dimen/sec_wifi_activity_edit_text_size"
+        android:textColor="?android:textColorPrimary"
+        android:singleLine="true"
+        android:privateImeOptions="inputType=PredictionOff;disableEmoticonInput=true;disableGifKeyboard=true;disableSticker=true;defaultInputmode=english;disableLiveMessage=true"
+        android:imeOptions="flagNoFullscreen"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/sec_wifi_activity_edit_text_default_padding_start" />
+
 </LinearLayout>

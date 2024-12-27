@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.preference.Preference android:key="ssid_bssid" />
-    <androidx.preference.Preference android:title="IP Address" android:key="ip_address" />
-    <androidx.preference.Preference android:title="Gateway" android:key="gateway" />
-    <androidx.preference.Preference android:title="Network Prefix Length" android:key="network_prefix_length" />
-    <androidx.preference.Preference android:title="DNS 1" android:key="dns_1" />
-    <androidx.preference.Preference android:title="DNS 2" android:key="dns_2" />
-    <androidx.preference.Preference android:title="All TCP sockets statistic" android:key="all_sockets_statistic" />
-    <androidx.preference.Preference android:title="Foregound APP TCP socket statistic" android:key="foreground_sockets_statistic" />
-    <androidx.preference.Preference android:title="DNS Results" android:key="dns_results" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.Preference
+        android:key="ssid_bssid" />
+
+    <androidx.preference.Preference
+        android:title="IP Address"
+        android:key="ip_address" />
+
+    <androidx.preference.Preference
+        android:title="Gateway"
+        android:key="gateway" />
+
+    <androidx.preference.Preference
+        android:title="Network Prefix Length"
+        android:key="network_prefix_length" />
+
+    <androidx.preference.Preference
+        android:title="DNS 1"
+        android:key="dns_1" />
+
+    <androidx.preference.Preference
+        android:title="DNS 2"
+        android:key="dns_2" />
+
+    <androidx.preference.Preference
+        android:title="All TCP sockets statistic"
+        android:key="all_sockets_statistic" />
+
+    <androidx.preference.Preference
+        android:title="Foregound APP TCP socket statistic"
+        android:key="foreground_sockets_statistic" />
+
+    <androidx.preference.Preference
+        android:title="DNS Results"
+        android:key="dns_results" />
+
 </PreferenceScreen>

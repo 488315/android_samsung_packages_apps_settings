@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/relative_link_container" android:background="@color/sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/sec_widget_relative_link_gap_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/link_divider" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sec_widget_list_divider_height" />
-    <LinearLayout android:orientation="vertical" android:background="@drawable/sec_relative_link_footerview_bg" android:paddingTop="@dimen/sec_widget_relative_link_view_margin_top_bottom" android:paddingBottom="@dimen/sec_widget_relative_link_view_margin_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/sec_widget_relative_link_view_margin_start_end">
-        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <TextView android:id="@id/link_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sec_widget_relative_link_title_text_margin_bottom" android:text="@string/sec_relative_description" android:layout_weight="1.0" android:paddingStart="@dimen/sec_widget_relative_link_view_margin_start_end" style="@style/sec_relative_link_title" />
-            <LinearLayout android:orientation="vertical" android:id="@id/link_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_widget_relative_link_text_margin_start" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/relative_link_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:paddingBottom="@dimen/sec_widget_relative_link_gap_height">
+
+    <View
+        android:id="@id/link_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sec_widget_list_divider_height"
+        android:background="?android:listDivider"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/sec_relative_link_footerview_bg"
+        android:paddingTop="@dimen/sec_widget_relative_link_view_margin_top_bottom"
+        android:paddingBottom="@dimen/sec_widget_relative_link_view_margin_top_bottom"
+        android:paddingEnd="@dimen/sec_widget_relative_link_view_margin_start_end">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/link_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/sec_widget_relative_link_title_text_margin_bottom"
+                android:text="@string/sec_relative_description"
+                android:layout_weight="1.0"
+                android:paddingStart="@dimen/sec_widget_relative_link_view_margin_start_end"
+                style="@style/sec_relative_link_title" />
+
+            <LinearLayout
+                android:id="@id/link_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/sec_widget_relative_link_text_margin_start" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

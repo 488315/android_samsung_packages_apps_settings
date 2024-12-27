@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/security_dashboard_lost_device_protection_title" settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings" settings:topLevelPreferenceKey="top_level_security_and_privacy"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/security_dashboard_lostdeviceprotection_activity_description" android:selectable="false" android:order="-1200" settings:positionMode="first_item" settings:searchable="false" />
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_security_fmm" android:title="@string/security_dashboard_find_my_mobile_title" android:key="key_fmm" android:order="-1100" settings:controller="com.samsung.android.settings.privacy.SecurityDashboardFmmPreferenceController" settings:isDividerVisible="false" settings:isPreferenceVisible="false">
-        <intent android:targetPackage="com.samsung.android.fmm" android:action="android.intent.action.MAIN" android:targetClass="com.samsung.android.fmm.settings.FmmSettingsActivity" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/security_dashboard_lost_device_protection_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.privacy.SecurityAndPrivacySettings"
+    settings:topLevelPreferenceKey="top_level_security_and_privacy">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/security_dashboard_lostdeviceprotection_activity_description"
+        android:selectable="false"
+        android:order="-1200"
+        settings:positionMode="first_item"
+        settings:searchable="false" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_security_fmm"
+        android:title="@string/security_dashboard_find_my_mobile_title"
+        android:key="key_fmm"
+        android:order="-1100"
+        settings:controller="com.samsung.android.settings.privacy.SecurityDashboardFmmPreferenceController"
+        settings:isDividerVisible="false"
+        settings:isPreferenceVisible="false">
+
+        <intent
+            android:targetPackage="com.samsung.android.fmm"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.samsung.android.fmm.settings.FmmSettingsActivity" />
+
     </com.samsung.android.settings.widget.SecExpandableMenuPreference>
-    <com.samsung.android.settings.widget.SecExpandableMenuPreference android:icon="@drawable/ic_theft_protection" android:title="@string/security_dashboard_theft_protection" android:key="key_theft_protection" android:order="-1000" android:fragment="com.samsung.android.settings.privacy.SecurityDashboardTheftProtectionFragment" settings:keywords="@string/security_dashboard_theft_protection" />
+
+    <com.samsung.android.settings.widget.SecExpandableMenuPreference
+        android:icon="@drawable/ic_theft_protection"
+        android:title="@string/security_dashboard_theft_protection"
+        android:key="key_theft_protection"
+        android:order="-1000"
+        android:fragment="com.samsung.android.settings.privacy.SecurityDashboardTheftProtectionFragment"
+        settings:keywords="@string/security_dashboard_theft_protection" />
+
 </PreferenceScreen>

@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/screen_timeout" settings:hierarchicalParentFragment="com.android.settings.DisplaySettings" settings:topLevelPreferenceKey="top_level_display"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_screen_timeout" android:key="screen_timeout_layout" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/screen_timeout"
+    settings:hierarchicalParentFragment="com.android.settings.DisplaySettings"
+    settings:topLevelPreferenceKey="top_level_display">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_screen_timeout"
+        android:key="screen_timeout_layout" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/dark_mode_text_view_power_saving" android:key="power_saving_description" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="power_saving_description_inset" />
-    <SecSwitchPreferenceScreen android:title="@string/screen_timeout_docking" android:key="screen_timeout_docking_switch" android:fragment="com.samsung.android.settings.display.ScreenTimeoutDockingActivity" settings:controller="com.samsung.android.settings.display.controller.SecTimeoutDockingPreferenceController" />
-    <SecSwitchPreference android:title="@string/intelligent_sleep_title" android:key="smart_stay" android:summary="@string/smart_stay_summary" settings:controller="com.samsung.android.settings.display.controller.SecSmartStayPreferenceController" settings:keywords="@string/keywords_smart_stay_settings" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/dark_mode_text_view_power_saving"
+        android:key="power_saving_description" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="power_saving_description_inset" />
+
+    <SecSwitchPreferenceScreen
+        android:title="@string/screen_timeout_docking"
+        android:key="screen_timeout_docking_switch"
+        android:fragment="com.samsung.android.settings.display.ScreenTimeoutDockingActivity"
+        settings:controller="com.samsung.android.settings.display.controller.SecTimeoutDockingPreferenceController" />
+
+    <SecSwitchPreference
+        android:title="@string/intelligent_sleep_title"
+        android:key="smart_stay"
+        android:summary="@string/smart_stay_summary"
+        settings:controller="com.samsung.android.settings.display.controller.SecSmartStayPreferenceController"
+        settings:keywords="@string/keywords_smart_stay_settings" />
+
 </PreferenceScreen>

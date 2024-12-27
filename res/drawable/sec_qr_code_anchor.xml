@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item>
-        <shape android:shape="oval">
-            <stroke android:width="5.0dip" android:color="#ff505050" />
-            <size android:height="35.0dip" android:width="35.0dip" />
+
+        <shape
+            android:shape="oval">
+
+            <stroke
+                android:width="5.0dip"
+                android:color="#ff505050" />
+
+            <size
+                android:height="35.0dip"
+                android:width="35.0dip" />
+
         </shape>
+
     </item>
-    <item android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip">
-        <shape android:shape="oval">
-            <solid android:color="#ff505050" />
+
+    <item
+        android:left="10.0dip"
+        android:top="10.0dip"
+        android:right="10.0dip"
+        android:bottom="10.0dip">
+
+        <shape
+            android:shape="oval">
+
+            <solid
+                android:color="#ff505050" />
+
         </shape>
+
     </item>
+
 </layer-list>

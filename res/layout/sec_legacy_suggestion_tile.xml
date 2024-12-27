@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView android:id="@id/suggestion_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/sec_suggestion_card_background_color" app:cardCornerRadius="@dimen/sec_suggestion_card_rounded_corner_size" app:cardElevation="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/suggestion_conatiner" android:paddingTop="@dimen/sec_suggestion_card_margin_top" android:paddingBottom="@dimen/sec_suggestion_card_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sesl_list_item_padding_horizontal" android:paddingEnd="?android:listPreferredItemPaddingEnd">
-        <TextView android:textAppearance="@style/TextAppearance.SuggestionTitle" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/SuggestionCardText" />
-        <FrameLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_suggestion_card_close_button_margin_top" android:contentDescription="@string/dlg_close">
-            <TextView android:textAppearance="@style/TextAppearance.SuggestionCloseButton" android:layout_gravity="center" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_close" />
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/suggestion_card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/sec_suggestion_card_background_color"
+    app:cardCornerRadius="@dimen/sec_suggestion_card_rounded_corner_size"
+    app:cardElevation="0.0dip">
+
+    <LinearLayout
+        android:id="@id/suggestion_conatiner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/sec_suggestion_card_margin_top"
+        android:paddingBottom="@dimen/sec_suggestion_card_margin_bottom"
+        android:paddingStart="@dimen/sesl_list_item_padding_horizontal"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.SuggestionTitle"
+            android:fadingEdge="horizontal"
+            android:singleLine="false"
+            style="@style/SuggestionCardText" />
+
+        <FrameLayout
+            android:id="@id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/sec_suggestion_card_close_button_margin_top"
+            android:contentDescription="@string/dlg_close">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.SuggestionCloseButton"
+                android:layout_gravity="center"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:text="@string/dlg_close" />
+
         </FrameLayout>
+
     </LinearLayout>
+
 </com.google.android.material.card.MaterialCardView>

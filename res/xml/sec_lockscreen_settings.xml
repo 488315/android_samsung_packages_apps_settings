@@ -1,31 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:icon="@drawable/sec_ic_settings_lockscreen" android:key="lock_settings_screen" settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings" settings:keywords="@string/keywords_lockscreen_settings" settings:topLevelPreferenceKey="top_level_lockscreen"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecPreferenceScreen android:title="@string/sec_unlock_set_unlock_launch_picker_title" android:key="unlock_set_or_change" settings:controller="com.samsung.android.settings.lockscreen.controller.ScreenLockTypePreferenceController" settings:keywords="@string/keywords_lockscreen" />
-    <SecPreferenceScreen android:title="@string/unlock_set_unlock_launch_picker_title_ddado" android:key="unlock_set_or_change_ddado" settings:controller="com.samsung.android.settings.lockscreen.controller.DualDarDoScreenLockTypePreferenceController" />
-    <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/sec_extend_unlock_title" android:key="lockscreen_trust_agent" settings:controller="com.samsung.android.settings.lockscreen.controller.LockScreenTrustAgentPreferenceController" settings:keywords="@string/sec_extend_unlock_title" />
-    <SecPreferenceScreen android:title="@string/sec_secured_lock_settings_title" android:key="secured_lock_settings" settings:controller="com.samsung.android.settings.lockscreen.controller.SecureLockPreferenceController" />
-    <PreferenceCategory android:key="always_on_screen_category">
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreferenceScreen android:title="@string/always_on_display_title" android:key="always_on_screen" settings:controller="com.samsung.android.settings.lockscreen.controller.AODPreferenceController" settings:keywords="@string/keywords_always_on_display" settings:userRestriction="no_ambient_display" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/now_bar_card_title" android:key="nowbar_settings" settings:controller="com.samsung.android.settings.lockscreen.controller.NowBarPreferenceController">
-            <intent android:action="com.samsung.settings.FaceWidgetNowBarSettings">
-                <extra android:name="from_settings" android:value="true" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/sec_ic_settings_lockscreen"
+    android:key="lock_settings_screen"
+    settings:hierarchicalParentFragment="com.android.settings.homepage.TopLevelSettings"
+    settings:keywords="@string/keywords_lockscreen_settings"
+    settings:topLevelPreferenceKey="top_level_lockscreen">
+
+    <SecPreferenceScreen
+        android:title="@string/sec_unlock_set_unlock_launch_picker_title"
+        android:key="unlock_set_or_change"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.ScreenLockTypePreferenceController"
+        settings:keywords="@string/keywords_lockscreen" />
+
+    <SecPreferenceScreen
+        android:title="@string/unlock_set_unlock_launch_picker_title_ddado"
+        android:key="unlock_set_or_change_ddado"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.DualDarDoScreenLockTypePreferenceController" />
+
+    <com.samsung.android.settings.widget.SecRestrictedPreference
+        android:title="@string/sec_extend_unlock_title"
+        android:key="lockscreen_trust_agent"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.LockScreenTrustAgentPreferenceController"
+        settings:keywords="@string/sec_extend_unlock_title" />
+
+    <SecPreferenceScreen
+        android:title="@string/sec_secured_lock_settings_title"
+        android:key="secured_lock_settings"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.SecureLockPreferenceController" />
+
+    <PreferenceCategory
+        android:key="always_on_screen_category">
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreferenceScreen
+            android:title="@string/always_on_display_title"
+            android:key="always_on_screen"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.AODPreferenceController"
+            settings:keywords="@string/keywords_always_on_display"
+            settings:userRestriction="no_ambient_display" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/now_bar_card_title"
+            android:key="nowbar_settings"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.NowBarPreferenceController">
+
+            <intent
+                android:action="com.samsung.settings.FaceWidgetNowBarSettings">
+
+                <extra
+                    android:name="from_settings"
+                    android:value="true" />
+
             </intent>
+
         </com.samsung.android.settings.widget.SecRestrictedPreference>
+
     </PreferenceCategory>
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_aod_power_saving_preference" android:key="aod_power_saving_preference" settings:controller="com.samsung.android.settings.lockscreen.controller.AODPowerSavingPreferenceController" />
-    <PreferenceCategory android:key="lockscreen_editor_category">
-        <SecSwitchPreference android:title="@string/sec_lockscreen_touch_and_hold_to_edit_title" android:key="editor_touch_and_hold_to_edit" settings:controller="com.samsung.android.settings.lockscreen.controller.TouchAndHoldToEditPreferenceController" />
-        <SecSwitchPreference android:title="@string/sec_lockscreen_lunar_calendar_title" android:key="editor_lunar_calendar" settings:controller="com.samsung.android.settings.lockscreen.controller.LunarCalendarPreferenceController" />
-        <SecSwitchPreference android:title="@string/sec_lockscreen_hijri_calendar_title" android:key="editor_hijri_calendar" settings:controller="com.samsung.android.settings.lockscreen.controller.HijriCalendarPreferenceController" />
-        <com.samsung.android.settings.widget.SecRestrictedSwitchPreferenceScreen android:title="@string/roamingclock_settings_title" android:key="editor_lock_screen_dualclock" android:fragment="com.samsung.android.settings.lockscreen.DualClockSettings" settings:controller="com.samsung.android.settings.lockscreen.controller.RoamingClockPreferenceController" />
-        <com.samsung.android.settings.widget.SecRestrictedPreference android:title="@string/contact_info_settings_title" android:key="lock_screen_menu_owner_information" settings:controller="com.samsung.android.settings.lockscreen.controller.OwnerInfoPreferenceController" settings:keywords="@string/keywords_contact_information" />
-        <SecSwitchPreference android:title="@string/screen_transition_effect_title" android:key="screen_transition_effect" settings:controller="com.samsung.android.settings.lockscreen.controller.ScreenTransitionEffectPreferenceController" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_aod_power_saving_preference"
+        android:key="aod_power_saving_preference"
+        settings:controller="com.samsung.android.settings.lockscreen.controller.AODPowerSavingPreferenceController" />
+
+    <PreferenceCategory
+        android:key="lockscreen_editor_category">
+
+        <SecSwitchPreference
+            android:title="@string/sec_lockscreen_touch_and_hold_to_edit_title"
+            android:key="editor_touch_and_hold_to_edit"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.TouchAndHoldToEditPreferenceController" />
+
+        <SecSwitchPreference
+            android:title="@string/sec_lockscreen_lunar_calendar_title"
+            android:key="editor_lunar_calendar"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.LunarCalendarPreferenceController" />
+
+        <SecSwitchPreference
+            android:title="@string/sec_lockscreen_hijri_calendar_title"
+            android:key="editor_hijri_calendar"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.HijriCalendarPreferenceController" />
+
+        <com.samsung.android.settings.widget.SecRestrictedSwitchPreferenceScreen
+            android:title="@string/roamingclock_settings_title"
+            android:key="editor_lock_screen_dualclock"
+            android:fragment="com.samsung.android.settings.lockscreen.DualClockSettings"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.RoamingClockPreferenceController" />
+
+        <com.samsung.android.settings.widget.SecRestrictedPreference
+            android:title="@string/contact_info_settings_title"
+            android:key="lock_screen_menu_owner_information"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.OwnerInfoPreferenceController"
+            settings:keywords="@string/keywords_contact_information" />
+
+        <SecSwitchPreference
+            android:title="@string/screen_transition_effect_title"
+            android:key="screen_transition_effect"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.ScreenTransitionEffectPreferenceController" />
+
     </PreferenceCategory>
+
     <PreferenceCategory>
-        <SecPreferenceScreen android:title="@string/sec_about_lock_screen" android:key="about_lockscreen" settings:controller="com.samsung.android.settings.lockscreen.controller.AboutLockScreenPreferenceController">
-            <intent android:action="com.samsung.android.app.clockpack.intent.action.ABOUT_CLOCK_STYLE" />
+
+        <SecPreferenceScreen
+            android:title="@string/sec_about_lock_screen"
+            android:key="about_lockscreen"
+            settings:controller="com.samsung.android.settings.lockscreen.controller.AboutLockScreenPreferenceController">
+
+            <intent
+                android:action="com.samsung.android.app.clockpack.intent.action.ABOUT_CLOCK_STYLE" />
+
         </SecPreferenceScreen>
+
     </PreferenceCategory>
+
 </PreferenceScreen>

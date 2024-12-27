@@ -1,22 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/mobileap"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.wifi.mobileap.views.WifiApDescriptionPreference android:key="hotspot_help_description_preference" android:order="2" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable" android:selectable="false" android:key="hotspot_description_layout_preference" android:order="2" />
-    <com.samsung.android.settings.lockscreen.SecInsetCategory android:key="mobile_data_shared_preference_category" android:order="3">
-        <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_wifi_ap_settings_mobile_data_shared_preference_layout" android:key="mobile_data_shared_today_preference" android:order="1" settings:controller="com.samsung.android.settings.wifi.mobileap.clients.WifiApMobileDataSharedTodayPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/mobileap">
+
+    <com.samsung.android.settings.wifi.mobileap.views.WifiApDescriptionPreference
+        android:key="hotspot_help_description_preference"
+        android:order="2" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_wifi_ap_auto_hotspot_unclickable"
+        android:selectable="false"
+        android:key="hotspot_description_layout_preference"
+        android:order="2" />
+
+    <com.samsung.android.settings.lockscreen.SecInsetCategory
+        android:key="mobile_data_shared_preference_category"
+        android:order="3">
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:layout="@layout/sec_wifi_ap_settings_mobile_data_shared_preference_layout"
+            android:key="mobile_data_shared_today_preference"
+            android:order="1"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.clients.WifiApMobileDataSharedTodayPreferenceController" />
+
     </com.samsung.android.settings.lockscreen.SecInsetCategory>
-    <PreferenceCategory android:key="configure_detail_preference_category" android:order="4">
-        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:title="@string/wifi_ssid" android:key="ssid_preference" settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApDashboardNetworkNameController" />
-        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:title="@string/wifi_password" android:key="password_preference" settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApDashboardPasswordController" />
-        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference android:title="@string/wifi_ap_configure_broadcast_band" android:key="band_preference" settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApDashBoardBandController" />
+
+    <PreferenceCategory
+        android:key="configure_detail_preference_category"
+        android:order="4">
+
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference
+            android:title="@string/wifi_ssid"
+            android:key="ssid_preference"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApDashboardNetworkNameController" />
+
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference
+            android:title="@string/wifi_password"
+            android:key="password_preference"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApDashboardPasswordController" />
+
+        <com.samsung.android.settings.wifi.mobileap.views.WifiApPreference
+            android:title="@string/wifi_ap_configure_broadcast_band"
+            android:key="band_preference"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApDashBoardBandController" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:key="auto_hotspot_preference_category" android:order="5">
-        <SecSwitchPreferenceScreen android:key="auto_hotspot_switch_preference_screen" android:order="1" settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApAutoHotspotController" />
-        <SecPreferenceScreen android:key="family_sharing_preference_screen" android:order="1" settings:controller="com.samsung.android.settings.wifi.mobileap.autohotspot.lite.WifiApLiteFamilySharingPreferenceController" />
-        <SecSwitchPreferenceScreen android:title="@string/wifi_ap_one_time_password" android:key="guest_mode_switch_preference" android:order="2" settings:controller="com.samsung.android.settings.wifi.mobileap.otp.WifiApOtpSwitchController" />
-        <SecSwitchPreference android:title="@string/wifi_ap_smart_priority_title" android:key="smart_priority_switch_preference" android:summary="@string/wifi_ap_smart_priority_summary" android:order="3" settings:controller="com.samsung.android.settings.wifi.mobileap.smartpriority.WifiApSmartPrioritySwitchController" />
+
+    <PreferenceCategory
+        android:key="auto_hotspot_preference_category"
+        android:order="5">
+
+        <SecSwitchPreferenceScreen
+            android:key="auto_hotspot_switch_preference_screen"
+            android:order="1"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.WifiApAutoHotspotController" />
+
+        <SecPreferenceScreen
+            android:key="family_sharing_preference_screen"
+            android:order="1"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.autohotspot.lite.WifiApLiteFamilySharingPreferenceController" />
+
+        <SecSwitchPreferenceScreen
+            android:title="@string/wifi_ap_one_time_password"
+            android:key="guest_mode_switch_preference"
+            android:order="2"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.otp.WifiApOtpSwitchController" />
+
+        <SecSwitchPreference
+            android:title="@string/wifi_ap_smart_priority_title"
+            android:key="smart_priority_switch_preference"
+            android:summary="@string/wifi_ap_smart_priority_summary"
+            android:order="3"
+            settings:controller="com.samsung.android.settings.wifi.mobileap.smartpriority.WifiApSmartPrioritySwitchController" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/wifi_ap_connected_devices" android:key="connected_clients_preference_category" android:order="6" settings:isPreferenceVisible="false" />
-    <PreferenceCategory android:title=" " android:key="dummy_end_preference_category" android:order="7" settings:isPreferenceVisible="false" />
+
+    <PreferenceCategory
+        android:title="@string/wifi_ap_connected_devices"
+        android:key="connected_clients_preference_category"
+        android:order="6"
+        settings:isPreferenceVisible="false" />
+
+    <PreferenceCategory
+        android:title=" "
+        android:key="dummy_end_preference_category"
+        android:order="7"
+        settings:isPreferenceVisible="false" />
+
 </PreferenceScreen>

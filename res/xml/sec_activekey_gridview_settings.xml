@@ -1,20 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/active_key_title" settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.Usefulfeature" settings:topLevelPreferenceKey="top_level_advanced_features"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <SecSwitchPreferenceScreen android:title="@string/active_key_dedicated_app_title" android:key="xcover_key_dedicated_app" android:fragment="com.samsung.android.settings.activekey.DedicatedAppView">
-        <extra android:name="pressed_type" android:value="active" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/active_key_title"
+    settings:hierarchicalParentFragment="com.samsung.android.settings.usefulfeature.Usefulfeature"
+    settings:topLevelPreferenceKey="top_level_advanced_features">
+
+    <SecSwitchPreferenceScreen
+        android:title="@string/active_key_dedicated_app_title"
+        android:key="xcover_key_dedicated_app"
+        android:fragment="com.samsung.android.settings.activekey.DedicatedAppView">
+
+        <extra
+            android:name="pressed_type"
+            android:value="active" />
+
     </SecSwitchPreferenceScreen>
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="active_key_anyscreen_category" settings:roundStroke="bottom_left|bottom_right" />
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_active_key_anyscreen" android:selectable="false" android:key="active_key_anyscreen" />
-    <SecPreferenceCategory android:title="@string/category_customize" android:key="customize_category_key" settings:roundStroke="top_left|top_right">
-        <SecPreferenceScreen android:title="@string/active_key_short_press" android:key="short_press_key" android:fragment="com.samsung.android.settings.activekey.ActiveKeyAppGridView">
-            <extra android:name="pressed_type" android:value="short" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="active_key_anyscreen_category"
+        settings:roundStroke="bottom_left|bottom_right" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_active_key_anyscreen"
+        android:selectable="false"
+        android:key="active_key_anyscreen" />
+
+    <SecPreferenceCategory
+        android:title="@string/category_customize"
+        android:key="customize_category_key"
+        settings:roundStroke="top_left|top_right">
+
+        <SecPreferenceScreen
+            android:title="@string/active_key_short_press"
+            android:key="short_press_key"
+            android:fragment="com.samsung.android.settings.activekey.ActiveKeyAppGridView">
+
+            <extra
+                android:name="pressed_type"
+                android:value="short" />
+
         </SecPreferenceScreen>
-        <SecPreferenceScreen android:title="@string/active_key_long_press" android:key="long_press_key" android:fragment="com.samsung.android.settings.activekey.ActiveKeyAppGridView">
-            <extra android:name="pressed_type" android:value="long" />
+
+        <SecPreferenceScreen
+            android:title="@string/active_key_long_press"
+            android:key="long_press_key"
+            android:fragment="com.samsung.android.settings.activekey.ActiveKeyAppGridView">
+
+            <extra
+                android:name="pressed_type"
+                android:value="long" />
+
         </SecPreferenceScreen>
+
     </SecPreferenceCategory>
-    <PreferenceCategory android:title="@string/active_key_setting_category" android:key="active_key_setting_category_key">
-        <SwitchPreference android:title="@string/active_key_on_lockscreen" android:key="active_key_on_lockscreen_key" android:summary="@string/active_key_on_lockscreen_summary" settings:keywords="@string/keywords_xcover_key_lockscreen_settings" />
+
+    <PreferenceCategory
+        android:title="@string/active_key_setting_category"
+        android:key="active_key_setting_category_key">
+
+        <SwitchPreference
+            android:title="@string/active_key_on_lockscreen"
+            android:key="active_key_on_lockscreen_key"
+            android:summary="@string/active_key_on_lockscreen_summary"
+            settings:keywords="@string/keywords_xcover_key_lockscreen_settings" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

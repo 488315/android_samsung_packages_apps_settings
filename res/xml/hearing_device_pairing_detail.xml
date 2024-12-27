@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/bluetooth_pairing_pref_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@string/accessibility_found_hearing_devices" android:key="available_hearing_devices" />
-    <PreferenceCategory android:title="@string/accessibility_found_all_devices" android:key="device_control_category">
-        <com.android.settingslib.RestrictedPreference android:title="@string/accessibility_list_all_devices_title" android:key="list_bt_devices" settings:controller="com.android.settings.accessibility.ViewAllBluetoothDevicesPreferenceController" settings:useAdminDisabledSummary="true" settings:userRestriction="no_config_bluetooth" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/bluetooth_pairing_pref_title">
+
+    <com.android.settings.bluetooth.BluetoothProgressCategory
+        android:title="@string/accessibility_found_hearing_devices"
+        android:key="available_hearing_devices" />
+
+    <PreferenceCategory
+        android:title="@string/accessibility_found_all_devices"
+        android:key="device_control_category">
+
+        <com.android.settingslib.RestrictedPreference
+            android:title="@string/accessibility_list_all_devices_title"
+            android:key="list_bt_devices"
+            settings:controller="com.android.settings.accessibility.ViewAllBluetoothDevicesPreferenceController"
+            settings:useAdminDisabledSummary="true"
+            settings:userRestriction="no_config_bluetooth" />
+
     </PreferenceCategory>
+
 </PreferenceScreen>

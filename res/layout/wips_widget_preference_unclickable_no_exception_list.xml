@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:enabled="false" android:gravity="center_vertical" android:orientation="vertical" android:background="@color/sec_widget_round_and_bgcolor" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="start|center|top" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_mobile_wips_exception_summary" android:maxLines="10" android:layout_weight="0.0" android:textAlignment="viewStart" style="@style/description_text" />
-    <TextView android:textSize="@dimen/sec_motions_description_card_summary_text_size" android:gravity="center" android:layout_gravity="center" android:background="@color/sec_widget_round_and_bgcolor" android:paddingTop="@dimen/sec_list_item_top_padding" android:paddingBottom="@dimen/sec_list_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/wifi_smart_network_switch_excluded_noitem" android:layout_weight="1.0" android:paddingStart="@dimen/sec_list_item_start_padding" android:paddingEnd="@dimen/sec_list_item_end_padding" style="@style/no_item_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:enabled="false"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/sec_widget_round_and_bgcolor"
+    android:clickable="false"
+    android:divider="@null"
+    android:paddingStart="?android:listPreferredItemPaddingStart"
+    android:paddingEnd="?android:listPreferredItemPaddingEnd">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center|top"
+        android:text="@string/wifi_mobile_wips_exception_summary"
+        android:maxLines="10"
+        android:layout_weight="0.0"
+        android:textAlignment="viewStart"
+        style="@style/description_text" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:textSize="@dimen/sec_motions_description_card_summary_text_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/sec_widget_round_and_bgcolor"
+        android:paddingTop="@dimen/sec_list_item_top_padding"
+        android:paddingBottom="@dimen/sec_list_item_bottom_padding"
+        android:text="@string/wifi_smart_network_switch_excluded_noitem"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/sec_list_item_start_padding"
+        android:paddingEnd="@dimen/sec_list_item_end_padding"
+        style="@style/no_item_text_style" />
+
 </LinearLayout>

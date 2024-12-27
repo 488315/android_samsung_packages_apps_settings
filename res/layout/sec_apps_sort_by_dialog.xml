@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <RadioGroup android:id="@id/group_order" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <include android:id="@id/order_name" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_order_dialog_radiobutton" />
-            <include android:id="@id/order_size" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_order_dialog_radiobutton" />
-            <include android:id="@id/order_last_used" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_order_dialog_radiobutton" />
-            <include android:id="@id/order_last_updated" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sec_order_dialog_radiobutton" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@id/group_order"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@id/order_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/sec_order_dialog_radiobutton" />
+
+            <include
+                android:id="@id/order_size"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/sec_order_dialog_radiobutton" />
+
+            <include
+                android:id="@id/order_last_used"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/sec_order_dialog_radiobutton" />
+
+            <include
+                android:id="@id/order_last_updated"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/sec_order_dialog_radiobutton" />
+
         </RadioGroup>
+
     </LinearLayout>
+
 </ScrollView>

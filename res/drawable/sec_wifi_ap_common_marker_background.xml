@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/wifi_ap_marker_background_color" />
-    <corners android:radius="@dimen/app_detail_chart_marker_layout_radius" />
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/wifi_ap_marker_background_color" />
+
+    <corners
+        android:radius="@dimen/app_detail_chart_marker_layout_radius" />
+
 </shape>

@@ -1,83 +1,331 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="actionbar_contentInsetStart">24.0dip</dimen>
-    <dimen name="actionbar_subsettings_contentInsetStart">80.0dip</dimen>
-    <dimen name="app_icon_size">72.0dip</dimen>
-    <dimen name="biometric_auth_pattern_view_size">348.0dip</dimen>
-    <item type="dimen" name="body_contained_button_max_ratio">0.6</item>
-    <dimen name="body_contained_button_min_width">260.0dip</dimen>
-    <dimen name="description_help_image_max_width">384.0dip</dimen>
-    <dimen name="design_navigation_max_width">320.0dip</dimen>
-    <dimen name="design_snackbar_action_inline_max_width">0.0dip</dimen>
-    <dimen name="design_snackbar_background_corner_radius">2.0dip</dimen>
-    <dimen name="design_snackbar_extra_spacing_horizontal">24.0dip</dimen>
-    <dimen name="design_snackbar_max_width">576.0dip</dimen>
-    <dimen name="design_snackbar_min_width">320.0dip</dimen>
-    <item type="dimen" name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</item>
-    <dimen name="design_tab_scrollable_min_width">160.0dip</dimen>
-    <item type="dimen" name="mr_dialog_fixed_width_major">60.000004%</item>
-    <item type="dimen" name="mr_dialog_fixed_width_minor">90.0%</item>
-    <dimen name="mtrl_bottomappbar_height">64.0dip</dimen>
-    <dimen name="screen_margin_sides">40.0dip</dimen>
-    <dimen name="sec_biometrics_disclaimer_knox_icon_margin_bottom_suw">48.0dip</dimen>
-    <dimen name="sec_biometrics_disclaimer_lock_image_height">188.0dip</dimen>
-    <dimen name="sec_biometrics_disclaimer_lock_image_width">300.0dip</dimen>
-    <dimen name="sec_lock_pattern_view_size_multiwindow">276.0dip</dimen>
-    <dimen name="sec_suw_margin_end">142.0dip</dimen>
-    <dimen name="sec_suw_margin_start">142.0dip</dimen>
-    <dimen name="sesl_spinning_date_picker_margin_top">30.0dip</dimen>
-    <dimen name="settings_panel_width">560.0dip</dimen>
-    <dimen name="sud_decor_padding_top">256.0dip</dimen>
-    <dimen name="sud_glif_button_margin_end">92.0dip</dimen>
-    <dimen name="sud_glif_button_margin_start">80.0dip</dimen>
-    <dimen name="sud_glif_content_padding_top">0.0dip</dimen>
-    <dimen name="sud_glif_content_padding_top_material_you">0.0dip</dimen>
-    <dimen name="sud_glif_footer_bar_min_height">72.0dip</dimen>
-    <dimen name="sud_glif_footer_bar_padding_end_material_you">116.0dip</dimen>
-    <dimen name="sud_glif_footer_bar_padding_start_material_you">104.0dip</dimen>
-    <dimen name="sud_glif_footer_padding_end">92.0dip</dimen>
-    <dimen name="sud_glif_footer_padding_start">80.0dip</dimen>
-    <dimen name="sud_glif_header_title_size_material_you">44.0sp</dimen>
-    <dimen name="sud_glif_icon_margin_top_material_you">24.0dip</dimen>
-    <dimen name="sud_glif_margin_end">96.0dip</dimen>
-    <dimen name="sud_glif_margin_end_material_you">120.0dip</dimen>
-    <dimen name="sud_glif_margin_start">96.0dip</dimen>
-    <dimen name="sud_glif_margin_start_material_you">120.0dip</dimen>
-    <dimen name="sud_glif_primary_button_button_margin_start_material_you">24.0dip</dimen>
-    <item type="dimen" name="sud_illustration_aspect_ratio">0.0</item>
-    <dimen name="sud_items_glif_icon_divider_inset">144.0dip</dimen>
-    <dimen name="sud_items_glif_text_divider_inset">96.0dip</dimen>
-    <dimen name="sud_items_summary_text_size_material_you">16.0sp</dimen>
-    <dimen name="task_bar_help_vi_height">220.0dip</dimen>
-    <dimen name="task_bar_help_vi_top_margin">27.0dip</dimen>
-    <dimen name="task_bar_help_vi_width">138.0dip</dimen>
-    <dimen name="vswl_bottom_bar_margin_top">16.0dip</dimen>
-    <dimen name="vswl_corner_radius">26.0dip</dimen>
-    <dimen name="vswl_title_text_size">40.0dip</dimen>
-    <dimen name="vswl_bottom_bar_height">62.0dip</dimen>
-    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
-    <dimen name="confirm_credentials_layout_width">328.0dip</dimen>
-    <dimen name="confirm_credentials_security_method_margin">72.0dip</dimen>
-    <dimen name="confirm_credentials_side_margin">0.0dip</dimen>
-    <dimen name="confirm_credentials_top_margin">64.0dip</dimen>
-    <dimen name="confirm_credentials_top_padding">48.0dip</dimen>
-    <dimen name="datetime_margin_bottom">40.0dip</dimen>
-    <dimen name="datetime_margin_top">40.0dip</dimen>
-    <dimen name="font_size_preview_padding_start">32.0dip</dimen>
-    <dimen name="screen_margin_bottom">48.0dip</dimen>
-    <dimen name="screen_margin_top">48.0dip</dimen>
-    <dimen name="screen_pinning_padding_end">40.0dip</dimen>
-    <dimen name="screen_pinning_padding_start">40.0dip</dimen>
-    <dimen name="sec_biometrics_disclaimer_lock_button_margin_vertical">24.0dip</dimen>
-    <dimen name="sec_biometrics_disclaimer_lock_button_width">196.0dip</dimen>
-    <dimen name="sec_biometrics_disclaimer_lock_image_margin_top">128.0dip</dimen>
-    <item type="dimen" name="sec_biometrics_disclaimer_lock_title_bottom_ratio">0.12</item>
-    <item type="dimen" name="sec_biometrics_disclaimer_lock_title_top_ratio">0.232</item>
-    <dimen name="switchbar_margin_end">24.0dip</dimen>
-    <dimen name="switchbar_margin_start">24.0dip</dimen>
-    <dimen name="switchbar_subsettings_margin_start">80.0dip</dimen>
-    <dimen name="wifi_assistant_padding">25.0dip</dimen>
-    <dimen name="wifi_assistant_padding_start_end">24.0dip</dimen>
-    <dimen name="wifi_assistant_padding_top_bottom">24.0dip</dimen>
-    <dimen name="wifi_assistant_text_padding">24.0dip</dimen>
+
+    <dimen
+        name="actionbar_contentInsetStart">
+24.0dip</dimen>
+
+    <dimen
+        name="actionbar_subsettings_contentInsetStart">
+80.0dip</dimen>
+
+    <dimen
+        name="app_icon_size">
+72.0dip</dimen>
+
+    <dimen
+        name="biometric_auth_pattern_view_size">
+348.0dip</dimen>
+
+    <item
+        type="dimen"
+        name="body_contained_button_max_ratio">
+0.6</item>
+
+    <dimen
+        name="body_contained_button_min_width">
+260.0dip</dimen>
+
+    <dimen
+        name="description_help_image_max_width">
+384.0dip</dimen>
+
+    <dimen
+        name="design_navigation_max_width">
+320.0dip</dimen>
+
+    <dimen
+        name="design_snackbar_action_inline_max_width">
+0.0dip</dimen>
+
+    <dimen
+        name="design_snackbar_background_corner_radius">
+2.0dip</dimen>
+
+    <dimen
+        name="design_snackbar_extra_spacing_horizontal">
+24.0dip</dimen>
+
+    <dimen
+        name="design_snackbar_max_width">
+576.0dip</dimen>
+
+    <dimen
+        name="design_snackbar_min_width">
+320.0dip</dimen>
+
+    <item
+        type="dimen"
+        name="design_snackbar_padding_vertical_2lines">
+@dimen/design_snackbar_padding_vertical</item>
+
+    <dimen
+        name="design_tab_scrollable_min_width">
+160.0dip</dimen>
+
+    <item
+        type="dimen"
+        name="mr_dialog_fixed_width_major">
+60.000004%</item>
+
+    <item
+        type="dimen"
+        name="mr_dialog_fixed_width_minor">
+90.0%</item>
+
+    <dimen
+        name="mtrl_bottomappbar_height">
+64.0dip</dimen>
+
+    <dimen
+        name="screen_margin_sides">
+40.0dip</dimen>
+
+    <dimen
+        name="sec_biometrics_disclaimer_knox_icon_margin_bottom_suw">
+48.0dip</dimen>
+
+    <dimen
+        name="sec_biometrics_disclaimer_lock_image_height">
+188.0dip</dimen>
+
+    <dimen
+        name="sec_biometrics_disclaimer_lock_image_width">
+300.0dip</dimen>
+
+    <dimen
+        name="sec_lock_pattern_view_size_multiwindow">
+276.0dip</dimen>
+
+    <dimen
+        name="sec_suw_margin_end">
+142.0dip</dimen>
+
+    <dimen
+        name="sec_suw_margin_start">
+142.0dip</dimen>
+
+    <dimen
+        name="sesl_spinning_date_picker_margin_top">
+30.0dip</dimen>
+
+    <dimen
+        name="settings_panel_width">
+560.0dip</dimen>
+
+    <dimen
+        name="sud_decor_padding_top">
+256.0dip</dimen>
+
+    <dimen
+        name="sud_glif_button_margin_end">
+92.0dip</dimen>
+
+    <dimen
+        name="sud_glif_button_margin_start">
+80.0dip</dimen>
+
+    <dimen
+        name="sud_glif_content_padding_top">
+0.0dip</dimen>
+
+    <dimen
+        name="sud_glif_content_padding_top_material_you">
+0.0dip</dimen>
+
+    <dimen
+        name="sud_glif_footer_bar_min_height">
+72.0dip</dimen>
+
+    <dimen
+        name="sud_glif_footer_bar_padding_end_material_you">
+116.0dip</dimen>
+
+    <dimen
+        name="sud_glif_footer_bar_padding_start_material_you">
+104.0dip</dimen>
+
+    <dimen
+        name="sud_glif_footer_padding_end">
+92.0dip</dimen>
+
+    <dimen
+        name="sud_glif_footer_padding_start">
+80.0dip</dimen>
+
+    <dimen
+        name="sud_glif_header_title_size_material_you">
+44.0sp</dimen>
+
+    <dimen
+        name="sud_glif_icon_margin_top_material_you">
+24.0dip</dimen>
+
+    <dimen
+        name="sud_glif_margin_end">
+96.0dip</dimen>
+
+    <dimen
+        name="sud_glif_margin_end_material_you">
+120.0dip</dimen>
+
+    <dimen
+        name="sud_glif_margin_start">
+96.0dip</dimen>
+
+    <dimen
+        name="sud_glif_margin_start_material_you">
+120.0dip</dimen>
+
+    <dimen
+        name="sud_glif_primary_button_button_margin_start_material_you">
+24.0dip</dimen>
+
+    <item
+        type="dimen"
+        name="sud_illustration_aspect_ratio">
+0.0</item>
+
+    <dimen
+        name="sud_items_glif_icon_divider_inset">
+144.0dip</dimen>
+
+    <dimen
+        name="sud_items_glif_text_divider_inset">
+96.0dip</dimen>
+
+    <dimen
+        name="sud_items_summary_text_size_material_you">
+16.0sp</dimen>
+
+    <dimen
+        name="task_bar_help_vi_height">
+220.0dip</dimen>
+
+    <dimen
+        name="task_bar_help_vi_top_margin">
+27.0dip</dimen>
+
+    <dimen
+        name="task_bar_help_vi_width">
+138.0dip</dimen>
+
+    <dimen
+        name="vswl_bottom_bar_margin_top">
+16.0dip</dimen>
+
+    <dimen
+        name="vswl_corner_radius">
+26.0dip</dimen>
+
+    <dimen
+        name="vswl_title_text_size">
+40.0dip</dimen>
+
+    <dimen
+        name="vswl_bottom_bar_height">
+62.0dip</dimen>
+
+    <dimen
+        name="abc_config_prefDialogWidth">
+580.0dip</dimen>
+
+    <dimen
+        name="confirm_credentials_layout_width">
+328.0dip</dimen>
+
+    <dimen
+        name="confirm_credentials_security_method_margin">
+72.0dip</dimen>
+
+    <dimen
+        name="confirm_credentials_side_margin">
+0.0dip</dimen>
+
+    <dimen
+        name="confirm_credentials_top_margin">
+64.0dip</dimen>
+
+    <dimen
+        name="confirm_credentials_top_padding">
+48.0dip</dimen>
+
+    <dimen
+        name="datetime_margin_bottom">
+40.0dip</dimen>
+
+    <dimen
+        name="datetime_margin_top">
+40.0dip</dimen>
+
+    <dimen
+        name="font_size_preview_padding_start">
+32.0dip</dimen>
+
+    <dimen
+        name="screen_margin_bottom">
+48.0dip</dimen>
+
+    <dimen
+        name="screen_margin_top">
+48.0dip</dimen>
+
+    <dimen
+        name="screen_pinning_padding_end">
+40.0dip</dimen>
+
+    <dimen
+        name="screen_pinning_padding_start">
+40.0dip</dimen>
+
+    <dimen
+        name="sec_biometrics_disclaimer_lock_button_margin_vertical">
+24.0dip</dimen>
+
+    <dimen
+        name="sec_biometrics_disclaimer_lock_button_width">
+196.0dip</dimen>
+
+    <dimen
+        name="sec_biometrics_disclaimer_lock_image_margin_top">
+128.0dip</dimen>
+
+    <item
+        type="dimen"
+        name="sec_biometrics_disclaimer_lock_title_bottom_ratio">
+0.12</item>
+
+    <item
+        type="dimen"
+        name="sec_biometrics_disclaimer_lock_title_top_ratio">
+0.232</item>
+
+    <dimen
+        name="switchbar_margin_end">
+24.0dip</dimen>
+
+    <dimen
+        name="switchbar_margin_start">
+24.0dip</dimen>
+
+    <dimen
+        name="switchbar_subsettings_margin_start">
+80.0dip</dimen>
+
+    <dimen
+        name="wifi_assistant_padding">
+25.0dip</dimen>
+
+    <dimen
+        name="wifi_assistant_padding_start_end">
+24.0dip</dimen>
+
+    <dimen
+        name="wifi_assistant_padding_top_bottom">
+24.0dip</dimen>
+
+    <dimen
+        name="wifi_assistant_text_padding">
+24.0dip</dimen>
+
 </resources>

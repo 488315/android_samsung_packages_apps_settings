@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_account_management" android:key="user_and_account_settings_screen" settings:keywords="@string/keywords_accounts"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="dashboard_tile_placeholder" android:order="130" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="200" />
-    <SecSwitchPreference android:title="@string/auto_sync_account_title" android:key="auto_sync_account_data" android:order="202" settings:allowDividerAbove="true" />
-    <SecSwitchPreference android:title="@string/account_settings_menu_auto_sync_work" android:key="auto_sync_work_account_data" android:order="203" settings:forWork="true" />
-    <SecSwitchPreference android:title="@string/account_settings_menu_auto_sync_personal" android:key="auto_sync_personal_account_data" android:order="204" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:order="205" />
-    <SecSwitchPreference android:title="@string/google_core_control_title" android:key="google_core_control" android:summary="@string/google_core_control_summary" android:order="206" settings:controller="com.samsung.android.settings.account.controller.GmsControlPreferenceController" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_account_management"
+    android:key="user_and_account_settings_screen"
+    settings:keywords="@string/keywords_accounts">
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="dashboard_tile_placeholder"
+        android:order="130" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="200" />
+
+    <SecSwitchPreference
+        android:title="@string/auto_sync_account_title"
+        android:key="auto_sync_account_data"
+        android:order="202"
+        settings:allowDividerAbove="true" />
+
+    <SecSwitchPreference
+        android:title="@string/account_settings_menu_auto_sync_work"
+        android:key="auto_sync_work_account_data"
+        android:order="203"
+        settings:forWork="true" />
+
+    <SecSwitchPreference
+        android:title="@string/account_settings_menu_auto_sync_personal"
+        android:key="auto_sync_personal_account_data"
+        android:order="204" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:order="205" />
+
+    <SecSwitchPreference
+        android:title="@string/google_core_control_title"
+        android:key="google_core_control"
+        android:summary="@string/google_core_control_summary"
+        android:order="206"
+        settings:controller="com.samsung.android.settings.account.controller.GmsControlPreferenceController" />
+
 </PreferenceScreen>

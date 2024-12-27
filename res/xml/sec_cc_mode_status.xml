@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="CC mode status"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="Device minimum password quality" android:key="password_quality" />
-    <Preference android:title="Device trust agents" android:key="smart_lock" />
-    <Preference android:title="Device face recognition" android:key="face_recognition" />
-    <Preference android:title="Maximum device password failures for wipe" android:key="maximum_failed_password_for_wipe" />
-    <Preference android:title="SD card" android:key="sd_card_status" />
-    <Preference android:title="Work environment certificate revocation" android:key="revocation" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="CC mode status">
+
+    <Preference
+        android:title="Device minimum password quality"
+        android:key="password_quality" />
+
+    <Preference
+        android:title="Device trust agents"
+        android:key="smart_lock" />
+
+    <Preference
+        android:title="Device face recognition"
+        android:key="face_recognition" />
+
+    <Preference
+        android:title="Maximum device password failures for wipe"
+        android:key="maximum_failed_password_for_wipe" />
+
+    <Preference
+        android:title="SD card"
+        android:key="sd_card_status" />
+
+    <Preference
+        android:title="Work environment certificate revocation"
+        android:key="revocation" />
+
 </PreferenceScreen>

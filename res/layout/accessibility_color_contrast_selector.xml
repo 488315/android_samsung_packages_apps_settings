@@ -1,32 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/color_contrast_preview" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" android:paddingVertical="@dimen/settingslib_illustration_padding">
-        <include layout="@layout/accessibility_color_contrast_preview" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/color_contrast_preview"
+        android:paddingStart="?android:listPreferredItemPaddingStart"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd"
+        android:paddingVertical="@dimen/settingslib_illustration_padding">
+
+        <include
+            layout="@layout/accessibility_color_contrast_preview" />
+
     </FrameLayout>
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
-        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-        <LinearLayout android:orientation="vertical" android:id="@id/contrast_button_default" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <FrameLayout android:background="@drawable/accessibility_contrast_button_background" android:layout_width="@dimen/contrast_button_total_size" android:layout_height="@dimen/contrast_button_total_size">
-                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contrast_standard" android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16.0dip">
+
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+
+        <LinearLayout
+            android:id="@id/contrast_button_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="@dimen/contrast_button_total_size"
+                android:layout_height="@dimen/contrast_button_total_size"
+                android:background="@drawable/accessibility_contrast_button_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_contrast_standard"
+                    android:contentDescription="@null" />
+
             </FrameLayout>
-            <TextView android:textSize="@dimen/contrast_button_text_size" android:textColor="?android:^attr-private/materialColorOnTertiary" android:ellipsize="end" android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contrast_button_text_spacing" android:text="@string/contrast_default" android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/contrast_button_text_size"
+                android:textColor="?android:^attr-private/materialColorOnTertiary"
+                android:ellipsize="end"
+                android:gravity="center|top"
+                android:layout_marginTop="@dimen/contrast_button_text_spacing"
+                android:text="@string/contrast_default"
+                android:singleLine="true" />
+
         </LinearLayout>
-        <Space android:layout_width="@dimen/contrast_button_horizontal_spacing" android:layout_height="fill_parent" />
-        <LinearLayout android:orientation="vertical" android:id="@id/contrast_button_medium" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <FrameLayout android:background="@drawable/accessibility_contrast_button_background" android:layout_width="@dimen/contrast_button_total_size" android:layout_height="@dimen/contrast_button_total_size">
-                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contrast_medium" android:contentDescription="@null" />
+
+        <Space
+            android:layout_width="@dimen/contrast_button_horizontal_spacing"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@id/contrast_button_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="@dimen/contrast_button_total_size"
+                android:layout_height="@dimen/contrast_button_total_size"
+                android:background="@drawable/accessibility_contrast_button_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_contrast_medium"
+                    android:contentDescription="@null" />
+
             </FrameLayout>
-            <TextView android:textSize="@dimen/contrast_button_text_size" android:textColor="?android:^attr-private/materialColorOnTertiary" android:ellipsize="end" android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contrast_button_text_spacing" android:text="@string/contrast_medium" android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/contrast_button_text_size"
+                android:textColor="?android:^attr-private/materialColorOnTertiary"
+                android:ellipsize="end"
+                android:gravity="center|top"
+                android:layout_marginTop="@dimen/contrast_button_text_spacing"
+                android:text="@string/contrast_medium"
+                android:singleLine="true" />
+
         </LinearLayout>
-        <Space android:layout_width="@dimen/contrast_button_horizontal_spacing" android:layout_height="fill_parent" />
-        <LinearLayout android:orientation="vertical" android:id="@id/contrast_button_high" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <FrameLayout android:background="@drawable/accessibility_contrast_button_background" android:layout_width="@dimen/contrast_button_total_size" android:layout_height="@dimen/contrast_button_total_size">
-                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contrast_high" android:contentDescription="@null" />
+
+        <Space
+            android:layout_width="@dimen/contrast_button_horizontal_spacing"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@id/contrast_button_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="@dimen/contrast_button_total_size"
+                android:layout_height="@dimen/contrast_button_total_size"
+                android:background="@drawable/accessibility_contrast_button_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_contrast_high"
+                    android:contentDescription="@null" />
+
             </FrameLayout>
-            <TextView android:textSize="@dimen/contrast_button_text_size" android:textColor="?android:^attr-private/materialColorOnTertiary" android:ellipsize="end" android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contrast_button_text_spacing" android:text="@string/contrast_high" android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/contrast_button_text_size"
+                android:textColor="?android:^attr-private/materialColorOnTertiary"
+                android:ellipsize="end"
+                android:gravity="center|top"
+                android:layout_marginTop="@dimen/contrast_button_text_spacing"
+                android:text="@string/contrast_high"
+                android:singleLine="true" />
+
         </LinearLayout>
-        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+
     </LinearLayout>
+
 </LinearLayout>

@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_default_app_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_domain_urls_description" android:key="open_by_default_top_intro" style="@style/description_text" />
-    <SecPreferenceCategory android:key="app_launch_domain_links">
-        <SecSwitchPreference android:title="@string/app_launch_open_domain_urls_title" android:key="open_by_default_supported_links" />
-        <Preference android:title="@string/app_launch_supported_domain_urls_title" android:key="open_by_default_supported_links_setting" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_default_app_title">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_domain_urls_description"
+        android:key="open_by_default_top_intro"
+        style="@style/description_text" />
+
+    <SecPreferenceCategory
+        android:key="app_launch_domain_links">
+
+        <SecSwitchPreference
+            android:title="@string/app_launch_open_domain_urls_title"
+            android:key="open_by_default_supported_links" />
+
+        <Preference
+            android:title="@string/app_launch_supported_domain_urls_title"
+            android:key="open_by_default_supported_links_setting" />
+
     </SecPreferenceCategory>
-    <SecPreferenceCategory android:title="@string/sec_app_default_app_subheader_text" android:key="app_launch_other_defaults">
-        <com.android.settings.applications.ClearDefaultsPreference android:selectable="false" android:key="app_launch_clear_defaults" />
+
+    <SecPreferenceCategory
+        android:title="@string/sec_app_default_app_subheader_text"
+        android:key="app_launch_other_defaults">
+
+        <com.android.settings.applications.ClearDefaultsPreference
+            android:selectable="false"
+            android:key="app_launch_clear_defaults" />
+
     </SecPreferenceCategory>
+
 </PreferenceScreen>

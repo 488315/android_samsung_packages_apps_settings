@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:orientation="vertical" android:id="@id/container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
-        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
-            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/text_no_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/data_usage_empty_item_height" android:text="@string/no_items" />
-            <androidx.recyclerview.widget.RecyclerView android:id="@id/galaxy_system_package_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_weight="1.0"
+        app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@id/text_no_item"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/data_usage_empty_item_height"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/no_items" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/galaxy_system_package_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
-    <include layout="@layout/sec_galaxy_system_apps_package_footer" />
+
+    <include
+        layout="@layout/sec_galaxy_system_apps_package_footer" />
+
 </LinearLayout>

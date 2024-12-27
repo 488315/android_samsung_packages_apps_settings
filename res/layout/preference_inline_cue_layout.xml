@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/inline_cue_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/inline_cue_margin_top" android:layout_marginBottom="@dimen/inline_cue_btn_layout_margin_top" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" settings:layout_constraintBottom_toTopOf="@id/inline_cue_button_layout" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toTopOf="parent" settings:layout_constraintVertical_chainStyle="packed" settings:layout_goneMarginBottom="0.0dip" style="@style/Accessibility.Widget.InlineCue.Body" />
-    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/inline_cue_button_layout" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/inline_cue_flat_btn_layout_margin_bottom" android:importantForAccessibility="no" android:layout_marginStart="@dimen/inline_cue_flat_btn_layout_margin_start_end" android:layout_marginEnd="@dimen/inline_cue_flat_btn_layout_margin_start_end" settings:layout_constraintBottom_toBottomOf="parent" settings:layout_constraintEnd_toEndOf="parent" settings:layout_constraintStart_toStartOf="parent" settings:layout_constraintTop_toBottomOf="@id/inline_cue_content">
-        <com.samsung.android.settings.accessibility.base.widget.FlatButton android:textAppearance="@style/Accessibility.TextAppearance.InlineCue.Button" android:id="@id/action_button_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/inline_cue_flat_btn_margin_start_end" android:layout_marginEnd="@dimen/inline_cue_flat_btn_margin_start_end" />
-        <com.samsung.android.settings.accessibility.base.widget.FlatButton android:textAppearance="@style/Accessibility.TextAppearance.InlineCue.Button" android:id="@id/action_button_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/inline_cue_flat_btn_margin_start_end" android:layout_marginEnd="@dimen/inline_cue_flat_btn_margin_start_end" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/inline_cue_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inline_cue_margin_top"
+        android:layout_marginBottom="@dimen/inline_cue_btn_layout_margin_top"
+        android:paddingStart="?android:listPreferredItemPaddingStart"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd"
+        settings:layout_constraintBottom_toTopOf="@id/inline_cue_button_layout"
+        settings:layout_constraintEnd_toEndOf="parent"
+        settings:layout_constraintStart_toStartOf="parent"
+        settings:layout_constraintTop_toTopOf="parent"
+        settings:layout_constraintVertical_chainStyle="packed"
+        settings:layout_goneMarginBottom="0.0dip"
+        style="@style/Accessibility.Widget.InlineCue.Body" />
+
+    <LinearLayout
+        android:id="@id/inline_cue_button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:focusable="false"
+        android:layout_marginBottom="@dimen/inline_cue_flat_btn_layout_margin_bottom"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/inline_cue_flat_btn_layout_margin_start_end"
+        android:layout_marginEnd="@dimen/inline_cue_flat_btn_layout_margin_start_end"
+        settings:layout_constraintBottom_toBottomOf="parent"
+        settings:layout_constraintEnd_toEndOf="parent"
+        settings:layout_constraintStart_toStartOf="parent"
+        settings:layout_constraintTop_toBottomOf="@id/inline_cue_content">
+
+        <com.samsung.android.settings.accessibility.base.widget.FlatButton
+            android:id="@id/action_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Accessibility.TextAppearance.InlineCue.Button"
+            android:layout_marginStart="@dimen/inline_cue_flat_btn_margin_start_end"
+            android:layout_marginEnd="@dimen/inline_cue_flat_btn_margin_start_end" />
+
+        <com.samsung.android.settings.accessibility.base.widget.FlatButton
+            android:id="@id/action_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Accessibility.TextAppearance.InlineCue.Button"
+            android:layout_marginStart="@dimen/inline_cue_flat_btn_margin_start_end"
+            android:layout_marginEnd="@dimen/inline_cue_flat_btn_margin_start_end" />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

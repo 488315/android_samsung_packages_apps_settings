@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="?android:listPreferredItemHeight" android:paddingEnd="?android:scrollbarSize"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <ImageView android:ellipsize="marquee" android:id="@id/modifier_key_check_icon" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_24dp" android:tint="?android:^attr-private/materialColorPrimaryFixedDim" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/modifier_key_text" android:padding="16.0dip" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="locale" android:layout_toEndOf="@id/modifier_key_check_icon" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/modifier_key_left_bracket" android:padding="1.0dip" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="locale" android:layout_toEndOf="@id/modifier_key_text" />
-    <ImageView android:id="@id/modifier_key_action_key_icon" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?android:textColorPrimary" android:layout_centerVertical="true" android:layout_toEndOf="@id/modifier_key_left_bracket" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/modifier_key_right_bracket" android:padding="1.0dip" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="locale" android:layout_toEndOf="@id/modifier_key_action_key_icon" />
-    <View android:layout_width="wrap_content" android:layout_height="fill_parent" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip"
+    android:layout_marginBottom="8.0dip"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:paddingEnd="?android:scrollbarSize">
+
+    <ImageView
+        android:id="@id/modifier_key_check_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:src="@drawable/ic_check_24dp"
+        android:tint="?android:^attr-private/materialColorPrimaryFixedDim"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24.0dip"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@id/modifier_key_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:ellipsize="marquee"
+        android:padding="16.0dip"
+        android:fadingEdge="horizontal"
+        android:layout_centerVertical="true"
+        android:textDirection="locale"
+        android:layout_toEndOf="@id/modifier_key_check_icon" />
+
+    <TextView
+        android:id="@id/modifier_key_left_bracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="1.0dip"
+        android:fadingEdge="horizontal"
+        android:layout_centerVertical="true"
+        android:textDirection="locale"
+        android:layout_toEndOf="@id/modifier_key_text" />
+
+    <ImageView
+        android:id="@id/modifier_key_action_key_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadingEdge="horizontal"
+        android:tint="?android:textColorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/modifier_key_left_bracket" />
+
+    <TextView
+        android:id="@id/modifier_key_right_bracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="1.0dip"
+        android:fadingEdge="horizontal"
+        android:layout_centerVertical="true"
+        android:textDirection="locale"
+        android:layout_toEndOf="@id/modifier_key_action_key_icon" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
+
 </RelativeLayout>

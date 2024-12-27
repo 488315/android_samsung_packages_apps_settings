@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Summarize content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/sec_noti_summarize_layout" android:selectable="false" android:key="summarize_content" />
-    <com.samsung.android.settings.widget.SecInsetCategoryPreference android:key="inset_category_2" />
-    <Preference android:title="@string/noti_intelligence_more_ai_features" android:key="more_ai_feature" android:fragment="com.samsung.android.settings.usefulfeature.intelligenceservice.IntelligenceServiceSettings" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="Summarize content">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/sec_noti_summarize_layout"
+        android:selectable="false"
+        android:key="summarize_content" />
+
+    <com.samsung.android.settings.widget.SecInsetCategoryPreference
+        android:key="inset_category_2" />
+
+    <Preference
+        android:title="@string/noti_intelligence_more_ai_features"
+        android:key="more_ai_feature"
+        android:fragment="com.samsung.android.settings.usefulfeature.intelligenceservice.IntelligenceServiceSettings" />
+
 </PreferenceScreen>

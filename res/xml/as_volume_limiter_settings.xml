@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/sec_volume_limiter_title" android:key="volume_limiter" settings:keywords="@string/keywords_sec_volume_limiter"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <com.samsung.android.settings.widget.SecUnclickablePreference android:title="@string/sec_volume_limiter_description" android:selectable="false" android:key="limiter_description" settings:positionMode="first_item" style="@style/description_text" />
-    <com.samsung.android.settings.asbase.widget.SecVolumeLimiterSeekBarPreference android:title="@string/sec_volume_limiter_maximum_volume_title" android:key="maximum_volume" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/sec_volume_limiter_title"
+    android:key="volume_limiter"
+    settings:keywords="@string/keywords_sec_volume_limiter">
+
+    <com.samsung.android.settings.widget.SecUnclickablePreference
+        android:title="@string/sec_volume_limiter_description"
+        android:selectable="false"
+        android:key="limiter_description"
+        settings:positionMode="first_item"
+        style="@style/description_text" />
+
+    <com.samsung.android.settings.asbase.widget.SecVolumeLimiterSeekBarPreference
+        android:title="@string/sec_volume_limiter_maximum_volume_title"
+        android:key="maximum_volume" />
+
 </PreferenceScreen>

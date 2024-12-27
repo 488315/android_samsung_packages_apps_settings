@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/wifi_switch_to_better_wifi_title"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <Preference android:persistent="false" android:layout="@layout/sec_wifi_control_history_description" android:title="@string/wifi_switch_to_better_wifi_summary" android:selectable="false" />
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/wifi_switch_to_better_wifi_title">
+
+    <Preference
+        android:persistent="false"
+        android:layout="@layout/sec_wifi_control_history_description"
+        android:title="@string/wifi_switch_to_better_wifi_summary"
+        android:selectable="false" />
+
     <com.samsung.android.settings.widget.SecInsetCategoryPreference />
-    <SecSwitchPreference android:title="@string/wifi_switch_to_better_wifi_with_screen_on_title" android:key="switch_to_better_wifi_with_screen_on" android:summary="@string/wifi_switch_to_better_wifi_with_screen_on_summary" />
+
+    <SecSwitchPreference
+        android:title="@string/wifi_switch_to_better_wifi_with_screen_on_title"
+        android:key="switch_to_better_wifi_with_screen_on"
+        android:summary="@string/wifi_switch_to_better_wifi_with_screen_on_summary" />
+
 </PreferenceScreen>

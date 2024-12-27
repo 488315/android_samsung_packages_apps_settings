@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/as_recommend_card_ripple_background" android:paddingBottom="@dimen/as_recommend_card_list_item_padding_bottom" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/as_recommend_item_icon_button_height" android:paddingHorizontal="@dimen/as_recommend_card_item_icon_padding_horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/sub_app_item_icon" android:layout_width="@dimen/as_recommend_card_thumbnail_size" android:layout_height="@dimen/as_recommend_card_sub_list_height" android:src="@drawable/as_file_type_apk" android:paddingVertical="@dimen/as_recommend_card_list_icon_padding_vertical" />
-    <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView android:textSize="@dimen/as_recommend_card_sub_list_title_size" android:textColor="@color/as_basic_text_01_FA" android:gravity="center_vertical" android:id="@id/sub_app_item_text" android:layout_width="wrap_content" android:layout_height="@dimen/as_recommend_card_sub_list_height" android:minWidth="@dimen/as_recommend_card_sub_app_text_width" android:maxLines="2" android:textDirection="locale" android:layout_marginStart="@dimen/as_recommend_card_sub_cloud_text_margin_start" style="@style/AsRegularSec400" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/as_recommend_item_icon_button_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/as_recommend_card_ripple_background"
+    android:paddingBottom="@dimen/as_recommend_card_list_item_padding_bottom"
+    android:focusable="true"
+    android:clickable="true"
+    android:paddingHorizontal="@dimen/as_recommend_card_item_icon_padding_horizontal">
+
+    <ImageView
+        android:id="@id/sub_app_item_icon"
+        android:layout_width="@dimen/as_recommend_card_thumbnail_size"
+        android:layout_height="@dimen/as_recommend_card_sub_list_height"
+        android:src="@drawable/as_file_type_apk"
+        android:paddingVertical="@dimen/as_recommend_card_list_icon_padding_vertical" />
+
+    <com.samsung.android.settings.analyzestorage.ui.widget.LimitedTextView
+        android:id="@id/sub_app_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/as_recommend_card_sub_list_height"
+        android:textSize="@dimen/as_recommend_card_sub_list_title_size"
+        android:textColor="@color/as_basic_text_01_FA"
+        android:gravity="center_vertical"
+        android:minWidth="@dimen/as_recommend_card_sub_app_text_width"
+        android:maxLines="2"
+        android:textDirection="locale"
+        android:layout_marginStart="@dimen/as_recommend_card_sub_cloud_text_margin_start"
+        style="@style/AsRegularSec400" />
+
 </LinearLayout>

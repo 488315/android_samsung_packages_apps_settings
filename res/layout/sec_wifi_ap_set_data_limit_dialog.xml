@@ -1,17 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="@dimen/wifi_ap_dialog_width" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/wifi_ap_dialog_padding" android:paddingTop="@dimen/wifi_ap_dialog_padding" android:paddingRight="@dimen/wifi_ap_dialog_padding" android:paddingBottom="@dimen/wifi_ap_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:id="@id/mobile_data_limit_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:breakStrategy="simple" style="@style/body_text_style" />
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_ap_md_edit_padding_top">
-            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
-                <EditText android:id="@id/mobile_data_limt_edit" android:singleLine="true" android:maxLength="10" android:digits="\ 0123456789" android:inputType="date" android:textAlignment="viewStart" style="@style/wifi_ap_edittext2_style" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/wifi_ap_dialog_width"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/wifi_ap_dialog_padding"
+        android:paddingTop="@dimen/wifi_ap_dialog_padding"
+        android:paddingRight="@dimen/wifi_ap_dialog_padding"
+        android:paddingBottom="@dimen/wifi_ap_dialog_padding">
+
+        <TextView
+            android:id="@id/mobile_data_limit_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:breakStrategy="simple"
+            style="@style/body_text_style" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/wifi_ap_md_edit_padding_top">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+
+                <EditText
+                    android:id="@id/mobile_data_limt_edit"
+                    android:singleLine="true"
+                    android:maxLength="10"
+                    android:digits="\ 0123456789"
+                    android:inputType="date"
+                    android:textAlignment="viewStart"
+                    style="@style/wifi_ap_edittext2_style" />
+
             </LinearLayout>
-            <View android:layout_width="@dimen/wifi_ap_md_edit_padding_right" android:layout_height="fill_parent" />
-            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
-                <TextView android:textSize="@dimen/sec_alert_dialog_text_size" android:id="@id/limit_data_mb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/wifi_ap_md_unite_padding_right" android:text="@string/data_usage_display_mb" style="@style/body_text_style" />
+
+            <View
+                android:layout_width="@dimen/wifi_ap_md_edit_padding_right"
+                android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@id/limit_data_mb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sec_alert_dialog_text_size"
+                    android:layout_marginRight="@dimen/wifi_ap_md_unite_padding_right"
+                    android:text="@string/data_usage_display_mb"
+                    style="@style/body_text_style" />
+
             </LinearLayout>
+
         </LinearLayout>
-        <TextView android:id="@id/mobile_data_max_length" android:visibility="gone" android:text="@string/max_char_reached" style="@style/wifi_ap_item_error_text" />
+
+        <TextView
+            android:id="@id/mobile_data_max_length"
+            android:visibility="gone"
+            android:text="@string/max_char_reached"
+            style="@style/wifi_ap_item_error_text" />
+
     </LinearLayout>
+
 </ScrollView>

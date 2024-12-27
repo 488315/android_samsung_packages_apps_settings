@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="@string/summary_placeholder" android:key="usage_amount">
-        <com.android.settings.datausage.ChartDataUsagePreference android:key="chart_data" settings:controller="com.android.settings.datausage.ChartDataUsagePreferenceController" />
-        <Preference android:selectable="false" android:key="warning" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/summary_placeholder"
+        android:key="usage_amount">
+
+        <com.android.settings.datausage.ChartDataUsagePreference
+            android:key="chart_data"
+            settings:controller="com.android.settings.datausage.ChartDataUsagePreferenceController" />
+
+        <Preference
+            android:selectable="false"
+            android:key="warning" />
+
     </PreferenceCategory>
-    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="apps_group" settings:controller="com.android.settings.datausage.DataUsageListAppsController" />
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_no_label"
+        android:key="apps_group"
+        settings:controller="com.android.settings.datausage.DataUsageListAppsController" />
+
 </PreferenceScreen>

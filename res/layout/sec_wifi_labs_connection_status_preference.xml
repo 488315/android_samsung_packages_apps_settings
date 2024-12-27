@@ -1,49 +1,395 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/connection_status" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/connection_status_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@id/connection_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layoutDirection="ltr">
-            <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layoutDirection="ltr">
-                <TextView android:textSize="16.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/calendar_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="April 13" android:fontFamily="sec" android:layout_marginStart="24.0dip" android:textFontWeight="400" />
-                <TextView android:textSize="13.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/today" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Today" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="400" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/connection_status"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:layoutDirection="ltr">
+
+    <RelativeLayout
+        android:id="@id/connection_status_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@id/connection_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layoutDirection="ltr">
+
+            <LinearLayout
+                android:id="@id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center|left"
+                android:orientation="horizontal"
+                android:layout_marginTop="25.0dip"
+                android:layoutDirection="ltr">
+
+                <TextView
+                    android:id="@id/calendar_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:text="April 13"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="24.0dip"
+                    android:textFontWeight="400" />
+
+                <TextView
+                    android:id="@id/today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:text=" Today"
+                    android:singleLine="true"
+                    android:fontFamily="sec"
+                    android:textFontWeight="400" />
+
             </LinearLayout>
-            <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/time_used" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layoutDirection="ltr">
-                <TextView android:textSize="46.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/today_usage_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:layout_marginStart="24.0dip" android:textFontWeight="600" />
-                <TextView android:textSize="22.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/today_usage_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:layout_marginStart="3.0dip" android:textFontWeight="400" />
-                <TextView android:textSize="46.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/today_usage_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:layout_marginStart="3.0dip" android:textFontWeight="600" />
-                <TextView android:textSize="22.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/today_usage_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:layout_marginStart="3.0dip" android:textFontWeight="400" />
+
+            <LinearLayout
+                android:id="@id/time_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center|left"
+                android:orientation="horizontal"
+                android:layout_marginTop="9.0dip"
+                android:layoutDirection="ltr">
+
+                <TextView
+                    android:id="@id/today_usage_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="46.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="24.0dip"
+                    android:textFontWeight="600" />
+
+                <TextView
+                    android:id="@id/today_usage_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="3.0dip"
+                    android:textFontWeight="400" />
+
+                <TextView
+                    android:id="@id/today_usage_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="46.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="3.0dip"
+                    android:textFontWeight="600" />
+
+                <TextView
+                    android:id="@id/today_usage_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="3.0dip"
+                    android:textFontWeight="400" />
+
             </LinearLayout>
-            <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/daily_average" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_5" android:gravity="bottom" android:id="@id/daily_average_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Daily Average " android:fontFamily="sec" android:layout_marginStart="24.0dip" android:textFontWeight="400" />
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="bottom" android:id="@id/daily_average_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2h 46m" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="700" />
+
+            <LinearLayout
+                android:id="@id/daily_average"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center|left"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr">
+
+                <TextView
+                    android:id="@id/daily_average_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_5"
+                    android:gravity="bottom"
+                    android:text="Daily Average "
+                    android:fontFamily="sec"
+                    android:layout_marginStart="24.0dip"
+                    android:textFontWeight="400" />
+
+                <TextView
+                    android:id="@id/daily_average_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="bottom"
+                    android:text="2h 46m"
+                    android:singleLine="true"
+                    android:fontFamily="sec"
+                    android:textFontWeight="700" />
+
             </LinearLayout>
-            <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/compared_to_yesterday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_5" android:gravity="center" android:id="@id/compared_to_yesterday_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Used " android:fontFamily="sec" android:layout_marginStart="24.0dip" android:textFontWeight="400" />
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="center" android:id="@id/compared_to_yesterday_diff_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50m" android:fontFamily="sec" android:textFontWeight="700" />
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_5" android:gravity="center" android:id="@id/compared_to_yesterday_diff_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" more than yesterday" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="300" />
+
+            <LinearLayout
+                android:id="@id/compared_to_yesterday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center|left"
+                android:orientation="horizontal"
+                android:layoutDirection="ltr">
+
+                <TextView
+                    android:id="@id/compared_to_yesterday_use"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_5"
+                    android:gravity="center"
+                    android:text="Used "
+                    android:fontFamily="sec"
+                    android:layout_marginStart="24.0dip"
+                    android:textFontWeight="400" />
+
+                <TextView
+                    android:id="@id/compared_to_yesterday_diff_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_1"
+                    android:gravity="center"
+                    android:text="50m"
+                    android:fontFamily="sec"
+                    android:textFontWeight="700" />
+
+                <TextView
+                    android:id="@id/compared_to_yesterday_diff_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_5"
+                    android:gravity="center"
+                    android:text=" more than yesterday"
+                    android:singleLine="true"
+                    android:fontFamily="sec"
+                    android:textFontWeight="300" />
+
             </LinearLayout>
-            <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/current_state_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layoutDirection="ltr">
-                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/clock_icon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/sec_wifi_labs_clock" android:layout_marginStart="24.0dip" />
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_3" android:gravity="center" android:id="@id/current_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:layout_marginStart="7.0dip" android:textFontWeight="300" />
-                <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_3" android:gravity="center" android:id="@id/current_state_enter_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="700" />
+
+            <LinearLayout
+                android:id="@id/current_state_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:orientation="horizontal"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:layoutDirection="ltr">
+
+                <ImageView
+                    android:id="@id/clock_icon"
+                    android:layout_width="15.0dip"
+                    android:layout_height="15.0dip"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:src="@drawable/sec_wifi_labs_clock"
+                    android:layout_marginStart="24.0dip" />
+
+                <TextView
+                    android:id="@id/current_state_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_3"
+                    android:gravity="center"
+                    android:fontFamily="sec"
+                    android:layout_marginStart="7.0dip"
+                    android:textFontWeight="300" />
+
+                <TextView
+                    android:id="@id/current_state_enter_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="@color/sec_wifi_labs_gui_text_3"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:fontFamily="sec"
+                    android:textFontWeight="700" />
+
             </LinearLayout>
+
         </LinearLayout>
-        <com.airbnb.lottie.LottieAnimationView android:gravity="center" android:id="@id/connection_status_animation" android:layout_width="133.0dip" android:layout_height="133.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentRight="true" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@id/connection_status_animation"
+            android:layout_width="133.0dip"
+            android:layout_height="133.0dip"
+            android:gravity="center"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:layout_alignParentRight="true" />
+
     </RelativeLayout>
-    <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/connected_state" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layoutDirection="ltr" style="@style/WifiConnectedStatusRoundButtonStyle">
-        <TextView android:textSize="17.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="left" android:layout_gravity="center|left|top" android:id="@id/connected_ssid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" android:fontFamily="sec" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:textFontWeight="600" />
-        <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/connected_state_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="20.0dip" android:layoutDirection="ltr">
-            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/connected_clock_icon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/sec_wifi_labs_clock" android:layout_marginStart="24.0dip" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_3" android:gravity="center" android:id="@id/connected_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connected at " android:singleLine="true" android:fontFamily="sec" android:layout_marginStart="7.0dip" android:textFontWeight="300" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_3" android:gravity="center" android:id="@id/connected_state_enter_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="700" />
+
+    <LinearLayout
+        android:id="@id/connected_state"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:layoutDirection="ltr"
+        style="@style/WifiConnectedStatusRoundButtonStyle">
+
+        <TextView
+            android:id="@id/connected_ssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17.0sp"
+            android:textColor="@color/sec_wifi_labs_gui_text_1"
+            android:gravity="left"
+            android:layout_gravity="center|left|top"
+            android:layout_marginTop="20.0dip"
+            android:singleLine="true"
+            android:fontFamily="sec"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="24.0dip"
+            android:textFontWeight="600" />
+
+        <LinearLayout
+            android:id="@id/connected_state_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:orientation="horizontal"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:layoutDirection="ltr">
+
+            <ImageView
+                android:id="@id/connected_clock_icon"
+                android:layout_width="15.0dip"
+                android:layout_height="15.0dip"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:src="@drawable/sec_wifi_labs_clock"
+                android:layout_marginStart="24.0dip" />
+
+            <TextView
+                android:id="@id/connected_state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14.0sp"
+                android:textColor="@color/sec_wifi_labs_gui_text_3"
+                android:gravity="center"
+                android:text="Connected at "
+                android:singleLine="true"
+                android:fontFamily="sec"
+                android:layout_marginStart="7.0dip"
+                android:textFontWeight="300" />
+
+            <TextView
+                android:id="@id/connected_state_enter_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14.0sp"
+                android:textColor="@color/sec_wifi_labs_gui_text_3"
+                android:gravity="center"
+                android:singleLine="true"
+                android:fontFamily="sec"
+                android:textFontWeight="700" />
+
         </LinearLayout>
+
     </LinearLayout>
-    <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/connected_state_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layoutDirection="ltr" style="@style/WifiConnectedStatusRoundButtonStyleDark">
-        <TextView android:textSize="17.0sp" android:textColor="@color/sec_wifi_labs_gui_text_1" android:gravity="left" android:layout_gravity="center|left|top" android:id="@id/connected_ssid_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" android:fontFamily="sec" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:textFontWeight="600" />
-        <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/connected_state_time_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="20.0dip" android:layoutDirection="ltr">
-            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/connected_clock_icon_dark" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/sec_wifi_labs_clock_dark" android:layout_marginStart="24.0dip" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_3" android:gravity="center" android:id="@id/connected_state_text_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connected at " android:singleLine="true" android:fontFamily="sec" android:layout_marginStart="7.0dip" android:textFontWeight="300" />
-            <TextView android:textSize="14.0sp" android:textColor="@color/sec_wifi_labs_gui_text_3" android:gravity="center" android:id="@id/connected_state_enter_time_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec" android:textFontWeight="700" />
+
+    <LinearLayout
+        android:id="@id/connected_state_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="15.0dip"
+        android:layoutDirection="ltr"
+        style="@style/WifiConnectedStatusRoundButtonStyleDark">
+
+        <TextView
+            android:id="@id/connected_ssid_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17.0sp"
+            android:textColor="@color/sec_wifi_labs_gui_text_1"
+            android:gravity="left"
+            android:layout_gravity="center|left|top"
+            android:layout_marginTop="20.0dip"
+            android:singleLine="true"
+            android:fontFamily="sec"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="24.0dip"
+            android:textFontWeight="600" />
+
+        <LinearLayout
+            android:id="@id/connected_state_time_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:orientation="horizontal"
+            android:layout_marginTop="2.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:layoutDirection="ltr">
+
+            <ImageView
+                android:id="@id/connected_clock_icon_dark"
+                android:layout_width="15.0dip"
+                android:layout_height="15.0dip"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:src="@drawable/sec_wifi_labs_clock_dark"
+                android:layout_marginStart="24.0dip" />
+
+            <TextView
+                android:id="@id/connected_state_text_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14.0sp"
+                android:textColor="@color/sec_wifi_labs_gui_text_3"
+                android:gravity="center"
+                android:text="Connected at "
+                android:singleLine="true"
+                android:fontFamily="sec"
+                android:layout_marginStart="7.0dip"
+                android:textFontWeight="300" />
+
+            <TextView
+                android:id="@id/connected_state_enter_time_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14.0sp"
+                android:textColor="@color/sec_wifi_labs_gui_text_3"
+                android:gravity="center"
+                android:singleLine="true"
+                android:fontFamily="sec"
+                android:textFontWeight="700" />
+
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>

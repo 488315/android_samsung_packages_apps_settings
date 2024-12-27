@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include layout="@layout/sec_allowed_networks_settings_header" />
-    <FrameLayout android:id="@id/app_picker_view_container" android:background="@color/sesl_round_and_bgcolor_light" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <androidx.picker.widget.SeslAppPickerListView android:scrollbarStyle="outsideOverlay" android:id="@id/app_picker_view" android:background="@color/content_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" android:paddingHorizontal="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
-        <androidx.core.widget.NestedScrollView android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
-            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                <TextView android:gravity="center" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/no_applications" android:layout_weight="1.0" style="@style/no_item_text_style" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/sec_allowed_networks_settings_header" />
+
+    <FrameLayout
+        android:id="@id/app_picker_view_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:background="@color/sesl_round_and_bgcolor_light"
+        android:layout_weight="1.0">
+
+        <androidx.picker.widget.SeslAppPickerListView
+            android:id="@id/app_picker_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbarStyle="outsideOverlay"
+            android:background="@color/content_background_color"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="true"
+            android:paddingHorizontal="10.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@id/empty_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:fillViewport="true"
+            app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@id/empty"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:gravity="center"
+                    android:text="@string/no_applications"
+                    android:layout_weight="1.0"
+                    style="@style/no_item_text_style" />
+
             </LinearLayout>
+
         </androidx.core.widget.NestedScrollView>
-        <include layout="@layout/loading_container" />
+
+        <include
+            layout="@layout/loading_container" />
+
     </FrameLayout>
+
 </LinearLayout>

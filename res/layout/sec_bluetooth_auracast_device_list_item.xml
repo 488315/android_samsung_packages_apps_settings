@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:id="@id/device_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_bluetooth_source_device_list_item_top_bottom_margin" android:paddingBottom="@dimen/sec_bluetooth_source_device_list_item_top_bottom_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_bluetooth_source_device_list_item_start_margin" android:paddingEnd="@dimen/sec_bluetooth_source_device_list_item_end_margin">
-        <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/sec_bluetooth_source_device_list_icon_size" android:layout_height="@dimen/sec_bluetooth_source_device_list_icon_size">
-            <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/device_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?android:selectableItemBackground"
+        android:paddingTop="@dimen/sec_bluetooth_source_device_list_item_top_bottom_margin"
+        android:paddingBottom="@dimen/sec_bluetooth_source_device_list_item_top_bottom_margin"
+        android:layout_weight="1.0"
+        android:paddingStart="@dimen/sec_bluetooth_source_device_list_item_start_margin"
+        android:paddingEnd="@dimen/sec_bluetooth_source_device_list_item_end_margin">
+
+        <RelativeLayout
+            android:layout_width="@dimen/sec_bluetooth_source_device_list_icon_size"
+            android:layout_height="@dimen/sec_bluetooth_source_device_list_icon_size"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@id/icon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true" />
+
         </RelativeLayout>
-        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/sec_bluetooth_source_device_list_title_start_margin">
-            <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sec_bluetooth_source_connected" android:singleLine="true" android:layout_below="@id/title" android:textAlignment="viewStart" android:layout_alignStart="@id/title" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/sec_bluetooth_source_device_list_title_start_margin">
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceListItem"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="?android:textColorSecondary"
+                android:visibility="gone"
+                android:text="@string/sec_bluetooth_source_connected"
+                android:singleLine="true"
+                android:layout_below="@id/title"
+                android:textAlignment="viewStart"
+                android:layout_alignStart="@id/title" />
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>

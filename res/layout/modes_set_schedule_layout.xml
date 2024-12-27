@@ -1,28 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="fill_horizontal" android:orientation="vertical" android:id="@id/modes_set_schedule_layout" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:id="@id/start_time_label" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zen_mode_start_time" />
-            <TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Reply" android:textSize="40.0sp" android:textColor="?android:colorAccent" android:id="@id/start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/modes_set_schedule_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="24.0dip"
+    android:paddingTop="24.0dip"
+    android:paddingRight="24.0dip"
+    android:paddingBottom="24.0dip"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@id/start_time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:clickable="false"
+                android:text="@string/zen_mode_start_time" />
+
+            <TextView
+                android:id="@id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Reply"
+                android:textSize="40.0sp"
+                android:textColor="?android:colorAccent" />
+
         </LinearLayout>
-        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" android:id="@id/end_time_label" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zen_mode_end_time" />
-            <TextView android:textAppearance="@android:style/TextAppearance.Material.Notification.Reply" android:textSize="40.0sp" android:textColor="?android:colorAccent" android:id="@id/end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@id/end_time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:clickable="false"
+                android:text="@string/zen_mode_end_time" />
+
+            <TextView
+                android:id="@id/end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Material.Notification.Reply"
+                android:textSize="40.0sp"
+                android:textColor="?android:colorAccent" />
+
         </LinearLayout>
+
     </LinearLayout>
-    <LinearLayout android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <View android:layout_gravity="center_vertical" android:background="?android:dividerHorizontal" android:layout_width="0.0dip" android:layout_height="1.5dip" android:layout_weight="1.0" />
-        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" android:id="@id/schedule_duration" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" />
-        <View android:layout_gravity="center_vertical" android:background="?android:dividerHorizontal" android:layout_width="0.0dip" android:layout_height="1.5dip" android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip">
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="1.5dip"
+            android:layout_gravity="center_vertical"
+            android:background="?android:dividerHorizontal"
+            android:layout_weight="1.0" />
+
+        <TextView
+            android:id="@id/schedule_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:clickable="false"
+            android:paddingHorizontal="8.0dip" />
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="1.5dip"
+            android:layout_gravity="center_vertical"
+            android:background="?android:dividerHorizontal"
+            android:layout_weight="1.0" />
+
     </LinearLayout>
-    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/days_of_week_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="60.0dip" android:minHeight="10.0dip">
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day0" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/day1" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day1" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/day2" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/day0" app:layout_constraintTop_toTopOf="parent" />
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day2" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/day3" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/day1" app:layout_constraintTop_toTopOf="parent" />
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day3" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/day4" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/day2" app:layout_constraintTop_toTopOf="parent" />
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day4" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/day5" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/day3" app:layout_constraintTop_toTopOf="parent" />
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day5" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/day6" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/day4" app:layout_constraintTop_toTopOf="parent" />
-        <ToggleButton android:textSize="18.0sp" android:textColor="@color/modes_set_schedule_text_color" android:id="@id/day6" android:background="@drawable/modes_schedule_day_toggle" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toEndOf="@id/day5" app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/days_of_week_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:maxHeight="60.0dip"
+        android:minHeight="10.0dip">
+
+        <ToggleButton
+            android:id="@id/day0"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/day1"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@id/day1"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/day2"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/day0"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@id/day2"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/day3"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/day1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@id/day3"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/day4"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/day2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@id/day4"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/day5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/day3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@id/day5"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@id/day6"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/day4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@id/day6"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:textSize="18.0sp"
+            android:textColor="@color/modes_set_schedule_text_color"
+            android:background="@drawable/modes_schedule_day_toggle"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/day5"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </LinearLayout>
